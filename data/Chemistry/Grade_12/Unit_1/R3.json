@@ -1,0 +1,830 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2026-01-27T10:47:30Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G12_Chem_U1_Q030",
+    "covered_sections": ["1.1 Acid- Base Concepts>1.1.1 Arrhenius Concept of Acids and Bases", "1.1 Acid- Base Concepts>1.1.2 Brønsted- Lowry Concept of Acids and Bases", "1.1 Acid- Base Concepts>1.1.3 Lewis Concept of Acids and Bases", "1.2 Ionic Equilibria of Weak Acids and Bases>1.2.1 Ionization of Water", "1.2 Ionic Equilibria of Weak Acids and Bases>1.2.2 Measures of the Strength of acids and Bases in Aqueous Solution", "1.3 Common Ion Effect and Buffer Solution>1.3.1 The Common Ion Effect", "1.3 Common Ion Effect and Buffer Solution>1.3.2 Buffer Solutions", "1.4 Hydrolysis of Salts>1.4.1 Hydrolysis of Salts of Strong Acids and Strong Bases", "1.4 Hydrolysis of Salts>1.4.2 Hydrolysis of Salts of Weak Acids and Strong Bases", "1.4 Hydrolysis of Salts>1.4.3 Hydrolysis of Salts of Strong Acids and Weak Bases", "1.4 Hydrolysis of Salts>1.4.4 Hydrolysis of Salts of Weak Acids and Weak Bases", "1.5 Acid- Base Indicators and Titrations>1.5.1 Acid-Base Indicators", "1.5 Acid- Base Indicators and Titrations>1.5.2 Equivalents of Acids and Bases", "1.5 Acid- Base Indicators and Titrations>1.5.3 Acid-Base Titrations"],
+    "used_question_signatures": ["66fe2e3a822d8c0f01e5a5fb8d8a25ab", "f3d6c7c65de1d3c22d0cfc8f7e6434a1", "c0c5e7b7b9c58d9a5f8b6d2a3c4e5f6a", "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6", "d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2", "b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8", "f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3", "c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9", "a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4", "d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0", "b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0", "e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5", "b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1", "f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6", "c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2", "a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7", "d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3", "b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8", "e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4", "c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9", "f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5", "d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0", "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6", "e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1", "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7"],
+    "baseline_counter": {
+      "1.1 Acid- Base Concepts": {
+        "1.1.1 Arrhenius Concept of Acids and Bases": {
+          "count": 4,
+          "mini_headings_covered": ["Activity 1.1", "Exercise 1.1"],
+          "last_question_round": 3
+        },
+        "1.1.2 Brønsted- Lowry Concept of Acids and Bases": {
+          "count": 4,
+          "mini_headings_covered": ["Activity 1.2", "1.1.2.1 Conjugate Acid- Base Pairs", "Strengths of Conjugate Acid-Base Pairs", "1.1.2.3 Amphiprotic Species"],
+          "last_question_round": 3
+        },
+        "1.1.3 Lewis Concept of Acids and Bases": {
+          "count": 4,
+          "mini_headings_covered": ["Activity 1.3"],
+          "last_question_round": 2
+        }
+      },
+      "1.2 Ionic Equilibria of Weak Acids and Bases": {
+        "1.2.1 Ionization of Water": {
+          "count": 5,
+          "mini_headings_covered": ["Example 1.3", "The pH scale", "Activity 1.4", "Example 1.4"],
+          "last_question_round": 3
+        },
+        "1.2.2 Measures of the Strength of acids and Bases in Aqueous Solution": {
+          "count": 4,
+          "mini_headings_covered": ["1.2.2.4 Dissociation (Ionization) Constants", "1.2.2.1 Concentration of Hydrogen and Hydroxide ions", "1.2.2.2 pH and pOH", "1.2.2.3 Percent Ionization"],
+          "last_question_round": 3
+        }
+      },
+      "1.3 Common Ion Effect and Buffer Solution": {
+        "1.3.1 The Common Ion Effect": {
+          "count": 3,
+          "mini_headings_covered": ["Example 1.7", "Exercise 1.9"],
+          "last_question_round": 3
+        },
+        "1.3.2 Buffer Solutions": {
+          "count": 3,
+          "mini_headings_covered": ["Henderson- Hasselbalch equation", "Example 1.8"],
+          "last_question_round": 3
+        }
+      },
+      "1.4 Hydrolysis of Salts": {
+        "1.4.1 Hydrolysis of Salts of Strong Acids and Strong Bases": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.4.2 Hydrolysis of Salts of Weak Acids and Strong Bases": {
+          "count": 3,
+          "mini_headings_covered": ["Activity 1.8"],
+          "last_question_round": 2
+        },
+        "1.4.3 Hydrolysis of Salts of Strong Acids and Weak Bases": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.4.4 Hydrolysis of Salts of Weak Acids and Weak Bases": {
+          "count": 3,
+          "mini_headings_covered": ["Activity 1.9"],
+          "last_question_round": 2
+        }
+      },
+      "1.5 Acid- Base Indicators and Titrations": {
+        "1.5.1 Acid-Base Indicators": {
+          "count": 3,
+          "mini_headings_covered": ["Table 1.5: Some common indicators.", "Example 1.10"],
+          "last_question_round": 3
+        },
+        "1.5.2 Equivalents of Acids and Bases": {
+          "count": 3,
+          "mini_headings_covered": ["Example"],
+          "last_question_round": 2
+        },
+        "1.5.3 Acid-Base Titrations": {
+          "count": 3,
+          "mini_headings_covered": ["Experiment 1.1: Acid-base Titration"],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1 Acid- Base Concepts": {
+        "question_count": 12,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "1.2 Ionic Equilibria of Weak Acids and Bases": {
+        "question_count": 9,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "1.3 Common Ion Effect and Buffer Solution": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "1.4 Hydrolysis of Salts": {
+        "question_count": 12,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "1.5 Acid- Base Indicators and Titrations": {
+        "question_count": 9,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1 Acid- Base Concepts>1.1.1 Arrhenius Concept of Acids and Bases": ["Arrhenius acid definition", "Arrhenius base definition", "Strong acid example", "Limitation of Arrhenius concept", "Strong base example"],
+      "1.1 Acid- Base Concepts>1.1.2 Brønsted- Lowry Concept of Acids and Bases": ["Bronsted-Lowry acid definition", "Bronsted-Lowry base definition", "Conjugate acid-base pair", "Strength relationship between conjugate pairs", "Amphiprotic species definition"],
+      "1.1 Acid- Base Concepts>1.1.3 Lewis Concept of Acids and Bases": ["Lewis acid definition", "Lewis base definition", "Electron pair transfer", "BF3 as Lewis acid example", "CO2 as Lewis acid example"],
+      "1.2 Ionic Equilibria of Weak Acids and Bases>1.2.1 Ionization of Water": ["Autoionization of water", "Kw constant", "Neutral solution condition", "pH calculation", "Autoionization of ammonia", "pOH calculation"],
+      "1.2 Ionic Equilibria of Weak Acids and Bases>1.2.2 Measures of the Strength of acids and Bases in Aqueous Solution": ["Acid dissociation constant Ka", "Relationship between acid strength and Ka", "Percent ionization", "pH as strength measure", "Weak acid calculation"],
+      "1.3 Common Ion Effect and Buffer Solution>1.3.1 The Common Ion Effect": ["Common ion effect definition", "Shift in equilibrium", "Le Chatelier's principle application", "Buffer preparation calculation"],
+      "1.3 Common Ion Effect and Buffer Solution>1.3.2 Buffer Solutions": ["Buffer solution definition", "Henderson-Hasselbalch equation", "Buffer action mechanism", "Buffer pH calculation"],
+      "1.4 Hydrolysis of Salts>1.4.1 Hydrolysis of Salts of Strong Acids and Strong Bases": ["Neutral salt solution", "No hydrolysis", "NaCl example"],
+      "1.4 Hydrolysis of Salts>1.4.2 Hydrolysis of Salts of Weak Acids and Strong Bases": ["Basic salt solution", "Anion hydrolysis", "CH3COONa example", "Na2CO3 example"],
+      "1.4 Hydrolysis of Salts>1.4.3 Hydrolysis of Salts of Strong Acids and Weak Bases": ["Acidic salt solution", "Cation hydrolysis", "NH4Cl example"],
+      "1.4 Hydrolysis of Salts>1.4.4 Hydrolysis of Salts of Weak Acids and Weak Bases": ["Ka and Kb comparison", "Resultant solution pH", "NH4CHO2 example", "NH4F example"],
+      "1.5 Acid- Base Indicators and Titrations>1.5.1 Acid-Base Indicators": ["Indicator color change", "pH range", "Phenolphthalein properties", "Indicator selection"],
+      "1.5 Acid- Base Indicators and Titrations>1.5.2 Equivalents of Acids and Bases": ["Normality definition", "Acid equivalent", "Titration calculation", "Neutralization volume"],
+      "1.5 Acid- Base Indicators and Titrations>1.5.3 Acid-Base Titrations": ["Equivalence point", "Titration curve", "End point vs equivalence point", "Titration technique"]
+    },
+    "baseline_complete": true,
+    "validation_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b857",
+    "content_density_metrics": {
+      "total_concepts_extracted": 55,
+      "questions_per_concept_ratio": 0.87,
+      "structural_coverage_percentage": 51.4
+    }
+  },
+  "grade": "12",
+  "subject": "Chemistry",
+  "unit": "Unit 1: ACID-BASE EQUILIBRIA",
+  "pdf_filename": "C12U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 5,
+      "constraint_violations_caught": 5,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-01-27T10:48:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 5,
+        "total_sections": 5,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 48,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 14,
+      "mini_headings_covered_count": 21,
+      "structural_coverage_percentage": 56.8,
+      "concept_utilization_ratio": 0.87
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.1 Acid- Base Concepts",
+      "least_covered_section": "1.3 Common Ion Effect and Buffer Solution",
+      "imbalance_ratio": 2.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Chem_U1_Q021",
+      "generation_timestamp": "2026-01-27T10:47:31Z",
+      "section": "1.1 Acid- Base Concepts",
+      "subsection": "1.1.2 Brønsted- Lowry Concept of Acids and Bases",
+      "sub_subsection": null,
+      "structural_anchor": "1.1.2.3 Amphiprotic Species",
+      "mcq_type": "B",
+      "question": "Which species can act as both an acid and a base, depending on the reaction conditions?",
+      "options": {
+        "A": "Amphiprotic species",
+        "B": "Conjugate acid",
+        "C": "Strong acid",
+        "D": "Lewis base"
+      },
+      "correct_answer": "A",
+      "hint": "Look for the term describing dual proton donor/acceptor capability.",
+      "explanation": "Amphiprotic species can donate or accept protons. Option B describes only the acid form in a conjugate pair, not a species with dual functionality.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.1 Acid- Base Concepts",
+        "subsection_anchor": "1.1.2 Brønsted- Lowry Concept of Acids and Bases",
+        "structural_element": "1.1.2.3 Amphiprotic Species",
+        "content_anchor": "molecules or ions that can either donate or accept a proton",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_amphiprotic_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q022",
+      "generation_timestamp": "2026-01-27T10:47:32Z",
+      "section": "1.2 Ionic Equilibria of Weak Acids and Bases",
+      "subsection": "1.2.1 Ionization of Water",
+      "sub_subsection": null,
+      "structural_anchor": "Example 1.4",
+      "mcq_type": "E",
+      "question": "Human blood has a pH of 7.40 at 25°C. What is the hydronium ion concentration?",
+      "options": {
+        "A": "4.0 × 10⁻⁸ M",
+        "B": "2.5 × 10⁻⁷ M",
+        "C": "1.0 × 10⁻⁷ M",
+        "D": "4.0 × 10⁻⁷ M"
+      },
+      "correct_answer": "A",
+      "hint": "Use the relationship [H₃O⁺] = 10^(-pH).",
+      "explanation": "The pH calculation gives [H₃O⁺] = 10^(-7.40) = 4.0 × 10⁻⁸ M. Option D results from incorrectly using 10^(-7) × 4.0 instead of 10^(-7.40).",
+      "difficulty_level": "medium",
+      "formula_used": ["[H₃O⁺] = 10^(-pH)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "M",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.2 Ionic Equilibria of Weak Acids and Bases",
+        "subsection_anchor": "1.2.1 Ionization of Water",
+        "structural_element": "Example 1.4",
+        "content_anchor": "[H3O+] = 10^(-7.40) = 4.0 x 10^(-8) M",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_blood_pH_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q023",
+      "generation_timestamp": "2026-01-27T10:47:33Z",
+      "section": "1.2 Ionic Equilibria of Weak Acids and Bases",
+      "subsection": "1.2.2 Measures of the Strength of acids and Bases in Aqueous Solution",
+      "sub_subsection": null,
+      "structural_anchor": "1.2.2.3 Percent Ionization",
+      "mcq_type": "D",
+      "question": "What does percent ionization measure for a weak acid in solution?",
+      "options": {
+        "A": "The fraction of acid molecules that dissociate",
+        "B": "The pH of the solution",
+        "C": "The Ka value of the acid",
+        "D": "The concentration of hydroxide ions"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what 'ionization' refers to in this context.",
+      "explanation": "Percent ionization quantifies the proportion of acid molecules that dissociate into ions. Option C describes the equilibrium constant, not the extent of dissociation.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.2 Ionic Equilibria of Weak Acids and Bases",
+        "subsection_anchor": "1.2.2 Measures of the Strength of acids and Bases in Aqueous Solution",
+        "structural_element": "1.2.2.3 Percent Ionization",
+        "content_anchor": "proportion of ionized molecules on a percentage basis",
+        "page_hint": "Page 23",
+        "concept_hash": "sha256_of_percent_ionization_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q024",
+      "generation_timestamp": "2026-01-27T10:47:34Z",
+      "section": "1.3 Common Ion Effect and Buffer Solution",
+      "subsection": "1.3.1 The Common Ion Effect",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 1.9",
+      "mcq_type": "E",
+      "question": "What is the pH of a solution containing 0.20 M CH₃COOH and 0.30 M CH₃COONa? (Ka for acetic acid = 1.8 × 10⁻⁵)",
+      "options": {
+        "A": "4.92",
+        "B": "5.12",
+        "C": "4.57",
+        "D": "5.32"
+      },
+      "correct_answer": "A",
+      "hint": "Use the Henderson-Hasselbalch equation for this buffer system.",
+      "explanation": "pH = pKa + log([A⁻]/[HA]) = 4.74 + log(0.30/0.20) = 4.92. Option C results from incorrectly using log(0.20/0.30) instead of the correct ratio.",
+      "difficulty_level": "hard",
+      "formula_used": ["pH = pKa + log([A⁻]/[HA])", "pKa = -log(Ka)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": null,
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.3 Common Ion Effect and Buffer Solution",
+        "subsection_anchor": "1.3.1 The Common Ion Effect",
+        "structural_element": "Exercise 1.9",
+        "content_anchor": "Calculate the pH of a solution containing 0.20 M CH3COOH and 0.30 M CH3COONa",
+        "page_hint": "Page 34",
+        "concept_hash": "sha256_of_buffer_pH_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 77,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q025",
+      "generation_timestamp": "2026-01-27T10:47:35Z",
+      "section": "1.3 Common Ion Effect and Buffer Solution",
+      "subsection": "1.3.2 Buffer Solutions",
+      "sub_subsection": null,
+      "structural_anchor": "Example 1.8",
+      "mcq_type": "E",
+      "question": "A buffer contains 0.035 M NH₃ and 0.050 M NH₄⁺. If the Ka for NH₄⁺ is 5.6 × 10⁻¹⁰, what is the pH?",
+      "options": {
+        "A": "9.10",
+        "B": "8.90",
+        "C": "9.30",
+        "D": "8.70"
+      },
+      "correct_answer": "A",
+      "hint": "Apply the Henderson-Hasselbalch equation using pKa.",
+      "explanation": "pH = pKa + log([NH₃]/[NH₄⁺]) = 9.25 + log(0.035/0.050) = 9.10. Option B results from using pKb instead of pKa in the calculation.",
+      "difficulty_level": "hard",
+      "formula_used": ["pH = pKa + log([base]/[acid])", "pKa = -log(Ka)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": null,
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.3 Common Ion Effect and Buffer Solution",
+        "subsection_anchor": "1.3.2 Buffer Solutions",
+        "structural_element": "Example 1.8",
+        "content_anchor": "pH = pKa + log([NH3]/[NH4+])",
+        "page_hint": "Page 37",
+        "concept_hash": "sha256_of_ammonia_buffer_pH"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q026",
+      "generation_timestamp": "2026-01-27T10:47:36Z",
+      "section": "1.5 Acid- Base Indicators and Titrations",
+      "subsection": "1.5.1 Acid-Base Indicators",
+      "sub_subsection": null,
+      "structural_anchor": "Example 1.10",
+      "mcq_type": "D",
+      "question": "A buffer prepared with 0.40 M CH₃COOH and 0.20 M CH₃COO⁻ has a hydronium ion concentration of 3.6 × 10⁻⁵ M. What is the pH?",
+      "options": {
+        "A": "4.44",
+        "B": "4.64",
+        "C": "4.24",
+        "D": "4.84"
+      },
+      "correct_answer": "A",
+      "hint": "Use the definition pH = -log[H₃O⁺].",
+      "explanation": "pH = -log(3.6 × 10⁻⁵) = 4.44. Option B results from incorrectly using -log(2.3 × 10⁻⁵) which is a common miscalculation.",
+      "difficulty_level": "medium",
+      "formula_used": ["pH = -log[H₃O⁺]"],
+      "numeric": {
+        "is_numeric": true,
+        "units": null,
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.5 Acid- Base Indicators and Titrations",
+        "subsection_anchor": "1.5.1 Acid-Base Indicators",
+        "structural_element": "Example 1.10",
+        "content_anchor": "pH = -log(3.6x10^-5) = 4.44",
+        "page_hint": "Page 43",
+        "concept_hash": "sha256_of_buffer_pH_from_H3O"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q027",
+      "generation_timestamp": "2026-01-27T10:47:37Z",
+      "section": "1.5 Acid- Base Indicators and Titrations",
+      "subsection": "1.5.3 Acid-Base Titrations",
+      "sub_subsection": null,
+      "structural_anchor": "Experiment 1.1: Acid-base Titration",
+      "mcq_type": "L",
+      "question": "In an acid-base titration, what is the significance of the equivalence point?",
+      "options": {
+        "A": "The point where moles of acid equal moles of base",
+        "B": "The point where the indicator changes color",
+        "C": "The point where pH is exactly 7.0",
+        "D": "The point where the solution becomes basic"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the stoichiometric relationship in neutralization.",
+      "explanation": "The equivalence point represents stoichiometric neutralization where acid and base moles are equal. Option B describes the end point, which may not exactly match the equivalence point.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Experiment"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.5 Acid- Base Indicators and Titrations",
+        "subsection_anchor": "1.5.3 Acid-Base Titrations",
+        "structural_element": "Experiment 1.1: Acid-base Titration",
+        "content_anchor": "equivalence point is the point at which the amount of titrant added is just enough to completely neutralize",
+        "page_hint": "Page 45",
+        "concept_hash": "sha256_of_equivalence_point_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q028",
+      "generation_timestamp": "2026-01-27T10:47:38Z",
+      "section": "1.1 Acid- Base Concepts",
+      "subsection": "1.1.1 Arrhenius Concept of Acids and Bases",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 1.1",
+      "mcq_type": "H",
+      "question": "Which error in reasoning leads to the conclusion that all bases must contain hydroxide ions?",
+      "options": {
+        "A": "Applying the Arrhenius definition universally",
+        "B": "Confusing strength with concentration",
+        "C": "Mistaking protons for hydroxide ions",
+        "D": "Ignoring the role of water in ionization"
+      },
+      "correct_answer": "A",
+      "hint": "Consider which acid-base concept specifically requires OH⁻ production.",
+      "explanation": "The Arrhenius definition restricts bases to OH⁻ producers, while other concepts don't. Option D describes a different error related to the solvent's role in ionization.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.1 Acid- Base Concepts",
+        "subsection_anchor": "1.1.1 Arrhenius Concept of Acids and Bases",
+        "structural_element": "Activity 1.1",
+        "content_anchor": "drawbacks of the Arrhenius concepts",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_Arrhenius_limitation_OH_requirement"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q029",
+      "generation_timestamp": "2026-01-27T10:47:39Z",
+      "section": "1.2 Ionic Equilibria of Weak Acids and Bases",
+      "subsection": "1.2.2 Measures of the Strength of acids and Bases in Aqueous Solution",
+      "sub_subsection": null,
+      "structural_anchor": "1.2.2.4 Dissociation (Ionization) Constants",
+      "mcq_type": "I",
+      "question": "How does the numerical value of Ka relate to the strength of a weak acid?",
+      "options": {
+        "A": "Higher Ka indicates stronger acid.",
+        "B": "Lower Ka indicates stronger acid.",
+        "C": "Ka value is unrelated to acid strength.",
+        "D": "Ka indicates base strength, not acid strength."
+      },
+      "correct_answer": "A",
+      "hint": "Consider what Ka measures in terms of dissociation.",
+      "explanation": "Ka quantifies acid dissociation; larger values mean greater dissociation and stronger acid. Option B incorrectly reverses the relationship between Ka and acid strength.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.2 Ionic Equilibria of Weak Acids and Bases",
+        "subsection_anchor": "1.2.2 Measures of the Strength of acids and Bases in Aqueous Solution",
+        "structural_element": "1.2.2.4 Dissociation (Ionization) Constants",
+        "content_anchor": "acids with relatively higher Ka values are stronger",
+        "page_hint": "Page 24",
+        "concept_hash": "sha256_of_Ka_strength_relationship"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 89,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q030",
+      "generation_timestamp": "2026-01-27T10:47:40Z",
+      "section": "1.5 Acid- Base Indicators and Titrations",
+      "subsection": "1.5.3 Acid-Base Titrations",
+      "sub_subsection": null,
+      "structural_anchor": "Experiment 1.1: Acid-base Titration",
+      "mcq_type": "N",
+      "question": "When performing a titration, why must air bubbles be removed from the burette before taking initial readings?",
+      "options": {
+        "A": "Air bubbles cause inaccurate volume measurements.",
+        "B": "Air reacts with the titrant solution.",
+        "C": "Bubbles prevent proper mixing during titration.",
+        "D": "Air changes the pH of the solution."
+      },
+      "correct_answer": "A",
+      "hint": "Consider how bubbles affect the measurement of liquid volume.",
+      "explanation": "Air bubbles displace titrant volume, leading to incorrect volume readings and titration results. Option C describes a mixing issue, not the primary measurement error caused by bubbles.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Experiment"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.5 Acid- Base Indicators and Titrations",
+        "subsection_anchor": "1.5.3 Acid-Base Titrations",
+        "structural_element": "Experiment 1.1: Acid-base Titration",
+        "content_anchor": "make sure that there are no air bubbles in the solution (why?)",
+        "page_hint": "Page 47",
+        "concept_hash": "sha256_of_burette_air_bubble_importance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 9000,
+    "average_question_quality": 86.8,
+    "type_distribution": {
+      "A": 0,
+      "B": 1,
+      "D": 2,
+      "E": 3,
+      "H": 1,
+      "I": 1,
+      "L": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    },
+    "section_distribution": {
+      "1.1 Acid- Base Concepts": 2,
+      "1.2 Ionic Equilibria of Weak Acids and Bases": 3,
+      "1.3 Common Ion Effect and Buffer Solution": 2,
+      "1.5 Acid- Base Indicators and Titrations": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

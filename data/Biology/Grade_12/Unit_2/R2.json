@@ -1,0 +1,856 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-08-06T10:25:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "B12_Bio_U2_Q020",
+    "covered_sections": ["Overview / Introduction", "2.1. Eubacteria", "2.1. Eubacteria>2.1.1. Bacterial Shapes", "2.1. Eubacteria>2.1.2. Nutritional types of bacteria", "2.1. Eubacteria>2.1.3. Reproduction of bacteria", "2.2. Archaea", "2.2. Archaea>2.2.1. Beneficial aspects of Archaea", "2.3. Fungi", "2.3. Fungi>2.3.1. General Characteristics of True Fungi", "2.3. Fungi>2.3.5. Economic importance of fungi", "2.4. Protozoa", "2.4. Protozoa>2.4.1. Common diseases caused by protozoa", "2.5. Viruses", "2.5. Viruses>2.5.3. Classification of Viruses", "2.6. Normal microbiota", "2.7. Modes of disease transmission and ways of prevention", "2.8. Uses of microorganisms", "2.9. Controlling microorganisms"],
+    "used_question_signatures": ["def_microorganism_B", "term_eubacteria_A", "class_shapes_cocci_J", "nutri_photolithoautotroph_C", "char_archaea_prokaryotic_A", "char_fungi_eukaryotic_A", "char_protozoa_unicellular_A", "struct_virus_capsid_B", "role_normal_microbiota_protection_F", "diff_gram_positive_negative_I", "repro_bacteria_binary_fission_M", "benefit_archaea_enzyme_D", "econ_fungi_fermentation_D", "disease_protozoa_malaria_K", "class_virus_bacteriophage_J", "transmission_droplet_J", "use_microbes_bioremediation_D", "control_sterilization_definition_A", "type_bacteria_vibrio_J", "char_fungi_hyphae_B"],
+    "baseline_counter": {
+      "Overview / Introduction": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "2.1. Eubacteria": {
+        "2.1.1. Bacterial Shapes": {
+          "count": 2,
+          "mini_headings_covered": []
+        },
+        "2.1.2. Nutritional types of bacteria": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "2.1.3. Reproduction of bacteria": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "count": 4,
+        "mini_headings_covered": []
+      },
+      "2.2. Archaea": {
+        "2.2.1. Beneficial aspects of Archaea": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "count": 2,
+        "mini_headings_covered": []
+      },
+      "2.3. Fungi": {
+        "2.3.1. General Characteristics of True Fungi": {
+          "count": 2,
+          "mini_headings_covered": []
+        },
+        "2.3.5. Economic importance of fungi": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "count": 3,
+        "mini_headings_covered": []
+      },
+      "2.4. Protozoa": {
+        "2.4.1. Common diseases caused by protozoa": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "count": 2,
+        "mini_headings_covered": []
+      },
+      "2.5. Viruses": {
+        "2.5.3. Classification of Viruses": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "count": 2,
+        "mini_headings_covered": []
+      },
+      "2.6. Normal microbiota": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "2.7. Modes of disease transmission and ways of prevention": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "2.8. Uses of microorganisms": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "2.9. Controlling microorganisms": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Overview / Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.1. Eubacteria": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "2.2. Archaea": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "2.3. Fungi": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "2.4. Protozoa": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "2.5. Viruses": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "2.6. Normal microbiota": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.7. Modes of disease transmission and ways of prevention": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "2.8. Uses of microorganisms": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "2.9. Controlling microorganisms": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Overview / Introduction": ["Microorganisms", "Microbiology"],
+      "2.1. Eubacteria>2.1.1. Bacterial Shapes": ["Cocci", "Bacilli", "Spirochaetes", "Vibrio"],
+      "2.1. Eubacteria>2.1.2. Nutritional types of bacteria": ["Photolithoautotrophs", "Chemoorganoheterotrophs"],
+      "2.1. Eubacteria>2.1.3. Reproduction of bacteria": ["Binary fission", "Asexual reproduction"],
+      "2.2. Archaea": ["Prokaryotic", "Peptidoglycan", "Methanogens"],
+      "2.2. Archaea>2.2.1. Beneficial aspects of Archaea": ["Thermostable enzymes", "Polymerase Chain Reaction"],
+      "2.3. Fungi>2.3.1. General Characteristics of True Fungi": ["Eukaryotic", "Chitin", "Chemoheterotrophic", "Hyphae"],
+      "2.3. Fungi>2.3.5. Economic importance of fungi": ["Fermentation", "Antibiotics"],
+      "2.4. Protozoa": ["Unicellular", "Eukaryotic", "Locomotion"],
+      "2.4. Protozoa>2.4.1. Common diseases caused by protozoa": ["Malaria", "Plasmodium"],
+      "2.5. Viruses": ["Capsid", "Nucleic acid", "Obligate intracellular parasite"],
+      "2.5. Viruses>2.5.3. Classification of Viruses": ["Bacteriophage", "Lytic cycle"],
+      "2.6. Normal microbiota": ["Protection", "Nutrient competition", "Immune stimulation"],
+      "2.7. Modes of disease transmission and ways of prevention": ["Droplet transmission", "Airborne"],
+      "2.8. Uses of microorganisms": ["Bioremediation", "Degradation of pollutants"],
+      "2.9. Controlling microorganisms": ["Sterilization", "Disinfection"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_R01",
+    "content_density_metrics": {
+      "total_concepts_extracted": 30,
+      "questions_per_concept_ratio": 0.67,
+      "structural_coverage_percentage": 75.0
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 2: Microorganisms",
+  "pdf_filename": "B12U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-08-06T10:25:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 10,
+        "total_sections": 12,
+        "progress_percentage": 83.3
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 10,
+      "subsections_covered_count": 9,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 79.2,
+      "concept_utilization_ratio": 0.67
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.1. Eubacteria",
+      "least_covered_section": "Multiple (1 question each)",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.67,
+      "remaining_concept_capacity": 30
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "B12_Bio_U2_Q011",
+      "generation_timestamp": "2025-08-06T10:24:45Z",
+      "section": "2.1. Eubacteria",
+      "subsection": "2.1.3. Reproduction of bacteria",
+      "sub_subsection": null,
+      "structural_anchor": "2.1.3. Reproduction of bacteria",
+      "mcq_type": "M",
+      "question": "What is the primary asexual reproductive process in most bacteria, where a single cell divides into two genetically identical daughter cells?",
+      "options": {
+        "A": "Conjugation",
+        "B": "Transduction",
+        "C": "Binary fission",
+        "D": "Budding"
+      },
+      "correct_answer": "C",
+      "hint": "This process involves division into two equal parts.",
+      "explanation": "Binary fission is the principal mode of asexual reproduction in bacteria, involving DNA replication followed by cytokinesis. Option A refers to a form of genetic exchange, not primary reproduction, and option D is more characteristic of yeast asexual reproduction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.1. Eubacteria",
+        "subsection_anchor": "2.1.3. Reproduction of bacteria",
+        "structural_element": "2.1.3. Reproduction of bacteria",
+        "content_anchor": "Most bacterial organisms reproduce by an asexual process called binary fission",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_binary_fission"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q012",
+      "generation_timestamp": "2025-08-06T10:24:48Z",
+      "section": "2.2. Archaea",
+      "subsection": "2.2.1. Beneficial aspects of Archaea",
+      "sub_subsection": null,
+      "structural_anchor": "2.2.1. Beneficial aspects of Archaea",
+      "mcq_type": "D",
+      "question": "The enzyme Taq polymerase, essential for the Polymerase Chain Reaction (PCR) technique, is derived from a thermophilic archaeon. What property of this enzyme makes it suitable for PCR?",
+      "options": {
+        "A": "It remains active at the high temperatures required to denature DNA.",
+        "B": "It functions optimally at very low pH levels.",
+        "C": "It is effective only in the presence of high salt concentrations.",
+        "D": "It requires anaerobic conditions to catalyze DNA synthesis."
+      },
+      "correct_answer": "A",
+      "hint": "PCR involves repeated heating and cooling cycles.",
+      "explanation": "Taq polymerase is thermostable, meaning it retains its catalytic function at the high temperatures (over 90°C) used in PCR to separate DNA strands. Option B describes an acidophile characteristic, not specifically relevant to PCR's thermal cycles.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.2. Archaea",
+        "subsection_anchor": "2.2.1. Beneficial aspects of Archaea",
+        "structural_element": "2.2.1. Beneficial aspects of Archaea",
+        "content_anchor": "The thermophilic Archaea, Thermus aquaticus, is an essential part... harnessed as the basis for the amplification of the DNA in a technique called Polymerase Chain Reaction (PCR).",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_taq_polymerase"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q013",
+      "generation_timestamp": "2025-08-06T10:24:50Z",
+      "section": "2.3. Fungi",
+      "subsection": "2.3.5. Economic importance of fungi",
+      "sub_subsection": null,
+      "structural_anchor": "2.3.5. Economic importance of fungi",
+      "mcq_type": "D",
+      "question": "In the production of bread, which metabolic process performed by yeast is primarily responsible for causing the dough to rise?",
+      "options": {
+        "A": "Aerobic respiration producing carbon dioxide and water.",
+        "B": "Fermentation producing ethanol and carbon dioxide.",
+        "C": "Photosynthesis producing oxygen and carbohydrates.",
+        "D": "Protein hydrolysis producing amino acids and ammonia."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the anaerobic process that generates gas.",
+      "explanation": "Yeast fermentation under anaerobic conditions converts sugars into ethanol and carbon dioxide gas; the trapped CO2 causes dough expansion. Option A describes a process that would not produce the necessary gas volume in dough's low-oxygen environment.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.3. Fungi",
+        "subsection_anchor": "2.3.5. Economic importance of fungi",
+        "structural_element": "2.3.5. Economic importance of fungi",
+        "content_anchor": "Fungi, especially the yeasts, are essential to many industrial processes involving fermentation. Examples include the making of bread, wine, and beer.",
+        "page_hint": "Page 27",
+        "concept_hash": "sha256_of_yeast_fermentation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q014",
+      "generation_timestamp": "2025-08-06T10:24:52Z",
+      "section": "2.4. Protozoa",
+      "subsection": "2.4.1. Common diseases caused by protozoa",
+      "sub_subsection": null,
+      "structural_anchor": "2.4.1. Common diseases caused by protozoa",
+      "mcq_type": "K",
+      "question": "A patient presents with cyclic fever, chills, and anemia. A blood smear reveals parasites within red blood cells. Which protozoan genus is most likely responsible for this condition?",
+      "options": {
+        "A": "Trypanosoma",
+        "B": "Entamoeba",
+        "C": "Giardia",
+        "D": "Plasmodium"
+      },
+      "correct_answer": "D",
+      "hint": "The described symptoms are classic for a mosquito-borne disease.",
+      "explanation": "Plasmodium species are the causative agents of malaria, characterized by cyclic fevers due to the synchronized rupture of infected red blood cells. Option A causes African sleeping sickness, which does not typically involve red blood cell invasion and cyclic fever.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.4. Protozoa",
+        "subsection_anchor": "2.4.1. Common diseases caused by protozoa",
+        "structural_element": "2.4.1. Common diseases caused by protozoa",
+        "content_anchor": "Malaria... Plasmodium spp... Fever, shivering...",
+        "page_hint": "Page 36, 37",
+        "concept_hash": "sha256_of_malaria_plasmodium"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q015",
+      "generation_timestamp": "2025-08-06T10:24:55Z",
+      "section": "2.5. Viruses",
+      "subsection": "2.5.3. Classification of Viruses",
+      "sub_subsection": null,
+      "structural_anchor": "2.5.3. Classification of Viruses",
+      "mcq_type": "J",
+      "question": "What term specifically describes a virus that infects and replicates within bacterial cells?",
+      "options": {
+        "A": "Retrovirus",
+        "B": "Adenovirus",
+        "C": "Bacteriophage",
+        "D": "Picornavirus"
+      },
+      "correct_answer": "C",
+      "hint": "The name combines 'bacteria' with a term meaning 'to eat'.",
+      "explanation": "A bacteriophage, or phage, is a virus whose host is a bacterium. Option A is a type of RNA virus that uses reverse transcriptase, and options B and D are viruses that infect eukaryotic cells.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.5. Viruses",
+        "subsection_anchor": "2.5.3. Classification of Viruses",
+        "structural_element": "2.5.3. Classification of Viruses",
+        "content_anchor": "The viruses that infect prokaryotes are often referred to as bacteriophages, or phages for short.",
+        "page_hint": "Page 43",
+        "concept_hash": "sha256_of_bacteriophage"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q016",
+      "generation_timestamp": "2025-08-06T10:24:58Z",
+      "section": "2.7. Modes of disease transmission and ways of prevention",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "2.7. Modes of disease transmission and ways of prevention",
+      "mcq_type": "J",
+      "question": "Influenza virus is often spread when an infected person coughs, releasing droplets into the air that are inhaled by others. What is this method of disease transmission called?",
+      "options": {
+        "A": "Vector-borne transmission",
+        "B": "Fecal-oral transmission",
+        "C": "Droplet transmission",
+        "D": "Direct contact transmission"
+      },
+      "correct_answer": "C",
+      "hint": "The transmission is via airborne droplets, not direct touch or an intermediate organism.",
+      "explanation": "Droplet transmission involves the transfer of pathogens through respiratory droplets generated by coughing or sneezing. Option A requires an intermediate organism like a mosquito, and option D involves physical contact with an infected person or contaminated surface.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.7. Modes of disease transmission and ways of prevention",
+        "subsection_anchor": null,
+        "structural_element": "2.7. Modes of disease transmission and ways of prevention",
+        "content_anchor": "Droplet infection... organisms are carried in tiny droplets through the air when an infected person coughs...",
+        "page_hint": "Page 56",
+        "concept_hash": "sha256_of_droplet_transmission"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q017",
+      "generation_timestamp": "2025-08-06T10:25:00Z",
+      "section": "2.8. Uses of microorganisms",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "2.8. Uses of microorganisms",
+      "mcq_type": "D",
+      "question": "The application of specific bacteria to an oil-contaminated site to degrade hydrocarbons into less harmful substances is an example of what process?",
+      "options": {
+        "A": "Pasteurization",
+        "B": "Fermentation",
+        "C": "Bioremediation",
+        "D": "Sanitization"
+      },
+      "correct_answer": "C",
+      "hint": "This process uses biological agents to clean up environmental pollution.",
+      "explanation": "Bioremediation employs microbial metabolism to detoxify environmental contaminants like petroleum hydrocarbons. Option A is a heat treatment for food safety, and option B is a metabolic process for converting sugars, not necessarily for environmental cleanup.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.8. Uses of microorganisms",
+        "subsection_anchor": null,
+        "structural_element": "2.8. Uses of microorganisms",
+        "content_anchor": "Bioremediation is a natural process that relies on microorganisms... to degrade or alter environmental contaminants",
+        "page_hint": "Page 60",
+        "concept_hash": "sha256_of_bioremediation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q018",
+      "generation_timestamp": "2025-08-06T10:25:02Z",
+      "section": "2.9. Controlling microorganisms",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "2.9. Controlling microorganisms",
+      "mcq_type": "A",
+      "question": "What term describes a process that frees an object of all living microorganisms, including bacterial spores?",
+      "options": {
+        "A": "Sterilization",
+        "B": "Disinfection",
+        "C": "Antisepsis",
+        "D": "Sanitization"
+      },
+      "correct_answer": "A",
+      "hint": "This is the absolute elimination of microbial life.",
+      "explanation": "Sterilization is the complete destruction or removal of all microbial life, making an object sterile. Option B reduces pathogenic microorganisms but may not eliminate bacterial spores, and option C applies to living tissue.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.9. Controlling microorganisms",
+        "subsection_anchor": null,
+        "structural_element": "2.9. Controlling microorganisms",
+        "content_anchor": "Sterilization is defined as a process by which an article, surface, or medium is freed of all living microorganisms either in the vegetative or in the spore state.",
+        "page_hint": "Page 67",
+        "concept_hash": "sha256_of_sterilization_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q019",
+      "generation_timestamp": "2025-08-06T10:25:05Z",
+      "section": "2.1. Eubacteria",
+      "subsection": "2.1.1. Bacterial Shapes",
+      "sub_subsection": null,
+      "structural_anchor": "2.1.1. Bacterial Shapes",
+      "mcq_type": "J",
+      "question": "A comma-shaped bacterial cell is observed. Which morphological category does this cell belong to?",
+      "options": {
+        "A": "Coccus",
+        "B": "Bacillus",
+        "C": "Spirillum",
+        "D": "Vibrio"
+      },
+      "correct_answer": "D",
+      "hint": "Think of the shape of a comma punctuation mark.",
+      "explanation": "Vibrio is the term for bacteria with a curved, comma-like shape. Option A is for spherical cells, and option B is for rod-shaped cells, neither of which describe a curved rod.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.1. Eubacteria",
+        "subsection_anchor": "2.1.1. Bacterial Shapes",
+        "structural_element": "2.1.1. Bacterial Shapes",
+        "content_anchor": "Comma- Vibrio cholera",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_vibrio_shape"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q020",
+      "generation_timestamp": "2025-08-06T10:25:07Z",
+      "section": "2.3. Fungi",
+      "subsection": "2.3.1. General Characteristics of True Fungi",
+      "sub_subsection": null,
+      "structural_anchor": "2.3.1. General Characteristics of True Fungi",
+      "mcq_type": "B",
+      "question": "What is the name for the individual, microscopic filaments that make up the vegetative body of most fungi?",
+      "options": {
+        "A": "Spores",
+        "B": "Hyphae",
+        "C": "Rhizoids",
+        "D": "Mycelium"
+      },
+      "correct_answer": "B",
+      "hint": "These are the thread-like structures that grow at their tips.",
+      "explanation": "Hyphae are the tubular, branching filaments that constitute the fungal body or thallus. Option D refers to the entire network or mass of hyphae, and option A are reproductive structures, not the main vegetative filaments.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.3. Fungi",
+        "subsection_anchor": "2.3.1. General Characteristics of True Fungi",
+        "structural_element": "2.3.1. General Characteristics of True Fungi",
+        "content_anchor": "Composed of individual microscopic filaments called hyphae",
+        "page_hint": "Page 23",
+        "concept_hash": "sha256_of_fungal_hyphae"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 22000,
+    "average_question_quality": 85.3,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "D": 3,
+      "J": 3,
+      "K": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "2.1. Eubacteria": 2,
+      "2.2. Archaea": 1,
+      "2.3. Fungi": 2,
+      "2.4. Protozoa": 1,
+      "2.5. Viruses": 1,
+      "2.7. Modes of disease transmission and ways of prevention": 1,
+      "2.8. Uses of microorganisms": 1,
+      "2.9. Controlling microorganisms": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,975 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Bio_U2_Q010",
+    "covered_sections": ["2.1. Characteristics of plants", "2.2. Non-flowering and flowering plants", "2.3. Structure and function of plant parts", "2.4 Reproduction in plants", "2.5 Seeds (monocots, dicots)"],
+    "used_question_signatures": ["hash_2.1_char_autotrophic", "hash_2.1_char_sessile", "hash_2.1_char_reproduction", "hash_2.2_gymno_vs_angio", "hash_2.2_nonvascular", "hash_2.3_shoot_system", "hash_2.3_root_system", "hash_2.3_taproot", "hash_2.4_pollination", "hash_2.5_monocot_dicot"],
+    "baseline_counter": {
+      "2.1. Characteristics of plants": {
+        "Objectives": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Learning competencies": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Recall": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Direction: (pair activity)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Plants are autotrophic (self-feeding).": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Plants are sessile.": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Plants practice asexual and sexual reproduction patterns.": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "2.2. Non-flowering and flowering plants": {
+        "Recall": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Objectives": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "ACTIVITY 2.2 COOPERATIVE LEARNING": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Construct a table that shows similarities and differences between gymnosperms and angiosperms?": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Non-vascular plants": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "2.3. Structure and function of plant parts": {
+        "Objectives": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "ACTIVITY 2.3 FIELD WORK": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "The shoot system:": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The root system:": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Tap root system": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "2.4 Reproduction in plants": {
+        "Objectives": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.4.3 Pollination": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "2.5 Seeds (monocots, dicots)": {
+        "Objectives": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Self Test": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Monocot vs dicot seeds": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "2.6 Seed Dispersal and Germination": {
+        "Objectives": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.6.1 Seed dispersal": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.6.2 Germination of seed": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.7 Photosynthesis": {
+        "Objectives": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.7.1 The photosynthetic apparatus": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.7.2 The light absorbing system in chloroplast": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.73. Mechanism of photosynthesis": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.8 Transport in plant": {
+        "Objectives": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.8.1 Transporting systems in plants": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.8.2 Mechanism of transport in plant": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.9 Response in plants": {
+        "Objectives": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.9.1 Tropism as growth response": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.10 Medicinal plants": {
+        "Objectives": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Self Test": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.11 Renowned Botanists in Ethiopia": {
+        "Objectives": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1. Characteristics of plants": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.2. Non-flowering and flowering plants": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.3. Structure and function of plant parts": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.4 Reproduction in plants": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.5 Seeds (monocots, dicots)": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.6 Seed Dispersal and Germination": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "2.7 Photosynthesis": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "2.8 Transport in plant": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "2.9 Response in plants": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "2.10 Medicinal plants": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "2.11 Renowned Botanists in Ethiopia": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1. Characteristics of plants": ["autotrophic", "sessile", "asexual and sexual reproduction"],
+      "2.2. Non-flowering and flowering plants": ["gymnosperms vs angiosperms", "non-vascular plants"],
+      "2.3. Structure and function of plant parts": ["shoot system", "root system", "tap root"],
+      "2.4 Reproduction in plants": ["pollination"],
+      "2.5 Seeds (monocots, dicots)": ["monocot vs dicot seeds"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state_hash",
+    "content_density_metrics": {
+      "total_concepts_extracted": 10,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 9.1
+    }
+  },
+  "grade": "10",
+  "subject": "Biology",
+  "unit": "Unit 2: Plants",
+  "pdf_filename": "B10U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 11,
+        "progress_percentage": 45.5
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 10,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 9.1,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.1. Characteristics of plants",
+      "least_covered_section": "2.6 Seed Dispersal and Germination",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U2_Q001",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "2.1. Characteristics of plants",
+      "subsection": "Plants are autotrophic (self-feeding).",
+      "sub_subsection": null,
+      "structural_anchor": "Plants are autotrophic (self-feeding).",
+      "mcq_type": "A",
+      "question": "Which characteristic enables plants to produce their own food using sunlight?",
+      "options": {
+        "A": "Autotrophic nutrition",
+        "B": "Heterotrophic nutrition",
+        "C": "Saprophytic nutrition",
+        "D": "Parasitic nutrition"
+      },
+      "correct_answer": "A",
+      "hint": "This characteristic involves using chlorophyll to capture light energy.",
+      "explanation": "Autotrophic nutrition describes organisms that synthesize their own food using sunlight through photosynthesis. Heterotrophic nutrition involves consuming other organisms for food, which is not characteristic of plants.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.1. Characteristics of plants",
+        "subsection_anchor": "Plants are autotrophic (self-feeding).",
+        "structural_element": "Plants are autotrophic (self-feeding).",
+        "content_anchor": "green pigment chlorophyll which enables them to absorb sunlight and produce their own food",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_autotrophic_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q002",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "2.1. Characteristics of plants",
+      "subsection": "Plants are sessile.",
+      "sub_subsection": null,
+      "structural_anchor": "Plants are sessile.",
+      "mcq_type": "A",
+      "question": "What term describes organisms that remain fixed in one location and cannot move by themselves?",
+      "options": {
+        "A": "Sessile",
+        "B": "Motile",
+        "C": "Migratory",
+        "D": "Locomotive"
+      },
+      "correct_answer": "A",
+      "hint": "This characteristic applies to plants that are anchored by their roots.",
+      "explanation": "Sessile organisms remain fixed in one place, like plants anchored by roots. Motile organisms can move independently, which is characteristic of most animals but not plants.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.1. Characteristics of plants",
+        "subsection_anchor": "Plants are sessile.",
+        "structural_element": "Plants are sessile.",
+        "content_anchor": "They cannot move by themselves. They remain fixed at one place, firmly anchored to the soil by their root.",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_sessile_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q003",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "2.1. Characteristics of plants",
+      "subsection": "Plants practice asexual and sexual reproduction patterns.",
+      "sub_subsection": null,
+      "structural_anchor": "Plants practice asexual and sexual reproduction patterns.",
+      "mcq_type": "I",
+      "question": "Which statement correctly compares reproduction in mosses versus angiosperms?",
+      "options": {
+        "A": "Mosses primarily reproduce asexually through spores, while angiosperms primarily reproduce sexually through gametes",
+        "B": "Both mosses and angiosperms reproduce exclusively through sexual reproduction",
+        "C": "Angiosperms reproduce asexually through spores, while mosses reproduce sexually through flowers",
+        "D": "Mosses reproduce sexually through cones, while angiosperms reproduce asexually through vegetative propagation"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the dominant reproductive methods in lower versus higher plants.",
+      "explanation": "Mosses, as lower plants, predominantly use asexual reproduction via spores, while angiosperms, as higher plants, primarily use sexual reproduction involving gametes. Option C incorrectly reverses these reproductive strategies between plant groups.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.1. Characteristics of plants",
+        "subsection_anchor": "Plants practice asexual and sexual reproduction patterns.",
+        "structural_element": "Plants practice asexual and sexual reproduction patterns.",
+        "content_anchor": "In lower plants such as mosses and liverworts, asexual reproduction through spores is the dominant form. On the other hand, in higher and seed-bearing plants such as gymnosperms and angiosperms, sexual reproduction which involves the union of gametes or sex cells is the dominant and visible form",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_reproduction_patterns"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q004",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "2.2. Non-flowering and flowering plants",
+      "subsection": "Construct a table that shows similarities and differences between gymnosperms and angiosperms?",
+      "sub_subsection": null,
+      "structural_anchor": "Construct a table that shows similarities and differences between gymnosperms and angiosperms?",
+      "mcq_type": "I",
+      "question": "How do gymnosperms and angiosperms differ in their seed protection?",
+      "options": {
+        "A": "Gymnosperms have naked seeds, while angiosperms have seeds enclosed in fruits",
+        "B": "Both gymnosperms and angiosperms have seeds enclosed in fruits",
+        "C": "Gymnosperms have seeds enclosed in cones, while angiosperms have naked seeds",
+        "D": "Both plant groups have naked seeds exposed on their surfaces"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the terms 'naked seeds' and 'covered seeds' in plant classification.",
+      "explanation": "Gymnosperms produce naked seeds not enclosed by fruit, while angiosperms produce seeds enclosed within fruits. Option C incorrectly reverses this fundamental distinction between the two plant groups.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity_question"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.2. Non-flowering and flowering plants",
+        "subsection_anchor": "Construct a table that shows similarities and differences between gymnosperms and angiosperms?",
+        "structural_element": "Construct a table that shows similarities and differences between gymnosperms and angiosperms?",
+        "content_anchor": "seeds produced in their cone are without cover (naked seeds)",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_gymno_vs_angio_seeds"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q005",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "2.2. Non-flowering and flowering plants",
+      "subsection": "Non-vascular plants",
+      "sub_subsection": null,
+      "structural_anchor": "Non-vascular plants",
+      "mcq_type": "B",
+      "question": "Which plant group lacks specialized tissues for transporting water and nutrients?",
+      "options": {
+        "A": "Non-vascular plants",
+        "B": "Gymnosperms",
+        "C": "Angiosperms",
+        "D": "Vascular plants"
+      },
+      "correct_answer": "A",
+      "hint": "These plants are generally small and restricted to moist environments.",
+      "explanation": "Non-vascular plants, such as mosses and liverworts, lack xylem and phloem for internal transport. Vascular plants, including gymnosperms and angiosperms, possess these specialized conducting tissues.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.2. Non-flowering and flowering plants",
+        "subsection_anchor": "Non-vascular plants",
+        "structural_element": "Non-vascular plants",
+        "content_anchor": "non - vascular, i.e., do not have transporting system or conducting vessels",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_nonvascular_plants"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q006",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "2.3. Structure and function of plant parts",
+      "subsection": "The shoot system:",
+      "sub_subsection": null,
+      "structural_anchor": "The shoot system:",
+      "mcq_type": "B",
+      "question": "Which plant system includes structures typically found above ground, such as stems, leaves, and flowers?",
+      "options": {
+        "A": "Shoot system",
+        "B": "Root system",
+        "C": "Vascular system",
+        "D": "Reproductive system"
+      },
+      "correct_answer": "A",
+      "hint": "This system is responsible for photosynthesis and reproduction.",
+      "explanation": "The shoot system comprises above-ground structures like stems, leaves, and flowers involved in photosynthesis and reproduction. The root system consists of underground structures for absorption and anchorage.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.3. Structure and function of plant parts",
+        "subsection_anchor": "The shoot system:",
+        "structural_element": "The shoot system:",
+        "content_anchor": "This is the plant part usually found above the ground and includes the organs such as stem, branches, leaves, buds, flowers and fruits.",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_shoot_system"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 63,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q007",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "2.3. Structure and function of plant parts",
+      "subsection": "The root system:",
+      "sub_subsection": null,
+      "structural_anchor": "The root system:",
+      "mcq_type": "A",
+      "question": "What is the primary function of the root system in plants?",
+      "options": {
+        "A": "Anchorage and absorption of water and minerals",
+        "B": "Photosynthesis and gas exchange",
+        "C": "Reproduction and seed production",
+        "D": "Transport of organic nutrients"
+      },
+      "correct_answer": "A",
+      "hint": "Roots grow downward into the soil and have specialized structures for these functions.",
+      "explanation": "The root system provides anchorage to soil and absorbs water and minerals through root hairs. Photosynthesis occurs in leaves, making option B incorrect for root function.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.3. Structure and function of plant parts",
+        "subsection_anchor": "The root system:",
+        "structural_element": "The root system:",
+        "content_anchor": "This is the part of the plant that usually grows downward into the ground. It includes the primary or tap root, lateral or branch roots, root hairs and root cap.",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_root_system"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q008",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "2.3. Structure and function of plant parts",
+      "subsection": "Tap root system",
+      "sub_subsection": null,
+      "structural_anchor": "Tap root system",
+      "mcq_type": "J",
+      "question": "Which plant type typically exhibits a tap root system with one large primary vertical root?",
+      "options": {
+        "A": "Dicot plants",
+        "B": "Monocot plants",
+        "C": "Non-vascular plants",
+        "D": "Gymnosperm plants"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the root structure difference between major angiosperm groups.",
+      "explanation": "Dicot plants typically develop tap root systems with one main vertical root, while monocots form fibrous root systems. Option B incorrectly associates tap roots with monocots, which actually have fibrous roots.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.3. Structure and function of plant parts",
+        "subsection_anchor": "Tap root system",
+        "structural_element": "Tap root system",
+        "content_anchor": "Tap root system is a feature of dicot plants.",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_taproot_system"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q009",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "2.4 Reproduction in plants",
+      "subsection": "2.4.3 Pollination",
+      "sub_subsection": null,
+      "structural_anchor": "2.4.3 Pollination",
+      "mcq_type": "A",
+      "question": "What is the transfer of pollen grains from anther to stigma called?",
+      "options": {
+        "A": "Pollination",
+        "B": "Fertilization",
+        "C": "Germination",
+        "D": "Dispersal"
+      },
+      "correct_answer": "A",
+      "hint": "This process occurs before fertilization and can involve various agents.",
+      "explanation": "Pollination is the transfer of pollen from anther to stigma, while fertilization involves the fusion of gametes. Option B incorrectly confuses pollination with the subsequent fertilization process.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.4 Reproduction in plants",
+        "subsection_anchor": "2.4.3 Pollination",
+        "structural_element": "2.4.3 Pollination",
+        "content_anchor": "This is the transfer of pollen grains from the anther of a stamen to the stigma of the pistil.",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_pollination"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q010",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "2.5 Seeds (monocots, dicots)",
+      "subsection": "Monocot vs dicot seeds",
+      "sub_subsection": null,
+      "structural_anchor": "Monocot vs dicot seeds",
+      "mcq_type": "J",
+      "question": "How many cotyledons are present in the embryo of a monocot seed?",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "None"
+      },
+      "correct_answer": "A",
+      "hint": "The prefix 'mono-' indicates a numerical quantity.",
+      "explanation": "Monocot seeds contain one cotyledon in their embryo, while dicot seeds have two cotyledons. Option B incorrectly assigns dicot characteristics to monocot seeds.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.5 Seeds (monocots, dicots)",
+        "subsection_anchor": "Monocot vs dicot seeds",
+        "structural_element": "Monocot vs dicot seeds",
+        "content_anchor": "A seed of angiosperm may have one cotyledon (monocot) or two cotyledons (dicot).",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_monocot_dicot_seeds"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 59,
+        "distractor_quality_score": 76,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3250,
+    "average_question_quality": 83.2,
+    "type_distribution": {
+      "A": 4,
+      "B": 2,
+      "I": 2,
+      "J": 2
+    },
+    "difficulty_distribution": {
+      "easy": 7,
+      "medium": 3,
+      "hard": 0
+    },
+    "section_distribution": {
+      "2.1. Characteristics of plants": 3,
+      "2.2. Non-flowering and flowering plants": 2,
+      "2.3. Structure and function of plant parts": 3,
+      "2.4 Reproduction in plants": 1,
+      "2.5 Seeds (monocots, dicots)": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,746 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T15:55:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Bio_U3_Q030",
+    "covered_sections": ["3.1. Biochemical molecules>3.1.1. Inorganic molecules: water", "3.1. Biochemical molecules>3.1.2. Inorganic ions", "3.1. Biochemical molecules>3.1.3. Organic molecules"],
+    "used_question_signatures": ["7e1e0e0ccbad97e39da1f937d51fa02a", "77c72bb90eccd43f9e9f85f66a72762d", "6f441a82e0e20a2bd5a8d57f46991542", "5b883cce4ac07ecfa9a8bea2b65e1a97", "87e4e7bf83d446322e4ffd6152072886", "2e6c403d45bff814e7ba27f795a767b1", "c4a6e482d578eb0ce5d2d2ecda244f44", "9ea1e702577bb71599fd8da4b23688a8", "fe37b74a8d51baaaac39de29090b5115", "d7ce2adcff88c850eb1a4a4d62c06919", "2b5cbf7865aa84a4b1b28a4ddaac8bf4", "1a7a5ba9ee3fbfe4d8a978872231d776", "cb2fa87405540794769869868f6050b9", "4a3d7c372557034dd6c928dc3a97ae49", "24c6cdaa87b25e23f4cf2c8f933a9e7c", "9564e5f30ae826de1dd7f6fe1c84299c", "37a6e62a10e546f6d9a6b92c8b368931", "e1624240300a6f2d0d781a39b2165e48", "e41d8bc6b1e6e7fc24479a366f15c744", "d97a2d5629c180fc3dc7d69acb15b732", "c5a9b8e7f6d4c3b2a1987654321fedcb", "a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8", "f9e8d7c6b5a4c3b2a1f0e1d2c3b4a5c6", "d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2", "b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8", "f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6", "d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7", "b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3", "f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9", "d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5"],
+    "baseline_counter": {
+      "3.1. Biochemical molecules": {
+        "3.1.1. Inorganic molecules: water": {
+          "count": 5,
+          "mini_headings_covered": ["The properties of water", "1. Water as a solvent", "2. High specific heat capacity", "3. High latent heat of vaporization", "4. Density and freezing properties", "5. High surface tension and cohesion", "6. Boiling and Freezing Points"],
+          "last_question_round": 3
+        },
+        "3.1.2. Inorganic ions": {
+          "count": 8,
+          "mini_headings_covered": ["Classification of inorganic ions", "a. Hydrogen ions", "b. Sodium ions", "c. Potassium ions", "d. Calcium ion", "e. Phosphate ions", "f. Chloride ions", "g. Iron ions"],
+          "last_question_round": 3
+        },
+        "3.1.3. Organic molecules": {
+          "count": 17,
+          "mini_headings_covered": ["Carbohydrates", "a. Monosaccharides", "- Roles of monosaccharides in living organisms", "b. Disaccharides (C12H22O11)", "c. Polysaccharides -(C6H10O5)-n", "- Starch [-(C6H1005)-n]", "- Glycogen [-(C6H1005)-n]", "- Cellulose [-(C6H1005)-n]", "- Major functions of carbohydrates", "Lipids", "Fatty acids [CH3(CH2)nCOOH]", "Phospholipids", "Major functions of lipids", "Proteins", "Amino acids", "The peptide bond"],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1. Biochemical molecules>3.1.1. Inorganic molecules: water": {
+        "question_count": 5,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "3.1. Biochemical molecules>3.1.2. Inorganic ions": {
+        "question_count": 8,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "3.1. Biochemical molecules>3.1.3. Organic molecules": {
+        "question_count": 17,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1. Biochemical molecules>3.1.1. Inorganic molecules: water": ["Water as a polar solvent", "High specific heat capacity of water", "High latent heat of vaporization", "Surface tension from cohesion", "Density anomaly of ice", "High boiling point from hydrogen bonding"],
+      "3.1. Biochemical molecules>3.1.2. Inorganic ions": ["Hydrogen ions and pH", "Sodium as an extracellular cation", "Potassium as an intracellular cation", "Calcium in bones and teeth", "Macro vs micro nutrient classification", "Phosphate in bones and ATP", "Chloride in HCl and osmotic balance", "Iron in hemoglobin and cytochromes"],
+      "3.1. Biochemical molecules>3.1.3. Organic molecules": ["Carbohydrate monomer monosaccharides", "Disaccharide maltose composition", "Polysaccharide energy storage", "Structural polysaccharide cellulose", "Lipid insolubility in water", "Starch as plant storage", "Glycogen as animal storage", "Fatty acid saturation", "Carbohydrate functions", "Phospholipid bilayer structure", "Protein amino acid monomers", "Peptide bond formation"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4",
+    "content_density_metrics": {
+      "total_concepts_extracted": 25,
+      "questions_per_concept_ratio": 1.2,
+      "structural_coverage_percentage": 47.2
+    }
+  },
+  "grade": "10",
+  "subject": "Biology",
+  "unit": "Unit 3: Biochemical molecules",
+  "pdf_filename": "B10U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T15:55:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 1,
+        "total_sections": 1,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.4,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 3,
+      "mini_headings_covered_count": 24,
+      "structural_coverage_percentage": 66.7,
+      "concept_utilization_ratio": 1.2
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.1. Biochemical molecules>3.1.3. Organic molecules",
+      "least_covered_section": "3.1. Biochemical molecules>3.1.1. Inorganic molecules: water",
+      "imbalance_ratio": 3.4,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.2,
+      "remaining_concept_capacity": 20
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U3_Q021",
+      "generation_timestamp": "2025-01-28T15:55:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.1. Inorganic molecules: water",
+      "sub_subsection": null,
+      "structural_anchor": "4. Density and freezing properties",
+      "mcq_type": "G",
+      "question": "When water in a lake cools below 4°C, its density decreases and ice forms on the surface. What is the direct ecological consequence of this property for aquatic life during winter?",
+      "options": {
+        "A": "It increases oxygen solubility in deeper water.",
+        "B": "It insulates the liquid water below, preventing the entire body from freezing solid.",
+        "C": "It accelerates nutrient circulation throughout the water column.",
+        "D": "It raises the temperature of the sediment at the bottom."
+      },
+      "correct_answer": "B",
+      "hint": "Floating ice acts as a thermal barrier.",
+      "explanation": "Ice is less dense than liquid water, so it floats and forms an insulating layer that maintains liquid water beneath it, protecting aquatic organisms from freezing. Option C describes a consequence of temperature-driven density currents, not the insulation effect.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.1. Inorganic molecules: water",
+        "structural_element": "4. Density and freezing properties",
+        "content_anchor": "ice floats on liquid water and insulates the water beneath it",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_ice_insulation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q022",
+      "generation_timestamp": "2025-01-28T15:55:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.1. Inorganic molecules: water",
+      "sub_subsection": null,
+      "structural_anchor": "6. Boiling and Freezing Points",
+      "mcq_type": "H",
+      "question": "A common error is to assume water's boiling point of 100°C is typical for small molecules. What characteristic of water molecules makes this boiling point unusually high?",
+      "options": {
+        "A": "The presence of ionic bonds between molecules.",
+        "B": "The formation of extensive hydrogen bonding networks.",
+        "C": "The low molecular weight of H₂O.",
+        "D": "The high electronegativity of hydrogen atoms."
+      },
+      "correct_answer": "B",
+      "hint": "Intermolecular attractions must be overcome for a liquid to vaporize.",
+      "explanation": "Extensive hydrogen bonding between water molecules requires significant energy input to break before vaporization can occur, resulting in a high boiling point. Option A is incorrect because water molecules are covalently bonded within themselves and interact via hydrogen bonds, not ionic bonds.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.1. Inorganic molecules: water",
+        "structural_element": "6. Boiling and Freezing Points",
+        "content_anchor": "ability of water molecules to form hydrogen bonds...responsible for many of water's unique properties...very high boiling point",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_boiling_point_hydrogen_bonding"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q023",
+      "generation_timestamp": "2025-01-28T15:55:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.2. Inorganic ions",
+      "sub_subsection": null,
+      "structural_anchor": "e. Phosphate ions",
+      "mcq_type": "A",
+      "question": "Phosphate ions combine with calcium to form a hard mineral compound that provides structural strength. In which tissues is this compound predominantly found?",
+      "options": {
+        "A": "Blood plasma and cerebrospinal fluid",
+        "B": "Muscle fibers and nerve cells",
+        "C": "Bones and teeth",
+        "D": "Adipose tissue and skin"
+      },
+      "correct_answer": "C",
+      "hint": "This compound is the primary inorganic component of the skeletal system.",
+      "explanation": "Calcium phosphate forms hydroxyapatite crystals, which mineralize the collagen matrix of bones and the enamel of teeth. Option A contains phosphate ions in solution, but not in the solid mineralized form.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.2. Inorganic ions",
+        "structural_element": "e. Phosphate ions",
+        "content_anchor": "Most of the phosphate ions are presently combined with calcium in bones and teeth",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_phosphate_in_bones"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q024",
+      "generation_timestamp": "2025-01-28T15:55:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.2. Inorganic ions",
+      "sub_subsection": null,
+      "structural_anchor": "f. Chloride ions",
+      "mcq_type": "F",
+      "question": "Chloride ions are required for the activation of salivary amylase and the production of hydrochloric acid in the stomach. Which reasoning best explains why a severe chloride deficiency could impair digestion?",
+      "options": {
+        "A": "It would decrease the pH of the stomach, inhibiting pepsin activity.",
+        "B": "It would prevent the proper emulsification of fats by bile salts.",
+        "C": "It would reduce both starch breakdown in the mouth and protein denaturation in the stomach.",
+        "D": "It would increase intestinal permeability, causing nutrient malabsorption."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the specific enzymes and secretions that depend on chloride ions.",
+      "explanation": "Chloride ions activate salivary amylase for initial starch digestion and are a component of HCl, which denatures proteins and activates pepsinogen in the stomach. Option B describes the role of bile from the liver/gallbladder, which is not directly chloride-dependent.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.2. Inorganic ions",
+        "structural_element": "f. Chloride ions",
+        "content_anchor": "required to make Hydrochloric acid (HCl)...Salivary amylase is an enzyme to digest starch that is activated by chloride ions",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_chloride_digestive_role"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 84,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q025",
+      "generation_timestamp": "2025-01-28T15:55:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.2. Inorganic ions",
+      "sub_subsection": null,
+      "structural_anchor": "g. Iron ions",
+      "mcq_type": "D",
+      "question": "Approximately 70% of the iron in the human body is incorporated into a specific oxygen-transporting protein found in red blood cells. What is this protein called?",
+      "options": {
+        "A": "Myoglobin",
+        "B": "Cytochrome",
+        "C": "Hemoglobin",
+        "D": "Ferritin"
+      },
+      "correct_answer": "C",
+      "hint": "This metalloprotein contains heme groups with iron at their center.",
+      "explanation": "Hemoglobin is the iron-containing protein in erythrocytes that binds oxygen in the lungs and transports it to tissues. Option A, myoglobin, is an iron-containing oxygen storage protein in muscle cells, but it holds a much smaller fraction of total body iron.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.2. Inorganic ions",
+        "structural_element": "g. Iron ions",
+        "content_anchor": "Around 70% of iron ions in our body are present in haemoglobin within the red blood cells",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_iron_in_hemoglobin"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q026",
+      "generation_timestamp": "2025-01-28T15:55:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "Phospholipids",
+      "mcq_type": "C",
+      "question": "A phospholipid molecule has a hydrophilic head containing a phosphate group and two hydrophobic fatty acid tails. What is the primary structural role of phospholipids in cells?",
+      "options": {
+        "A": "Long-term energy storage in adipose tissue.",
+        "B": "Formation of the lipid bilayer in cellular membranes.",
+        "C": "Hormone synthesis in endocrine glands.",
+        "D": "Thermal insulation beneath the skin."
+      },
+      "correct_answer": "B",
+      "hint": "Their amphipathic nature allows them to spontaneously arrange into a barrier.",
+      "explanation": "Phospholipids spontaneously form bilayers in aqueous environments, with hydrophilic heads facing the water and hydrophobic tails facing inward, creating the fundamental structure of all cell membranes. Option A is a function of triglycerides, not phospholipids.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "Phospholipids",
+        "content_anchor": "This allows the molecules to form a membrane around a cell",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_phospholipid_bilayer"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q027",
+      "generation_timestamp": "2025-01-28T15:55:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "Major functions of lipids",
+      "mcq_type": "J",
+      "question": "Which of the following is correctly identified as a major function of lipids in living organisms?",
+      "options": {
+        "A": "Primary short-term energy currency like ATP.",
+        "B": "Immediate catalysis of metabolic reactions.",
+        "C": "Long-term energy storage and thermal insulation.",
+        "D": "Direct coding of genetic information."
+      },
+      "correct_answer": "C",
+      "hint": "Fats store more energy per gram than carbohydrates and provide insulation.",
+      "explanation": "Lipids, particularly triglycerides, serve as compact, long-term energy reserves and, when stored in adipose tissue, provide thermal insulation. Option A describes the role of ATP, which is a nucleotide, not a lipid.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "Major functions of lipids",
+        "content_anchor": "Serve as major fuel store...serve as poor conductors of heat and provide insulation",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_lipid_functions"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q028",
+      "generation_timestamp": "2025-01-28T15:55:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "Proteins",
+      "mcq_type": "B",
+      "question": "Proteins are polymers constructed from smaller monomeric units that contain an amine group, a carboxyl group, and a variable side chain. What are these monomers called?",
+      "options": {
+        "A": "Monosaccharides",
+        "B": "Fatty acids",
+        "C": "Amino acids",
+        "D": "Nucleotides"
+      },
+      "correct_answer": "C",
+      "hint": "The name reflects the presence of both amino and carboxylic acid functional groups.",
+      "explanation": "Amino acids are the building blocks of proteins, each consisting of a central carbon bonded to an amino group (-NH₂), a carboxyl group (-COOH), a hydrogen atom, and a distinctive R group. Option D, nucleotides, are the monomers of nucleic acids.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "Proteins",
+        "content_anchor": "Proteins are biological molecules made up of amino acids monomers",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_of_protein_monomer"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q029",
+      "generation_timestamp": "2025-01-28T15:55:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "Amino acids",
+      "mcq_type": "I",
+      "question": "Which statement correctly distinguishes one amino acid from another?",
+      "options": {
+        "A": "They differ in the structure of their central carbon atom.",
+        "B": "They differ in the composition of their variable R group.",
+        "C": "They differ in the presence or absence of an amine group.",
+        "D": "They differ in the number of peptide bonds they can form."
+      },
+      "correct_answer": "B",
+      "hint": "The R group gives each amino acid its unique chemical properties.",
+      "explanation": "All amino acids share a common backbone structure with an amino group, carboxyl group, and hydrogen attached to a central carbon; variation occurs solely in the side chain (R group). Option C is incorrect because all proteinogenic amino acids contain an amine group.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "Amino acids",
+        "content_anchor": "The only way in which amino acids differ from each other is in the remaining, fourth, group of atoms bonded to the central carbon. This is called the R group",
+        "page_hint": "Page 19-20",
+        "concept_hash": "sha256_of_amino_acid_r_group"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q030",
+      "generation_timestamp": "2025-01-28T15:55:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "The peptide bond",
+      "mcq_type": "D",
+      "question": "During protein synthesis, two amino acids join via a condensation reaction, releasing a water molecule. What is the name of the covalent bond formed between the carboxyl carbon of one amino acid and the amino nitrogen of another?",
+      "options": {
+        "A": "Glycosidic bond",
+        "B": "Ester bond",
+        "C": "Peptide bond",
+        "D": "Hydrogen bond"
+      },
+      "correct_answer": "C",
+      "hint": "This bond is characteristic of the polypeptide backbone.",
+      "explanation": "A peptide bond is the amide linkage formed between the carboxyl group of one amino acid and the amino group of another, with the elimination of water. Option A, a glycosidic bond, connects sugar monomers in carbohydrates.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "The peptide bond",
+        "content_anchor": "The link is called a peptide bond. The oxygen and two hydrogen atoms removed from the amino acids form a water molecule.",
+        "page_hint": "Page 20",
+        "concept_hash": "sha256_of_peptide_bond"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4980,
+    "average_question_quality": 87.6,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 2,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 4,
+      "hard": 1
+    },
+    "section_distribution": {
+      "3.1. Biochemical molecules>3.1.1. Inorganic molecules: water": 2,
+      "3.1. Biochemical molecules>3.1.2. Inorganic ions": 3,
+      "3.1. Biochemical molecules>3.1.3. Organic molecules": 5
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

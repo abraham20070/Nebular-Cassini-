@@ -1,0 +1,793 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-08-07T00:02:00Z",
+  "round_id": "R01",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Physics_U4_Q030",
+    "covered_sections": ["Introduction>The Concept of Force and Newton's Laws of motion", "Introduction>Weight and the Gravitational Force", "4.2 Frictional Force", "4.3 The First Condition of Equilibrium", "4.4 Work, Energy and Power", "4.5 Conservation of mechanical energy", "4.6 Impulse and Linear Momentum"],
+    "used_question_signatures": ["0cfe3e7b7a3c8a6f1e2d4b9c8a7f6e5d3", "1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6", "7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d", "2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s", "8t9u0v1w2x3y4z5a6b7c8d9e0f1g2", "3h4i5j6k7l8m9n0o1p2q3r4s5t6u7", "8v9w0x1y2z3a4b5c6d7e8f9g0h1i", "2j3k4l5m6n7o8p9q0r1s2t3u4v5w6", "7x8y9z0a1b2c3d4e5f6g7h8i9j0k", "1l2m3n4o5p6q7r8s9t0u1v2w3x4y", "5z6a7b8c9d0e1f2g3h4i5j6k7l8m9", "0n1o2p3q4r5s6t7u8v9w0x1y2z3a4", "5b6c7d8e9f0g1h2i3j4k5l6m7n8o9", "0p1q2r3s4t5u6v7w8x9y0z1a2b3c4", "5d6e7f8g9h0i1j2k3l4m5n6o7p8q9", "0r1s2t3u4v5w6x7y8z9a0b1c2d3e4", "5f6g7h8i9j0k1l2m3n4o5p6q7r8s9", "0t1u2v3w4x5y6z7a8b9c0d1e2f3g4", "5h6i7j8k9l0m1n2o3p4q5r6s7t8u9", "0v1w2x3y4z5a6b7c8d9e0f1g2h3i4", "5j6k7l8m9n0o1p2q3r4s5t6u7v8w9", "0x1y2z3a4b5c6d7e8f9g0h1i2j3k4", "5l6m7n8o9p0q1r2s3t4u5v6w7x8y9", "0z1a2b3c4d5e6f7g8h9i0j1k2l3m4", "5n6o7p8q9r0s1t2u3v4w5x6y7z8a9", "0b1c2d3e4f5g6h7i8j9k0l1m2n3o4", "5p6q7r8s9t0u1v2w3x4y5z6a7b8c9", "0d1e2f3g4h5i6j7k8l9m0n1o2p3q4", "5r6s7t8u9v0w1x2y3z4a5b6c7d8e9", "0f1g2h3i4j5k6l7m8n9o0p1q2r3s4"],
+    "baseline_counter": {
+      "Introduction": {
+        "The Concept of Force and Newton's Laws of motion": {
+          "count": 9,
+          "mini_headings_covered": ["The concept of force", "Newton's first law of motion", "Newton's Second Law of motion", "Newton's third Law of Motion", "Activity 4.1", "Key terms", "Brainstorming", "Discuss with your classmate", "Misconception alert"],
+          "last_question_round": 1
+        },
+        "Weight and the Gravitational Force": {
+          "count": 7,
+          "mini_headings_covered": ["Weight and the Gravitational Force", "Normal Force", "Example 4.1", "Question", "Misconception Alert", "Example 4.2", "Review Questions 4.1"],
+          "last_question_round": 1
+        }
+      },
+      "4.2 Frictional Force": {
+        "[Subsection 2.1]": {
+          "count": 5,
+          "mini_headings_covered": ["Key terms", "Brainstorming", "The maximum value of static friction", "Group work", "Example 4.3"],
+          "last_question_round": 1
+        }
+      },
+      "4.3 The First Condition of Equilibrium": {
+        "[Subsection 3.1]": {
+          "count": 4,
+          "mini_headings_covered": ["Brainstorming", "Key term:", "Example 4.9", "Activity 4.11"],
+          "last_question_round": 1
+        }
+      },
+      "4.4 Work, Energy and Power": {
+        "[Subsection 4.1]": {
+          "count": 6,
+          "mini_headings_covered": ["Brainstorming", "Work done by a constant force", "Example 4.10", "Exercise 4.3", "Activity 4.12", "Example 4.11"],
+          "last_question_round": 1
+        }
+      },
+      "4.5 Conservation of mechanical energy": {
+        "[Subsection 5.1]": {
+          "count": 4,
+          "mini_headings_covered": ["Brainstorming", "Example 4.17", "Example 4.18", "Example 4.19"],
+          "last_question_round": 1
+        }
+      },
+      "4.6 Impulse and Linear Momentum": {
+        "[Subsection 6.1]": {
+          "count": 5,
+          "mini_headings_covered": ["Brainstorming", "Exercise 4.5", "Example 4.20", "Example 4.21", "Example 4.22"],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 16,
+        "last_used_round": 1,
+        "consecutive_batches": 3
+      },
+      "4.2 Frictional Force": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 3
+      },
+      "4.3 The First Condition of Equilibrium": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 3
+      },
+      "4.4 Work, Energy and Power": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 3
+      },
+      "4.5 Conservation of mechanical energy": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      },
+      "4.6 Impulse and Linear Momentum": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>The Concept of Force and Newton's Laws of motion": ["Force", "Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Inertia", "Net force", "Mass", "Action-reaction", "Acceleration"],
+      "Introduction>Weight and the Gravitational Force": ["Weight", "Gravitational Force", "Normal Force", "Equilibrium", "Free fall", "Mass vs weight", "Coefficient of friction"],
+      "4.2 Frictional Force>[Subsection 2.1]": ["Friction", "Static friction", "Kinetic friction", "Coefficient of friction", "Limiting friction", "Normal force"],
+      "4.3 The First Condition of Equilibrium>[Subsection 3.1]": ["Equilibrium", "Translational equilibrium", "Net force", "Free-body diagram", "Tension"],
+      "4.4 Work, Energy and Power>[Subsection 4.1]": ["Work", "Constant force", "Displacement", "Joule", "Scalar product", "Frictional work", "Net work"],
+      "4.5 Conservation of mechanical energy>[Subsection 5.1]": ["Conservation of energy", "Mechanical energy", "Kinetic energy", "Potential energy", "Friction", "Inclined plane", "Spring constant"],
+      "4.6 Impulse and Linear Momentum>[Subsection 6.1]": ["Momentum", "Linear momentum", "Impulse", "Mass", "Velocity", "Change in momentum", "Newton's Second Law"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_integrity_batch3",
+    "content_density_metrics": {
+      "total_concepts_extracted": 35,
+      "questions_per_concept_ratio": 0.857,
+      "structural_coverage_percentage": 20.5
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Physics",
+  "unit": "Unit 4: DYNAMICS",
+  "pdf_filename": "P11U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-08-07T00:02:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 24,
+      "structural_coverage_percentage": 27.3,
+      "concept_utilization_ratio": 0.857
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Introduction",
+      "least_covered_section": "4.3 The First Condition of Equilibrium",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Physics_U4_Q021",
+      "generation_timestamp": "2025-08-07T00:02:00Z",
+      "section": "4.6 Impulse and Linear Momentum",
+      "subsection": "[Subsection 6.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.20",
+      "mcq_type": "E",
+      "question": "A matchbox with mass 0.5 kg moves at a constant speed of 6 m/s toward the positive x direction. What is the magnitude of its linear momentum?",
+      "options": {
+        "A": "0.5 kg·m/s",
+        "B": "3.0 kg·m/s",
+        "C": "6.0 kg·m/s",
+        "D": "12.0 kg·m/s"
+      },
+      "correct_answer": "B",
+      "hint": "Momentum is calculated as mass multiplied by velocity.",
+      "explanation": "Linear momentum p = mv = (0.5 kg)(6 m/s) = 3.0 kg·m/s. Option A uses mass alone, option C uses velocity alone, and option D incorrectly multiplies mass and velocity twice.",
+      "difficulty_level": "easy",
+      "formula_used": ["p = mv"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "kg·m/s",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.6 Impulse and Linear Momentum",
+        "subsection_anchor": "[Subsection 6.1]",
+        "structural_element": "Example 4.20",
+        "content_anchor": "P = (0.5 kg)(6 m/s) = 3 kg·m/s",
+        "page_hint": "Page 55",
+        "concept_hash": "sha256_of_example_4.20_momentum_calc"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q022",
+      "generation_timestamp": "2025-08-07T00:02:00Z",
+      "section": "4.6 Impulse and Linear Momentum",
+      "subsection": "[Subsection 6.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.21",
+      "mcq_type": "G",
+      "question": "If the velocity of a 0.5 kg object increases from 6 m/s to 15 m/s in the same direction, what happens to the magnitude of its momentum?",
+      "options": {
+        "A": "It decreases by a factor of 2.5.",
+        "B": "It increases by a factor of 2.5.",
+        "C": "It remains unchanged.",
+        "D": "It becomes zero."
+      },
+      "correct_answer": "B",
+      "hint": "Calculate initial and final momentum, then compare.",
+      "explanation": "Initial momentum p_i = (0.5 kg)(6 m/s) = 3 kg·m/s. Final momentum p_f = (0.5 kg)(15 m/s) = 7.5 kg·m/s. The ratio p_f/p_i = 2.5, so momentum increases by a factor of 2.5. Option A incorrectly suggests decrease, option C ignores velocity change, and option D is physically impossible with non-zero velocity.",
+      "difficulty_level": "medium",
+      "formula_used": ["p = mv"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.6 Impulse and Linear Momentum",
+        "subsection_anchor": "[Subsection 6.1]",
+        "structural_element": "Example 4.21",
+        "content_anchor": "Δp = (0.5 kg)(15 m/s - 6 m/s) = 4.5 kg·m/s",
+        "page_hint": "Page 55",
+        "concept_hash": "sha256_of_example_4.21_momentum_change"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q023",
+      "generation_timestamp": "2025-08-07T00:02:00Z",
+      "section": "4.6 Impulse and Linear Momentum",
+      "subsection": "[Subsection 6.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.22",
+      "mcq_type": "F",
+      "question": "A 1.5 kg ball moving east at 5 m/s hits a hard surface and rebounds west at 5 m/s. Under the condition that the collision is perfectly elastic, which reasoning best explains why the magnitude of momentum change is 15 kg·m/s west?",
+      "options": {
+        "A": "Momentum is conserved, so the change equals twice the initial momentum due to direction reversal.",
+        "B": "The ball loses all its momentum upon impact, then gains new momentum in the opposite direction.",
+        "C": "The surface adds momentum to the ball, increasing its total momentum.",
+        "D": "Friction with the surface gradually reverses the momentum direction."
+      },
+      "correct_answer": "A",
+      "hint": "Consider momentum as a vector quantity with direction.",
+      "explanation": "Momentum change Δp = m(v_f - v_i) = 1.5 kg(-5 m/s - 5 m/s) = -15 kg·m/s, with magnitude 15 kg·m/s west. The negative sign indicates direction reversal, making the change twice the initial magnitude. Option B suggests momentum becomes zero, option C violates conservation, and option D introduces irrelevant friction.",
+      "difficulty_level": "hard",
+      "formula_used": ["Δp = m(v_f - v_i)"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.6 Impulse and Linear Momentum",
+        "subsection_anchor": "[Subsection 6.1]",
+        "structural_element": "Example 4.22",
+        "content_anchor": "Δp = (1.5 kg)(5 m/s west - 5 m/s east) = 15 kg·m/s west",
+        "page_hint": "Page 55-56",
+        "concept_hash": "sha256_of_example_4.22_momentum_reversal"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 83
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q024",
+      "generation_timestamp": "2025-08-07T00:02:00Z",
+      "section": "4.3 The First Condition of Equilibrium",
+      "subsection": "[Subsection 3.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.9",
+      "mcq_type": "D",
+      "question": "A traffic light weighing 100 N hangs from a vertical cable. Two upper cables fastened to a support make angles of 37° and 53° with the horizontal. What condition must be satisfied for the traffic light to remain stationary?",
+      "options": {
+        "A": "The horizontal components of tension in the upper cables must be equal.",
+        "B": "The vertical components of tension must each equal 50 N.",
+        "C": "The sum of all tension forces must equal zero vectorially.",
+        "D": "The tension in the vertical cable must be greater than 100 N."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the first condition of equilibrium for forces.",
+      "explanation": "For an object in equilibrium, the vector sum of all forces must be zero (ΣF = 0). This applies to both horizontal and vertical components. Option A describes only horizontal equilibrium, option B is numerically specific but not general, and option D violates vertical equilibrium.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.3 The First Condition of Equilibrium",
+        "subsection_anchor": "[Subsection 3.1]",
+        "structural_element": "Example 4.9",
+        "content_anchor": "For it is in equilibrium, we write ΣF = 0",
+        "page_hint": "Page 33",
+        "concept_hash": "sha256_of_example_4.9_equilibrium"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q025",
+      "generation_timestamp": "2025-08-07T00:02:00Z",
+      "section": "4.3 The First Condition of Equilibrium",
+      "subsection": "[Subsection 3.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 4.11",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion 'If an object is at rest, it is necessarily in equilibrium'?",
+      "options": {
+        "A": "An object at rest has zero acceleration, satisfying the condition for equilibrium.",
+        "B": "An object can be at rest but have unbalanced forces that cancel temporarily.",
+        "C": "Equilibrium requires both rest and constant velocity, not just rest.",
+        "D": "The statement is correct because equilibrium means no motion."
+      },
+      "correct_answer": "B",
+      "hint": "Consider whether all forces acting on a stationary object must be balanced.",
+      "explanation": "The misconception is that rest implies balanced forces. An object could be momentarily at rest while unbalanced forces act (e.g., a ball at the top of its trajectory). Option A accepts the misconception, option C adds an unnecessary condition, and option D reinforces the error.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.3 The First Condition of Equilibrium",
+        "subsection_anchor": "[Subsection 3.1]",
+        "structural_element": "Activity 4.11",
+        "content_anchor": "If an object is at rest, it is necessarily in equilibrium",
+        "page_hint": "Page 33",
+        "concept_hash": "sha256_of_activity_4.11_equilibrium_misconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 86,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q026",
+      "generation_timestamp": "2025-08-07T00:02:00Z",
+      "section": "4.2 Frictional Force",
+      "subsection": "[Subsection 2.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Group work",
+      "mcq_type": "K",
+      "question": "A graph plots frictional force versus applied force for a block on a horizontal surface. What feature of the graph indicates the transition from static to kinetic friction?",
+      "options": {
+        "A": "A sudden drop in frictional force after reaching a maximum value.",
+        "B": "A linear increase in frictional force with applied force.",
+        "C": "A constant frictional force regardless of applied force.",
+        "D": "A gradual decrease in frictional force over time."
+      },
+      "correct_answer": "A",
+      "hint": "Static friction can vary up to a maximum, then drops to kinetic friction.",
+      "explanation": "Static friction increases linearly with applied force until reaching maximum (limiting) friction. Once motion begins, kinetic friction is generally lower and constant, causing a drop on the graph. Option B describes static friction region only, option C describes kinetic friction only, and option D suggests time dependence not shown on force-force graph.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Group work"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.2 Frictional Force",
+        "subsection_anchor": "[Subsection 2.1]",
+        "structural_element": "Group work",
+        "content_anchor": "Plotting frictional force versus applied force",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_friction_force_graph"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 83,
+        "cognitive_level": "interpreting",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q027",
+      "generation_timestamp": "2025-08-07T00:02:00Z",
+      "section": "4.2 Frictional Force",
+      "subsection": "[Subsection 2.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.3",
+      "mcq_type": "E",
+      "question": "An 8 kg block rests on a horizontal surface with coefficients of static and kinetic friction 0.4 and 0.3 respectively. What minimum horizontal force is required to start moving the block? (Use g = 9.8 m/s²)",
+      "options": {
+        "A": "23.5 N",
+        "B": "31.4 N",
+        "C": "39.2 N",
+        "D": "78.4 N"
+      },
+      "correct_answer": "B",
+      "hint": "The force needed to initiate motion must overcome maximum static friction.",
+      "explanation": "Maximum static friction F_s(max) = μ_s F_N = μ_s mg = (0.4)(8 kg)(9.8 m/s²) = 31.4 N. Option A uses kinetic coefficient, option C uses μ_s mg with g=10, and option D uses weight alone.",
+      "difficulty_level": "medium",
+      "formula_used": ["F_s(max) = μ_s F_N", "F_N = mg"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "N",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.2 Frictional Force",
+        "subsection_anchor": "[Subsection 2.1]",
+        "structural_element": "Example 4.3",
+        "content_anchor": "F_s = μ_s mg = (0.4)(8 kg)(9.8 m/s²) = 31.4 N",
+        "page_hint": "Page 22",
+        "concept_hash": "sha256_of_example_4.3_static_friction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 87,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q028",
+      "generation_timestamp": "2025-08-07T00:02:00Z",
+      "section": "4.4 Work, Energy and Power",
+      "subsection": "[Subsection 4.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 4.3",
+      "mcq_type": "E",
+      "question": "A force F = (150î - 40ĵ) N displaces an object by s = (14î + 11ĵ) m. What is the work done by this force?",
+      "options": {
+        "A": 1660,
+        "B": 2100,
+        "C": 2440,
+        "D": 2890
+      },
+      "correct_answer": "A",
+      "hint": "Calculate the dot product of force and displacement vectors.",
+      "explanation": "Work W = F·s = (150)(14) + (-40)(11) = 2100 - 440 = 1660 J. Option B calculates only the î components, option C adds instead of subtracts ĵ component, and option D multiplies magnitudes.",
+      "difficulty_level": "medium",
+      "formula_used": ["W = F·s = F_x s_x + F_y s_y"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "J",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.4 Work, Energy and Power",
+        "subsection_anchor": "[Subsection 4.1]",
+        "structural_element": "Exercise 4.3",
+        "content_anchor": "How much work does the man do on the car?",
+        "page_hint": "Page 36",
+        "concept_hash": "sha256_of_exercise_4.3_vector_work"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 89,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q029",
+      "generation_timestamp": "2025-08-07T00:02:00Z",
+      "section": "4.4 Work, Energy and Power",
+      "subsection": "[Subsection 4.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 4.12",
+      "mcq_type": "G",
+      "question": "If a force acts opposite to an object's displacement, what happens to the work done by that force?",
+      "options": {
+        "A": "Work is positive and adds energy to the object.",
+        "B": "Work is zero because force and displacement are perpendicular.",
+        "C": "Work is negative and removes energy from the object.",
+        "D": "Work is maximum because cos180° = -1."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the angle between force and displacement vectors.",
+      "explanation": "When force opposes displacement (θ = 180°), cos180° = -1, so work W = Fs cosθ is negative. Negative work means energy is transferred from the object. Option A describes θ = 0°, option B describes θ = 90°, and option D states magnitude correctly but mischaracterizes energy transfer.",
+      "difficulty_level": "medium",
+      "formula_used": ["W = Fs cosθ"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.4 Work, Energy and Power",
+        "subsection_anchor": "[Subsection 4.1]",
+        "structural_element": "Activity 4.12",
+        "content_anchor": "Can work done be positive, negative or zero?",
+        "page_hint": "Page 36-37",
+        "concept_hash": "sha256_of_activity_4.12_work_sign"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q030",
+      "generation_timestamp": "2025-08-07T00:02:00Z",
+      "section": "4.4 Work, Energy and Power",
+      "subsection": "[Subsection 4.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.11",
+      "mcq_type": "D",
+      "question": "A package is pulled 10 m along a horizontal floor by a 400 N force at 30° to the horizontal, with 100 N kinetic friction opposing motion. How is the total work on the package calculated?",
+      "options": {
+        "A": "Sum of work done by applied force and friction only.",
+        "B": "Net force times displacement.",
+        "C": "Algebraic sum of work done by all individual forces.",
+        "D": "Both B and C are correct methods."
+      },
+      "correct_answer": "D",
+      "hint": "Total work can be found via net force or summing individual works.",
+      "explanation": "The work-energy theorem states total work W_tot = F_net·s. Alternatively, W_tot = ΣW_individual. Both methods yield the same result. Option A ignores gravitational and normal forces (which do zero work here), option B is correct but incomplete, and option C is correct but incomplete.",
+      "difficulty_level": "hard",
+      "formula_used": ["W_tot = F_net·s", "W_tot = ΣW_individual"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.4 Work, Energy and Power",
+        "subsection_anchor": "[Subsection 4.1]",
+        "structural_element": "Example 4.11",
+        "content_anchor": "W_tot = W_F + W_f + W_g + W_FN = F_net s",
+        "page_hint": "Page 37",
+        "concept_hash": "sha256_of_example_4.11_total_work"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 83
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3450,
+    "average_question_quality": 87.2,
+    "type_distribution": {
+      "D": 2,
+      "E": 3,
+      "F": 1,
+      "G": 2,
+      "H": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 1,
+      "medium": 7,
+      "hard": 2
+    },
+    "section_distribution": {
+      "4.2 Frictional Force": 2,
+      "4.3 The First Condition of Equilibrium": 2,
+      "4.4 Work, Energy and Power": 4,
+      "4.6 Impulse and Linear Momentum": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

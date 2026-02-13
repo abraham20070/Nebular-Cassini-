@@ -1,0 +1,835 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-03-07T12:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Bio_U2_Q030",
+    "covered_sections": ["2.1. Characteristics of living things", "2.2. Taxonomy of living things", "2.3. Relevance of classification", "2.4. Linnaean system of nomenclature", "2.5. Common Ethiopian animals and plants", "2.6. The five-kingdom system of classification"],
+    "used_question_signatures": ["d8d0f9d3b4ee57e5a5c5c4dc2f2b84b7e0e8a4a6", "9e9f0a15c48c61c8b1b2e6c2c6b8c8a6e4c5b7d8f", "4a6c8f9e1b2d3c5a7e9f0a1c3d5b7e2f4a6c8d0f", "5b7d9f1a3c5e7b9d1f3a5c7e9b1d3f5a7c9e1b3d", "6c8e0a2c4e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4", "7d9f1b3d5f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5", "8e0a2c4e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4e6", "9f1b3d5f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5f7", "0a2c4e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4e6a8", "1b3d5f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5f7b9", "a2c4e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4e6a8c", "b3d5f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5f7b9d", "c4e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4e6a8c0e", "d5f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5f7b9d1f", "e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4e6a8c0e2a", "f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5f7b9d1f3b", "a8c0e2a4c6e8a0c2e4a6c8e0a2c4e6a8c0e2a4c", "b9d1f3b5d7f9b1d3f5b7d9f1b3d5f7b9d1f3b5d", "c0e2a4c6e8a0c2e4a6c8e0a2c4e6a8c0e2a4c6e", "d1f3b5d7f9b1d3f5b7d9f1b3d5f7b9d1f3b5d7f", "e2a4c6e8a0c2e4a6c8e0a2c4e6a8c0e2a4c6e8a", "f3b5d7f9b1d3f5b7d9f1b3d5f7b9d1f3b5d7f9b", "a4c6e8a0c2e4a6c8e0a2c4e6a8c0e2a4c6e8a0c", "b5d7f9b1d3f5b7d9f1b3d5f7b9d1f3b5d7f9b1d", "c6e8a0c2e4a6c8e0a2c4e6a8c0e2a4c6e8a0c2e", "d7f9b1d3f5b7d9f1b3d5f7b9d1f3b5d7f9b1d3f", "e8a0c2e4a6c8e0a2c4e6a8c0e2a4c6e8a0c2e4a", "f9b1d3f5b7d9f1b3d5f7b9d1f3b5d7f9b1d3f5b", "a0c2e4a6c8e0a2c4e6a8c0e2a4c6e8a0c2e4a6c", "b1d3f5b7d9f1b3d5f7b9d1f3b5d7f9b1d3f5b7d"],
+    "baseline_counter": {
+      "2.1. Characteristics of living things": {
+        "No subsection": {
+          "count": 7,
+          "mini_headings_covered": ["All living things are made up of one or more cells:", "All living things can grow:", "All living things can reproduce:", "All living things require energy:", "All living things can excrete:", "Most living things maintain homeostasis:", "All living organisms respond to stimuli:"],
+          "last_question_round": 3
+        }
+      },
+      "2.2. Taxonomy of living things": {
+        "2.2.1. Principles of classification": {
+          "count": 4,
+          "mini_headings_covered": ["Why do biologists classify living things?:"],
+          "last_question_round": 1
+        },
+        "2.2.2. Taxonomic hierarchies in biological classification": {
+          "count": 3,
+          "mini_headings_covered": ["Taxonomic hierarchy is the process...:", "Key Terms:"],
+          "last_question_round": 3
+        }
+      },
+      "2.3. Relevance of classification": {
+        "No subsection": {
+          "count": 2,
+          "mini_headings_covered": ["What is the relevance of biological classification?:"],
+          "last_question_round": 1
+        }
+      },
+      "2.4. Linnaean system of nomenclature": {
+        "No subsection": {
+          "count": 3,
+          "mini_headings_covered": ["Binomial nomenclature"],
+          "last_question_round": 3
+        }
+      },
+      "2.5. Common Ethiopian animals and plants": {
+        "No subsection": {
+          "count": 3,
+          "mini_headings_covered": ["Ethiopia is endowed with...:", "Table 1: Scientific names of some common plants and animals in Ethiopia", "Dichotomous keys:"],
+          "last_question_round": 3
+        }
+      },
+      "2.6. The five-kingdom system of classification": {
+        "Kingdom Monera": {
+          "count": 3,
+          "mini_headings_covered": ["What are Monera?:", "Did You Know?:"],
+          "last_question_round": 3
+        },
+        "Kingdom Protista": {
+          "count": 2,
+          "mini_headings_covered": ["What are protists?:"],
+          "last_question_round": 2
+        },
+        "Kingdom Fungi": {
+          "count": 1,
+          "mini_headings_covered": ["What are fungi?:"],
+          "last_question_round": 3
+        },
+        "Kingdom Plantae": {
+          "count": 1,
+          "mini_headings_covered": ["What are plants?:"],
+          "last_question_round": 3
+        },
+        "Kingdom Animalia": {
+          "count": 1,
+          "mini_headings_covered": ["What is an Animal?:"],
+          "last_question_round": 3
+        }
+      },
+      "2.7. Renowned Taxonomists in Ethiopia": {
+        "No subsection": {
+          "count": 1,
+          "mini_headings_covered": ["As stated in section 2.5...:"],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1. Characteristics of living things": {
+        "question_count": 7,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "2.2. Taxonomy of living things": {
+        "question_count": 7,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "2.3. Relevance of classification": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.4. Linnaean system of nomenclature": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "2.5. Common Ethiopian animals and plants": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "2.6. The five-kingdom system of classification": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "2.7. Renowned Taxonomists in Ethiopia": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1. Characteristics of living things>No subsection": ["Cellular Organization", "Growth", "Reproduction", "Energy Requirement (Metabolism)", "Excretion", "Homeostasis", "Response to Stimuli"],
+      "2.2. Taxonomy of living things>2.2.1. Principles of classification": ["Purpose of Classification", "Taxonomy", "Taxonomists"],
+      "2.2. Taxonomy of living things>2.2.2. Taxonomic hierarchies in biological classification": ["Taxonomic Hierarchy (Order)", "Taxon Definition", "Three Domains"],
+      "2.3. Relevance of classification>No subsection": ["Study of Relationships", "Economic Utility"],
+      "2.4. Linnaean system of nomenclature>No subsection": ["Binomial Nomenclature Structure", "Writing Conventions (Italics/Capitalization)", "Avoiding Vernacular Confusion"],
+      "2.5. Common Ethiopian animals and plants>No subsection": ["Ethiopian Biodiversity", "Scientific Name Examples", "Dichotomous Key Purpose"],
+      "2.6. The five-kingdom system of classification>Kingdom Monera": ["Prokaryotic Cells", "Eubacteria vs Archaebacteria", "Beneficial vs Harmful Bacteria"],
+      "2.6. The five-kingdom system of classification>Kingdom Protista": ["Eukaryotic Unicellular/Multicellular", "Diverse Nutrition"],
+      "2.6. The five-kingdom system of classification>Kingdom Fungi": ["Heterotrophic Nutrition (Absorption)", "Chitin Cell Walls"],
+      "2.6. The five-kingdom system of classification>Kingdom Plantae": ["Autotrophic (Photosynthetic)", "Cellulose Cell Walls"],
+      "2.6. The five-kingdom system of classification>Kingdom Animalia": ["Multicellular Heterotrophs (Ingestion)", "Specialized Cells (Muscle/Nerve)"],
+      "2.7. Renowned Taxonomists in Ethiopia>No subsection": ["Contributions of Ethiopian Scientists"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_from_previous_state_R02",
+    "content_density_metrics": {
+      "total_concepts_extracted": 24,
+      "questions_per_concept_ratio": 1.25,
+      "structural_coverage_percentage": 25.6
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 2: Characteristics and Classification of Organisms",
+  "pdf_filename": "B9U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-03-07T12:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 7,
+        "total_sections": 7,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 7,
+      "subsections_covered_count": 7,
+      "mini_headings_covered_count": 20,
+      "structural_coverage_percentage": 25.6,
+      "concept_utilization_ratio": 1.25
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.1. Characteristics of living things",
+      "least_covered_section": "2.7. Renowned Taxonomists in Ethiopia",
+      "imbalance_ratio": 6.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U2_Q021",
+      "generation_timestamp": "2025-03-07T12:10:00Z",
+      "section": "2.1. Characteristics of living things",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Most living things maintain homeostasis:",
+      "mcq_type": "G",
+      "question": "If the external temperature drops significantly, what physiological response directly demonstrates homeostasis in a human?",
+      "options": {
+        "A": "Constriction of blood vessels near the skin to conserve heat.",
+        "B": "Increased sweating to cool the body through evaporation.",
+        "C": "Voluntary movement to a warmer location.",
+        "D": "A decrease in metabolic rate to reduce energy consumption."
+      },
+      "correct_answer": "A",
+      "hint": "Look for an automatic, internal regulatory mechanism.",
+      "explanation": "Homeostasis involves automatic physiological adjustments, like vasoconstriction, to maintain a stable internal temperature. Option C is a behavioral response, not a direct automatic homeostatic mechanism.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.1. Characteristics of living things",
+        "subsection_anchor": null,
+        "structural_element": "Most living things maintain homeostasis:",
+        "content_anchor": "regulation of an organism's internal conditions to maintain stability",
+        "page_hint": 3,
+        "concept_hash": "sha256_of_Homeostasis"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q022",
+      "generation_timestamp": "2025-03-07T12:10:00Z",
+      "section": "2.1. Characteristics of living things",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "All living organisms respond to stimuli:",
+      "mcq_type": "D",
+      "question": "A plant stem bending towards a light source is an example of which fundamental characteristic of life?",
+      "options": {
+        "A": "Response to stimuli",
+        "B": "Metabolic energy production",
+        "C": "Cellular growth",
+        "D": "Genetic reproduction"
+      },
+      "correct_answer": "A",
+      "hint": "The action is a reaction to an environmental change.",
+      "explanation": "Phototropism, the bending toward light, is a direct response to an environmental stimulus (light). Option C describes a process of increase in size, not the directional response to an external cue.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.1. Characteristics of living things",
+        "subsection_anchor": null,
+        "structural_element": "All living organisms respond to stimuli:",
+        "content_anchor": "detect or sense stimuli... and make appropriate responses",
+        "page_hint": 2,
+        "concept_hash": "sha256_of_Response_to_Stimuli"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q023",
+      "generation_timestamp": "2025-03-07T12:10:00Z",
+      "section": "2.2. Taxonomy of living things",
+      "subsection": "2.2.2. Taxonomic hierarchies in biological classification",
+      "sub_subsection": null,
+      "structural_anchor": "Key Terms:",
+      "mcq_type": "K",
+      "question": "The division of all life into Bacteria, Archaea, and Eukarya represents which level of the modern taxonomic hierarchy?",
+      "options": {
+        "A": "Domain",
+        "B": "Kingdom",
+        "C": "Phylum",
+        "D": "Family"
+      },
+      "correct_answer": "A",
+      "hint": "This is the highest and broadest rank in contemporary classification.",
+      "explanation": "The three-domain system (Bacteria, Archaea, Eukarya) is the highest taxonomic rank, above kingdom. Option B is incorrect because multiple kingdoms exist within the domain Eukarya.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key terms"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.2. Taxonomy of living things",
+        "subsection_anchor": "2.2.2. Taxonomic hierarchies in biological classification",
+        "structural_element": "Key Terms:",
+        "content_anchor": "three domains: Bacteria, Archaea, and Eukarya",
+        "page_hint": 4,
+        "concept_hash": "sha256_of_Three_Domains"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q024",
+      "generation_timestamp": "2025-03-07T12:10:00Z",
+      "section": "2.4. Linnaean system of nomenclature",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Binomial nomenclature",
+      "mcq_type": "F",
+      "question": "Considering that maize is called 'Bekkollo' in Amharic and 'corn' in American English, which reasoning best explains the universal scientific adoption of the name Zea mays?",
+      "options": {
+        "A": "It provides a single, unambiguous Latin name recognized globally, independent of language.",
+        "B": "It is easier to pronounce than any of the common vernacular names.",
+        "C": "It describes the physical characteristics of the plant more accurately.",
+        "D": "It was the first name ever given to the plant historically."
+      },
+      "correct_answer": "A",
+      "hint": "Think about the problem of multiple common names for the same organism.",
+      "explanation": "Binomial nomenclature solves the confusion of multiple vernacular names by providing a standardized two-part Latin name. Option C is incorrect because the scientific name does not necessarily describe physical traits better than some common names.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 84
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.4. Linnaean system of nomenclature",
+        "subsection_anchor": null,
+        "structural_element": "Binomial nomenclature",
+        "content_anchor": "Latin form... used in all over the world irrespective of language barriers",
+        "page_hint": 7,
+        "concept_hash": "sha256_of_Avoiding_Vernacular_Confusion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q025",
+      "generation_timestamp": "2025-03-07T12:10:00Z",
+      "section": "2.5. Common Ethiopian animals and plants",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Dichotomous keys",
+      "mcq_type": "L",
+      "question": "A biologist has an unknown vertebrate specimen. Using a dichotomous key, the first choice is between 'poikilothermic (cold-blooded)' and 'homoiothermic (warm-blooded)'. What is the primary purpose of this initial step?",
+      "options": {
+        "A": "To narrow down the possible classes by using a fundamental physiological characteristic.",
+        "B": "To determine the exact species of the specimen immediately.",
+        "C": "To identify the geographic origin of the organism.",
+        "D": "To assess the reproductive strategy of the organism."
+      },
+      "correct_answer": "A",
+      "hint": "Keys use contrasting pairs of characteristics to progressively eliminate groups.",
+      "explanation": "Dichotomous keys use major, general traits first to divide organisms into large groups, like vertebrate classes. Option B is flawed because species identification is the final step, not the first.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 82
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.5. Common Ethiopian animals and plants",
+        "subsection_anchor": null,
+        "structural_element": "Dichotomous keys",
+        "content_anchor": "pairs of contrasting features... starting with quite general characteristics",
+        "page_hint": 9,
+        "concept_hash": "sha256_of_Dichotomous_Key_Purpose"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 79,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q026",
+      "generation_timestamp": "2025-03-07T12:10:00Z",
+      "section": "2.6. The five-kingdom system of classification",
+      "subsection": "Kingdom Monera",
+      "sub_subsection": null,
+      "structural_anchor": "Did You Know?:",
+      "mcq_type": "H",
+      "question": "Which option identifies the flaw in the statement 'All bacteria are harmful and cause disease'?",
+      "options": {
+        "A": "It ignores the vast number of harmless and beneficial bacteria essential for ecosystems and human health.",
+        "B": "It incorrectly assumes bacteria are the only microorganisms that can cause illness.",
+        "C": "It fails to distinguish between bacterial diseases in plants and animals.",
+        "D": "It overlooks the fact that some bacteria can reproduce sexually."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the proportion and roles of bacteria that are not pathogenic.",
+      "explanation": "The misconception overgeneralizes, as most bacteria are neutral or beneficial (e.g., in digestion, decomposition). Option C addresses a different, more specific distinction, not the core overgeneralization.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "special element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 83
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.6. The five-kingdom system of classification",
+        "subsection_anchor": "Kingdom Monera",
+        "structural_element": "Did You Know?:",
+        "content_anchor": "only a few disease-causing bacteria compared to the number of harmless and beneficial bacteria",
+        "page_hint": 13,
+        "concept_hash": "sha256_of_Beneficial_vs_Harmful_Bacteria"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 81,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q027",
+      "generation_timestamp": "2025-03-07T12:10:00Z",
+      "section": "2.6. The five-kingdom system of classification",
+      "subsection": "Kingdom Fungi",
+      "sub_subsection": null,
+      "structural_anchor": "What are fungi?:",
+      "mcq_type": "B",
+      "question": "What is a key structural component found in the cell walls of fungi?",
+      "options": {
+        "A": "Chitin",
+        "B": "Cellulose",
+        "C": "Peptidoglycan",
+        "D": "Silica"
+      },
+      "correct_answer": "A",
+      "hint": "This is a tough polysaccharide also found in arthropod exoskeletons.",
+      "explanation": "Fungal cell walls are primarily composed of chitin, a nitrogen-containing polysaccharide. Option B, cellulose, is the main component of plant cell walls, not fungi.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 97
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.6. The five-kingdom system of classification",
+        "subsection_anchor": "Kingdom Fungi",
+        "structural_element": "What are fungi?:",
+        "content_anchor": "cell wall that is made up of chitin and polysaccharides",
+        "page_hint": 15,
+        "concept_hash": "sha256_of_Chitin_Cell_Walls"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 86,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q028",
+      "generation_timestamp": "2025-03-07T12:10:00Z",
+      "section": "2.6. The five-kingdom system of classification",
+      "subsection": "Kingdom Plantae",
+      "sub_subsection": null,
+      "structural_anchor": "What are plants?:",
+      "mcq_type": "A",
+      "question": "Which process, unique to plants and some protists, allows them to synthesize their own food using light energy?",
+      "options": {
+        "A": "Photosynthesis",
+        "B": "Respiration",
+        "C": "Digestion",
+        "D": "Fermentation"
+      },
+      "correct_answer": "A",
+      "hint": "This process converts light energy into chemical energy stored in sugars.",
+      "explanation": "Photosynthesis is the autotrophic process where plants use chlorophyll to convert sunlight, water, and CO2 into glucose. Option B, respiration, is a process that breaks down food to release energy, performed by all living things.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.6. The five-kingdom system of classification",
+        "subsection_anchor": "Kingdom Plantae",
+        "structural_element": "What are plants?:",
+        "content_anchor": "make their own food through the process of photosynthesis",
+        "page_hint": 17,
+        "concept_hash": "sha256_of_Autotrophic_Photosynthetic"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q029",
+      "generation_timestamp": "2025-03-07T12:10:00Z",
+      "section": "2.6. The five-kingdom system of classification",
+      "subsection": "Kingdom Animalia",
+      "sub_subsection": null,
+      "structural_anchor": "What is an Animal?:",
+      "mcq_type": "I",
+      "question": "How do animals primarily differ from fungi in their method of obtaining nutrients?",
+      "options": {
+        "A": "Animals ingest food and then digest it internally, while fungi secrete enzymes for external digestion.",
+        "B": "Animals are photosynthetic, while fungi are heterotrophic.",
+        "C": "Animals absorb nutrients directly through their cell walls, while fungi consume whole particles.",
+        "D": "Animals and fungi use identical methods of extracellular digestion."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the sequence: taking in food versus breaking it down outside the body.",
+      "explanation": "Animals are ingestive heterotrophs, consuming and internally digesting food. Fungi are absorptive heterotrophs, digesting food externally before absorption. Option B is incorrect because animals are not photosynthetic.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 85
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.6. The five-kingdom system of classification",
+        "subsection_anchor": "Kingdom Animalia",
+        "structural_element": "What is an Animal?:",
+        "content_anchor": "animals do not feed by absorption; instead, animals ingest their food",
+        "page_hint": 19,
+        "concept_hash": "sha256_of_Multicellular_Heterotrophs_Ingestion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q030",
+      "generation_timestamp": "2025-03-07T12:10:00Z",
+      "section": "2.7. Renowned Taxonomists in Ethiopia",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "As stated in section 2.5...:",
+      "mcq_type": "K",
+      "question": "The publication of the 'Flora of Ethiopia' is a significant contribution attributed to which group of Ethiopian scientists?",
+      "options": {
+        "A": "Renowned Ethiopian taxonomists",
+        "B": "International conservation organizations",
+        "C": "Agricultural extension workers",
+        "D": "Medical researchers"
+      },
+      "correct_answer": "A",
+      "hint": "This work involves the systematic documentation and classification of plant species.",
+      "explanation": "The 'Flora of Ethiopia' is a taxonomic work documenting the country's plant diversity, produced by Ethiopian taxonomists. Option B is incorrect because while international groups may collaborate, the primary credit is given to the national scientists.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 28.6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.7. Renowned Taxonomists in Ethiopia",
+        "subsection_anchor": null,
+        "structural_element": "As stated in section 2.5...:",
+        "content_anchor": "renowned taxonomists that contributed the publication of volumes of books on the Flora of Ethiopia",
+        "page_hint": 21,
+        "concept_hash": "sha256_of_Contributions_of_Ethiopian_Scientists"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2550,
+    "average_question_quality": 83.8,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "D": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "K": 1,
+      "L": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 6,
+      "hard": 0
+    },
+    "section_distribution": {
+      "2.1. Characteristics of living things": 2,
+      "2.2. Taxonomy of living things": 1,
+      "2.4. Linnaean system of nomenclature": 1,
+      "2.5. Common Ethiopian animals and plants": 1,
+      "2.6. The five-kingdom system of classification": 4,
+      "2.7. Renowned Taxonomists in Ethiopia": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

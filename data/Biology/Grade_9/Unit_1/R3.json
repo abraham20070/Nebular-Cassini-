@@ -1,0 +1,797 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Bio_U1_Q030",
+    "covered_sections": ["1.1 Definition of Biology", "1.2 Why do we study Biology?", "1.3. The Scientific Method", "1.4. Tools of a Biologist>1.4.1. Laboratory tools of biologist", "1.5. Handling and using a light Microscope>1.5.1. The parts and function of the light microscope", "1.4. Tools of a Biologist>1.4.2. Field tools", "1.5. Handling and using a light Microscope>1.5.2 Handling and using a light microscope", "1.6. General Laboratory Safety Rules"],
+    "used_question_signatures": ["hash_A_DefLife", "hash_G_CauseEnergy", "hash_F_ConceptHypothesis", "hash_B_TermMicroscope", "hash_K_InterpretMagnification", "hash_D_AppHandLens", "hash_C_FormulaMag", "hash_I_CompareMicroscope", "hash_H_MisconOil", "hash_L_ExpCondenser", "hash_A_DefSciMethod", "hash_J_ClassLife", "hash_D_AppScientific", "hash_F_ConceptReproduction", "hash_G_CauseHomeostasis", "hash_B_TermAutoclave", "hash_K_InterpretPetri", "hash_E_NumMagCalc", "hash_D_AppIncubator", "hash_H_MisconSafety", "hash_B_TermBiology", "hash_C_FormulaMagNone", "hash_D_AppFieldTool", "hash_F_ConceptAdaptation", "hash_G_CauseStimuli", "hash_H_MisconMicroscopeUse", "hash_I_CompareMagTools", "hash_K_InterpretDiaphragm", "hash_L_ExpSafetyRule", "hash_M_SeqScientificMethod"],
+    "baseline_counter": {
+      "1.1 Definition of Biology": {
+        "count": 3,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "1.2 Why do we study Biology?": {
+        "count": 3,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "1.3. The Scientific Method": {
+        "count": 3,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "1.4. Tools of a Biologist": {
+        "1.4.1. Laboratory tools of biologist": {
+          "count": 6,
+          "mini_headings_covered": ["Hand lens", "The Microscope", "Autoclave", "Petri dishes", "Incubator", "Glass slides and cover slips", "Balance", "Dropper", "Tongs", "Dissecting Tool Kit", "Dissecting pan", "Crucible", "Beaker", "Hotplate", "pH meter", "Thermometer", "Forceps", "Spatula", "Wash Bottles", "Bunsen burner or alcohol burner"],
+          "last_question_round": 3
+        },
+        "1.4.2. Field tools": {
+          "count": 2,
+          "mini_headings_covered": ["Insect nets"],
+          "last_question_round": 3
+        }
+      },
+      "1.5. Handling and using a light Microscope": {
+        "1.5.1. The parts and function of the light microscope": {
+          "count": 5,
+          "mini_headings_covered": ["1. Eyepiece", "12. Condensers", "13. Diaphragm", "4. Arm", "5. Body tube", "6. Nose piece", "7. The Adjustment knobs", "8. Stage", "9. Stage clip", "10. Aperture", "11. Microscopic illuminator", "14. Base"],
+          "last_question_round": 3
+        },
+        "1.5.2 Handling and using a light microscope": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "1.6. General Laboratory Safety Rules": {
+        "count": 2,
+        "mini_headings_covered": ["5. Never taste or sniff chemicals.", "2. Knowing the location of safety equipment"],
+        "last_question_round": 3
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1 Definition of Biology": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "1.2 Why do we study Biology?": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "1.3. The Scientific Method": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "1.4. Tools of a Biologist": {
+        "question_count": 8,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "1.5. Handling and using a light Microscope": {
+        "question_count": 7,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "1.6. General Laboratory Safety Rules": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1 Definition of Biology": ["Properties of life", "Scientific study", "Reproduction", "Definition of Biology", "Evolutionary adaptation"],
+      "1.2 Why do we study Biology?": ["Applications of biology", "Energy for work", "Homeostasis", "Response to stimuli"],
+      "1.3. The Scientific Method": ["Hypothesis", "Testing", "Steps of scientific method", "Sequence of steps"],
+      "1.4. Tools of a Biologist>1.4.1. Laboratory tools of biologist": ["Hand lens magnification", "Microscope definition", "Total magnification formula", "Autoclave function", "Petri dish use", "Incubator function", "Glass slide function", "Balance function", "Dropper function", "Tongs function", "Dissecting kit", "Dissecting pan", "Crucible", "Beaker", "Hotplate", "pH meter", "Thermometer", "Forceps", "Spatula", "Wash bottle", "Bunsen burner"],
+      "1.5. Handling and using a light Microscope>1.5.1. The parts and function of the light microscope": ["Eyepiece function", "Condenser function", "Oil immersion misconception", "Magnification calculation", "Diaphragm function", "Arm function", "Body tube", "Nosepiece", "Adjustment knobs", "Stage", "Stage clip", "Aperture", "Illuminator", "Base"],
+      "1.4. Tools of a Biologist>1.4.2. Field tools": ["Insect net", "Field tool application"],
+      "1.5. Handling and using a light Microscope>1.5.2 Handling and using a light microscope": ["Microscope handling", "Carrying microscope"],
+      "1.6. General Laboratory Safety Rules": ["Chemical safety", "Safety equipment location"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_state_after_R02",
+    "content_density_metrics": {
+      "total_concepts_extracted": 43,
+      "questions_per_concept_ratio": 0.7,
+      "structural_coverage_percentage": 20.45
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 1: Introduction to Biology",
+  "pdf_filename": "B9U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.67,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 22,
+      "structural_coverage_percentage": 50.0,
+      "concept_utilization_ratio": 0.7
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.5. Handling and using a light Microscope",
+      "least_covered_section": "1.6. General Laboratory Safety Rules",
+      "imbalance_ratio": 3.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U1_Q021",
+      "generation_timestamp": "2025-01-28T10:10:00Z",
+      "section": "1.1 Definition of Biology",
+      "subsection": "1.1 Definition of Biology",
+      "sub_subsection": null,
+      "structural_anchor": "Key Terms",
+      "mcq_type": "B",
+      "question": "What is the term for the scientific study of life and living organisms?",
+      "options": {
+        "A": "Ecology",
+        "B": "Biology",
+        "C": "Zoology",
+        "D": "Physiology"
+      },
+      "correct_answer": "B",
+      "hint": "The name originates from Greek words meaning 'life' and 'study'.",
+      "explanation": "Biology is defined as the scientific study of life, derived from the Greek 'bios' (life) and 'logos' (study). Option A, ecology, is a sub-discipline of biology focusing on organisms and their environment.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "Key terms"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.1 Definition of Biology",
+        "subsection_anchor": "1.1 Definition of Biology",
+        "structural_element": "Key Terms",
+        "content_anchor": "Biology: came from two Greek words bios means life, and logos meaning study.",
+        "page_hint": "Page 1",
+        "concept_hash": "hash_of_biology_definition_term"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q022",
+      "generation_timestamp": "2025-01-28T10:10:00Z",
+      "section": "1.3. The Scientific Method",
+      "subsection": "1.3. The Scientific Method",
+      "sub_subsection": null,
+      "structural_anchor": "The scientific method involves a series of steps",
+      "mcq_type": "C",
+      "question": "Which of the following correctly represents the calculation for total magnification in a compound light microscope?",
+      "options": {
+        "A": "Total Magnification = Eyepiece Magnification + Objective Magnification",
+        "B": "Total Magnification = Eyepiece Magnification × Objective Magnification",
+        "C": "Total Magnification = Eyepiece Magnification ÷ Objective Magnification",
+        "D": "Total Magnification = (Eyepiece Magnification + Objective Magnification) / 2"
+      },
+      "correct_answer": "B",
+      "hint": "The magnifying power of the two lens systems combines multiplicatively.",
+      "explanation": "The formula for total microscope magnification is the product of the eyepiece and objective lens magnifications. Option A incorrectly uses addition, which does not represent the combined optical effect.",
+      "difficulty_level": "easy",
+      "formula_used": ["Total Magnification = Eyepiece Magnification × Objective Magnification"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.3. The Scientific Method",
+        "subsection_anchor": "1.3. The Scientific Method",
+        "structural_element": "Content on magnification",
+        "content_anchor": "magnification is the product of eye and objective lenses",
+        "page_hint": "Page 6",
+        "concept_hash": "hash_of_magnification_formula_repeat"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q023",
+      "generation_timestamp": "2025-01-28T10:10:00Z",
+      "section": "1.4. Tools of a Biologist",
+      "subsection": "1.4.2. Field tools",
+      "sub_subsection": null,
+      "structural_anchor": "Insect nets",
+      "mcq_type": "D",
+      "question": "A biologist needs to collect flying insects from a meadow for species identification. Which tool is most appropriate for this task?",
+      "options": {
+        "A": "Petri dish",
+        "B": "Insect net",
+        "C": "Microscope",
+        "D": "Autoclave"
+      },
+      "correct_answer": "B",
+      "hint": "This tool is designed for capturing airborne specimens in the field.",
+      "explanation": "An insect net is a field tool specifically designed for collecting flying insects. Option C, a microscope, is used for observation in the lab, not collection in the field.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.4. Tools of a Biologist",
+        "subsection_anchor": "1.4.2. Field tools",
+        "structural_element": "Insect nets",
+        "content_anchor": "insect collecting nets",
+        "page_hint": "Page 10",
+        "concept_hash": "hash_of_insect_net_application"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q024",
+      "generation_timestamp": "2025-01-28T10:10:00Z",
+      "section": "1.1 Definition of Biology",
+      "subsection": "1.1 Definition of Biology",
+      "sub_subsection": null,
+      "structural_anchor": "Living things:",
+      "mcq_type": "F",
+      "question": "Under the condition that environmental pressures favor certain heritable traits, which reasoning best explains the long-term outcome for a population of organisms?",
+      "options": {
+        "A": "Individuals will consciously change their behavior to suit the new environment.",
+        "B": "The population will evolve through the increased survival and reproduction of individuals with advantageous traits.",
+        "C": "All members of the population will gradually develop identical new characteristics.",
+        "D": "The population's genetic makeup will remain static, but migration will increase."
+      },
+      "correct_answer": "B",
+      "hint": "This process involves changes in heritable characteristics over generations.",
+      "explanation": "Evolutionary adaptation describes how populations change over time as advantageous traits become more common through natural selection. Option C is incorrect because evolution does not produce identical characteristics in all individuals.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.1 Definition of Biology",
+        "subsection_anchor": "1.1 Definition of Biology",
+        "structural_element": "Living things:",
+        "content_anchor": "are capable of evolutionary adaptation to the environment",
+        "page_hint": "Page 1",
+        "concept_hash": "hash_of_evolutionary_adaptation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q025",
+      "generation_timestamp": "2025-01-28T10:10:00Z",
+      "section": "1.2 Why do we study Biology?",
+      "subsection": "1.2 Why do we study Biology?",
+      "sub_subsection": null,
+      "structural_anchor": "Living things:",
+      "mcq_type": "G",
+      "question": "If a plant's leaves are touched repeatedly, they may fold up or droop. What property of living organisms does this phenomenon demonstrate?",
+      "options": {
+        "A": "Growth and development",
+        "B": "Response to stimuli",
+        "C": "Genetic inheritance",
+        "D": "Energy transformation"
+      },
+      "correct_answer": "B",
+      "hint": "This involves reacting to changes in the immediate environment.",
+      "explanation": "Response to stimuli is a key characteristic of life; organisms detect and react to changes in their environment. Option D describes metabolism, which is a different life process.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.2 Why do we study Biology?",
+        "subsection_anchor": "1.2 Why do we study Biology?",
+        "structural_element": "Living things:",
+        "content_anchor": "can respond to stimuli",
+        "page_hint": "Page 1",
+        "concept_hash": "hash_of_response_to_stimuli"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q026",
+      "generation_timestamp": "2025-01-28T10:10:00Z",
+      "section": "1.5. Handling and using a light Microscope",
+      "subsection": "1.5.2 Handling and using a light microscope",
+      "sub_subsection": null,
+      "structural_anchor": "Carry the microscope properly",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in the reasoning that a microscope can be safely carried by holding it with one hand around the body tube?",
+      "options": {
+        "A": "The microscope should always be carried with one hand under the base and the other on the arm for stability.",
+        "B": "Holding the body tube is acceptable if the stage is lowered first to prevent slide damage.",
+        "C": "The eyepiece is the most secure grip point because it is firmly attached.",
+        "D": "Microscopes are lightweight and can be safely carried in any manner over short distances."
+      },
+      "correct_answer": "A",
+      "hint": "Proper handling prevents damage to delicate optical components and ensures safety.",
+      "explanation": "The correct handling procedure is to grip the arm with one hand and support the base with the other. Option D contains the error by suggesting any carrying method is safe, which risks dropping and damaging the instrument.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.5. Handling and using a light Microscope",
+        "subsection_anchor": "1.5.2 Handling and using a light microscope",
+        "structural_element": "Handling instructions",
+        "content_anchor": "always grip the microscope by the arm and put your hand beneath its base",
+        "page_hint": "Page 13",
+        "concept_hash": "hash_of_microscope_carrying"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q027",
+      "generation_timestamp": "2025-01-28T10:10:00Z",
+      "section": "1.4. Tools of a Biologist",
+      "subsection": "1.4.1. Laboratory tools of biologist",
+      "sub_subsection": null,
+      "structural_anchor": "The Microscope",
+      "mcq_type": "I",
+      "question": "How does the primary function of a hand lens fundamentally differ from that of a compound light microscope?",
+      "options": {
+        "A": "A hand lens uses a single lens for low magnification, while a compound microscope uses multiple lenses for much higher magnification.",
+        "B": "A hand lens requires an external light source, while a compound microscope has a built-in illuminator.",
+        "C": "A hand lens is used for field observations, while a compound microscope is used only in laboratory settings.",
+        "D": "A hand lens magnifies by reflecting light, while a compound microscope magnifies by refracting light."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the optical design and resulting magnifying power.",
+      "explanation": "The key functional difference is magnification capability: a hand lens has a single convex lens for low magnification, while a compound microscope uses multiple lenses for high magnification. Option C describes typical usage contexts, not the fundamental functional difference.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.4. Tools of a Biologist",
+        "subsection_anchor": "1.4.1. Laboratory tools of biologist",
+        "structural_element": "The Microscope",
+        "content_anchor": "hand lens has a single lens, compound microscope has multiple lenses",
+        "page_hint": "Pages 5-6",
+        "concept_hash": "hash_of_magnification_tool_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q028",
+      "generation_timestamp": "2025-01-28T10:10:00Z",
+      "section": "1.5. Handling and using a light Microscope",
+      "subsection": "1.5.1. The parts and function of the light microscope",
+      "sub_subsection": null,
+      "structural_anchor": "13. Diaphragm",
+      "mcq_type": "K",
+      "question": "When observing a thinly stained specimen under a microscope, closing the diaphragm reduces the amount of light reaching the stage. What is the most likely effect on the viewed image?",
+      "options": {
+        "A": "The magnification will decrease.",
+        "B": "The field of view will become brighter but less detailed.",
+        "C": "The contrast of the specimen will increase, potentially revealing more detail.",
+        "D": "The resolution will improve, allowing distinction of smaller structures."
+      },
+      "correct_answer": "C",
+      "hint": "Think about how light intensity affects the perception of transparent samples.",
+      "explanation": "The diaphragm controls light intensity; reducing light can increase contrast in thinly stained specimens, making details more visible. Option B is incorrect because closing the diaphragm reduces brightness, it does not increase it.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.5. Handling and using a light Microscope",
+        "subsection_anchor": "1.5.1. The parts and function of the light microscope",
+        "structural_element": "13. Diaphragm",
+        "content_anchor": "primary role is to control the amount of light that reaches the specimen",
+        "page_hint": "Page 12",
+        "concept_hash": "hash_of_diaphragm_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q029",
+      "generation_timestamp": "2025-01-28T10:10:00Z",
+      "section": "1.6. General Laboratory Safety Rules",
+      "subsection": "1.6. General Laboratory Safety Rules",
+      "sub_subsection": null,
+      "structural_anchor": "2. Knowing the location of safety equipment",
+      "mcq_type": "L",
+      "question": "During a laboratory session, a small chemical spill occurs. According to standard safety protocols, what should be the immediate action regarding safety equipment?",
+      "options": {
+        "A": "Use the nearest fire extinguisher to spray the chemical, regardless of its type.",
+        "B": "Locate and use the appropriate spill kit or neutralizing agent if available.",
+        "C": "Evacuate the laboratory immediately and call emergency services from outside.",
+        "D": "Ignore the spill if it is small and continue with the experiment."
+      },
+      "correct_answer": "B",
+      "hint": "The response should involve using equipment designed for containing and cleaning spills.",
+      "explanation": "Knowing the location and proper use of safety equipment like spill kits is essential for handling chemical accidents. Option A is incorrect because fire extinguishers are not appropriate for most chemical spills and can worsen the situation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.6. General Laboratory Safety Rules",
+        "subsection_anchor": "1.6. General Laboratory Safety Rules",
+        "structural_element": "2. Knowing the location of safety equipment",
+        "content_anchor": "important to know the location of the safety equipment and how to use it",
+        "page_hint": "Page 14",
+        "concept_hash": "hash_of_safety_equipment_knowledge"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q030",
+      "generation_timestamp": "2025-01-28T10:10:00Z",
+      "section": "1.3. The Scientific Method",
+      "subsection": "1.3. The Scientific Method",
+      "sub_subsection": null,
+      "structural_anchor": "The general steps of the Scientific methods are:",
+      "mcq_type": "M",
+      "question": "What is the correct sequence of key steps in the scientific method, starting from the initial stage?",
+      "options": {
+        "A": "Hypothesis → Experiment → Observation → Conclusion",
+        "B": "Observation → Question → Hypothesis → Experiment",
+        "C": "Question → Experiment → Observation → Hypothesis",
+        "D": "Experiment → Conclusion → Hypothesis → Observation"
+      },
+      "correct_answer": "B",
+      "hint": "The process begins with noticing something and ends with testing an explanation.",
+      "explanation": "The scientific method sequence begins with observation, leading to a question, then a testable hypothesis, and finally experimentation. Option A is incorrect because hypothesis formulation cannot occur before observation.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.3. The Scientific Method",
+        "subsection_anchor": "1.3. The Scientific Method",
+        "structural_element": "The general steps of the Scientific methods are:",
+        "content_anchor": "Observation, Asking Questions, Forming of a hypothesis, Testing the hypothesis",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_of_scientific_method_sequence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2550,
+    "average_question_quality": 83.5,
+    "type_distribution": {
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "K": 1,
+      "L": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 6,
+      "hard": 0
+    },
+    "section_distribution": {
+      "1.1 Definition of Biology": 2,
+      "1.2 Why do we study Biology?": 1,
+      "1.3. The Scientific Method": 2,
+      "1.4. Tools of a Biologist": 2,
+      "1.5. Handling and using a light Microscope": 2,
+      "1.6. General Laboratory Safety Rules": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

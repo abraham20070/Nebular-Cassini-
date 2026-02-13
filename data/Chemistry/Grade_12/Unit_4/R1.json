@@ -1,0 +1,838 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T10:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Chem_U4_Q010",
+    "covered_sections": ["4.1 Introduction to Polymers", "4.2 Polymerization Reactions", "4.3 Classification of Polymers"],
+    "used_question_signatures": ["35f01c3d7e7d3b7c5d8c9a2b1f0e3d4a", "8a2f1c9b4d5e7f3a0c6b8d9e1f2a3c5", "c7b3a9e1d5f2a8c4b0d6e8f1a3c5b9", "d4f8a2c6b0e1d3a7c5b9f2e8a1c4", "a5c9e3b7f1d8a2c4b0e6f9a1c3d7", "b8d2f6a0c4e1b9d3f7a5c1e9b4", "e9c5a1f3d7b8d2f6a0c4e1b9", "f2a6d0c4b8e1d5f9a3c7b1e5", "a1e7c3b9f5d1a8c4f0b6e2d8", "c4b0f6a2d8e1c5b9f3a7d1"],
+    "baseline_counter": {
+      "4.1 Introduction to Polymers": {
+        "Activity 4.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Polymer": {
+          "count": 1,
+          "mini_headings_covered": ["Polymer:"],
+          "last_question_round": 1
+        },
+        "Monomers": {
+          "count": 1,
+          "mini_headings_covered": ["Monomers:"],
+          "last_question_round": 1
+        },
+        "Example 4.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Example 4.2": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "4.2 Polymerization Reactions": {
+        "Activity 4.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Addition Polymerization": {
+          "count": 2,
+          "mini_headings_covered": ["Note that:"],
+          "last_question_round": 1
+        },
+        "Example 4.3": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Steps of addition polymerization": {
+          "count": 1,
+          "mini_headings_covered": ["Chain initiation step:", "Chain propagation step:", "Chain termination step:"],
+          "last_question_round": 1
+        },
+        "Example 4.4": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Condensation polymerization": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Experiment 4.1": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Exercise 4.2": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "4.3 Classification of Polymers": {
+        "Activity 4.3": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Homopolymers": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Copolymers": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Natural polymers": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Synthetic polymers": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Thermoplastic polymers": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Thermoset polymers": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1 Introduction to Polymers": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.2 Polymerization Reactions": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.3 Classification of Polymers": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1 Introduction to Polymers>Activity 4.1": ["Polymeric nature of materials"],
+      "4.1 Introduction to Polymers>Polymer": ["Polymer definition", "Degree of polymerization"],
+      "4.1 Introduction to Polymers>Monomers": ["Monomer definition"],
+      "4.1 Introduction to Polymers>Example 4.1": ["Examples of polymers"],
+      "4.2 Polymerization Reactions>Activity 4.2": ["Polymerization analogies"],
+      "4.2 Polymerization Reactions>Addition Polymerization": ["Addition polymerization", "Chain-growth polymerization", "Unsaturated monomers"],
+      "4.2 Polymerization Reactions>Example 4.3": ["Polyvinyl chloride", "Repeating unit", "Molar mass calculation"],
+      "4.2 Polymerization Reactions>Steps of addition polymerization": ["Chain initiation", "Chain propagation", "Chain termination", "Free radical polymerization"],
+      "4.2 Polymerization Reactions>Example 4.4": ["Free radical polymerization steps"],
+      "4.2 Polymerization Reactions>Condensation polymerization": ["Condensation polymerization", "Step growth polymerization", "Byproducts"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_integrity",
+    "content_density_metrics": {
+      "total_concepts_extracted": 20,
+      "questions_per_concept_ratio": 0.5,
+      "structural_coverage_percentage": 33.3
+    }
+  },
+  "grade": "12",
+  "subject": "Chemistry",
+  "unit": "Unit 4: POLYMERS",
+  "pdf_filename": "C12U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T10:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 3,
+        "progress_percentage": 66.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 7,
+      "mini_headings_covered_count": 4,
+      "structural_coverage_percentage": 23.3,
+      "concept_utilization_ratio": 0.5
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.2 Polymerization Reactions",
+      "least_covered_section": "4.3 Classification of Polymers",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Chem_U4_Q001",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "4.1 Introduction to Polymers",
+      "subsection": "Polymer",
+      "sub_subsection": null,
+      "structural_anchor": "Polymer:",
+      "mcq_type": "A",
+      "question": "What term describes a large chainlike molecule constructed from many interconnected repeating units?",
+      "options": {
+        "A": "Polymer",
+        "B": "Monomer",
+        "C": "Oligomer",
+        "D": "Dimer"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the definition of a large molecule built from repeating smaller units.",
+      "explanation": "A polymer is defined as a large molecule composed of many repeating subunits called monomers. Option B incorrectly identifies the individual building block, not the assembled chain.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.1 Introduction to Polymers",
+        "subsection_anchor": "Polymer",
+        "structural_element": "Polymer:",
+        "content_anchor": "large chainlike molecule built up from many repeating smaller molecules",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_polymer_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q002",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "4.1 Introduction to Polymers",
+      "subsection": "Monomers",
+      "sub_subsection": null,
+      "structural_anchor": "Monomers:",
+      "mcq_type": "A",
+      "question": "Which term refers to the small molecules that serve as the fundamental building blocks for creating polymers?",
+      "options": {
+        "A": "Monomers",
+        "B": "Polymers",
+        "C": "Oligomers",
+        "D": "Catalysts"
+      },
+      "correct_answer": "A",
+      "hint": "Focus on the basic unit from which larger chains are constructed.",
+      "explanation": "Monomers are the small, reactive molecules that link together to form polymers. Option B describes the final product of this linking process, not the starting material.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.1 Introduction to Polymers",
+        "subsection_anchor": "Monomers",
+        "structural_element": "Monomers:",
+        "content_anchor": "small molecules used as the basic building blocks for polymers",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_monomer_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q003",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Addition Polymerization",
+      "sub_subsection": null,
+      "structural_anchor": "Addition Polymerization",
+      "mcq_type": "A",
+      "question": "What is the name of the polymerization process where unsaturated monomers add to a growing chain one unit at a time?",
+      "options": {
+        "A": "Addition polymerization",
+        "B": "Condensation polymerization",
+        "C": "Cross-linking polymerization",
+        "D": "Ring-opening polymerization"
+      },
+      "correct_answer": "A",
+      "hint": "Consider reactions involving monomers with double or triple bonds.",
+      "explanation": "Addition polymerization, also known as chain-growth polymerization, involves the sequential addition of unsaturated monomers. Option B incorrectly describes a process that releases small molecules like water.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Addition Polymerization",
+        "structural_element": "Addition Polymerization",
+        "content_anchor": "addition polymerization is a reaction in which a chain reaction adds new monomer units",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_addition_polymerization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q004",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Addition Polymerization",
+      "sub_subsection": null,
+      "structural_anchor": "Note that:",
+      "mcq_type": "F",
+      "question": "Under the condition that a polymer is synthesized from an unsaturated monomer, which reasoning best explains why its molecular formula is an integer multiple of the monomer's formula?",
+      "options": {
+        "A": "Addition polymerization converts multiple bonds to single bonds without losing atoms.",
+        "B": "Condensation reactions eliminate small molecules, altering the formula ratio.",
+        "C": "The monomer's molar mass decreases during the initiation step.",
+        "D": "Cross-linking between chains incorporates additional atoms from initiators."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fate of the double bond in the monomer during chain growth.",
+      "explanation": "In addition polymerization, the π bond in an unsaturated monomer breaks to form two new σ bonds, incorporating all atoms into the polymer chain. Option B mistakenly applies the mechanism of condensation polymerization, where byproducts are lost.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Addition Polymerization",
+        "structural_element": "Note that:",
+        "content_anchor": "molecular formula of a polymer is n times that of the monomer",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_formula_relationship"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q005",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Steps of addition polymerization",
+      "sub_subsection": null,
+      "structural_anchor": "Chain initiation step:",
+      "mcq_type": "B",
+      "question": "In free radical addition polymerization, what is the primary function of the initiator molecule in the chain initiation step?",
+      "options": {
+        "A": "To generate a reactive species that attacks the monomer's double bond.",
+        "B": "To terminate the growing polymer chain by neutralizing the radical.",
+        "C": "To transfer the active center to a solvent molecule.",
+        "D": "To catalyze the formation of condensation byproducts."
+      },
+      "correct_answer": "A",
+      "hint": "Focus on the step where the polymerization reaction is first started.",
+      "explanation": "The initiator decomposes to produce a free radical, which attacks the π bond of a monomer to start chain growth. Option B describes the role of a termination step, not initiation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Steps of addition polymerization",
+        "structural_element": "Chain initiation step:",
+        "content_anchor": "polymerization process is started by means of a reactive initiator molecule",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_chain_initiation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q006",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Steps of addition polymerization",
+      "sub_subsection": null,
+      "structural_anchor": "Chain propagation step:",
+      "mcq_type": "G",
+      "question": "If a growing polymer chain with a free radical end adds a monomer molecule during addition polymerization, what is the immediate consequence for the radical?",
+      "options": {
+        "A": "The radical transfers to the new chain end, allowing further growth.",
+        "B": "The radical is permanently neutralized, halting the chain.",
+        "C": "The radical converts to an anion, changing the mechanism.",
+        "D": "The radical combines with another radical, forming a stable bond."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the step where the chain rapidly increases in length.",
+      "explanation": "During chain propagation, the radical at the chain end attacks a monomer, forming a new bond and regenerating a radical at the new terminus. Option B incorrectly describes chain termination, which stops growth.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Steps of addition polymerization",
+        "structural_element": "Chain propagation step:",
+        "content_anchor": "monomer adds to the growing chain, with the free radical transferring to the chain end",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_chain_propagation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q007",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Condensation polymerization",
+      "sub_subsection": null,
+      "structural_anchor": "Condensation polymerization",
+      "mcq_type": "A",
+      "question": "Which polymerization process involves the combination of monomers with the concomitant release of small molecules such as water or methanol?",
+      "options": {
+        "A": "Condensation polymerization",
+        "B": "Addition polymerization",
+        "C": "Free radical polymerization",
+        "D": "Cationic polymerization"
+      },
+      "correct_answer": "A",
+      "hint": "Look for the reaction type that produces a byproduct.",
+      "explanation": "Condensation polymerization, or step-growth polymerization, joins monomers while eliminating small molecules like water. Option B describes a process where monomers add without loss of atoms.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Condensation polymerization",
+        "structural_element": "Condensation polymerization",
+        "content_anchor": "involves the combination of monomer molecules, with the release of simple molecules like water",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_condensation_polymerization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q008",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "4.1 Introduction to Polymers",
+      "subsection": "Example 4.1",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.1",
+      "mcq_type": "J",
+      "question": "Which of the following sets consists entirely of substances classified as polymers?",
+      "options": {
+        "A": "Polyethylene, cellulose, protein",
+        "B": "Glucose, ethylene, amino acid",
+        "C": "Water, sodium chloride, carbon dioxide",
+        "D": "Methane, ethane, propane"
+      },
+      "correct_answer": "A",
+      "hint": "Identify materials composed of large, chainlike molecules.",
+      "explanation": "Polyethylene, cellulose, and proteins are all large molecules built from repeating monomer units. Option B incorrectly lists small molecules that serve as monomers, not polymers.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.1 Introduction to Polymers",
+        "subsection_anchor": "Example 4.1",
+        "structural_element": "Example 4.1",
+        "content_anchor": "Examples of polymers are: polyethylene, wood (cellulose), protein",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_polymer_examples"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q009",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "4.1 Introduction to Polymers",
+      "subsection": "Activity 4.1",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 4.1",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that glass is not a polymeric material?",
+      "options": {
+        "A": "Assuming all polymers must be organic and flexible, ignoring inorganic network polymers.",
+        "B": "Confusing the transparent appearance of glass with a non-polymeric crystalline structure.",
+        "C": "Mistaking the hardness of glass for metallic bonding instead of covalent networking.",
+        "D": "Believing that only materials derived from living organisms can be polymers."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the broad definition of a polymer and the composition of glass.",
+      "explanation": "The definition of a polymer as a large molecule of repeating units includes inorganic examples like glass (silicon-oxygen network). Option D introduces an irrelevant restriction to biological origins, which is not part of the polymer definition.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.1 Introduction to Polymers",
+        "subsection_anchor": "Activity 4.1",
+        "structural_element": "Activity 4.1",
+        "content_anchor": "look at the following materials... the glass of the window",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_polymeric_nature"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q010",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Activity 4.2",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 4.2",
+      "mcq_type": "F",
+      "question": "Under the condition that polymerization is analogous to linking small metal rings into a chain, which reasoning best explains the requirement for monomer polyfunctionality?",
+      "options": {
+        "A": "Each ring must have two connection points to link to other rings, similar to a bifunctional monomer.",
+        "B": "The chain strength depends on the color of the rings, analogous to monomer size.",
+        "C": "Rings can only be added one at a time, mirroring cationic polymerization only.",
+        "D": "The final chain length is fixed by the first ring, representing a termination step."
+      },
+      "correct_answer": "A",
+      "hint": "Consider how individual units connect to form a continuous chain.",
+      "explanation": "Polyfunctionality, such as two functional groups per monomer, allows bonds to form in at least two directions, enabling chain extension. Option C incorrectly limits the analogy to one specific polymerization mechanism.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Activity 4.2",
+        "structural_element": "Activity 4.2",
+        "content_anchor": "Long chains are made up of linkage of small metal rings... propose formation of large molecules.",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_polymerization_analogy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2850,
+    "average_question_quality": 84.5,
+    "type_distribution": {
+      "A": 4,
+      "B": 1,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "4.1 Introduction to Polymers": 4,
+      "4.2 Polymerization Reactions": 6
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

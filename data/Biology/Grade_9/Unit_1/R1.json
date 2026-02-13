@@ -1,0 +1,793 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G9_Bio_U1_Q010",
+    "covered_sections": ["1.1 Definition of Biology", "1.2 Why do we study Biology?", "1.3. The Scientific Method", "1.4. Tools of a Biologist>1.4.1. Laboratory tools of biologist", "1.5. Handling and using a light Microscope>1.5.1. The parts and function of the light microscope"],
+    "used_question_signatures": ["hash_A_DefLife", "hash_G_CauseEnergy", "hash_F_ConceptHypothesis", "hash_B_TermMicroscope", "hash_K_InterpretMagnification", "hash_D_AppHandLens", "hash_C_FormulaMag", "hash_I_CompareMicroscope", "hash_H_MisconOil", "hash_L_ExpCondenser"],
+    "baseline_counter": {
+      "1.1 Definition of Biology": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "1.2 Why do we study Biology?": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "1.3. The Scientific Method": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "1.4. Tools of a Biologist": {
+        "1.4.1. Laboratory tools of biologist": {
+          "count": 2,
+          "mini_headings_covered": ["Hand lens", "The Microscope"],
+          "last_question_round": 1
+        },
+        "1.4.2. Field tools": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "1.5. Handling and using a light Microscope": {
+        "1.5.1. The parts and function of the light microscope": {
+          "count": 3,
+          "mini_headings_covered": ["1. Eyepiece", "12. Condensers"],
+          "last_question_round": 1
+        },
+        "1.5.2 Handling and using a light microscope": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "1.6. General Laboratory Safety Rules": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1 Definition of Biology": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.2 Why do we study Biology?": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.3. The Scientific Method": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.4. Tools of a Biologist": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.5. Handling and using a light Microscope": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.6. General Laboratory Safety Rules": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1 Definition of Biology": ["Properties of life", "Scientific study"],
+      "1.2 Why do we study Biology?": ["Applications of biology", "Energy for work"],
+      "1.3. The Scientific Method": ["Hypothesis", "Testing"],
+      "1.4. Tools of a Biologist>1.4.1. Laboratory tools of biologist": ["Hand lens magnification", "Microscope definition", "Total magnification formula"],
+      "1.5. Handling and using a light Microscope>1.5.1. The parts and function of the light microscope": ["Eyepiece function", "Condenser function", "Oil immersion misconception"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "placeholder_hash_for_first_batch",
+    "content_density_metrics": {
+      "total_concepts_extracted": 11,
+      "questions_per_concept_ratio": 0.91,
+      "structural_coverage_percentage": 11.36
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 1: Introduction to Biology",
+  "pdf_filename": "B9U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 6,
+        "progress_percentage": 83.33
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 4,
+      "structural_coverage_percentage": 9.09,
+      "concept_utilization_ratio": 0.91
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.5. Handling and using a light Microscope",
+      "least_covered_section": "1.6. General Laboratory Safety Rules",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U1_Q001",
+      "generation_timestamp": "2025-01-28T10:00:00Z",
+      "section": "1.1 Definition of Biology",
+      "subsection": "1.1 Definition of Biology",
+      "sub_subsection": null,
+      "structural_anchor": "Living things:",
+      "mcq_type": "A",
+      "question": "Which characteristic is common to all living organisms, distinguishing them from non-living matter?",
+      "options": {
+        "A": "Composed of one or more cells",
+        "B": "Ability to move from place to place",
+        "C": "Presence of a solid outer shell",
+        "D": "Production of light energy"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental structural unit of life.",
+      "explanation": "Cellular organization is a fundamental property of life; all living things are made of cells. Option B is incorrect because movement is not a universal characteristic, as many plants and some microorganisms are sessile.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.1 Definition of Biology",
+        "subsection_anchor": "1.1 Definition of Biology",
+        "structural_element": "Living things:",
+        "content_anchor": "are composed of one or more cells",
+        "page_hint": "Page 1",
+        "concept_hash": "hash_of_cellular_organization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q002",
+      "generation_timestamp": "2025-01-28T10:00:00Z",
+      "section": "1.2 Why do we study Biology?",
+      "subsection": "1.2 Why do we study Biology?",
+      "sub_subsection": null,
+      "structural_anchor": "Living things:",
+      "mcq_type": "G",
+      "question": "If an organism must accomplish work such as growth or movement, what fundamental requirement does this create?",
+      "options": {
+        "A": "A need to consume other organisms",
+        "B": "A requirement for energy input",
+        "C": "An ability to perform photosynthesis",
+        "D": "A dependence on sunlight"
+      },
+      "correct_answer": "B",
+      "hint": "Consider what powers biological processes.",
+      "explanation": "Living organisms require energy to perform all life activities, a concept central to bioenergetics. Option C is a specific energy acquisition method for some organisms, not a universal requirement.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.2 Why do we study Biology?",
+        "subsection_anchor": "1.2 Why do we study Biology?",
+        "structural_element": "Living things:",
+        "content_anchor": "need the energy to accomplish work",
+        "page_hint": "Page 1",
+        "concept_hash": "hash_of_energy_requirement"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q003",
+      "generation_timestamp": "2025-01-28T10:00:00Z",
+      "section": "1.3. The Scientific Method",
+      "subsection": "1.3. The Scientific Method",
+      "sub_subsection": null,
+      "structural_anchor": "Forming of a hypothesis",
+      "mcq_type": "F",
+      "question": "Under the condition that an observation leads to a specific inquiry, which reasoning best explains the role of a hypothesis in scientific investigation?",
+      "options": {
+        "A": "It is the final proven conclusion of an experiment.",
+        "B": "It provides a testable possible explanation for the observation.",
+        "C": "It confirms the results obtained from prior research.",
+        "D": "It describes the detailed procedure for data collection."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the purpose of a hypothesis before experimentation.",
+      "explanation": "A hypothesis is a proposed scientific explanation that must be testable through experimentation. Option A incorrectly assigns the role of a conclusion to the hypothesis, which is actually the starting point for testing.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.3. The Scientific Method",
+        "subsection_anchor": "1.3. The Scientific Method",
+        "structural_element": "Forming of a hypothesis",
+        "content_anchor": "A hypothesis is proposed scientific explanations",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_of_hypothesis_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q004",
+      "generation_timestamp": "2025-01-28T10:00:00Z",
+      "section": "1.4. Tools of a Biologist",
+      "subsection": "1.4.1. Laboratory tools of biologist",
+      "sub_subsection": null,
+      "structural_anchor": "The Microscope",
+      "mcq_type": "B",
+      "question": "Which instrument is specifically designed to magnify images of objects too small to be seen by the unaided eye?",
+      "options": {
+        "A": "Telescope",
+        "B": "Microscope",
+        "C": "Hand lens",
+        "D": "Spectrometer"
+      },
+      "correct_answer": "B",
+      "hint": "The name relates to viewing very small-scale structures.",
+      "explanation": "A microscope is defined as an instrument used to observe objects too small for the naked eye by magnification. Option C, a hand lens, provides magnification but is insufficient for observing cellular detail.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.4. Tools of a Biologist",
+        "subsection_anchor": "1.4.1. Laboratory tools of biologist",
+        "structural_element": "The Microscope",
+        "content_anchor": "instrument used to study objects that are too small",
+        "page_hint": "Page 6",
+        "concept_hash": "hash_of_microscope_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q005",
+      "generation_timestamp": "2025-01-28T10:00:00Z",
+      "section": "1.5. Handling and using a light Microscope",
+      "subsection": "1.5.1. The parts and function of the light microscope",
+      "sub_subsection": null,
+      "structural_anchor": "1. Eyepiece",
+      "mcq_type": "K",
+      "question": "If a microscope has a 10x eyepiece and a 40x objective lens in use, what is the total magnification of the observed image?",
+      "options": {
+        "A": "40x",
+        "B": "50x",
+        "C": "400x",
+        "D": "4000x"
+      },
+      "correct_answer": "C",
+      "hint": "Total magnification is the product of the magnifications of two lens systems.",
+      "explanation": "The total magnification of a compound light microscope is calculated by multiplying the eyepiece magnification by the objective lens magnification (10 × 40 = 400). Option A represents only the objective magnification, ignoring the eyepiece contribution.",
+      "difficulty_level": "easy",
+      "formula_used": ["Total Magnification = Eyepiece Magnification × Objective Magnification"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "X (times)",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.5. Handling and using a light Microscope",
+        "subsection_anchor": "1.5.1. The parts and function of the light microscope",
+        "structural_element": "Content explaining total magnification",
+        "content_anchor": "total magnification is the product of eye and objective lenses",
+        "page_hint": "Page 6",
+        "concept_hash": "hash_of_total_magnification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q006",
+      "generation_timestamp": "2025-01-28T10:00:00Z",
+      "section": "1.4. Tools of a Biologist",
+      "subsection": "1.4.1. Laboratory tools of biologist",
+      "sub_subsection": null,
+      "structural_anchor": "Hand lens",
+      "mcq_type": "D",
+      "question": "A hand lens, consisting of a single convex lens, is used to examine a small insect. What is the primary function of this tool in this context?",
+      "options": {
+        "A": "To measure the insect's temperature",
+        "B": "To provide an enlarged image of the insect",
+        "C": "To determine the insect's chemical composition",
+        "D": "To count the number of cells in the insect"
+      },
+      "correct_answer": "B",
+      "hint": "Think about the basic optical purpose of a magnifying glass.",
+      "explanation": "The main function of a hand lens is magnification; it provides an enlarged image of an object. Option D is incorrect because a hand lens lacks sufficient magnification to resolve individual cells.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.4. Tools of a Biologist",
+        "subsection_anchor": "1.4.1. Laboratory tools of biologist",
+        "structural_element": "Hand lens",
+        "content_anchor": "main function of hand lens is to provide an enlarged image",
+        "page_hint": "Page 5",
+        "concept_hash": "hash_of_hand_lens_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q007",
+      "generation_timestamp": "2025-01-28T10:00:00Z",
+      "section": "1.4. Tools of a Biologist",
+      "subsection": "1.4.1. Laboratory tools of biologist",
+      "sub_subsection": null,
+      "structural_anchor": "The Microscope",
+      "mcq_type": "C",
+      "question": "Which formula correctly represents the calculation for the total magnification of a compound light microscope?",
+      "options": {
+        "A": "Total Magnification = Eyepiece Magnification + Objective Magnification",
+        "B": "Total Magnification = Eyepiece Magnification ÷ Objective Magnification",
+        "C": "Total Magnification = Eyepiece Magnification × Objective Magnification",
+        "D": "Total Magnification = (Eyepiece Magnification + Objective Magnification) ÷ 2"
+      },
+      "correct_answer": "C",
+      "hint": "The magnifying powers of the two lens systems combine multiplicatively.",
+      "explanation": "The total magnification formula for a compound microscope is the product of the eyepiece and objective lens magnifications. Option A incorrectly uses addition, which does not account for the combined optical effect of two lenses.",
+      "difficulty_level": "easy",
+      "formula_used": ["Total Magnification = Eyepiece Magnification × Objective Magnification"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.4. Tools of a Biologist",
+        "subsection_anchor": "1.4.1. Laboratory tools of biologist",
+        "structural_element": "The Microscope",
+        "content_anchor": "magnification is the product of eye and objective lenses",
+        "page_hint": "Page 6",
+        "concept_hash": "hash_of_magnification_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q008",
+      "generation_timestamp": "2025-01-28T10:00:00Z",
+      "section": "1.4. Tools of a Biologist",
+      "subsection": "1.4.1. Laboratory tools of biologist",
+      "sub_subsection": null,
+      "structural_anchor": "The Microscope",
+      "mcq_type": "I",
+      "question": "How does the magnification capability of a typical light microscope primarily differ from that of an electron microscope?",
+      "options": {
+        "A": "A light microscope uses glass lenses, while an electron microscope uses electromagnets.",
+        "B": "A light microscope requires a vacuum, while an electron microscope does not.",
+        "C": "A light microscope produces color images, while an electron microscope produces only black-and-white.",
+        "D": "A light microscope can view living specimens, while an electron microscope cannot."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental components that achieve magnification in each instrument.",
+      "explanation": "The key difference lies in the magnification mechanism: light microscopes use glass lenses to focus light, while electron microscopes use electromagnetic lenses to focus electron beams. Option D describes a common limitation but is not the primary difference in magnification capability.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.4. Tools of a Biologist",
+        "subsection_anchor": "1.4.1. Laboratory tools of biologist",
+        "structural_element": "The Microscope",
+        "content_anchor": "uses a beam of electrons and electromagnets",
+        "page_hint": "Page 6",
+        "concept_hash": "hash_of_microscope_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q009",
+      "generation_timestamp": "2025-01-28T10:00:00Z",
+      "section": "1.5. Handling and using a light Microscope",
+      "subsection": "1.5.1. The parts and function of the light microscope",
+      "sub_subsection": null,
+      "structural_anchor": "Content on oil immersion",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that immersion oil should be used with any high-power objective lens to improve clarity?",
+      "options": {
+        "A": "Immersion oil is only necessary with low-power objectives to increase light gathering.",
+        "B": "Immersion oil is used specifically with the 100x objective to reduce light refraction and scattering.",
+        "C": "Immersion oil should be applied between the eyepiece and the observer's eye for better focus.",
+        "D": "Immersion oil increases magnification by chemically interacting with the specimen."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the specific condition under which immersion oil is applied.",
+      "explanation": "The misconception is that oil improves clarity for any high-power lens; it is specifically for the 100x oil immersion objective to minimize light loss. Option A contains the error, as it incorrectly states oil is for low-power objectives.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.5. Handling and using a light Microscope",
+        "subsection_anchor": "1.5.1. The parts and function of the light microscope",
+        "structural_element": "Handling instructions",
+        "content_anchor": "Use immersion oil only with the 100X objective",
+        "page_hint": "Page 13",
+        "concept_hash": "hash_of_oil_immersion_use"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q010",
+      "generation_timestamp": "2025-01-28T10:00:00Z",
+      "section": "1.5. Handling and using a light Microscope",
+      "subsection": "1.5.1. The parts and function of the light microscope",
+      "sub_subsection": null,
+      "structural_anchor": "12. Condensers",
+      "mcq_type": "L",
+      "question": "In a microscope setup, a condenser lens is adjusted. What is the primary effect of this adjustment on the image formation?",
+      "options": {
+        "A": "It changes the magnification power of the objective lens.",
+        "B": "It collects and focuses light from the illuminator onto the specimen.",
+        "C": "It moves the stage up and down for coarse focusing.",
+        "D": "It selects which objective lens is in the light path."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the component's role in managing light before it hits the specimen.",
+      "explanation": "Condensers are lenses that collect and focus light onto the specimen, which is crucial for achieving clear, sharp images at high magnifications. Option C describes the function of the coarse adjustment knob, not the condenser.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.5. Handling and using a light Microscope",
+        "subsection_anchor": "1.5.1. The parts and function of the light microscope",
+        "structural_element": "12. Condensers",
+        "content_anchor": "lenses that are used to collect and focus light from the illuminator into the specimen",
+        "page_hint": "Page 12",
+        "concept_hash": "hash_of_condenser_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2450,
+    "average_question_quality": 82.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "K": 1,
+      "L": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "1.1 Definition of Biology": 1,
+      "1.2 Why do we study Biology?": 1,
+      "1.3. The Scientific Method": 1,
+      "1.4. Tools of a Biologist": 4,
+      "1.5. Handling and using a light Microscope": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,836 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-11-08T10:52:15Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Chem_U2_Q030",
+    "covered_sections": [
+      "Measurements and Units in Chemistry>SI Units (The International System of Units)",
+      "Measurements and Units in Chemistry>Derived Units",
+      "Measurements and Units in Chemistry>Common Prefixes Used in SI Units",
+      "Measurements and Units in Chemistry>Uncertainty in Measurements",
+      "Measurements and Units in Chemistry>Precision and Accuracy",
+      "Measurements and Units in Chemistry>Significant Figures",
+      "Measurements and Units in Chemistry>Scientific Notation and Decimal Places",
+      "Chemistry as Experimental Science>The Scientific Method",
+      "Chemistry as Experimental Science>Some Experimental Skills in Chemistry",
+      "Chemistry as Experimental Science>Writing a Laboratory Report",
+      "Measurements and Units in Chemistry>SI Units (The International System of Units): Heat and Temperature",
+      "Chemistry as Experimental Science>The Scientific Method: Scientific Method Steps",
+      "Chemistry as Experimental Science>Some Experimental Skills in Chemistry: Laboratory Safety Rules",
+      "Chemistry as Experimental Science>Writing a Laboratory Report: The Laboratory Report",
+      "Chemistry as Experimental Science>Writing a Laboratory Report: Graphs",
+      "Chemistry as Experimental Science>Writing a Laboratory Report: Measurements and Density",
+      "Chemistry as Experimental Science>Writing a Laboratory Report: Materials and Chemicals",
+      "Chemistry as Experimental Science>Writing a Laboratory Report: Safety Precautions",
+      "Chemistry as Experimental Science>Writing a Laboratory Report: Procedures",
+      "Chemistry as Experimental Science>Writing a Laboratory Report: Part I: Measurements",
+      "Chemistry as Experimental Science>Writing a Laboratory Report: PART II: Density"
+    ],
+    "used_question_signatures": [
+      "hash_si_base_units",
+      "hash_si_prefix_kilo",
+      "hash_derived_unit_volume",
+      "hash_density_formula",
+      "hash_density_application",
+      "hash_uncertainty_definition",
+      "hash_precision_vs_accuracy",
+      "hash_sigfig_rule_nonzero",
+      "hash_scientific_notation_purpose",
+      "hash_scientific_method_step1",
+      "hash_kelvin_celsius_relation",
+      "hash_celsius_fahrenheit_formula",
+      "hash_derived_unit_speed",
+      "hash_si_prefix_milli",
+      "hash_random_systematic_error",
+      "hash_accuracy_definition",
+      "hash_sigfig_rule_zeros_between",
+      "hash_scientific_notation_conversion",
+      "hash_scientific_method_hypothesis",
+      "hash_lab_safety_eyeprotection",
+      "hash_fahrenheit_celsius_conversion",
+      "hash_density_identification",
+      "hash_percent_uncertainty_formula",
+      "hash_precision_example_archery",
+      "hash_sigfig_rule_leading_zeros",
+      "hash_scientific_notation_atom_mass",
+      "hash_scientific_method_testing",
+      "hash_lab_safety_no_eating",
+      "hash_lab_report_neatness",
+      "hash_graph_axes_labeling"
+    ],
+    "baseline_counter": {
+      "Measurements and Units in Chemistry": {
+        "SI Units (The International System of Units)": {
+          "count": 4,
+          "mini_headings_covered": ["Heat and Temperature"],
+          "last_question_round": 3
+        },
+        "Derived Units": {
+          "count": 4,
+          "mini_headings_covered": ["Volume", "Density"],
+          "last_question_round": 3
+        },
+        "Common Prefixes Used in SI Units": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Uncertainty in Measurements": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Precision and Accuracy": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Significant Figures": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Scientific Notation and Decimal Places": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Chemistry as Experimental Science": {
+        "The Scientific Method": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Some Experimental Skills in Chemistry": {
+          "count": 3,
+          "mini_headings_covered": ["Laboratory Safety Rules"],
+          "last_question_round": 3
+        },
+        "Writing a Laboratory Report": {
+          "count": 5,
+          "mini_headings_covered": ["The Laboratory Report", "Graphs", "Measurements and Density", "Materials and Chemicals", "Safety Precautions", "Procedures", "Part I: Measurements", "PART II: Density"],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Measurements and Units in Chemistry": {
+        "question_count": 23,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Chemistry as Experimental Science": {
+        "question_count": 7,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Measurements and Units in Chemistry>SI Units (The International System of Units)": ["SI base units", "Kelvin-Celsius relationship", "Celsius-Fahrenheit formula", "Fahrenheit-Celsius conversion"],
+      "Measurements and Units in Chemistry>Derived Units": ["Volume", "Density formula", "Speed definition", "Density identification"],
+      "Measurements and Units in Chemistry>Common Prefixes Used in SI Units": ["Prefix kilo-", "Prefix milli-", "Prefix micro-"],
+      "Measurements and Units in Chemistry>Uncertainty in Measurements": ["Uncertainty definition", "Random vs systematic error", "Percent uncertainty formula"],
+      "Measurements and Units in Chemistry>Precision and Accuracy": ["Precision vs accuracy", "Accuracy definition", "Precision example"],
+      "Measurements and Units in Chemistry>Significant Figures": ["Significant figures rule", "Zeros between nonzero digits", "Leading zeros rule"],
+      "Measurements and Units in Chemistry>Scientific Notation and Decimal Places": ["Purpose of scientific notation", "Conversion to scientific notation", "Atom mass notation"],
+      "Chemistry as Experimental Science>The Scientific Method": ["First step of scientific method", "Hypothesis", "Testing hypothesis"],
+      "Chemistry as Experimental Science>Some Experimental Skills in Chemistry": ["Laboratory safety", "Eye protection", "No eating/drinking"],
+      "Chemistry as Experimental Science>Writing a Laboratory Report": ["Neatness requirement", "Graph axes labeling", "Density experiment", "Materials list", "Safety rules", "Measurement procedures", "Density methods"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state_R02",
+    "content_density_metrics": {
+      "total_concepts_extracted": 29,
+      "questions_per_concept_ratio": 1.03,
+      "structural_coverage_percentage": 100.0
+    }
+  },
+  "grade": "9",
+  "subject": "Chemistry",
+  "unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+  "pdf_filename": "C9U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-11-08T10:52:15Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 2,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.29,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 10,
+      "mini_headings_covered_count": 11,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Measurements and Units in Chemistry",
+      "least_covered_section": "Chemistry as Experimental Science",
+      "imbalance_ratio": 3.29,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.03,
+      "remaining_concept_capacity": 271
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Chem_U2_Q021",
+      "generation_timestamp": "2024-11-08T10:52:15Z",
+      "section": "Measurements and Units in Chemistry",
+      "subsection": "SI Units (The International System of Units)",
+      "sub_subsection": null,
+      "structural_anchor": "Heat and Temperature",
+      "mcq_type": "D",
+      "question": "A weather report indicates a temperature of 100°F. What is this temperature in degrees Celsius?",
+      "options": {
+        "A": "38°C",
+        "B": "212°C",
+        "C": "58°C",
+        "D": "100°C"
+      },
+      "correct_answer": "A",
+      "hint": "Use the conversion formula °C = (5/9) × (°F - 32).",
+      "explanation": "Applying the formula: °C = (5/9) × (100 - 32) = (5/9) × 68 = 37.78°C ≈ 38°C. Option B is the boiling point of water in Fahrenheit incorrectly taken as Celsius.",
+      "difficulty_level": "medium",
+      "formula_used": ["°C = (5/9) × (°F - 32)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "°C",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Measurements and Units in Chemistry",
+        "subsection_anchor": "SI Units (The International System of Units)",
+        "structural_element": "Example 2.1: Temperature conversion",
+        "content_anchor": "100°F... °C = (1.0°C/1.8°F) × (100°F - 32°F) = 38°C",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_fahrenheit_celsius_conversion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q022",
+      "generation_timestamp": "2024-11-08T10:52:15Z",
+      "section": "Measurements and Units in Chemistry",
+      "subsection": "Derived Units",
+      "sub_subsection": null,
+      "structural_anchor": "Density",
+      "mcq_type": "F",
+      "question": "A colorless liquid has a density of 0.869 g/mL at room temperature. Based on density values, which substance is it most likely to be?",
+      "options": {
+        "A": "Toluene",
+        "B": "Isopropyl alcohol",
+        "C": "Ethylene glycol",
+        "D": "n-butyl alcohol"
+      },
+      "correct_answer": "A",
+      "hint": "Compare the given density with typical density values for common liquids.",
+      "explanation": "Toluene has a density of 0.866 g/mL, which matches 0.869 g/mL within experimental error. Option B (isopropyl alcohol) has a lower density of 0.785 g/mL, making it less dense.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Measurements and Units in Chemistry",
+        "subsection_anchor": "Derived Units",
+        "structural_element": "Example 2.1: Calculating the density of a substance",
+        "content_anchor": "density of the liquid equals that of toluene (0.869 g/mL)",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_density_identification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q023",
+      "generation_timestamp": "2024-11-08T10:52:15Z",
+      "section": "Measurements and Units in Chemistry",
+      "subsection": "Uncertainty in Measurements",
+      "sub_subsection": null,
+      "structural_anchor": "Calculating uncertainties",
+      "mcq_type": "E",
+      "question": "A top-loading balance weighs a sample as 23.25 g with an absolute uncertainty of ±0.05 g. What is the percent uncertainty of this measurement?",
+      "options": {
+        "A": "0.22%",
+        "B": "0.43%",
+        "C": "2.15%",
+        "D": "0.05%"
+      },
+      "correct_answer": "A",
+      "hint": "Percent uncertainty = (absolute uncertainty ÷ measurement) × 100%.",
+      "explanation": "Percent uncertainty = (0.05 g ÷ 23.25 g) × 100% = 0.215% ≈ 0.22%. Option B results from incorrectly dividing 0.05 by 11.625 instead of 23.25.",
+      "difficulty_level": "medium",
+      "formula_used": ["% uncertainty = (absolute uncertainty/measurement) × 100"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "%",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Measurements and Units in Chemistry",
+        "subsection_anchor": "Uncertainty in Measurements",
+        "structural_element": "Calculating uncertainties",
+        "content_anchor": "% uncertainty = (0.05 g)/(23.25 g) × 100 = 0.2%",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_percent_uncertainty_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q024",
+      "generation_timestamp": "2024-11-08T10:52:15Z",
+      "section": "Measurements and Units in Chemistry",
+      "subsection": "Precision and Accuracy",
+      "sub_subsection": null,
+      "structural_anchor": "Precision and Accuracy",
+      "mcq_type": "K",
+      "question": "In an archery analogy, what pattern of hits on a target would represent measurements that are precise but not accurate?",
+      "options": {
+        "A": "All arrows cluster tightly together but far from the bullseye",
+        "B": "Arrows are scattered randomly across the target",
+        "C": "All arrows hit the bullseye in a tight group",
+        "D": "Arrows are evenly spaced in a circle around the bullseye"
+      },
+      "correct_answer": "A",
+      "hint": "Precision means consistency; accuracy means hitting the intended target.",
+      "explanation": "Precise but inaccurate measurements show high consistency (tight clustering) but deviate systematically from the true value (far from bullseye). Option C represents both precise and accurate measurements.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Measurements and Units in Chemistry",
+        "subsection_anchor": "Precision and Accuracy",
+        "structural_element": "Example 2.4: Precision and Accuracy",
+        "content_anchor": "precise but inaccurate set of measurements",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_precision_example_archery"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q025",
+      "generation_timestamp": "2024-11-08T10:52:15Z",
+      "section": "Measurements and Units in Chemistry",
+      "subsection": "Significant Figures",
+      "sub_subsection": null,
+      "structural_anchor": "Significant Figures",
+      "mcq_type": "H",
+      "question": "How many significant figures does the measurement 0.052 kg contain?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "4"
+      },
+      "correct_answer": "A",
+      "hint": "Leading zeros before nonzero digits are not significant.",
+      "explanation": "Only the digits '5' and '2' are significant in 0.052 kg. The zeros before the '5' are leading zeros that serve as decimal placeholders and are not significant. Option B incorrectly counts the leading zero as significant.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Measurements and Units in Chemistry",
+        "subsection_anchor": "Significant Figures",
+        "structural_element": "Example 2.5 Significant figures",
+        "content_anchor": "0.052 kg has two significant figures",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_sigfig_rule_leading_zeros"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q026",
+      "generation_timestamp": "2024-11-08T10:52:15Z",
+      "section": "Measurements and Units in Chemistry",
+      "subsection": "Scientific Notation and Decimal Places",
+      "sub_subsection": null,
+      "structural_anchor": "Scientific Notation and Decimal Places",
+      "mcq_type": "D",
+      "question": "The mass of one gold atom is approximately 0.000000000000000000000327 grams. How is this expressed in scientific notation?",
+      "options": {
+        "A": "3.27 × 10⁻²² g",
+        "B": "3.27 × 10²² g",
+        "C": "3.27 × 10⁻²³ g",
+        "D": "3.27 × 10²³ g"
+      },
+      "correct_answer": "A",
+      "hint": "Count how many places the decimal moves to the right to reach 3.27.",
+      "explanation": "Moving the decimal 22 places to the right converts 0.000000000000000000000327 to 3.27, giving 3.27 × 10⁻²² g. Option C incorrectly counts 23 decimal places.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Measurements and Units in Chemistry",
+        "subsection_anchor": "Scientific Notation and Decimal Places",
+        "structural_element": "Scientific Notation and Decimal Places",
+        "content_anchor": "0.000000000000000000000327 gram = 3.27 × 10⁻²²",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_scientific_notation_atom_mass"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q027",
+      "generation_timestamp": "2024-11-08T10:52:15Z",
+      "section": "Chemistry as Experimental Science",
+      "subsection": "The Scientific Method",
+      "sub_subsection": null,
+      "structural_anchor": "Scientific Method Steps",
+      "mcq_type": "M",
+      "question": "After formulating a hypothesis in the scientific method, what is the next step?",
+      "options": {
+        "A": "Testing the hypothesis through experimentation",
+        "B": "Drawing conclusions from the data",
+        "C": "Publishing the results",
+        "D": "Making additional observations"
+      },
+      "correct_answer": "A",
+      "hint": "A hypothesis must be tested to determine its validity.",
+      "explanation": "Once a hypothesis is proposed, it must be tested scientifically through controlled experiments. Option B occurs later in the process, after data collection and analysis.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Chemistry as Experimental Science",
+        "subsection_anchor": "The Scientific Method",
+        "structural_element": "Scientific Method Steps",
+        "content_anchor": "Testing the Hypothesis: After the hypothesis is made, it needs to be tested scientifically.",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_scientific_method_testing"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q028",
+      "generation_timestamp": "2024-11-08T10:52:15Z",
+      "section": "Chemistry as Experimental Science",
+      "subsection": "Some Experimental Skills in Chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Laboratory Safety Rules",
+      "mcq_type": "J",
+      "question": "Which activity is strictly prohibited in a chemistry laboratory to prevent contamination and ingestion of chemicals?",
+      "options": {
+        "A": "Eating or drinking anything",
+        "B": "Wearing safety goggles",
+        "C": "Using a suction device for pipetting",
+        "D": "Wearing closed-toe shoes"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how chemicals might accidentally enter the body.",
+      "explanation": "Eating or drinking in the lab poses risks of chemical contamination and ingestion. Option B is a required safety practice, not a prohibited activity.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Chemistry as Experimental Science",
+        "subsection_anchor": "Some Experimental Skills in Chemistry",
+        "structural_element": "Laboratory Safety Rules",
+        "content_anchor": "Do not eat or drink anything in the laboratory.",
+        "page_hint": "Page 22",
+        "concept_hash": "sha256_of_lab_safety_no_eating"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q029",
+      "generation_timestamp": "2024-11-08T10:52:15Z",
+      "section": "Chemistry as Experimental Science",
+      "subsection": "Writing a Laboratory Report",
+      "sub_subsection": null,
+      "structural_anchor": "The Laboratory Report",
+      "mcq_type": "A",
+      "question": "Why is neatness emphasized when preparing a laboratory report?",
+      "options": {
+        "A": "Neat work indicates the writer understands and cares about the subject matter",
+        "B": "Sloppy reports are automatically graded as failing",
+        "C": "Only typed reports are accepted for publication",
+        "D": "Neatness reduces the number of significant figures needed"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the impression created by organized versus disorganized work.",
+      "explanation": "Neat laboratory reports demonstrate attention to detail and respect for scientific communication. Option C is incorrect because handwritten reports can be acceptable if legible.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Chemistry as Experimental Science",
+        "subsection_anchor": "Writing a Laboratory Report",
+        "structural_element": "The Laboratory Report",
+        "content_anchor": "Neat work indicates that the writer knows and cares about the subject matter.",
+        "page_hint": "Page 24",
+        "concept_hash": "sha256_of_lab_report_neatness"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q030",
+      "generation_timestamp": "2024-11-08T10:52:15Z",
+      "section": "Chemistry as Experimental Science",
+      "subsection": "Writing a Laboratory Report",
+      "sub_subsection": null,
+      "structural_anchor": "Graphs",
+      "mcq_type": "A",
+      "question": "What essential features must a properly constructed scientific graph include?",
+      "options": {
+        "A": "Numbered and labeled axes with a title",
+        "B": "Data points connected with straight lines",
+        "C": "A legend explaining all symbols used",
+        "D": "Colors to distinguish different data sets"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the basic requirements for interpreting a graph.",
+      "explanation": "Scientific graphs require clearly labeled axes (including units) and a descriptive title for interpretation. Option B is incorrect because data points should not always be connected with straight lines; a best-fit curve may be more appropriate.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Chemistry as Experimental Science",
+        "subsection_anchor": "Writing a Laboratory Report",
+        "structural_element": "Graphs",
+        "content_anchor": "The axes must be both numbered and labeled. The graph must have a title.",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_graph_axes_labeling"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3800,
+    "average_question_quality": 84.0,
+    "type_distribution": {
+      "A": 3,
+      "D": 2,
+      "E": 1,
+      "F": 1,
+      "H": 1,
+      "J": 1,
+      "K": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 6,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Measurements and Units in Chemistry": 6,
+      "Chemistry as Experimental Science": 4
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

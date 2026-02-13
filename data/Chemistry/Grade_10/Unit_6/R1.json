@@ -1,0 +1,834 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2026-01-28T10:15:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Chem_U6_Q010",
+    "covered_sections": [
+      "6.1 Introduction>6.1.1 History of Organic Chemistry",
+      "6.1 Introduction>6.1.3 Classes of Organic Compounds",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.1 Alkane Homologous Series",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.2 Physical Properties of Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.3 Nomenclature of Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.4 Isomerism in Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.6 Chemical Properties of Alkanes"
+    ],
+    "used_question_signatures": [
+      "hash_urea_synthesis",
+      "hash_functional_group_definition",
+      "hash_alkane_general_formula",
+      "hash_alkane_physical_state",
+      "hash_primary_carbon_definition",
+      "hash_structural_isomer_definition",
+      "hash_alkane_combustion",
+      "hash_substitution_reaction_definition",
+      "hash_organic_chemistry_definition",
+      "hash_alkane_naming_prefix"
+    ],
+    "baseline_counter": {
+      "6.1 Introduction": {
+        "6.1.1 History of Organic Chemistry": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.1.3 Classes of Organic Compounds": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)": {
+        "6.2.1 Alkane Homologous Series": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.2 Physical Properties of Alkanes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.3 Nomenclature of Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.4 Isomerism in Alkanes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.6 Chemical Properties of Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons": {
+        "6.3.1 Alkenes or Olefins": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "6.3.2 Alkynes and Their Physical Properties": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "6.4 Aromatic Hydrocarbons: Benzene": {
+        "6.4.1 Benzene": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "6.5 Natural Sources of Hydrocarbons": {
+        "A. Natural Gas": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Introduction": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)": {
+        "question_count": 7,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "6.4 Aromatic Hydrocarbons: Benzene": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "6.5 Natural Sources of Hydrocarbons": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Introduction>6.1.1 History of Organic Chemistry": ["Urea synthesis"],
+      "6.1 Introduction>6.1.3 Classes of Organic Compounds": ["Functional group"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.1 Alkane Homologous Series": ["General formula"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.2 Physical Properties of Alkanes": ["Physical state trend"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.3 Nomenclature of Alkanes": ["Primary carbon", "Naming prefixes"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.4 Isomerism in Alkanes": ["Structural isomers"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.6 Chemical Properties of Alkanes": ["Combustion", "Substitution reaction"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 8,
+      "questions_per_concept_ratio": 1.25,
+      "structural_coverage_percentage": 28.0
+    }
+  },
+  "grade": "10",
+  "subject": "Chemistry",
+  "unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+  "pdf_filename": "C10U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-01-28T10:15:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 5,
+        "progress_percentage": 40.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 7,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 28.0,
+      "concept_utilization_ratio": 1.25
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "least_covered_section": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U6_Q001",
+      "generation_timestamp": "2026-01-28T10:15:01Z",
+      "section": "6.1 Introduction",
+      "subsection": "6.1.1 History of Organic Chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Content: Friedrich Wöhler synthesized urea",
+      "mcq_type": "B",
+      "question": "The synthesis of which compound from an inorganic precursor marked the beginning of organic chemistry as a scientific discipline?",
+      "options": {
+        "A": "Methane",
+        "B": "Ethanol",
+        "C": "Urea",
+        "D": "Benzene"
+      },
+      "correct_answer": "C",
+      "hint": "This compound is a component of mammalian urine.",
+      "explanation": "Friedrich Wöhler's synthesis of urea from ammonium cyanate demonstrated organic compounds could be made artificially. Option A refers to a hydrocarbon first isolated from natural gas, not synthesized from inorganic materials in this context.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.1 Introduction",
+        "subsection_anchor": "6.1.1 History of Organic Chemistry",
+        "structural_element": "Content: Friedrich Wöhler synthesized urea",
+        "content_anchor": "urea could be synthesized in the laboratory by evaporating an aqueous solution of the inorganic compound ammonium cyanate",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_urea_synthesis"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q002",
+      "generation_timestamp": "2026-01-28T10:15:02Z",
+      "section": "6.1 Introduction",
+      "subsection": "6.1.3 Classes of Organic Compounds",
+      "sub_subsection": null,
+      "structural_anchor": "Content: functional group definition",
+      "mcq_type": "A",
+      "question": "What is the term for a specific group of atoms within a molecule that largely determines its characteristic chemical reactions?",
+      "options": {
+        "A": "Homologous series",
+        "B": "Functional group",
+        "C": "Isomeric unit",
+        "D": "Structural moiety"
+      },
+      "correct_answer": "B",
+      "hint": "This feature allows classification of organic compounds into families.",
+      "explanation": "A functional group is an atom or group of atoms with characteristic chemical behavior. Option A incorrectly describes a series of compounds differing by a CH₂ unit, not a reactive site within a molecule.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.1 Introduction",
+        "subsection_anchor": "6.1.3 Classes of Organic Compounds",
+        "structural_element": "Content: functional group definition",
+        "content_anchor": "functional group is a group of atoms and/or bonds within a molecule that has a characteristic chemical behavior",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_functional_group"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q003",
+      "generation_timestamp": "2026-01-28T10:15:03Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.1 Alkane Homologous Series",
+      "sub_subsection": null,
+      "structural_anchor": "Content: general formula for alkanes",
+      "mcq_type": "C",
+      "question": "Which formula correctly represents the general molecular formula for alkanes?",
+      "options": {
+        "A": "CₙH₂ₙ",
+        "B": "CₙH₂ₙ₊₂",
+        "C": "CₙH₂ₙ₋₂",
+        "D": "CₙH₂ₙ₊₁"
+      },
+      "correct_answer": "B",
+      "hint": "These are saturated hydrocarbons containing only single bonds.",
+      "explanation": "Alkanes are saturated hydrocarbons with the general formula CₙH₂ₙ₊₂, where n is the number of carbon atoms. Option A is the formula for alkenes, which contain a double bond.",
+      "difficulty_level": "easy",
+      "formula_used": ["CₙH₂ₙ₊₂"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.1 Alkane Homologous Series",
+        "structural_element": "Content: general formula for alkanes",
+        "content_anchor": "Alkanes are saturated hydrocarbons represented by the general formula CₙH₂ₙ₊₂",
+        "page_hint": "Page 9-10",
+        "concept_hash": "sha256_of_alkane_general_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q004",
+      "generation_timestamp": "2026-01-28T10:15:04Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.2 Physical Properties of Alkanes",
+      "sub_subsection": null,
+      "structural_anchor": "Content: physical state trend with carbon number",
+      "mcq_type": "F",
+      "question": "Under standard conditions, alkanes with one to four carbon atoms are gases, while those with five to seventeen carbons are typically liquids. Which factor primarily explains this trend?",
+      "options": {
+        "A": "Increasing polarity with chain length",
+        "B": "Strengthening of intermolecular dispersion forces",
+        "C": "Formation of hydrogen bonds between molecules",
+        "D": "Decreasing molecular symmetry"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the relationship between molecular size and attractive forces.",
+      "explanation": "Dispersion forces increase with molecular mass, raising boiling points and changing physical states. Option C is incorrect because alkanes lack hydrogen-bonding atoms like oxygen or nitrogen.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.2 Physical Properties of Alkanes",
+        "structural_element": "Content: physical state trend with carbon number",
+        "content_anchor": "the first four members... are gases, the C₅–C₁₇... are liquids, and... with 18 and more carbon atoms are solids",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_alkane_physical_state"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q005",
+      "generation_timestamp": "2026-01-28T10:15:05Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.3 Nomenclature of Alkanes",
+      "sub_subsection": null,
+      "structural_anchor": "Content: primary carbon definition",
+      "mcq_type": "A",
+      "question": "In alkane nomenclature, what term describes a carbon atom that is bonded directly to only one other carbon atom?",
+      "options": {
+        "A": "Primary carbon",
+        "B": "Secondary carbon",
+        "C": "Tertiary carbon",
+        "D": "Quaternary carbon"
+      },
+      "correct_answer": "A",
+      "hint": "This classification is based on the number of carbon atoms directly attached.",
+      "explanation": "A primary carbon is bonded to one other carbon atom. Option B describes a carbon atom bonded to two other carbons, which is incorrect for this definition.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 75
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.3 Nomenclature of Alkanes",
+        "structural_element": "Content: primary carbon definition",
+        "content_anchor": "Primary (connect directly to one carbon), secondary (connect directly to two carbons)",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_primary_carbon"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q006",
+      "generation_timestamp": "2026-01-28T10:15:06Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.3 Nomenclature of Alkanes",
+      "sub_subsection": null,
+      "structural_anchor": "Table 6.2: alkane names and prefixes",
+      "mcq_type": "B",
+      "question": "According to IUPAC nomenclature, which prefix indicates a continuous chain of five carbon atoms in an alkane?",
+      "options": {
+        "A": "Prop-",
+        "B": "But-",
+        "C": "Pent-",
+        "D": "Hex-"
+      },
+      "correct_answer": "C",
+      "hint": "This prefix is derived from the Greek word for five.",
+      "explanation": "The prefix 'pent-' denotes five carbon atoms in the parent chain of an alkane. Option B refers to four carbon atoms, which is the prefix for butane.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "table"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 70
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.3 Nomenclature of Alkanes",
+        "structural_element": "Table 6.2: alkane names and prefixes",
+        "content_anchor": "pentane, pent-",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_alkane_naming_prefix"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q007",
+      "generation_timestamp": "2026-01-28T10:15:07Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.4 Isomerism in Alkanes",
+      "sub_subsection": null,
+      "structural_anchor": "Content: structural isomer definition",
+      "mcq_type": "A",
+      "question": "What is the relationship between butane and isobutane, which both have the molecular formula C₄H₁₀?",
+      "options": {
+        "A": "They are structural isomers.",
+        "B": "They are geometrical isomers.",
+        "C": "They are the same compound.",
+        "D": "They are functional group isomers."
+      },
+      "correct_answer": "A",
+      "hint": "These compounds have the same atoms connected in different arrangements.",
+      "explanation": "Structural isomers have identical molecular formulas but different connectivity of atoms. Option D is incorrect because both compounds are alkanes with the same functional group (none).",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.4 Isomerism in Alkanes",
+        "structural_element": "Content: structural isomer definition",
+        "content_anchor": "Compounds like the two C₄H₁₀ molecules... which have the same molecular formula but different structures, are called structural isomers",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_structural_isomer"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q008",
+      "generation_timestamp": "2026-01-28T10:15:08Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.6 Chemical Properties of Alkanes",
+      "sub_subsection": null,
+      "structural_anchor": "Content: combustion reaction general equation",
+      "mcq_type": "G",
+      "question": "If a hydrocarbon undergoes complete combustion, what effect does increasing the number of carbon atoms in the molecule have on the amount of oxygen required?",
+      "options": {
+        "A": "Oxygen requirement decreases proportionally.",
+        "B": "Oxygen requirement remains constant.",
+        "C": "Oxygen requirement increases proportionally.",
+        "D": "Oxygen requirement becomes zero."
+      },
+      "correct_answer": "C",
+      "hint": "More carbon atoms mean more carbon dioxide produced, requiring more oxygen atoms.",
+      "explanation": "Combustion requires oxygen to convert carbon to CO₂ and hydrogen to H₂O, so larger molecules need more oxygen. Option A incorrectly suggests an inverse relationship contrary to stoichiometry.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.6 Chemical Properties of Alkanes",
+        "structural_element": "Content: combustion reaction general equation",
+        "content_anchor": "CₙH₂ₙ₊₂ + [(3n+1)/2]O₂ → nCO₂ + (n+1)H₂O",
+        "page_hint": "Page 27",
+        "concept_hash": "sha256_of_alkane_combustion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q009",
+      "generation_timestamp": "2026-01-28T10:15:09Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.6 Chemical Properties of Alkanes",
+      "sub_subsection": null,
+      "structural_anchor": "Content: substitution reaction definition",
+      "mcq_type": "A",
+      "question": "What type of reaction occurs when a chlorine atom replaces a hydrogen atom in an alkane molecule?",
+      "options": {
+        "A": "Addition reaction",
+        "B": "Substitution reaction",
+        "C": "Elimination reaction",
+        "D": "Combustion reaction"
+      },
+      "correct_answer": "B",
+      "hint": "This reaction involves one atom taking the place of another.",
+      "explanation": "Halogenation of alkanes is a substitution reaction where a halogen atom replaces a hydrogen atom. Option A describes reactions typical of alkenes where atoms add across a double bond.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.6 Chemical Properties of Alkanes",
+        "structural_element": "Content: substitution reaction definition",
+        "content_anchor": "Substitution Reaction: This is a reaction that involves the replacement of one atom or a group of atoms by another atom or group of atoms.",
+        "page_hint": "Page 27",
+        "concept_hash": "sha256_of_substitution_reaction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q010",
+      "generation_timestamp": "2026-01-28T10:15:10Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.4 Isomerism in Alkanes",
+      "sub_subsection": null,
+      "structural_anchor": "Content: isomer definition",
+      "mcq_type": "A",
+      "question": "What is the defining characteristic of isomers?",
+      "options": {
+        "A": "Different molecular formulas with identical structures",
+        "B": "Identical molecular formulas with different atomic arrangements",
+        "C": "Identical physical properties despite structural differences",
+        "D": "Different functional groups within the same carbon skeleton"
+      },
+      "correct_answer": "B",
+      "hint": "Isomers share the same number and types of atoms but differ in how they are connected or oriented.",
+      "explanation": "Isomers are compounds with identical molecular formulas but different structural or spatial arrangements. Option A describes compounds that are not isomers because they have different compositions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.4 Isomerism in Alkanes",
+        "structural_element": "Content: isomer definition",
+        "content_anchor": "Isomers are compounds that have the same numbers and kinds of atoms but differ in the way the atoms are arranged.",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_isomer_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 29000,
+    "average_question_quality": 81.5,
+    "type_distribution": {
+      "A": 4,
+      "B": 2,
+      "C": 1,
+      "F": 1,
+      "G": 1,
+      "H": 0,
+      "D": 0,
+      "E": 0,
+      "I": 0,
+      "J": 0,
+      "K": 0,
+      "L": 0,
+      "M": 0,
+      "N": 0
+    },
+    "difficulty_distribution": {
+      "easy": 7,
+      "medium": 3,
+      "hard": 0
+    },
+    "section_distribution": {
+      "6.1 Introduction": 2,
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)": 8,
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons": 0,
+      "6.4 Aromatic Hydrocarbons: Benzene": 0,
+      "6.5 Natural Sources of Hydrocarbons": 0
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

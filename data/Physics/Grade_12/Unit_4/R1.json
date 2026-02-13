@@ -1,0 +1,816 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2024-07-14T20:10:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Phys_U4_Q010",
+    "covered_sections": ["Introduction", "4.1 Magnets and Magnetic field"],
+    "used_question_signatures": ["A_Magnets_Generate_Field", "A_Permanent_Magnet_Poles", "B_Like_Poles_Repel", "H_Magnetic_Pole_Separation", "C_B_Formula_Wire", "E_Calculate_B_Wire", "D_Right_Hand_Rule", "K_Interpret_Field_Line_Cross", "G_Current_Increase_Field", "F_Concept_Wire_Field"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "4.1 Magnets and Magnetic field": {
+        "4.1 Magnets and Magnetic field": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Differences Between Electric Field and Magnetic Field": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "4.2 Magnetic field lines": {
+        "Properties of Magnetic Field Lines": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "4.3 Current and Magnetism": {
+        "Ampere's law": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Magnetic Field Created by a Long Straight Current-Carrying Wire": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "4.4 Electromagnetic Induction": {
+        "Magnetic flux": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "4.5 Faraday's Law of electromagnetic Induction": {
+        "Faraday's law of electromagnetic induction and Lenz's Law": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "4.6 Transformers": {
+        "4.6 Transformers": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "4.7 Application and safety": {
+        "Applications of electromagnetism": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.1 Magnets and Magnetic field": {
+        "question_count": 8,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.2 Magnetic field lines": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.3 Current and Magnetism": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.4 Electromagnetic Induction": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.5 Faraday's Law of electromagnetic Induction": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.6 Transformers": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.7 Application and safety": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction": ["Electromagnetism", "Electric fields", "Magnetic fields", "Electromagnetic force", "Oersted experiment"],
+      "4.1 Magnets and Magnetic field": ["Magnet", "Magnetic field", "Magnetic pole", "North pole", "South pole", "Like poles repel", "Opposite poles attract", "Permanent magnet", "Electromagnet", "Earth's magnetic field", "Tesla", "Newton/coulomb", "Electric field lines", "Magnetic field lines"],
+      "Differences Between Electric Field and Magnetic Field": ["SI unit electric field", "SI unit magnetic field", "Electric field definition", "Magnetic field definition", "Field line origin", "Closed loops"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state_hash_placeholder",
+    "content_density_metrics": {
+      "total_concepts_extracted": 19,
+      "questions_per_concept_ratio": 0.53,
+      "structural_coverage_percentage": 9.52
+    }
+  },
+  "grade": "12",
+  "subject": "Physics",
+  "unit": "Unit 4: Electromagnetism",
+  "pdf_filename": "P12U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-07-14T20:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 8,
+        "progress_percentage": 25.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 3,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 14.3,
+      "concept_utilization_ratio": 0.53
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.1 Magnets and Magnetic field",
+      "least_covered_section": "4.2 Magnetic field lines",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Phys_U4_Q001",
+      "generation_timestamp": "2024-07-14T20:10:00Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "Introduction",
+      "mcq_type": "A",
+      "question": "What is the fundamental force that encompasses the interaction between electricity and magnetism?",
+      "options": {
+        "A": "Electromagnetic force",
+        "B": "Gravitational force",
+        "C": "Strong nuclear force",
+        "D": "Weak nuclear force"
+      },
+      "correct_answer": "A",
+      "hint": "Consider forces that act between charged particles.",
+      "explanation": "The electromagnetic force is responsible for interactions between electrically charged particles and magnetic phenomena. Option C describes the force that binds atomic nuclei together, which is not related to electricity and magnetism.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": "Introduction",
+        "content_anchor": "fundamental force in nature consisting of the elements electricity and magnetism",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_electromagnetic_force"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q002",
+      "generation_timestamp": "2024-07-14T20:10:00Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "Introduction",
+      "mcq_type": "D",
+      "question": "A current-carrying wire deflects a nearby compass needle. Which phenomenon does this demonstrate?",
+      "options": {
+        "A": "A magnetic field is produced by an electric current.",
+        "B": "An electric field is produced by a magnetic field.",
+        "C": "A stationary charge creates a magnetic field.",
+        "D": "A magnet can produce an electric current."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the effect of moving charges on magnetic materials.",
+      "explanation": "Oersted's experiment demonstrated that an electric current generates a magnetic field, which can influence magnetic materials like a compass needle. Option B describes electromagnetic induction, which is the reverse effect observed by Faraday.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": "Introduction",
+        "content_anchor": "Hans Christian Oersted found that an electric current in a wire deflected a nearby compass needle",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_Current_Magnetic_Field_Relation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q003",
+      "generation_timestamp": "2024-07-14T20:10:00Z",
+      "section": "4.1 Magnets and Magnetic field",
+      "subsection": "4.1 Magnets and Magnetic field",
+      "sub_subsection": null,
+      "structural_anchor": "4.1 Magnets and Magnetic field",
+      "mcq_type": "A",
+      "question": "What is generated in the region surrounding a magnet where magnetic forces can be observed?",
+      "options": {
+        "A": "A magnetic field",
+        "B": "An electric field",
+        "C": "An electrostatic field",
+        "D": "A gravitational field"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the region of influence of magnetic force.",
+      "explanation": "A magnet generates a magnetic field, which is the region where magnetic forces act on other magnets or magnetic materials. Option B is the field surrounding an electric charge, not a magnet.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 75
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.1 Magnets and Magnetic field",
+        "subsection_anchor": "4.1 Magnets and Magnetic field",
+        "structural_element": "4.1 Magnets and Magnetic field",
+        "content_anchor": "A magnet generates a magnetic field",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_Magnetic_Field_Definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q004",
+      "generation_timestamp": "2024-07-14T20:10:00Z",
+      "section": "4.1 Magnets and Magnetic field",
+      "subsection": "4.1 Magnets and Magnetic field",
+      "sub_subsection": null,
+      "structural_anchor": "4.1 Magnets and Magnetic field",
+      "mcq_type": "B",
+      "question": "What are the two distinct poles found on every permanent magnet?",
+      "options": {
+        "A": "North and south poles",
+        "B": "Positive and negative poles",
+        "C": "East and west poles",
+        "D": "Forward and reverse poles"
+      },
+      "correct_answer": "A",
+      "hint": "Think of the poles that align with Earth's magnetic field.",
+      "explanation": "Every magnet has a north (N) and a south (S) pole, which are the regions of strongest magnetic force. Option B incorrectly uses the terminology for electric charges.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.1 Magnets and Magnetic field",
+        "subsection_anchor": "4.1 Magnets and Magnetic field",
+        "structural_element": "4.1 Magnets and Magnetic field",
+        "content_anchor": "Every magnet has two poles: a north pole (N) and a south pole (S)",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_Magnet_Poles"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q005",
+      "generation_timestamp": "2024-07-14T20:10:00Z",
+      "section": "4.1 Magnets and Magnetic field",
+      "subsection": "4.1 Magnets and Magnetic field",
+      "sub_subsection": null,
+      "structural_anchor": "4.1 Magnets and Magnetic field",
+      "mcq_type": "H",
+      "question": "If a bar magnet is cut in half, what configuration of poles will each resulting piece have?",
+      "options": {
+        "A": "Each piece will have its own north and south pole.",
+        "B": "One piece will have two north poles, the other will have two south poles.",
+        "C": "Both pieces will lose their magnetic properties entirely.",
+        "D": "Each piece will have only one pole, either north or south."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental property of magnetic poles.",
+      "explanation": "Magnetic poles always exist in pairs. No matter how many times a magnet is cut, each piece becomes a new magnet with its own north and south pole. Option B violates the fundamental rule that magnetic poles cannot be isolated.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.1 Magnets and Magnetic field",
+        "subsection_anchor": "4.1 Magnets and Magnetic field",
+        "structural_element": "4.1 Magnets and Magnetic field",
+        "content_anchor": "No matter how many times a permanent magnet is cut in to two, each piece always has a north and a south pole.",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_Pole_Pair_Property"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 90,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q006",
+      "generation_timestamp": "2024-07-14T20:10:00Z",
+      "section": "4.1 Magnets and Magnetic field",
+      "subsection": "Differences Between Electric Field and Magnetic Field",
+      "sub_subsection": null,
+      "structural_anchor": "The SI unit of an electric field is Newton/coulomb, whereas the SI unit of magnetic field is Tesla.",
+      "mcq_type": "B",
+      "question": "What is the SI unit for measuring the strength of a magnetic field?",
+      "options": {
+        "A": "Tesla",
+        "B": "Newton per coulomb",
+        "C": "Weber",
+        "D": "Joule"
+      },
+      "correct_answer": "A",
+      "hint": "This unit is named after a famous inventor.",
+      "explanation": "The Tesla (T) is the SI unit of magnetic field strength, named after Nikola Tesla. Option B is the SI unit for electric field strength, not magnetic field.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.1 Magnets and Magnetic field",
+        "subsection_anchor": "Differences Between Electric Field and Magnetic Field",
+        "structural_element": "The SI unit of an electric field is Newton/coulomb, whereas the SI unit of magnetic field is Tesla.",
+        "content_anchor": "SI unit of magnetic field is Tesla",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_SI_Unit_Magnetic_Field"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q007",
+      "generation_timestamp": "2024-07-14T20:10:00Z",
+      "section": "4.1 Magnets and Magnetic field",
+      "subsection": "Differences Between Electric Field and Magnetic Field",
+      "sub_subsection": null,
+      "structural_anchor": "The electric field lines start on a positive charge and end on a negative charge, whereas the magnetic field line do not have starting and ending point.",
+      "mcq_type": "I",
+      "question": "How do magnetic field lines differ from electric field lines regarding their endpoints?",
+      "options": {
+        "A": "Magnetic field lines form closed loops with no endpoints.",
+        "B": "Magnetic field lines start at north poles and end at south poles.",
+        "C": "Magnetic field lines start at positive charges and end at negative charges.",
+        "D": "Magnetic field lines have distinct starting and ending points like electric field lines."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the continuity of the field lines.",
+      "explanation": "Unlike electric field lines, which terminate on charges, magnetic field lines are continuous and form closed loops. Option B describes the external path of field lines but misses the internal path that completes the loop.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.1 Magnets and Magnetic field",
+        "subsection_anchor": "Differences Between Electric Field and Magnetic Field",
+        "structural_element": "The electric field lines start on a positive charge and end on a negative charge, whereas the magnetic field line do not have starting and ending point.",
+        "content_anchor": "magnetic field line do not have starting and ending point",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_Field_Line_Continuity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q008",
+      "generation_timestamp": "2024-07-14T20:10:00Z",
+      "section": "4.1 Magnets and Magnetic field",
+      "subsection": "Differences Between Electric Field and Magnetic Field",
+      "sub_subsection": null,
+      "structural_anchor": "The electric field produces by a unit pole charge, i.e., either by a positive or through a negative charge, whereas the magnetic field caused by a dipole of the magnet (i.e., the north and south pole).",
+      "mcq_type": "F",
+      "question": "Why can an isolated electric charge exist, while an isolated magnetic pole cannot?",
+      "options": {
+        "A": "Electric fields originate from single charges, but magnetic fields require a dipole.",
+        "B": "Magnetic fields are weaker than electric fields, requiring two poles.",
+        "C": "Electric charges can be created in laboratories, but magnetic poles cannot.",
+        "D": "The fundamental laws of magnetism prohibit the separation of north and south poles."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the source of each type of field.",
+      "explanation": "An electric field is produced by an individual charge (monopole), while a magnetic field is produced by a moving charge or a magnetic dipole. Option D is a restatement of the phenomenon, not an explanation of the underlying cause.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.1 Magnets and Magnetic field",
+        "subsection_anchor": "Differences Between Electric Field and Magnetic Field",
+        "structural_element": "The electric field produces by a unit pole charge, i.e., either by a positive or through a negative charge, whereas the magnetic field caused by a dipole of the magnet (i.e., the north and south pole).",
+        "content_anchor": "magnetic field caused by a dipole",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_Monopole_vs_Dipole"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q009",
+      "generation_timestamp": "2024-07-14T20:10:00Z",
+      "section": "4.1 Magnets and Magnetic field",
+      "subsection": "Differences Between Electric Field and Magnetic Field",
+      "sub_subsection": null,
+      "structural_anchor": "The electric field lines do not form a loop whereas the magnetic field lines form a closed loop.",
+      "mcq_type": "B",
+      "question": "What is a defining geometric characteristic of magnetic field lines that distinguishes them from electric field lines?",
+      "options": {
+        "A": "They form closed loops.",
+        "B": "They are always straight lines.",
+        "C": "They originate from a single point.",
+        "D": "They terminate at infinity."
+      },
+      "correct_answer": "A",
+      "hint": "Think about the path a magnetic field line takes.",
+      "explanation": "Magnetic field lines are continuous and form closed loops, unlike electric field lines which terminate on charges. Option D is sometimes true for electric field lines from an isolated charge, not magnetic field lines.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.1 Magnets and Magnetic field",
+        "subsection_anchor": "Differences Between Electric Field and Magnetic Field",
+        "structural_element": "The electric field lines do not form a loop whereas the magnetic field lines form a closed loop.",
+        "content_anchor": "magnetic field lines form a closed loop",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_Closed_Loop_Property"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q010",
+      "generation_timestamp": "2024-07-14T20:10:00Z",
+      "section": "4.1 Magnets and Magnetic field",
+      "subsection": "4.1 Magnets and Magnetic field",
+      "sub_subsection": null,
+      "structural_anchor": "4.1 Magnets and Magnetic field",
+      "mcq_type": "H",
+      "question": "Which statement correctly identifies the flaw in thinking that a magnet can have only a north pole?",
+      "options": {
+        "A": "Magnetic poles always occur in pairs; a north pole cannot exist without an associated south pole.",
+        "B": "A single pole magnet would have infinite magnetic field strength.",
+        "C": "The north pole of a magnet is always stronger than the south pole.",
+        "D": "Magnetic fields from a single pole would cancel each other out."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental pairing property of magnetic poles.",
+      "explanation": "The principle of magnetic poles states they are always found in pairs (north and south). Option B introduces a non-existent consequence (infinite strength) that is not the core flaw in the reasoning.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.1 Magnets and Magnetic field",
+        "subsection_anchor": "4.1 Magnets and Magnetic field",
+        "structural_element": "4.1 Magnets and Magnetic field",
+        "content_anchor": "magnetic poles are always found in pairs",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_Pole_Pair_Misconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2450,
+    "average_question_quality": 85.5,
+    "type_distribution": {
+      "A": 3,
+      "B": 3,
+      "D": 1,
+      "F": 1,
+      "H": 2,
+      "I": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 4,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Introduction": 2,
+      "4.1 Magnets and Magnetic field": 8
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

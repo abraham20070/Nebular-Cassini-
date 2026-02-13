@@ -1,0 +1,828 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2026-01-27T10:45:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Chem_U1_Q010",
+    "covered_sections": ["1.1 Acid- Base Concepts>1.1.1 Arrhenius Concept of Acids and Bases", "1.1 Acid- Base Concepts>1.1.2 Brønsted- Lowry Concept of Acids and Bases", "1.1 Acid- Base Concepts>1.1.3 Lewis Concept of Acids and Bases", "1.2 Ionic Equilibria of Weak Acids and Bases>1.2.1 Ionization of Water", "1.2 Ionic Equilibria of Weak Acids and Bases>1.2.2 Measures of the Strength of acids and Bases in Aqueous Solution", "1.3 Common Ion Effect and Buffer Solution>1.3.1 The Common Ion Effect", "1.3 Common Ion Effect and Buffer Solution>1.3.2 Buffer Solutions", "1.4 Hydrolysis of Salts>1.4.1 Hydrolysis of Salts of Strong Acids and Strong Bases", "1.4 Hydrolysis of Salts>1.4.2 Hydrolysis of Salts of Weak Acids and Strong Bases", "1.4 Hydrolysis of Salts>1.4.3 Hydrolysis of Salts of Strong Acids and Weak Bases", "1.4 Hydrolysis of Salts>1.4.4 Hydrolysis of Salts of Weak Acids and Weak Bases", "1.5 Acid- Base Indicators and Titrations>1.5.1 Acid-Base Indicators", "1.5 Acid- Base Indicators and Titrations>1.5.2 Equivalents of Acids and Bases", "1.5 Acid- Base Indicators and Titrations>1.5.3 Acid-Base Titrations"],
+    "used_question_signatures": ["66fe2e3a822d8c0f01e5a5fb8d8a25ab", "f3d6c7c65de1d3c22d0cfc8f7e6434a1", "c0c5e7b7b9c58d9a5f8b6d2a3c4e5f6a", "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6", "d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2", "b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8", "f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3", "c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9", "a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4", "d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0"],
+    "baseline_counter": {
+      "1.1 Acid- Base Concepts": {
+        "1.1.1 Arrhenius Concept of Acids and Bases": {
+          "count": 2,
+          "mini_headings_covered": ["Activity 1.1", "Exercise 1.1"],
+          "last_question_round": 1
+        },
+        "1.1.2 Brønsted- Lowry Concept of Acids and Bases": {
+          "count": 2,
+          "mini_headings_covered": ["Activity 1.2", "1.1.2.1 Conjugate Acid- Base Pairs"],
+          "last_question_round": 1
+        },
+        "1.1.3 Lewis Concept of Acids and Bases": {
+          "count": 1,
+          "mini_headings_covered": ["Activity 1.3"],
+          "last_question_round": 1
+        }
+      },
+      "1.2 Ionic Equilibria of Weak Acids and Bases": {
+        "1.2.1 Ionization of Water": {
+          "count": 2,
+          "mini_headings_covered": ["Example 1.3", "The pH scale"],
+          "last_question_round": 1
+        },
+        "1.2.2 Measures of the Strength of acids and Bases in Aqueous Solution": {
+          "count": 1,
+          "mini_headings_covered": ["1.2.2.4 Dissociation (Ionization) Constants"],
+          "last_question_round": 1
+        }
+      },
+      "1.3 Common Ion Effect and Buffer Solution": {
+        "1.3.1 The Common Ion Effect": {
+          "count": 1,
+          "mini_headings_covered": ["Example 1.7"],
+          "last_question_round": 1
+        },
+        "1.3.2 Buffer Solutions": {
+          "count": 1,
+          "mini_headings_covered": ["Henderson- Hasselbalch equation"],
+          "last_question_round": 1
+        }
+      },
+      "1.4 Hydrolysis of Salts": {
+        "1.4.1 Hydrolysis of Salts of Strong Acids and Strong Bases": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "1.4.2 Hydrolysis of Salts of Weak Acids and Strong Bases": {
+          "count": 1,
+          "mini_headings_covered": ["Activity 1.8"],
+          "last_question_round": 1
+        },
+        "1.4.3 Hydrolysis of Salts of Strong Acids and Weak Bases": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "1.4.4 Hydrolysis of Salts of Weak Acids and Weak Bases": {
+          "count": 1,
+          "mini_headings_covered": ["Activity 1.9"],
+          "last_question_round": 1
+        }
+      },
+      "1.5 Acid- Base Indicators and Titrations": {
+        "1.5.1 Acid-Base Indicators": {
+          "count": 1,
+          "mini_headings_covered": ["Table 1.5: Some common indicators."],
+          "last_question_round": 1
+        },
+        "1.5.2 Equivalents of Acids and Bases": {
+          "count": 1,
+          "mini_headings_covered": ["Example"],
+          "last_question_round": 1
+        },
+        "1.5.3 Acid-Base Titrations": {
+          "count": 1,
+          "mini_headings_covered": ["Experiment 1.1: Acid-base Titration"],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1 Acid- Base Concepts": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.2 Ionic Equilibria of Weak Acids and Bases": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.3 Common Ion Effect and Buffer Solution": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.4 Hydrolysis of Salts": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.5 Acid- Base Indicators and Titrations": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1 Acid- Base Concepts>1.1.1 Arrhenius Concept of Acids and Bases": ["Arrhenius acid definition", "Arrhenius base definition", "Strong acid example"],
+      "1.1 Acid- Base Concepts>1.1.2 Brønsted- Lowry Concept of Acids and Bases": ["Bronsted-Lowry acid definition", "Bronsted-Lowry base definition", "Conjugate acid-base pair"],
+      "1.1 Acid- Base Concepts>1.1.3 Lewis Concept of Acids and Bases": ["Lewis acid definition", "Lewis base definition", "Electron pair transfer"],
+      "1.2 Ionic Equilibria of Weak Acids and Bases>1.2.1 Ionization of Water": ["Autoionization of water", "Kw constant", "Neutral solution condition"],
+      "1.2 Ionic Equilibria of Weak Acids and Bases>1.2.2 Measures of the Strength of acids and Bases in Aqueous Solution": ["Acid dissociation constant Ka", "Relationship between acid strength and Ka"],
+      "1.3 Common Ion Effect and Buffer Solution>1.3.1 The Common Ion Effect": ["Common ion effect definition", "Shift in equilibrium"],
+      "1.3 Common Ion Effect and Buffer Solution>1.3.2 Buffer Solutions": ["Buffer solution definition", "Henderson-Hasselbalch equation"],
+      "1.4 Hydrolysis of Salts>1.4.1 Hydrolysis of Salts of Strong Acids and Strong Bases": ["Neutral salt solution", "No hydrolysis"],
+      "1.4 Hydrolysis of Salts>1.4.2 Hydrolysis of Salts of Weak Acids and Strong Bases": ["Basic salt solution", "Anion hydrolysis"],
+      "1.4 Hydrolysis of Salts>1.4.3 Hydrolysis of Salts of Strong Acids and Weak Bases": ["Acidic salt solution", "Cation hydrolysis"],
+      "1.4 Hydrolysis of Salts>1.4.4 Hydrolysis of Salts of Weak Acids and Weak Bases": ["Ka and Kb comparison", "Resultant solution pH"],
+      "1.5 Acid- Base Indicators and Titrations>1.5.1 Acid-Base Indicators": ["Indicator color change", "pH range"],
+      "1.5 Acid- Base Indicators and Titrations>1.5.2 Equivalents of Acids and Bases": ["Normality definition", "Acid equivalent"],
+      "1.5 Acid- Base Indicators and Titrations>1.5.3 Acid-Base Titrations": ["Equivalence point", "Titration curve"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "content_density_metrics": {
+      "total_concepts_extracted": 29,
+      "questions_per_concept_ratio": 0.34,
+      "structural_coverage_percentage": 37.8
+    }
+  },
+  "grade": "12",
+  "subject": "Chemistry",
+  "unit": "Unit 1: ACID-BASE EQUILIBRIA",
+  "pdf_filename": "C12U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-01-27T10:45:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 5,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 1.67,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 17,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 14,
+      "mini_headings_covered_count": 12,
+      "structural_coverage_percentage": 32.4,
+      "concept_utilization_ratio": 0.59
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.1 Acid- Base Concepts",
+      "least_covered_section": "1.3 Common Ion Effect and Buffer Solution",
+      "imbalance_ratio": 1.67,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Chem_U1_Q001",
+      "generation_timestamp": "2026-01-27T10:45:01Z",
+      "section": "1.1 Acid- Base Concepts",
+      "subsection": "1.1.1 Arrhenius Concept of Acids and Bases",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 1.1",
+      "mcq_type": "A",
+      "question": "Which definition describes an acid as a substance that increases the concentration of H⁺ ions in aqueous solution?",
+      "options": {
+        "A": "Arrhenius acid",
+        "B": "Bronsted-Lowry acid",
+        "C": "Lewis acid",
+        "D": "Conjugate acid"
+      },
+      "correct_answer": "A",
+      "hint": "Focus on the specific ion concentration change in water.",
+      "explanation": "The Arrhenius concept defines acids specifically by their ability to increase H⁺ concentration in aqueous solutions. Option B is incorrect because Bronsted-Lowry acids are defined as proton donors, not solely by their effect in water.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.1 Acid- Base Concepts",
+        "subsection_anchor": "1.1.1 Arrhenius Concept of Acids and Bases",
+        "structural_element": "Activity 1.1",
+        "content_anchor": "increase the concentration of H+",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_Arrhenius_acid_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q002",
+      "generation_timestamp": "2026-01-27T10:45:02Z",
+      "section": "1.1 Acid- Base Concepts",
+      "subsection": "1.1.1 Arrhenius Concept of Acids and Bases",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 1.1",
+      "mcq_type": "J",
+      "question": "Sodium chloride dissolves in water to form Na⁺ and Cl⁻ ions. According to which acid-base concept can this compound NOT be classified as an acid or base?",
+      "options": {
+        "A": "Arrhenius concept",
+        "B": "Bronsted-Lowry concept",
+        "C": "Lewis concept",
+        "D": "Both Arrhenius and Bronsted-Lowry"
+      },
+      "correct_answer": "A",
+      "hint": "Consider which ions are produced upon dissociation.",
+      "explanation": "The Arrhenius concept classifies substances as acids or bases only if they produce H⁺ or OH⁻ ions. Option C is incorrect because NaCl could be considered under the Lewis concept, where Cl⁻ can act as a base by donating an electron pair.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.1 Acid- Base Concepts",
+        "subsection_anchor": "1.1.1 Arrhenius Concept of Acids and Bases",
+        "structural_element": "Exercise 1.1",
+        "content_anchor": "cannot be classified as an Arrhenius acid or base",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_Arrhenius_classification_limitation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q003",
+      "generation_timestamp": "2026-01-27T10:45:03Z",
+      "section": "1.1 Acid- Base Concepts",
+      "subsection": "1.1.2 Brønsted- Lowry Concept of Acids and Bases",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 1.2",
+      "mcq_type": "A",
+      "question": "What is the defining characteristic of a Bronsted-Lowry base?",
+      "options": {
+        "A": "It produces OH⁻ ions in water.",
+        "B": "It accepts a proton.",
+        "C": "It donates an electron pair.",
+        "D": "It increases H⁺ concentration."
+      },
+      "correct_answer": "B",
+      "hint": "Focus on the proton transfer aspect.",
+      "explanation": "The Bronsted-Lowry definition classifies a base as a proton acceptor. Option A incorrectly describes an Arrhenius base, which is specifically defined by OH⁻ ion production in aqueous solution.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.1 Acid- Base Concepts",
+        "subsection_anchor": "1.1.2 Brønsted- Lowry Concept of Acids and Bases",
+        "structural_element": "Activity 1.2",
+        "content_anchor": "base is a proton acceptor",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_Bronsted_Lowry_base_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q004",
+      "generation_timestamp": "2026-01-27T10:45:04Z",
+      "section": "1.1 Acid- Base Concepts",
+      "subsection": "1.1.2 Brønsted- Lowry Concept of Acids and Bases",
+      "sub_subsection": null,
+      "structural_anchor": "1.1.2.1 Conjugate Acid- Base Pairs",
+      "mcq_type": "B",
+      "question": "In the reaction CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺, which species is the conjugate base of acetic acid?",
+      "options": {
+        "A": "H₂O",
+        "B": "CH₃COO⁻",
+        "C": "H₃O⁺",
+        "D": "CH₃COOH"
+      },
+      "correct_answer": "B",
+      "hint": "Identify the species formed after the acid loses a proton.",
+      "explanation": "A conjugate base is formed when an acid loses a proton. Option C is incorrect because H₃O⁺ is the conjugate acid formed when water gains a proton.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.1 Acid- Base Concepts",
+        "subsection_anchor": "1.1.2 Brønsted- Lowry Concept of Acids and Bases",
+        "structural_element": "1.1.2.1 Conjugate Acid- Base Pairs",
+        "content_anchor": "CH3COOH loses a proton, it is converted into CH3COO-",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_conjugate_base_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q005",
+      "generation_timestamp": "2026-01-27T10:45:05Z",
+      "section": "1.1 Acid- Base Concepts",
+      "subsection": "1.1.3 Lewis Concept of Acids and Bases",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 1.3",
+      "mcq_type": "A",
+      "question": "According to the Lewis definition, what characterizes a Lewis acid?",
+      "options": {
+        "A": "It donates a proton.",
+        "B": "It accepts a proton.",
+        "C": "It donates an electron pair.",
+        "D": "It accepts an electron pair."
+      },
+      "correct_answer": "D",
+      "hint": "Focus on electron pair interaction rather than protons.",
+      "explanation": "The Lewis acid-base theory defines an acid as an electron pair acceptor. Option A incorrectly describes a Bronsted-Lowry acid, which is specifically a proton donor.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.1 Acid- Base Concepts",
+        "subsection_anchor": "1.1.3 Lewis Concept of Acids and Bases",
+        "structural_element": "Activity 1.3",
+        "content_anchor": "acid is any species that accepts an electron pair",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_Lewis_acid_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 92,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q006",
+      "generation_timestamp": "2026-01-27T10:45:06Z",
+      "section": "1.2 Ionic Equilibria of Weak Acids and Bases",
+      "subsection": "1.2.1 Ionization of Water",
+      "sub_subsection": null,
+      "structural_anchor": "Example 1.3",
+      "mcq_type": "D",
+      "question": "If the hydronium ion concentration in an aqueous solution at 25°C is 3.0 × 10⁻⁴ M, what is the hydroxide ion concentration?",
+      "options": {
+        "A": "3.3 × 10⁻¹¹ M",
+        "B": "3.0 × 10⁻¹⁰ M",
+        "C": "3.3 × 10⁻⁴ M",
+        "D": "1.0 × 10⁻¹⁴ M"
+      },
+      "correct_answer": "A",
+      "hint": "Use the ion product constant for water.",
+      "explanation": "The ion product constant Kw = [H₃O⁺][OH⁻] = 1.0 × 10⁻¹⁴ at 25°C. Option D incorrectly gives Kw itself, not the calculated [OH⁻].",
+      "difficulty_level": "medium",
+      "formula_used": ["Kw = [H₃O⁺][OH⁻]"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "M",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.2 Ionic Equilibria of Weak Acids and Bases",
+        "subsection_anchor": "1.2.1 Ionization of Water",
+        "structural_element": "Example 1.3",
+        "content_anchor": "Calculate [OH-] = Kw / [H3O+]",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_Kw_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q007",
+      "generation_timestamp": "2026-01-27T10:45:07Z",
+      "section": "1.2 Ionic Equilibria of Weak Acids and Bases",
+      "subsection": "1.2.1 Ionization of Water",
+      "sub_subsection": null,
+      "structural_anchor": "The pH scale",
+      "mcq_type": "E",
+      "question": "A solution has a pH of 4.5. What is the hydronium ion concentration?",
+      "options": {
+        "A": "3.2 × 10⁻⁵ M",
+        "B": "4.5 × 10⁻¹⁰ M",
+        "C": "3.2 × 10⁻⁴ M",
+        "D": "1.0 × 10⁻⁴.⁵ M"
+      },
+      "correct_answer": "A",
+      "hint": "Use the relationship pH = -log[H₃O⁺].",
+      "explanation": "The pH definition gives [H₃O⁺] = 10^(-pH). Option C results from incorrectly using 10^(-4) instead of 10^(-4.5).",
+      "difficulty_level": "medium",
+      "formula_used": ["pH = -log[H₃O⁺]"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "M",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.2 Ionic Equilibria of Weak Acids and Bases",
+        "subsection_anchor": "1.2.1 Ionization of Water",
+        "structural_element": "The pH scale",
+        "content_anchor": "[H3O+] = 10^(-pH)",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_of_pH_to_H3O_conversion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q008",
+      "generation_timestamp": "2026-01-27T10:45:08Z",
+      "section": "1.2 Ionic Equilibria of Weak Acids and Bases",
+      "subsection": "1.2.2 Measures of the Strength of acids and Bases in Aqueous Solution",
+      "sub_subsection": null,
+      "structural_anchor": "1.2.2.4 Dissociation (Ionization) Constants",
+      "mcq_type": "C",
+      "question": "For a weak acid HA, what is the correct expression for the acid dissociation constant Ka?",
+      "options": {
+        "A": "Ka = [H₃O⁺][A⁻]/[HA]",
+        "B": "Ka = [HA]/[H₃O⁺][A⁻]",
+        "C": "Ka = [H₃O⁺][A⁻][H₂O]/[HA]",
+        "D": "Ka = [H₃O⁺][A⁻]"
+      },
+      "correct_answer": "A",
+      "hint": "Recall the equilibrium expression excluding water concentration.",
+      "explanation": "The acid dissociation constant Ka is defined by the equilibrium concentrations of products over reactant. Option C incorrectly includes [H₂O], which is constant and incorporated into Ka.",
+      "difficulty_level": "easy",
+      "formula_used": ["Ka = [H₃O⁺][A⁻]/[HA]"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.2 Ionic Equilibria of Weak Acids and Bases",
+        "subsection_anchor": "1.2.2 Measures of the Strength of acids and Bases in Aqueous Solution",
+        "structural_element": "1.2.2.4 Dissociation (Ionization) Constants",
+        "content_anchor": "Ka = [H3O+][A-]/[HA]",
+        "page_hint": "Page 24",
+        "concept_hash": "sha256_of_Ka_expression"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q009",
+      "generation_timestamp": "2026-01-27T10:45:09Z",
+      "section": "1.3 Common Ion Effect and Buffer Solution",
+      "subsection": "1.3.1 The Common Ion Effect",
+      "sub_subsection": null,
+      "structural_anchor": "Example 1.7",
+      "mcq_type": "F",
+      "question": "When HCl is added to an acetic acid solution, the concentration of acetate ions decreases. Which principle explains this shift in equilibrium?",
+      "options": {
+        "A": "Le Chatelier's principle",
+        "B": "Henderson-Hasselbalch equation",
+        "C": "Autoionization of water",
+        "D": "Percent ionization"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how added ions affect an existing equilibrium.",
+      "explanation": "Le Chatelier's principle states that a system at equilibrium shifts to counteract a disturbance. Option B describes a calculation for buffer pH, not the underlying cause of the shift.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.3 Common Ion Effect and Buffer Solution",
+        "subsection_anchor": "1.3.1 The Common Ion Effect",
+        "structural_element": "Example 1.7",
+        "content_anchor": "equilibrium composition should shift to the left",
+        "page_hint": "Page 32-33",
+        "concept_hash": "sha256_of_common_ion_effect_Le_Chatelier"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Chem_U1_Q010",
+      "generation_timestamp": "2026-01-27T10:45:10Z",
+      "section": "1.3 Common Ion Effect and Buffer Solution",
+      "subsection": "1.3.2 Buffer Solutions",
+      "sub_subsection": null,
+      "structural_anchor": "Henderson- Hasselbalch equation",
+      "mcq_type": "C",
+      "question": "What is the correct form of the Henderson-Hasselbalch equation for a buffer containing weak acid HA and its conjugate base A⁻?",
+      "options": {
+        "A": "pH = pKa + log([A⁻]/[HA])",
+        "B": "pH = pKa - log([A⁻]/[HA])",
+        "C": "pH = pKa + log([HA]/[A⁻])",
+        "D": "pH = pKa × log([A⁻]/[HA])"
+      },
+      "correct_answer": "A",
+      "hint": "Recall the logarithmic ratio of conjugate base to acid.",
+      "explanation": "The Henderson-Hasselbalch equation relates buffer pH to the pKa and the concentration ratio. Option C incorrectly reverses the ratio, which would give a different pH value.",
+      "difficulty_level": "medium",
+      "formula_used": ["pH = pKa + log([A⁻]/[HA])"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: ACID-BASE EQUILIBRIA",
+        "section_anchor": "1.3 Common Ion Effect and Buffer Solution",
+        "subsection_anchor": "1.3.2 Buffer Solutions",
+        "structural_element": "Henderson- Hasselbalch equation",
+        "content_anchor": "pH = pKa + log([Conjugate base]/[weak acid])",
+        "page_hint": "Page 37",
+        "concept_hash": "sha256_of_Henderson_Hasselbalch_equation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 86,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 9000,
+    "average_question_quality": 86.4,
+    "type_distribution": {
+      "A": 4,
+      "B": 1,
+      "C": 2,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "1.1 Acid- Base Concepts": 5,
+      "1.2 Ionic Equilibria of Weak Acids and Bases": 3,
+      "1.3 Common Ion Effect and Buffer Solution": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

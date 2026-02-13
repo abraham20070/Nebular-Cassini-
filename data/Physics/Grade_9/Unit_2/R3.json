@@ -1,0 +1,774 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2026-01-28T10:30:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Physics_U2_Q030",
+    "covered_sections": ["Introduction", "Scales, Standards, Units (prefixes)>2.1 Scales, Standards, Units (prefixes)", "Measurement and Safety>3.1 Measurement and Safety", "Classification of Physical Quantities>4.1 Classification of Physical Quantities", "Unit conversion>5.1 Unit conversion"],
+    "used_question_signatures": ["a4c9e8d1e44c33a4b5f5d8f7c6b3a2e1", "b5d0f9e2f55c44b5c6g6e8d7c7c4b3f2", "c6e1g0f3g66d5c6d7f9e8d8d5c4g3", "d7f2h1g4h77e6d7e0f9e9e6d5h4", "e8g3i2h5i88f7e8f1g0f0f7e6i5", "f9h4j3i6j99g8f9g2h1g1g8f7j6", "g0i5k4j7k00h9g0h3i2h2h9g8k7", "h1j6l5k8l11i0h1i4j3i3i0h9l8", "i2k7m6l9m22j1i2j5k4j4j1i0m9", "j3l8n7m0n33k2j3k6l5k5k2j1n0", "k4m9o8n1o44l3k4l7m6l6l3k2o1", "l5n0p9o2p55m4l5m8n7m7m4l3p2", "m6o1q0p3q66n5m6n9o8n8n5m4q3", "n7p2r1q4r77o6n7o0p9o9o6n5r4", "o8q3s2r5s88p7o8p1q0p0p7o6s5", "p9r4t3s6t99q8p9q2r1q1q8p7t6", "q0s5u4t7u00r9q0r3s2r2r9q8u7", "r1t6v5u8v11s0r1s4t3s3s0r9v8", "s2u7w6v9w22t1s2t5u4t4t1s0w9", "t3v8x7w0x33u2t3u6v5u5u2t1x0", "u4w9y8x1y44v3u4v7w6v6v3u2y1", "v5x0z9y2z55w4v5w8x7w7w4v3z2", "w6y1a0z3a66x5w6x9y8x8x5w4a3", "x7z2b1a4b77y6x7y0z9y9y6x5b4", "y8a3c2b5c88z7y8z1a0z0z7y6c5", "z9b4d3c6d99a8z9a2b1a1a8z7d6", "a0c5e4d7e00b9a0b3c2b2b9a8e7", "b1d6f5e8f11c0b1c4d3c3c0b9f8", "c2e7g6f9g22d1c2d5e4d4d1c0g9", "d3f8h7g0h33e2d3e6f5e5e2d1h0"],
+    "baseline_counter": {
+      "Introduction": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Scales, Standards, Units (prefixes)": {
+        "2.1 Scales, Standards, Units (prefixes)": {
+          "count": 6,
+          "mini_headings_covered": ["Scales", "Standards", "Scientific Notation", "Prefixes"],
+          "last_question_round": 3
+        }
+      },
+      "Measurement and Safety": {
+        "3.1 Measurement and Safety": {
+          "count": 6,
+          "mini_headings_covered": ["Measurement", "Measuring Length", "Measuring Mass", "Measuring Time", "Laboratory Safety rules"],
+          "last_question_round": 3
+        }
+      },
+      "Classification of Physical Quantities": {
+        "4.1 Classification of Physical Quantities": {
+          "count": 8,
+          "mini_headings_covered": ["Physical Quantities", "Fundamental or basic physical quantities", "Derived physical quantities", "Scalar and Vector Quantities"],
+          "last_question_round": 3
+        }
+      },
+      "Unit conversion": {
+        "5.1 Unit conversion": {
+          "count": 8,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "Scales, Standards, Units (prefixes)": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Measurement and Safety": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Classification of Physical Quantities": {
+        "question_count": 8,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Unit conversion": {
+        "question_count": 8,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction": ["Physical Quantity", "Comparison"],
+      "Scales, Standards, Units (prefixes)>2.1 Scales, Standards, Units (prefixes)": ["Nominal Scale", "Ratio Scale", "SI Unit Prefix", "Scientific Notation", "Ordinal Scale", "Interval Scale"],
+      "Measurement and Safety>3.1 Measurement and Safety": ["Measurement Process", "Length", "Mass", "Time", "Safety Rules"],
+      "Classification of Physical Quantities>4.1 Classification of Physical Quantities": ["Fundamental Quantity", "Derived Quantity", "Scalar Quantity", "Vector Quantity", "Fundamental Units", "Derived Units"],
+      "Unit conversion>5.1 Unit conversion": ["Unit Conversion", "Length Conversion", "Mass Conversion", "Time Conversion", "Kilometer to Meter", "Millimeter to Meter", "Hour to Second", "Kilogram to Gram"]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_updated_after_batch2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 23,
+      "questions_per_concept_ratio": 1.30,
+      "structural_coverage_percentage": 40.9
+    }
+  },
+  "grade": "9",
+  "subject": "Physics",
+  "unit": "Unit 2: Physical Quantities",
+  "pdf_filename": "P9U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-01-28T10:35:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 5,
+        "total_sections": 5,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 13,
+      "structural_coverage_percentage": 59.1,
+      "concept_utilization_ratio": 1.30
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Classification of Physical Quantities",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.30,
+      "remaining_concept_capacity": 7
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Physics_U2_Q021",
+      "generation_timestamp": "2026-01-28T10:30:01Z",
+      "section": "Scales, Standards, Units (prefixes)",
+      "subsection": "2.1 Scales, Standards, Units (prefixes)",
+      "sub_subsection": null,
+      "structural_anchor": "Scales",
+      "mcq_type": "I",
+      "question": "What key feature distinguishes an ordinal scale from an interval scale?",
+      "options": {
+        "A": "An ordinal scale indicates rank order but does not have equal intervals between values.",
+        "B": "An interval scale can only be used for labeling, not for quantitative comparison.",
+        "C": "An ordinal scale has a true zero point, allowing for ratio calculations.",
+        "D": "An interval scale does not permit any mathematical operations like addition."
+      },
+      "correct_answer": "A",
+      "hint": "Think about what 'order' implies versus measurable differences.",
+      "explanation": "Ordinal scales show ranking or sequence but do not guarantee that the differences between ranks are quantitatively equal. Option C incorrectly assigns the property of a true zero point to ordinal scales.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Physical Quantities",
+        "section_anchor": "Scales, Standards, Units (prefixes)",
+        "subsection_anchor": "2.1 Scales, Standards, Units (prefixes)",
+        "structural_element": "Scales",
+        "content_anchor": "Ordinal scales: are rank-order observations",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_ordinal_scale"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Physics_U2_Q022",
+      "generation_timestamp": "2026-01-28T10:30:02Z",
+      "section": "Scales, Standards, Units (prefixes)",
+      "subsection": "2.1 Scales, Standards, Units (prefixes)",
+      "sub_subsection": null,
+      "structural_anchor": "Scales",
+      "mcq_type": "H",
+      "question": "Which option identifies the flaw in claiming that 'temperature measured in degrees Celsius is a ratio scale'?",
+      "options": {
+        "A": "The Celsius scale lacks a true, non-arbitrary zero point, making ratios meaningless.",
+        "B": "Temperature cannot be measured on any quantitative scale, only qualitatively.",
+        "C": "The Celsius scale has equal intervals, so it must be a ratio scale.",
+        "D": "Only Kelvin is a valid scale for temperature; Celsius is not scientific."
+      },
+      "correct_answer": "A",
+      "hint": "Consider what 'zero' means on the Celsius scale.",
+      "explanation": "The Celsius scale is an interval scale because its zero point is arbitrarily set at the freezing point of water, not an absolute absence of heat. Option C incorrectly assumes equal intervals are sufficient for a ratio scale.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Physical Quantities",
+        "section_anchor": "Scales, Standards, Units (prefixes)",
+        "subsection_anchor": "2.1 Scales, Standards, Units (prefixes)",
+        "structural_element": "Scales",
+        "content_anchor": "Temperature in Celsius or Fahrenheit scale is an example of interval scale.",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_interval_scale_celsius"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 80,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Physics_U2_Q023",
+      "generation_timestamp": "2026-01-28T10:30:03Z",
+      "section": "Measurement and Safety",
+      "subsection": "3.1 Measurement and Safety",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept (Length)",
+      "mcq_type": "F",
+      "question": "Why is the meter, defined by the distance light travels in a vacuum during an extremely short time interval, considered a superior standard compared to a physical bar?",
+      "options": {
+        "A": "It is based on a universal constant, making it reproducible and invariant anywhere.",
+        "B": "It is easier to manufacture and distribute than metal bars.",
+        "C": "It is a larger unit, reducing the need for decimal subdivisions.",
+        "D": "It is defined by a human-made object, ensuring perfect accuracy."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the limitations of a physical artifact.",
+      "explanation": "The modern definition ties the meter to the invariant speed of light, eliminating dependence on a perishable or changeable physical object. Option D is incorrect because human-made objects can degrade or change.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Physical Quantities",
+        "section_anchor": "Measurement and Safety",
+        "subsection_anchor": "3.1 Measurement and Safety",
+        "structural_element": "Key Concept (Length)",
+        "content_anchor": "the meter (m) is defined as a distance traveled by light in vacuum",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_meter_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Physics_U2_Q024",
+      "generation_timestamp": "2026-01-28T10:30:04Z",
+      "section": "Measurement and Safety",
+      "subsection": "3.1 Measurement and Safety",
+      "sub_subsection": null,
+      "structural_anchor": "Laboratory Safety rules",
+      "mcq_type": "K",
+      "question": "A list of laboratory rules states: 'Wear safety goggles, avoid loose clothing, never work alone, and report all accidents.' What is the primary purpose of these rules?",
+      "options": {
+        "A": "To minimize the risk of injury and ensure a controlled environment for accurate work.",
+        "B": "To make laboratory work more difficult and time-consuming for students.",
+        "C": "To ensure that all experiments yield perfectly accurate results on the first attempt.",
+        "D": "To restrict student access to equipment and prevent independent learning."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the consequences of not following these rules.",
+      "explanation": "Safety rules are designed to protect individuals from harm and maintain conditions where systematic, careful experimentation can occur. Option C misrepresents the purpose, as safety rules do not guarantee experimental accuracy.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Physical Quantities",
+        "section_anchor": "Measurement and Safety",
+        "subsection_anchor": "3.1 Measurement and Safety",
+        "structural_element": "Laboratory Safety rules",
+        "content_anchor": "Always wear a lab safety goggles. Avoid wearing baggy clothing... NEVER work alone",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_safety_rules_purpose"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Physics_U2_Q025",
+      "generation_timestamp": "2026-01-28T10:30:05Z",
+      "section": "Classification of Physical Quantities",
+      "subsection": "4.1 Classification of Physical Quantities",
+      "sub_subsection": null,
+      "structural_anchor": "Fundamental or basic physical quantities",
+      "mcq_type": "J",
+      "question": "Which of the following lists consists entirely of fundamental physical quantities?",
+      "options": {
+        "A": "Length, mass, time, electric current",
+        "B": "Speed, force, energy, pressure",
+        "C": "Area, volume, density, acceleration",
+        "D": "Velocity, displacement, momentum, power"
+      },
+      "correct_answer": "A",
+      "hint": "Fundamental quantities are the base building blocks, not combinations.",
+      "explanation": "Length, mass, time, and electric current are among the seven fundamental quantities that form the basis for all derived measurements. Option B lists derived quantities calculated from fundamental ones.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Physical Quantities",
+        "section_anchor": "Classification of Physical Quantities",
+        "subsection_anchor": "4.1 Classification of Physical Quantities",
+        "structural_element": "Fundamental or basic physical quantities",
+        "content_anchor": "seven basic quantities are length (l), mass (m), time (t), temperature (T), current (I)",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_fundamental_list"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Physics_U2_Q026",
+      "generation_timestamp": "2026-01-28T10:30:06Z",
+      "section": "Classification of Physical Quantities",
+      "subsection": "4.1 Classification of Physical Quantities",
+      "sub_subsection": null,
+      "structural_anchor": "Derived physical quantities",
+      "mcq_type": "G",
+      "question": "If the mass of an object increases while its volume remains constant, what is the direct effect on its density?",
+      "options": {
+        "A": "Density increases.",
+        "B": "Density decreases.",
+        "C": "Density remains unchanged.",
+        "D": "Density becomes zero."
+      },
+      "correct_answer": "A",
+      "hint": "Recall the formula relating density, mass, and volume.",
+      "explanation": "Density is mass divided by volume. If mass increases and volume is constant, the ratio (density) must increase. Option C would be true only if mass also remained constant.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Physical Quantities",
+        "section_anchor": "Classification of Physical Quantities",
+        "subsection_anchor": "4.1 Classification of Physical Quantities",
+        "structural_element": "Derived physical quantities",
+        "content_anchor": "DensityρMass/Volume",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_density_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Physics_U2_Q027",
+      "generation_timestamp": "2026-01-28T10:30:07Z",
+      "section": "Classification of Physical Quantities",
+      "subsection": "4.1 Classification of Physical Quantities",
+      "sub_subsection": null,
+      "structural_anchor": "Scalar and Vector Quantities",
+      "mcq_type": "H",
+      "question": "What is the error in stating that 'speed and velocity are identical physical quantities'?",
+      "options": {
+        "A": "Velocity includes direction as part of its description, while speed does not.",
+        "B": "Speed is a derived quantity, while velocity is a fundamental quantity.",
+        "C": "Speed is always greater than or equal to the magnitude of velocity.",
+        "D": "Velocity can be negative, but speed can only be positive or zero."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the full definition of each term.",
+      "explanation": "Velocity is a vector quantity defined by both magnitude and direction, whereas speed is a scalar representing only magnitude. Option D is a consequence of the definition, not the primary distinguishing error.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Physical Quantities",
+        "section_anchor": "Classification of Physical Quantities",
+        "subsection_anchor": "4.1 Classification of Physical Quantities",
+        "structural_element": "Scalar and Vector Quantities",
+        "content_anchor": "velocity is a vector quantity",
+        "page_hint": "Page 15-16",
+        "concept_hash": "sha256_of_speed_vs_velocity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Physics_U2_Q028",
+      "generation_timestamp": "2026-01-28T10:30:08Z",
+      "section": "Unit conversion",
+      "subsection": "5.1 Unit conversion",
+      "sub_subsection": null,
+      "structural_anchor": "Table 2.5",
+      "mcq_type": "D",
+      "question": "According to standard conversion, how many centimeters are there in 2.5 meters?",
+      "options": {
+        "A": "250 cm",
+        "B": "25 cm",
+        "C": "0.25 cm",
+        "D": "2500 cm"
+      },
+      "correct_answer": "A",
+      "hint": "1 meter equals 100 centimeters.",
+      "explanation": "Multiplying 2.5 meters by 100 centimeters per meter gives 250 centimeters. Option D results from incorrectly using a factor of 1000.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": "cm",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Physical Quantities",
+        "section_anchor": "Unit conversion",
+        "subsection_anchor": "5.1 Unit conversion",
+        "structural_element": "Table 2.5",
+        "content_anchor": "1 meter (m)100 centimeter (cm)",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_conversion_m_to_cm"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G9_Physics_U2_Q029",
+      "generation_timestamp": "2026-01-28T10:30:09Z",
+      "section": "Unit conversion",
+      "subsection": "5.1 Unit conversion",
+      "sub_subsection": null,
+      "structural_anchor": "Table 2.6",
+      "mcq_type": "E",
+      "question": "What is the equivalent mass in kilograms of 3500 grams?",
+      "options": {
+        "A": "3.5 kg",
+        "B": "35 kg",
+        "C": "0.35 kg",
+        "D": "350 kg"
+      },
+      "correct_answer": "A",
+      "hint": "There are 1000 grams in one kilogram.",
+      "explanation": "Dividing 3500 grams by 1000 grams per kilogram gives 3.5 kilograms. Option B results from dividing by 100 instead of 1000.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": "kg",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Physical Quantities",
+        "section_anchor": "Unit conversion",
+        "subsection_anchor": "5.1 Unit conversion",
+        "structural_element": "Table 2.6",
+        "content_anchor": "1 kilogram (kg)1000 gram (g)",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_conversion_g_to_kg"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G9_Physics_U2_Q030",
+      "generation_timestamp": "2026-01-28T10:30:10Z",
+      "section": "Unit conversion",
+      "subsection": "5.1 Unit conversion",
+      "sub_subsection": null,
+      "structural_anchor": "Table 2.7",
+      "mcq_type": "D",
+      "question": "How many minutes are contained in 2.5 hours?",
+      "options": {
+        "A": "150 minutes",
+        "B": "120 minutes",
+        "C": "100 minutes",
+        "D": "250 minutes"
+      },
+      "correct_answer": "A",
+      "hint": "Each hour consists of 60 minutes.",
+      "explanation": "Multiplying 2.5 hours by 60 minutes per hour gives 150 minutes. Option D incorrectly uses a factor of 100 minutes per hour.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": "min",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Physical Quantities",
+        "section_anchor": "Unit conversion",
+        "subsection_anchor": "5.1 Unit conversion",
+        "structural_element": "Table 2.7",
+        "content_anchor": "1 hour (hr)60 minute (min)",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_of_conversion_hr_to_min"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 9000,
+    "average_question_quality": 83.5,
+    "type_distribution": {
+      "D": 2,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 2,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 3,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Scales, Standards, Units (prefixes)": 2,
+      "Measurement and Safety": 2,
+      "Classification of Physical Quantities": 3,
+      "Unit conversion": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

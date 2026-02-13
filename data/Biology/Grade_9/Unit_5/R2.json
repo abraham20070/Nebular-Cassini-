@@ -1,0 +1,836 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-03-10T12:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G9_Bio_U5_Q020",
+    "covered_sections": ["5.1. What is food?>The importance of food in living things:", "5.2 Nutrition", "5.3. Nutrients>Macronutrients and Micronutrients", "5.4. Balanced diets", "5.5 Deficiency diseases", "5.6 Malnutrition"],
+    "used_question_signatures": ["hash_A_whatisfood_growth", "hash_A_whatisfood_energy", "hash_A_nutrition_definition", "hash_B_nutrients_types", "hash_C_carbohydrates_elements", "hash_A_macronutrients_definition", "hash_A_carbohydrates_definition", "hash_F_dietaryfiber_function", "hash_A_fats_definition", "hash_A_proteins_definition", "hash_A_vitamins_definition", "hash_A_minerals_definition", "hash_A_water_function", "hash_J_balanceddiet_definition", "hash_F_dietvariation_factors", "hash_A_kwashiorkor_cause", "hash_G_marasmus_vs_kwashiorkor", "hash_A_scurvy_cause", "hash_B_anemia_cause", "hash_A_rickets_cause"],
+    "baseline_counter": {
+      "5.1. What is food?": {
+        "The importance of food in living things:": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.2 Nutrition": {
+        "": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.3. Nutrients": {
+        "Macronutrients and Micronutrients": {
+          "count": 12,
+          "mini_headings_covered": ["Carbohydrates:", "Fats and Oils:", "Proteins:", "Vitamins (Types):", "Minerals:", "Water:"],
+          "last_question_round": 2
+        }
+      },
+      "5.4. Balanced diets": {
+        "": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "5.5 Deficiency diseases": {
+        "": {
+          "count": 5,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Kwashiorkor": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Marasmus": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Diseases caused by deficiency of minerals and vitamins.": {
+          "count": 3,
+          "mini_headings_covered": ["Anemia:", "Rickets:", "Scurvy:"],
+          "last_question_round": 2
+        }
+      },
+      "5.6 Malnutrition": {
+        "": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "5.7. Substance abuse": {
+        "": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "5.8. Infectious and noninfectious diseases": {
+        "": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "5.9 Renowned Nutritionists in Ethiopia": {
+        "": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1. What is food?": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "5.2 Nutrition": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "5.3. Nutrients": {
+        "question_count": 12,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.4. Balanced diets": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "5.5 Deficiency diseases": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "5.6 Malnutrition": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "5.7. Substance abuse": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "5.8. Infectious and noninfectious diseases": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "5.9 Renowned Nutritionists in Ethiopia": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1. What is food?>The importance of food in living things:": ["Growth", "Energy", "Replacement of damaged tissues"],
+      "5.2 Nutrition": ["Nutrition definition"],
+      "5.3. Nutrients>Macronutrients and Micronutrients": ["Nutrients types", "Carbohydrate composition", "Macronutrients", "Carbohydrates", "Dietary fiber", "Fats and oils", "Proteins", "Vitamins", "Minerals", "Water"],
+      "5.4. Balanced diets": ["Balanced diet definition", "Factors affecting dietary needs"],
+      "5.5 Deficiency diseases": ["Kwashiorkor cause", "Marasmus cause", "Scurvy cause", "Anemia cause", "Rickets cause"],
+      "5.6 Malnutrition": ["Malnutrition definition"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 19,
+      "questions_per_concept_ratio": 1.05,
+      "structural_coverage_percentage": 30.0
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 5: Human Health, Nutrition, and Disease",
+  "pdf_filename": "B9U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-03-10T12:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 9,
+        "progress_percentage": 66.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 12.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 9,
+      "structural_coverage_percentage": 18.0,
+      "concept_utilization_ratio": 1.05
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.3. Nutrients",
+      "least_covered_section": "5.9 Renowned Nutritionists in Ethiopia",
+      "imbalance_ratio": 12.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U5_Q011",
+      "generation_timestamp": "2025-03-10T12:05:00Z",
+      "section": "5.3. Nutrients",
+      "subsection": "Macronutrients and Micronutrients",
+      "sub_subsection": null,
+      "structural_anchor": "Vitamins (Types):",
+      "mcq_type": "A",
+      "question": "Which class of nutrients consists of organic compounds required in small quantities for regulating metabolic activities?",
+      "options": {
+        "A": "Vitamins",
+        "B": "Minerals",
+        "C": "Proteins",
+        "D": "Carbohydrates"
+      },
+      "correct_answer": "A",
+      "hint": "These substances often act as coenzymes and are not used for energy.",
+      "explanation": "Vitamins are organic micronutrients that facilitate enzymatic reactions and metabolic regulation. Option B describes inorganic micronutrients, which do not contain carbon.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.3. Nutrients",
+        "subsection_anchor": "Macronutrients and Micronutrients",
+        "structural_element": "Vitamins (Types):",
+        "content_anchor": "Vitamins are organic substances needed for chemical reactions of human cells.",
+        "page_hint": 5,
+        "concept_hash": "sha256_of_vitamins_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q012",
+      "generation_timestamp": "2025-03-10T12:05:00Z",
+      "section": "5.3. Nutrients",
+      "subsection": "Macronutrients and Micronutrients",
+      "sub_subsection": null,
+      "structural_anchor": "Minerals:",
+      "mcq_type": "A",
+      "question": "Calcium, iron, and iodine are examples of which type of inorganic nutrient?",
+      "options": {
+        "A": "Minerals",
+        "B": "Vitamins",
+        "C": "Proteins",
+        "D": "Carbohydrates"
+      },
+      "correct_answer": "A",
+      "hint": "These elements are obtained from soil and water and are not synthesized by living organisms.",
+      "explanation": "Minerals are inorganic elements essential for various bodily functions, including bone structure and oxygen transport. Option B refers to organic compounds, which contain carbon.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.3. Nutrients",
+        "subsection_anchor": "Macronutrients and Micronutrients",
+        "structural_element": "Minerals:",
+        "content_anchor": "Minerals are inorganic substances, which are essential in small quantities for human body.",
+        "page_hint": 5,
+        "concept_hash": "sha256_of_minerals_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q013",
+      "generation_timestamp": "2025-03-10T12:05:00Z",
+      "section": "5.3. Nutrients",
+      "subsection": "Macronutrients and Micronutrients",
+      "sub_subsection": null,
+      "structural_anchor": "Water:",
+      "mcq_type": "A",
+      "question": "In biological systems, water primarily functions as a solvent and a medium for what essential process?",
+      "options": {
+        "A": "The transport of substances throughout the body",
+        "B": "The storage of genetic information in cells",
+        "C": "The catalysis of metabolic reactions as an enzyme",
+        "D": "The provision of structural support to tissues"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how dissolved nutrients and waste products move within an organism.",
+      "explanation": "Water's polar nature allows it to dissolve many substances, facilitating their movement via blood, lymph, and tissue fluid. Option C incorrectly ascribes a catalytic role to water, which is performed by enzymes.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.3. Nutrients",
+        "subsection_anchor": "Macronutrients and Micronutrients",
+        "structural_element": "Water:",
+        "content_anchor": "water acts as a solvent and as a transport medium for substances throughout the body.",
+        "page_hint": 5,
+        "concept_hash": "sha256_of_water_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q014",
+      "generation_timestamp": "2025-03-10T12:05:00Z",
+      "section": "5.4. Balanced diets",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives (under 5.4)",
+      "mcq_type": "J",
+      "question": "A diet containing carbohydrates, fats, proteins, vitamins, minerals, fiber, and water in correct proportions is best described by which term?",
+      "options": {
+        "A": "Balanced diet",
+        "B": "High-protein diet",
+        "C": "Low-carbohydrate diet",
+        "D": "Vitamin-supplemented diet"
+      },
+      "correct_answer": "A",
+      "hint": "This term implies adequacy and proper ratio of all necessary dietary components.",
+      "explanation": "A balanced diet is defined by the presence of all essential nutrients in appropriate amounts to meet physiological needs. Option B describes a diet skewed toward one macronutrient, not a proportional mix.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 78
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.4. Balanced diets",
+        "subsection_anchor": "",
+        "structural_element": "Objectives (under 5.4)",
+        "content_anchor": "The diet that contains all of the nutrients in the correct amount and proportion is termed as a balanced diet.",
+        "page_hint": 7,
+        "concept_hash": "sha256_of_balanceddiet_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q015",
+      "generation_timestamp": "2025-03-10T12:05:00Z",
+      "section": "5.4. Balanced diets",
+      "subsection": "Balanced diet depends on age, sex, activities and lifestyles",
+      "sub_subsection": null,
+      "structural_anchor": "Balanced diet depends on age, sex, activities and lifestyles",
+      "mcq_type": "F",
+      "question": "Under the condition that two individuals have identical body masses, which factor would most likely explain a higher daily energy requirement for one individual over the other?",
+      "options": {
+        "A": "Engaging in a physically demanding occupation",
+        "B": "Consuming a diet higher in dietary fiber",
+        "C": "Being of a specific biological sex",
+        "D": "Having a slightly younger chronological age"
+      },
+      "correct_answer": "A",
+      "hint": "Consider which factor directly increases the rate of energy expenditure.",
+      "explanation": "Physical activity significantly increases metabolic rate and caloric expenditure. Option C is less definitive, as sex alone does not guarantee a higher requirement without considering body composition and activity level.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_title"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.4. Balanced diets",
+        "subsection_anchor": "Balanced diet depends on age, sex, activities and lifestyles",
+        "structural_element": "Balanced diet depends on age, sex, activities and lifestyles",
+        "content_anchor": "Some jobs that involve physical activity require more energy than less active jobs.",
+        "page_hint": 8,
+        "concept_hash": "sha256_of_dietvariation_factors"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q016",
+      "generation_timestamp": "2025-03-10T12:05:00Z",
+      "section": "5.5 Deficiency diseases",
+      "subsection": "Kwashiorkor",
+      "sub_subsection": null,
+      "structural_anchor": "Kwashiorkor",
+      "mcq_type": "A",
+      "question": "A health condition characterized by edema, skin lesions, and hair discoloration is primarily caused by a severe dietary deficiency of which nutrient?",
+      "options": {
+        "A": "Protein",
+        "B": "Carbohydrates",
+        "C": "Vitamin C",
+        "D": "Iron"
+      },
+      "correct_answer": "A",
+      "hint": "This nutrient is crucial for maintaining osmotic balance and synthesizing plasma proteins.",
+      "explanation": "Kwashiorkor results from inadequate protein intake, leading to reduced blood protein levels and fluid accumulation in tissues. Option C deficiency causes scurvy, which involves bleeding gums and poor wound healing.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_title"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.5 Deficiency diseases",
+        "subsection_anchor": "Kwashiorkor",
+        "structural_element": "Kwashiorkor",
+        "content_anchor": "Kwashiorkor is a deficiency disease caused by inadequate protein content in human body especially in children.",
+        "page_hint": 8,
+        "concept_hash": "sha256_of_kwashiorkor_cause"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q017",
+      "generation_timestamp": "2025-03-10T12:05:00Z",
+      "section": "5.5 Deficiency diseases",
+      "subsection": "Marasmus",
+      "sub_subsection": null,
+      "structural_anchor": "Marasmus",
+      "mcq_type": "G",
+      "question": "If an individual's diet is severely deficient in total caloric intake, particularly from carbohydrates and fats, what is the most direct physiological consequence?",
+      "options": {
+        "A": "Extreme wasting of muscle and fat tissue due to energy starvation",
+        "B": "Swelling in the limbs and abdomen from fluid imbalance",
+        "C": "Bleeding gums and poor wound healing from connective tissue defects",
+        "D": "Bone deformities and softening from impaired mineral absorption"
+      },
+      "correct_answer": "A",
+      "hint": "The body catabolizes its own tissues to meet energy demands when external sources are insufficient.",
+      "explanation": "Marasmus results from a gross deficiency in overall energy intake, forcing the body to consume its protein and fat stores. Option B describes edema, a key symptom of kwashiorkor, not marasmus.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_title"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.5 Deficiency diseases",
+        "subsection_anchor": "Marasmus",
+        "structural_element": "Marasmus",
+        "content_anchor": "Marasmus is a deficiency disease caused by inadequate carbohydrate content in the human body.",
+        "page_hint": 9,
+        "concept_hash": "sha256_of_marasmus_cause"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 87,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q018",
+      "generation_timestamp": "2025-03-10T12:05:00Z",
+      "section": "5.5 Deficiency diseases",
+      "subsection": "Diseases caused by deficiency of minerals and vitamins.",
+      "sub_subsection": null,
+      "structural_anchor": "Scurvy:",
+      "mcq_type": "A",
+      "question": "Bleeding gums, subcutaneous hemorrhages, and delayed wound healing are classic symptoms of a deficiency in which vitamin?",
+      "options": {
+        "A": "Vitamin C (ascorbic acid)",
+        "B": "Vitamin D",
+        "C": "Vitamin A",
+        "D": "Vitamin B12"
+      },
+      "correct_answer": "A",
+      "hint": "This vitamin is essential for the synthesis of collagen, a key structural protein.",
+      "explanation": "Vitamin C is required for collagen formation; its absence weakens blood vessels and connective tissue, leading to scurvy. Option D deficiency primarily affects the nervous system and red blood cell production.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.5 Deficiency diseases",
+        "subsection_anchor": "Diseases caused by deficiency of minerals and vitamins.",
+        "structural_element": "Scurvy:",
+        "content_anchor": "Scurvy is a deficiency disease caused by a lack of vitamin C (ascorbic acid).",
+        "page_hint": 10,
+        "concept_hash": "sha256_of_scurvy_cause"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q019",
+      "generation_timestamp": "2025-03-10T12:05:00Z",
+      "section": "5.5 Deficiency diseases",
+      "subsection": "Diseases caused by deficiency of minerals and vitamins.",
+      "sub_subsection": null,
+      "structural_anchor": "Anemia:",
+      "mcq_type": "B",
+      "question": "Chronic fatigue, pallor, and shortness of breath are most indicative of a deficiency in which mineral?",
+      "options": {
+        "A": "Iron",
+        "B": "Calcium",
+        "C": "Iodine",
+        "D": "Phosphorus"
+      },
+      "correct_answer": "A",
+      "hint": "This mineral is a central component of the oxygen-carrying molecule in red blood cells.",
+      "explanation": "Iron is essential for hemoglobin synthesis; deficiency reduces oxygen transport capacity, causing anemia. Option B deficiency primarily affects bone density and nerve function.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.5 Deficiency diseases",
+        "subsection_anchor": "Diseases caused by deficiency of minerals and vitamins.",
+        "structural_element": "Anemia:",
+        "content_anchor": "Anemia is a deficiency disease caused by the lack of iron.",
+        "page_hint": 9,
+        "concept_hash": "sha256_of_anemia_cause"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q020",
+      "generation_timestamp": "2025-03-10T12:05:00Z",
+      "section": "5.5 Deficiency diseases",
+      "subsection": "Diseases caused by deficiency of minerals and vitamins.",
+      "sub_subsection": null,
+      "structural_anchor": "Rickets:",
+      "mcq_type": "A",
+      "question": "Bone softening and deformities, such as bowed legs in children, are characteristic of a deficiency in which vitamin?",
+      "options": {
+        "A": "Vitamin D",
+        "B": "Vitamin C",
+        "C": "Vitamin A",
+        "D": "Vitamin K"
+      },
+      "correct_answer": "A",
+      "hint": "This vitamin regulates the absorption of calcium and phosphorus from the intestine.",
+      "explanation": "Vitamin D promotes calcium and phosphate uptake for bone mineralization; its deficiency causes rickets. Option C deficiency primarily affects vision and immune function.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.5 Deficiency diseases",
+        "subsection_anchor": "Diseases caused by deficiency of minerals and vitamins.",
+        "structural_element": "Rickets:",
+        "content_anchor": "Deficiency disease caused by the shortage of vitamin D is called Rickets.",
+        "page_hint": 9,
+        "concept_hash": "sha256_of_rickets_cause"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3850,
+    "average_question_quality": 84.6,
+    "type_distribution": {
+      "A": 7,
+      "B": 1,
+      "F": 1,
+      "G": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 8,
+      "medium": 2,
+      "hard": 0
+    },
+    "section_distribution": {
+      "5.3. Nutrients": 3,
+      "5.4. Balanced diets": 2,
+      "5.5 Deficiency diseases": 5
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

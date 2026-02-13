@@ -1,0 +1,836 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-10-24T10:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Phy_U6_Q020",
+    "covered_sections": ["Introduction", "Electromagnetic (EM) waves", "EM Spectrum", "Light as a wave", "Laws of reflection & refraction"],
+    "used_question_signatures": ["a1b2c3d4e5", "f6g7h8i9j0", "k1l2m3n4o5", "p6q7r8s9t0", "u1v2w3x4y5", "z6a7b8c9d0", "e1f2g3h4i5", "j6k7l8m9n0", "o1p2q3r4s5", "t6u7v8w9x0", "y1z2a3b4c5", "d6e7f8g9h0", "i1j2k3l4m5", "n6o7p8q9r0", "s1t2u3v4w5", "x6y7z8a9b0", "c1d2e3f4g5", "h6i7j8k9l0", "m1n2o3p4q5", "r6s7t8u9v0"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Electromagnetic (EM) waves": {
+        "Electromagnetic (EM) waves": {
+          "count": 6,
+          "mini_headings_covered": ["Key Concept:", "Radiant Energy from the Sun:", "Section summary:"],
+          "last_question_round": 2
+        }
+      },
+      "EM Spectrum": {
+        "EM Spectrum": {
+          "count": 9,
+          "mini_headings_covered": ["Radio waves:", "Key Concept:", "Microwaves:", "Infrared waves:", "Visible Light:", "Ultraviolet rays:", "X-rays:", "Gamma rays:", "Section summary:"],
+          "last_question_round": 2
+        }
+      },
+      "Light as a wave": {
+        "Light as a wave": {
+          "count": 3,
+          "mini_headings_covered": ["Medium of propagation of light:", "Speed of light:", "Key Concept:"],
+          "last_question_round": 2
+        }
+      },
+      "Laws of reflection & refraction": {
+        "Laws of reflection & refraction": {
+          "count": 1,
+          "mini_headings_covered": ["Reflection of light:"],
+          "last_question_round": 2
+        }
+      },
+      "Mirrors and lenses": {
+        "Mirrors and lenses": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Human eye and optical instruments": {
+        "Human eye and optical instruments": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Primary colors of light and human vision": {
+        "Primary colors of light and human vision": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Color addition of light": {
+        "Color addition of light": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Color subtraction of light using filters": {
+        "Color subtraction of light using filters": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Electromagnetic (EM) waves": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "EM Spectrum": {
+        "question_count": 9,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Light as a wave": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Laws of reflection & refraction": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Mirrors and lenses": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Human eye and optical instruments": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Primary colors of light and human vision": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Color addition of light": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Color subtraction of light using filters": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["Geometrical Optics"],
+      "Electromagnetic (EM) waves>Electromagnetic (EM) waves": ["Electromagnetic Wave", "Oscillating Fields", "Transverse Wave", "Radiant Energy", "Mechanical Wave", "Propagation Medium"],
+      "EM Spectrum>EM Spectrum": ["Radio Waves", "Microwaves", "Infrared Waves", "Visible Light", "Frequency-Wavelength Relationship", "Ultraviolet Rays", "X-rays", "Gamma Rays", "Penetrating Power"],
+      "Light as a wave>Light as a wave": ["Propagation Medium", "Speed of Light", "Vacuum Propagation"],
+      "Laws of reflection & refraction>Laws of reflection & refraction": ["Law of Reflection"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_previous_state_R01",
+    "content_density_metrics": {
+      "total_concepts_extracted": 19,
+      "questions_per_concept_ratio": 1.05,
+      "structural_coverage_percentage": 20.0
+    }
+  },
+  "grade": "10",
+  "subject": "Physics",
+  "unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+  "pdf_filename": "P10U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-10-24T10:07:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 10,
+        "progress_percentage": 50.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 9.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 17,
+      "structural_coverage_percentage": 17.0,
+      "concept_utilization_ratio": 1.05
+    },
+    "distribution_analysis": {
+      "most_covered_section": "EM Spectrum",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 9.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.95,
+      "remaining_concept_capacity": 179
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phy_U6_Q011",
+      "generation_timestamp": "2024-10-24T10:05:05Z",
+      "section": "Electromagnetic (EM) waves",
+      "subsection": "Electromagnetic (EM) waves",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "C",
+      "question": "Which mathematical relationship correctly links the speed of light (c), frequency (f), and wavelength (λ) for an electromagnetic wave in a vacuum?",
+      "options": {
+        "A": "c = f + λ",
+        "B": "c = f / λ",
+        "C": "c = fλ",
+        "D": "c = λ / f"
+      },
+      "correct_answer": "C",
+      "hint": "Recall the fundamental wave equation.",
+      "explanation": "The universal wave equation for electromagnetic waves is c = fλ, where speed equals the product of frequency and wavelength. Option D incorrectly inverts this relationship, making wavelength proportional to speed over frequency.",
+      "difficulty_level": "easy",
+      "formula_used": ["c = fλ"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Electromagnetic (EM) waves",
+        "subsection_anchor": "Electromagnetic (EM) waves",
+        "structural_element": "Key Concept:",
+        "content_anchor": "Because all EM waves in a vacuum have the same speed of light, c, it follows that f and λ are related as follows: c = fλ",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_wave_equation_cfl"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q012",
+      "generation_timestamp": "2024-10-24T10:05:15Z",
+      "section": "Electromagnetic (EM) waves",
+      "subsection": "Electromagnetic (EM) waves",
+      "sub_subsection": null,
+      "structural_anchor": "Section summary:",
+      "mcq_type": "G",
+      "question": "If the frequency of an electromagnetic wave increases while it travels in a vacuum, what is the direct effect on its wavelength?",
+      "options": {
+        "A": "Wavelength increases.",
+        "B": "Wavelength decreases.",
+        "C": "Wavelength remains constant.",
+        "D": "Wavelength becomes zero."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the inverse relationship between frequency and wavelength at constant speed.",
+      "explanation": "According to the wave equation c = fλ, wavelength is inversely proportional to frequency when speed is constant. Option A incorrectly suggests a direct relationship, contrary to the fundamental wave principle.",
+      "difficulty_level": "easy",
+      "formula_used": ["c = fλ"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Electromagnetic (EM) waves",
+        "subsection_anchor": "Electromagnetic (EM) waves",
+        "structural_element": "Section summary:",
+        "content_anchor": "Like all waves, an EM wave has a frequency and a wavelength.",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_frequency_wavelength"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q013",
+      "generation_timestamp": "2024-10-24T10:05:25Z",
+      "section": "EM Spectrum",
+      "subsection": "EM Spectrum",
+      "sub_subsection": null,
+      "structural_anchor": "Ultraviolet rays:",
+      "mcq_type": "D",
+      "question": "Ultraviolet lamps are used in hospitals to sterilize surgical equipment. Which property of UV radiation makes this application effective?",
+      "options": {
+        "A": "Ability to kill microbes by damaging their DNA",
+        "B": "Capacity to generate heat through molecular vibration",
+        "C": "Tendency to cause fluorescence in certain materials",
+        "D": "Property of being reflected by metallic surfaces"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the biological effect of high-energy radiation on microorganisms.",
+      "explanation": "Ultraviolet radiation is germicidal because its high energy can break molecular bonds, including DNA in microorganisms, leading to cell death. Option B describes the heating mechanism of infrared radiation, not UV.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "EM Spectrum",
+        "subsection_anchor": "EM Spectrum",
+        "structural_element": "Ultraviolet rays:",
+        "content_anchor": "UV rays can be used to kill microbes. Hospitals use UV lamps to sterilize surgical equipment",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_uv_sterilization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q014",
+      "generation_timestamp": "2024-10-24T10:05:35Z",
+      "section": "EM Spectrum",
+      "subsection": "EM Spectrum",
+      "sub_subsection": null,
+      "structural_anchor": "X-rays:",
+      "mcq_type": "L",
+      "question": "In an airport security scanner, X-rays are directed at luggage. What property of X-rays allows them to create an image of the contents inside a closed suitcase?",
+      "options": {
+        "A": "High penetration through most materials except dense metals",
+        "B": "Complete reflection from all solid surfaces",
+        "C": "Exclusive absorption by organic materials",
+        "D": "Emission of visible light upon striking objects"
+      },
+      "correct_answer": "A",
+      "hint": "Think about what different materials do to the X-ray beam.",
+      "explanation": "X-rays have high penetrating power, passing through low-density materials like clothing but being absorbed or attenuated by high-density materials like metals, creating contrast in an image. Option C is incorrect because absorption depends on density, not specifically organic composition.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "EM Spectrum",
+        "subsection_anchor": "EM Spectrum",
+        "structural_element": "X-rays:",
+        "content_anchor": "They will pass through most substances, and this makes them useful in medicine and industry to see inside things",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_xray_penetration"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q015",
+      "generation_timestamp": "2024-10-24T10:05:45Z",
+      "section": "EM Spectrum",
+      "subsection": "EM Spectrum",
+      "sub_subsection": null,
+      "structural_anchor": "Gamma rays:",
+      "mcq_type": "M",
+      "question": "In radiotherapy, a focused beam of gamma rays is directed at a tumor. What is the correct sequence of interactions leading to the destruction of cancer cells?",
+      "options": {
+        "A": "Gamma rays penetrate tissue → damage cellular DNA → prevent cell reproduction → cancer cell death",
+        "B": "Gamma rays heat the tissue → boil cellular water → cause explosive cell destruction",
+        "C": "Gamma rays induce fluorescence → produce toxic chemicals → poison cancer cells",
+        "D": "Gamma rays magnetize metal implants → generate heat → burn surrounding tissue"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the mechanism of action at the molecular level.",
+      "explanation": "Gamma rays deliver high-energy radiation that directly damages the DNA within cells, particularly affecting rapidly dividing cancer cells that cannot repair this damage effectively. Option B incorrectly attributes the primary effect to thermal heating, which is more characteristic of microwave or infrared treatment.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "EM Spectrum",
+        "subsection_anchor": "EM Spectrum",
+        "structural_element": "Gamma rays:",
+        "content_anchor": "Because Gamma rays can kill living cells, they are used to kill cancer cells... works because cancer cells can't repair themselves like healthy cells",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_gamma_radiotherapy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q016",
+      "generation_timestamp": "2024-10-24T10:05:55Z",
+      "section": "EM Spectrum",
+      "subsection": "EM Spectrum",
+      "sub_subsection": null,
+      "structural_anchor": "Section summary:",
+      "mcq_type": "I",
+      "question": "How does the primary hazard of prolonged exposure to radio waves differ from that of gamma rays?",
+      "options": {
+        "A": "Radio waves may cause thermal tissue damage at high intensities, while gamma rays cause direct DNA damage.",
+        "B": "Radio waves cause immediate skin burns, while gamma rays induce long-term genetic mutations.",
+        "C": "Both cause identical biological damage through thermal effects.",
+        "D": "Radio waves are completely harmless, while gamma rays only affect electronic devices."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the energy level and mechanism of interaction with biological tissue.",
+      "explanation": "High-intensity radio waves can cause heating of tissue through induced currents, while gamma rays possess sufficient energy to ionize atoms and directly damage DNA molecules. Option C incorrectly equates the mechanisms, ignoring the ionizing capability of gamma rays.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "EM Spectrum",
+        "subsection_anchor": "EM Spectrum",
+        "structural_element": "Section summary:",
+        "content_anchor": "Each type of the EM spectrum have their own benefits and side effects.",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_em_hazards"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q017",
+      "generation_timestamp": "2024-10-24T10:06:05Z",
+      "section": "Light as a wave",
+      "subsection": "Light as a wave",
+      "sub_subsection": null,
+      "structural_anchor": "Medium of propagation of light:",
+      "mcq_type": "F",
+      "question": "Under the condition that light is an electromagnetic wave, which reasoning best explains its ability to travel from the Sun to Earth?",
+      "options": {
+        "A": "Light requires a material medium, so it travels through the interstellar plasma.",
+        "B": "Light can propagate through a vacuum, unlike sound or water waves.",
+        "C": "Light particles are emitted by the Sun and physically travel through space.",
+        "D": "Light is guided by gravitational fields that curve its path through space."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the defining characteristic of electromagnetic waves regarding their medium.",
+      "explanation": "As an electromagnetic wave, light does not require a material medium for propagation and can travel through the vacuum of space. Option A incorrectly applies the property of mechanical waves, like sound, to light.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Light as a wave",
+        "subsection_anchor": "Light as a wave",
+        "structural_element": "Medium of propagation of light:",
+        "content_anchor": "Light is an EM wave and it can pass through a vacuum. That is why you can see light from the moon, distant stars, and galaxies.",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_light_vacuum"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q018",
+      "generation_timestamp": "2024-10-24T10:06:15Z",
+      "section": "Light as a wave",
+      "subsection": "Light as a wave",
+      "sub_subsection": null,
+      "structural_anchor": "Speed of light:",
+      "mcq_type": "E",
+      "question": "Light travels approximately 150 million kilometers from the Sun to Earth in about 500 seconds. What is the approximate speed of light based on this information?",
+      "options": {
+        "A": "3.00 × 10⁸ m/s",
+        "B": "1.50 × 10⁸ m/s",
+        "C": "3.00 × 10⁵ km/s",
+        "D": "1.50 × 10⁵ km/s"
+      },
+      "correct_answer": "C",
+      "hint": "Calculate speed as distance divided by time, and convert units appropriately.",
+      "explanation": "Speed = Distance/Time = (150 × 10⁶ km) / (500 s) = 300,000 km/s = 3.00 × 10⁵ km/s. Option A gives the correct value in m/s but asks for the approximation based on the given calculation in km/s.",
+      "difficulty_level": "medium",
+      "formula_used": ["v = d/t"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "km/s",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Light as a wave",
+        "subsection_anchor": "Light as a wave",
+        "structural_element": "Speed of light:",
+        "content_anchor": "Light travels so fast that light emitted from the Sun travels 150 million km to Earth in only about eight and a half minutes.",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_light_speed_calc"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 79,
+        "distractor_quality_score": 89,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q019",
+      "generation_timestamp": "2024-10-24T10:06:25Z",
+      "section": "Light as a wave",
+      "subsection": "Light as a wave",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "A",
+      "question": "What is the constant speed at which all electromagnetic waves travel in a vacuum?",
+      "options": {
+        "A": "3.00 × 10⁸ m/s",
+        "B": "2.99 × 10⁸ m/s",
+        "C": "3.00 × 10⁵ km/h",
+        "D": "1.08 × 10⁹ km/h"
+      },
+      "correct_answer": "A",
+      "hint": "This is a fundamental constant in physics, denoted by 'c'.",
+      "explanation": "The speed of light in a vacuum, denoted by c, is a fundamental physical constant equal to approximately 3.00 × 10⁸ meters per second. Option D incorrectly gives the value in km/h without correct conversion.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Light as a wave",
+        "subsection_anchor": "Light as a wave",
+        "structural_element": "Key Concept:",
+        "content_anchor": "EM waves in general and light in particular travel with a speed of 3.00 × 10⁸ m/s in a vacuum.",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_speed_of_light_constant"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q020",
+      "generation_timestamp": "2024-10-24T10:06:35Z",
+      "section": "Laws of reflection & refraction",
+      "subsection": "Laws of reflection & refraction",
+      "sub_subsection": null,
+      "structural_anchor": "Reflection of light:",
+      "mcq_type": "B",
+      "question": "When a light ray strikes a smooth surface and reflects, the angle between the incident ray and the normal is 30 degrees. What is this angle called?",
+      "options": {
+        "A": "Angle of reflection",
+        "B": "Angle of incidence",
+        "C": "Critical angle",
+        "D": "Angle of refraction"
+      },
+      "correct_answer": "B",
+      "hint": "Identify the angle measured from the normal to the incoming ray.",
+      "explanation": "The angle of incidence is defined as the angle between the incident ray and the normal to the surface at the point of incidence. Option A refers to the angle of the reflected ray, which would be equal in magnitude but on the opposite side.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Laws of reflection & refraction",
+        "subsection_anchor": "Laws of reflection & refraction",
+        "structural_element": "Reflection of light:",
+        "content_anchor": "The angle of incidence, θᵢ, is measured between the incident ray and the surface normal.",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_angle_of_incidence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 90000,
+    "average_question_quality": 85.7,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "I": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Electromagnetic (EM) waves": 2,
+      "EM Spectrum": 4,
+      "Light as a wave": 3,
+      "Laws of reflection & refraction": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

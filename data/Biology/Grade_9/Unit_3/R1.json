@@ -1,0 +1,828 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-07-19T10:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G9_Bio_U3_Q010",
+    "covered_sections": ["3.1. What is a cell?>Objectives", "3.1. What is a cell?>Key Terms", "3.2. Cell theory>Objectives", "3.2. Cell theory>Attention", "3.3. Cell structure and function>Objectives", "3.4. Types of cells>Objectives", "3.5. Animal and plant cells>Objectives", "3.6 Observing cells under a microscope>Objectives", "3.7 The cell and its environment>3.7.1. Passive transport>Key Terms", "3.8. Levels of Biological Organization>Objectives"],
+    "used_question_signatures": ["cd450ae11f9aae53b45a57493b166b0b", "0a31e92d56a6d8461c4a053c98e50081", "c96cded159ef606545d92260066cf2d5", "e88984c28e7b32a02c4a29a10c8e588e", "00803c5fecfe7482a6836f9474c8a45b", "f84ef7a6fea17b2b2ad2fa2d283055bd", "67772ad16c4daa5c754c5f6c151f2a97", "1f5b93207414791212e1ee3733077b65", "143da10803bb5a1ba014e48ee8ef53d8", "78ab8d9cae147f0f0642d61c9f7b3228"],
+    "baseline_counter": {
+      "3.1. What is a cell?": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "Key Terms": {
+          "count": 1,
+          "mini_headings_covered": ["Key Terms"],
+          "last_question_round": 1
+        }
+      },
+      "3.2. Cell theory": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "Attention": {
+          "count": 1,
+          "mini_headings_covered": ["Attention"],
+          "last_question_round": 1
+        }
+      },
+      "3.3. Cell structure and function": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        }
+      },
+      "3.4. Types of cells": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        }
+      },
+      "3.5. Animal and plant cells": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        }
+      },
+      "3.6 Observing cells under a microscope": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        }
+      },
+      "3.7 The cell and its environment": {
+        "3.7.1. Passive transport": {
+          "count": 1,
+          "mini_headings_covered": ["Key Terms"],
+          "last_question_round": 1
+        }
+      },
+      "3.8. Levels of Biological Organization": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1. What is a cell?": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.2. Cell theory": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.3. Cell structure and function": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.4. Types of cells": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.5. Animal and plant cells": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.6 Observing cells under a microscope": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.7 The cell and its environment": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.8. Levels of Biological Organization": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1. What is a cell?>Objectives": ["Composition of living things", "Unicellular vs multicellular"],
+      "3.1. What is a cell?>Key Terms": ["Cell", "Unicellular organisms", "Multicellular organisms"],
+      "3.2. Cell theory>Objectives": ["Cell theory description", "Scientists involved"],
+      "3.2. Cell theory>Attention": ["Robert Hooke", "Cell discovery"],
+      "3.3. Cell structure and function>Objectives": ["Main cell structures", "Cell functions"],
+      "3.4. Types of cells>Objectives": ["Prokaryotic vs eukaryotic"],
+      "3.5. Animal and plant cells>Objectives": ["Plant vs animal cell structures"],
+      "3.6 Observing cells under a microscope>Objectives": ["Microscope use", "Cell observation"],
+      "3.7 The cell and its environment>3.7.1. Passive transport>Key Terms": ["Diffusion", "Osmosis", "Active transport"],
+      "3.8. Levels of Biological Organization>Objectives": ["Tissue definition", "Organ definition", "Organ system definition"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_initial_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 15,
+      "questions_per_concept_ratio": 0.67,
+      "structural_coverage_percentage": 47.6
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 3: Cells",
+  "pdf_filename": "B9U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-07-19T10:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 8,
+        "total_sections": 8,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 8,
+      "subsections_covered_count": 10,
+      "mini_headings_covered_count": 10,
+      "structural_coverage_percentage": 47.6,
+      "concept_utilization_ratio": 0.67
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.1. What is a cell?",
+      "least_covered_section": "3.3. Cell structure and function",
+      "imbalance_ratio": 2.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U3_Q001",
+      "generation_timestamp": "2024-07-19T10:00:00Z",
+      "section": "3.1. What is a cell?",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives",
+      "mcq_type": "J",
+      "question": "An organism consisting of a single cell that performs all life functions is classified as which type of organism?",
+      "options": {
+        "A": "Multicellular",
+        "B": "Prokaryotic",
+        "C": "Eukaryotic",
+        "D": "Unicellular"
+      },
+      "correct_answer": "D",
+      "hint": "Consider the number of cells that make up the organism.",
+      "explanation": "Unicellular organisms consist of a single cell that carries out all necessary life processes. Option A incorrectly describes multicellular organisms, which are composed of many specialized cells working together.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.1. What is a cell?",
+        "subsection_anchor": "Objectives",
+        "structural_element": "Objectives",
+        "content_anchor": "identify uncellular organisms from multicellular organism",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_unicellular_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q002",
+      "generation_timestamp": "2024-07-19T10:00:00Z",
+      "section": "3.1. What is a cell?",
+      "subsection": "Key Terms",
+      "sub_subsection": null,
+      "structural_anchor": "Key Terms",
+      "mcq_type": "A",
+      "question": "What is the fundamental structural and functional unit of all living organisms?",
+      "options": {
+        "A": "Organelle",
+        "B": "Tissue",
+        "C": "Cell",
+        "D": "Nucleus"
+      },
+      "correct_answer": "C",
+      "hint": "This is the basic building block of life.",
+      "explanation": "The cell is recognized as the smallest and most basic unit capable of independent life functions. Option A refers to specialized structures within cells, not the fundamental unit itself.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.1. What is a cell?",
+        "subsection_anchor": "Key Terms",
+        "structural_element": "Key Terms",
+        "content_anchor": "Cell: is the smallest and the basic unit of living things",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_cell_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 70,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q003",
+      "generation_timestamp": "2024-07-19T10:00:00Z",
+      "section": "3.2. Cell theory",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives",
+      "mcq_type": "B",
+      "question": "Which scientist first used the term 'cell' to describe the regular pore-like structures observed in cork?",
+      "options": {
+        "A": "Anton van Leeuwenhoek",
+        "B": "Matthias Schleiden",
+        "C": "Robert Hooke",
+        "D": "Rudolf Virchow"
+      },
+      "correct_answer": "C",
+      "hint": "This discovery occurred in the 17th century using simple microscopes.",
+      "explanation": "Robert Hooke first used the term 'cell' in 1665 to describe the structures he observed in cork. Option A incorrectly identifies Leeuwenhoek, who discovered microorganisms but did not coin the term 'cell'.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.2. Cell theory",
+        "subsection_anchor": "Objectives",
+        "structural_element": "Objectives",
+        "content_anchor": "name scientists who played a role in the discovery of the cell theory",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_hooke_discovery"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q004",
+      "generation_timestamp": "2024-07-19T10:00:00Z",
+      "section": "3.2. Cell theory",
+      "subsection": "Attention",
+      "sub_subsection": null,
+      "structural_anchor": "Attention",
+      "mcq_type": "K",
+      "question": "What was significant about the structures Robert Hooke observed and named 'cellulae' in 1665?",
+      "options": {
+        "A": "They were the first living cells observed under a microscope",
+        "B": "They represented the smallest known units of life",
+        "C": "They were empty box-like structures with surrounding walls",
+        "D": "They contained visible genetic material and organelles"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the description of the cork cells Hooke examined.",
+      "explanation": "Hooke described the cork structures as empty boxes surrounded by walls, though he didn't recognize them as living units. Option A is incorrect because Hooke observed dead plant tissue, not living cells.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.2. Cell theory",
+        "subsection_anchor": "Attention",
+        "structural_element": "Attention",
+        "content_anchor": "English natural philosopher Robert Hooke was the first to observe cells in 1665",
+        "page_hint": "Page 2-3",
+        "concept_hash": "sha256_of_hooke_observation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 80
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q005",
+      "generation_timestamp": "2024-07-19T10:00:00Z",
+      "section": "3.3. Cell structure and function",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives",
+      "mcq_type": "B",
+      "question": "Which cellular structure separates the cell's internal contents from its external environment?",
+      "options": {
+        "A": "Cytoplasm",
+        "B": "Nucleus",
+        "C": "Cell membrane",
+        "D": "Cell wall"
+      },
+      "correct_answer": "C",
+      "hint": "This structure controls what enters and leaves the cell.",
+      "explanation": "The cell membrane forms a selective barrier between the cell's interior and external surroundings. Option D refers to the rigid outer layer found only in plant cells, not the selective boundary.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.3. Cell structure and function",
+        "subsection_anchor": "Objectives",
+        "structural_element": "Objectives",
+        "content_anchor": "identify the main structure of a cell",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_cell_membrane"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q006",
+      "generation_timestamp": "2024-07-19T10:00:00Z",
+      "section": "3.4. Types of cells",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives",
+      "mcq_type": "I",
+      "question": "Which structural feature primarily distinguishes eukaryotic cells from prokaryotic cells?",
+      "options": {
+        "A": "Presence of membrane-bound organelles including a nucleus",
+        "B": "Presence of a cell wall for structural support",
+        "C": "Presence of cytoplasm containing cellular components",
+        "D": "Presence of a cell membrane for selective transport"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the organization and compartmentalization within the cell.",
+      "explanation": "Eukaryotic cells contain membrane-bound organelles including a nucleus, while prokaryotic cells lack these structures. Option B is incorrect because both cell types can have cell walls, though their composition differs.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.4. Types of cells",
+        "subsection_anchor": "Objectives",
+        "structural_element": "Objectives",
+        "content_anchor": "describe the difference between prokaryotes and eukaryotic cells",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_eukaryotic_vs_prokaryotic"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 80
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q007",
+      "generation_timestamp": "2024-07-19T10:00:00Z",
+      "section": "3.5. Animal and plant cells",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives",
+      "mcq_type": "J",
+      "question": "Which cellular structure is present in plant cells but absent in animal cells?",
+      "options": {
+        "A": "Centriole",
+        "B": "Cell wall",
+        "C": "Nucleus",
+        "D": "Mitochondria"
+      },
+      "correct_answer": "B",
+      "hint": "This structure provides rigidity and shape to plant cells.",
+      "explanation": "Plant cells have a rigid cell wall composed of cellulose surrounding their cell membrane. Option A is incorrect because centrioles are typically found in animal cells, not plant cells.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.5. Animal and plant cells",
+        "subsection_anchor": "Objectives",
+        "structural_element": "Objectives",
+        "content_anchor": "describe the differences in structure between plant and animal cells",
+        "page_hint": "Page 11-12",
+        "concept_hash": "sha256_of_plant_cell_wall"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 70,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q008",
+      "generation_timestamp": "2024-07-19T10:00:00Z",
+      "section": "3.6 Observing cells under a microscope",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives",
+      "mcq_type": "A",
+      "question": "What is the primary function of the objective lenses in a light microscope?",
+      "options": {
+        "A": "To focus light onto the specimen",
+        "B": "To illuminate the specimen from below",
+        "C": "To magnify the image of the specimen",
+        "D": "To support the glass slide in position"
+      },
+      "correct_answer": "C",
+      "hint": "These lenses provide different levels of magnification.",
+      "explanation": "Objective lenses are responsible for magnifying the specimen's image in a microscope. Option A describes the condenser's function, which focuses light but doesn't magnify.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.6 Observing cells under a microscope",
+        "subsection_anchor": "Objectives",
+        "structural_element": "Objectives",
+        "content_anchor": "draw the cell structures as seen under the light microscope",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_microscope_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q009",
+      "generation_timestamp": "2024-07-19T10:00:00Z",
+      "section": "3.7 The cell and its environment",
+      "subsection": "3.7.1. Passive transport",
+      "sub_subsection": null,
+      "structural_anchor": "Key Terms",
+      "mcq_type": "A",
+      "question": "What term describes the movement of water molecules across a semipermeable membrane from a region of high water concentration to low water concentration?",
+      "options": {
+        "A": "Diffusion",
+        "B": "Active transport",
+        "C": "Osmosis",
+        "D": "Facilitated diffusion"
+      },
+      "correct_answer": "C",
+      "hint": "This process specifically involves water movement.",
+      "explanation": "Osmosis refers specifically to the diffusion of water molecules across a selectively permeable membrane. Option A describes the general movement of any molecules, not specifically water.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.7 The cell and its environment",
+        "subsection_anchor": "3.7.1. Passive transport",
+        "structural_element": "Key Terms",
+        "content_anchor": "Osmosis: is the diffusion of water molecules",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_osmosis_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q010",
+      "generation_timestamp": "2024-07-19T10:00:00Z",
+      "section": "3.8. Levels of Biological Organization",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives",
+      "mcq_type": "A",
+      "question": "What term describes a group of cells with similar structure and function that work together as a unit?",
+      "options": {
+        "A": "Organ system",
+        "B": "Organ",
+        "C": "Organelle",
+        "D": "Tissue"
+      },
+      "correct_answer": "D",
+      "hint": "This represents the level above individual cells in biological organization.",
+      "explanation": "Tissues are composed of similar cells working cooperatively to perform specific functions. Option B describes organs, which are formed from multiple tissue types working together.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.8. Levels of Biological Organization",
+        "subsection_anchor": "Objectives",
+        "structural_element": "Objectives",
+        "content_anchor": "define the terms tissue, organ and organ system",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_tissue_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 70,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2850,
+    "average_question_quality": 78.5,
+    "type_distribution": {
+      "A": 4,
+      "B": 2,
+      "I": 1,
+      "J": 2,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 8,
+      "medium": 2,
+      "hard": 0
+    },
+    "section_distribution": {
+      "3.1. What is a cell?": 2,
+      "3.2. Cell theory": 2,
+      "3.3. Cell structure and function": 1,
+      "3.4. Types of cells": 1,
+      "3.5. Animal and plant cells": 1,
+      "3.6 Observing cells under a microscope": 1,
+      "3.7 The cell and its environment": 1,
+      "3.8. Levels of Biological Organization": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

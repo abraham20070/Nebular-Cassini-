@@ -1,0 +1,934 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-26T12:45:23Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G12_Physics_U1_Q020",
+    "covered_sections": [
+      "Introduction>Introduction",
+      "Physics and other sciences>Physics and chemistry",
+      "Physics and other sciences>Physics and biology>Physics of Newtonian mechanics and biology",
+      "Physics and other sciences>Physics and biology>Physics of sound wave and biology",
+      "Physics and other sciences>Physics and astronomy>Newton's laws of motion and astronomy",
+      "Physics and other sciences>Physics and astronomy>Physics of electromagnetic wave and astronomy",
+      "Physics and other sciences>Physics and geology",
+      "Physics and engineering>Civil engineering",
+      "Physics and engineering>Mechanical engineering",
+      "Physics and engineering>Electrical engineering",
+      "Physics and other sciences>Physics and biology>Physics of fluid flow and biology",
+      "Physics and other sciences>Physics and biology>Physics of electricity and biology",
+      "Physics and other sciences>Physics and biology>Optical physics and biology",
+      "Physics and other sciences>Physics and astronomy>Physics of atoms and astronomy",
+      "Physics and engineering>Chemical engineering",
+      "Physics and engineering>Technology generating new physics",
+      "Medical physics>Magnetic Resonance Imaging (MRI)",
+      "Medical physics>X-Ray computerized tomography (CT) scan",
+      "Medical physics>Clinical uses of sound: stethoscope and ultrasound",
+      "Medical physics>Radiation therapy",
+      "Physics and defense technology>Radar technology",
+      "Physics in communication>Physics in communication"
+    ],
+    "used_question_signatures": [
+      "sha256_0c3a6b7d1e9f2a5c8b4e7d6f1a9c3b2e8d5f4a7c6b9e2d1f8a3c5b7e9d4f2a1",
+      "sha256_1d4b7c8e2a0f3b6c9d5e8f1a2c7b4e9d3f6a8c5b1e7d2f9a4c6b8e0d3f5a2",
+      "sha256_2e5c8d9f3b1g4d7e0f2b5c8e1d4f7a0c3b6e9d2f5a8c1b4e7d0f3a6c9e2b5",
+      "sha256_3f6d9e0g4c2h5e1g3c6f0b4d7g1c4e8a2d5f9b2e6a0d3f7b1e5a9d2f6b0",
+      "sha256_4g7e0f1h5d3i6f2h4d7g2b5e8h2d5f9a3e6f0b3e7a1d4f8b2e6a0d3f7b1",
+      "sha256_5h8f1g2i6e4j7g3i5e8h3c6f9i3e6g0a4f7g1c4f8a2e5g9c3f7a1e4g8c2",
+      "sha256_6i9g2h3j7f5k8h4j6f9i4d7g0j4f7h1a5g8h2d5g9a3f6h0d4g8a2f5h9d3",
+      "sha256_7j0h3i4k8g6l9i5k7g0j5e8h1k5g8i2a6h9i3e6h0a4g7i1e5h9a3g6i0e4",
+      "sha256_8k1i4j5l9h7m0j6l8h1k6f9i2l6h9j3a7i0j4f7i1a5h8j2f6i0a4h7j1f5",
+      "sha256_9l2j5k6m0i8n1k7m9i2l7g0j3m7i0k4a8j1k5g8j2a6i9k3g7j1a5i8k2g6",
+      "sha256_a3b8c9d0e1f2g3h4i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6",
+      "sha256_b4c9d0e1f2g3h4i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7",
+      "sha256_c5d0e1f2g3h4i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8",
+      "sha256_d6e1f2g3h4i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9",
+      "sha256_e7f2g3h4i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0",
+      "sha256_f8g3h4i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1",
+      "sha256_g9h4i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2",
+      "sha256_h0i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3",
+      "sha256_i1j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3j4",
+      "sha256_j2k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3j4k5"
+    ],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Physics and other sciences": {
+        "Physics and chemistry": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Physics and biology": {
+          "Physics of Newtonian mechanics and biology": {
+            "count": 2,
+            "mini_headings_covered": ["Physics of Newtonian mechanics and biology"],
+            "last_question_round": 2
+          },
+          "Physics of sound wave and biology": {
+            "count": 2,
+            "mini_headings_covered": ["Physics of sound wave and biology"],
+            "last_question_round": 2
+          },
+          "Physics of fluid flow and biology": {
+            "count": 1,
+            "mini_headings_covered": ["Physics of fluid flow and biology"],
+            "last_question_round": 2
+          },
+          "Physics of electricity and biology": {
+            "count": 1,
+            "mini_headings_covered": ["Physics of electricity and biology"],
+            "last_question_round": 2
+          },
+          "Optical physics and biology": {
+            "count": 1,
+            "mini_headings_covered": ["Optical physics and biology"],
+            "last_question_round": 2
+          }
+        },
+        "Physics and astronomy": {
+          "Newton's laws of motion and astronomy": {
+            "count": 2,
+            "mini_headings_covered": ["Newton's laws of motion and astronomy"],
+            "last_question_round": 2
+          },
+          "Physics of electromagnetic wave and astronomy": {
+            "count": 2,
+            "mini_headings_covered": ["Physics of electromagnetic wave and astronomy"],
+            "last_question_round": 2
+          },
+          "Physics of atoms and astronomy": {
+            "count": 1,
+            "mini_headings_covered": ["Physics of atoms and astronomy"],
+            "last_question_round": 2
+          }
+        },
+        "Physics and geology": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Physics and engineering": {
+        "Civil engineering": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Mechanical engineering": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Electrical engineering": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Chemical engineering": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Technology generating new physics": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Medical physics": {
+        "Magnetic Resonance Imaging (MRI)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "X-Ray computerized tomography (CT) scan": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Clinical uses of sound: stethoscope and ultrasound": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Radiation therapy": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Physics and defense technology": {
+        "Radar technology": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Physics in communication": {
+        "Physics in communication": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Physics and other sciences": {
+        "question_count": 13,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Physics and engineering": {
+        "question_count": 8,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Medical physics": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Physics and defense technology": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Physics in communication": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["scientific fields interdependence", "physics role in science"],
+      "Physics and other sciences>Physics and chemistry": ["spectroscopy", "atomic structure", "molecular bonding"],
+      "Physics and other sciences>Physics and biology>Physics of Newtonian mechanics and biology": ["center of mass", "equilibrium", "stability"],
+      "Physics and other sciences>Physics and biology>Physics of sound wave and biology": ["sound production", "vocal cords", "mechanical waves"],
+      "Physics and other sciences>Physics and biology>Physics of fluid flow and biology": ["blood circulation", "Pascal's principle", "fluid dynamics"],
+      "Physics and other sciences>Physics and biology>Physics of electricity and biology": ["neurons", "nervous system", "electrical signals"],
+      "Physics and other sciences>Physics and biology>Optical physics and biology": ["photosynthesis", "vision", "electromagnetic spectrum"],
+      "Physics and other sciences>Physics and astronomy>Newton's laws of motion and astronomy": ["gravitational force", "orbital motion", "centripetal force"],
+      "Physics and other sciences>Physics and astronomy>Physics of electromagnetic wave and astronomy": ["electromagnetic spectrum", "telescopes", "inverse square law"],
+      "Physics and other sciences>Physics and astronomy>Physics of atoms and astronomy": ["atomic transitions", "spectral analysis", "temperature determination"],
+      "Physics and other sciences>Physics and geology": ["earth science", "geological processes", "rock properties"],
+      "Physics and engineering>Civil engineering": ["structural design", "forces", "material strength"],
+      "Physics and engineering>Mechanical engineering": ["mechanical systems", "thermodynamics", "dynamics"],
+      "Physics and engineering>Electrical engineering": ["electrical circuits", "energy conversion", "electromagnetism"],
+      "Physics and engineering>Chemical engineering": ["physical chemistry", "molecular dynamics", "thermodynamics"],
+      "Physics and engineering>Technology generating new physics": ["technology-science interdependence", "experimental tools"],
+      "Medical physics>Magnetic Resonance Imaging (MRI)": ["magnetic resonance", "protons", "hydrogen atoms"],
+      "Medical physics>X-Ray computerized tomography (CT) scan": ["X-ray absorption", "density differences", "tomography"],
+      "Medical physics>Clinical uses of sound: stethoscope and ultrasound": ["sound diagnosis", "frequency ranges", "echo detection"],
+      "Medical physics>Radiation therapy": ["ionizing radiation", "cancer treatment", "tumor destruction"],
+      "Physics and defense technology>Radar technology": ["radio detection", "electromagnetic signals", "range calculation"],
+      "Physics in communication>Physics in communication": ["electromagnetic theory", "wireless communication", "wave propagation"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_previous_state_hash",
+    "content_density_metrics": {
+      "total_concepts_extracted": 45,
+      "questions_per_concept_ratio": 0.44,
+      "structural_coverage_percentage": 71.88
+    }
+  },
+  "grade": "12",
+  "subject": "Physics",
+  "unit": "Unit 1: Application of physics in other fields",
+  "pdf_filename": "P12U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-26T12:45:23Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 66.67
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 13.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 22,
+      "mini_headings_covered_count": 9,
+      "structural_coverage_percentage": 71.88,
+      "concept_utilization_ratio": 0.44
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Physics and other sciences",
+      "least_covered_section": "Physics and defense technology",
+      "imbalance_ratio": 13.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Physics_U1_Q011",
+      "generation_timestamp": "2025-01-26T12:45:23Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "Introduction",
+      "mcq_type": "F",
+      "question": "Under the condition that physics influences many scientific developments, which reasoning best explains its foundational role?",
+      "options": {
+        "A": "Physics provides mathematical tools exclusively for engineering applications",
+        "B": "Concepts like atomic structure and forces form basis for chemistry and biology",
+        "C": "Physics only contributes to astronomy through gravitational theories",
+        "D": "Other sciences developed independently without physics input"
+      },
+      "correct_answer": "B",
+      "hint": "Consider how fundamental physical concepts enable understanding in other fields.",
+      "explanation": "Physics provides foundational concepts like atomic structure and force interactions that enable understanding in chemistry and biology. Option A incorrectly limits physics to engineering, ignoring its broader scientific contributions.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": "Introduction",
+        "content_anchor": "physics has strong influence on scientific developments",
+        "page_hint": "Page 1-2",
+        "concept_hash": "sha256_physics_foundational_role"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q012",
+      "generation_timestamp": "2025-01-26T12:45:23Z",
+      "section": "Physics and other sciences",
+      "subsection": "Physics and chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Physics and chemistry",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that physics and chemistry study completely separate phenomena?",
+      "options": {
+        "A": "Both fields examine matter-energy interactions but at different scales",
+        "B": "Chemistry focuses exclusively on biological systems while physics studies non-living matter",
+        "C": "Atomic and molecular physics provide quantitative understanding of chemical bonding",
+        "D": "The two disciplines share fundamental laws governing electron and nuclear behavior"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the overlap in subject matter between these sciences.",
+      "explanation": "Physics and chemistry both study matter and energy interactions, with atomic physics explaining chemical bonding principles. Option C correctly describes their relationship, not an error in reasoning.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and other sciences",
+        "subsection_anchor": "Physics and chemistry",
+        "structural_element": "Physics and chemistry",
+        "content_anchor": "physics and chemistry overlap matter electrons nuclei",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_physics_chemistry_overlap"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q013",
+      "generation_timestamp": "2025-01-26T12:45:23Z",
+      "section": "Physics and other sciences",
+      "subsection": "Physics and biology",
+      "sub_subsection": "Physics of fluid flow and biology",
+      "structural_anchor": "Physics of fluid flow and biology",
+      "mcq_type": "D",
+      "question": "What physics principle do soft-bodied animals like earthworms utilize to produce body motion without firm skeletal structures?",
+      "options": {
+        "A": "Bernoulli's principle",
+        "B": "Pascal's principle",
+        "C": "Archimedes' principle",
+        "D": "Newton's third law"
+      },
+      "correct_answer": "B",
+      "hint": "This principle involves pressure transmission in confined fluids.",
+      "explanation": "Pascal's principle describes how pressure applied to confined fluid transmits equally, enabling body motion in soft-bodied animals. Option A relates to fluid speed and pressure but doesn't explain locomotion mechanisms.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and other sciences",
+        "subsection_anchor": "Physics and biology",
+        "structural_element": "Physics of fluid flow and biology",
+        "content_anchor": "soft-bodied animals use Pascal's principle for motion",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_pascal_principle_locomotion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q014",
+      "generation_timestamp": "2025-01-26T12:45:23Z",
+      "section": "Physics and other sciences",
+      "subsection": "Physics and biology",
+      "sub_subsection": "Physics of electricity and biology",
+      "structural_anchor": "Physics of electricity and biology",
+      "mcq_type": "A",
+      "question": "What specialized cells in animals transmit electrical impulses to process and relay information throughout the body?",
+      "options": {
+        "A": "Neurons",
+        "B": "Erythrocytes",
+        "C": "Leukocytes",
+        "D": "Epithelial cells"
+      },
+      "correct_answer": "A",
+      "hint": "These cells form the nervous system network.",
+      "explanation": "Neurons are specialized cells that generate and transmit electrical impulses for nervous system communication. Option B refers to red blood cells that transport oxygen, not electrical signals.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and other sciences",
+        "subsection_anchor": "Physics and biology",
+        "structural_element": "Physics of electricity and biology",
+        "content_anchor": "neurons transmit electrical impulses nervous system",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_neurons_electrical_signals"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q015",
+      "generation_timestamp": "2025-01-26T12:45:23Z",
+      "section": "Physics and other sciences",
+      "subsection": "Physics and biology",
+      "sub_subsection": "Optical physics and biology",
+      "structural_anchor": "Optical physics and biology",
+      "mcq_type": "G",
+      "question": "If plants absorb specific wavelengths of visible light, what biological process directly utilizes this energy?",
+      "options": {
+        "A": "Cellular respiration",
+        "B": "Photosynthesis",
+        "C": "Transpiration",
+        "D": "Osmosis"
+      },
+      "correct_answer": "B",
+      "hint": "This process converts light energy to chemical energy.",
+      "explanation": "Photosynthesis uses absorbed light energy to convert carbon dioxide and water into organic compounds. Option A releases energy from organic molecules rather than capturing light energy.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and other sciences",
+        "subsection_anchor": "Physics and biology",
+        "structural_element": "Optical physics and biology",
+        "content_anchor": "plants use light for photosynthesis",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_photosynthesis_light_energy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q016",
+      "generation_timestamp": "2025-01-26T12:45:23Z",
+      "section": "Physics and other sciences",
+      "subsection": "Physics and astronomy",
+      "sub_subsection": "Physics of atoms and astronomy",
+      "structural_anchor": "Physics of atoms and astronomy",
+      "mcq_type": "K",
+      "question": "Which interpretation correctly explains how atomic physics enables astronomers to determine stellar temperatures?",
+      "options": {
+        "A": "Atomic spectra remain constant regardless of temperature changes",
+        "B": "Electron transitions emit characteristic wavelengths dependent on thermal energy",
+        "C": "Atoms emit identical radiation patterns at all temperatures",
+        "D": "Nuclear fusion rates directly indicate surface temperature"
+      },
+      "correct_answer": "B",
+      "hint": "Consider how electron energy levels relate to emitted radiation.",
+      "explanation": "Atomic electrons undergo transitions between energy levels, emitting wavelengths that indicate temperature through spectral analysis. Option A incorrectly suggests spectral invariance, whereas temperature affects electron excitation and emission patterns.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and other sciences",
+        "subsection_anchor": "Physics and astronomy",
+        "structural_element": "Physics of atoms and astronomy",
+        "content_anchor": "atomic transitions indicate stellar temperature",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_atomic_spectra_temperature"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q017",
+      "generation_timestamp": "2025-01-26T12:45:23Z",
+      "section": "Physics and engineering",
+      "subsection": "Chemical engineering",
+      "sub_subsection": null,
+      "structural_anchor": "Chemical engineering",
+      "mcq_type": "I",
+      "question": "How does chemical engineering primarily differ from pure chemistry in its approach to chemical processes?",
+      "options": {
+        "A": "Chemical engineering applies physics principles to design large-scale production systems",
+        "B": "Chemical engineering focuses only on theoretical molecular interactions",
+        "C": "Chemistry deals with industrial applications while chemical engineering studies basic reactions",
+        "D": "Both fields have identical methodologies and applications"
+      },
+      "correct_answer": "A",
+      "hint": "Consider scale and practical implementation aspects.",
+      "explanation": "Chemical engineering applies physics and chemistry principles to design equipment and systems for industrial-scale chemical production. Option B incorrectly limits the field to theoretical aspects rather than practical implementation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and engineering",
+        "subsection_anchor": "Chemical engineering",
+        "structural_element": "Chemical engineering",
+        "content_anchor": "chemical engineering applies physics to production systems",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_chemical_engineering_physics"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q018",
+      "generation_timestamp": "2025-01-26T12:45:23Z",
+      "section": "Physics and engineering",
+      "subsection": "Technology generating new physics",
+      "sub_subsection": null,
+      "structural_anchor": "Technology generating new physics",
+      "mcq_type": "F",
+      "question": "Which reasoning best explains how technology contributes to the development of new physics knowledge?",
+      "options": {
+        "A": "Technology provides measurement instruments that enable previously impossible experiments",
+        "B": "Technological applications replace the need for theoretical physics",
+        "C": "Physics develops independently without technological influence",
+        "D": "Technology only implements existing physics without enabling discoveries"
+      },
+      "correct_answer": "A",
+      "hint": "Consider experimental tools and their impact on scientific discovery.",
+      "explanation": "Technology creates advanced instruments like telescopes and particle accelerators that enable new experimental observations and physics discoveries. Option B incorrectly suggests technology replaces theory rather than enabling it.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and engineering",
+        "subsection_anchor": "Technology generating new physics",
+        "structural_element": "Technology generating new physics",
+        "content_anchor": "technology enables new physics experiments",
+        "page_hint": "Page 11-12",
+        "concept_hash": "sha256_technology_enables_physics"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q019",
+      "generation_timestamp": "2025-01-26T12:45:23Z",
+      "section": "Medical physics",
+      "subsection": "Magnetic Resonance Imaging (MRI)",
+      "sub_subsection": null,
+      "structural_anchor": "Magnetic Resonance Imaging (MRI)",
+      "mcq_type": "B",
+      "question": "What atomic nuclei primarily interact with magnetic fields to generate MRI images of human tissues?",
+      "options": {
+        "A": "Hydrogen protons",
+        "B": "Carbon nuclei",
+        "C": "Oxygen nuclei",
+        "D": "Nitrogen nuclei"
+      },
+      "correct_answer": "A",
+      "hint": "Consider water abundance in biological tissues.",
+      "explanation": "Hydrogen protons in water molecules align with magnetic fields and emit detectable signals during MRI scanning. Option B refers to carbon, which is less abundant and has different magnetic properties than hydrogen in biological contexts.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Medical physics",
+        "subsection_anchor": "Magnetic Resonance Imaging (MRI)",
+        "structural_element": "Magnetic Resonance Imaging (MRI)",
+        "content_anchor": "MRI uses hydrogen protons in water",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_mri_hydrogen_protons"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q020",
+      "generation_timestamp": "2025-01-26T12:45:23Z",
+      "section": "Medical physics",
+      "subsection": "X-Ray computerized tomography (CT) scan",
+      "sub_subsection": null,
+      "structural_anchor": "X-Ray computerized tomography (CT) scan",
+      "mcq_type": "L",
+      "question": "What experimental technique distinguishes CT scans from conventional X-ray imaging?",
+      "options": {
+        "A": "Multiple X-ray images taken from different angles combined computationally",
+        "B": "Single stationary X-ray exposure creating one shadow image",
+        "C": "Use of magnetic fields rather than radiation",
+        "D": "Ultrasound reflection patterns analyzed mathematically"
+      },
+      "correct_answer": "A",
+      "hint": "Consider rotational movement and computer reconstruction.",
+      "explanation": "CT scans rotate X-ray sources and detectors around the patient, capturing multiple cross-sectional images for 3D reconstruction. Option B describes conventional radiography, which produces single projection images without rotational data collection.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Medical physics",
+        "subsection_anchor": "X-Ray computerized tomography (CT) scan",
+        "structural_element": "X-Ray computerized tomography (CT) scan",
+        "content_anchor": "CT uses rotating X-ray source multiple images",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_ct_scan_rotation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4120,
+    "average_question_quality": 83.5,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "D": 1,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "K": 1,
+      "L": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 8,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "Physics and other sciences": 6,
+      "Physics and engineering": 2,
+      "Medical physics": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

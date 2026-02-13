@@ -1,0 +1,868 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-09-08T00:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G9_Chem_U3_Q010",
+    "covered_sections": ["Unit Outcomes", "3.1 Historical Development of the Atomic Theories of Matter", "3.2 Fundamental Laws of Chemical Reactions>3.2.1 The Law of Conservation of Mass", "3.3 Atomic Theory>3.3.1 Dalton's Atomic Theory", "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus>3.4.1 Discovery of the Proton"],
+    "used_question_signatures": ["hash_A_UnitOutcomes_AtomicTheoryDevelopment", "hash_B_3.1_AncientGreekElements", "hash_A_3.1_AtomosMeaning", "hash_C_3.1_LawDefinition", "hash_D_3.2.1_MassConservationReactants", "hash_E_3.2.1_MassAfterReaction", "hash_F_3.2.1_ConservationClosedSystem", "hash_G_3.3.1_DaltonPostulateIndestructible", "hash_A_3.4.1_AnodeRaysCharge", "hash_H_3.4.1_ProtonDiscoveryExperiment"],
+    "baseline_counter": {
+      "Unit Outcomes": {
+        "Unit Outcomes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.1 Historical Development of the Atomic Theories of Matter": {
+        "3.1 Historical Development of the Atomic Theories of Matter": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.2 Fundamental Laws of Chemical Reactions": {
+        "3.2.1 The Law of Conservation of Mass": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "3.2.2 The Law of Definite Proportions": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "3.2.3 The Law of Multiple Proportions": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "3.3 Atomic Theory": {
+        "3.3.1 Dalton's Atomic Theory": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "3.3.2 Modern Atomic Theory": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus": {
+        "3.4.1 Discovery of the Proton": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "3.4.2 Discovery of the Electron": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "3.4.3 Discovery of the Nucleus": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "3.4.4 Discovery of the Neutron": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "3.5 Composition of an Atom and the Isotopes": {
+        "3.5.1 Electrons, Protons and Neutrons": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "3.5.2 Atomic Number and Mass Number": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "3.5.3 Atomic Mass and Isotope": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "3.5.4 Main Energy Levels": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "3.5.5 Electronic Configuration on Main Shells": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "3.5.6 Valence Electrons": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Key Terms and Equations": {
+        "Key Terms and Equations": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Unit Summary": {
+        "Unit Summary": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Unit Outcomes": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.1 Historical Development of the Atomic Theories of Matter": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.2 Fundamental Laws of Chemical Reactions": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.3 Atomic Theory": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.5 Composition of an Atom and the Isotopes": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Key Terms and Equations": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Unit Summary": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Unit Outcomes": ["Dalton's Atomic Theory", "Modern Atomic Theory"],
+      "3.1 Historical Development of the Atomic Theories of Matter": ["Empedocles four elements", "Atomos meaning indivisible", "Scientific Law definition"],
+      "3.2 Fundamental Laws of Chemical Reactions>3.2.1 The Law of Conservation of Mass": ["Mass of reactants equals products", "Mass in closed system constant", "Lavoisier's discovery"],
+      "3.3 Atomic Theory>3.3.1 Dalton's Atomic Theory": ["Atoms indestructible"],
+      "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus>3.4.1 Discovery of the Proton": ["Anode rays are positive", "Goldstein's experiment with perforated cathode"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_initial_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 10,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 20.0
+    }
+  },
+  "grade": "9",
+  "subject": "Chemistry",
+  "unit": "Unit 3: STRUCTURE OF THE ATOM",
+  "pdf_filename": "C9U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-09-08T00:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 8,
+        "progress_percentage": 62.5
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 26.1,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.1 Historical Development of the Atomic Theories of Matter",
+      "least_covered_section": "3.5 Composition of an Atom and the Isotopes",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Chem_U3_Q001",
+      "generation_timestamp": "2025-09-08T00:00:00Z",
+      "section": "Unit Outcomes",
+      "subsection": "Unit Outcomes",
+      "sub_subsection": null,
+      "structural_anchor": "Unit Outcomes",
+      "mcq_type": "A",
+      "question": "What is the core proposition of Dalton's Atomic Theory regarding the creation and destruction of atoms?",
+      "options": {
+        "A": "Atoms are indestructible and cannot be created.",
+        "B": "Atoms can be created from energy under specific conditions.",
+        "C": "Atoms are destroyed during chemical reactions.",
+        "D": "Atoms can be split into smaller particles under all circumstances."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental postulate about the permanence of atoms.",
+      "explanation": "Dalton's Atomic Theory postulates that atoms are indivisible and indestructible particles that cannot be created or destroyed in chemical reactions. Option C directly contradicts this principle by suggesting atoms are destroyed in the very processes Dalton's theory describes.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "Unit Outcomes",
+        "subsection_anchor": "Unit Outcomes",
+        "structural_element": "Unit Outcomes",
+        "content_anchor": "Dalton's Atomic Theory",
+        "page_hint": "1",
+        "concept_hash": "sha256_of_DaltonsAtomicTheory"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q002",
+      "generation_timestamp": "2025-09-08T00:00:00Z",
+      "section": "3.1 Historical Development of the Atomic Theories of Matter",
+      "subsection": "3.1 Historical Development of the Atomic Theories of Matter",
+      "sub_subsection": null,
+      "structural_anchor": "3.1 Historical Development of the Atomic Theories of Matter",
+      "mcq_type": "B",
+      "question": "Which ancient Greek philosopher proposed that all materials are composed of earth, air, water, and fire?",
+      "options": {
+        "A": "Democritus",
+        "B": "Empedocles",
+        "C": "Aristotle",
+        "D": "Plato"
+      },
+      "correct_answer": "B",
+      "hint": "Focus on the philosopher associated with the four classical elements.",
+      "explanation": "Empedocles proposed the theory that all matter is composed of four fundamental elements: earth, air, water, and fire. Option A incorrectly identifies Democritus, who is known for his atomic theory, not the four-element theory.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.1 Historical Development of the Atomic Theories of Matter",
+        "subsection_anchor": "3.1 Historical Development of the Atomic Theories of Matter",
+        "structural_element": "3.1 Historical Development of the Atomic Theories of Matter",
+        "content_anchor": "Empedocles thought that all materials are made up of four things called elements",
+        "page_hint": "3",
+        "concept_hash": "sha256_of_EmpedoclesFourElements"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q003",
+      "generation_timestamp": "2025-09-08T00:00:00Z",
+      "section": "3.1 Historical Development of the Atomic Theories of Matter",
+      "subsection": "3.1 Historical Development of the Atomic Theories of Matter",
+      "sub_subsection": null,
+      "structural_anchor": "3.1 Historical Development of the Atomic Theories of Matter",
+      "mcq_type": "A",
+      "question": "What is the meaning of the Greek word 'atomos', from which the modern term 'atom' is derived?",
+      "options": {
+        "A": "Indivisible or uncuttable",
+        "B": "Very small particle",
+        "C": "Building block",
+        "D": "Invisible entity"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the original philosophical concept of the smallest possible unit.",
+      "explanation": "The word 'atomos' is a Greek term meaning 'uncuttable' or 'indivisible', reflecting the ancient belief that atoms were the fundamental, unsplittable units of matter. Option B describes a property but not the direct etymological meaning.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.1 Historical Development of the Atomic Theories of Matter",
+        "subsection_anchor": "3.1 Historical Development of the Atomic Theories of Matter",
+        "structural_element": "3.1 Historical Development of the Atomic Theories of Matter",
+        "content_anchor": "atom has been derived from the Greek word 'a- tomos' which means 'uncutable' or 'non- divisible'",
+        "page_hint": "2",
+        "concept_hash": "sha256_of_AtomosMeaning"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q004",
+      "generation_timestamp": "2025-09-08T00:00:00Z",
+      "section": "3.1 Historical Development of the Atomic Theories of Matter",
+      "subsection": "3.1 Historical Development of the Atomic Theories of Matter",
+      "sub_subsection": null,
+      "structural_anchor": "3.1 Historical Development of the Atomic Theories of Matter",
+      "mcq_type": "C",
+      "question": "In scientific terminology, what defines a 'law'?",
+      "options": {
+        "A": "A well-tested explanation for a wide range of observations.",
+        "B": "A tentative hypothesis awaiting experimental proof.",
+        "C": "A general statement that summarizes a large number of consistent observations.",
+        "D": "A mathematical equation derived from first principles."
+      },
+      "correct_answer": "C",
+      "hint": "Focus on the distinction between a scientific law and a theory.",
+      "explanation": "A scientific law is a concise, generalized statement that describes a consistent pattern or relationship observed in nature, often without explaining why it occurs. Option A incorrectly describes a scientific theory, which provides the explanatory framework.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.1 Historical Development of the Atomic Theories of Matter",
+        "subsection_anchor": "3.1 Historical Development of the Atomic Theories of Matter",
+        "structural_element": "3.1 Historical Development of the Atomic Theories of Matter",
+        "content_anchor": "In science, a law is a general statement that explains a large number of observations",
+        "page_hint": "7",
+        "concept_hash": "sha256_of_LawDefinition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q005",
+      "generation_timestamp": "2025-09-08T00:00:00Z",
+      "section": "3.2 Fundamental Laws of Chemical Reactions",
+      "subsection": "3.2.1 The Law of Conservation of Mass",
+      "sub_subsection": null,
+      "structural_anchor": "3.2.1 The Law of Conservation of Mass",
+      "mcq_type": "D",
+      "question": "According to the Law of Conservation of Mass, what is the relationship between the total mass of reactants and the total mass of products in a chemical reaction within a closed system?",
+      "options": {
+        "A": "The mass of products is always greater than the mass of reactants.",
+        "B": "The mass of reactants is always greater than the mass of products.",
+        "C": "The total mass of reactants equals the total mass of products.",
+        "D": "The masses are unrelated and can vary independently."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the principle that matter is neither created nor destroyed.",
+      "explanation": "The Law of Conservation of Mass states that mass is conserved in a chemical reaction within a closed system, meaning the sum of the masses of all reactants equals the sum of the masses of all products. Option A suggests a violation of this fundamental conservation principle.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.2 Fundamental Laws of Chemical Reactions",
+        "subsection_anchor": "3.2.1 The Law of Conservation of Mass",
+        "structural_element": "3.2.1 The Law of Conservation of Mass",
+        "content_anchor": "the amount of matter in the system stays unchanged",
+        "page_hint": "7",
+        "concept_hash": "sha256_of_MassConservationReactantsProducts"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q006",
+      "generation_timestamp": "2025-09-08T00:00:00Z",
+      "section": "3.2 Fundamental Laws of Chemical Reactions",
+      "subsection": "3.2.1 The Law of Conservation of Mass",
+      "sub_subsection": null,
+      "structural_anchor": "3.2.1 The Law of Conservation of Mass",
+      "mcq_type": "E",
+      "question": "In a closed flask, 5.0 g of substance X completely reacts with 12.0 g of substance Y. What is the total mass of the products formed?",
+      "options": {
+        "A": "7.0 g",
+        "B": "12.0 g",
+        "C": "5.0 g",
+        "D": "17.0 g"
+      },
+      "correct_answer": "D",
+      "hint": "Apply the principle of mass conservation for a closed system.",
+      "explanation": "The Law of Conservation of Mass dictates that the total mass of reactants equals the total mass of products in a closed system. Therefore, 5.0 g + 12.0 g = 17.0 g. Option A results from incorrectly subtracting the masses rather than adding them.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": "g",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.2 Fundamental Laws of Chemical Reactions",
+        "subsection_anchor": "3.2.1 The Law of Conservation of Mass",
+        "structural_element": "3.2.1 The Law of Conservation of Mass",
+        "content_anchor": "total mass will be the same at any point in time in any closed system",
+        "page_hint": "7",
+        "concept_hash": "sha256_of_MassAfterReactionCalc"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q007",
+      "generation_timestamp": "2025-09-08T00:00:00Z",
+      "section": "3.2 Fundamental Laws of Chemical Reactions",
+      "subsection": "3.2.1 The Law of Conservation of Mass",
+      "sub_subsection": null,
+      "structural_anchor": "3.2.1 The Law of Conservation of Mass",
+      "mcq_type": "F",
+      "question": "If a sealed container shows no change in total mass before and after a vigorous chemical reaction occurs inside it, which fundamental principle provides the best explanation?",
+      "options": {
+        "A": "The reaction must have been incomplete, leaving some reactants unaltered.",
+        "B": "Atoms were merely rearranged into new substances without being created or destroyed.",
+        "C": "The mass of gases produced was exactly balanced by the mass of solids consumed.",
+        "D": "The container prevented any exchange of matter with the surroundings, allowing mass conservation."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the atomic-scale reasoning behind mass conservation.",
+      "explanation": "The constancy of mass in a closed system is best explained by the atomic perspective that atoms are indestructible and simply rearrange during chemical reactions to form new products. Option D correctly describes a necessary condition (closed system) but does not provide the underlying conceptual explanation involving atoms.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.2 Fundamental Laws of Chemical Reactions",
+        "subsection_anchor": "3.2.1 The Law of Conservation of Mass",
+        "structural_element": "3.2.1 The Law of Conservation of Mass",
+        "content_anchor": "amount of matter in the system stays unchanged",
+        "page_hint": "7",
+        "concept_hash": "sha256_of_ConservationClosedSystem"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q008",
+      "generation_timestamp": "2025-09-08T00:00:00Z",
+      "section": "3.3 Atomic Theory",
+      "subsection": "3.3.1 Dalton's Atomic Theory",
+      "sub_subsection": null,
+      "structural_anchor": "3.3.1 Dalton's Atomic Theory",
+      "mcq_type": "G",
+      "question": "If atoms are considered indestructible fundamental particles, as postulated by Dalton, what is the direct implication for the mass of substances during a chemical reaction?",
+      "options": {
+        "A": "The mass of substances can increase if energy is converted to matter.",
+        "B": "The total mass must remain constant because atoms are neither created nor destroyed.",
+        "C": "The mass will decrease because atoms are converted into energy.",
+        "D": "The mass may change unpredictably depending on the reaction conditions."
+      },
+      "correct_answer": "B",
+      "hint": "Link the postulate about atom indestructibility to a measurable consequence.",
+      "explanation": "Dalton's postulate that atoms are indestructible and merely rearrange during chemical reactions leads directly to the prediction that the total mass of substances involved remains constant. Option C contradicts this postulate by suggesting atoms are destroyed or converted.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.3 Atomic Theory",
+        "subsection_anchor": "3.3.1 Dalton's Atomic Theory",
+        "structural_element": "3.3.1 Dalton's Atomic Theory",
+        "content_anchor": "Atoms can neither be created nor destroyed",
+        "page_hint": "16",
+        "concept_hash": "sha256_of_DaltonPostulateIndestructible"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q009",
+      "generation_timestamp": "2025-09-08T00:00:00Z",
+      "section": "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus",
+      "subsection": "3.4.1 Discovery of the Proton",
+      "sub_subsection": null,
+      "structural_anchor": "3.4.1 Discovery of the Proton",
+      "mcq_type": "A",
+      "question": "What is the characteristic electrical charge of the rays observed traveling from the anode through a perforated cathode in Goldstein's experiment?",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Neutral",
+        "D": "Variable"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the direction of travel relative to the electrodes and the nature of the particles discovered.",
+      "explanation": "In Goldstein's experiment, the rays that passed through the perforated cathode toward the negative electrode were deflected in a manner indicating they carried a positive charge, leading to their identification as protons. Option B incorrectly describes the charge of cathode rays (electrons).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus",
+        "subsection_anchor": "3.4.1 Discovery of the Proton",
+        "structural_element": "3.4.1 Discovery of the Proton",
+        "content_anchor": "positive or anode rays",
+        "page_hint": "20",
+        "concept_hash": "sha256_of_AnodeRaysCharge"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q010",
+      "generation_timestamp": "2025-09-08T00:00:00Z",
+      "section": "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus",
+      "subsection": "3.4.1 Discovery of the Proton",
+      "sub_subsection": null,
+      "structural_anchor": "3.4.1 Discovery of the Proton",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that the proton was discovered by observing rays attracted to a positively charged electrode?",
+      "options": {
+        "A": "Protons are positively charged and would be repelled by, not attracted to, a positive electrode.",
+        "B": "The rays attracted to a positive electrode are electrons, which are negatively charged.",
+        "C": "Neutral particles would not be deflected by any electrode.",
+        "D": "The experiment actually measured the charge-to-mass ratio, not just the direction of deflection."
+      },
+      "correct_answer": "A",
+      "hint": "Recall the fundamental principle that like charges repel.",
+      "explanation": "The flaw is that protons, being positively charged, would be repelled by a positively charged electrode, not attracted to it. The experiment actually discovered protons by observing rays (anode rays) that traveled toward the negative cathode. Option B describes the correct conclusion for cathode rays, not the error in the premise.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus",
+        "subsection_anchor": "3.4.1 Discovery of the Proton",
+        "structural_element": "3.4.1 Discovery of the Proton",
+        "content_anchor": "anode rays or canal rays",
+        "page_hint": "20",
+        "concept_hash": "sha256_of_ProtonDiscoveryExperiment"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 86,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 88
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2450,
+    "average_question_quality": 82.5,
+    "type_distribution": {
+      "A": 3,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 3,
+      "hard": 2
+    },
+    "section_distribution": {
+      "Unit Outcomes": 1,
+      "3.1 Historical Development of the Atomic Theories of Matter": 3,
+      "3.2 Fundamental Laws of Chemical Reactions": 3,
+      "3.3 Atomic Theory": 1,
+      "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

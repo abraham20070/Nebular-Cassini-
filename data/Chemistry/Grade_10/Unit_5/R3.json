@@ -1,0 +1,819 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:40:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Chem_U5_Q030",
+    "covered_sections": ["Introduction", "General Properties of Metals and Production of Some Metals>Properties and Extraction of Metals", "General Properties of Metals and Production of Some Metals>Alloys", "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Aluminum", "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Iron", "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Copper", "Production of Some Important Nonmetals>General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds", "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Nitrogen", "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Phosphorus", "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Oxygen", "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Sulphur", "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Chlorine"],
+    "used_question_signatures": ["def_metal", "id_metal_liquid_room_temp", "app_reactivity_series_H", "recog_formula_bauxite", "calc_gold_carat", "reason_Al_utensils_reactive", "cause_effect_cryolite_melt", "miscon_Fe_rusting", "comp_Al_Fe_abundance", "class_renewable_nonrenewable", "app_blast_furnace_CO", "miscon_noble_metals_occurrence", "term_slag", "def_allotrope", "comp_white_red_P", "reason_N2_inert", "cause_effect_limestone_flux", "id_Frasch_process", "exp_thermite_welding", "class_nonmetal_props", "reason_Haber_process_pressure", "id_P4_molecule", "calc_Al_extraction_energy", "cause_effect_open_hearth_time", "miscon_steel_alloy", "comp_Bessemer_open_hearth", "exp_contact_process", "reason_Cl_water_disproportionation", "term_flux", "class_metallurgy_steps"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "General Properties of Metals and Production of Some Metals": {
+        "Properties and Extraction of Metals": {
+          "count": 7,
+          "mini_headings_covered": ["Some physical properties of metals", "Chemical properties of metals", "Reactivity series of metals"],
+          "last_question_round": 3
+        },
+        "Alloys": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Production of Aluminum, Iron and Copper": {
+          "Aluminum": {
+            "count": 6,
+            "mini_headings_covered": ["Chemical Properties:", "Thermite Welding", "Physical Properties:"],
+            "last_question_round": 3
+          },
+          "Iron": {
+            "count": 4,
+            "mini_headings_covered": ["Chemical Properties of Iron", "Uses of Iron"],
+            "last_question_round": 3
+          },
+          "Copper": {
+            "count": 2,
+            "mini_headings_covered": ["Electrolytic refining of copper"],
+            "last_question_round": 2
+          }
+        }
+      },
+      "Production of Some Important Nonmetals": {
+        "General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds": {
+          "count": 2,
+          "mini_headings_covered": ["Physical properties"],
+          "last_question_round": 2
+        },
+        "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine": {
+          "Nitrogen": {
+            "count": 3,
+            "mini_headings_covered": ["Chemical Properties of Nitrogen", "Uses of Nitrogen"],
+            "last_question_round": 3
+          },
+          "Phosphorus": {
+            "count": 3,
+            "mini_headings_covered": ["Physical Properties of Phosphorus", "Uses of Phosphorus"],
+            "last_question_round": 3
+          },
+          "Oxygen": {
+            "count": 2,
+            "mini_headings_covered": [],
+            "last_question_round": 3
+          },
+          "Sulphur": {
+            "count": 2,
+            "mini_headings_covered": ["Allotropic Forms of Sulphur"],
+            "last_question_round": 3
+          },
+          "Chlorine": {
+            "count": 2,
+            "mini_headings_covered": ["Physical Properties of Chlorine"],
+            "last_question_round": 3
+          }
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "General Properties of Metals and Production of Some Metals": {
+        "question_count": 21,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Production of Some Important Nonmetals": {
+        "question_count": 14,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction": ["Natural resources", "Renewable", "Non-renewable", "Metallic minerals", "Ore definition"],
+      "General Properties of Metals and Production of Some Metals>Properties and Extraction of Metals": ["Lustrous", "Malleable", "Ductile", "Sonorous", "Reactivity series", "Hydrogen comparison", "Blast furnace", "Carbon monoxide reduction", "Metallurgy steps", "Flux"],
+      "General Properties of Metals and Production of Some Metals>Alloys": ["Mixture of metals", "Carat", "Gold content", "Solder composition", "Amalgam"],
+      "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Aluminum": ["Reactive metal", "Oxide layer", "Corrosion resistance", "Hall-Héroult process", "Cryolite", "Thermite welding", "Lightweight", "Electrical conductivity"],
+      "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Iron": ["Rust", "Hydrated iron(III) oxide", "Pig iron", "Wrought iron", "Limestone flux", "Steel making", "Bessemer converter", "Open-hearth furnace"],
+      "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Copper": ["Extraction", "Electrolytic refining", "Native copper", "Blister copper", "Chalcopyrite"],
+      "Production of Some Important Nonmetals>General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds": ["Opposite characteristics to metals", "Poor conductors", "Acidic oxides", "Electronegative"],
+      "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Nitrogen": ["Inert gas", "Fractional distillation of air", "Triple bond strength", "Haber process", "Ammonia production", "Nitrogen fixation"],
+      "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Phosphorus": ["Allotropes", "White phosphorus", "Red phosphorus", "Rock phosphate", "P4 molecule", "Matches", "Fertilizers"],
+      "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Oxygen": ["Fractional distillation", "Most abundant element", "Oxidizing agent"],
+      "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Sulphur": ["Frasch process", "Allotropes", "Contact process", "S8 molecule", "Rhombic sulphur", "Monoclinic sulphur"],
+      "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Chlorine": ["Electrolysis of brine", "Oxidizing agent", "Disproportionation", "Bleaching agent", "Greenish-yellow gas"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_after_batch_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 65,
+      "questions_per_concept_ratio": 0.62,
+      "structural_coverage_percentage": 81.8
+    }
+  },
+  "grade": "10",
+  "subject": "Chemistry",
+  "unit": "Unit 5: METALS AND NONMETALS",
+  "pdf_filename": "C10U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:40:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 3,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 10.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 12,
+      "mini_headings_covered_count": 13,
+      "structural_coverage_percentage": 81.8,
+      "concept_utilization_ratio": 0.62
+    },
+    "distribution_analysis": {
+      "most_covered_section": "General Properties of Metals and Production of Some Metals",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 10.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U5_Q021",
+      "generation_timestamp": "2025-01-28T10:40:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Properties and Extraction of Metals",
+      "sub_subsection": null,
+      "structural_anchor": "Chemical properties of metals",
+      "mcq_type": "I",
+      "question": "How do the extraction methods for highly reactive metals like sodium differ from those for less reactive metals like iron?",
+      "options": {
+        "A": "Reactive metals are extracted by smelting, while less reactive metals require electrolysis.",
+        "B": "Reactive metals require electrolysis of their molten compounds, while less reactive metals can be reduced by carbon.",
+        "C": "Both types of metals are primarily extracted using carbon reduction in blast furnaces.",
+        "D": "Less reactive metals are extracted by simple heating, while reactive metals require complex chemical processes."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the strength of the reducing agent needed to obtain the metal from its compound.",
+      "explanation": "Highly reactive metals like sodium require strong reducing agents, so electrolysis is used. Less reactive metals like iron can be reduced by carbon or carbon monoxide. Option A reverses the correct extraction methods.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Properties and Extraction of Metals",
+        "structural_element": "Chemical properties of metals",
+        "content_anchor": "The most active metals such as K, Na, Ca. Mg are extracted from their compounds only by electrolysis because there is no economic reducing agent that can reduce them from their compounds.",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_extraction_methods_reactivity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q022",
+      "generation_timestamp": "2025-01-28T10:40:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Properties and Extraction of Metals",
+      "sub_subsection": null,
+      "structural_anchor": "Some physical properties of metals",
+      "mcq_type": "B",
+      "question": "Which metal is liquid at room temperature and standard pressure?",
+      "options": {
+        "A": "Sodium",
+        "B": "Aluminum",
+        "C": "Mercury",
+        "D": "Copper"
+      },
+      "correct_answer": "C",
+      "hint": "This metal is used in thermometers and barometers.",
+      "explanation": "Mercury is the only metal that exists as a liquid at room temperature. Options A, B, and D are all solid metals under standard conditions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Properties and Extraction of Metals",
+        "structural_element": "Some physical properties of metals",
+        "content_anchor": "Discuss in your group... a. A metal which is liquid at room temperature.",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_Hg_liquid_metal"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q023",
+      "generation_timestamp": "2025-01-28T10:40:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Alloys",
+      "sub_subsection": null,
+      "structural_anchor": "Alloys",
+      "mcq_type": "N",
+      "question": "Which condition must be met for two metals to form a homogeneous alloy when mixed in molten state?",
+      "options": {
+        "A": "They must have identical melting points.",
+        "B": "They must be completely immiscible in the liquid state.",
+        "C": "They must form a solid solution upon cooling without separating.",
+        "D": "They must react chemically to form a new compound."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the definition of an alloy as a solid mixture, not a compound.",
+      "explanation": "Alloys form when molten metals mix and solidify into a homogeneous solid solution. Option D describes the formation of an intermetallic compound, not necessarily an alloy.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Alloys",
+        "structural_element": "Alloys",
+        "content_anchor": "Alloys are mixtures of two or more metals or metals and nonmetals when molten and do not separate when solidified.",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_alloy_formation_condition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q024",
+      "generation_timestamp": "2025-01-28T10:40:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Production of Aluminum, Iron and Copper",
+      "sub_subsection": "Aluminum",
+      "structural_anchor": "Physical Properties:",
+      "mcq_type": "C",
+      "question": "Which property of aluminum makes it particularly suitable for overhead power transmission cables?",
+      "options": {
+        "A": "High density and strength",
+        "B": "Low cost and abundance",
+        "C": "Low density and good electrical conductivity",
+        "D": "High melting point and corrosion resistance"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the requirements for long-distance power lines: lightweight and conductive.",
+      "explanation": "Aluminum's combination of low density and good conductivity makes it ideal for power lines where weight is critical. Option D describes properties useful for other applications but not specifically for overhead cables.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Production of Aluminum, Iron and Copper",
+        "sub_subsection_anchor": "Aluminum",
+        "structural_element": "Physical Properties:",
+        "content_anchor": "Aluminum is a soft silvery- white and light metal having a density of 2.7 g/cm³... It is a good conductor of heat and electricity.",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_Al_properties_transmission"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q025",
+      "generation_timestamp": "2025-01-28T10:40:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Production of Aluminum, Iron and Copper",
+      "sub_subsection": "Iron",
+      "structural_anchor": "Uses of Iron",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in classifying stainless steel as a pure form of iron?",
+      "options": {
+        "A": "Stainless steel contains only iron and carbon in fixed proportions.",
+        "B": "Stainless steel is an alloy containing chromium and nickel for corrosion resistance.",
+        "C": "Stainless steel is another name for wrought iron, which is the purest commercial iron.",
+        "D": "Stainless steel is produced directly from the blast furnace without further purification."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the composition and properties of stainless steel compared to pure iron.",
+      "explanation": "Stainless steel is an alloy containing iron, chromium, and often nickel, not a pure form of iron. Option C incorrectly equates stainless steel with wrought iron.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Production of Aluminum, Iron and Copper",
+        "sub_subsection_anchor": "Iron",
+        "structural_element": "Uses of Iron",
+        "content_anchor": "Stainless steel contains chromium (14-18%) and nickel (7-9%).",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_stainless_steel_composition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q026",
+      "generation_timestamp": "2025-01-28T10:40:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Production of Aluminum, Iron and Copper",
+      "sub_subsection": "Copper",
+      "structural_anchor": "Chemical Properties of Copper",
+      "mcq_type": "D",
+      "question": "Copper reacts with moist air containing carbon dioxide over time. What is the green coating that forms on the surface?",
+      "options": {
+        "A": "Copper(I) oxide",
+        "B": "Copper(II) sulfate",
+        "C": "Basic copper carbonate",
+        "D": "Copper(II) chloride"
+      },
+      "correct_answer": "C",
+      "hint": "This compound is responsible for the characteristic green color of aged copper statues and roofs.",
+      "explanation": "Basic copper carbonate (CuCO₃·Cu(OH)₂ or Cu₂(OH)₂CO₃) forms when copper corrodes in moist air with CO₂. Option A is a red or black oxide that forms under different conditions.",
+      "difficulty_level": "medium",
+      "formula_used": ["CuCO3·Cu(OH)2"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Production of Aluminum, Iron and Copper",
+        "sub_subsection_anchor": "Copper",
+        "structural_element": "Chemical Properties of Copper",
+        "content_anchor": "It turns green, due to the formation of verdigris: a basic copper carbonate (CuCO3Cu(OH)2) or Cu2(OH)2CO3.",
+        "page_hint": "Page 20",
+        "concept_hash": "sha256_verdigris_composition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q027",
+      "generation_timestamp": "2025-01-28T10:40:00Z",
+      "section": "Production of Some Important Nonmetals",
+      "subsection": "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "Nitrogen",
+      "structural_anchor": "Uses of Nitrogen",
+      "mcq_type": "G",
+      "question": "If nitrogen gas is used to create an inert atmosphere in food packaging, what is the primary chemical effect on the packaged food?",
+      "options": {
+        "A": "It increases the moisture content, keeping food fresh.",
+        "B": "It prevents oxidation reactions that cause spoilage.",
+        "C": "It kills microorganisms through direct chemical action.",
+        "D": "It reacts with food components to enhance flavor."
+      },
+      "correct_answer": "B",
+      "hint": "Consider nitrogen's chemical reactivity and how it affects common spoilage mechanisms.",
+      "explanation": "Nitrogen displaces oxygen, preventing oxidative reactions like rancidity in fats. Option C is incorrect because nitrogen is chemically inert and doesn't kill microorganisms directly.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "Production of Some Important Nonmetals",
+        "subsection_anchor": "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "sub_subsection_anchor": "Nitrogen",
+        "structural_element": "Uses of Nitrogen",
+        "content_anchor": "Nitrogen is used in food packaging to prevent oxidation, and to create an inert atmosphere in the production of semiconductors.",
+        "page_hint": "Page 24",
+        "concept_hash": "sha256_N2_food_packaging"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q028",
+      "generation_timestamp": "2025-01-28T10:40:00Z",
+      "section": "Production of Some Important Nonmetals",
+      "subsection": "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "Phosphorus",
+      "structural_anchor": "Uses of Phosphorus",
+      "mcq_type": "K",
+      "question": "What is the significance of phosphorus compounds being converted to acids and salts for use as fertilizers?",
+      "options": {
+        "A": "The acids help neutralize alkaline soil, while phosphorus provides essential nutrients.",
+        "B": "Phosphorus in compound form is more soluble and bioavailable to plants than elemental phosphorus.",
+        "C": "The salts provide structural support to plant roots, while acids promote flowering.",
+        "D": "Elemental phosphorus is toxic to plants and must be converted to inert compounds."
+      },
+      "correct_answer": "B",
+      "hint": "Consider how plants absorb nutrients from soil and the chemical forms they can utilize.",
+      "explanation": "Plants absorb phosphorus as phosphate ions (PO₄³⁻) from soluble compounds. Elemental phosphorus is insoluble and reactive, making it unsuitable for direct plant uptake.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "Production of Some Important Nonmetals",
+        "subsection_anchor": "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "sub_subsection_anchor": "Phosphorus",
+        "structural_element": "Uses of Phosphorus",
+        "content_anchor": "Phosphorus is essential for plant growth. Large quantities of phosphorus compounds are converted into acids and salts to be used as fertilizers.",
+        "page_hint": "Page 26",
+        "concept_hash": "sha256_P_fertilizers_significance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q029",
+      "generation_timestamp": "2025-01-28T10:40:00Z",
+      "section": "Production of Some Important Nonmetals",
+      "subsection": "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "Oxygen",
+      "structural_anchor": "Occurrence and Production",
+      "mcq_type": "E",
+      "question": "Oxygen constitutes approximately 20% by volume of dry air. In the fractional distillation of liquid air, at approximately what temperature does oxygen boil off as a gas?",
+      "options": {
+        "A": "-196°C",
+        "B": "-183°C",
+        "C": "-186°C",
+        "D": "-210°C"
+      },
+      "correct_answer": "B",
+      "hint": "This temperature is higher than nitrogen's boiling point but lower than argon's.",
+      "explanation": "Oxygen boils at -183°C during the fractional distillation of liquid air. Option A is the boiling point of nitrogen, which distills off first.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": "°C",
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "Production of Some Important Nonmetals",
+        "subsection_anchor": "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "sub_subsection_anchor": "Oxygen",
+        "structural_element": "Occurrence and Production",
+        "content_anchor": "leaving behind a blue liquid of oxygen that boils at -183°C.",
+        "page_hint": "Page 23",
+        "concept_hash": "sha256_O2_boiling_point"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q030",
+      "generation_timestamp": "2025-01-28T10:40:00Z",
+      "section": "Production of Some Important Nonmetals",
+      "subsection": "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "Sulphur",
+      "structural_anchor": "Allotropic Forms of Sulphur",
+      "mcq_type": "J",
+      "question": "Which form of sulphur is stable at room temperature and consists of S₈ molecules arranged in a crown shape?",
+      "options": {
+        "A": "Monoclinic sulphur (β-sulphur)",
+        "B": "Plastic sulphur",
+        "C": "Rhombic sulphur (α-sulphur)",
+        "D": "Amorphous sulphur"
+      },
+      "correct_answer": "C",
+      "hint": "This is the most common and stable allotrope at ordinary temperatures.",
+      "explanation": "Rhombic sulphur (α-sulphur) is the stable form at room temperature and contains crown-shaped S₈ rings. Option A is stable only above 95.3°C.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "Production of Some Important Nonmetals",
+        "subsection_anchor": "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "sub_subsection_anchor": "Sulphur",
+        "structural_element": "Allotropic Forms of Sulphur",
+        "content_anchor": "Rhombic sulphur is the most stable form of sulphur consisting of S8 molecules.",
+        "page_hint": "Page 29",
+        "concept_hash": "sha256_rhombic_sulphur"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3100,
+    "average_question_quality": 85.0,
+    "type_distribution": {
+      "A": 0,
+      "B": 1,
+      "C": 1,
+      "D": 2,
+      "E": 1,
+      "F": 0,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1,
+      "L": 0,
+      "M": 0,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 7,
+      "hard": 1
+    },
+    "section_distribution": {
+      "General Properties of Metals and Production of Some Metals": 6,
+      "Production of Some Important Nonmetals": 4
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

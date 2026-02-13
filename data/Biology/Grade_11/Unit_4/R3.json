@@ -1,0 +1,902 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-04-11T10:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G11_Bio_U4_Q030",
+    "covered_sections": ["4.1. The genetic materials>4.2. The structure and function of DNA and RNA>4.2.1. The Structure and function of DNA", "4.1. The genetic materials>4.2. The structure and function of DNA and RNA>4.2.2 The structure and function of RNA", "4.3 The process of cell division>4.3.1 Cell Division>I. Mitosis", "4.4 Protein synthesis", "4.5 Mendelian inheritance>4.5.1 Mendelian crosses", "4.5 Mendelian inheritance>4.5.2 Monohybrid cross", "4.5 Mendelian inheritance>4.5.3 Dihybrid Cross>The Law of segregation", "4.6 Sex determination", "4.7 Non-Mendelian inheritance>4.7.1 Co-dominance, Incomplete dominance and Multiple alleles>Co-dominance", "4.8 Human pedigree analysis and its importance", "4.1. The genetic materials>4.2. The structure and function of DNA and RNA>4.2.3 DNA replication", "4.3 The process of cell division>4.3.1 Cell Division>II. Meiosis", "4.5 Mendelian inheritance>4.5.3 Dihybrid Cross>The Law of Independent Assortment", "4.5 Mendelian inheritance>4.5.4 Test Crosses", "4.7 Non-Mendelian inheritance>4.7.1 Co-dominance, Incomplete dominance and Multiple alleles>Incomplete dominance", "4.7 Non-Mendelian inheritance>4.7.2 Rh factor inheritance in humans and its medical importance", "4.7 Non-Mendelian inheritance>4.7.3 Sex-linked inheritance in humans", "4.8 Human pedigree analysis and its importance>Self-questioning", "4.9 Genetic disorders>4.9.1 Single-gene disorders", "4.9 Genetic disorders>4.9.2 Chromosome disorders", "4.1. The genetic materials", "4.3 The process of cell division>4.3.1 Cell Division>1. The Interphase", "4.4 Protein synthesis>Transcription", "4.4 Protein synthesis>Translation", "4.7 Non-Mendelian inheritance>4.7.1 Co-dominance, Incomplete dominance and Multiple alleles>The A and B blood types are also co-dominant", "4.7 Non-Mendelian inheritance>4.7.4 Environmental effects on phenotype", "4.9 Genetic disorders>4.9.1 Single-gene disorders>A. Autosomal dominant", "4.9 Genetic disorders>4.9.1 Single-gene disorders>B. Autosomal recessive", "4.10 Genetic testing and counseling", "4.11 Gene therapy", "4.12 Breeding"],
+    "used_question_signatures": ["hash_1", "hash_2", "hash_3", "hash_4", "hash_5", "hash_6", "hash_7", "hash_8", "hash_9", "hash_10", "hash_11", "hash_12", "hash_13", "hash_14", "hash_15", "hash_16", "hash_17", "hash_18", "hash_19", "hash_20", "hash_21", "hash_22", "hash_23", "hash_24", "hash_25", "hash_26", "hash_27", "hash_28", "hash_29", "hash_30"],
+    "baseline_counter": {
+      "4.1. The genetic materials": {
+        "": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "4.2. The structure and function of DNA and RNA": {
+          "count": 4,
+          "mini_headings_covered": ["The structure of DNA", "Genes and chromosomes", "The structure of RNA", "The function of RNA", "DNA replication"],
+          "last_question_round": 2
+        }
+      },
+      "4.3 The process of cell division": {
+        "4.3.1 Cell Division": {
+          "count": 5,
+          "mini_headings_covered": ["I. Mitosis", "II. Meiosis", "1. The Interphase"],
+          "last_question_round": 3
+        }
+      },
+      "4.4 Protein synthesis": {
+        "": {
+          "count": 3,
+          "mini_headings_covered": ["Transcription", "Translation"],
+          "last_question_round": 3
+        }
+      },
+      "4.5 Mendelian inheritance": {
+        "4.5.1 Mendelian crosses": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "4.5.2 Monohybrid cross": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "4.5.3 Dihybrid Cross": {
+          "count": 3,
+          "mini_headings_covered": ["The Law of segregation", "The Law of Independent Assortment"],
+          "last_question_round": 2
+        },
+        "4.5.4 Test Crosses": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.6 Sex determination": {
+        "": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.7 Non-Mendelian inheritance": {
+        "4.7.1 Co-dominance, Incomplete dominance and Multiple alleles": {
+          "count": 5,
+          "mini_headings_covered": ["Co-dominance", "Incomplete dominance", "The A and B blood types are also co-dominant"],
+          "last_question_round": 3
+        },
+        "4.7.2 Rh factor inheritance in humans and its medical importance": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "4.7.3 Sex-linked inheritance in humans": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "4.7.4 Environmental effects on phenotype": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "4.8 Human pedigree analysis and its importance": {
+        "": {
+          "count": 2,
+          "mini_headings_covered": ["Self-questioning"],
+          "last_question_round": 2
+        }
+      },
+      "4.9 Genetic disorders": {
+        "4.9.1 Single-gene disorders": {
+          "count": 3,
+          "mini_headings_covered": ["A. Autosomal dominant", "B. Autosomal recessive"],
+          "last_question_round": 3
+        },
+        "4.9.2 Chromosome disorders": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.10 Genetic testing and counseling": {
+        "": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "4.11 Gene therapy": {
+        "": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "4.12 Breeding": {
+        "": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1. The genetic materials": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "4.3 The process of cell division": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "4.4 Protein synthesis": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.5 Mendelian inheritance": {
+        "question_count": 8,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "4.6 Sex determination": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "4.7 Non-Mendelian inheritance": {
+        "question_count": 8,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "4.8 Human pedigree analysis and its importance": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "4.9 Genetic disorders": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "4.10 Genetic testing and counseling": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.11 Gene therapy": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.12 Breeding": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1. The genetic materials>4.2. The structure and function of DNA and RNA": ["DNA structure", "RNA structure", "Genes", "Chromosomes", "DNA replication", "Semiconservative replication"],
+      "4.3 The process of cell division>4.3.1 Cell Division": ["Mitosis stages", "Meiosis stages", "Crossing over", "Interphase stages"],
+      "4.4 Protein synthesis": ["Transcription", "Translation", "Genetic code", "Codon"],
+      "4.5 Mendelian inheritance>4.5.1 Mendelian crosses": ["Gregor Mendel", "Pea plant traits"],
+      "4.5 Mendelian inheritance>4.5.2 Monohybrid cross": ["Punnett square", "F1 generation", "F2 generation", "Homozygous vs heterozygous"],
+      "4.5 Mendelian inheritance>4.5.3 Dihybrid Cross": ["Law of segregation", "Law of independent assortment", "Dihybrid ratio"],
+      "4.5 Mendelian inheritance>4.5.4 Test Crosses": ["Test cross", "Unknown genotype"],
+      "4.6 Sex determination": ["Sex chromosomes", "XX vs XY", "Gamete contribution"],
+      "4.7 Non-Mendelian inheritance>4.7.1 Co-dominance, Incomplete dominance and Multiple alleles": ["Codominance", "Incomplete dominance", "ABO blood types", "Blood type antigens"],
+      "4.7 Non-Mendelian inheritance>4.7.2 Rh factor inheritance in humans and its medical importance": ["Rh factor", "Rh positive", "Rh negative"],
+      "4.7 Non-Mendelian inheritance>4.7.3 Sex-linked inheritance in humans": ["X-linked inheritance", "Hemophilia"],
+      "4.7 Non-Mendelian inheritance>4.7.4 Environmental effects on phenotype": ["Environmental influence", "Phenocopy"],
+      "4.8 Human pedigree analysis and its importance": ["Pedigree symbols", "Autosomal dominant"],
+      "4.9 Genetic disorders>4.9.1 Single-gene disorders": ["Genetic disorders", "Mutation", "Autosomal dominant disorders", "Autosomal recessive disorders"],
+      "4.9 Genetic disorders>4.9.2 Chromosome disorders": ["Chromosomal abnormalities", "Down syndrome"],
+      "4.10 Genetic testing and counseling": ["Genetic testing", "Genetic counseling"],
+      "4.11 Gene therapy": ["Gene therapy", "Somatic gene therapy"],
+      "4.12 Breeding": ["Selective breeding", "Artificial selection"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_round2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 35,
+      "questions_per_concept_ratio": 0.86,
+      "structural_coverage_percentage": 55.0
+    }
+  },
+  "grade": "11",
+  "subject": "Biology",
+  "unit": "Unit 4: Genetics",
+  "pdf_filename": "B11U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 1,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-04-11T10:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 11,
+        "total_sections": 12,
+        "progress_percentage": 91.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 8.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 11,
+      "subsections_covered_count": 18,
+      "mini_headings_covered_count": 15,
+      "structural_coverage_percentage": 55.0,
+      "concept_utilization_ratio": 0.86
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.5 Mendelian inheritance",
+      "least_covered_section": "4.6 Sex determination",
+      "imbalance_ratio": 8.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U4_Q021",
+      "generation_timestamp": "2025-04-11T10:10:00Z",
+      "section": "4.1. The genetic materials",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "4.1. The genetic materials",
+      "mcq_type": "A",
+      "question": "What is the primary function of DNA in living organisms?",
+      "options": {
+        "A": "Store and transmit genetic information",
+        "B": "Catalyze biochemical reactions",
+        "C": "Provide structural support to cells",
+        "D": "Transport molecules across membranes"
+      },
+      "correct_answer": "A",
+      "hint": "DNA contains the instructions for building and maintaining an organism.",
+      "explanation": "DNA serves as the hereditary material that stores genetic information and transmits it during reproduction. Option B describes the function of enzymes, which are typically proteins rather than nucleic acids.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.1. The genetic materials",
+        "subsection_anchor": "",
+        "structural_element": "4.1. The genetic materials",
+        "content_anchor": "The function of DNA is to store all of the genetic information that an organism needs to grow, develop, reproduce, control the cell and survive",
+        "page_hint": "Page 7",
+        "concept_hash": "hash_DNA_primary_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q022",
+      "generation_timestamp": "2025-04-11T10:10:00Z",
+      "section": "4.3 The process of cell division",
+      "subsection": "4.3.1 Cell Division",
+      "sub_subsection": "1. The Interphase",
+      "structural_anchor": "1. The Interphase",
+      "mcq_type": "M",
+      "question": "What is the correct sequence of stages during interphase in the cell cycle?",
+      "options": {
+        "A": "G1 phase, S phase, G2 phase",
+        "B": "S phase, G1 phase, G2 phase",
+        "C": "G2 phase, S phase, G1 phase",
+        "D": "M phase, G1 phase, S phase"
+      },
+      "correct_answer": "A",
+      "hint": "The cell grows, replicates DNA, then prepares for division.",
+      "explanation": "Interphase progresses through G1 (cell growth), S (DNA synthesis), and G2 (preparation for mitosis) phases. Option D incorrectly includes M phase, which is the mitotic phase following interphase.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.3 The process of cell division",
+        "subsection_anchor": "4.3.1 Cell Division",
+        "structural_element": "1. The Interphase",
+        "content_anchor": "The three stages of interphase are called G1 (first gap stage), S (synthesis stage), and G2 (second gap stage)",
+        "page_hint": "Page 14",
+        "concept_hash": "hash_interphase_sequence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q023",
+      "generation_timestamp": "2025-04-11T10:10:00Z",
+      "section": "4.4 Protein synthesis",
+      "subsection": "Transcription",
+      "sub_subsection": null,
+      "structural_anchor": "Transcription",
+      "mcq_type": "D",
+      "question": "During transcription, what type of RNA molecule is synthesized using DNA as a template?",
+      "options": {
+        "A": "Messenger RNA (mRNA)",
+        "B": "Transfer RNA (tRNA)",
+        "C": "Ribosomal RNA (rRNA)",
+        "D": "Small nuclear RNA (snRNA)"
+      },
+      "correct_answer": "A",
+      "hint": "This RNA carries genetic information from DNA to the ribosome.",
+      "explanation": "Transcription produces messenger RNA by copying a DNA template, creating a complementary RNA strand. Option B and C are also transcribed from DNA but serve different functions in protein synthesis.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.4 Protein synthesis",
+        "subsection_anchor": "Transcription",
+        "structural_element": "Transcription",
+        "content_anchor": "Transcription is the synthesis of mRNA molecules within the cell nucleus with the code for a protein copied from the genetic information contained in the DNA",
+        "page_hint": "Page 22",
+        "concept_hash": "hash_transcription_product"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q024",
+      "generation_timestamp": "2025-04-11T10:10:00Z",
+      "section": "4.4 Protein synthesis",
+      "subsection": "Translation",
+      "sub_subsection": null,
+      "structural_anchor": "Translation",
+      "mcq_type": "F",
+      "question": "Considering that tRNA molecules carry specific amino acids, what structural feature enables tRNA to recognize the correct codon on mRNA?",
+      "options": {
+        "A": "The anticodon loop with three complementary nucleotides",
+        "B": "The amino acid attachment site at the 3' end",
+        "C": "The cloverleaf secondary structure",
+        "D": "The presence of modified nucleotides"
+      },
+      "correct_answer": "A",
+      "hint": "This region forms base pairs with the mRNA codon.",
+      "explanation": "tRNA anticodons bind complementarily to mRNA codons through specific base pairing, ensuring correct amino acid incorporation. Option B is where the amino acid attaches but doesn't directly participate in codon recognition.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.4 Protein synthesis",
+        "subsection_anchor": "Translation",
+        "structural_element": "Translation",
+        "content_anchor": "This tRNA contains an anticodon which is three nucleotides long that is complementary to the three nucleotides long genetic codon on the mRNA",
+        "page_hint": "Page 23",
+        "concept_hash": "hash_tRNA_anticodon_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q025",
+      "generation_timestamp": "2025-04-11T10:10:00Z",
+      "section": "4.5 Mendelian inheritance",
+      "subsection": "4.5.2 Monohybrid cross",
+      "sub_subsection": null,
+      "structural_anchor": "4.5.2 Monohybrid cross",
+      "mcq_type": "I",
+      "question": "How does a heterozygous genotype differ from a homozygous genotype in terms of allele composition?",
+      "options": {
+        "A": "Heterozygous has two different alleles, while homozygous has two identical alleles",
+        "B": "Heterozygous expresses both alleles equally, while homozygous expresses only one",
+        "C": "Heterozygous shows incomplete dominance, while homozygous shows complete dominance",
+        "D": "Heterozygous produces more variable offspring than homozygous"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the genetic makeup at a specific gene locus.",
+      "explanation": "Heterozygous individuals possess two different alleles for a gene, while homozygous individuals have two identical alleles. Option B describes codominance rather than the basic genetic composition difference.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.5 Mendelian inheritance",
+        "subsection_anchor": "4.5.2 Monohybrid cross",
+        "structural_element": "4.5.2 Monohybrid cross",
+        "content_anchor": "Mendel established different terminologies used in genetics, such as factors (later genes, alleles), dominant, recessive, genotype, homozygous, heterozygous, phenotype",
+        "page_hint": "Page 25",
+        "concept_hash": "hash_heterozygous_vs_homozygous"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q026",
+      "generation_timestamp": "2025-04-11T10:10:00Z",
+      "section": "4.7 Non-Mendelian inheritance",
+      "subsection": "4.7.1 Co-dominance, Incomplete dominance and Multiple alleles",
+      "sub_subsection": "The A and B blood types are also co-dominant",
+      "structural_anchor": "The A and B blood types are also co-dominant",
+      "mcq_type": "D",
+      "question": "What blood type results from the heterozygous condition where both A and B alleles are expressed equally in the ABO blood system?",
+      "options": {
+        "A": "Type AB",
+        "B": "Type A",
+        "C": "Type B",
+        "D": "Type O"
+      },
+      "correct_answer": "A",
+      "hint": "This blood type exhibits codominance of both A and B antigens.",
+      "explanation": "Type AB blood results from codominant expression of both A and B alleles, producing both antigens on red blood cells. Option D represents the homozygous recessive condition with neither A nor B antigens present.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.7 Non-Mendelian inheritance",
+        "subsection_anchor": "4.7.1 Co-dominance, Incomplete dominance and Multiple alleles",
+        "structural_element": "The A and B blood types are also co-dominant",
+        "content_anchor": "Thus, if two people with AA and BB blood type alleles have children, every single child (male or female) from this couple would be heterozygotes (AB) with AB blood type",
+        "page_hint": "Page 39",
+        "concept_hash": "hash_ABO_codominance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q027",
+      "generation_timestamp": "2025-04-11T10:10:00Z",
+      "section": "4.7 Non-Mendelian inheritance",
+      "subsection": "4.7.4 Environmental effects on phenotype",
+      "sub_subsection": null,
+      "structural_anchor": "4.7.4 Environmental effects on phenotype",
+      "mcq_type": "F",
+      "question": "Considering that some phenotypes can be influenced by environmental factors, what term describes an environmentally induced trait that mimics one produced by a specific genotype?",
+      "options": {
+        "A": "Phenocopy",
+        "B": "Epigenetic modification",
+        "C": "Genetic assimilation",
+        "D": "Developmental plasticity"
+      },
+      "correct_answer": "A",
+      "hint": "This phenomenon occurs when environmental conditions produce a phenotype identical to a genetic one.",
+      "explanation": "A phenocopy is an environmentally induced phenotype that resembles one produced by a specific genotype, though without genetic alteration. Option B involves heritable changes in gene expression without DNA sequence modification.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.7 Non-Mendelian inheritance",
+        "subsection_anchor": "4.7.4 Environmental effects on phenotype",
+        "structural_element": "4.7.4 Environmental effects on phenotype",
+        "content_anchor": "A phenotype is an environmentally induced phenotype of an individual, which is identical to the phenotype of another individual determined by genotype",
+        "page_hint": "Page 42",
+        "concept_hash": "hash_phenocopy_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q028",
+      "generation_timestamp": "2025-04-11T10:10:00Z",
+      "section": "4.9 Genetic disorders",
+      "subsection": "4.9.1 Single-gene disorders",
+      "sub_subsection": "A. Autosomal dominant",
+      "structural_anchor": "A. Autosomal dominant",
+      "mcq_type": "D",
+      "question": "What inheritance pattern characterizes Huntington's disease, where a single defective allele from either parent can cause the disorder?",
+      "options": {
+        "A": "Autosomal dominant",
+        "B": "Autosomal recessive",
+        "C": "X-linked dominant",
+        "D": "X-linked recessive"
+      },
+      "correct_answer": "A",
+      "hint": "This pattern affects both sexes equally and requires only one copy of the mutant allele.",
+      "explanation": "Huntington's disease follows autosomal dominant inheritance, where one mutant allele is sufficient to cause the disorder. Option B requires two copies of the recessive allele for expression.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.9 Genetic disorders",
+        "subsection_anchor": "4.9.1 Single-gene disorders",
+        "structural_element": "A. Autosomal dominant",
+        "content_anchor": "Huntington's disease is a well-known example of an autosomal dominant single-gene disease",
+        "page_hint": "Page 48",
+        "concept_hash": "hash_huntingtons_inheritance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q029",
+      "generation_timestamp": "2025-04-11T10:10:00Z",
+      "section": "4.9 Genetic disorders",
+      "subsection": "4.9.1 Single-gene disorders",
+      "sub_subsection": "B. Autosomal recessive",
+      "structural_anchor": "B. Autosomal recessive",
+      "mcq_type": "G",
+      "question": "If both parents are carriers of an autosomal recessive disorder but unaffected themselves, what is the probability their child will express the disorder?",
+      "options": {
+        "A": "25%",
+        "B": "50%",
+        "C": "75%",
+        "D": "100%"
+      },
+      "correct_answer": "A",
+      "hint": "Consider that both parents must contribute a recessive allele for the child to be affected.",
+      "explanation": "Two carrier parents (Aa × Aa) have a 25% chance of producing a homozygous recessive child (aa) who expresses the disorder. Option B represents the probability of producing a carrier child like the parents.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": "percentage",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.9 Genetic disorders",
+        "subsection_anchor": "4.9.1 Single-gene disorders",
+        "structural_element": "B. Autosomal recessive",
+        "content_anchor": "An autosomal recessive disorder will most commonly occur when both parents carry the trait and the offspring receives the defected gene from each parent",
+        "page_hint": "Page 48",
+        "concept_hash": "hash_autosomal_recessive_probability"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q030",
+      "generation_timestamp": "2025-04-11T10:10:00Z",
+      "section": "4.10 Genetic testing and counseling",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "4.10 Genetic testing and counseling",
+      "mcq_type": "A",
+      "question": "What medical procedure involves examining an individual's DNA to identify changes associated with inherited disorders?",
+      "options": {
+        "A": "Genetic testing",
+        "B": "Genetic counseling",
+        "C": "Gene therapy",
+        "D": "Pedigree analysis"
+      },
+      "correct_answer": "A",
+      "hint": "This procedure analyzes genetic material directly.",
+      "explanation": "Genetic testing involves laboratory analysis of DNA to detect mutations or variations associated with genetic disorders. Option B is the process of interpreting and communicating genetic test results to individuals and families.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.10 Genetic testing and counseling",
+        "subsection_anchor": "",
+        "structural_element": "4.10 Genetic testing and counseling",
+        "content_anchor": "Genetic testing examines the genetic material and tells an individual about the likelihood and risk of passing genetic disorders on to children",
+        "page_hint": "Page 52",
+        "concept_hash": "hash_genetic_testing_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4800,
+    "average_question_quality": 84.0,
+    "type_distribution": {
+      "A": 3,
+      "D": 3,
+      "F": 2,
+      "G": 1,
+      "I": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 3,
+      "hard": 1
+    },
+    "section_distribution": {
+      "4.1. The genetic materials": 1,
+      "4.3 The process of cell division": 1,
+      "4.4 Protein synthesis": 2,
+      "4.5 Mendelian inheritance": 1,
+      "4.7 Non-Mendelian inheritance": 2,
+      "4.9 Genetic disorders": 2,
+      "4.10 Genetic testing and counseling": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

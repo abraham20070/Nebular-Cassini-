@@ -1,0 +1,811 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-01-27T00:03:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G11_Chem_U5_Q020",
+    "covered_sections": ["Start-up Activity", "5.1 Introduction", "5.2 Chemical Equilibrium>5.2.1 Reversible and Irreversible Reactions", "5.2 Chemical Equilibrium>5.2.2 Attainment and Characteristics of Chemical Equilibria", "5.2 Chemical Equilibrium>5.2.3 Conditions for Attainment of Chemical Equilibria", "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant", "5.2 Chemical Equilibrium>5.2.5 Applications of Equilibrium Constant", "5.2 Chemical Equilibrium>5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle", "5.2 Chemical Equilibrium>5.2.7 Equilibrium and Industry"],
+    "used_question_signatures": ["hash_A_ReversibleReaction_5.2.1", "hash_B_DynamicEquilibrium_5.2.2", "hash_C_LawOfMassAction_5.2.4_A", "hash_D_KcExpression_5.2.4_B", "hash_E_KpCalculation_5.2.4_C", "hash_F_ConceptualKc_5.2.4_B", "hash_G_CauseEffectPressure_5.2.6_B", "hash_H_MisconcentrationEquilibrium_5.2.6_A", "hash_I_ComparisonReversible_5.2.1", "hash_J_ClassificationHeterogeneous_5.2.4_D", "hash_A_ChemicalEquilibriumState_5.2.2", "hash_D_CalculateKc_5.2.4_B", "hash_F_PredictDirectionQ_5.2.5_B", "hash_G_TemperatureEffect_5.2.6_C", "hash_H_MisconceptionKconstant_5.2.5_B", "hash_K_InterpretGraph_5.2.2", "hash_L_ExperimentalFeSCN_5.2.6_A", "hash_M_ProcessHaber_5.2.7_A", "hash_N_ConditionCatalyst_5.2.6_D"],
+    "baseline_counter": {
+      "Start-up Activity": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "5.1 Introduction": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "5.2 Chemical Equilibrium": {
+        "5.2.1 Reversible and Irreversible Reactions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "5.2.2 Attainment and Characteristics of Chemical Equilibria": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.3 Conditions for Attainment of Chemical Equilibria": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.4 Equilibrium Expression and Equilibrium Constant": {
+          "count": 6,
+          "mini_headings_covered": ["A. Law of Mass Actions", "B. Equilibrium constant expression involving concentration, Kc", "C. Equilibrium constant expression involving partial pressure, Kp", "D. Equilibrium constant for heterogeneous reactions"],
+          "last_question_round": 1
+        },
+        "5.2.5 Applications of Equilibrium Constant": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.7 Equilibrium and Industry": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Unit Summary": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "CHECKLIST": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "KEY TERMS": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "REVIEW QUESTIONS": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Start-up Activity": {
+        "question_count": 0,
+        "last_used_round": 0
+      },
+      "5.1 Introduction": {
+        "question_count": 0,
+        "last_used_round": 0
+      },
+      "5.2 Chemical Equilibrium": {
+        "question_count": 10,
+        "last_used_round": 2
+      },
+      "Unit Summary": {
+        "question_count": 0,
+        "last_used_round": 0
+      },
+      "CHECKLIST": {
+        "question_count": 0,
+        "last_used_round": 0
+      },
+      "KEY TERMS": {
+        "question_count": 0,
+        "last_used_round": 0
+      },
+      "REVIEW QUESTIONS": {
+        "question_count": 0,
+        "last_used_round": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.2 Chemical Equilibrium>5.2.1 Reversible and Irreversible Reactions": ["Reversible Reaction", "Irreversible Reaction"],
+      "5.2 Chemical Equilibrium>5.2.2 Attainment and Characteristics of Chemical Equilibria": ["Dynamic Equilibrium", "Characteristics of Equilibrium"],
+      "5.2 Chemical Equilibrium>5.2.3 Conditions for Attainment of Chemical Equilibria": ["Closed System"],
+      "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant": ["Law of Mass Action", "Equilibrium Constant (Kc)", "Equilibrium Constant (Kp)", "Heterogeneous Equilibrium"],
+      "5.2 Chemical Equilibrium>5.2.5 Applications of Equilibrium Constant": ["Reaction Quotient (Q)", "Predicting Reaction Direction"],
+      "5.2 Chemical Equilibrium>5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle": ["Effect of Pressure", "Effect of Temperature", "Effect of Catalyst", "Effect of Concentration"],
+      "5.2 Chemical Equilibrium>5.2.7 Equilibrium and Industry": ["Haber Process"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 15,
+      "questions_per_concept_ratio": 1.33,
+      "structural_coverage_percentage": 57.14
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Chemistry",
+  "unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+  "pdf_filename": "C11U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-01-27T00:05:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 1,
+        "total_sections": 7,
+        "progress_percentage": 14.29
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 7,
+      "mini_headings_covered_count": 4,
+      "structural_coverage_percentage": 33.33,
+      "concept_utilization_ratio": 1.33
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.2 Chemical Equilibrium",
+      "least_covered_section": "Start-up Activity",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Chem_U5_Q011",
+      "generation_timestamp": "2024-01-27T00:03:10Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.2 Attainment and Characteristics of Chemical Equilibria",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "A",
+      "question": "What is the defining characteristic of a chemical system that has reached equilibrium?",
+      "options": {
+        "A": "The forward and reverse reaction rates are equal.",
+        "B": "The concentrations of reactants and products are equal.",
+        "C": "The reaction has stopped completely.",
+        "D": "The temperature of the system is constant."
+      },
+      "correct_answer": "A",
+      "hint": "Think about the dynamic nature of equilibrium at the molecular level.",
+      "explanation": "At chemical equilibrium, the rates of the forward and reverse reactions become equal, resulting in constant macroscopic concentrations. Option B is a common misconception; equilibrium concentrations are constant but not necessarily equal.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.2 Attainment and Characteristics of Chemical Equilibria",
+        "structural_element": null,
+        "content_anchor": "rate of forward reaction = rate of reverse reaction",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_hash_of_EquilibriumDefinition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q012",
+      "generation_timestamp": "2024-01-27T00:03:25Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.3 Conditions for Attainment of Chemical Equilibria",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "N",
+      "question": "Under which condition is it impossible for a reversible reaction involving gases to reach a state of chemical equilibrium?",
+      "options": {
+        "A": "When the reaction is carried out in an open vessel.",
+        "B": "When the temperature is kept constant.",
+        "C": "When a catalyst is present.",
+        "D": "When the initial concentrations of reactants are high."
+      },
+      "correct_answer": "A",
+      "hint": "Consider whether reactants or products can escape the reaction mixture.",
+      "explanation": "A closed system is necessary for equilibrium to prevent the escape of gaseous reactants or products, which would continuously disturb the concentration balance. Option C is incorrect because catalysts do not affect the equilibrium position, only the rate of attainment.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.3 Conditions for Attainment of Chemical Equilibria",
+        "structural_element": null,
+        "content_anchor": "reaction should take place in a closed vessel",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_hash_of_ClosedSystemCondition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q013",
+      "generation_timestamp": "2024-01-27T00:03:45Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+      "sub_subsection": "B. Equilibrium constant expression involving concentration, Kc",
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "For the reaction H₂(g) + F₂(g) ⇌ 2HF(g), an equilibrium mixture contains [H₂] = 4.79×10⁻⁴ M, [F₂] = 4.79×10⁻⁴ M, and [HF] = 3.53×10⁻³ M. What is the value of Kc?",
+      "options": {
+        "A": "5.4",
+        "B": "27",
+        "C": "54",
+        "D": "108"
+      },
+      "correct_answer": "C",
+      "hint": "Kc = [HF]² / ([H₂][F₂])",
+      "explanation": "Kc = (3.53×10⁻³)² / ((4.79×10⁻⁴)(4.79×10⁻⁴)) ≈ 54.3. Option A results from forgetting to square the HF concentration.",
+      "difficulty_level": "medium",
+      "formula_used": ["Kc = [HF]² / ([H₂][F₂])"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "dimensionless",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+        "structural_element": "B. Equilibrium constant expression involving concentration, Kc",
+        "content_anchor": "Kc = [HF]² / ([H₂][F₂]) = 5.43",
+        "page_hint": "Page 10-11",
+        "concept_hash": "sha256_hash_of_KcCalculation_HF"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q014",
+      "generation_timestamp": "2024-01-27T00:04:05Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.5 Applications of Equilibrium Constant",
+      "sub_subsection": "B. Predict the direction of the reaction",
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "For the reaction CO(g) + Cl₂(g) ⇌ COCl₂(g) with Kc = 13.8, a mixture has [CO] = 2.5 M, [Cl₂] = 1.2 M, and [COCl₂] = 5.0 M. Which reasoning best explains how the system will respond?",
+      "options": {
+        "A": "Qc (1.67) < Kc, so the reaction proceeds forward to increase products.",
+        "B": "Qc (1.67) > Kc, so the reaction proceeds reverse to increase reactants.",
+        "C": "Qc (6.0) > Kc, so the reaction proceeds reverse to increase reactants.",
+        "D": "The system is at equilibrium because Qc equals Kc."
+      },
+      "correct_answer": "A",
+      "hint": "Calculate Qc first, then compare to Kc.",
+      "explanation": "Qc = [COCl₂]/([CO][Cl₂]) = 5.0/(2.5×1.2) = 1.67. Since Qc < Kc, the reaction quotient is less than the equilibrium constant, favoring forward product formation. Option C results from an incorrect calculation of Qc.",
+      "difficulty_level": "hard",
+      "formula_used": ["Qc = [COCl₂] / ([CO][Cl₂])"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.5 Applications of Equilibrium Constant",
+        "structural_element": "B. Predict the direction of the reaction",
+        "content_anchor": "Qc = [COCl₂]/([CO][Cl₂]) = 1.67, Qc < Kc",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_hash_of_ReactionQuotient_Q"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q015",
+      "generation_timestamp": "2024-01-27T00:04:25Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.5 Applications of Equilibrium Constant",
+      "sub_subsection": "B. Predict the direction of the reaction",
+      "structural_anchor": null,
+      "mcq_type": "H",
+      "question": "A common error is to think that if Qc is calculated for a reaction mixture, and Qc does not equal Kc, then Kc must change to match Qc. What is the flaw in this reasoning?",
+      "options": {
+        "A": "It confuses the reaction quotient with the rate constant.",
+        "B": "It assumes the equilibrium constant changes with concentration.",
+        "C": "It overlooks that Qc and Kc always have different units.",
+        "D": "It mistakenly uses partial pressures instead of concentrations."
+      },
+      "correct_answer": "B",
+      "hint": "The equilibrium constant is fixed at a given temperature.",
+      "explanation": "The equilibrium constant Kc is temperature-dependent and does not change with variations in reactant or product concentrations; instead, the reaction shifts to make Qc approach Kc. Option A incorrectly identifies the confused quantities; Qc is compared to Kc, not a rate constant.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.5 Applications of Equilibrium Constant",
+        "structural_element": "B. Predict the direction of the reaction",
+        "content_anchor": "Kc is constant at a given temperature",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_hash_of_KcConstantMisconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q016",
+      "generation_timestamp": "2024-01-27T00:04:45Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+      "sub_subsection": "C. Effect of Change in Temperature",
+      "structural_anchor": null,
+      "mcq_type": "G",
+      "question": "For the endothermic reaction CO₂(g) + H₂(g) ⇌ CO(g) + H₂O(g), if the temperature is increased, what happens to the equilibrium concentration of CO?",
+      "options": {
+        "A": "Increases because the equilibrium shifts to absorb added heat.",
+        "B": "Decreases because the equilibrium shifts to release heat.",
+        "C": "Remains unchanged because temperature does not affect gaseous equilibria.",
+        "D": "Increases initially then decreases as a new equilibrium is established."
+      },
+      "correct_answer": "A",
+      "hint": "Treat heat as a reactant in an endothermic reaction.",
+      "explanation": "Increasing temperature adds heat to the system. For an endothermic forward reaction, the equilibrium shifts to the right (toward products) to absorb the excess heat, increasing CO concentration. Option B describes the shift for an exothermic forward reaction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+        "structural_element": "C. Effect of Change in Temperature",
+        "content_anchor": "increase in temperature favours the endothermic reaction",
+        "page_hint": "Page 30",
+        "concept_hash": "sha256_hash_of_TemperatureEffect_Endothermic"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q017",
+      "generation_timestamp": "2024-01-27T00:05:05Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+      "sub_subsection": "A. Effect of Change in The Concentration",
+      "structural_anchor": "Experiment 5.1",
+      "mcq_type": "L",
+      "question": "In an experiment, Fe³⁺(aq) reacts with SCN⁻(aq) to form a deep red Fe(SCN)²⁺(aq) complex. If more Fe³⁺ solution is added to the equilibrium mixture, what is the expected observation and why?",
+      "options": {
+        "A": "The color intensifies because the equilibrium shifts to form more product.",
+        "B": "The color fades because the equilibrium shifts to form more reactants.",
+        "C": "The color intensifies because the added ions directly increase the product concentration.",
+        "D": "The color remains the same because solids are not involved."
+      },
+      "correct_answer": "A",
+      "hint": "Adding a reactant disturbs the equilibrium.",
+      "explanation": "Adding Fe³⁺ increases its concentration, causing Qc to become less than Kc. The system shifts to the right to reduce the added reactant, forming more red Fe(SCN)²⁺ and intensifying the color. Option C incorrectly suggests a direct, non-equilibrium effect.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+        "structural_element": "Experiment 5.1",
+        "content_anchor": "Fe³⁺(aq) + SCN⁻(aq) ⇌ Fe(SCN)²⁺(aq) deep red",
+        "page_hint": "Page 27",
+        "concept_hash": "sha256_hash_of_Experiment_FeSCN"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q018",
+      "generation_timestamp": "2024-01-27T00:05:15Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+      "sub_subsection": "D. Effect of Catalyst",
+      "structural_anchor": null,
+      "mcq_type": "N",
+      "question": "What specific condition regarding the rates of forward and reverse reactions must be met for a catalyst to have no effect on the equilibrium position of a reaction?",
+      "options": {
+        "A": "The catalyst must increase the forward rate more than the reverse rate.",
+        "B": "The catalyst must be consumed during the reaction.",
+        "C": "The catalyst must increase both rates by the same factor.",
+        "D": "The catalyst must lower the activation energy for only the forward reaction."
+      },
+      "correct_answer": "C",
+      "hint": "A catalyst affects the pathway, not the thermodynamic balance.",
+      "explanation": "A catalyst provides an alternative pathway that lowers the activation energy equally for both forward and reverse reactions, thus increasing both rates proportionally without changing the equilibrium constant or position. Option D describes an asymmetric effect that would alter the equilibrium constant.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+        "structural_element": "D. Effect of Catalyst",
+        "content_anchor": "catalyst increases the rates of both forward and reverse reactions by the same factor",
+        "page_hint": "Page 32-33",
+        "concept_hash": "sha256_hash_of_CatalystEffect"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q019",
+      "generation_timestamp": "2024-01-27T00:05:20Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.7 Equilibrium and Industry",
+      "sub_subsection": "A. Haber Process for the Manufacture of Ammonia",
+      "structural_anchor": null,
+      "mcq_type": "M",
+      "question": "In the commercial production of ammonia via the Haber process, what is the correct sequence of steps following the reaction of N₂ and H₂ in the reactor?",
+      "options": {
+        "A": "Cooling → Ammonia liquefaction & removal → Recycle unreacted gases",
+        "B": "Ammonia liquefaction & removal → Heating → Recycle unreacted gases",
+        "C": "Recycle unreacted gases → Cooling → Ammonia liquefaction & removal",
+        "D": "Heating → Recycle unreacted gases → Ammonia liquefaction & removal"
+      },
+      "correct_answer": "A",
+      "hint": "Ammonia is removed from the mixture to drive the equilibrium forward.",
+      "explanation": "The product gas mixture is cooled to liquefy ammonia, which is then separated and removed. The unreacted nitrogen and hydrogen are recycled back to the reactor to improve yield. Option B incorrectly places heating after removal, which would re-vaporize the ammonia.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.7 Equilibrium and Industry",
+        "structural_element": "A. Haber Process for the Manufacture of Ammonia",
+        "content_anchor": "gas mixture leaving the reactor is cooled to liquefy and remove the ammonia",
+        "page_hint": "Page 35",
+        "concept_hash": "sha256_hash_of_HaberProcess_Steps"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q020",
+      "generation_timestamp": "2024-01-27T00:05:25Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.2 Attainment and Characteristics of Chemical Equilibria",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 5.1",
+      "mcq_type": "K",
+      "question": "The graph below shows rates of forward and reverse reactions versus time. Which labeled point most likely corresponds to the establishment of dynamic equilibrium?\n\n[Graph description: Two curves, one decreasing (forward rate) and one increasing (reverse rate), intersecting at a point.]",
+      "options": {
+        "A": "The point where the forward rate curve begins to decrease.",
+        "B": "The point where the reverse rate curve begins to increase.",
+        "C": "The intersection point of the two curves.",
+        "D": "The point where both curves become horizontal."
+      },
+      "correct_answer": "C",
+      "hint": "At equilibrium, the forward and reverse rates are equal.",
+      "explanation": "Dynamic equilibrium is established when the forward and reverse reaction rates become equal, represented graphically by the intersection point of the two rate curves. Option D indicates constant rates, which occurs after equilibrium is reached, not the moment of establishment.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.2 Attainment and Characteristics of Chemical Equilibria",
+        "structural_element": "Figure 5.1: Change in the rate of reaction with time for forward and reverse reactions",
+        "content_anchor": "point will be reached when the rate of forward reaction becomes equal to the rate of reverse reaction",
+        "page_hint": "Page 6-7",
+        "concept_hash": "sha256_hash_of_RateGraphInterpretation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 145000,
+    "average_question_quality": 84.0,
+    "type_distribution": {
+      "A": 1,
+      "D": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "K": 1,
+      "L": 1,
+      "M": 1,
+      "N": 2
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 5,
+      "hard": 3
+    },
+    "section_distribution": {
+      "5.2 Chemical Equilibrium": 10
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

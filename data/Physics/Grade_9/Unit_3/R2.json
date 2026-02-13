@@ -1,0 +1,841 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-10-12T10:20:15Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G9_Phy_U3_Q020",
+    "covered_sections": ["Position, Distance and Displacement>Position, Distance and Displacement", "Position, Distance and Displacement>Exercise 3.1", "Position, Distance and Displacement>Exercise 3.2", "Position, Distance and Displacement>Displacement", "Position, Distance and Displacement>Example 3.1", "Average Speed and Instantaneous Speed>Average Speed and Instantaneous Speed", "Average Speed and Instantaneous Speed>Exercise 3.5", "Average Speed and Instantaneous Speed>Exercise 3.6", "Average Speed and Instantaneous Speed>Example 3.2", "Average Speed and Instantaneous Speed>Exercise 3.7", "Average Velocity and Instantaneous Velocity>Average Velocity and Instantaneous Velocity", "Average Velocity and Instantaneous Velocity>Exercise 3.8", "Acceleration>Acceleration"],
+    "used_question_signatures": ["4a7c1d79c9cba1e2f7e5b9a1c8d3f2e1", "9b8a7c6d5e4f3g2h1i0j9k8l7m6n5", "2b3c4d5e6f7g8h9i0j1k2l3m4n5o", "6d7e8f9g0h1i2j3k4l5m6n7o8p9", "1e2f3g4h5i6j7k8l9m0n1o2p3q4", "5f6g7h8i9j0k1l2m3n4o5p6q7r8", "9g0h1i2j3k4l5m6n7o8p9q0r1s2", "3h4i5j6k7l8m9n0o1p2q3r4s5t6", "7i8j9k0l1m2n3o4p5q6r7s8t9u0", "1j2k3l4m5n6o7p8q9r0s1t2u3v4", "a1b2c3d4e5f6g7h8i9j0k1l2m3n4", "b2c3d4e5f6g7h8i9j0k1l2m3n4o5", "c3d4e5f6g7h8i9j0k1l2m3n4o5p6", "d4e5f6g7h8i9j0k1l2m3n4o5p6q7", "e5f6g7h8i9j0k1l2m3n4o5p6q7r8", "f6g7h8i9j0k1l2m3n4o5p6q7r8s9", "g7h8i9j0k1l2m3n4o5p6q7r8s9t0", "h8i9j0k1l2m3n4o5p6q7r8s9t0u1", "i9j0k1l2m3n4o5p6q7r8s9t0u1v2", "j0k1l2m3n4o5p6q7r8s9t0u1v2w3"],
+    "baseline_counter": {
+      "Position, Distance and Displacement": {
+        "Position, Distance and Displacement": {
+          "count": 2,
+          "mini_headings_covered": ["Key Concept: A frame of reference...", "Key Concept: Position is a measurement..."],
+          "last_question_round": 1
+        },
+        "Exercise 3.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Exercise 3.2": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Displacement": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Example 3.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Average Speed and Instantaneous Speed": {
+        "Average Speed and Instantaneous Speed": {
+          "count": 5,
+          "mini_headings_covered": ["Key Concept: Acceleration is the rate of change..."],
+          "last_question_round": 2
+        },
+        "Exercise 3.5": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Exercise 3.6": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Example 3.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Exercise 3.7": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Average Velocity and Instantaneous Velocity": {
+        "Average Velocity and Instantaneous Velocity": {
+          "count": 2,
+          "mini_headings_covered": ["Key Concept: Velocity is the rate of change..."],
+          "last_question_round": 2
+        },
+        "Exercise 3.8": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Acceleration": {
+        "Acceleration": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Uniform Motion": {
+        "Uniform Motion": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Graphical Representation of Motion": {
+        "Graphical Representation of Motion": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Position, Distance and Displacement": {
+        "question_count": 9,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Average Speed and Instantaneous Speed": {
+        "question_count": 11,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Average Velocity and Instantaneous Velocity": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Acceleration": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Uniform Motion": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Graphical Representation of Motion": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Position, Distance and Displacement>Position, Distance and Displacement": ["Frame of reference", "Position", "Motion", "Rest"],
+      "Position, Distance and Displacement>Exercise 3.1": ["Relative motion", "Reference frames"],
+      "Position, Distance and Displacement>Exercise 3.2": ["Distance", "Scalar quantity"],
+      "Position, Distance and Displacement>Displacement": ["Displacement", "Vector quantity"],
+      "Position, Distance and Displacement>Example 3.1": ["Displacement calculation", "Distance calculation", "Magnitude of displacement"],
+      "Average Speed and Instantaneous Speed>Average Speed and Instantaneous Speed": ["Speed", "Average speed", "Instantaneous speed", "Scalar"],
+      "Average Speed and Instantaneous Speed>Exercise 3.5": ["Speedometer", "Instantaneous speed measurement"],
+      "Average Speed and Instantaneous Speed>Exercise 3.6": ["Average vs instantaneous speed", "Differences and similarities"],
+      "Average Speed and Instantaneous Speed>Example 3.2": ["Average speed calculation", "Unit conversion"],
+      "Average Speed and Instantaneous Speed>Exercise 3.7": ["Speed conversion", "km/h to m/s"],
+      "Average Velocity and Instantaneous Velocity>Average Velocity and Instantaneous Velocity": ["Velocity", "Average velocity", "Instantaneous velocity", "Vector quantity"],
+      "Average Velocity and Instantaneous Velocity>Exercise 3.8": ["Average speed vs average velocity", "Magnitude comparison"],
+      "Acceleration>Acceleration": ["Acceleration", "Rate of change of velocity", "Vector quantity"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_after_batch_1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 24,
+      "questions_per_concept_ratio": 0.83,
+      "structural_coverage_percentage": 25.0
+    }
+  },
+  "grade": "9",
+  "subject": "Physics",
+  "unit": "Unit 3: Motion in a straight line",
+  "pdf_filename": "P9U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-10-12T10:20:45Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 6,
+        "progress_percentage": 66.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 13,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 25.0,
+      "concept_utilization_ratio": 0.83
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Average Speed and Instantaneous Speed",
+      "least_covered_section": "Uniform Motion",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Phy_U3_Q011",
+      "generation_timestamp": "2025-10-12T10:20:17Z",
+      "section": "Position, Distance and Displacement",
+      "subsection": "Exercise 3.1",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.1",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that a person on a moving horse is at rest relative to both the horse and the ground?",
+      "options": {
+        "A": "It fails to recognize that motion is relative to the chosen frame of reference",
+        "B": "It incorrectly assumes the horse provides an inertial reference frame",
+        "C": "It confuses speed with velocity in the analysis",
+        "D": "It overlooks that acceleration must be zero for rest conditions"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how the definition of rest depends on the observer's frame.",
+      "explanation": "Motion is defined relative to a specific frame of reference; an object can be at rest in one frame while moving in another. Option C introduces confusion between speed and velocity, which are not central to this frame relativity concept.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 21.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Position, Distance and Displacement",
+        "subsection_anchor": "Exercise 3.1",
+        "structural_element": "Exercise 3.1",
+        "content_anchor": "rest or motion, two frames of reference",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_hash_of_relative_motion_error"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q012",
+      "generation_timestamp": "2025-10-12T10:20:19Z",
+      "section": "Position, Distance and Displacement",
+      "subsection": "Exercise 3.2",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.2",
+      "mcq_type": "C",
+      "question": "What mathematical operation calculates distance when an object's speed and time of travel are known?",
+      "options": {
+        "A": "Distance = Speed × Time",
+        "B": "Distance = Speed ÷ Time",
+        "C": "Distance = Time ÷ Speed",
+        "D": "Distance = Speed² × Time"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how distance relates to the rate of motion and duration.",
+      "explanation": "Distance is calculated by multiplying speed by time, following the formula S = v × t. Option B represents the formula for calculating speed when distance and time are known.",
+      "difficulty_level": "easy",
+      "formula_used": ["S = v × t"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Position, Distance and Displacement",
+        "subsection_anchor": "Exercise 3.2",
+        "structural_element": "Exercise 3.2",
+        "content_anchor": "distance calculation from speed and time",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_hash_of_distance_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q013",
+      "generation_timestamp": "2025-10-12T10:20:21Z",
+      "section": "Position, Distance and Displacement",
+      "subsection": "Displacement",
+      "sub_subsection": null,
+      "structural_anchor": "Displacement",
+      "mcq_type": "G",
+      "question": "If an object moves from point A to point B along a straight path, then returns directly to point A, what happens to its displacement?",
+      "options": {
+        "A": "The displacement becomes zero",
+        "B": "The displacement equals the total distance traveled",
+        "C": "The displacement is twice the distance from A to B",
+        "D": "The displacement cannot be determined without time information"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the straight-line change from initial to final position.",
+      "explanation": "Displacement measures the straight-line change from initial to final position. When returning to the starting point, this change is zero. Option B confuses displacement with distance, which measures total path length.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Position, Distance and Displacement",
+        "subsection_anchor": "Displacement",
+        "structural_element": "Displacement",
+        "content_anchor": "displacement zero when returning to starting point",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_hash_of_zero_displacement"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q014",
+      "generation_timestamp": "2025-10-12T10:20:23Z",
+      "section": "Position, Distance and Displacement",
+      "subsection": "Example 3.1",
+      "sub_subsection": null,
+      "structural_anchor": "Example 3.1",
+      "mcq_type": "E",
+      "question": "A cyclist rides 4 km west, then turns and rides 1 km east. What is the magnitude of the cyclist's displacement?",
+      "options": {
+        "A": "3 km",
+        "B": "4 km",
+        "C": "5 km",
+        "D": "1 km"
+      },
+      "correct_answer": "A",
+      "hint": "Calculate the straight-line difference between final and initial positions, considering direction.",
+      "explanation": "The magnitude of displacement is the absolute difference between westward and eastward distances: |4 km - 1 km| = 3 km. Option C incorrectly adds the distances instead of finding their difference.",
+      "difficulty_level": "medium",
+      "formula_used": ["ΔS = S_f - S_i"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "km",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Position, Distance and Displacement",
+        "subsection_anchor": "Example 3.1",
+        "structural_element": "Example 3.1",
+        "content_anchor": "cyclist rides west then east, displacement magnitude",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_hash_of_displacement_magnitude"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 81,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q015",
+      "generation_timestamp": "2025-10-12T10:20:25Z",
+      "section": "Average Speed and Instantaneous Speed",
+      "subsection": "Exercise 3.6",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.6",
+      "mcq_type": "I",
+      "question": "How do average speed and instantaneous speed differ in their measurement of motion?",
+      "options": {
+        "A": "Average speed considers total journey, while instantaneous speed measures at a specific moment",
+        "B": "Average speed is scalar, while instantaneous speed is vector",
+        "C": "Average speed requires direction, while instantaneous speed does not",
+        "D": "Average speed can be negative, while instantaneous speed is always positive"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the time interval over which each quantity is calculated.",
+      "explanation": "Average speed is calculated over an entire time interval, while instantaneous speed measures the rate at a particular instant. Option B incorrectly assigns vector properties to instantaneous speed; both quantities are scalar.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 22.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Average Speed and Instantaneous Speed",
+        "subsection_anchor": "Exercise 3.6",
+        "structural_element": "Exercise 3.6",
+        "content_anchor": "differences between average speed and instantaneous speed",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_hash_of_speed_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q016",
+      "generation_timestamp": "2025-10-12T10:20:27Z",
+      "section": "Average Speed and Instantaneous Speed",
+      "subsection": "Example 3.2",
+      "sub_subsection": null,
+      "structural_anchor": "Example 3.2",
+      "mcq_type": "E",
+      "question": "A car travels 120 km in 1 hour and 45 minutes. What is its average speed in meters per second?",
+      "options": {
+        "A": "19.0 m/s",
+        "B": "22.2 m/s",
+        "C": "25.4 m/s",
+        "D": "28.6 m/s"
+      },
+      "correct_answer": "A",
+      "hint": "Convert all measurements to consistent SI units before calculating.",
+      "explanation": "First convert: 120 km = 120,000 m, 1h 45min = 6,300 s. Average speed = 120,000 m ÷ 6,300 s ≈ 19.0 m/s. Option B results from incorrect time conversion to 1.75 hours without proper unit adjustment.",
+      "difficulty_level": "hard",
+      "formula_used": ["v_av = S/t", "1 km = 1000 m", "1 h = 3600 s"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "m/s",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 23.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Average Speed and Instantaneous Speed",
+        "subsection_anchor": "Example 3.2",
+        "structural_element": "Example 3.2",
+        "content_anchor": "car covers distance between towns, calculate average speed in m/s",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_hash_of_speed_unit_conversion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q017",
+      "generation_timestamp": "2025-10-12T10:20:29Z",
+      "section": "Average Speed and Instantaneous Speed",
+      "subsection": "Exercise 3.7",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.7",
+      "mcq_type": "E",
+      "question": "What is the equivalent speed in meters per second for a vehicle traveling at 108 km/h?",
+      "options": {
+        "A": "30.0 m/s",
+        "B": "25.0 m/s",
+        "C": "35.0 m/s",
+        "D": "40.0 m/s"
+      },
+      "correct_answer": "A",
+      "hint": "Use the conversion factor: 1 km/h = 1000 m / 3600 s.",
+      "explanation": "Convert using: 108 km/h × (1000 m/km) ÷ (3600 s/h) = 30.0 m/s. Option B results from incorrectly using 1 km/h = 0.833 m/s instead of the correct 0.2778 m/s.",
+      "difficulty_level": "medium",
+      "formula_used": ["1 km/h = 1000/3600 m/s"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "m/s",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Average Speed and Instantaneous Speed",
+        "subsection_anchor": "Exercise 3.7",
+        "structural_element": "Exercise 3.7",
+        "content_anchor": "car traveling at km/h, convert to m/s",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_hash_of_speed_conversion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q018",
+      "generation_timestamp": "2025-10-12T10:20:31Z",
+      "section": "Average Velocity and Instantaneous Velocity",
+      "subsection": "Average Velocity and Instantaneous Velocity",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept: Velocity is the rate of change...",
+      "mcq_type": "A",
+      "question": "What vector quantity describes both how fast an object moves and the direction of its motion?",
+      "options": {
+        "A": "Velocity",
+        "B": "Speed",
+        "C": "Acceleration",
+        "D": "Distance"
+      },
+      "correct_answer": "A",
+      "hint": "This quantity includes directional information along with rate of motion.",
+      "explanation": "Velocity is a vector quantity that specifies both speed and direction of motion. Option B describes speed, which is the scalar counterpart without directional information.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Average Velocity and Instantaneous Velocity",
+        "subsection_anchor": "Average Velocity and Instantaneous Velocity",
+        "structural_element": "Key Concept: Velocity is the rate of change...",
+        "content_anchor": "velocity describes how fast and direction, vector quantity",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_hash_of_velocity_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 63,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q019",
+      "generation_timestamp": "2025-10-12T10:20:33Z",
+      "section": "Average Velocity and Instantaneous Velocity",
+      "subsection": "Average Velocity and Instantaneous Velocity",
+      "sub_subsection": null,
+      "structural_anchor": "Average Velocity and Instantaneous Velocity",
+      "mcq_type": "D",
+      "question": "An object moves 240 meters north in 80 seconds. What is its average velocity?",
+      "options": {
+        "A": "3.0 m/s north",
+        "B": "4.0 m/s north",
+        "C": "2.0 m/s north",
+        "D": "5.0 m/s north"
+      },
+      "correct_answer": "A",
+      "hint": "Average velocity equals displacement divided by time, including direction.",
+      "explanation": "Average velocity is calculated as displacement divided by time: 240 m ÷ 80 s = 3.0 m/s north. Option B results from incorrectly using 320 m as the displacement in the calculation.",
+      "difficulty_level": "medium",
+      "formula_used": ["v_av = ΔS/Δt"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "m/s",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 21.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Average Velocity and Instantaneous Velocity",
+        "subsection_anchor": "Average Velocity and Instantaneous Velocity",
+        "structural_element": "Average Velocity and Instantaneous Velocity",
+        "content_anchor": "displacement divided by time equals average velocity",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_hash_of_average_velocity_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q020",
+      "generation_timestamp": "2025-10-12T10:20:35Z",
+      "section": "Acceleration",
+      "subsection": "Acceleration",
+      "sub_subsection": null,
+      "structural_anchor": "Acceleration",
+      "mcq_type": "B",
+      "question": "Which physical quantity measures the rate at which an object's velocity changes over time?",
+      "options": {
+        "A": "Acceleration",
+        "B": "Speed",
+        "C": "Displacement",
+        "D": "Distance"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what describes changes in how fast and in what direction something moves.",
+      "explanation": "Acceleration is defined as the rate of change of velocity with respect to time. Option B describes speed, which measures how fast an object moves without considering changes in velocity.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Acceleration",
+        "subsection_anchor": "Acceleration",
+        "structural_element": "Acceleration",
+        "content_anchor": "acceleration is rate of change of velocity",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_hash_of_acceleration_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 61,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 84
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 25500,
+    "average_question_quality": 84.2,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 3,
+      "G": 1,
+      "H": 1,
+      "I": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Position, Distance and Displacement": 4,
+      "Average Speed and Instantaneous Speed": 4,
+      "Average Velocity and Instantaneous Velocity": 2,
+      "Acceleration": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,816 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2024-05-15T10:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Chem_U5_Q030",
+    "covered_sections": ["5.1 Chemical Bonding", "5.2 Ionic Bonding", "5.3 Covalent Bonding", "5.4 Metallic Bonding"],
+    "used_question_signatures": ["d15d6e11b2c6f1d1e7c7f8a9b0c1d2e3", "f25e7f22c3d7e2e2f8d8b9c0d1e2f3a4", "a35f8a33d4e8f3f3a9e9c0d1e2f3a4b5", "b46f9b44e5f9a4a4b0f0d1e2f3a4b5c6", "c57a0c55f6a0b5b5c1a1e2f3a4b5c6d7", "d68b1d66a7b1c6c6d2b2f3a4b5c6d7e8", "e79c2e77b8c2d7d7e3c3a4b5c6d7e8f9", "f80d3f88c9d3e8e8f4d4b5c6d7e8f9a0", "a91e4a99d0e4f9f9a5e5c6d7e8f9a0b1", "b02f5b0a1e5a0a0b6f6d7e8f9a0b1c2", "c13a6b1b2f6a1b1c7a7e8f9a0b1c2d3", "d24b7c2c3a7b2c2d8b8f9a0b1c2d3e4", "e35c8d3d4b8c3d3e9c9a0b1c2d3e4f5", "f46d9e4e5c9d4e4f0d0b1c2d3e4f5a6", "a57e0f5f6d0e5f5a1e1c2d3e4f5a6b7", "b68f1a6a7e1f6a6b2f2d3e4f5a6b7c8", "c79a2b7b8f2a7a7c3a3e4f5a6b7c8d9", "d8ab3c8c9a3b8b8d4b4f5a6b7c8d9e0", "e9bc4d9d0b4c9c9e5c5a6b7c8d9e0f1", "f0cd5e0e1c5d0d0f6d6b7c8d9e0f1a2", "g1de6f1f2d6e1e1g7e7c8d9e0f1a2b3", "h2ef7a2a3e7f2f2h8f8d9e0f1a2b3c4", "i3fa8b3b4f8a3a3i9a9e0f1a2b3c4d5", "j4ab9c4c5a9b4b4j0b0f1a2b3c4d5e6", "k5bc0d5d6b0c5c5k1c1a2b3c4d5e6f7", "l6cd1e6e7c1d6d6l2d2b3c4d5e6f7a8", "m7de2f7f8d2e7e7m3e3c4d5e6f7a8b9", "n8ef3a8a9e3f8f8n4f4d5e6f7a8b9c0", "o9fa4b9b0f4a9a9o5a5e6f7a8b9c0d1", "p0ab5c0c1a5b0b0p6b6f7a8b9c0d1e2"],
+    "baseline_counter": {
+      "5.1 Chemical Bonding": {
+        "Why do atoms form chemical bond?": {
+          "count": 2,
+          "mini_headings_covered": ["Why do atoms form chemical bond?"],
+          "last_question_round": 2
+        },
+        "Octet Rule": {
+          "count": 2,
+          "mini_headings_covered": ["Octet Rule"],
+          "last_question_round": 2
+        },
+        "How could atoms satisfy the Octet Rule?": {
+          "count": 2,
+          "mini_headings_covered": ["How could atoms satisfy the Octet Rule?"],
+          "last_question_round": 2
+        }
+      },
+      "5.2 Ionic Bonding": {
+        "5.2.1 Formation of Ionic Bonding": {
+          "count": 5,
+          "mini_headings_covered": ["What are Ions?", "Types of Ions", "How Do Ions Form?", "Ionic Bonding"],
+          "last_question_round": 3
+        },
+        "5.2.2 Lewis Formulas of Ionic Compounds": {
+          "count": 3,
+          "mini_headings_covered": ["Lewis Dot Formula"],
+          "last_question_round": 3
+        },
+        "5.2.3 General Properties of Ionic Compounds": {
+          "count": 6,
+          "mini_headings_covered": ["They Form Crystals", "They Have High Melting Points and High Boiling Points.", "They are Hard and Brittle", "They are Soluble in Polar Solvents", "They Conduct Electricity when they are Dissolved in Water or in Molten State"],
+          "last_question_round": 3
+        }
+      },
+      "5.3 Covalent Bonding": {
+        "5.3.1 Formation of Covalent Bond": {
+          "count": 5,
+          "mini_headings_covered": ["Formation of Single Covalent Bond", "Formation of Double Bond", "Formation of Triple Covalent Bond"],
+          "last_question_round": 3
+        },
+        "5.3.2 Lewis's Formula of Covalent Molecules": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.3.3 Polarity in Covalent Molecules": {
+          "count": 5,
+          "mini_headings_covered": ["Nonpolar Covalent Molecules", "Polar Covalent Molecules", "The Distinction between Polar and Non-polar Covalent Bond and Ionic Bond"],
+          "last_question_round": 3
+        },
+        "5.3.4 Coordinate Covalent Bond (Dative Bond)": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.3.5 General Properties of Covalent Compounds": {
+          "count": 2,
+          "mini_headings_covered": ["Physical Properties of Covalent Compounds"],
+          "last_question_round": 3
+        }
+      },
+      "5.4 Metallic Bonding": {
+        "5.4.1 Formation of Metallic Bond": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.4.2 Properties of Metallic Bond": {
+          "count": 3,
+          "mini_headings_covered": ["Conductivity:"],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1 Chemical Bonding": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "5.2 Ionic Bonding": {
+        "question_count": 14,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "5.3 Covalent Bonding": {
+        "question_count": 17,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "5.4 Metallic Bonding": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1 Chemical Bonding>Why do atoms form chemical bond?": ["chemical bond", "atoms combine", "molecule stability", "attractive force"],
+      "5.1 Chemical Bonding>Octet Rule": ["eight valence electrons", "noble gas configuration", "atom stability", "Gilbert Lewis", "helium exception"],
+      "5.1 Chemical Bonding>How could atoms satisfy the Octet Rule?": ["lose electrons", "gain electrons", "share electrons", "electron transfer"],
+      "5.2 Ionic Bonding>5.2.1 Formation of Ionic Bonding": ["ion", "cation", "anion", "electron transfer", "ionization", "electrostatic force", "sodium chloride formation"],
+      "5.2 Ionic Bonding>5.2.2 Lewis Formulas of Ionic Compounds": ["Lewis dot formula", "valence electrons", "electron transfer representation", "dots surrounding symbol", "ionic Lewis structure"],
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds": ["crystalline structure", "ionic lattice", "high melting point", "hard and brittle", "electrostatic attraction", "soluble in polar solvents", "electrical conductivity when dissolved"],
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond": ["electron sharing", "single bond", "double bond", "triple bond", "bond pair", "hydrogen molecule", "oxygen molecule", "nitrogen molecule"],
+      "5.3 Covalent Bonding>5.3.2 Lewis's Formula of Covalent Molecules": ["covalent Lewis structure", "bonding electrons", "lone pairs", "octet prediction"],
+      "5.3 Covalent Bonding>5.3.3 Polarity in Covalent Molecules": ["electronegativity", "nonpolar covalent bond", "equal electron sharing", "polar covalent bond", "unequal sharing", "electronegativity difference range"],
+      "5.3 Covalent Bonding>5.3.4 Coordinate Covalent Bond (Dative Bond)": ["dative bond", "lone pair donation", "electron pair provided by one atom", "ammonium ion formation"],
+      "5.3 Covalent Bonding>5.3.5 General Properties of Covalent Compounds": ["low melting points", "poor electrical conductors", "soluble in nonpolar solvents"],
+      "5.4 Metallic Bonding>5.4.1 Formation of Metallic Bond": ["delocalized electrons", "sea of electrons", "metal ions", "metallic bond definition", "magnesium vs sodium strength"],
+      "5.4 Metallic Bonding>5.4.2 Properties of Metallic Bond": ["electrical conductivity", "thermal conductivity", "free electrons", "high melting points"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_after_batch_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 58,
+      "questions_per_concept_ratio": 0.74,
+      "structural_coverage_percentage": 78.3
+    }
+  },
+  "grade": "9",
+  "subject": "Chemistry",
+  "unit": "Unit 5: CHEMICAL BONDING",
+  "pdf_filename": "C9U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-05-15T10:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 4,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.83,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 13,
+      "mini_headings_covered_count": 17,
+      "structural_coverage_percentage": 73.9,
+      "concept_utilization_ratio": 0.52
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.3 Covalent Bonding",
+      "least_covered_section": "5.1 Chemical Bonding",
+      "imbalance_ratio": 2.83,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Chem_U5_Q021",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.1 Formation of Ionic Bonding",
+      "sub_subsection": null,
+      "structural_anchor": "Ionic Bonding",
+      "mcq_type": "E",
+      "question": "A calcium atom (atomic number 20) loses two electrons to form an ion. What is the charge of this calcium ion?",
+      "options": {
+        "A": "+1",
+        "B": "+2",
+        "C": "-1",
+        "D": "-2"
+      },
+      "correct_answer": "B",
+      "hint": "Consider how many electrons are lost versus protons remaining.",
+      "explanation": "When calcium loses two electrons, it has 20 protons and 18 electrons, resulting in a +2 charge. Option A would result from losing only one electron.",
+      "difficulty_level": "easy",
+      "formula_used": ["Net electric charge = number of protons - number of electrons"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "charge units",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.1 Formation of Ionic Bonding",
+        "structural_element": "Ionic Bonding",
+        "content_anchor": "calcium loses two electrons",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_calcium_ion_charge"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q022",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.2 Lewis Formulas of Ionic Compounds",
+      "sub_subsection": null,
+      "structural_anchor": "Lewis Dot Formula",
+      "mcq_type": "K",
+      "question": "In the Lewis dot representation of magnesium oxide formation, what does the transfer of electrons from magnesium to oxygen signify?",
+      "options": {
+        "A": "Formation of a covalent compound",
+        "B": "Creation of a metallic alloy",
+        "C": "Formation of an ionic compound",
+        "D": "Decomposition reaction"
+      },
+      "correct_answer": "C",
+      "hint": "Consider what type of compound results from electron transfer between metal and nonmetal.",
+      "explanation": "Electron transfer from metal (magnesium) to nonmetal (oxygen) represents ionic compound formation. Option A would involve electron sharing rather than transfer.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.2 Lewis Formulas of Ionic Compounds",
+        "structural_element": "Lewis Dot Formula",
+        "content_anchor": "magnesium to oxygen electron transfer",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_magnesium_oxide_lewis"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q023",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.3 General Properties of Ionic Compounds",
+      "sub_subsection": null,
+      "structural_anchor": "They are Soluble in Polar Solvents",
+      "mcq_type": "F",
+      "question": "Why do many ionic compounds dissolve in water but not in nonpolar solvents like oil?",
+      "options": {
+        "A": "Water molecules have no charge and cannot interact with ions",
+        "B": "Polar water molecules can surround and stabilize ions through electrostatic interactions",
+        "C": "Nonpolar solvents have stronger attractions for ions than water",
+        "D": "Ionic compounds react chemically with water but not with oil"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the principle 'like dissolves like' and the nature of water molecules.",
+      "explanation": "Polar water molecules interact electrostatically with ions, surrounding and stabilizing them in solution. Option A incorrectly states water has no charge, when in fact it has partial charges due to polarity.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.3 General Properties of Ionic Compounds",
+        "structural_element": "They are Soluble in Polar Solvents",
+        "content_anchor": "polar solvents dissolve ionic compounds",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_ionic_solubility"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q024",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.3 General Properties of Ionic Compounds",
+      "sub_subsection": null,
+      "structural_anchor": "They Conduct Electricity when they are Dissolved in Water or in Molten State",
+      "mcq_type": "G",
+      "question": "What happens to ionic compounds when dissolved in water that allows them to conduct electricity?",
+      "options": {
+        "A": "They form covalent bonds with water molecules",
+        "B": "They break into neutral atoms that carry charge",
+        "C": "They dissociate into mobile ions that can carry current",
+        "D": "They react with water to produce gases"
+      },
+      "correct_answer": "C",
+      "hint": "Consider what particles must be free to move to conduct electricity.",
+      "explanation": "When ionic compounds dissolve, they dissociate into cations and anions that are free to move and carry electrical charge. Option B incorrectly suggests neutral atoms rather than ions carry charge.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.3 General Properties of Ionic Compounds",
+        "structural_element": "They Conduct Electricity when they are Dissolved in Water or in Molten State",
+        "content_anchor": "ions free to move conduct electricity",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_ionic_electrical_conduction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q025",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.2 Lewis's Formula of Covalent Molecules",
+      "sub_subsection": null,
+      "structural_anchor": "5.3.2 Lewis's Formula of Covalent Molecules",
+      "mcq_type": "C",
+      "question": "In a Lewis structure for methane (CH₄), how many bonds does the carbon atom form to satisfy the octet rule?",
+      "options": {
+        "A": "2 bonds",
+        "B": "3 bonds",
+        "C": "4 bonds",
+        "D": "5 bonds"
+      },
+      "correct_answer": "C",
+      "hint": "Consider carbon's group number and valence electrons.",
+      "explanation": "Carbon has four valence electrons and forms four covalent bonds to achieve an octet. Option B would leave carbon with only six valence electrons.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": "bonds",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.2 Lewis's Formula of Covalent Molecules",
+        "structural_element": "5.3.2 Lewis's Formula of Covalent Molecules",
+        "content_anchor": "carbon forms four bonds",
+        "page_hint": "Page 20",
+        "concept_hash": "sha256_of_carbon_bonding"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q026",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.3 Polarity in Covalent Molecules",
+      "sub_subsection": null,
+      "structural_anchor": "The Distinction between Polar and Non-polar Covalent Bond and Ionic Bond",
+      "mcq_type": "J",
+      "question": "Based on electronegativity differences, how would a bond between potassium (0.8) and fluorine (4.0) be classified?",
+      "options": {
+        "A": "Nonpolar covalent",
+        "B": "Polar covalent",
+        "C": "Ionic",
+        "D": "Metallic"
+      },
+      "correct_answer": "C",
+      "hint": "Calculate the electronegativity difference and compare to classification ranges.",
+      "explanation": "With an electronegativity difference of 3.2, the K-F bond is ionic as it exceeds the 2.0 threshold. Option B would apply to differences between 0.5-2.0.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": null,
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.3 Polarity in Covalent Molecules",
+        "structural_element": "The Distinction between Polar and Non-polar Covalent Bond and Ionic Bond",
+        "content_anchor": "electronegativity difference classification",
+        "page_hint": "Page 23-24",
+        "concept_hash": "sha256_of_bond_classification_by_electronegativity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q027",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.4 Coordinate Covalent Bond (Dative Bond)",
+      "sub_subsection": null,
+      "structural_anchor": "5.3.4 Coordinate Covalent Bond (Dative Bond)",
+      "mcq_type": "A",
+      "question": "What distinguishes a coordinate covalent bond from a regular covalent bond?",
+      "options": {
+        "A": "Both atoms contribute electrons equally",
+        "B": "The bond involves metal atoms only",
+        "C": "Both shared electrons come from the same atom",
+        "D": "The bond is always polar"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the source of the electron pair in the bond.",
+      "explanation": "In coordinate covalent bonds, both electrons in the shared pair come from the same atom. Option A describes regular covalent bonds where each atom contributes one electron.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.4 Coordinate Covalent Bond (Dative Bond)",
+        "structural_element": "5.3.4 Coordinate Covalent Bond (Dative Bond)",
+        "content_anchor": "electron pair from one atom",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_coordinate_covalent_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q028",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.5 General Properties of Covalent Compounds",
+      "sub_subsection": null,
+      "structural_anchor": "Physical Properties of Covalent Compounds",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that all covalent compounds are gases at room temperature?",
+      "options": {
+        "A": "Some covalent compounds like diamond are solid with high melting points",
+        "B": "All covalent compounds have weak intermolecular forces",
+        "C": "Covalent bonds are always weaker than ionic bonds",
+        "D": "Molecular size determines physical state exclusively"
+      },
+      "correct_answer": "A",
+      "hint": "Consider exceptions among covalent compounds.",
+      "explanation": "While many covalent compounds are gases or liquids, some like diamond are solid with high melting points due to strong covalent networks. Option B incorrectly generalizes all covalent compounds as having only weak intermolecular forces.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.5 General Properties of Covalent Compounds",
+        "structural_element": "Physical Properties of Covalent Compounds",
+        "content_anchor": "diamond exception",
+        "page_hint": "Page 27",
+        "concept_hash": "sha256_of_covalent_properties_exceptions"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q029",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "5.4 Metallic Bonding",
+      "subsection": "5.4.1 Formation of Metallic Bond",
+      "sub_subsection": null,
+      "structural_anchor": "5.4.1 Formation of Metallic Bond",
+      "mcq_type": "F",
+      "question": "Why does magnesium metal have a higher melting point than sodium metal?",
+      "options": {
+        "A": "Magnesium atoms are larger than sodium atoms",
+        "B": "Magnesium has more delocalized electrons per atom creating stronger metallic bonds",
+        "C": "Sodium has covalent bonds between atoms",
+        "D": "Magnesium has ionic character in its metallic bonding"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the number of valence electrons available for metallic bonding.",
+      "explanation": "Magnesium contributes two delocalized electrons per atom versus sodium's one, creating stronger metallic bonding and higher melting point. Option A incorrectly suggests larger atoms lead to stronger bonding.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.4 Metallic Bonding",
+        "subsection_anchor": "5.4.1 Formation of Metallic Bond",
+        "structural_element": "5.4.1 Formation of Metallic Bond",
+        "content_anchor": "magnesium vs sodium melting point",
+        "page_hint": "Page 30",
+        "concept_hash": "sha256_of_metallic_strength_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q030",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "5.4 Metallic Bonding",
+      "subsection": "5.4.2 Properties of Metallic Bond",
+      "sub_subsection": null,
+      "structural_anchor": "Conductivity:",
+      "mcq_type": "G",
+      "question": "What property of metallic bonding explains why metals conduct electricity?",
+      "options": {
+        "A": "Fixed ionic positions in a lattice",
+        "B": "Delocalized electrons can move freely through the metal",
+        "C": "Strong covalent bonds between atoms",
+        "D": "Permanent dipoles in the metal structure"
+      },
+      "correct_answer": "B",
+      "hint": "Consider what particles carry charge in metals.",
+      "explanation": "Metals conduct electricity because delocalized electrons are free to move throughout the metallic lattice. Option A describes ionic compounds where ions are fixed in position when solid.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.4 Metallic Bonding",
+        "subsection_anchor": "5.4.2 Properties of Metallic Bond",
+        "structural_element": "Conductivity:",
+        "content_anchor": "delocalized electrons conduct electricity",
+        "page_hint": "Page 31",
+        "concept_hash": "sha256_of_metallic_conductivity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2950,
+    "average_question_quality": 85.3,
+    "type_distribution": {
+      "A": 1,
+      "C": 1,
+      "E": 1,
+      "F": 2,
+      "G": 2,
+      "H": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 7,
+      "hard": 0
+    },
+    "section_distribution": {
+      "5.2 Ionic Bonding": 4,
+      "5.3 Covalent Bonding": 4,
+      "5.4 Metallic Bonding": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,792 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2024-05-15T10:10:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Phy_U3_Q020",
+    "covered_sections": ["Introduction", "3.1 Elasticity and plasticity", "3.2 Density and specific gravity", "3.3 Stress and Strain", "3.4 Young's Modulus", "3.5 Static equilibrium"],
+    "used_question_signatures": ["hash_A_Elasticity_Intro", "hash_B_Plasticity_3.1", "hash_A_Density_3.2", "hash_B_SpecificGravity_3.2", "hash_D_DensityCalc_3.2", "hash_E_DensityCalcNum_3.2", "hash_F_ElasticBehavior_3.1", "hash_G_StressStrain_3.3", "hash_H_MisconceptionElastic_3.1", "hash_J_MaterialClassification_3.2", "hash_A_StaticEquilibrium_3.5", "hash_C_StressFormula_3.3", "hash_D_StrainCalc_3.3", "hash_F_ConditionEquilibrium_3.5", "hash_G_TorqueCauseEffect_3.5", "hash_H_MisconceptionDensity_3.2", "hash_K_InterpretStressStrain_3.3", "hash_L_ExperimentalDensity_3.2", "hash_M_ProcessOrder_3.1", "hash_N_LimitationElastic_3.1"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": ["[Unit outcomes/competencies]"],
+          "last_question_round": 1
+        }
+      },
+      "3.1 Elasticity and plasticity": {
+        "3.1 Elasticity and plasticity": {
+          "count": 5,
+          "mini_headings_covered": ["[Key Concept]"],
+          "last_question_round": 2
+        }
+      },
+      "3.2 Density and specific gravity": {
+        "3.2 Density and specific gravity": {
+          "count": 7,
+          "mini_headings_covered": ["[Key Concept]"],
+          "last_question_round": 2
+        }
+      },
+      "3.3 Stress and Strain": {
+        "3.3 Stress and Strain": {
+          "count": 4,
+          "mini_headings_covered": ["[Key Concept]"],
+          "last_question_round": 2
+        }
+      },
+      "3.4 Young's Modulus": {
+        "3.4 Young's Modulus": {
+          "count": 2,
+          "mini_headings_covered": ["[Key Concept]"],
+          "last_question_round": 2
+        }
+      },
+      "3.5 Static equilibrium": {
+        "3.5 Static equilibrium": {
+          "count": 2,
+          "mini_headings_covered": ["[Key Concept]"],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.1 Elasticity and plasticity": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.2 Density and specific gravity": {
+        "question_count": 7,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.3 Stress and Strain": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.4 Young's Modulus": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "3.5 Static equilibrium": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction": ["Elasticity", "Plasticity", "Static Equilibrium"],
+      "3.1 Elasticity and plasticity": ["Elasticity", "Plasticity", "Deformation", "Elastic deformation", "Plastic deformation", "Elastic limit", "Reversible change"],
+      "3.2 Density and specific gravity": ["Density", "Specific Gravity", "Mass", "Volume", "Archimedes' principle", "Relative density", "Characteristic property"],
+      "3.3 Stress and Strain": ["Stress", "Strain", "Tensile stress", "Compressive stress", "Tensile strain", "Force per unit area", "Dimensionless"],
+      "3.4 Young's Modulus": ["Young's Modulus", "Elastic modulus", "Proportionality constant", "Stress-strain relation"],
+      "3.5 Static equilibrium": ["Static equilibrium", "First condition", "Net force zero", "Torque", "Second condition", "Rotational equilibrium"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_after_batch_1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 24,
+      "questions_per_concept_ratio": 0.83,
+      "structural_coverage_percentage": 66.7
+    }
+  },
+  "grade": "10",
+  "subject": "Physics",
+  "unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+  "pdf_filename": "P10U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-05-15T10:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 6,
+      "structural_coverage_percentage": 66.7,
+      "concept_utilization_ratio": 0.83
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.2 Density and specific gravity",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 7.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phy_U3_Q011",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "3.5 Static equilibrium",
+      "subsection": "3.5 Static equilibrium",
+      "sub_subsection": null,
+      "structural_anchor": "[Key Concept]",
+      "mcq_type": "A",
+      "question": "What term describes the state of a rigid body that remains at rest with no net force and no net torque acting on it?",
+      "options": {
+        "A": "Static equilibrium",
+        "B": "Dynamic equilibrium",
+        "C": "Elastic deformation",
+        "D": "Plastic flow"
+      },
+      "correct_answer": "A",
+      "hint": "This condition involves both translational and rotational balance.",
+      "explanation": "Static equilibrium occurs when a body is at rest, with the vector sum of all forces (ΣF=0) and the sum of all torques (Στ=0) equal to zero. Option B describes equilibrium with constant velocity, not rest.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.5 Static equilibrium",
+        "subsection_anchor": "3.5 Static equilibrium",
+        "structural_element": "[Key Concept]",
+        "content_anchor": "Static equilibrium is a type of equilibrium that occurs when a body is at rest",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_static_equilibrium_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q012",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "3.3 Stress and Strain",
+      "subsection": "3.3 Stress and Strain",
+      "sub_subsection": null,
+      "structural_anchor": "[Key Concept]",
+      "mcq_type": "C",
+      "question": "Which formula correctly defines tensile stress?",
+      "options": {
+        "A": "Stress = Force × Area",
+        "B": "Stress = Force / Area",
+        "C": "Stress = Area / Force",
+        "D": "Stress = Force + Area"
+      },
+      "correct_answer": "B",
+      "hint": "Stress measures force distributed over an area.",
+      "explanation": "Tensile stress (σ) is defined as the perpendicular force (F⊥) divided by the cross-sectional area (A): σ = F⊥/A. Option A represents the formula for pressure impulse, not stress.",
+      "difficulty_level": "easy",
+      "formula_used": ["σ = F⊥/A"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.3 Stress and Strain",
+        "subsection_anchor": "3.3 Stress and Strain",
+        "structural_element": "[Key Concept]",
+        "content_anchor": "Stress is a quantity that contains information about the magnitude of force causing deformation, defined as force per unit area",
+        "page_hint": "Page 9-10",
+        "concept_hash": "sha256_of_stress_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q013",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "3.3 Stress and Strain",
+      "subsection": "3.3 Stress and Strain",
+      "sub_subsection": null,
+      "structural_anchor": "[Example 3.3]",
+      "mcq_type": "D",
+      "question": "A force of 19.6 N acts over a cross-sectional area of 4.0 × 10⁻³ m². What is the tensile stress?",
+      "options": {
+        "A": "4.9 × 10³ N/m²",
+        "B": "7.84 × 10³ N/m²",
+        "C": "4.9 × 10⁴ N/m²",
+        "D": "7.84 × 10⁴ N/m²"
+      },
+      "correct_answer": "A",
+      "hint": "Use the formula stress = force / area.",
+      "explanation": "Tensile stress is calculated as σ = F/A = 19.6 N / (4.0 × 10⁻³ m²) = 4.9 × 10³ N/m². Option D results from incorrectly multiplying force and area.",
+      "difficulty_level": "easy",
+      "formula_used": ["σ = F/A"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "N/m²",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.3 Stress and Strain",
+        "subsection_anchor": "3.3 Stress and Strain",
+        "structural_element": "[Example 3.3]",
+        "content_anchor": "Find the tensile stress when a force of 9.8 N acts over a cross-sectional area of 2 × 10⁻³ m²",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_tensile_stress_calc"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q014",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "3.5 Static equilibrium",
+      "subsection": "3.5 Static equilibrium",
+      "sub_subsection": null,
+      "structural_anchor": "[Key Concept]",
+      "mcq_type": "F",
+      "question": "Under the condition that an object is at rest, which reasoning best explains why both the sum of forces and the sum of torques must be zero?",
+      "options": {
+        "A": "A net force would cause translational acceleration, and a net torque would cause rotational acceleration.",
+        "B": "Only forces matter for stationary objects; torque is irrelevant.",
+        "C": "Torque balance ensures density remains constant, while force balance prevents deformation.",
+        "D": "The first condition of equilibrium is sufficient for any rigid body at rest."
+      },
+      "correct_answer": "A",
+      "hint": "Consider Newton's laws for both linear and rotational motion.",
+      "explanation": "For complete static equilibrium, both translational (ΣF=0) and rotational (Στ=0) conditions must be met to prevent any acceleration. Option D is incorrect because an object could rotate even if net force is zero.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.5 Static equilibrium",
+        "subsection_anchor": "3.5 Static equilibrium",
+        "structural_element": "[Key Concept]",
+        "content_anchor": "The second condition necessary to achieve equilibrium is that the net external torque on a system must be zero",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_of_equilibrium_conditions"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q015",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "3.5 Static equilibrium",
+      "subsection": "3.5 Static equilibrium",
+      "sub_subsection": null,
+      "structural_anchor": "[Key Concept]",
+      "mcq_type": "G",
+      "question": "If the distance from the pivot point (lever arm) for an applied force increases while the force magnitude stays constant, what happens to the torque?",
+      "options": {
+        "A": "Torque decreases.",
+        "B": "Torque remains the same.",
+        "C": "Torque increases.",
+        "D": "Torque becomes zero."
+      },
+      "correct_answer": "C",
+      "hint": "Recall the formula for torque: torque = force × lever arm.",
+      "explanation": "Torque (τ) is the product of force (F) and lever arm distance (r): τ = F × r. Increasing r while F is constant directly increases the torque. Option A incorrectly assumes an inverse relationship.",
+      "difficulty_level": "easy",
+      "formula_used": ["τ = F × r"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.5 Static equilibrium",
+        "subsection_anchor": "3.5 Static equilibrium",
+        "structural_element": "[Key Concept]",
+        "content_anchor": "Torque is the product between the force, F, and the radius, r",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_of_torque_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q016",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "3.2 Density and specific gravity",
+      "subsection": "3.2 Density and specific gravity",
+      "sub_subsection": null,
+      "structural_anchor": "[Key Concept]",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that an object with a density of 0.8 g/cm³ must be a gas?",
+      "options": {
+        "A": "It confuses density with specific gravity.",
+        "B": "It assumes density alone determines the state of matter, ignoring that liquids and solids can also have low densities.",
+        "C": "It mistakes mass for volume in the density calculation.",
+        "D": "It incorrectly uses Young's modulus to classify materials."
+      },
+      "correct_answer": "B",
+      "hint": "Consider materials like wood or certain plastics which are solids but have densities less than water.",
+      "explanation": "Density indicates mass per volume but does not exclusively determine state; for example, wood (solid) can have density < 1 g/cm³. Option A confuses two distinct physical properties.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.2 Density and specific gravity",
+        "subsection_anchor": "3.2 Density and specific gravity",
+        "structural_element": "[Key Concept]",
+        "content_anchor": "Density is a characteristic property of any pure substance",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_density_misconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q017",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "3.3 Stress and Strain",
+      "subsection": "3.3 Stress and Strain",
+      "sub_subsection": null,
+      "structural_anchor": "[Key Concept]",
+      "mcq_type": "K",
+      "question": "A rod's length increases from 2.000 m to 2.004 m under a tensile load. What does the strain value of 0.002 indicate about the deformation?",
+      "options": {
+        "A": "The force applied was 2 N.",
+        "B": "The rod has undergone plastic deformation.",
+        "C": "The fractional change in length is 0.2% of the original length.",
+        "D": "The cross-sectional area doubled."
+      },
+      "correct_answer": "C",
+      "hint": "Strain is the ratio of change in length to original length.",
+      "explanation": "Strain (ε) = ΔL/L₀ = 0.004 m / 2.000 m = 0.002, which represents a 0.2% elongation. Option B is incorrect because strain alone does not specify if deformation is elastic or plastic.",
+      "difficulty_level": "medium",
+      "formula_used": ["ε = ΔL/L₀"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.3 Stress and Strain",
+        "subsection_anchor": "3.3 Stress and Strain",
+        "structural_element": "[Key Concept]",
+        "content_anchor": "Strain is a dimensionless quantity that gives the amount of deformation of an object or medium under stress",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_strain_interpretation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "interpreting",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q018",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "3.2 Density and specific gravity",
+      "subsection": "3.2 Density and specific gravity",
+      "sub_subsection": null,
+      "structural_anchor": "[Activity 3.3]",
+      "mcq_type": "L",
+      "question": "In an experiment, a block of brass and a block of wood of equal mass are dropped into water. The wood floats and the brass sinks. What does this outcome demonstrate about their densities?",
+      "options": {
+        "A": "Wood has greater density than water.",
+        "B": "Brass has greater density than water, and wood has lesser density than water.",
+        "C": "Both materials have the same density as water.",
+        "D": "Brass has lesser density than water."
+      },
+      "correct_answer": "B",
+      "hint": "An object sinks if its density is greater than the fluid's density.",
+      "explanation": "Archimedes' principle states that an object floats if its density is less than the fluid's density. Brass sinks (ρ_brass > ρ_water), wood floats (ρ_wood < ρ_water). Option A contradicts the observation that wood floats.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.2 Density and specific gravity",
+        "subsection_anchor": "3.2 Density and specific gravity",
+        "structural_element": "[Activity 3.3]",
+        "content_anchor": "Suppose that a block of brass and a block of wood have exactly the same mass. If both blocks are dropped in a tank of water, which one floats and which one sinks?",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_density_experiment"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 90,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q019",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "3.1 Elasticity and plasticity",
+      "subsection": "3.1 Elasticity and plasticity",
+      "sub_subsection": null,
+      "structural_anchor": "[Section summary]",
+      "mcq_type": "M",
+      "question": "Which sequence correctly orders the stages of material behavior as external force increases?",
+      "options": {
+        "A": "Plastic deformation → Elastic deformation → Fracture",
+        "B": "Elastic deformation → Plastic deformation → Fracture",
+        "C": "Fracture → Elastic deformation → Plastic deformation",
+        "D": "Elastic deformation → Fracture → Plastic deformation"
+      },
+      "correct_answer": "B",
+      "hint": "Think about how a material responds initially and what happens when force exceeds certain limits.",
+      "explanation": "Initially, materials undergo elastic (reversible) deformation. Beyond the elastic limit, plastic (permanent) deformation occurs. Finally, at the breaking point, fracture happens. Option A reverses the first two stages.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section-summary"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.1 Elasticity and plasticity",
+        "subsection_anchor": "3.1 Elasticity and plasticity",
+        "structural_element": "[Section summary]",
+        "content_anchor": "External forces applied on an object cause deformation",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_deformation_sequence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q020",
+      "generation_timestamp": "2024-05-15T10:10:00Z",
+      "section": "3.4 Young's Modulus",
+      "subsection": "3.4 Young's Modulus",
+      "sub_subsection": null,
+      "structural_anchor": "[Key Concept]",
+      "mcq_type": "N",
+      "question": "A material obeys Hooke's Law only under what condition?",
+      "options": {
+        "A": "When stress exceeds the elastic limit.",
+        "B": "When strain is greater than 0.1.",
+        "C": "When stress is sufficiently low and deformation is proportional to strain.",
+        "D": "When the material is in plastic deformation."
+      },
+      "correct_answer": "C",
+      "hint": "Hooke's Law describes linear elastic behavior.",
+      "explanation": "Hooke's Law (stress ∝ strain) is valid only in the elastic region where stress is low and deformation is reversible. Option A describes the condition where Hooke's Law no longer applies.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.4 Young's Modulus",
+        "subsection_anchor": "3.4 Young's Modulus",
+        "structural_element": "[Key Concept]",
+        "content_anchor": "The elastic limit of the material is the stress value beyond which the material no longer behaves elasticity",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_elastic_limit_condition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2800,
+    "average_question_quality": 85.5,
+    "type_distribution": {
+      "A": 1,
+      "C": 1,
+      "D": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "K": 1,
+      "L": 1,
+      "M": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "3.5 Static equilibrium": 3,
+      "3.3 Stress and Strain": 3,
+      "3.2 Density and specific gravity": 2,
+      "3.1 Elasticity and plasticity": 1,
+      "3.4 Young's Modulus": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

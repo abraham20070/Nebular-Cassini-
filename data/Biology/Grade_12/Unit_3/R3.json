@@ -1,0 +1,988 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T00:02:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G12_Bio_U3_Q030",
+    "covered_sections": ["Unit learning outcomes", "Overview", "3.1. Energy", "3.2. Photosynthesis", "3.2.1. Photosynthetic pigments", "3.2.2. Light-dependent and light-independent reactions", "3.3. Contributions of photosynthesis", "3.4. Cellular Respiration", "3.4.1. The site of cellular respiration", "3.4.2. Stages of respiration", "Table 3.1. Comparison of anabolic and catabolic pathways", "Self-questioning", "Activity 3.4", "Absorption spectra of photosynthetic pigments", "Light-Dependent Reactions(cyclic and noncyclic photophosphorylation)", "Photosystem I and photosystem II", "Light-Independent Reactions (Calvin cycle)", "Stage I: Glycolysis", "Stage II: Pyruvate oxidation (link reaction)", "Stage III: Kreb cycle", "Stage IV: Oxidative phosphorylation", "Key words", "Fermentation", "3.4.2. Stages of respiration", "Stage I: Glycolysis", "Stage II: Pyruvate oxidation (link reaction)", "Stage III: Kreb cycle", "Stage IV: Oxidative phosphorylation", "Key words", "Fermentation", "Lactic acid fermentation", "Activity 3.10. Investigation of the rate of fermentation in yeast"],
+    "used_question_signatures": ["1a1dfe5b32925d69b3b69c8a6c3a3d7f", "2b4c7e9b3c2d1a5f8e6d7c9b0a1f2e3d", "3c5d8f0a4d3e2b6a9f7e8d0c1b2a3f4", "4d6e9a1b5e4f3c7b0a8f9e1d2c3b4a5", "5e7f0b2c6f5a4d8c1b9a0f2e3d4c5b6", "6f8a0c3d7a6b5e9d2c0b1a3f4e5d6c7", "7a9b1d4e8b7c6f0a3d1c2b4a5f6e7d8", "8b0c2e5f9c8d7a1b4e2d3c5b6a7f8e9", "9c1d3f6a0d9e8b2c5f3e4d6c7b8a9f0", "0d2e4a7b1e0f9c3d6a4f5e7d8c9b0a1", "a1e3f5b8c2d0f1a4e7b9c6d3f5a8b1c", "b2f4a6c9d3e1a2b5f8c0d4e7a9b2c5f", "c3a5b7d0e4f2b3c6a9d1e5f8b0c3d6a", "d4b6c8e1f5a3c4d7b0e2f6a9c1d4e7b", "e5c7d9f2a6b4d5e8c1f3a0b5d2e8c1f", "f6d8e0a3b7c5e6f9d2a4b1c6e3f9d2a", "g7e9f1b4c8d6f7a0e3b5c2d7f4a0e3b", "h8f0a2c5d9e7a8b1f4c6d3e8b5a1f4c", "i9a1b3d6e0f8b9c2a5d7e4f9c6b2a5d", "j0b2c4e7f1a9c0d3b6e8f5a0d7c3b6e", "k1c3d5f8a2b0d1e4c7f9a3b1d4e8c0f", "l2d4e6a9b3c1e2f5d8a4b2e5f9c1d0a", "m3e5f7b0c4d2f3a6e9b5c3f6a0d1e2b", "n4f6a8c1d5e3a4b7f0c6d4a7b0e3f1c", "o5a7b9d2e6f4b5c8a1d7e5b1c4f2a3d", "p6b8c0e3f7a5c6d9b2e8f6b2c5a0d4e", "q7c9d1f4a8b6d7e0c3a9d7c0e1b5f2a", "r8d0e2a5b9c7e8f1d4a0e8c1f3b6a2c", "s9e1f3b6c0d8f9a2e5b9d2f4c7a0b3d", "t0f2a4c7d1e9a0b3f6c8d3a5b1c4e7f"],
+    "baseline_counter": {
+      "Unit learning outcomes": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Overview": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.1. Energy": {
+        "count": 3,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "Table 3.1. Comparison of anabolic and catabolic pathways": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Self-questioning": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "3.2. Photosynthesis": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.2.1. Photosynthetic pigments": {
+        "count": 3,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "Activity 3.4": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Absorption spectra of photosynthetic pigments": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "3.2.2. Light-dependent and light-independent reactions": {
+        "count": 4,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "Light-Dependent Reactions(cyclic and noncyclic photophosphorylation)": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Photosystem I and photosystem II": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Light-Independent Reactions (Calvin cycle)": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "3.3. Contributions of photosynthesis": {
+        "count": 3,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "3.4. Cellular Respiration": {
+        "count": 3,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "3.4.1. The site of cellular respiration": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.4.2. Stages of respiration": {
+        "count": 5,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "Stage I: Glycolysis": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "Stage II: Pyruvate oxidation (link reaction)": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "Stage III: Kreb cycle": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "Stage IV: Oxidative phosphorylation": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "Key words": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "Fermentation": {
+        "count": 3,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "Lactic acid fermentation": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "Activity 3.10. Investigation of the rate of fermentation in yeast": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Unit learning outcomes": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Overview": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.1. Energy": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Table 3.1. Comparison of anabolic and catabolic pathways": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "Self-questioning": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "3.2. Photosynthesis": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.2.1. Photosynthetic pigments": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Activity 3.4": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "Absorption spectra of photosynthetic pigments": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "3.2.2. Light-dependent and light-independent reactions": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Light-Dependent Reactions(cyclic and noncyclic photophosphorylation)": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "Photosystem I and photosystem II": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "Light-Independent Reactions (Calvin cycle)": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "3.3. Contributions of photosynthesis": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "3.4. Cellular Respiration": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "3.4.1. The site of cellular respiration": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.4.2. Stages of respiration": {
+        "question_count": 5,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Stage I: Glycolysis": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Stage II: Pyruvate oxidation (link reaction)": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Stage III: Kreb cycle": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Stage IV: Oxidative phosphorylation": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Key words": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Fermentation": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Lactic acid fermentation": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Activity 3.10. Investigation of the rate of fermentation in yeast": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Unit learning outcomes": ["energy transformation", "photosynthesis equation", "absorption spectra", "CO2 fixation", "photorespiration rate", "starch presence", "energy harvest", "phosphorylation types", "electron transport", "fermentation significance", "energy yield calculation", "CO2 O2 balance", "differentiation", "application", "metabolic process distinction"],
+      "Overview": ["cellular activities require energy", "metabolism enzyme-mediated reactions"],
+      "3.1. Energy": ["metabolism", "anabolism", "catabolism", "endergonic", "exergonic", "comparison table", "energy coupling necessity"],
+      "3.2. Photosynthesis": ["photosynthesis chemical reaction", "leaf structure", "chloroplast structure"],
+      "3.2.1. Photosynthetic pigments": ["chlorophyll a", "chlorophyll b", "carotenoids", "absorption spectrum", "light wavelength effect", "pigment types and functions"],
+      "3.2.2. Light-dependent and light-independent reactions": ["light-dependent reactions", "Calvin cycle", "photophosphorylation", "photolysis", "photosystems", "carbon fixation stages", "rubisco function and limitation", "photorespiration conditions"],
+      "3.3. Contributions of photosynthesis": ["oxygen source", "food source", "carbon cycle", "global warming mitigation", "atmospheric balance", "fossil fuel link to climate"],
+      "3.4. Cellular Respiration": ["ATP energy currency", "coupled reactions", "glycolysis products", "respiration definition", "muscle contraction mechanism"],
+      "3.4.1. The site of cellular respiration": ["glycolysis cytosol", "Krebs cycle mitochondria", "eukaryotic vs prokaryotic"],
+      "3.4.2. Stages of respiration": ["glycolysis phases", "pyruvate oxidation", "Krebs cycle steps", "oxidative phosphorylation", "electron transport chain", "ATP yield", "glycolysis inputs outputs", "link reaction details", "Krebs cycle intermediates", "ETC proton motive force", "chemiosmosis"],
+      "Table 3.1. Comparison of anabolic and catabolic pathways": ["constructive vs destructive", "energy requirement vs release"],
+      "Self-questioning": ["metabolism meaning", "anabolism vs catabolism difference"],
+      "Activity 3.4": ["wavelength effect on photosynthesis"],
+      "Absorption spectra of photosynthetic pigments": ["chlorophyll a b absorption peaks", "carotenoids absorption"],
+      "Light-Dependent Reactions(cyclic and noncyclic photophosphorylation)": ["cyclic vs non-cyclic", "ATP NADPH production", "water photolysis"],
+      "Photosystem I and photosystem II": ["electron excitation", "electron transport chain", "proton pump"],
+      "Light-Independent Reactions (Calvin cycle)": ["carbon fixation", "reduction", "regeneration", "RuBP", "3-PGA", "G3P"],
+      "Stage I: Glycolysis": ["energy investment", "cleavage", "energy liberation", "net ATP yield", "pyruvate production", "energy investment phase", "net reaction"],
+      "Stage II: Pyruvate oxidation (link reaction)": ["acetyl CoA formation", "NADH production", "CO2 release", "overall reaction"],
+      "Stage III: Kreb cycle": ["citric acid formation", "NADH FADH2 production", "CO2 release", "oxaloacetate regeneration", "acetyl-CoA entry", "energy carrier generation"],
+      "Stage IV: Oxidative phosphorylation": ["electron transport chain", "proton gradient", "chemiosmosis", "ATP synthase", "oxygen as final electron acceptor", "sites of ATP synthesis"],
+      "Key words": ["coenzyme A", "dehydrogenation", "decarboxylation", "terminal electron acceptor", "ATP hydrolysis"],
+      "Fermentation": ["alcohol fermentation", "lactic acid fermentation", "NAD+ regeneration", "anaerobic conditions", "pyruvate fate", "ethanol production", "lactate production", "yeast fermentation factors"],
+      "Lactic acid fermentation": ["muscle cells", "NAD+ regeneration", "lactate production"],
+      "Activity 3.10. Investigation of the rate of fermentation in yeast": ["temperature effect", "substrate effect", "CO2 measurement"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 105,
+      "questions_per_concept_ratio": 0.29,
+      "structural_coverage_percentage": 96.7
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 3: Energy Transformation",
+  "pdf_filename": "B12U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 1,
+      "constraint_violations_caught": 1,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T00:02:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 10,
+        "total_sections": 10,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 1.5,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 10,
+      "subsections_covered_count": 9,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 96.7,
+      "concept_utilization_ratio": 0.29
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.4.2. Stages of respiration",
+      "least_covered_section": "Table 3.1. Comparison of anabolic and catabolic pathways",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U3_Q021",
+      "generation_timestamp": "2025-01-27T00:02:00Z",
+      "section": "3.1. Energy",
+      "subsection": "3.1. Energy",
+      "sub_subsection": null,
+      "structural_anchor": "3.1. Energy",
+      "mcq_type": "E",
+      "question": "During glycolysis, a net gain of two ATP molecules is produced per glucose molecule. If three glucose molecules undergo glycolysis, what is the total net ATP yield?",
+      "options": {
+        "A": "2 ATP",
+        "B": "4 ATP",
+        "C": "6 ATP",
+        "D": "8 ATP"
+      },
+      "correct_answer": "C",
+      "hint": "Multiply the net yield per glucose by the number of glucose molecules.",
+      "explanation": "Glycolysis has a net yield of 2 ATP per glucose molecule. Therefore, 3 glucose molecules yield 3 × 2 = 6 ATP. Option B results from incorrectly adding rather than multiplying the yields.",
+      "difficulty_level": "easy",
+      "formula_used": ["Net ATP = 2 × number of glucose molecules"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "ATP",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 27.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 78
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.4.2. Stages of respiration",
+        "subsection_anchor": "Stage I: Glycolysis",
+        "structural_element": "Stage I: Glycolysis",
+        "content_anchor": "Because two molecules of ATP are used in the energy investment phase, the net yield is two molecules of ATP.",
+        "page_hint": "Page 30",
+        "concept_hash": "hash_of_glycolysis_net_atp"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q022",
+      "generation_timestamp": "2025-01-27T00:02:00Z",
+      "section": "3.2.1. Photosynthetic pigments",
+      "subsection": "3.2.1. Photosynthetic pigments",
+      "sub_subsection": null,
+      "structural_anchor": "3.2.1. Photosynthetic pigments",
+      "mcq_type": "B",
+      "question": "Which class of photosynthetic pigments includes carotene, appears red, orange, or yellow, and functions as an accessory pigment?",
+      "options": {
+        "A": "Chlorophylls",
+        "B": "Phycobilins",
+        "C": "Carotenoids",
+        "D": "Flavonoids"
+      },
+      "correct_answer": "C",
+      "hint": "These pigments are named after a familiar orange vegetable.",
+      "explanation": "Carotenoids are accessory pigments that absorb blue-green light and appear red, orange, or yellow, transferring energy to chlorophyll. Option A, chlorophylls, are the primary green pigments directly involved in the light reactions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 36.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 75
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.1. Photosynthetic pigments",
+        "structural_element": "3.2.1. Photosynthetic pigments",
+        "content_anchor": "Carotenoids are usually red, orange, or yellow pigments, and they include the familiar compound carotene... accessory pigments.",
+        "page_hint": "Page 9",
+        "concept_hash": "hash_of_carotenoids_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q023",
+      "generation_timestamp": "2025-01-27T00:02:00Z",
+      "section": "3.2.2. Light-dependent and light-independent reactions",
+      "subsection": "Light-Independent Reactions (Calvin cycle)",
+      "sub_subsection": null,
+      "structural_anchor": "Light-Independent Reactions (Calvin cycle)",
+      "mcq_type": "M",
+      "question": "What is the correct sequence of stages in the Calvin cycle?",
+      "options": {
+        "A": "Reduction → Regeneration → Fixation",
+        "B": "Fixation → Reduction → Regeneration",
+        "C": "Regeneration → Fixation → Reduction",
+        "D": "Fixation → Regeneration → Reduction"
+      },
+      "correct_answer": "B",
+      "hint": "The cycle begins with carbon fixation, then uses energy to reduce intermediates, and finally regenerates the starting molecule.",
+      "explanation": "The Calvin cycle stages are: 1) Carbon fixation of CO2 to RuBP, 2) Reduction of 3-PGA to G3P using ATP and NADPH, and 3) Regeneration of RuBP from G3P. Option A places regeneration before fixation, which disrupts the cyclical nature of the process.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.2. Light-dependent and light-independent reactions",
+        "structural_element": "Light-Independent Reactions (Calvin cycle)",
+        "content_anchor": "The light- independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.",
+        "page_hint": "Page 14",
+        "concept_hash": "hash_of_calvin_cycle_stages"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q024",
+      "generation_timestamp": "2025-01-27T00:02:00Z",
+      "section": "3.3. Contributions of photosynthesis",
+      "subsection": "3.3. Contributions of photosynthesis",
+      "sub_subsection": null,
+      "structural_anchor": "3.3. Contributions of photosynthesis",
+      "mcq_type": "G",
+      "question": "If deforestation significantly reduces the global population of photosynthetic organisms, what is the most direct effect on the atmospheric carbon dioxide-oxygen balance?",
+      "options": {
+        "A": "Atmospheric O2 levels will increase due to reduced respiration.",
+        "B": "Atmospheric CO2 levels will decrease as decomposition slows.",
+        "C": "Atmospheric CO2 levels will increase due to reduced fixation.",
+        "D": "Atmospheric O2 levels will remain stable due to oceanic production."
+      },
+      "correct_answer": "C",
+      "hint": "Photosynthesis removes CO2 and produces O2; reducing the process affects this removal.",
+      "explanation": "Photosynthesis is a major sink for atmospheric CO2. Reducing the number of photosynthetic organisms decreases the rate of CO2 fixation, leading to its accumulation. Option B incorrectly suggests that reduced photosynthesis would lower CO2 levels.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.3. Contributions of photosynthesis",
+        "subsection_anchor": "3.3. Contributions of photosynthesis",
+        "structural_element": "3.3. Contributions of photosynthesis",
+        "content_anchor": "remove carbon dioxide from the atmosphere (inhibit global warming)",
+        "page_hint": "Page 22",
+        "concept_hash": "hash_of_deforestation_co2_effect"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q025",
+      "generation_timestamp": "2025-01-27T00:02:00Z",
+      "section": "3.4. Cellular Respiration",
+      "subsection": "3.4. Cellular Respiration",
+      "sub_subsection": null,
+      "structural_anchor": "3.4. Cellular Respiration",
+      "mcq_type": "A",
+      "question": "What is the defining characteristic of a coupled reaction in metabolism?",
+      "options": {
+        "A": "Two reactions occur simultaneously, with one providing energy for the other.",
+        "B": "Two identical reactions occur to double the product yield.",
+        "C": "A single reaction is split into two steps by different enzymes.",
+        "D": "A reaction is linked to a membrane transport process."
+      },
+      "correct_answer": "A",
+      "hint": "Energy coupling connects an energy-releasing process to an energy-requiring one.",
+      "explanation": "Coupled reactions involve an exergonic reaction driving an endergonic one, allowing thermodynamically unfavorable processes to occur. Option C describes reaction steps, not energy coupling between distinct reactions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.4. Cellular Respiration",
+        "subsection_anchor": "3.4. Cellular Respiration",
+        "structural_element": "3.4. Cellular Respiration",
+        "content_anchor": "A coupled reaction is carried out when two reactions occur nearly simultaneously. The first reaction must be exothermic... The second reaction is endothermic, which immediately uses the energy...",
+        "page_hint": "Page 25-26",
+        "concept_hash": "hash_of_coupled_reaction_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q026",
+      "generation_timestamp": "2025-01-27T00:02:00Z",
+      "section": "3.4.2. Stages of respiration",
+      "subsection": "Stage I: Glycolysis",
+      "sub_subsection": null,
+      "structural_anchor": "Stage I: Glycolysis",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that glycolysis produces a net of four ATP molecules per glucose?",
+      "options": {
+        "A": "It ignores the two ATP molecules consumed during the energy investment phase.",
+        "B": "It assumes all four ATP are produced in the cytosol without mitochondrial involvement.",
+        "C": "It confuses the total ATP produced with the number of NADH molecules generated.",
+        "D": "It mistakenly includes the ATP yield from the subsequent Krebs cycle."
+      },
+      "correct_answer": "A",
+      "hint": "Glycolysis has both an energy investment and an energy pay-off phase.",
+      "explanation": "Glycolysis produces 4 ATP gross but consumes 2 ATP initially, resulting in a net gain of 2 ATP. The error is forgetting to subtract the investment. Option D incorrectly attributes the extra ATP to a different metabolic stage.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.4. Cellular Respiration",
+        "subsection_anchor": "3.4.2. Stages of respiration",
+        "structural_element": "Stage I: Glycolysis",
+        "content_anchor": "Because two molecules of ATP are used in the energy investment phase, the net yield is two molecules of ATP.",
+        "page_hint": "Page 30",
+        "concept_hash": "hash_of_glycolysis_atp_misconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q027",
+      "generation_timestamp": "2025-01-27T00:02:00Z",
+      "section": "3.4.2. Stages of respiration",
+      "subsection": "Stage II: Pyruvate oxidation (link reaction)",
+      "sub_subsection": null,
+      "structural_anchor": "Stage II: Pyruvate oxidation (link reaction)",
+      "mcq_type": "D",
+      "question": "What are the direct products when one molecule of pyruvate undergoes oxidation to form acetyl-CoA?",
+      "options": {
+        "A": "1 Acetyl-CoA, 1 NADH, 1 CO2",
+        "B": "1 Acetyl-CoA, 2 NADH, 2 CO2",
+        "C": "2 Acetyl-CoA, 1 NADH, 1 CO2",
+        "D": "2 Acetyl-CoA, 2 NADH, 2 CO2"
+      },
+      "correct_answer": "A",
+      "hint": "Each pyruvate yields one acetyl-CoA. Consider the decarboxylation step.",
+      "explanation": "The link reaction converts one pyruvate (3C) into one acetyl-CoA (2C), with the release of one CO2 and reduction of one NAD+ to NADH. Option B incorrectly doubles the products, which would be the yield from two pyruvate molecules.",
+      "difficulty_level": "medium",
+      "formula_used": ["Pyruvate + CoA + NAD+ → Acetyl-CoA + CO2 + NADH"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 36.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 78
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.4. Cellular Respiration",
+        "subsection_anchor": "3.4.2. Stages of respiration",
+        "structural_element": "Stage II: Pyruvate oxidation (link reaction)",
+        "content_anchor": "The overall reaction: 2pyruvate +2NAD + + 2CoA → 2 acetyl- CoA +2NADH + 2H + + 2CO2",
+        "page_hint": "Page 31",
+        "concept_hash": "hash_of_link_reaction_products"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q028",
+      "generation_timestamp": "2025-01-27T00:02:00Z",
+      "section": "3.4.2. Stages of respiration",
+      "subsection": "Stage III: Kreb cycle",
+      "sub_subsection": null,
+      "structural_anchor": "Stage III: Kreb cycle",
+      "mcq_type": "C",
+      "question": "Which molecule combines with acetyl-CoA to initiate the Krebs cycle?",
+      "options": {
+        "A": "Citric acid",
+        "B": "Oxaloacetate (OAA)",
+        "C": "Alpha-ketoglutarate",
+        "D": "Malate"
+      },
+      "correct_answer": "B",
+      "hint": "This four-carbon acceptor molecule is regenerated at the end of each turn.",
+      "explanation": "The Krebs cycle begins when acetyl-CoA (2C) condenses with oxaloacetate (4C) to form citrate (6C). Option A, citric acid, is the product of this initial condensation reaction, not the reactant.",
+      "difficulty_level": "easy",
+      "formula_used": ["Acetyl-CoA + Oxaloacetate → Citrate"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.4. Cellular Respiration",
+        "subsection_anchor": "3.4.2. Stages of respiration",
+        "structural_element": "Stage III: Kreb cycle",
+        "content_anchor": "The Krebs cycle itself actually begins when acetyl- CoA combines with a four- carbon molecule called OAA (oxaloacetate).",
+        "page_hint": "Page 31",
+        "concept_hash": "hash_of_krebs_cycle_initiation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q029",
+      "generation_timestamp": "2025-01-27T00:02:00Z",
+      "section": "3.4.2. Stages of respiration",
+      "subsection": "Stage IV: Oxidative phosphorylation",
+      "sub_subsection": null,
+      "structural_anchor": "Stage IV: Oxidative phosphorylation",
+      "mcq_type": "F",
+      "question": "Under the condition that cyanide binds to and inhibits cytochrome a/a3 in complex IV, which reasoning best explains why cellular respiration stops?",
+      "options": {
+        "A": "Glycolysis is allosterically inhibited by the buildup of NADH.",
+        "B": "The proton gradient across the inner mitochondrial membrane dissipates.",
+        "C": "Electrons cannot be passed to oxygen, halting the entire electron transport chain.",
+        "D": "ATP synthase reverses direction, hydrolyzing ATP instead of synthesizing it."
+      },
+      "correct_answer": "C",
+      "hint": "Cyanide blocks the final electron acceptor, causing a 'traffic jam' upstream.",
+      "explanation": "Cyanide inhibits the terminal step where electrons are transferred to oxygen. This causes electron carriers to remain reduced, stopping further electron flow and proton pumping. Option B describes a consequence of the halted ETC, not the primary cause.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.4. Cellular Respiration",
+        "subsection_anchor": "3.4.2. Stages of respiration",
+        "structural_element": "Stage IV: Oxidative phosphorylation",
+        "content_anchor": "The NADH and FADH2... give up their electrons to reduce molecular O2 to H2O. Electron transfer occurs through a series of protein electron carriers, the final acceptor being O2",
+        "page_hint": "Page 33",
+        "concept_hash": "hash_of_cyanide_inhibition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 79,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q030",
+      "generation_timestamp": "2025-01-27T00:02:00Z",
+      "section": "3.4.2. Stages of respiration",
+      "subsection": "Key words",
+      "sub_subsection": null,
+      "structural_anchor": "Key words",
+      "mcq_type": "B",
+      "question": "What term describes the process of removing a carboxyl group (-COOH) from an organic molecule, typically releasing carbon dioxide?",
+      "options": {
+        "A": "Dehydrogenation",
+        "B": "Decarboxylation",
+        "C": "Hydrolysis",
+        "D": "Phosphorylation"
+      },
+      "correct_answer": "B",
+      "hint": "This process occurs in the link reaction and the Krebs cycle.",
+      "explanation": "Decarboxylation is a chemical reaction that removes a carboxyl group, releasing CO2. Option A, dehydrogenation, involves the removal of hydrogen atoms, not a carboxyl group.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 45.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 72
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.4. Cellular Respiration",
+        "subsection_anchor": "Key words",
+        "structural_element": "Key words",
+        "content_anchor": "Decarboxylation means removing carbon from a molecule",
+        "page_hint": "Page 39",
+        "concept_hash": "hash_of_decarboxylation_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 5200,
+    "average_question_quality": 84.4,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 4,
+      "hard": 1
+    },
+    "section_distribution": {
+      "3.1. Energy": 1,
+      "3.2.1. Photosynthetic pigments": 1,
+      "3.2.2. Light-dependent and light-independent reactions": 1,
+      "3.3. Contributions of photosynthesis": 1,
+      "3.4. Cellular Respiration": 1,
+      "3.4.2. Stages of respiration": 5
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

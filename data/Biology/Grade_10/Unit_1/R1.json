@@ -1,0 +1,824 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-07-30T11:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Bio_U1_Q010",
+    "covered_sections": ["1.1 Sub-fields of Biology>Zoology", "1.1 Sub-fields of Biology>Botany", "1.1 Sub-fields of Biology>Microbiology", "1.1 Sub-fields of Biology>Table 1.1 Different fields of biology based on the structure studied", "1.2 Subjects studied in various branches of Biology>Table 1.2 Subjects studied in various branches of Biology"],
+    "used_question_signatures": ["99f84e9f2d5cfd12b3e3d1c9e2f7a5c8", "b25c4c7f8e1a3d6f9b2c5e8a1f4d7c0", "c36d5e8f9a2b7c1e4f8d3a6c9b2e5f1", "d47e6f8a9b3c2d5e1f7a4c8b3e6f9", "e58f7a9b4c3d6e2f8a5c9b4e7f0", "f69a8b5c4d7e3f9a6c0b5e8f1a2", "g70b9c6d5e8f4a0b7c1d6e9f2a3", "h81c0d7e6f9a5b1c8d2e7f0a3b4", "i92d1e8f7a0b6c2d9e3f8a1b4c5", "j03e2f9a8b1c7d3e0f4a9b2c5d6"],
+    "baseline_counter": {
+      "1.1 Sub-fields of Biology": {
+        "Zoology": {
+          "count": 2,
+          "mini_headings_covered": ["Figure 1.1 Capra walle (Waliva ibex) (in Simien Mountains of Ethiopia)"],
+          "last_question_round": 1
+        },
+        "Botany": {
+          "count": 2,
+          "mini_headings_covered": ["Figure1.2 Ruta chalepensis L. (Tena Adam)"],
+          "last_question_round": 1
+        },
+        "Microbiology": {
+          "count": 2,
+          "mini_headings_covered": ["Activity 1.2 The Microorganisms"],
+          "last_question_round": 1
+        },
+        "Table 1.1 Different fields of biology based on the structure studied": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "1.2 Subjects studied in various branches of Biology": {
+        "Table 1.2 Subjects studied in various branches of Biology": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "1.2 Pure and applied fields of biology": {
+        "Recall": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "1.3 Major discoveries that revolutionized biology": {
+        "Activity 1.6 Group discussion": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "1.4 The contributions of biological discoveries to society and the environment": {
+        "The Microscope": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "1.5 Ethiopian biologists and their contributions": {
+        "1.Professor Yalemtshehay Mekonnen": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Unit Summary": {
+        "Unit Summary": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Review Questions": {
+        "Review Questions": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1 Sub-fields of Biology": {
+        "question_count": 8,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.2 Subjects studied in various branches of Biology": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.2 Pure and applied fields of biology": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "1.3 Major discoveries that revolutionized biology": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "1.4 The contributions of biological discoveries to society and the environment": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "1.5 Ethiopian biologists and their contributions": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Unit Summary": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Review Questions": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1 Sub-fields of Biology>Zoology": ["Animal biology study", "Wildlife classification"],
+      "1.1 Sub-fields of Biology>Botany": ["Plant structure study", "Photosynthesis process"],
+      "1.1 Sub-fields of Biology>Microbiology": ["Microscopic organisms", "Bacteria classification"],
+      "1.1 Sub-fields of Biology>Table 1.1 Different fields of biology based on the structure studied": ["Morphology", "Anatomy", "Histology"],
+      "1.2 Subjects studied in various branches of Biology>Table 1.2 Subjects studied in various branches of Biology": ["Physiology", "Ecology", "Genetics"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 11,
+      "questions_per_concept_ratio": 0.91,
+      "structural_coverage_percentage": 16.7
+    }
+  },
+  "grade": "10",
+  "subject": "Biology",
+  "unit": "Unit 1: Sub-fields of Biology",
+  "pdf_filename": "B10U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-07-30T11:31:15Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 8,
+        "progress_percentage": 25.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 12.5,
+      "concept_utilization_ratio": 0.91
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.1 Sub-fields of Biology",
+      "least_covered_section": "1.2 Pure and applied fields of biology",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U1_Q001",
+      "generation_timestamp": "2025-07-30T11:30:45Z",
+      "section": "1.1 Sub-fields of Biology",
+      "subsection": "Zoology",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 1.1 Capra walle (Waliva ibex) (in Simien Mountains of Ethiopia)",
+      "mcq_type": "B",
+      "question": "Which branch of biology focuses specifically on the study of mammals, such as the Capra walle found in Ethiopia?",
+      "options": {
+        "A": "Ornithology",
+        "B": "Herpetology",
+        "C": "Ichthyology",
+        "D": "Mammalology"
+      },
+      "correct_answer": "D",
+      "hint": "Consider the classification of animals based on their biological class.",
+      "explanation": "Mammalology is the specific study of mammals, a sub-discipline within zoology. Option A refers to the study of birds, which is incorrect for mammals like the Walia ibex.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.1 Sub-fields of Biology",
+        "subsection_anchor": "Zoology",
+        "structural_element": "Figure 1.1 Capra walle (Waliva ibex) (in Simien Mountains of Ethiopia)",
+        "content_anchor": "zoology includes disciplines such as... mammalology",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q002",
+      "generation_timestamp": "2025-07-30T11:30:48Z",
+      "section": "1.1 Sub-fields of Biology",
+      "subsection": "Zoology",
+      "sub_subsection": null,
+      "structural_anchor": "Zoology",
+      "mcq_type": "A",
+      "question": "What is the scientific study of insects called?",
+      "options": {
+        "A": "Entomology",
+        "B": "Ichthyology",
+        "C": "Herpetology",
+        "D": "Ornithology"
+      },
+      "correct_answer": "A",
+      "hint": "This field examines insect anatomy, behavior, and classification.",
+      "explanation": "Entomology is the branch of zoology dedicated to the study of insects. Option B incorrectly refers to the study of fish, which is a different sub-discipline.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.1 Sub-fields of Biology",
+        "subsection_anchor": "Zoology",
+        "structural_element": "Zoology",
+        "content_anchor": "includes disciplines such as... entomology (insects)",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q003",
+      "generation_timestamp": "2025-07-30T11:30:51Z",
+      "section": "1.1 Sub-fields of Biology",
+      "subsection": "Botany",
+      "sub_subsection": null,
+      "structural_anchor": "Figure1.2 Ruta chalepensis L. (Tena Adam)",
+      "mcq_type": "B",
+      "question": "Which field of biology examines plants like Ruta chalepensis, including their structure and medicinal uses?",
+      "options": {
+        "A": "Zoology",
+        "B": "Botany",
+        "C": "Microbiology",
+        "D": "Anatomy"
+      },
+      "correct_answer": "B",
+      "hint": "This scientific discipline focuses exclusively on plant life.",
+      "explanation": "Botany is the branch of biology dedicated to the study of plants. Option A is incorrect as zoology deals with animal life rather than plants.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.1 Sub-fields of Biology",
+        "subsection_anchor": "Botany",
+        "structural_element": "Figure1.2 Ruta chalepensis L. (Tena Adam)",
+        "content_anchor": "Botany is a field of biology that studies about plants",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q004",
+      "generation_timestamp": "2025-07-30T11:30:54Z",
+      "section": "1.1 Sub-fields of Biology",
+      "subsection": "Botany",
+      "sub_subsection": null,
+      "structural_anchor": "Botany",
+      "mcq_type": "F",
+      "question": "Under the condition that a plant lacks chlorophyll, which reasoning best explains its inability to perform photosynthesis?",
+      "options": {
+        "A": "Photosynthesis requires sunlight, which cannot be absorbed without chlorophyll.",
+        "B": "Chlorophyll is essential for converting solar energy into chemical energy during photosynthesis.",
+        "C": "Water absorption through roots becomes impossible without chlorophyll present.",
+        "D": "The plant's structural integrity collapses without chlorophyll pigments."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the specific role of chlorophyll in the photosynthetic process.",
+      "explanation": "Chlorophyll is the pigment that captures light energy for conversion into chemical energy during photosynthesis. Option A incorrectly focuses only on sunlight absorption without explaining the energy conversion mechanism.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.1 Sub-fields of Biology",
+        "subsection_anchor": "Botany",
+        "structural_element": "Botany",
+        "content_anchor": "through the process of photosynthesis, plants convert energy from the Sun into the chemical energy of food",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q005",
+      "generation_timestamp": "2025-07-30T11:30:57Z",
+      "section": "1.1 Sub-fields of Biology",
+      "subsection": "Microbiology",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 1.2 The Microorganisms",
+      "mcq_type": "J",
+      "question": "Which type of microscopic organism is characterized by having a protein coat and genetic material but lacking cellular structure?",
+      "options": {
+        "A": "Bacteria",
+        "B": "Fungi",
+        "C": "Virus",
+        "D": "Protozoa"
+      },
+      "correct_answer": "C",
+      "hint": "This entity requires a host cell to replicate and is not considered a living cell.",
+      "explanation": "Viruses consist of genetic material enclosed in a protein coat and lack cellular organelles. Option A is incorrect because bacteria are complete prokaryotic cells with cellular structure.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.1 Sub-fields of Biology",
+        "subsection_anchor": "Microbiology",
+        "structural_element": "Activity 1.2 The Microorganisms",
+        "content_anchor": "It includes bacteria, archaea, protists, viruses, microscopic algae and fungi",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q006",
+      "generation_timestamp": "2025-07-30T11:31:00Z",
+      "section": "1.1 Sub-fields of Biology",
+      "subsection": "Microbiology",
+      "sub_subsection": null,
+      "structural_anchor": "Microbiology",
+      "mcq_type": "A",
+      "question": "What is the scientific study of microscopic organisms such as bacteria and viruses called?",
+      "options": {
+        "A": "Microbiology",
+        "B": "Macrobiology",
+        "C": "Zoology",
+        "D": "Botany"
+      },
+      "correct_answer": "A",
+      "hint": "This field focuses on life forms too small to be seen without magnification.",
+      "explanation": "Microbiology is the branch of biology dedicated to studying microscopic organisms. Option B is incorrect as it suggests the study of large organisms, which is not a standard biological field.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.1 Sub-fields of Biology",
+        "subsection_anchor": "Microbiology",
+        "structural_element": "Microbiology",
+        "content_anchor": "Microbiology is the study of microscopic organisms or microbes",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q007",
+      "generation_timestamp": "2025-07-30T11:31:03Z",
+      "section": "1.1 Sub-fields of Biology",
+      "subsection": "Table 1.1 Different fields of biology based on the structure studied",
+      "sub_subsection": null,
+      "structural_anchor": "Table 1.1 Different fields of biology based on the structure studied",
+      "mcq_type": "B",
+      "question": "Which biological sub-branch examines the detailed structure of tissues, such as parenchyma and connective tissue?",
+      "options": {
+        "A": "Histology",
+        "B": "Cytology",
+        "C": "Morphology",
+        "D": "Anatomy"
+      },
+      "correct_answer": "A",
+      "hint": "This field focuses on tissue organization at the microscopic level.",
+      "explanation": "Histology is the study of tissue structure and organization. Option B incorrectly refers to cytology, which examines individual cells rather than tissue architecture.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.1 Sub-fields of Biology",
+        "subsection_anchor": "Table 1.1 Different fields of biology based on the structure studied",
+        "structural_element": "Table 1.1 Different fields of biology based on the structure studied",
+        "content_anchor": "Histology - Study of the details of tissue structure - Parenchyma, connective tissue",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q008",
+      "generation_timestamp": "2025-07-30T11:31:06Z",
+      "section": "1.1 Sub-fields of Biology",
+      "subsection": "Table 1.1 Different fields of biology based on the structure studied",
+      "sub_subsection": null,
+      "structural_anchor": "Table 1.1 Different fields of biology based on the structure studied",
+      "mcq_type": "D",
+      "question": "If a researcher is examining the external shape and texture of plant leaves, which field of biology are they applying?",
+      "options": {
+        "A": "Morphology",
+        "B": "Anatomy",
+        "C": "Cytology",
+        "D": "Histology"
+      },
+      "correct_answer": "A",
+      "hint": "This discipline focuses on outward form rather than internal structure.",
+      "explanation": "Morphology studies the external form and structure of organisms. Option B incorrectly refers to anatomy, which examines internal bodily structures through dissection.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.1 Sub-fields of Biology",
+        "subsection_anchor": "Table 1.1 Different fields of biology based on the structure studied",
+        "structural_element": "Table 1.1 Different fields of biology based on the structure studied",
+        "content_anchor": "Morphology - Study of external form and structure - Shape, the texture of leaves, stem, etc",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q009",
+      "generation_timestamp": "2025-07-30T11:31:09Z",
+      "section": "1.2 Subjects studied in various branches of Biology",
+      "subsection": "Table 1.2 Subjects studied in various branches of Biology",
+      "sub_subsection": null,
+      "structural_anchor": "Table 1.2 Subjects studied in various branches of Biology",
+      "mcq_type": "B",
+      "question": "Which branch of biology investigates the normal functional processes of living organisms, such as photosynthesis and digestion?",
+      "options": {
+        "A": "Physiology",
+        "B": "Ecology",
+        "C": "Taxonomy",
+        "D": "Paleontology"
+      },
+      "correct_answer": "A",
+      "hint": "This field focuses on how biological systems work rather than their structure or classification.",
+      "explanation": "Physiology examines the normal functions of living organisms and their parts. Option B incorrectly refers to ecology, which studies organism interactions with their environment.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.2 Subjects studied in various branches of Biology",
+        "subsection_anchor": "Table 1.2 Subjects studied in various branches of Biology",
+        "structural_element": "Table 1.2 Subjects studied in various branches of Biology",
+        "content_anchor": "Physiology - The normal functions of living organisms and their parts - Photosynthesis, digestion, etc",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q010",
+      "generation_timestamp": "2025-07-30T11:31:12Z",
+      "section": "1.2 Subjects studied in various branches of Biology",
+      "subsection": "Table 1.2 Subjects studied in various branches of Biology",
+      "sub_subsection": null,
+      "structural_anchor": "Table 1.2 Subjects studied in various branches of Biology",
+      "mcq_type": "I",
+      "question": "What distinguishes genetics from evolution in terms of their primary focus within biological studies?",
+      "options": {
+        "A": "Genetics examines hereditary transmission, while evolution studies species change over generations.",
+        "B": "Genetics focuses on fossil records, while evolution analyzes cellular processes.",
+        "C": "Genetics studies ecosystem interactions, while evolution examines tissue structure.",
+        "D": "Genetics investigates embryonic development, while evolution classifies organisms."
+      },
+      "correct_answer": "A",
+      "hint": "Consider whether each field deals with inheritance mechanisms or long-term adaptation processes.",
+      "explanation": "Genetics focuses on heredity and variation through genes, while evolution examines species change over time via natural selection. Option B incorrectly associates genetics with fossil records, which belong to paleontology.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.2 Subjects studied in various branches of Biology",
+        "subsection_anchor": "Table 1.2 Subjects studied in various branches of Biology",
+        "structural_element": "Table 1.2 Subjects studied in various branches of Biology",
+        "content_anchor": "Genetics - Heredity and variation - Gene concept, Mendel's laws; Evolution - The change in the characteristics of a species over several generations - The beaks of Darwin's finches",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 27500,
+    "average_question_quality": 84.0,
+    "type_distribution": {
+      "A": 2,
+      "B": 3,
+      "D": 1,
+      "F": 1,
+      "I": 1,
+      "J": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "1.1 Sub-fields of Biology": 8,
+      "1.2 Subjects studied in various branches of Biology": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,870 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-03-10T12:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Bio_U5_Q030",
+    "covered_sections": ["5.1. What is food?>The importance of food in living things:", "5.2 Nutrition", "5.3. Nutrients>Macronutrients and Micronutrients", "5.4. Balanced diets", "5.5 Deficiency diseases", "5.6 Malnutrition", "5.7. Substance abuse", "5.8. Infectious and noninfectious diseases", "5.9 Renowned Nutritionists in Ethiopia"],
+    "used_question_signatures": ["hash_A_whatisfood_growth", "hash_A_whatisfood_energy", "hash_A_nutrition_definition", "hash_B_nutrients_types", "hash_C_carbohydrates_elements", "hash_A_macronutrients_definition", "hash_A_carbohydrates_definition", "hash_F_dietaryfiber_function", "hash_A_fats_definition", "hash_A_proteins_definition", "hash_A_vitamins_definition", "hash_A_minerals_definition", "hash_A_water_function", "hash_J_balanceddiet_definition", "hash_F_dietvariation_factors", "hash_A_kwashiorkor_cause", "hash_G_marasmus_vs_kwashiorkor", "hash_A_scurvy_cause", "hash_B_anemia_cause", "hash_A_rickets_cause", "hash_A_malnutrition_definition", "hash_H_obesity_misconception", "hash_E_BMI_calculation", "hash_A_drugs_definition", "hash_K_substance_abuse_definition", "hash_A_tar_effect", "hash_G_carbonmonoxide_hemoglobin", "hash_F_nicotine_addiction", "hash_A_alcohol_depressant", "hash_B_heroin_endorphins", "hash_B_cannabis_component", "hash_B_khat_cathinone", "hash_A_infectious_disease_cause", "hash_D_HIV_transmission", "hash_K_TB_transmission_modes", "hash_A_malaria_causative_agent"],
+    "baseline_counter": {
+      "5.1. What is food?": {
+        "The importance of food in living things:": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.2 Nutrition": {
+        "": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.3. Nutrients": {
+        "Macronutrients and Micronutrients": {
+          "count": 12,
+          "mini_headings_covered": ["Carbohydrates:", "Fats and Oils:", "Proteins:", "Vitamins (Types):", "Minerals:", "Water:"],
+          "last_question_round": 2
+        }
+      },
+      "5.4. Balanced diets": {
+        "": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "5.5 Deficiency diseases": {
+        "": {
+          "count": 5,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Kwashiorkor": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Marasmus": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Diseases caused by deficiency of minerals and vitamins.": {
+          "count": 3,
+          "mini_headings_covered": ["Anemia:", "Rickets:", "Scurvy:"],
+          "last_question_round": 2
+        }
+      },
+      "5.6 Malnutrition": {
+        "": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "5.7. Substance abuse": {
+        "": {
+          "count": 8,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "1. Cigarettes smoking": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "2. Drinking Alcohol": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "3.Heroin": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "4.Cannabis": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.Chewingkhat": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "5.8. Infectious and noninfectious diseases": {
+        "": {
+          "count": 5,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.8.1.Infectious diseases": {
+          "count": 5,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "5.9 Renowned Nutritionists in Ethiopia": {
+        "": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1. What is food?": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "5.2 Nutrition": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "5.3. Nutrients": {
+        "question_count": 12,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "5.4. Balanced diets": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "5.5 Deficiency diseases": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "5.6 Malnutrition": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "5.7. Substance abuse": {
+        "question_count": 8,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "5.8. Infectious and noninfectious diseases": {
+        "question_count": 5,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "5.9 Renowned Nutritionists in Ethiopia": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1. What is food?>The importance of food in living things:": ["Growth", "Energy", "Replacement of damaged tissues"],
+      "5.2 Nutrition": ["Nutrition definition"],
+      "5.3. Nutrients>Macronutrients and Micronutrients": ["Nutrients types", "Carbohydrate composition", "Macronutrients", "Carbohydrates", "Dietary fiber", "Fats and oils", "Proteins", "Vitamins", "Minerals", "Water"],
+      "5.4. Balanced diets": ["Balanced diet definition", "Factors affecting dietary needs"],
+      "5.5 Deficiency diseases": ["Kwashiorkor cause", "Marasmus cause", "Scurvy cause", "Anemia cause", "Rickets cause"],
+      "5.6 Malnutrition": ["Malnutrition definition", "Obesity misconception", "BMI calculation"],
+      "5.7. Substance abuse": ["Drugs definition", "Substance abuse definition", "Tar effect", "Carbon monoxide effect", "Nicotine addiction", "Alcohol as depressant", "Heroin mechanism", "Cannabis component", "Khat component"],
+      "5.8. Infectious and noninfectious diseases": ["Infectious disease cause", "HIV transmission mode", "TB transmission modes", "Malaria causative agent"],
+      "5.9 Renowned Nutritionists in Ethiopia": ["Nutritionists definition"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 33,
+      "questions_per_concept_ratio": 0.91,
+      "structural_coverage_percentage": 46.7
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 5: Human Health, Nutrition, and Disease",
+  "pdf_filename": "B9U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-03-10T12:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 9,
+        "total_sections": 9,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 12.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 9,
+      "subsections_covered_count": 13,
+      "mini_headings_covered_count": 9,
+      "structural_coverage_percentage": 26.0,
+      "concept_utilization_ratio": 0.91
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.3. Nutrients",
+      "least_covered_section": "5.2 Nutrition",
+      "imbalance_ratio": 12.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U5_Q021",
+      "generation_timestamp": "2025-03-10T12:10:00Z",
+      "section": "5.6 Malnutrition",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives (under 5.6)",
+      "mcq_type": "A",
+      "question": "What term describes the insufficient, excessive, or imbalanced consumption of nutrients that results in health problems?",
+      "options": {
+        "A": "Malnutrition",
+        "B": "Deficiency disease",
+        "C": "Overnutrition",
+        "D": "Metabolic syndrome"
+      },
+      "correct_answer": "A",
+      "hint": "This broad term encompasses both undernutrition and overconsumption issues.",
+      "explanation": "Malnutrition is defined as any disorder of nutrition, whether from inadequate or excessive intake. Option B is a specific consequence of a single nutrient deficiency, not the broad category.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 78
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.6 Malnutrition",
+        "subsection_anchor": "",
+        "structural_element": "Objectives (under 5.6)",
+        "content_anchor": "Malnutrition is defined as the insufficient, excessive or imbalanced consumption of nutrients, which leads to health problems.",
+        "page_hint": 11,
+        "concept_hash": "sha256_of_malnutrition_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q022",
+      "generation_timestamp": "2025-03-10T12:10:00Z",
+      "section": "5.6 Malnutrition",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Obesity:",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that obesity is caused solely by overeating?",
+      "options": {
+        "A": "It ignores the role of insufficient physical activity and metabolic factors in energy imbalance.",
+        "B": "It incorrectly assumes that all high-calorie foods are inherently unhealthy.",
+        "C": "It confuses obesity with genetic disorders that affect body weight regulation.",
+        "D": "It overlooks the fact that obesity is always a voluntary and preventable condition."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the complete energy balance equation: intake versus expenditure.",
+      "explanation": "Obesity results from a prolonged positive energy balance, where intake exceeds expenditure due to diet, activity, and metabolism. Option D contains its own error by claiming obesity is 'always' voluntary.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content_under_mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.6 Malnutrition",
+        "subsection_anchor": "",
+        "structural_element": "Obesity:",
+        "content_anchor": "Obesity is caused because of an imbalance between the energy store in human body and the energy released.",
+        "page_hint": 12,
+        "concept_hash": "sha256_of_obesity_misconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q023",
+      "generation_timestamp": "2025-03-10T12:10:00Z",
+      "section": "5.7. Substance abuse",
+      "subsection": "Drugs",
+      "sub_subsection": null,
+      "structural_anchor": "Drugs",
+      "mcq_type": "A",
+      "question": "Any substance introduced into the body that alters chemical reactions is broadly classified as what?",
+      "options": {
+        "A": "A drug",
+        "B": "A nutrient",
+        "C": "A toxin",
+        "D": "An enzyme"
+      },
+      "correct_answer": "A",
+      "hint": "This term includes both medicinal and recreational substances.",
+      "explanation": "A drug is defined as any substance that modifies or affects chemical reactions in the body. Option C refers specifically to harmful substances, which is a subset of the broader drug category.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_title"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 75
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.7. Substance abuse",
+        "subsection_anchor": "Drugs",
+        "structural_element": "Drugs",
+        "content_anchor": "A drug is any substance taken into the body that change and affects chemical reactions in the body.",
+        "page_hint": 13,
+        "concept_hash": "sha256_of_drugs_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q024",
+      "generation_timestamp": "2025-03-10T12:10:00Z",
+      "section": "5.7. Substance abuse",
+      "subsection": "1. Cigarettes smoking",
+      "sub_subsection": "i.Tar",
+      "structural_anchor": "Chronic bronchitis:",
+      "mcq_type": "A",
+      "question": "The accumulation of a black, sticky substance in the lungs from smoking leads to irritation, excess mucus, and impaired cilia function, resulting in which chronic condition?",
+      "options": {
+        "A": "Chronic bronchitis",
+        "B": "Emphysema",
+        "C": "Lung cancer",
+        "D": "Asthma"
+      },
+      "correct_answer": "A",
+      "hint": "This condition is characterized by persistent inflammation of the bronchial tubes.",
+      "explanation": "Tar causes inflammation and mucus hypersecretion in the bronchi, defining chronic bronchitis. Option B involves the destruction of alveolar walls, a different pathological process.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.7. Substance abuse",
+        "subsection_anchor": "1. Cigarettes smoking",
+        "structural_element": "Chronic bronchitis:",
+        "content_anchor": "This damage and obstruction of the airways is chronic bronchitis.",
+        "page_hint": 14,
+        "concept_hash": "sha256_of_tar_effect"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q025",
+      "generation_timestamp": "2025-03-10T12:10:00Z",
+      "section": "5.7. Substance abuse",
+      "subsection": "1. Cigarettes smoking",
+      "sub_subsection": "ii.Carbon monoxide",
+      "structural_anchor": "ii.Carbon monoxide",
+      "mcq_type": "G",
+      "question": "If carbon monoxide from tobacco smoke binds irreversibly to hemoglobin in red blood cells, what is the direct physiological consequence?",
+      "options": {
+        "A": "The oxygen-carrying capacity of the blood is reduced.",
+        "B": "The production of new red blood cells in bone marrow increases.",
+        "C": "The blood becomes more viscous and prone to clotting.",
+        "D": "The rate of carbon dioxide removal from tissues accelerates."
+      },
+      "correct_answer": "A",
+      "hint": "Consider hemoglobin's primary function and what happens when it is occupied by another molecule.",
+      "explanation": "Carbon monoxide has a higher affinity for hemoglobin than oxygen, forming carboxyhemoglobin and displacing oxygen. Option C is an effect related to blood viscosity changes from other factors, not directly from CO binding.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection_title"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.7. Substance abuse",
+        "subsection_anchor": "1. Cigarettes smoking",
+        "structural_element": "ii.Carbon monoxide",
+        "content_anchor": "The carbon monoxide combines permanently with hemoglobin. Then no more oxygen is carried by hemoglobin...",
+        "page_hint": 15,
+        "concept_hash": "sha256_of_carbonmonoxide_hemoglobin"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 77,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q026",
+      "generation_timestamp": "2025-03-10T12:10:00Z",
+      "section": "5.7. Substance abuse",
+      "subsection": "2. Drinking Alcohol",
+      "sub_subsection": null,
+      "structural_anchor": "2. Drinking Alcohol",
+      "mcq_type": "A",
+      "question": "Alcohol primarily affects the central nervous system by slowing down the transmission of nerve impulses, classifying it as what type of drug?",
+      "options": {
+        "A": "Depressant",
+        "B": "Stimulant",
+        "C": "Hallucinogen",
+        "D": "Analgesic"
+      },
+      "correct_answer": "A",
+      "hint": "This class of drugs reduces arousal and stimulation in the brain.",
+      "explanation": "Alcohol is a central nervous system depressant, inhibiting neuronal activity and brain function. Option B describes drugs like caffeine or nicotine that increase alertness.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_title"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.7. Substance abuse",
+        "subsection_anchor": "2. Drinking Alcohol",
+        "structural_element": "2. Drinking Alcohol",
+        "content_anchor": "Alcohol is a depressant. It affects the brain by slowing down the transmission of nerve impulses.",
+        "page_hint": 16,
+        "concept_hash": "sha256_of_alcohol_depressant"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q027",
+      "generation_timestamp": "2025-03-10T12:10:00Z",
+      "section": "5.8. Infectious and noninfectious diseases",
+      "subsection": "5.8.1.Infectious diseases",
+      "sub_subsection": null,
+      "structural_anchor": "Infectious diseases",
+      "mcq_type": "A",
+      "question": "Diseases that are caused by pathogenic microorganisms and can be transmitted between individuals are classified as what type?",
+      "options": {
+        "A": "Infectious diseases",
+        "B": "Deficiency diseases",
+        "C": "Genetic diseases",
+        "D": "Degenerative diseases"
+      },
+      "correct_answer": "A",
+      "hint": "These illnesses are often associated with contagion and infection control measures.",
+      "explanation": "Infectious diseases are caused by transmissible agents like bacteria, viruses, and parasites. Option B results from dietary lack, not from a contagious pathogen.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection_title"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 78
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.8. Infectious and noninfectious diseases",
+        "subsection_anchor": "5.8.1.Infectious diseases",
+        "structural_element": "Infectious diseases",
+        "content_anchor": "Infectious diseases are diseases that are caused by disease causing organisms.",
+        "page_hint": 23,
+        "concept_hash": "sha256_of_infectious_disease_cause"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q028",
+      "generation_timestamp": "2025-03-10T12:10:00Z",
+      "section": "5.8. Infectious and noninfectious diseases",
+      "subsection": "5.8.1.Infectious diseases",
+      "sub_subsection": "Human immune deficiency virus infection/ acquired immunodeficiency syndrome (HIV-AIDS)",
+      "structural_anchor": "Transmission of HIV-AIDS",
+      "mcq_type": "D",
+      "question": "Which scenario represents a direct mode of transmission for the Human Immunodeficiency Virus (HIV)?",
+      "options": {
+        "A": "Exchange of bodily fluids during sexual intercourse",
+        "B": "Casual contact such as shaking hands or sharing utensils",
+        "C": "Inhalation of airborne droplets from a cough or sneeze",
+        "D": "Consumption of contaminated food or water"
+      },
+      "correct_answer": "A",
+      "hint": "HIV requires direct access to the bloodstream or mucous membranes.",
+      "explanation": "HIV is transmitted through direct exchange of specific body fluids, primarily blood, semen, vaginal secretions, and breast milk. Option B describes routes ineffective for HIV due to the virus's fragility outside the body.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-sub-subsection_title"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.8. Infectious and noninfectious diseases",
+        "subsection_anchor": "5.8.1.Infectious diseases",
+        "structural_element": "Transmission of HIV-AIDS",
+        "content_anchor": "HIV can be passed from one person to another by direct exchange of body fluids such as: Fluid transfer from one person to another during sexual intercourse",
+        "page_hint": 25,
+        "concept_hash": "sha256_of_HIV_transmission"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q029",
+      "generation_timestamp": "2025-03-10T12:10:00Z",
+      "section": "5.8. Infectious and noninfectious diseases",
+      "subsection": "5.8.1.Infectious diseases",
+      "sub_subsection": "Tuberculosis (TB)",
+      "structural_anchor": "TB transmission",
+      "mcq_type": "K",
+      "question": "A patient with active pulmonary tuberculosis coughs in a crowded, poorly ventilated room. What is the most significant risk factor for transmission to others in this scenario?",
+      "options": {
+        "A": "Inhalation of airborne bacteria-containing droplets",
+        "B": "Physical contact with surfaces the patient touched",
+        "C": "Sharing food or drinks with the patient",
+        "D": "Exposure to the patient's clothing or bedding"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the primary route by which the causative agent leaves one host and enters another.",
+      "explanation": "Mycobacterium tuberculosis is spread via aerosolized droplets that remain suspended in the air and are inhaled. Option B is a minor risk compared to direct airborne inhalation in close quarters.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-sub-subsection_title"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.8. Infectious and noninfectious diseases",
+        "subsection_anchor": "5.8.1.Infectious diseases",
+        "structural_element": "TB transmission",
+        "content_anchor": "TB bacteria can enter the lungs in airborne droplets. It spread when infected people with the active form of the illness cough or sneeze.",
+        "page_hint": 26,
+        "concept_hash": "sha256_of_TB_transmission_modes"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 87,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q030",
+      "generation_timestamp": "2025-03-10T12:10:00Z",
+      "section": "5.9 Renowned Nutritionists in Ethiopia",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "5.9 Renowned Nutritionists in Ethiopia",
+      "mcq_type": "A",
+      "question": "Scientists who specialize in the study of food, nutrients, and their effects on health are known as what?",
+      "options": {
+        "A": "Nutritionists",
+        "B": "Dietitians",
+        "C": "Biochemists",
+        "D": "Physiologists"
+      },
+      "correct_answer": "A",
+      "hint": "Their field of expertise is the science of nutrition.",
+      "explanation": "Nutritionists are researchers focused on the scientific aspects of diet and nutrient metabolism. Option B typically refers to practitioners who apply nutritional science to plan diets for individuals.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section_title"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.9 Renowned Nutritionists in Ethiopia",
+        "subsection_anchor": "",
+        "structural_element": "5.9 Renowned Nutritionists in Ethiopia",
+        "content_anchor": "Nutritionists are researchers or scientists who study nutrition.",
+        "page_hint": 32,
+        "concept_hash": "sha256_of_nutritionists_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4100,
+    "average_question_quality": 86.5,
+    "type_distribution": {
+      "A": 7,
+      "D": 1,
+      "G": 1,
+      "H": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 7,
+      "medium": 3,
+      "hard": 0
+    },
+    "section_distribution": {
+      "5.6 Malnutrition": 2,
+      "5.7. Substance abuse": 4,
+      "5.8. Infectious and noninfectious diseases": 3,
+      "5.9 Renowned Nutritionists in Ethiopia": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

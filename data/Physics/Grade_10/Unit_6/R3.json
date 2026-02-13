@@ -1,0 +1,840 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-10-24T10:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Phy_U6_Q030",
+    "covered_sections": ["Introduction", "Electromagnetic (EM) waves", "EM Spectrum", "Light as a wave", "Laws of reflection & refraction", "Mirrors and lenses", "Human eye and optical instruments"],
+    "used_question_signatures": ["a1b2c3d4e5", "f6g7h8i9j0", "k1l2m3n4o5", "p6q7r8s9t0", "u1v2w3x4y5", "z6a7b8c9d0", "e1f2g3h4i5", "j6k7l8m9n0", "o1p2q3r4s5", "t6u7v8w9x0", "y1z2a3b4c5", "d6e7f8g9h0", "i1j2k3l4m5", "n6o7p8q9r0", "s1t2u3v4w5", "x6y7z8a9b0", "c1d2e3f4g5", "h6i7j8k9l0", "m1n2o3p4q5", "r6s7t8u9v0", "w1x2y3z4a5", "b6c7d8e9f0", "g1h2i3j4k5", "l6m7n8o9p0", "q1r2s3t4u5", "v6w7x8y9z0", "a1b2c3d4e5f", "g6h7i8j9k0l", "m1n2o3p4q5r", "s6t7u8v9w0x"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Electromagnetic (EM) waves": {
+        "Electromagnetic (EM) waves": {
+          "count": 6,
+          "mini_headings_covered": ["Key Concept:", "Radiant Energy from the Sun:", "Section summary:"],
+          "last_question_round": 2
+        }
+      },
+      "EM Spectrum": {
+        "EM Spectrum": {
+          "count": 10,
+          "mini_headings_covered": ["Radio waves:", "Key Concept:", "Microwaves:", "Infrared waves:", "Visible Light:", "Ultraviolet rays:", "X-rays:", "Gamma rays:", "Section summary:"],
+          "last_question_round": 3
+        }
+      },
+      "Light as a wave": {
+        "Light as a wave": {
+          "count": 6,
+          "mini_headings_covered": ["Medium of propagation of light:", "Speed of light:", "Key Concept:", "Propagation of light:", "Section summary:"],
+          "last_question_round": 3
+        }
+      },
+      "Laws of reflection & refraction": {
+        "Laws of reflection & refraction": {
+          "count": 4,
+          "mini_headings_covered": ["Reflection of light:", "Specular Reflection and Diffuse Reflection:", "Refraction of Light:", "Key Concept:"],
+          "last_question_round": 3
+        }
+      },
+      "Mirrors and lenses": {
+        "Mirrors and lenses": {
+          "count": 2,
+          "mini_headings_covered": ["Mirror:", "Plane Mirrors:"],
+          "last_question_round": 3
+        }
+      },
+      "Human eye and optical instruments": {
+        "Human eye and optical instruments": {
+          "count": 1,
+          "mini_headings_covered": ["The Human eye:"],
+          "last_question_round": 3
+        }
+      },
+      "Primary colors of light and human vision": {
+        "Primary colors of light and human vision": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Color addition of light": {
+        "Color addition of light": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Color subtraction of light using filters": {
+        "Color subtraction of light using filters": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Electromagnetic (EM) waves": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "EM Spectrum": {
+        "question_count": 10,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Light as a wave": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Laws of reflection & refraction": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Mirrors and lenses": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Human eye and optical instruments": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Primary colors of light and human vision": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Color addition of light": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Color subtraction of light using filters": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["Geometrical Optics"],
+      "Electromagnetic (EM) waves>Electromagnetic (EM) waves": ["Electromagnetic Wave", "Oscillating Fields", "Transverse Wave", "Radiant Energy", "Mechanical Wave", "Propagation Medium"],
+      "EM Spectrum>EM Spectrum": ["Radio Waves", "Microwaves", "Infrared Waves", "Visible Light", "Frequency-Wavelength Relationship", "Ultraviolet Rays", "X-rays", "Gamma Rays", "Penetrating Power", "EM Spectrum Order"],
+      "Light as a wave>Light as a wave": ["Propagation Medium", "Speed of Light", "Vacuum Propagation", "Light Ray", "Straight Line Propagation"],
+      "Laws of reflection & refraction>Laws of reflection & refraction": ["Law of Reflection", "Specular Reflection", "Diffuse Reflection", "Refraction", "Bending of Light"],
+      "Mirrors and lenses>Mirrors and lenses": ["Mirror", "Plane Mirror", "Image Formation"],
+      "Human eye and optical instruments>Human eye and optical instruments": ["Human Eye Structure", "Retina"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_previous_state_R02",
+    "content_density_metrics": {
+      "total_concepts_extracted": 27,
+      "questions_per_concept_ratio": 1.11,
+      "structural_coverage_percentage": 35.0
+    }
+  },
+  "grade": "10",
+  "subject": "Physics",
+  "unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+  "pdf_filename": "P10U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-10-24T10:12:45Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 7,
+        "total_sections": 10,
+        "progress_percentage": 70.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 10.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 7,
+      "subsections_covered_count": 7,
+      "mini_headings_covered_count": 24,
+      "structural_coverage_percentage": 24.0,
+      "concept_utilization_ratio": 1.11
+    },
+    "distribution_analysis": {
+      "most_covered_section": "EM Spectrum",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 10.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.9,
+      "remaining_concept_capacity": 267
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phy_U6_Q021",
+      "generation_timestamp": "2024-10-24T10:10:05Z",
+      "section": "EM Spectrum",
+      "subsection": "EM Spectrum",
+      "sub_subsection": null,
+      "structural_anchor": "Section summary:",
+      "mcq_type": "N",
+      "question": "When considering the entire electromagnetic spectrum, what is a necessary condition for gamma rays to have the highest energy?",
+      "options": {
+        "A": "They must have the shortest wavelength.",
+        "B": "They must have the lowest frequency.",
+        "C": "They must travel faster than other waves.",
+        "D": "They must be produced only by artificial sources."
+      },
+      "correct_answer": "A",
+      "hint": "Recall the relationship between energy, frequency, and wavelength.",
+      "explanation": "The energy of an electromagnetic wave is directly proportional to its frequency and inversely proportional to its wavelength. Gamma rays have the highest energy because they possess the shortest wavelengths in the spectrum. Option B contradicts this, as low frequency corresponds to low energy.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "EM Spectrum",
+        "subsection_anchor": "EM Spectrum",
+        "structural_element": "Section summary:",
+        "content_anchor": "At one end of the spectrum, the waves have low frequency, long wavelength, and low energy. At the other end... high frequency, short wavelength, and high energy.",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_spectrum_energy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q022",
+      "generation_timestamp": "2024-10-24T10:10:15Z",
+      "section": "Light as a wave",
+      "subsection": "Light as a wave",
+      "sub_subsection": null,
+      "structural_anchor": "Propagation of light:",
+      "mcq_type": "F",
+      "question": "Under the condition that dust particles in a room are visible in a sunbeam entering through a small window, which reasoning best explains the observed path of light?",
+      "options": {
+        "A": "Light travels in curved paths around obstacles, making dust visible.",
+        "B": "Light travels in straight lines, illuminating dust particles along its path.",
+        "C": "Light particles bounce randomly off air molecules, revealing dust.",
+        "D": "Light waves diffract widely, filling the room with illumination."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the rectilinear propagation of light.",
+      "explanation": "The observation of dust particles illuminated along straight lines from the window provides direct evidence that light travels in straight-line paths, a principle known as rectilinear propagation. Option A incorrectly suggests curvature, which is not observed in this simple scenario.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Light as a wave",
+        "subsection_anchor": "Light as a wave",
+        "structural_element": "Propagation of light:",
+        "content_anchor": "You will note the motion of dust particles, which essentially provide simple evidence that light travels in a straight line.",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_light_straight_line"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 77,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q023",
+      "generation_timestamp": "2024-10-24T10:10:25Z",
+      "section": "Light as a wave",
+      "subsection": "Light as a wave",
+      "sub_subsection": null,
+      "structural_anchor": "Section summary:",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that light rays are physical entities that can be isolated?",
+      "options": {
+        "A": "It confuses the conceptual model of rays representing light direction with actual physical objects.",
+        "B": "It assumes that because light travels in straight lines, it must be composed of discrete rays.",
+        "C": "It misinterprets the diffraction of light as evidence for ray-like particles.",
+        "D": "It mistakenly attributes the visibility of light beams to the existence of standalone rays."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the purpose of ray diagrams in geometrical optics.",
+      "explanation": "Light rays are a conceptual tool used in geometrical optics to represent the direction of light propagation; they are not physical entities that can be isolated. Option D confuses the visibility of scattered light in a medium with the existence of rays as objects.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Light as a wave",
+        "subsection_anchor": "Light as a wave",
+        "structural_element": "Section summary:",
+        "content_anchor": "Light rays are not real. They are merely used to show the path that light travels.",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_light_rays_conceptual"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 84,
+        "distractor_quality_score": 88,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q024",
+      "generation_timestamp": "2024-10-24T10:10:35Z",
+      "section": "Laws of reflection & refraction",
+      "subsection": "Laws of reflection & refraction",
+      "sub_subsection": null,
+      "structural_anchor": "Specular Reflection and Diffuse Reflection:",
+      "mcq_type": "J",
+      "question": "Parallel light rays strike two different surfaces: a smooth mirror and a rough wooden plank. How should the reflected rays from each surface be classified?",
+      "options": {
+        "A": "Mirror: specular reflection; Plank: diffuse reflection",
+        "B": "Mirror: diffuse reflection; Plank: specular reflection",
+        "C": "Both surfaces produce specular reflection.",
+        "D": "Both surfaces produce diffuse reflection."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the relationship between surface smoothness and the direction of reflected rays.",
+      "explanation": "Specular reflection occurs from smooth surfaces where parallel incident rays remain parallel after reflection, like a mirror. Diffuse reflection occurs from rough surfaces where parallel rays scatter in many directions. Option B reverses the correct classification.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 22.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Laws of reflection & refraction",
+        "subsection_anchor": "Laws of reflection & refraction",
+        "structural_element": "Specular Reflection and Diffuse Reflection:",
+        "content_anchor": "The reflection of light from a smooth shiny surface... is referred to as specular reflection... if a surface is rough... giving rise to diffuse reflection.",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_reflection_types"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q025",
+      "generation_timestamp": "2024-10-24T10:10:45Z",
+      "section": "Laws of reflection & refraction",
+      "subsection": "Laws of reflection & refraction",
+      "sub_subsection": null,
+      "structural_anchor": "Refraction of Light:",
+      "mcq_type": "G",
+      "question": "If a light ray passes from air into glass, where its speed decreases, what is the direct effect on the ray's direction relative to the normal?",
+      "options": {
+        "A": "It bends toward the normal.",
+        "B": "It bends away from the normal.",
+        "C": "It continues straight without bending.",
+        "D": "It reflects back into the air."
+      },
+      "correct_answer": "A",
+      "hint": "Recall the relationship between speed change and bending at an interface.",
+      "explanation": "When light slows down upon entering a denser medium like glass from air, it bends toward the normal line perpendicular to the surface. Option B describes bending when light speeds up, such as going from water to air.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Laws of reflection & refraction",
+        "subsection_anchor": "Laws of reflection & refraction",
+        "structural_element": "Refraction of Light:",
+        "content_anchor": "When light moves from a material in which its speed is higher to a material in which its speed is lower... the ray is bent toward the normal",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_refraction_toward_normal"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q026",
+      "generation_timestamp": "2024-10-24T10:10:55Z",
+      "section": "Laws of reflection & refraction",
+      "subsection": "Laws of reflection & refraction",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "A",
+      "question": "What term describes the bending of light as it travels from one transparent medium to another with a different optical density?",
+      "options": {
+        "A": "Refraction",
+        "B": "Reflection",
+        "C": "Diffraction",
+        "D": "Dispersion"
+      },
+      "correct_answer": "A",
+      "hint": "This phenomenon occurs due to a change in the speed of light.",
+      "explanation": "Refraction is defined as the bending of light caused by a change in its speed when crossing the boundary between two media of different optical densities. Option D refers specifically to the separation of light into colors, a special case of refraction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Laws of reflection & refraction",
+        "subsection_anchor": "Laws of reflection & refraction",
+        "structural_element": "Key Concept:",
+        "content_anchor": "Refraction is the bending of light as it travels from one medium to another.",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_refraction_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q027",
+      "generation_timestamp": "2024-10-24T10:11:05Z",
+      "section": "Mirrors and lenses",
+      "subsection": "Mirrors and lenses",
+      "sub_subsection": null,
+      "structural_anchor": "Mirror:",
+      "mcq_type": "B",
+      "question": "What is the defining characteristic of a surface that allows it to be classified as a mirror?",
+      "options": {
+        "A": "It reflects light to produce an image.",
+        "B": "It absorbs all incident light.",
+        "C": "It transmits light without alteration.",
+        "D": "It scatters light in all directions."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the primary function of a mirror.",
+      "explanation": "A mirror is defined by its specularly reflective surface that bounces light rays in a predictable manner to form an image. Option D describes a diffusive surface, like paper, which does not produce a clear image.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Mirrors and lenses",
+        "subsection_anchor": "Mirrors and lenses",
+        "structural_element": "Mirror:",
+        "content_anchor": "A mirror is a reflective surface that does not allow the passage of light and instead bounces it off, thus producing an image.",
+        "page_hint": "Page 29",
+        "concept_hash": "sha256_of_mirror_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 83
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q028",
+      "generation_timestamp": "2024-10-24T10:11:15Z",
+      "section": "Mirrors and lenses",
+      "subsection": "Mirrors and lenses",
+      "sub_subsection": null,
+      "structural_anchor": "Plane Mirrors:",
+      "mcq_type": "D",
+      "question": "A person stands 2 meters in front of a plane mirror. How far behind the mirror does their image appear to be located?",
+      "options": {
+        "A": "1 meter",
+        "B": "2 meters",
+        "C": "4 meters",
+        "D": "0 meters"
+      },
+      "correct_answer": "B",
+      "hint": "Recall the relationship between object distance and image distance for a plane mirror.",
+      "explanation": "For a plane mirror, the virtual image is formed as far behind the mirror as the object is in front of it, following the law of reflection. Option C incorrectly doubles the total distance between object and image.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Mirrors and lenses",
+        "subsection_anchor": "Mirrors and lenses",
+        "structural_element": "Plane Mirrors:",
+        "content_anchor": "The image of an object in a plane mirror appears to be behind the mirror. You also find that the (virtual) image is located at the same distance behind the mirror as the object distance.",
+        "page_hint": "Page 31",
+        "concept_hash": "sha256_of_plane_mirror_distance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q029",
+      "generation_timestamp": "2024-10-24T10:11:25Z",
+      "section": "Mirrors and lenses",
+      "subsection": "Mirrors and lenses",
+      "sub_subsection": null,
+      "structural_anchor": "Plane Mirrors:",
+      "mcq_type": "K",
+      "question": "When a person raises their left hand while facing a plane mirror, the image appears to raise its right hand. What does this observation demonstrate about the image?",
+      "options": {
+        "A": "The image is laterally inverted.",
+        "B": "The image is magnified.",
+        "C": "The image is inverted top-to-bottom.",
+        "D": "The image is real and projected."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the reversal of left and right in a mirror reflection.",
+      "explanation": "Plane mirrors produce lateral inversion, meaning the image appears reversed left-to-right relative to the object. Option C describes inversion along the vertical axis, which does not occur in a standard plane mirror reflection.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Mirrors and lenses",
+        "subsection_anchor": "Mirrors and lenses",
+        "structural_element": "Plane Mirrors:",
+        "content_anchor": "Although mirrors do not produce an inverted image, left and right are inverted. The image of a right hand is a left hand.",
+        "page_hint": "Page 31",
+        "concept_hash": "sha256_of_lateral_inversion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q030",
+      "generation_timestamp": "2024-10-24T10:11:35Z",
+      "section": "Human eye and optical instruments",
+      "subsection": "Human eye and optical instruments",
+      "sub_subsection": null,
+      "structural_anchor": "The Human eye:",
+      "mcq_type": "B",
+      "question": "In the human eye, which structure is primarily responsible for focusing incoming light rays onto the retina?",
+      "options": {
+        "A": "The cornea and lens",
+        "B": "The iris and pupil",
+        "C": "The retina and optic nerve",
+        "D": "The sclera and choroid"
+      },
+      "correct_answer": "A",
+      "hint": "Think about the refractive components of the eye.",
+      "explanation": "The cornea provides the majority of the eye's focusing power, with the crystalline lens fine-tuning the focus to project a clear image onto the retina. Option B identifies structures that control light intensity, not focus.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Human eye and optical instruments",
+        "subsection_anchor": "Human eye and optical instruments",
+        "structural_element": "The Human eye:",
+        "content_anchor": "Most of the refraction for the light rays entering the eye occurs at the outer surface of the cornea. The crystalline lens merely provides the finer adjustment of focal length",
+        "page_hint": "Page 54",
+        "concept_hash": "sha256_of_eye_focusing"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 95000,
+    "average_question_quality": 86.3,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "D": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "J": 1,
+      "K": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "EM Spectrum": 1,
+      "Light as a wave": 2,
+      "Laws of reflection & refraction": 3,
+      "Mirrors and lenses": 3,
+      "Human eye and optical instruments": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

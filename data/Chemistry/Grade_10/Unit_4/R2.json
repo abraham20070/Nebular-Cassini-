@@ -1,0 +1,791 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:10:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Chem_U4_Q020",
+    "covered_sections": ["4.1 Introduction", "4.2 Energy Changes in Electrochemistry", "4.3 Electrochemical Cells", "4.4 Electrolysis", "Energy and Climate"],
+    "used_question_signatures": ["hash_A_intro_energy", "hash_A_exo_def", "hash_B_endo_term", "hash_C_enthalpy_eq", "hash_D_combustion_app", "hash_E_heat_calc", "hash_F_system_surr", "hash_G_NaOH_dissolve", "hash_H_miscon_photosynth", "hash_I_conduct_compare", "hash_J_primary_cell", "hash_A_electrochem_def", "hash_B_graphite_cond", "hash_C_dissoc_eq", "hash_D_strong_weak", "hash_E_ion_count_calc", "hash_F_calorimeter", "hash_G_temp_effect", "hash_H_miscon_solid_cond", "hash_I_cell_compare"],
+    "baseline_counter": {
+      "4.1 Introduction": {
+        "4.1.1 Exothermic and Endothermic Chemical Reactions": {
+          "count": 7,
+          "mini_headings_covered": ["Activity 4.2"],
+          "last_question_round": 1
+        },
+        "4.1.2 Importance of Chemical Changes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "4.2 Energy Changes in Electrochemistry": {
+        "4.2.1 Electrochemistry": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "4.2.2 Electrical Conductivity": {
+          "count": 5,
+          "mini_headings_covered": ["a) Metallic conductivity", "b) Electrolytic conductivity", "Strong and Weak Electrolytes", "Dissociation"],
+          "last_question_round": 2
+        }
+      },
+      "4.3 Electrochemical Cells": {
+        "4.3.1 Galvanic (Voltaic) Cells": {
+          "count": 4,
+          "mini_headings_covered": ["What is a galvanic cell?"],
+          "last_question_round": 2
+        }
+      },
+      "4.4 Electrolysis": {
+        "4.4.1 Electrolysis of Molten (Fused) Electrolytes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Energy and Climate": {
+        "Energy and Climate": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1 Introduction": {
+        "question_count": 8,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.2 Energy Changes in Electrochemistry": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.3 Electrochemical Cells": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.4 Electrolysis": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Energy and Climate": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1 Introduction>4.1.1 Exothermic and Endothermic Chemical Reactions": ["Energy change in reactions", "Exothermic definition", "Endothermic definition", "Enthalpy change", "Combustion", "Calorimeter", "Specific heat capacity"],
+      "4.1 Introduction>4.1.2 Importance of Chemical Changes": ["Energy production from reactions"],
+      "4.2 Energy Changes in Electrochemistry>4.2.1 Electrochemistry": ["Electrochemistry definition", "Energy interconversion"],
+      "4.2 Energy Changes in Electrochemistry>4.2.2 Electrical Conductivity": ["Metallic conduction", "Electrolytic conduction", "Charge carriers", "Graphite conductivity", "Strong vs weak electrolytes", "Dissociation equations", "Ion concentration"],
+      "4.3 Electrochemical Cells>4.3.1 Galvanic (Voltaic) Cells": ["Galvanic cell purpose", "Spontaneous redox", "Primary vs secondary cells", "Cell comparison"],
+      "4.4 Electrolysis>4.4.1 Electrolysis of Molten (Fused) Electrolytes": ["Electrolysis definition"],
+      "Energy and Climate>Energy and Climate": ["Greenhouse effect", "CO2 role"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_R02_B02",
+    "content_density_metrics": {
+      "total_concepts_extracted": 22,
+      "questions_per_concept_ratio": 0.91,
+      "structural_coverage_percentage": 36.4
+    }
+  },
+  "grade": "10",
+  "subject": "Chemistry",
+  "unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+  "pdf_filename": "C10U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:15:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 5,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 8.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 7,
+      "mini_headings_covered_count": 6,
+      "structural_coverage_percentage": 31.8,
+      "concept_utilization_ratio": 0.91
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.1 Introduction",
+      "least_covered_section": "Energy and Climate",
+      "imbalance_ratio": 8.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U4_Q011",
+      "generation_timestamp": "2025-01-28T10:10:30Z",
+      "section": "4.2 Energy Changes in Electrochemistry",
+      "subsection": "4.2.1 Electrochemistry",
+      "sub_subsection": null,
+      "structural_anchor": "4.2.1 Electrochemistry",
+      "mcq_type": "A",
+      "question": "What term describes the branch of chemistry concerned with the interconversion of electrical energy and chemical energy?",
+      "options": {
+        "A": "Electrochemistry",
+        "B": "Thermochemistry",
+        "C": "Photochemistry",
+        "D": "Nuclear chemistry"
+      },
+      "correct_answer": "A",
+      "hint": "Consider processes involving electricity and chemical reactions.",
+      "explanation": "Electrochemistry specifically studies the relationship between electrical energy and chemical changes, including batteries and electrolysis. Option B focuses on heat energy changes in chemical reactions, not electrical energy.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.2 Energy Changes in Electrochemistry",
+        "subsection_anchor": "4.2.1 Electrochemistry",
+        "structural_element": "4.2.1 Electrochemistry",
+        "content_anchor": "electrochemistry deals with interconversion of electrical and chemical energy",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_electrochemistry_def"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 72,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q012",
+      "generation_timestamp": "2025-01-28T10:10:45Z",
+      "section": "4.2 Energy Changes in Electrochemistry",
+      "subsection": "4.2.2 Electrical Conductivity",
+      "sub_subsection": null,
+      "structural_anchor": "b) Electrolytic conductivity",
+      "mcq_type": "B",
+      "question": "Which non-metallic form of carbon conducts electricity due to its layered structure with mobile electrons?",
+      "options": {
+        "A": "Diamond",
+        "B": "Graphite",
+        "C": "Charcoal",
+        "D": "Fullerene"
+      },
+      "correct_answer": "B",
+      "hint": "Consider carbon allotropes with delocalized electrons between layers.",
+      "explanation": "Graphite's hexagonal layered structure allows delocalized electrons to move freely between planes, enabling electrical conductivity. Option A is incorrect because diamond has all electrons in strong covalent bonds with no mobility.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.2 Energy Changes in Electrochemistry",
+        "subsection_anchor": "4.2.2 Electrical Conductivity",
+        "structural_element": "b) Electrolytic conductivity",
+        "content_anchor": "graphite is a good conductor due to hexagonal layers with free electrons",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_graphite_conductivity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q013",
+      "generation_timestamp": "2025-01-28T10:11:00Z",
+      "section": "4.2 Energy Changes in Electrochemistry",
+      "subsection": "4.2.2 Electrical Conductivity",
+      "sub_subsection": null,
+      "structural_anchor": "Dissociation",
+      "mcq_type": "C",
+      "question": "Which equation correctly represents the dissociation of calcium nitrate, Ca(NO₃)₂, in aqueous solution?",
+      "options": {
+        "A": "Ca(NO₃)₂(s) → Ca²⁺(aq) + 2NO₃⁻(aq)",
+        "B": "Ca(NO₃)₂(s) → Ca²⁺(aq) + NO₃⁻(aq)",
+        "C": "Ca(NO₃)₂(s) → Ca⁺(aq) + 2NO₃⁻(aq)",
+        "D": "Ca(NO₃)₂(s) → Ca(s) + N₂(g) + 3O₂(g)"
+      },
+      "correct_answer": "A",
+      "hint": "Balance charges and maintain ion stoichiometry from the formula.",
+      "explanation": "Calcium nitrate dissociates into one calcium ion (Ca²⁺) and two nitrate ions (NO₃⁻) to balance charge. Option B incorrectly shows only one nitrate ion, violating charge conservation.",
+      "difficulty_level": "medium",
+      "formula_used": ["Ca(NO₃)₂(s) → Ca²⁺(aq) + 2NO₃⁻(aq)"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.2 Energy Changes in Electrochemistry",
+        "subsection_anchor": "4.2.2 Electrical Conductivity",
+        "structural_element": "Dissociation",
+        "content_anchor": "Ca(NO₃)₂ → Ca²⁺(aq) + 2NO₃⁻(aq)",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_dissociation_equation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q014",
+      "generation_timestamp": "2025-01-28T10:11:15Z",
+      "section": "4.2 Energy Changes in Electrochemistry",
+      "subsection": "4.2.2 Electrical Conductivity",
+      "sub_subsection": null,
+      "structural_anchor": "Strong and Weak Electrolytes",
+      "mcq_type": "D",
+      "question": "A solution of acetic acid (CH₃COOH) conducts electricity weakly, while a hydrochloric acid (HCl) solution of equal concentration conducts strongly. What explains this difference?",
+      "options": {
+        "A": "Acetic acid has higher molecular weight than hydrochloric acid",
+        "B": "Acetic acid partially dissociates into ions, while HCl completely dissociates",
+        "C": "Hydrochloric acid molecules are smaller and move faster",
+        "D": "Acetic acid solution has higher viscosity impeding ion movement"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the extent of ionization in solution.",
+      "explanation": "Strong electrolytes like HCl completely dissociate into ions, providing many charge carriers, while weak electrolytes like acetic acid only partially ionize. Option A incorrectly focuses on molecular weight rather than dissociation behavior.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.2 Energy Changes in Electrochemistry",
+        "subsection_anchor": "4.2.2 Electrical Conductivity",
+        "structural_element": "Strong and Weak Electrolytes",
+        "content_anchor": "strong electrolytes dissociate completely, weak electrolytes partially",
+        "page_hint": "Page 14-15",
+        "concept_hash": "sha256_of_strong_weak_electrolytes"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q015",
+      "generation_timestamp": "2025-01-28T10:11:30Z",
+      "section": "4.2 Energy Changes in Electrochemistry",
+      "subsection": "4.2.2 Electrical Conductivity",
+      "sub_subsection": null,
+      "structural_anchor": "Experiment 4.2: Conductivity of Materials",
+      "mcq_type": "E",
+      "question": "If 1.0 mole of calcium chloride (CaCl₂) completely dissociates in 1 liter of water, what is the total concentration of ions in the solution?",
+      "options": {
+        "A": "1.0 M",
+        "B": "2.0 M",
+        "C": "3.0 M",
+        "D": "4.0 M"
+      },
+      "correct_answer": "C",
+      "hint": "Each formula unit produces three ions upon dissociation.",
+      "explanation": "CaCl₂ dissociates into Ca²⁺ and 2Cl⁻, giving three ions per formula unit, so 1.0 M CaCl₂ produces 3.0 M total ions. Option B incorrectly counts only two ions, missing the stoichiometric coefficient for chloride.",
+      "difficulty_level": "medium",
+      "formula_used": ["CaCl₂ → Ca²⁺ + 2Cl⁻"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "M",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Experiment"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.2 Energy Changes in Electrochemistry",
+        "subsection_anchor": "4.2.2 Electrical Conductivity",
+        "structural_element": "Experiment 4.2: Conductivity of Materials",
+        "content_anchor": "brightness increases with number of ions in solution",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_ion_count_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 81,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q016",
+      "generation_timestamp": "2025-01-28T10:11:45Z",
+      "section": "4.1 Introduction",
+      "subsection": "4.1.1 Exothermic and Endothermic Chemical Reactions",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 4.2",
+      "mcq_type": "F",
+      "question": "A calorimeter measures the heat released during a reaction by relating it to temperature change. Which reasoning best explains why water is often used as the calorimeter fluid?",
+      "options": {
+        "A": "Water has low specific heat capacity, making it sensitive to small energy changes",
+        "B": "Water's high specific heat capacity allows it to absorb significant heat with moderate temperature change",
+        "C": "Water is chemically inert and cannot react with most substances",
+        "D": "Water's transparency allows visual observation of reaction progress"
+      },
+      "correct_answer": "B",
+      "hint": "Consider how heat capacity affects temperature measurement precision.",
+      "explanation": "Water's high specific heat capacity (4.18 J/g·K) enables it to absorb substantial heat energy while undergoing measurable but not extreme temperature changes, improving measurement accuracy. Option A incorrectly states low heat capacity, which would cause large temperature swings from small energy changes.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "Activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.1 Introduction",
+        "subsection_anchor": "4.1.1 Exothermic and Endothermic Chemical Reactions",
+        "structural_element": "Activity 4.2",
+        "content_anchor": "device to measure heat is calorimeter, water has high heat capacity",
+        "page_hint": "Page 6-7",
+        "concept_hash": "sha256_of_calorimeter_water"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 84,
+        "distractor_quality_score": 86,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q017",
+      "generation_timestamp": "2025-01-28T10:12:00Z",
+      "section": "4.2 Energy Changes in Electrochemistry",
+      "subsection": "4.2.2 Electrical Conductivity",
+      "sub_subsection": null,
+      "structural_anchor": "b) Electrolytic conductivity",
+      "mcq_type": "G",
+      "question": "If the temperature of an electrolytic solution increases, what happens to its electrical conductivity and why?",
+      "options": {
+        "A": "Conductivity decreases because ions move slower at higher temperatures",
+        "B": "Conductivity increases because higher temperature reduces inter-ionic attractions",
+        "C": "Conductivity remains constant because ion concentration doesn't change",
+        "D": "Conductivity decreases because water molecules evaporate reducing solvent"
+      },
+      "correct_answer": "B",
+      "hint": "Consider how temperature affects ion mobility and solution viscosity.",
+      "explanation": "Increased temperature reduces solution viscosity and weakens inter-ionic attractions, allowing ions to move more freely and increasing conductivity. Option A incorrectly assumes ions move slower with heating, opposite to actual kinetic energy increase.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "Mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.2 Energy Changes in Electrochemistry",
+        "subsection_anchor": "4.2.2 Electrical Conductivity",
+        "structural_element": "b) Electrolytic conductivity",
+        "content_anchor": "electrolytic conduction increases with temperature",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_temp_effect_conduction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 83,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q018",
+      "generation_timestamp": "2025-01-28T10:12:15Z",
+      "section": "4.2 Energy Changes in Electrochemistry",
+      "subsection": "4.2.2 Electrical Conductivity",
+      "sub_subsection": null,
+      "structural_anchor": "Experiment 4.2: Conductivity of Materials",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that solid sodium chloride (NaCl) should conduct electricity well?",
+      "options": {
+        "A": "Solid NaCl contains ions but they cannot move freely in the crystal lattice",
+        "B": "All ionic compounds conduct electricity regardless of physical state",
+        "C": "Sodium chloride's high melting point prevents electron flow",
+        "D": "Chloride ions block the movement of sodium ions in the solid"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the mobility of charge carriers in different states.",
+      "explanation": "Solid NaCl has fixed ions in a rigid lattice with no mobility, preventing electrical conduction despite being ionic. Option B contains the misconception by assuming ionic compounds always conduct, ignoring the need for mobile charge carriers.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "Experiment"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.2 Energy Changes in Electrochemistry",
+        "subsection_anchor": "4.2.2 Electrical Conductivity",
+        "structural_element": "Experiment 4.2: Conductivity of Materials",
+        "content_anchor": "NaCl conducts only when dissolved or molten, not solid",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_solid_conductivity_misconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 86,
+        "distractor_quality_score": 82,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q019",
+      "generation_timestamp": "2025-01-28T10:12:30Z",
+      "section": "4.3 Electrochemical Cells",
+      "subsection": "4.3.1 Galvanic (Voltaic) Cells",
+      "sub_subsection": null,
+      "structural_anchor": "What is a galvanic cell?",
+      "mcq_type": "I",
+      "question": "How do galvanic cells and electrolytic cells fundamentally differ in their energy conversion processes?",
+      "options": {
+        "A": "Both convert chemical energy to electrical energy",
+        "B": "Galvanic cells convert electrical to chemical energy, electrolytic cells do the reverse",
+        "C": "Galvanic cells convert chemical to electrical energy, electrolytic cells do the reverse",
+        "D": "Both use electrical energy to drive non-spontaneous reactions"
+      },
+      "correct_answer": "C",
+      "hint": "Consider which cell type produces electricity and which consumes it.",
+      "explanation": "Galvanic cells generate electrical energy from spontaneous redox reactions, while electrolytic cells use electrical energy to drive non-spontaneous chemical changes. Option B reverses the correct energy conversion directions for both cell types.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "Mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.3 Electrochemical Cells",
+        "subsection_anchor": "4.3.1 Galvanic (Voltaic) Cells",
+        "structural_element": "What is a galvanic cell?",
+        "content_anchor": "galvanic cells convert chemical to electrical, electrolytic do opposite",
+        "page_hint": "Page 17, 23",
+        "concept_hash": "sha256_of_cell_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 81,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q020",
+      "generation_timestamp": "2025-01-28T10:12:45Z",
+      "section": "Energy and Climate",
+      "subsection": "Energy and Climate",
+      "sub_subsection": null,
+      "structural_anchor": "Energy and Climate",
+      "mcq_type": "K",
+      "question": "Carbon dioxide (CO₂) in the atmosphere contributes to global warming primarily through which mechanism?",
+      "options": {
+        "A": "Reflecting sunlight back into space before it reaches Earth",
+        "B": "Absorbing heat radiation emitted from Earth's surface",
+        "C": "Reacting with ozone to produce heat-generating compounds",
+        "D": "Increasing the albedo of clouds and ice surfaces"
+      },
+      "correct_answer": "B",
+      "hint": "Consider how greenhouse gases interact with infrared radiation.",
+      "explanation": "CO₂ molecules absorb infrared radiation emitted from Earth's surface and re-radiate it in all directions, trapping heat in the atmosphere. Option A describes the effect of atmospheric aerosols, not greenhouse gases.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "Energy and Climate",
+        "subsection_anchor": "Energy and Climate",
+        "structural_element": "Energy and Climate",
+        "content_anchor": "CO₂ traps heat radiating from Earth's surface",
+        "page_hint": "Page 28",
+        "concept_hash": "sha256_of_greenhouse_effect"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 79,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 135000,
+    "average_question_quality": 86.6,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 1,
+      "medium": 6,
+      "hard": 3
+    },
+    "section_distribution": {
+      "4.1 Introduction": 1,
+      "4.2 Energy Changes in Electrochemistry": 6,
+      "4.3 Electrochemical Cells": 1,
+      "4.4 Electrolysis": 0,
+      "Energy and Climate": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

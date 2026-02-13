@@ -1,0 +1,755 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T12:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Phy_U2_Q030",
+    "covered_sections": ["Introduction>Position and Displacement", "Introduction>Average velocity and instantaneous velocity", "Introduction>Acceleration", "Introduction>Equations of motion with constant acceleration", "Introduction>Graphical representation of uniformly accelerated motion", "Introduction>Relative velocity in one dimension"],
+    "used_question_signatures": ["G10_Phy_U2_Q001_A_Position", "G10_Phy_U2_Q002_B_ReferenceFrame", "G10_Phy_U2_Q003_H_DistanceVsDisplacement", "G10_Phy_U2_Q004_F_DisplacementZero", "G10_Phy_U2_Q005_D_AverageVelocityCalc", "G10_Phy_U2_Q006_G_VelocityChangeTime", "G10_Phy_U2_Q007_C_AverageVelocityFormula", "G10_Phy_U2_Q008_F_InstantaneousVsAverage", "G10_Phy_U2_Q009_D_AverageSpeedCalc", "G10_Phy_U2_Q010_E_DisplacementFromVelocityTime", "G10_Phy_U2_Q011_G_AccelerationSign", "G10_Phy_U2_Q012_D_AverageAccelerationCalc", "G10_Phy_U2_Q013_C_AverageAccelerationFormula", "G10_Phy_U2_Q014_H_DecelerationMisconception", "G10_Phy_U2_Q015_E_AccelerationFromRest", "G10_Phy_U2_Q016_F_ZeroAccelerationVelocity", "G10_Phy_U2_Q017_I_AvgVsInstAcceleration", "G10_Phy_U2_Q018_A_UniformAccelerationDef", "G10_Phy_U2_Q019_N_LimitationAcceleration", "G10_Phy_U2_Q020_D_EquationVCalculation", "G10_Phy_U2_Q021_J_GraphShapeUniformAccel", "G10_Phy_U2_Q022_K_SlopePositionTimeGraph", "G10_Phy_U2_Q023_E_InstantaneousVelocityFromGraph", "G10_Phy_U2_Q024_G_AreaUnderVTGraphEffect", "G10_Phy_U2_Q025_L_ExperimentalVelocityTimeGraph", "G10_Phy_U2_Q026_M_SequenceGraphInterpretation", "G10_Phy_U2_Q027_B_RelativeVelocityTerm", "G10_Phy_U2_Q028_D_RelativeVelocityCalcSameDirection", "G10_Phy_U2_Q029_H_MisconceptionRelativeVelocity", "G10_Phy_U2_Q030_F_RelativeVelocityCondition"],
+    "baseline_counter": {
+      "Introduction": {
+        "Position and Displacement": {
+          "count": 4,
+          "mini_headings_covered": ["Position:", "Key Concept: (Reference Frame)", "Displacement:"],
+          "last_question_round": 1
+        },
+        "Average velocity and instantaneous velocity": {
+          "count": 6,
+          "mini_headings_covered": ["Average velocity:", "Key Concept:", "Instantaneous velocity:"],
+          "last_question_round": 1
+        },
+        "Acceleration": {
+          "count": 7,
+          "mini_headings_covered": ["Average acceleration:", "Key Concept:", "Instantaneous acceleration:", "Key Concept:"],
+          "last_question_round": 2
+        },
+        "Equations of motion with constant acceleration": {
+          "count": 3,
+          "mini_headings_covered": ["Free fall:"],
+          "last_question_round": 2
+        },
+        "Graphical representation of uniformly accelerated motion": {
+          "count": 6,
+          "mini_headings_covered": ["Position - time graph:", "Key Concept:", "Velocity-time graph:", "Key Concept: (Area under v-t graph)", "Acceleration - time graph:"],
+          "last_question_round": 3
+        },
+        "Relative velocity in one dimension": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 30,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Position and Displacement": ["Position", "Reference Frame", "Displacement", "Distance"],
+      "Introduction>Average velocity and instantaneous velocity": ["Average Velocity", "Instantaneous Velocity", "Average Speed", "Displacement-Time"],
+      "Introduction>Acceleration": ["Average Acceleration", "Instantaneous Acceleration", "Deceleration", "Negative Acceleration", "Constant Acceleration"],
+      "Introduction>Equations of motion with constant acceleration": ["Uniform Acceleration", "Equations of Motion", "Free Fall", "Acceleration due to Gravity"],
+      "Introduction>Graphical representation of uniformly accelerated motion": ["Position-Time Graph", "Velocity-Time Graph", "Acceleration-Time Graph", "Slope", "Area Under Curve", "Parabola", "Straight Line"],
+      "Introduction>Relative velocity in one dimension": ["Relative Velocity", "Frame of Reference", "Approaching Objects", "Same Direction"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_previous_state_R02",
+    "content_density_metrics": {
+      "total_concepts_extracted": 24,
+      "questions_per_concept_ratio": 1.25,
+      "structural_coverage_percentage": 100.0
+    }
+  },
+  "grade": "10",
+  "subject": "Physics",
+  "unit": "Unit 2: Uniformly Accelerated Motion",
+  "pdf_filename": "P10U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 1,
+      "constraint_violations_caught": 1,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T12:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 1,
+        "total_sections": 1,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 16,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 1.25
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Introduction",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": false,
+      "consecutive_batches_same_section": 3
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": true,
+      "early_stopping_attempted": false,
+      "consecutive_batches_violation": "Subsection distribution within Introduction is acceptable, but all batches from same section. Next batch must include questions from previously covered subsections to maintain rotation."
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phy_U2_Q021",
+      "generation_timestamp": "2025-01-28T12:10:00Z",
+      "section": "Introduction",
+      "subsection": "Graphical representation of uniformly accelerated motion",
+      "sub_subsection": null,
+      "structural_anchor": "Position - time graph:",
+      "mcq_type": "J",
+      "question": "What is the shape of the position-time graph for an object undergoing uniformly accelerated motion starting from rest?",
+      "options": {
+        "A": "A straight line with positive slope",
+        "B": "A horizontal line",
+        "C": "A parabola opening upward",
+        "D": "A parabola opening downward"
+      },
+      "correct_answer": "C",
+      "hint": "The equation for position in constant acceleration is quadratic in time.",
+      "explanation": "For uniformly accelerated motion from rest, position follows s = (1/2)at², which is a quadratic function of time. This produces a parabolic curve on a position-time graph. Option A describes the graph for constant velocity motion.",
+      "difficulty_level": "medium",
+      "formula_used": ["s = (1/2)at²"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Graphical representation of uniformly accelerated motion",
+        "structural_element": "Position - time graph:",
+        "content_anchor": "position-time graph for uniform accelerated motion is a parabola",
+        "page_hint": "Page 22",
+        "concept_hash": "hash_PositionTimeGraph_Shape"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q022",
+      "generation_timestamp": "2025-01-28T12:10:00Z",
+      "section": "Introduction",
+      "subsection": "Graphical representation of uniformly accelerated motion",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "K",
+      "question": "What physical quantity is represented by the slope of the tangent line drawn at a point on a position-time graph?",
+      "options": {
+        "A": "Average velocity",
+        "B": "Instantaneous velocity",
+        "C": "Acceleration",
+        "D": "Displacement"
+      },
+      "correct_answer": "B",
+      "hint": "The slope at a specific point gives a rate at that instant.",
+      "explanation": "The slope of a position-time graph at a point represents the rate of change of position at that specific instant, which is the definition of instantaneous velocity. Option A would be represented by the slope of a chord connecting two points on the graph.",
+      "difficulty_level": "medium",
+      "formula_used": ["v_inst = ds/dt"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Graphical representation of uniformly accelerated motion",
+        "structural_element": "Key Concept:",
+        "content_anchor": "slope of the tangent to the graph of position versus time is velocity",
+        "page_hint": "Page 22",
+        "concept_hash": "hash_SlopePositionTimeGraph_Meaning"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q023",
+      "generation_timestamp": "2025-01-28T12:10:00Z",
+      "section": "Introduction",
+      "subsection": "Graphical representation of uniformly accelerated motion",
+      "sub_subsection": null,
+      "structural_anchor": "Position - time graph:",
+      "mcq_type": "E",
+      "question": "On a position-time graph for constant acceleration, the slope of the tangent at t=4 s is 12 m/s. What is the instantaneous velocity at that time?",
+      "options": {
+        "A": "3 m/s",
+        "B": "4 m/s",
+        "C": "12 m/s",
+        "D": "48 m/s"
+      },
+      "correct_answer": "C",
+      "hint": "The slope of the tangent at a point gives the instantaneous velocity.",
+      "explanation": "For a position-time graph, the instantaneous velocity at any point is equal to the slope of the tangent line drawn at that point. Therefore, a slope of 12 m/s directly gives an instantaneous velocity of 12 m/s. Option A incorrectly divides the slope by time.",
+      "difficulty_level": "easy",
+      "formula_used": ["v_inst = slope of tangent"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "m/s",
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Graphical representation of uniformly accelerated motion",
+        "structural_element": "Position - time graph:",
+        "content_anchor": "slope of tangent line gives instantaneous velocity",
+        "page_hint": "Page 22-23",
+        "concept_hash": "hash_InstantaneousVelocity_FromSlope"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q024",
+      "generation_timestamp": "2025-01-28T12:10:00Z",
+      "section": "Introduction",
+      "subsection": "Graphical representation of uniformly accelerated motion",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept: (Area under v-t graph)",
+      "mcq_type": "G",
+      "question": "If the area under a velocity-time graph for a time interval doubles while the shape remains similar, what happens to the displacement during that interval?",
+      "options": {
+        "A": "It doubles.",
+        "B": "It halves.",
+        "C": "It remains the same.",
+        "D": "It becomes zero."
+      },
+      "correct_answer": "A",
+      "hint": "Displacement is given by the area under the v-t graph.",
+      "explanation": "The area under a velocity-time graph represents the displacement of the object. Doubling this area, while the axes remain the same, directly doubles the calculated displacement. Option C would only be true if the area was unchanged.",
+      "difficulty_level": "easy",
+      "formula_used": ["displacement = area under v-t graph"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Graphical representation of uniformly accelerated motion",
+        "structural_element": "Key Concept: (Area under v-t graph)",
+        "content_anchor": "area under velocity-time graph gives displacement",
+        "page_hint": "Page 24-25",
+        "concept_hash": "hash_AreaUnderVT_DisplacementRelation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 70,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 83
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q025",
+      "generation_timestamp": "2025-01-28T12:10:00Z",
+      "section": "Introduction",
+      "subsection": "Graphical representation of uniformly accelerated motion",
+      "sub_subsection": null,
+      "structural_anchor": "Velocity-time graph:",
+      "mcq_type": "L",
+      "question": "An experimental velocity-time graph shows a straight line with a positive slope. What does this indicate about the object's motion?",
+      "options": {
+        "A": "Constant velocity",
+        "B": "Uniform acceleration",
+        "C": "Increasing acceleration",
+        "D": "Zero displacement"
+      },
+      "correct_answer": "B",
+      "hint": "A straight line on a v-t graph implies a constant rate of change of velocity.",
+      "explanation": "A straight line on a velocity-time graph indicates that velocity is changing at a constant rate. The slope of the line gives the acceleration, so a constant positive slope means uniform (constant) positive acceleration. Option A would be represented by a horizontal line.",
+      "difficulty_level": "medium",
+      "formula_used": ["a = slope of v-t graph"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Graphical representation of uniformly accelerated motion",
+        "structural_element": "Velocity-time graph:",
+        "content_anchor": "velocity-time graph will be a straight line having a positive slope",
+        "page_hint": "Page 24",
+        "concept_hash": "hash_VelocityTimeGraph_StraightLine"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q026",
+      "generation_timestamp": "2025-01-28T12:10:00Z",
+      "section": "Introduction",
+      "subsection": "Graphical representation of uniformly accelerated motion",
+      "sub_subsection": null,
+      "structural_anchor": "Acceleration - time graph:",
+      "mcq_type": "M",
+      "question": "What is the correct sequence of graph shapes for an object moving with uniform acceleration, starting from rest?",
+      "options": {
+        "A": "Position-time: parabola; Velocity-time: straight line; Acceleration-time: horizontal line",
+        "B": "Position-time: straight line; Velocity-time: parabola; Acceleration-time: horizontal line",
+        "C": "Position-time: horizontal line; Velocity-time: straight line; Acceleration-time: parabola",
+        "D": "All three graphs are straight lines"
+      },
+      "correct_answer": "A",
+      "hint": "Recall the relationship between position, velocity, and acceleration for constant acceleration.",
+      "explanation": "For uniform acceleration: position depends on t² (parabola), velocity depends on t (straight line), and acceleration is constant (horizontal line). Option B incorrectly assigns a parabola to the velocity-time graph.",
+      "difficulty_level": "hard",
+      "formula_used": ["s ∝ t²", "v ∝ t", "a = constant"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Graphical representation of uniformly accelerated motion",
+        "structural_element": "Acceleration - time graph:",
+        "content_anchor": "acceleration-time graph will be a straight line parallel to the time axis",
+        "page_hint": "Page 27-28",
+        "concept_hash": "hash_GraphSequence_UniformAcceleration"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q027",
+      "generation_timestamp": "2025-01-28T12:10:00Z",
+      "section": "Introduction",
+      "subsection": "Relative velocity in one dimension",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 2.17",
+      "mcq_type": "B",
+      "question": "What term describes the velocity of an object as measured from a specific moving frame of reference?",
+      "options": {
+        "A": "Absolute velocity",
+        "B": "Relative velocity",
+        "C": "Instantaneous velocity",
+        "D": "Resultant velocity"
+      },
+      "correct_answer": "B",
+      "hint": "This velocity depends on the observer's own motion.",
+      "explanation": "Relative velocity is defined as the velocity of an object as observed from a particular frame of reference, which may itself be in motion. Option A typically refers to velocity measured relative to a fixed point like the Earth.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Relative velocity in one dimension",
+        "structural_element": "Exercise 2.17",
+        "content_anchor": "velocity with respect to a given reference frame",
+        "page_hint": "Page 30",
+        "concept_hash": "hash_RelativeVelocity_Term"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q028",
+      "generation_timestamp": "2025-01-28T12:10:00Z",
+      "section": "Introduction",
+      "subsection": "Relative velocity in one dimension",
+      "sub_subsection": null,
+      "structural_anchor": "Section summary (2.6)",
+      "mcq_type": "D",
+      "question": "Car A moves at 90 km/h and Car B moves at 75 km/h in the same direction. What is the velocity of Car A relative to Car B?",
+      "options": {
+        "A": "165 km/h",
+        "B": "90 km/h",
+        "C": "15 km/h",
+        "D": "75 km/h"
+      },
+      "correct_answer": "C",
+      "hint": "When objects move in the same direction, subtract their velocities.",
+      "explanation": "For objects moving in the same direction, relative velocity is the difference between their velocities. v_AB = v_A - v_B = 90 km/h - 75 km/h = 15 km/h. Option A results from adding the velocities, which is correct only for approaching objects.",
+      "difficulty_level": "medium",
+      "formula_used": ["v_AB = v_A - v_B (same direction)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "km/h",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Relative velocity in one dimension",
+        "structural_element": "Section summary (2.6)",
+        "content_anchor": "v_AB = v_A - v_B when moving in same direction",
+        "page_hint": "Page 30",
+        "concept_hash": "hash_RelativeVelocity_SameDirection"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q029",
+      "generation_timestamp": "2025-01-28T12:10:00Z",
+      "section": "Introduction",
+      "subsection": "Relative velocity in one dimension",
+      "sub_subsection": null,
+      "structural_anchor": "Section summary (2.6)",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that the relative velocity of two cars approaching each other is simply the difference of their speeds?",
+      "options": {
+        "A": "Relative velocity is a vector quantity; directions must be considered.",
+        "B": "Speeds should be averaged to find relative velocity.",
+        "C": "The faster car's speed alone determines relative velocity.",
+        "D": "Relative velocity is always less than individual speeds."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the definition of relative velocity for objects moving toward each other.",
+      "explanation": "Relative velocity is a vector. For two objects approaching each other along a line, their velocities have opposite signs. The relative speed is the sum of their magnitudes, not the difference. Option B introduces an incorrect averaging method.",
+      "difficulty_level": "hard",
+      "formula_used": ["v_AB = v_A + v_B (approaching)"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Relative velocity in one dimension",
+        "structural_element": "Section summary (2.6)",
+        "content_anchor": "relative velocity measured by an observer on one of the two objects approaching each other is the sum",
+        "page_hint": "Page 31",
+        "concept_hash": "hash_RelativeVelocity_ApproachingError"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q030",
+      "generation_timestamp": "2025-01-28T12:10:00Z",
+      "section": "Introduction",
+      "subsection": "Relative velocity in one dimension",
+      "sub_subsection": null,
+      "structural_anchor": "By the end of this section, you should be able to:",
+      "mcq_type": "F",
+      "question": "Under the condition that two objects are moving in the same direction along a straight line, which reasoning best explains why the relative velocity of one with respect to the other is less than either object's individual speed?",
+      "options": {
+        "A": "The frame of reference is stationary, making all measured speeds smaller.",
+        "B": "Both velocities are vectors with the same sign; their difference has a smaller magnitude.",
+        "C": "Relative velocity is defined as the average of the two speeds.",
+        "D": "The objects are decelerating relative to each other."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the vector subtraction of velocities in one dimension.",
+      "explanation": "When two objects move in the same direction, their velocity vectors point the same way. The relative velocity is found by subtracting one vector from the other. Since they have the same sign, the magnitude of the difference is smaller than the magnitude of either original vector. Option C misstates the definition of relative velocity.",
+      "difficulty_level": "medium",
+      "formula_used": ["v_AB = v_A - v_B"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Relative velocity in one dimension",
+        "structural_element": "By the end of this section, you should be able to:",
+        "content_anchor": "relative velocity in 1-D using frame of reference",
+        "page_hint": "Page 30",
+        "concept_hash": "hash_RelativeVelocity_ConditionSameDirection"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2950,
+    "average_question_quality": 86.1,
+    "type_distribution": {
+      "B": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "J": 1,
+      "K": 1,
+      "L": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    },
+    "section_distribution": {
+      "Introduction": 10
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,823 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-03-07T12:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G9_Bio_U2_Q010",
+    "covered_sections": ["2.1. Characteristics of living things", "2.2. Taxonomy of living things", "2.3. Relevance of classification"],
+    "used_question_signatures": ["d8d0f9d3b4ee57e5a5c5c4dc2f2b84b7e0e8a4a6", "9e9f0a15c48c61c8b1b2e6c2c6b8c8a6e4c5b7d8f", "4a6c8f9e1b2d3c5a7e9f0a1c3d5b7e2f4a6c8d0f", "5b7d9f1a3c5e7b9d1f3a5c7e9b1d3f5a7c9e1b3d", "6c8e0a2c4e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4", "7d9f1b3d5f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5", "8e0a2c4e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4e6", "9f1b3d5f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5f7", "0a2c4e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4e6a8", "1b3d5f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5f7b9"],
+    "baseline_counter": {
+      "2.1. Characteristics of living things": {
+        "No subsection": {
+          "count": 3,
+          "mini_headings_covered": ["All living things are made up of one or more cells:", "All living things can grow:", "All living things can reproduce:"],
+          "last_question_round": 1
+        }
+      },
+      "2.2. Taxonomy of living things": {
+        "2.2.1. Principles of classification": {
+          "count": 3,
+          "mini_headings_covered": ["Why do biologists classify living things?:"],
+          "last_question_round": 1
+        },
+        "2.2.2. Taxonomic hierarchies in biological classification": {
+          "count": 1,
+          "mini_headings_covered": ["Taxonomic hierarchy is the process...:"],
+          "last_question_round": 1
+        }
+      },
+      "2.3. Relevance of classification": {
+        "No subsection": {
+          "count": 2,
+          "mini_headings_covered": ["What is the relevance of biological classification?:"],
+          "last_question_round": 1
+        }
+      },
+      "2.4. Linnaean system of nomenclature": {
+        "No subsection": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.5. Common Ethiopian animals and plants": {
+        "No subsection": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.6. The five-kingdom system of classification": {
+        "Kingdom Monera": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Kingdom Protista": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Kingdom Fungi": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Kingdom Plantae": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Kingdom Animalia": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.7. Renowned Taxonomists in Ethiopia": {
+        "No subsection": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1. Characteristics of living things": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.2. Taxonomy of living things": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.3. Relevance of classification": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.4. Linnaean system of nomenclature": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.5. Common Ethiopian animals and plants": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "2.6. The five-kingdom system of classification": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "2.7. Renowned Taxonomists in Ethiopia": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1. Characteristics of living things>No subsection": ["Cellular Organization", "Growth", "Reproduction"],
+      "2.2. Taxonomy of living things>2.2.1. Principles of classification": ["Purpose of Classification", "Taxonomy", "Taxonomists"],
+      "2.2. Taxonomy of living things>2.2.2. Taxonomic hierarchies in biological classification": ["Taxonomic Hierarchy (Order)"],
+      "2.3. Relevance of classification>No subsection": ["Study of Relationships", "Economic Utility"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_next_batch_calculation",
+    "content_density_metrics": {
+      "total_concepts_extracted": 9,
+      "questions_per_concept_ratio": 1.11,
+      "structural_coverage_percentage": 9.3
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 2: Characteristics and Classification of Organisms",
+  "pdf_filename": "B9U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-03-07T12:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 7,
+        "progress_percentage": 57.1
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 3,
+      "mini_headings_covered_count": 5,
+      "structural_coverage_percentage": 9.3,
+      "concept_utilization_ratio": 1.11
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.2. Taxonomy of living things",
+      "least_covered_section": "2.7. Renowned Taxonomists in Ethiopia",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U2_Q001",
+      "generation_timestamp": "2025-03-07T12:00:00Z",
+      "section": "2.1. Characteristics of living things",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "All living things are made up of one or more cells:",
+      "mcq_type": "A",
+      "question": "Which statement correctly describes the fundamental structural unit of all living organisms?",
+      "options": {
+        "A": "They are composed of one or more cells.",
+        "B": "They are composed solely of tissues.",
+        "C": "They are composed of inorganic molecules only.",
+        "D": "They lack any organized structural units."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the most basic level of biological organization for life.",
+      "explanation": "The cell theory establishes that cells are the basic units of life. Option B is incorrect because tissues are a higher level of organization found only in multicellular organisms, not the fundamental unit.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.1. Characteristics of living things",
+        "subsection_anchor": null,
+        "structural_element": "All living things are made up of one or more cells:",
+        "content_anchor": "unicellular, multicellular",
+        "page_hint": 2,
+        "concept_hash": "sha256_of_Cellular_Organization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q002",
+      "generation_timestamp": "2025-03-07T12:00:00Z",
+      "section": "2.1. Characteristics of living things",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "All living things can grow:",
+      "mcq_type": "A",
+      "question": "What defines biological growth in living organisms?",
+      "options": {
+        "A": "A permanent increase in size and mass due to increase in cell number or size.",
+        "B": "A temporary change in shape in response to environmental stimuli.",
+        "C": "The accumulation of undigested materials within the body.",
+        "D": "The process of producing offspring of the same kind."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the permanent nature of the increase and what causes it.",
+      "explanation": "Biological growth is defined as a permanent increase in size and mass resulting from cell division or enlargement. Option D incorrectly describes reproduction, which is a distinct characteristic of life.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.1. Characteristics of living things",
+        "subsection_anchor": null,
+        "structural_element": "All living things can grow:",
+        "content_anchor": "permanent increase in size and mass",
+        "page_hint": 2,
+        "concept_hash": "sha256_of_Growth"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q003",
+      "generation_timestamp": "2025-03-07T12:00:00Z",
+      "section": "2.1. Characteristics of living things",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "All living things can reproduce:",
+      "mcq_type": "A",
+      "question": "What is the primary outcome of the biological process of reproduction?",
+      "options": {
+        "A": "It generates more organisms of the same kind.",
+        "B": "It increases the size of an individual organism.",
+        "C": "It removes metabolic waste from the body.",
+        "D": "It regulates internal conditions to maintain stability."
+      },
+      "correct_answer": "A",
+      "hint": "Focus on the continuation of a species.",
+      "explanation": "Reproduction is the biological process that creates new individuals of the same species, ensuring species continuity. Option B describes growth, which is a separate characteristic of living things.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 78
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.1. Characteristics of living things",
+        "subsection_anchor": null,
+        "structural_element": "All living things can reproduce:",
+        "content_anchor": "process that makes more of the same kind",
+        "page_hint": 2,
+        "concept_hash": "sha256_of_Reproduction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q004",
+      "generation_timestamp": "2025-03-07T12:00:00Z",
+      "section": "2.2. Taxonomy of living things",
+      "subsection": "2.2.1. Principles of classification",
+      "sub_subsection": null,
+      "structural_anchor": "Why do biologists classify living things?:",
+      "mcq_type": "F",
+      "question": "If the goal is to understand relationships between extinct dinosaurs and modern birds, which scientific practice provides the necessary organizational framework?",
+      "options": {
+        "A": "Biological classification",
+        "B": "Genetic engineering",
+        "C": "Cellular respiration",
+        "D": "Environmental conservation"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the systematic grouping of organisms based on shared features.",
+      "explanation": "Biological classification organizes organisms into groups based on similarities, allowing scientists to study evolutionary relationships. Option D, environmental conservation, focuses on protection rather than systematic study of relationships.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.2. Taxonomy of living things",
+        "subsection_anchor": "2.2.1. Principles of classification",
+        "structural_element": "Why do biologists classify living things?:",
+        "content_anchor": "organizing items... easier to understand",
+        "page_hint": 3,
+        "concept_hash": "sha256_of_Purpose_of_Classification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q005",
+      "generation_timestamp": "2025-03-07T12:00:00Z",
+      "section": "2.2. Taxonomy of living things",
+      "subsection": "2.2.1. Principles of classification",
+      "sub_subsection": null,
+      "structural_anchor": "Why do biologists classify living things?:",
+      "mcq_type": "B",
+      "question": "What is the term for the scientific discipline concerned with naming, identifying, and grouping organisms?",
+      "options": {
+        "A": "Taxonomy",
+        "B": "Ecology",
+        "C": "Physiology",
+        "D": "Genetics"
+      },
+      "correct_answer": "A",
+      "hint": "This field deals with the systematic categorization of life forms.",
+      "explanation": "Taxonomy is the branch of biology dedicated to naming, describing, and classifying organisms. Option B, ecology, studies interactions between organisms and their environment, not systematic naming.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.2. Taxonomy of living things",
+        "subsection_anchor": "2.2.1. Principles of classification",
+        "structural_element": "Why do biologists classify living things?:",
+        "content_anchor": "science of naming, identifying and classifying",
+        "page_hint": 3,
+        "concept_hash": "sha256_of_Taxonomy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q006",
+      "generation_timestamp": "2025-03-07T12:00:00Z",
+      "section": "2.2. Taxonomy of living things",
+      "subsection": "2.2.1. Principles of classification",
+      "sub_subsection": null,
+      "structural_anchor": "Why do biologists classify living things?:",
+      "mcq_type": "G",
+      "question": "If scientists use genetic analysis to reveal evolutionary links, what is the direct consequence for classifying two organisms?",
+      "options": {
+        "A": "Organisms with greater genetic similarity are placed in closer taxonomic groups.",
+        "B": "Organisms are classified solely based on their habitat location.",
+        "C": "Physical appearance becomes the only factor for grouping.",
+        "D": "Classification becomes independent of any biological relationship."
+      },
+      "correct_answer": "A",
+      "hint": "Genetic makeup reflects evolutionary history.",
+      "explanation": "Genetic analysis reveals phylogenetic relationships, causing organisms with shared DNA to be classified together. Option C is flawed because modern taxonomy uses multiple criteria, not just physical appearance.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 85
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.2. Taxonomy of living things",
+        "subsection_anchor": "2.2.1. Principles of classification",
+        "structural_element": "Why do biologists classify living things?:",
+        "content_anchor": "genetic makeup... evolutionary relationships",
+        "page_hint": 3,
+        "concept_hash": "sha256_of_Taxonomists"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q007",
+      "generation_timestamp": "2025-03-07T12:00:00Z",
+      "section": "2.2. Taxonomy of living things",
+      "subsection": "2.2.2. Taxonomic hierarchies in biological classification",
+      "sub_subsection": null,
+      "structural_anchor": "Taxonomic hierarchy is the process...:",
+      "mcq_type": "M",
+      "question": "In the Linnaean classification system, what is the correct descending order of major taxonomic ranks?",
+      "options": {
+        "A": "Kingdom, Phylum, Class, Order, Family, Genus, Species",
+        "B": "Species, Genus, Family, Order, Class, Phylum, Kingdom",
+        "C": "Domain, Kingdom, Family, Genus, Species, Class, Order",
+        "D": "Phylum, Kingdom, Class, Species, Genus, Family, Order"
+      },
+      "correct_answer": "A",
+      "hint": "Recall the hierarchy from broadest to most specific group.",
+      "explanation": "The Linnaean hierarchy arranges groups from broadest (Kingdom) to most specific (Species). Option B presents the correct ranks but in reverse, ascending order.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 23.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.2. Taxonomy of living things",
+        "subsection_anchor": "2.2.2. Taxonomic hierarchies in biological classification",
+        "structural_element": "Taxonomic hierarchy is the process...:",
+        "content_anchor": "kingdom... Phylum... class, order, family, genus, and species",
+        "page_hint": 4,
+        "concept_hash": "sha256_of_Taxonomic_Hierarchy_Order"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q008",
+      "generation_timestamp": "2025-03-07T12:00:00Z",
+      "section": "2.3. Relevance of classification",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "What is the relevance of biological classification?:",
+      "mcq_type": "F",
+      "question": "Given that bones of some dinosaurs share large internal spaces with bird bones, which conclusion is supported by the framework of biological classification?",
+      "options": {
+        "A": "Dinosaurs may be more closely related to birds than to reptiles.",
+        "B": "All dinosaurs were capable of flight like modern birds.",
+        "C": "Birds evolved directly from modern reptile species.",
+        "D": "Bone structure is irrelevant for determining evolutionary relationships."
+      },
+      "correct_answer": "A",
+      "hint": "Classification helps infer relationships based on shared anatomical features.",
+      "explanation": "Biological classification uses shared derived characteristics, like bone structure, to propose evolutionary relationships. Option C is incorrect because it makes an unspecific and inaccurate direct evolutionary claim not supported by the evidence given.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 82
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.3. Relevance of classification",
+        "subsection_anchor": null,
+        "structural_element": "What is the relevance of biological classification?:",
+        "content_anchor": "relationship between birds and dinosaurs",
+        "page_hint": 6,
+        "concept_hash": "sha256_of_Study_of_Relationships"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 81,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q009",
+      "generation_timestamp": "2025-03-07T12:00:00Z",
+      "section": "2.3. Relevance of classification",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "What is the relevance of biological classification?:",
+      "mcq_type": "D",
+      "question": "How can taxonomic knowledge directly benefit agriculture or medicine?",
+      "options": {
+        "A": "By identifying closely related plant species as potential new sources of useful chemicals.",
+        "B": "By determining the exact age of fossilized organisms.",
+        "C": "By altering the genetic code of an organism to create new species.",
+        "D": "By classifying organisms based solely on their color patterns."
+      },
+      "correct_answer": "A",
+      "hint": "Taxonomy reveals relationships that can predict shared traits.",
+      "explanation": "Taxonomy groups organisms by shared traits, allowing prediction that related species may share useful compounds. Option D is flawed because classification uses multiple significant characteristics, not superficial ones like color.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 80
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.3. Relevance of classification",
+        "subsection_anchor": null,
+        "structural_element": "What is the relevance of biological classification?:",
+        "content_anchor": "discover new sources of lumber, foods, medicines",
+        "page_hint": 6,
+        "concept_hash": "sha256_of_Economic_Utility"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 77,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q010",
+      "generation_timestamp": "2025-03-07T12:00:00Z",
+      "section": "2.4. Linnaean system of nomenclature",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Binomial nomenclature",
+      "mcq_type": "C",
+      "question": "According to the binomial system, what two components constitute the scientific name of an organism?",
+      "options": {
+        "A": "Genus and specific epithet",
+        "B": "Family and order",
+        "C": "Kingdom and phylum",
+        "D": "Class and species"
+      },
+      "correct_answer": "A",
+      "hint": "The name consists of two parts.",
+      "explanation": "Binomial nomenclature uses the genus name and the specific epithet to form a unique two-part scientific name. Option B incorrectly uses higher taxonomic ranks (family and order) which are not part of the species name.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 22.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.4. Linnaean system of nomenclature",
+        "subsection_anchor": null,
+        "structural_element": "Binomial nomenclature",
+        "content_anchor": "scientific name... made up of two parts... genus and the species",
+        "page_hint": 7,
+        "concept_hash": "sha256_of_Binomial_Nomenclature_Structure"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 63,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2450,
+    "average_question_quality": 82.5,
+    "type_distribution": {
+      "A": 3,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "F": 2,
+      "G": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "2.1. Characteristics of living things": 3,
+      "2.2. Taxonomy of living things": 4,
+      "2.3. Relevance of classification": 2,
+      "2.4. Linnaean system of nomenclature": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

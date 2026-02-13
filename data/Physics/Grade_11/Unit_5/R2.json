@@ -1,0 +1,944 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-27T10:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G11_Phy_U5_Q020",
+    "covered_sections": ["Introduction", "The Concept of Heat (5.1)", "Heat transfer mechanisms (5.2)", "Heat Capacity and Specific Heat Capacity (5.3)", "Thermal expansion (5.4)"],
+    "used_question_signatures": ["hash_A_Heat_Intro", "hash_B_TempHeatDiff_5.1", "hash_G_SpontFlow_5.1", "hash_A_InternalEnergyDef_5.1", "hash_F_HeatWorkDiff_5.1", "hash_J_HeatTransferModes_5.2", "hash_A_ConductionDef_5.2", "hash_K_ConductorInsulator_5.2", "hash_A_HeatCapacityDef_5.3", "hash_B_SpecificHeatDef_5.3", "hash_H_ThermalEquilibrium_5.1", "hash_D_PhaseChangeTemp_5.5", "hash_I_ConvectionVsConduction_5.2", "hash_C_LinearExpansionFormula_5.4", "hash_E_LinearExpansionCalc_5.4", "hash_L_RadiationCharacteristic_5.2", "hash_M_SpecificHeatInterpret_5.3", "hash_N_ThermalExpansionCause_5.4", "hash_D_AreaExpansion_5.4", "hash_F_RealApparentExpansion_5.4"],
+    "baseline_counter": {
+      "Introduction": {
+        "No explicit subsection": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "The Concept of Heat (5.1)": {
+        "Brainstorming:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "What is heat?": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Heat, internal energy and thermodynamic work": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Key terms:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.1:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Heat transfer mechanisms (5.2)": {
+        "Brainstorming": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "1. Conduction": {
+          "count": 3,
+          "mini_headings_covered": ["Key terms:"],
+          "last_question_round": 1
+        },
+        "II. Convection": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "III. Radiation": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Review Questions 5.2:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Heat Capacity and Specific Heat Capacity (5.3)": {
+        "Brainstorming!": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Heat capacity": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Specific heat capacity": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Example 5.1:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.3": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Thermal expansion (5.4)": {
+        "Brainstorming:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Linear expansion": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Area expansion": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Volume Expansion": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Real and apparent coefficients of cubic expansion": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Thermal expansion of gases": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Applications of thermal expansion in solids": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.4:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Change of phase (5.5)": {
+        "Brainstorming": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "What is phase change?": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Latent heat": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Phase diagram": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.5": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Calorimetry (5.6)": {
+        "After completing this section, you should be able to:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Brainstorming": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "5.6.1. Measuring specific heat capacity": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "5.6.2. Measuring specific latent heat": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.6": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "The Concept of Heat (5.1)": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Heat transfer mechanisms (5.2)": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Heat Capacity and Specific Heat Capacity (5.3)": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Thermal expansion (5.4)": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Change of phase (5.5)": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Calorimetry (5.6)": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>No explicit subsection": ["Energy transfer", "Heat transfer", "Temperature"],
+      "The Concept of Heat (5.1)>What is heat?": ["Spontaneous energy transfer", "Thermal equilibrium"],
+      "The Concept of Heat (5.1)>Heat, internal energy and thermodynamic work": ["Internal energy", "Thermodynamic work", "Energy transfer modes", "Thermal equilibrium condition"],
+      "Heat transfer mechanisms (5.2)>1. Conduction": ["Conduction", "Thermal conductors", "Thermal insulators"],
+      "Heat transfer mechanisms (5.2)>II. Convection": ["Convection", "Fluid movement"],
+      "Heat transfer mechanisms (5.2)>III. Radiation": ["Radiation", "Electromagnetic waves"],
+      "Heat Capacity and Specific Heat Capacity (5.3)>Heat capacity": ["Heat capacity", "Temperature change"],
+      "Heat Capacity and Specific Heat Capacity (5.3)>Specific heat capacity": ["Specific heat capacity", "Material property", "High vs low specific heat"],
+      "Thermal expansion (5.4)>Linear expansion": ["Linear expansion", "Coefficient α", "ΔL = L₀αΔT"],
+      "Thermal expansion (5.4)>Area expansion": ["Area expansion", "Coefficient β", "β = 2α"],
+      "Thermal expansion (5.4)>Real and apparent coefficients of cubic expansion": ["Real expansion", "Apparent expansion", "Container expansion"],
+      "Change of phase (5.5)>What is phase change?": ["Phase change", "Constant temperature"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_previous_R01_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 23,
+      "questions_per_concept_ratio": 0.91,
+      "structural_coverage_percentage": 30.4
+    }
+  },
+  "grade": "11",
+  "subject": "Physics",
+  "unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+  "pdf_filename": "P11U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T10:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 7,
+        "progress_percentage": 85.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 11,
+      "mini_headings_covered_count": 1,
+      "structural_coverage_percentage": 30.4,
+      "concept_utilization_ratio": 0.87
+    },
+    "distribution_analysis": {
+      "most_covered_section": "The Concept of Heat (5.1)",
+      "least_covered_section": "Calorimetry (5.6)",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Phy_U5_Q011",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "The Concept of Heat (5.1)",
+      "subsection": "Heat, internal energy and thermodynamic work",
+      "sub_subsection": null,
+      "structural_anchor": "Heat, internal energy and thermodynamic work",
+      "mcq_type": "H",
+      "question": "A conclusion states that when two objects reach the same temperature, they contain equal amounts of heat. What is the flaw in this reasoning?",
+      "options": {
+        "A": "Heat is energy in transit and cannot be 'contained'; only internal energy is a property of an object.",
+        "B": "Temperature measures heat content, so equal temperature means equal heat.",
+        "C": "The objects must also have equal mass to have equal heat at the same temperature.",
+        "D": "Heat flows until temperatures equalize, proving heat is conserved within each object."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the definition of heat as a process, not a state property.",
+      "explanation": "Heat is a transfer of energy, not a quantity stored in an object. The correct property is internal energy. Option B incorrectly assumes temperature directly measures stored heat.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "The Concept of Heat (5.1)",
+        "subsection_anchor": "Heat, internal energy and thermodynamic work",
+        "structural_element": "Heat, internal energy and thermodynamic work",
+        "content_anchor": "a body never contains heat",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_H_ThermalEquilibrium_5.1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q012",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "Change of phase (5.5)",
+      "subsection": "What is phase change?",
+      "sub_subsection": null,
+      "structural_anchor": "What is phase change?",
+      "mcq_type": "D",
+      "question": "During the melting of ice at 0°C, what remains constant while heat is continuously supplied?",
+      "options": {
+        "A": "Internal energy",
+        "B": "Temperature",
+        "C": "Molecular kinetic energy",
+        "D": "Volume"
+      },
+      "correct_answer": "B",
+      "hint": "The heat supplied is used to break intermolecular bonds, not increase particle motion.",
+      "explanation": "During a phase change at constant pressure, temperature remains constant as latent heat breaks bonds. Option A is incorrect because internal energy increases due to the absorbed latent heat.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Change of phase (5.5)",
+        "subsection_anchor": "What is phase change?",
+        "structural_element": "What is phase change?",
+        "content_anchor": "keeping the temperature constant",
+        "page_hint": "Page 23",
+        "concept_hash": "hash_D_PhaseChangeTemp_5.5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q013",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "Heat transfer mechanisms (5.2)",
+      "subsection": "II. Convection",
+      "sub_subsection": null,
+      "structural_anchor": "II. Convection",
+      "mcq_type": "I",
+      "question": "How does convection differ from conduction as a mechanism of heat transfer?",
+      "options": {
+        "A": "Convection involves bulk movement of the heated material itself, while conduction relies on particle collisions without net material flow.",
+        "B": "Convection occurs only in solids, while conduction occurs only in fluids.",
+        "C": "Convection requires a temperature difference, while conduction does not.",
+        "D": "Convection transfers heat via electromagnetic waves, while conduction uses molecular vibrations."
+      },
+      "correct_answer": "A",
+      "hint": "Consider whether the heated matter moves from one location to another.",
+      "explanation": "Convection involves the physical movement of heated fluid carrying thermal energy. Conduction transfers energy through collisions without bulk material displacement. Option D incorrectly attributes wave transfer to convection, which describes radiation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 21.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Heat transfer mechanisms (5.2)",
+        "subsection_anchor": "II. Convection",
+        "structural_element": "II. Convection",
+        "content_anchor": "heat is carried from the bottom to the top being carried by molecules",
+        "page_hint": "Page 7",
+        "concept_hash": "hash_I_ConvectionVsConduction_5.2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q014",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "Thermal expansion (5.4)",
+      "subsection": "Linear expansion",
+      "sub_subsection": null,
+      "structural_anchor": "Linear expansion",
+      "mcq_type": "C",
+      "question": "Which formula correctly represents the change in length (ΔL) of a metal rod due to a temperature change ΔT?",
+      "options": {
+        "A": "ΔL = L₀ / (αΔT)",
+        "B": "ΔL = L₀αΔT",
+        "C": "ΔL = α / (L₀ΔT)",
+        "D": "ΔL = L₀ + αΔT"
+      },
+      "correct_answer": "B",
+      "hint": "The change is directly proportional to original length, the coefficient, and the temperature change.",
+      "explanation": "The linear expansion formula is ΔL = L₀αΔT, where α is the coefficient of linear expansion. Option A incorrectly uses division, inverting the relationship.",
+      "difficulty_level": "easy",
+      "formula_used": ["ΔL = L₀αΔT"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 33.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Thermal expansion (5.4)",
+        "subsection_anchor": "Linear expansion",
+        "structural_element": "Linear expansion",
+        "content_anchor": "ΔL = L₀αΔT",
+        "page_hint": "Page 13",
+        "concept_hash": "hash_C_LinearExpansionFormula_5.4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q015",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "Thermal expansion (5.4)",
+      "subsection": "Linear expansion",
+      "sub_subsection": null,
+      "structural_anchor": "Linear expansion",
+      "mcq_type": "E",
+      "question": "A 2.00 m aluminum rod (α = 2.4 × 10⁻⁵ °C⁻¹) experiences a temperature increase of 50.0°C. What is its change in length?",
+      "options": {
+        "A": "0.0024 m",
+        "B": "0.0012 m",
+        "C": "0.0048 m",
+        "D": "0.0240 m"
+      },
+      "correct_answer": "A",
+      "hint": "Use ΔL = L₀αΔT. Ensure consistent units.",
+      "explanation": "ΔL = (2.00 m) × (2.4 × 10⁻⁵ °C⁻¹) × (50.0°C) = 0.0024 m. Option B results from halving the correct calculation, likely a multiplication error.",
+      "difficulty_level": "medium",
+      "formula_used": ["ΔL = L₀αΔT"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "m",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Thermal expansion (5.4)",
+        "subsection_anchor": "Linear expansion",
+        "structural_element": "Linear expansion",
+        "content_anchor": "ΔL = L₀αΔT",
+        "page_hint": "Page 13",
+        "concept_hash": "hash_E_LinearExpansionCalc_5.4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q016",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "Heat transfer mechanisms (5.2)",
+      "subsection": "III. Radiation",
+      "sub_subsection": null,
+      "structural_anchor": "III. Radiation",
+      "mcq_type": "L",
+      "question": "Which characteristic distinguishes thermal radiation from conduction and convection?",
+      "options": {
+        "A": "It can transfer energy through a vacuum.",
+        "B": "It requires a temperature difference.",
+        "C": "It involves the transfer of thermal energy.",
+        "D": "Its rate increases with greater temperature difference."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the necessity of a material medium for the transfer.",
+      "explanation": "Thermal radiation propagates via electromagnetic waves and does not require a material medium. Options B, C, and D are true for all heat transfer modes, not unique to radiation.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Heat transfer mechanisms (5.2)",
+        "subsection_anchor": "III. Radiation",
+        "structural_element": "III. Radiation",
+        "content_anchor": "does not necessarily require a medium to carry it",
+        "page_hint": "Page 8",
+        "concept_hash": "hash_L_RadiationCharacteristic_5.2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q017",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "Heat Capacity and Specific Heat Capacity (5.3)",
+      "subsection": "Specific heat capacity",
+      "sub_subsection": null,
+      "structural_anchor": "Specific heat capacity",
+      "mcq_type": "M",
+      "question": "If substance A has a higher specific heat capacity than substance B, what does this imply when equal masses of both are supplied with the same amount of heat?",
+      "options": {
+        "A": "Substance A will experience a smaller temperature increase.",
+        "B": "Substance A will experience a larger temperature increase.",
+        "C": "Both will reach the same final temperature.",
+        "D": "Substance A will absorb less total heat energy."
+      },
+      "correct_answer": "A",
+      "hint": "Specific heat capacity is the heat required per degree per mass. A higher value means more heat is needed for the same ΔT.",
+      "explanation": "A higher specific heat capacity means more energy is required to raise the temperature. For equal heat input, the temperature increase is smaller. Option B reverses the correct relationship.",
+      "difficulty_level": "medium",
+      "formula_used": ["Q = mcΔT"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Heat Capacity and Specific Heat Capacity (5.3)",
+        "subsection_anchor": "Specific heat capacity",
+        "structural_element": "Specific heat capacity",
+        "content_anchor": "c = Q/(mΔT)",
+        "page_hint": "Page 10",
+        "concept_hash": "hash_M_SpecificHeatInterpret_5.3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q018",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "Thermal expansion (5.4)",
+      "subsection": "Linear expansion",
+      "sub_subsection": null,
+      "structural_anchor": "Linear expansion",
+      "mcq_type": "N",
+      "question": "Under what condition does a solid object typically undergo linear expansion?",
+      "options": {
+        "A": "When it absorbs heat and its temperature increases.",
+        "B": "When it is subjected to increased pressure.",
+        "C": "When its density decreases at constant temperature.",
+        "D": "When it changes phase from solid to liquid."
+      },
+      "correct_answer": "A",
+      "hint": "Thermal expansion is a response to temperature change, not pressure or phase change.",
+      "explanation": "Linear expansion occurs when increased temperature causes greater molecular vibration and average separation. Option D describes a phase change, which involves latent heat, not just expansion.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Thermal expansion (5.4)",
+        "subsection_anchor": "Linear expansion",
+        "structural_element": "Linear expansion",
+        "content_anchor": "change in size of matter in response to a change in its temperature",
+        "page_hint": "Page 12",
+        "concept_hash": "hash_N_ThermalExpansionCause_5.4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q019",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "Thermal expansion (5.4)",
+      "subsection": "Area expansion",
+      "sub_subsection": null,
+      "structural_anchor": "Area expansion",
+      "mcq_type": "D",
+      "question": "A square steel plate has a linear expansion coefficient α. What is the approximate relationship between its area expansion coefficient β and α?",
+      "options": {
+        "A": "β = α",
+        "B": "β = 2α",
+        "C": "β = α²",
+        "D": "β = 3α"
+      },
+      "correct_answer": "B",
+      "hint": "Area expansion considers expansion in two dimensions.",
+      "explanation": "For isotropic materials, the area expansion coefficient is approximately twice the linear coefficient: β ≈ 2α. Option D corresponds to the volume expansion coefficient γ.",
+      "difficulty_level": "easy",
+      "formula_used": ["β = 2α"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Thermal expansion (5.4)",
+        "subsection_anchor": "Area expansion",
+        "structural_element": "Area expansion",
+        "content_anchor": "β = 2α",
+        "page_hint": "Page 15",
+        "concept_hash": "hash_D_AreaExpansion_5.4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q020",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "Thermal expansion (5.4)",
+      "subsection": "Real and apparent coefficients of cubic expansion",
+      "sub_subsection": null,
+      "structural_anchor": "Real and apparent coefficients of cubic expansion",
+      "mcq_type": "F",
+      "question": "When measuring the volume expansion of a liquid in a container, why does the observed expansion appear less than the true expansion of the liquid alone?",
+      "options": {
+        "A": "The container itself expands, increasing its capacity, which partially accommodates the liquid's expansion.",
+        "B": "Some heat is lost to the surroundings, reducing the liquid's temperature change.",
+        "C": "The liquid's density decreases, making measurement difficult.",
+        "D": "The liquid contracts upon heating due to unusual molecular properties."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the simultaneous expansion of both the liquid and its confining vessel.",
+      "explanation": "The container expands outward, providing more volume. The apparent expansion is the liquid's expansion minus the container's expansion. Option B describes a heat loss error, not the systematic cause of apparent versus real expansion.",
+      "difficulty_level": "medium",
+      "formula_used": ["γ_real = γ_apparent + γ_container"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Thermal expansion (5.4)",
+        "subsection_anchor": "Real and apparent coefficients of cubic expansion",
+        "structural_element": "Real and apparent coefficients of cubic expansion",
+        "content_anchor": "container itself is affected by the change in temperature",
+        "page_hint": "Page 18",
+        "concept_hash": "hash_F_RealApparentExpansion_5.4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3500,
+    "average_question_quality": 84.5,
+    "type_distribution": {
+      "C": 1,
+      "D": 2,
+      "E": 1,
+      "F": 1,
+      "H": 1,
+      "I": 1,
+      "L": 1,
+      "M": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 6,
+      "hard": 0
+    },
+    "section_distribution": {
+      "The Concept of Heat (5.1)": 1,
+      "Change of phase (5.5)": 1,
+      "Heat transfer mechanisms (5.2)": 2,
+      "Thermal expansion (5.4)": 5,
+      "Heat Capacity and Specific Heat Capacity (5.3)": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

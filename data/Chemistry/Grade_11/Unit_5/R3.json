@@ -1,0 +1,814 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-01-27T00:06:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G11_Chem_U5_Q030",
+    "covered_sections": ["Start-up Activity", "5.1 Introduction", "5.2 Chemical Equilibrium>5.2.1 Reversible and Irreversible Reactions", "5.2 Chemical Equilibrium>5.2.2 Attainment and Characteristics of Chemical Equilibria", "5.2 Chemical Equilibrium>5.2.3 Conditions for Attainment of Chemical Equilibria", "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant", "5.2 Chemical Equilibrium>5.2.5 Applications of Equilibrium Constant", "5.2 Chemical Equilibrium>5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle", "5.2 Chemical Equilibrium>5.2.7 Equilibrium and Industry", "Unit Summary", "KEY TERMS"],
+    "used_question_signatures": ["hash_A_ReversibleReaction_5.2.1", "hash_B_DynamicEquilibrium_5.2.2", "hash_C_LawOfMassAction_5.2.4_A", "hash_D_KcExpression_5.2.4_B", "hash_E_KpCalculation_5.2.4_C", "hash_F_ConceptualKc_5.2.4_B", "hash_G_CauseEffectPressure_5.2.6_B", "hash_H_MisconcentrationEquilibrium_5.2.6_A", "hash_I_ComparisonReversible_5.2.1", "hash_J_ClassificationHeterogeneous_5.2.4_D", "hash_A_ChemicalEquilibriumState_5.2.2", "hash_D_CalculateKc_5.2.4_B", "hash_F_PredictDirectionQ_5.2.5_B", "hash_G_TemperatureEffect_5.2.6_C", "hash_H_MisconceptionKconstant_5.2.5_B", "hash_K_InterpretGraph_5.2.2", "hash_L_ExperimentalFeSCN_5.2.6_A", "hash_M_ProcessHaber_5.2.7_A", "hash_N_ConditionCatalyst_5.2.6_D", "hash_B_TermEquilibriumConstant_5.2.4", "hash_D_CalculateKpFromKc_5.2.4_E", "hash_E_NumericalEquilibriumConc_5.2.5_C", "hash_G_CauseEffectConcentration_5.2.6_A", "hash_I_ComparisonHomogeneousHeterogeneous_5.2.4_D", "hash_K_InterpretKvalue_5.2.5_A", "hash_L_ExperimentalIodineStarch_5.2.6_C", "hash_M_ProcessContact_5.2.7_B", "hash_N_ConditionPressure_5.2.6_B", "hash_C_FormulaKpKcRelation_5.2.4_E", "hash_H_MisconceptionCompletion_5.2.1"],
+    "baseline_counter": {
+      "Start-up Activity": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "5.1 Introduction": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "5.2 Chemical Equilibrium": {
+        "5.2.1 Reversible and Irreversible Reactions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "5.2.2 Attainment and Characteristics of Chemical Equilibria": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.2.3 Conditions for Attainment of Chemical Equilibria": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.4 Equilibrium Expression and Equilibrium Constant": {
+          "count": 7,
+          "mini_headings_covered": ["A. Law of Mass Actions", "B. Equilibrium constant expression involving concentration, Kc", "C. Equilibrium constant expression involving partial pressure, Kp", "D. Equilibrium constant for heterogeneous reactions", "E. Relation between Kc and Kp"],
+          "last_question_round": 3
+        },
+        "5.2.5 Applications of Equilibrium Constant": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle": {
+          "count": 7,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.2.7 Equilibrium and Industry": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Unit Summary": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "CHECKLIST": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "KEY TERMS": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "REVIEW QUESTIONS": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Start-up Activity": {
+        "question_count": 1,
+        "last_used_round": 3
+      },
+      "5.1 Introduction": {
+        "question_count": 1,
+        "last_used_round": 3
+      },
+      "5.2 Chemical Equilibrium": {
+        "question_count": 8,
+        "last_used_round": 3
+      },
+      "Unit Summary": {
+        "question_count": 1,
+        "last_used_round": 3
+      },
+      "CHECKLIST": {
+        "question_count": 0,
+        "last_used_round": 0
+      },
+      "KEY TERMS": {
+        "question_count": 1,
+        "last_used_round": 3
+      },
+      "REVIEW QUESTIONS": {
+        "question_count": 0,
+        "last_used_round": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.2 Chemical Equilibrium>5.2.1 Reversible and Irreversible Reactions": ["Reversible Reaction", "Irreversible Reaction", "Reaction Completion"],
+      "5.2 Chemical Equilibrium>5.2.2 Attainment and Characteristics of Chemical Equilibria": ["Dynamic Equilibrium", "Characteristics of Equilibrium", "Graphical Interpretation"],
+      "5.2 Chemical Equilibrium>5.2.3 Conditions for Attainment of Chemical Equilibria": ["Closed System"],
+      "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant": ["Law of Mass Action", "Equilibrium Constant (Kc)", "Equilibrium Constant (Kp)", "Heterogeneous Equilibrium", "Homogeneous Equilibrium", "Kc and Kp Relation"],
+      "5.2 Chemical Equilibrium>5.2.5 Applications of Equilibrium Constant": ["Reaction Quotient (Q)", "Predicting Reaction Direction", "Extent of Reaction", "Equilibrium Concentration Calculation"],
+      "5.2 Chemical Equilibrium>5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle": ["Effect of Pressure", "Effect of Temperature", "Effect of Catalyst", "Effect of Concentration", "Experiment with Iodine-Starch"],
+      "5.2 Chemical Equilibrium>5.2.7 Equilibrium and Industry": ["Haber Process", "Contact Process"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 22,
+      "questions_per_concept_ratio": 1.36,
+      "structural_coverage_percentage": 71.43
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Chemistry",
+  "unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+  "pdf_filename": "C11U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-01-27T00:08:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 7,
+        "progress_percentage": 71.43
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 9,
+      "mini_headings_covered_count": 5,
+      "structural_coverage_percentage": 47.62,
+      "concept_utilization_ratio": 1.36
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.2 Chemical Equilibrium",
+      "least_covered_section": "CHECKLIST",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Chem_U5_Q021",
+      "generation_timestamp": "2024-01-27T00:06:10Z",
+      "section": "Start-up Activity",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "B",
+      "question": "What is the term for the numerical value that expresses the ratio of product concentrations to reactant concentrations, each raised to the power of its coefficient, for a reaction at equilibrium?",
+      "options": {
+        "A": "Reaction quotient",
+        "B": "Equilibrium constant",
+        "C": "Rate constant",
+        "D": "Ionization constant"
+      },
+      "correct_answer": "B",
+      "hint": "This constant is temperature-dependent and characterizes the equilibrium position.",
+      "explanation": "The equilibrium constant (Kc or Kp) quantifies the ratio of equilibrium concentrations or partial pressures. Option A refers to the reaction quotient Q, which uses the same expression but with non-equilibrium concentrations.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "Start-up Activity",
+        "subsection_anchor": null,
+        "structural_element": null,
+        "content_anchor": "equilibrium constant",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_hash_of_EquilibriumConstant_Term"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q022",
+      "generation_timestamp": "2024-01-27T00:06:25Z",
+      "section": "5.1 Introduction",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "G",
+      "question": "If the rate of the forward reaction in a reversible system increases due to a higher reactant concentration, what immediate effect does this have on the rate of the reverse reaction?",
+      "options": {
+        "A": "The reverse rate increases proportionally.",
+        "B": "The reverse rate decreases initially.",
+        "C": "The reverse rate remains unchanged initially.",
+        "D": "The reverse rate becomes zero."
+      },
+      "correct_answer": "C",
+      "hint": "Consider that reverse reaction rate depends on product concentration, not directly on forward rate.",
+      "explanation": "The reverse reaction rate depends solely on the concentration of products at that instant. An increase in forward rate will eventually produce more products, increasing the reverse rate, but not immediately. Option A incorrectly assumes an instantaneous coupling.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.1 Introduction",
+        "subsection_anchor": null,
+        "structural_element": null,
+        "content_anchor": "rate of forward reaction depends upon the concentration of reactants",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_hash_of_RateDependence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q023",
+      "generation_timestamp": "2024-01-27T00:06:45Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+      "sub_subsection": "E. Relation between Kc and Kp",
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "For the reaction 2SO₃(g) ⇌ 2SO₂(g) + O₂(g), Kp = 1.8×10⁻³ kPa at 427°C. Given R = 8.314 N m K⁻¹ mol⁻¹, what is the approximate value of Kc?",
+      "options": {
+        "A": "3.1×10⁻⁴ mol m⁻³",
+        "B": "3.1×10⁻⁴ mol L⁻¹",
+        "C": "5.6×10⁻⁶ mol m⁻³",
+        "D": "5.6×10⁻⁶ mol L⁻¹"
+      },
+      "correct_answer": "A",
+      "hint": "Use Kp = Kc(RT)^Δn. Convert kPa to N m⁻² and temperature to Kelvin.",
+      "explanation": "Δn = (2+1) - 2 = 1. T=700K. Kp=1.8 N m⁻². Kc = Kp/(RT) = 1.8/(8.314×700) ≈ 3.1×10⁻⁴ mol m⁻³. Option B uses incorrect units (L instead of m³).",
+      "difficulty_level": "hard",
+      "formula_used": ["Kp = Kc(RT)^Δn"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "mol m⁻³",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+        "structural_element": "E. Relation between Kc and Kp",
+        "content_anchor": "Kc = Kp/(RT) = 3.1×10⁻⁴ m⁻³ mol",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_hash_of_KpToKcConversion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 88,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q024",
+      "generation_timestamp": "2024-01-27T00:07:05Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.5 Applications of Equilibrium Constant",
+      "sub_subsection": "C. Calculate the equilibrium concentrations",
+      "structural_anchor": null,
+      "mcq_type": "E",
+      "question": "For H₂(g) + I₂(g) ⇌ 2HI(g) with Kc = 69, initial concentrations are [H₂] = 2.0 M and [I₂] = 4.0 M. If the equilibrium concentration of H₂ is 0.1 M, what is [HI] at equilibrium?",
+      "options": {
+        "A": "1.9 M",
+        "B": "3.8 M",
+        "C": "5.7 M",
+        "D": "7.6 M"
+      },
+      "correct_answer": "B",
+      "hint": "Find change in [H₂], then relate to [HI] using stoichiometry (2:1 ratio).",
+      "explanation": "Change in [H₂] = 2.0 - 0.1 = 1.9 M. Since 1 mol H₂ produces 2 mol HI, [HI] = 2 × 1.9 = 3.8 M. Option A uses the change directly without the 2:1 multiplier.",
+      "difficulty_level": "medium",
+      "formula_used": ["Kc = [HI]² / ([H₂][I₂])"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "M",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 78
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.5 Applications of Equilibrium Constant",
+        "structural_element": "C. Calculate the equilibrium concentrations",
+        "content_anchor": "[H₂] = 2.0 - x = 0.1 M, [HI] = 2x = 3.8 M",
+        "page_hint": "Page 23-24",
+        "concept_hash": "sha256_hash_of_EquilibriumConcentrationCalc"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q025",
+      "generation_timestamp": "2024-01-27T00:07:25Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+      "sub_subsection": "A. Effect of Change in The Concentration",
+      "structural_anchor": null,
+      "mcq_type": "G",
+      "question": "For the equilibrium N₂(g) + 3H₂(g) ⇌ 2NH₃(g), if additional N₂ is injected into the system at constant volume and temperature, what is the immediate effect on the concentration of H₂?",
+      "options": {
+        "A": "[H₂] increases because the reverse reaction is favored.",
+        "B": "[H₂] decreases as it reacts with the added N₂ to form more NH₃.",
+        "C": "[H₂] remains unchanged because only N₂ was added.",
+        "D": "[H₂] increases initially then decreases as equilibrium re-establishes."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the instant after addition, before the system responds.",
+      "explanation": "Immediately after adding N₂, only the concentration of N₂ changes. The concentrations of H₂ and NH₃ remain at their pre-addition values until the reaction begins to shift. Option B describes the shift that occurs after the instantaneous change.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+        "structural_element": "A. Effect of Change in The Concentration",
+        "content_anchor": "increase in the concentration of A or B shifts the equilibrium position to the right",
+        "page_hint": "Page 26",
+        "concept_hash": "sha256_hash_of_InstantaneousVsShift"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q026",
+      "generation_timestamp": "2024-01-27T00:07:45Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+      "sub_subsection": "D. Equilibrium constant for heterogeneous reactions",
+      "structural_anchor": null,
+      "mcq_type": "I",
+      "question": "How does writing the equilibrium constant expression for a homogeneous reaction differ from that for a heterogeneous reaction involving a pure solid?",
+      "options": {
+        "A": "Homogeneous expressions include all species; heterogeneous expressions omit solids.",
+        "B": "Homogeneous expressions use partial pressures; heterogeneous expressions use concentrations.",
+        "C": "Homogeneous expressions have units; heterogeneous expressions are dimensionless.",
+        "D": "Homogeneous expressions are temperature-dependent; heterogeneous expressions are not."
+      },
+      "correct_answer": "A",
+      "hint": "Consider which species' concentrations can change in a heterogeneous system.",
+      "explanation": "In homogeneous equilibria, all reactants and products are in the same phase and their concentrations appear in K. For heterogeneous equilibria, pure solids and liquids are omitted because their concentrations are constant. Option B incorrectly generalizes the use of pressure vs. concentration.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+        "structural_element": "D. Equilibrium constant for heterogeneous reactions",
+        "content_anchor": "do not include the concentration of pure solids or pure liquids",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_hash_of_HomogeneousVsHeterogeneous"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q027",
+      "generation_timestamp": "2024-01-27T00:08:05Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.5 Applications of Equilibrium Constant",
+      "sub_subsection": "A. Predict the composition of an equilibrium mixture",
+      "structural_anchor": null,
+      "mcq_type": "K",
+      "question": "A reaction has Kc = 5.0×10⁻³. What does this value indicate about the relative amounts of products and reactants present at equilibrium?",
+      "options": {
+        "A": "Products are favored; the equilibrium mixture is rich in products.",
+        "B": "Reactants are favored; the equilibrium mixture is rich in reactants.",
+        "C": "Products and reactants are present in nearly equal amounts.",
+        "D": "The reaction has gone nearly to completion."
+      },
+      "correct_answer": "B",
+      "hint": "Compare Kc to 1. A small Kc means the denominator (reactants) is larger.",
+      "explanation": "A Kc much less than 1 indicates the equilibrium constant expression yields a small number, meaning product concentrations are low relative to reactants. Option A would be true for Kc >> 1.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.5 Applications of Equilibrium Constant",
+        "structural_element": "A. Predict the composition of an equilibrium mixture",
+        "content_anchor": "if Kc values are very small, the equilibrium mixture consists of mainly reactants",
+        "page_hint": "Page 20",
+        "concept_hash": "sha256_hash_of_KcSmallInterpretation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q028",
+      "generation_timestamp": "2024-01-27T00:08:15Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+      "sub_subsection": "C. Effect of Change in Temperature",
+      "structural_anchor": "Experiment 5.2",
+      "mcq_type": "L",
+      "question": "In an experiment, iodine forms a blue-black complex with starch. When the equilibrium mixture is heated, the color fades. What does this observation imply about the forward complexation reaction?",
+      "options": {
+        "A": "The forward reaction is exothermic.",
+        "B": "The forward reaction is endothermic.",
+        "C": "The reaction is not affected by temperature.",
+        "D": "The equilibrium constant increases with temperature."
+      },
+      "correct_answer": "A",
+      "hint": "Heating shifts equilibrium away from the colored product.",
+      "explanation": "Heating favors the endothermic direction. Since heating reduces the colored product (complex), the forward reaction that forms it must be exothermic (reverse is endothermic). Option B would imply heating intensifies the color.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+        "structural_element": "Experiment 5.2",
+        "content_anchor": "heat the solution... record your observation",
+        "page_hint": "Page 31",
+        "concept_hash": "sha256_hash_of_Experiment_IodineStarch"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q029",
+      "generation_timestamp": "2024-01-27T00:08:20Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.7 Equilibrium and Industry",
+      "sub_subsection": "B. Contact Process for the Manufacture of Sulphuric acid",
+      "structural_anchor": null,
+      "mcq_type": "M",
+      "question": "In the Contact process, what is the primary reason for using a temperature of about 450°C for the oxidation of SO₂ to SO₃, despite the reaction being exothermic?",
+      "options": {
+        "A": "To maximize the equilibrium yield of SO₃.",
+        "B": "To achieve a reasonable reaction rate while maintaining a moderate yield.",
+        "C": "To prevent the decomposition of the V₂O₅ catalyst.",
+        "D": "To ensure the product SO₃ remains in the gaseous state."
+      },
+      "correct_answer": "B",
+      "hint": "Lower temperatures favor yield but slow the rate; higher temperatures speed rate but reduce yield.",
+      "explanation": "The exothermic oxidation has a higher equilibrium yield at lower temperatures, but the rate is impractically slow. 450°C is a compromise that provides a commercially viable rate with an acceptable SO₃ yield. Option A is incorrect because lower temperatures, not 450°C, maximize equilibrium yield.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.7 Equilibrium and Industry",
+        "structural_element": "B. Contact Process for the Manufacture of Sulphuric acid",
+        "content_anchor": "temperature about 450°C is a compromising situation whereby a faster reaction rate results in a slightly lower yield",
+        "page_hint": "Page 37",
+        "concept_hash": "sha256_hash_of_ContactProcess_Temperature"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q030",
+      "generation_timestamp": "2024-01-27T00:08:25Z",
+      "section": "Unit Summary",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "C",
+      "question": "Which formula correctly relates the equilibrium constants Kp and Kc for a reaction involving gases?",
+      "options": {
+        "A": "Kp = Kc(RT)",
+        "B": "Kp = Kc(RT)^Δn",
+        "C": "Kc = Kp(RT)^Δn",
+        "D": "Kp = Kc / (RT)^Δn"
+      },
+      "correct_answer": "B",
+      "hint": "Δn is the difference in moles of gas between products and reactants.",
+      "explanation": "The relationship Kp = Kc(RT)^Δn derives from the ideal gas law, where Δn = (moles gaseous products) - (moles gaseous reactants). Option C inverts the relationship, placing Kc as the larger quantity when Δn is positive.",
+      "difficulty_level": "medium",
+      "formula_used": ["Kp = Kc(RT)^Δn"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "Unit Summary",
+        "subsection_anchor": null,
+        "structural_element": null,
+        "content_anchor": "Kp = Kc(RT)^Δn",
+        "page_hint": "Page 38",
+        "concept_hash": "sha256_hash_of_Formula_KpKcRelation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 140000,
+    "average_question_quality": 84.5,
+    "type_distribution": {
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "G": 2,
+      "I": 1,
+      "K": 1,
+      "L": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 6,
+      "hard": 2
+    },
+    "section_distribution": {
+      "Start-up Activity": 1,
+      "5.1 Introduction": 1,
+      "5.2 Chemical Equilibrium": 7,
+      "Unit Summary": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,833 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-10-24T10:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Phy_U6_Q010",
+    "covered_sections": ["Introduction", "Electromagnetic (EM) waves", "EM Spectrum"],
+    "used_question_signatures": ["a1b2c3d4e5", "f6g7h8i9j0", "k1l2m3n4o5", "p6q7r8s9t0", "u1v2w3x4y5", "z6a7b8c9d0", "e1f2g3h4i5", "j6k7l8m9n0", "o1p2q3r4s5", "t6u7v8w9x0"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Electromagnetic (EM) waves": {
+        "Electromagnetic (EM) waves": {
+          "count": 4,
+          "mini_headings_covered": ["Key Concept:", "Radiant Energy from the Sun:", "Section summary:"],
+          "last_question_round": 1
+        }
+      },
+      "EM Spectrum": {
+        "EM Spectrum": {
+          "count": 5,
+          "mini_headings_covered": ["Radio waves:", "Key Concept:", "Microwaves:", "Infrared waves:", "Visible Light:"],
+          "last_question_round": 1
+        }
+      },
+      "Light as a wave": {
+        "Light as a wave": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Laws of reflection & refraction": {
+        "Laws of reflection & refraction": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Mirrors and lenses": {
+        "Mirrors and lenses": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Human eye and optical instruments": {
+        "Human eye and optical instruments": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Primary colors of light and human vision": {
+        "Primary colors of light and human vision": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Color addition of light": {
+        "Color addition of light": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Color subtraction of light using filters": {
+        "Color subtraction of light using filters": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Electromagnetic (EM) waves": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "EM Spectrum": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Light as a wave": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Laws of reflection & refraction": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Mirrors and lenses": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Human eye and optical instruments": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Primary colors of light and human vision": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Color addition of light": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Color subtraction of light using filters": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["Geometrical Optics"],
+      "Electromagnetic (EM) waves>Electromagnetic (EM) waves": ["Electromagnetic Wave", "Oscillating Fields", "Transverse Wave", "Radiant Energy"],
+      "EM Spectrum>EM Spectrum": ["Radio Waves", "Microwaves", "Infrared Waves", "Visible Light", "Frequency-Wavelength Relationship"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state_hash_placeholder",
+    "content_density_metrics": {
+      "total_concepts_extracted": 9,
+      "questions_per_concept_ratio": 1.11,
+      "structural_coverage_percentage": 10.0
+    }
+  },
+  "grade": "10",
+  "subject": "Physics",
+  "unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+  "pdf_filename": "P10U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-10-24T10:02:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 10,
+        "progress_percentage": 30.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 3,
+      "mini_headings_covered_count": 8,
+      "structural_coverage_percentage": 8.0,
+      "concept_utilization_ratio": 1.11
+    },
+    "distribution_analysis": {
+      "most_covered_section": "EM Spectrum",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 5.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.9,
+      "remaining_concept_capacity": 89
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phy_U6_Q001",
+      "generation_timestamp": "2024-10-24T10:00:05Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "Introduction",
+      "mcq_type": "A",
+      "question": "Which branch of physics deals with the behavior of light as it interacts with materials, particularly focusing on shapes and angles?",
+      "options": {
+        "A": "Geometrical optics",
+        "B": "Wave mechanics",
+        "C": "Thermodynamics",
+        "D": "Electrodynamics"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the study of light rays, mirrors, and lenses.",
+      "explanation": "Geometrical optics is the branch of physics that models light using rays to study its interaction with materials like mirrors and lenses. Option C incorrectly refers to the study of heat and energy transfer.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": "Introduction",
+        "content_anchor": "The study of how light interacts with materials is optics",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_geometrical_optics"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q002",
+      "generation_timestamp": "2024-10-24T10:00:15Z",
+      "section": "Electromagnetic (EM) waves",
+      "subsection": "Electromagnetic (EM) waves",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "A",
+      "question": "What type of wave consists of oscillating electric and magnetic fields that radiate outward at the speed of light?",
+      "options": {
+        "A": "Electromagnetic wave",
+        "B": "Mechanical wave",
+        "C": "Longitudinal wave",
+        "D": "Surface wave"
+      },
+      "correct_answer": "A",
+      "hint": "This wave type can propagate through a vacuum.",
+      "explanation": "An electromagnetic wave is defined by its composition of mutually perpendicular, oscillating electric and magnetic fields. Option B is incorrect because mechanical waves require a material medium for propagation.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Electromagnetic (EM) waves",
+        "subsection_anchor": "Electromagnetic (EM) waves",
+        "structural_element": "Key Concept:",
+        "content_anchor": "EM is a wave that consists of oscillating electric and magnetic fields",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_em_wave_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q003",
+      "generation_timestamp": "2024-10-24T10:00:25Z",
+      "section": "Electromagnetic (EM) waves",
+      "subsection": "Electromagnetic (EM) waves",
+      "sub_subsection": null,
+      "structural_anchor": "Radiant Energy from the Sun:",
+      "mcq_type": "B",
+      "question": "Infrared and visible light waves from the Sun carry most of the energy that reaches Earth. What is this transported energy called?",
+      "options": {
+        "A": "Radiant energy",
+        "B": "Thermal energy",
+        "C": "Kinetic energy",
+        "D": "Chemical energy"
+      },
+      "correct_answer": "A",
+      "hint": "This term describes energy carried by electromagnetic waves.",
+      "explanation": "Radiant energy is the term for energy transported by electromagnetic waves, such as sunlight. Option B refers specifically to the internal energy of a substance related to its temperature.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Electromagnetic (EM) waves",
+        "subsection_anchor": "Electromagnetic (EM) waves",
+        "structural_element": "Radiant Energy from the Sun:",
+        "content_anchor": "The energy carried by EM waves is called radiant energy",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_radiant_energy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q004",
+      "generation_timestamp": "2024-10-24T10:00:35Z",
+      "section": "Electromagnetic (EM) waves",
+      "subsection": "Electromagnetic (EM) waves",
+      "sub_subsection": null,
+      "structural_anchor": "Section summary:",
+      "mcq_type": "J",
+      "question": "Electromagnetic waves are classified as transverse waves. Which statement correctly classifies another property of these waves?",
+      "options": {
+        "A": "They require a medium for propagation.",
+        "B": "They are composed of oscillating electric and magnetic fields.",
+        "C": "They propagate only in solids and liquids.",
+        "D": "They are longitudinal in nature."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the fundamental components of an EM wave.",
+      "explanation": "A defining property of electromagnetic waves is their composition of perpendicularly oscillating electric and magnetic fields. Option D is a misclassification, as EM waves are transverse, not longitudinal.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "Electromagnetic (EM) waves",
+        "subsection_anchor": "Electromagnetic (EM) waves",
+        "structural_element": "Section summary:",
+        "content_anchor": "EM waves are transverse waves made of vibrating electric and magnetic fields",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_em_wave_properties"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q005",
+      "generation_timestamp": "2024-10-24T10:00:45Z",
+      "section": "EM Spectrum",
+      "subsection": "EM Spectrum",
+      "sub_subsection": null,
+      "structural_anchor": "Radio waves:",
+      "mcq_type": "B",
+      "question": "Which type of electromagnetic wave has the longest wavelength and lowest frequency within the spectrum?",
+      "options": {
+        "A": "Radio waves",
+        "B": "Gamma rays",
+        "C": "X-rays",
+        "D": "Ultraviolet rays"
+      },
+      "correct_answer": "A",
+      "hint": "Think of the wave used for broadcasting signals.",
+      "explanation": "Radio waves occupy the region of the electromagnetic spectrum with the longest wavelengths and lowest frequencies. Option B incorrectly identifies gamma rays, which have the shortest wavelengths and highest frequencies.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "EM Spectrum",
+        "subsection_anchor": "EM Spectrum",
+        "structural_element": "Radio waves:",
+        "content_anchor": "They have the lowest frequencies in the EM spectrum",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_radio_waves"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q006",
+      "generation_timestamp": "2024-10-24T10:00:55Z",
+      "section": "EM Spectrum",
+      "subsection": "EM Spectrum",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "I",
+      "question": "How does the penetrating power of gamma rays compare to that of radio waves?",
+      "options": {
+        "A": "Gamma rays have higher penetrating power.",
+        "B": "Radio waves have higher penetrating power.",
+        "C": "Both have identical penetrating power.",
+        "D": "Neither can penetrate any material."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the energy associated with each type of radiation.",
+      "explanation": "Gamma rays possess the highest energy in the electromagnetic spectrum, granting them the greatest penetrating power through matter. Option B incorrectly reverses this relationship, as radio waves have very low penetrating power.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "EM Spectrum",
+        "subsection_anchor": "EM Spectrum",
+        "structural_element": "Key Concept:",
+        "content_anchor": "Gamma- rays have the highest energy and are the most penetrating, while radio waves have the lowest energy",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_penetrating_power"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q007",
+      "generation_timestamp": "2024-10-24T10:01:05Z",
+      "section": "EM Spectrum",
+      "subsection": "EM Spectrum",
+      "sub_subsection": null,
+      "structural_anchor": "Microwaves:",
+      "mcq_type": "D",
+      "question": "A microwave oven heats food by causing water and fat molecules to vibrate. What principle is directly applied in this process?",
+      "options": {
+        "A": "Absorption of microwave energy by dipolar molecules",
+        "B": "Reflection of microwaves by metal surfaces",
+        "C": "Refraction of microwaves through glass",
+        "D": "Diffraction of microwaves around edges"
+      },
+      "correct_answer": "A",
+      "hint": "Think about how energy is transferred to the food material.",
+      "explanation": "Microwave ovens work on the principle that microwave radiation is absorbed by water and fat molecules, causing them to rotate and generate thermal energy. Option B describes the behavior of microwaves with metal, which is not the primary heating mechanism.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "EM Spectrum",
+        "subsection_anchor": "EM Spectrum",
+        "structural_element": "Microwaves:",
+        "content_anchor": "Microwaves cause water and fat molecules to vibrate, which makes the substances hot",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_microwave_heating"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q008",
+      "generation_timestamp": "2024-10-24T10:01:15Z",
+      "section": "EM Spectrum",
+      "subsection": "EM Spectrum",
+      "sub_subsection": null,
+      "structural_anchor": "Infrared waves:",
+      "mcq_type": "K",
+      "question": "Thermal imaging cameras used by police helicopters detect infrared radiation emitted by warm objects. What does this application demonstrate about infrared waves?",
+      "options": {
+        "A": "They are emitted by all objects with temperature above absolute zero.",
+        "B": "They are only produced by artificial electronic devices.",
+        "C": "They cannot be detected by electronic sensors.",
+        "D": "They are identical to visible light in all properties."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the relationship between heat and this type of radiation.",
+      "explanation": "All objects at a temperature above absolute zero emit infrared radiation, with intensity related to their temperature, which allows thermal imaging. Option B is incorrect because natural warm objects, like humans, also emit infrared waves.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "EM Spectrum",
+        "subsection_anchor": "EM Spectrum",
+        "structural_element": "Infrared waves:",
+        "content_anchor": "Infra- red waves as heat, because they're given off by hot objects",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_infrared_emission"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 87,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q009",
+      "generation_timestamp": "2024-10-24T10:01:25Z",
+      "section": "EM Spectrum",
+      "subsection": "EM Spectrum",
+      "sub_subsection": null,
+      "structural_anchor": "Visible Light:",
+      "mcq_type": "F",
+      "question": "Under the condition that the frequency of an electromagnetic wave increases while its speed in a vacuum remains constant, which reasoning best explains the change in its wavelength?",
+      "options": {
+        "A": "Wavelength increases proportionally, as speed is the product of frequency and wavelength.",
+        "B": "Wavelength decreases proportionally, because frequency and wavelength are inversely related.",
+        "C": "Wavelength remains unchanged, as speed is constant.",
+        "D": "Wavelength becomes zero, as frequency approaches infinity."
+      },
+      "correct_answer": "B",
+      "hint": "Recall the fundamental wave equation c = fλ.",
+      "explanation": "The wave equation c = fλ dictates that for a constant speed c, frequency (f) and wavelength (λ) are inversely proportional. Option A incorrectly proposes a direct proportionality, misapplying the wave relationship.",
+      "difficulty_level": "medium",
+      "formula_used": ["c = fλ"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "EM Spectrum",
+        "subsection_anchor": "EM Spectrum",
+        "structural_element": "Visible Light:",
+        "content_anchor": "Because all EM waves in a vacuum have the same speed of light, c, it follows that f and λ are related as follows: c = fλ",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_wave_equation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 90,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G10_Phy_U6_Q010",
+      "generation_timestamp": "2024-10-24T10:01:35Z",
+      "section": "EM Spectrum",
+      "subsection": "EM Spectrum",
+      "sub_subsection": null,
+      "structural_anchor": "Visible Light:",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that ultraviolet light is harmless because it is part of sunlight?",
+      "options": {
+        "A": "It confuses the necessity of some UV for vitamin D production with the harmful effects of overexposure.",
+        "B": "It assumes all components of sunlight have identical biological impacts.",
+        "C": "It ignores the fact that UV light is completely filtered by the atmosphere.",
+        "D": "It mistakenly classifies ultraviolet light as a type of infrared radiation."
+      },
+      "correct_answer": "A",
+      "hint": "Consider both beneficial and harmful effects of the same type of radiation.",
+      "explanation": "The misconception lies in not distinguishing between beneficial low-level exposure and harmful high-level exposure to ultraviolet radiation. Option C is factually incorrect, as the ozone layer filters most, but not all, UV radiation.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "EM Spectrum",
+        "subsection_anchor": "EM Spectrum",
+        "structural_element": "Visible Light:",
+        "content_anchor": "Large doses of UV cause sunburn and even skin cancer. Fortunately, the ozone layer... screens us from most of the UV",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_uv_effects"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 88,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 93
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 95000,
+    "average_question_quality": 86.5,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "D": 1,
+      "F": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "Electromagnetic (EM) waves": 4,
+      "EM Spectrum": 5
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,894 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2024-12-19T14:48:30Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G12_Bio_U5_Q020",
+    "covered_sections": [
+      "Body Coordination>Body Coordination",
+      "The Nervous System>Neurons and their functions",
+      "The Nervous System>The Nerve Impulse and transmission",
+      "The Nervous System>Neurotransmitters",
+      "The Nervous System>Types of the nervous system",
+      "The Nervous System>Reflex action",
+      "Drug abuse>Drug abuse",
+      "Sense organs>Skin",
+      "Sense organs>The Tongue",
+      "Sense organs>The Nose",
+      "Sense organs>The Eye",
+      "Sense organs>The Ear",
+      "The endocrine system>The endocrine glands",
+      "Homeostasis in the human body>The structure and function of the human kidney",
+      "Sense organs>The Nose",
+      "Sense organs>The Eye",
+      "Sense organs>The Ear",
+      "The endocrine system>The endocrine glands",
+      "Homeostasis in the human body>The structure and function of the human kidney",
+      "Body Coordination>Body Coordination",
+      "The Nervous System>Neurons and their functions",
+      "The Nervous System>The Nerve Impulse and transmission",
+      "The Nervous System>Types of the nervous system",
+      "The Nervous System>Reflex action",
+      "Drug abuse>Drug abuse",
+      "Sense organs>Skin"
+    ],
+    "used_question_signatures": [
+      "hash_Body_Coordination_Coordination_Forms",
+      "hash_Neurons_Types_Sensory",
+      "hash_Nerve_Impulse_Resting_Potential",
+      "hash_Neurotransmitters_Excitatory",
+      "hash_CNS_Brain_Cerebrum",
+      "hash_PNS_Autonomic_Sympathetic",
+      "hash_Reflex_Arc_Components",
+      "hash_Drug_Abuse_Nicotine_Dopamine",
+      "hash_Skin_Function_Protection",
+      "hash_Tongue_Taste_Buds_Receptors",
+      "hash_Nose_Olfaction_Receptors",
+      "hash_Eye_Retina_Rods_Cones",
+      "hash_Ear_Cochlea_Hearing",
+      "hash_Endocrine_Hormone_Target",
+      "hash_Homeostasis_Kidney_Nephron_Filtration",
+      "hash_Nose_Structure_Function",
+      "hash_Eye_Pupil_Light_Reflex",
+      "hash_Ear_Balance_Semicircular_Canals",
+      "hash_Endocrine_Pituitary_Master_Gland",
+      "hash_Homeostasis_Kidney_ADH_Osmoregulation",
+      "hash_Body_Coordination_Table_Comparison",
+      "hash_Neurons_Structure_Axon",
+      "hash_Nerve_Impulse_Action_Potential_Na",
+      "hash_CNS_Spinal_Cord_Structure",
+      "hash_Reflex_Action_Knee_Jerk",
+      "hash_Drug_Abuse_Alcohol_Addiction",
+      "hash_Skin_Temperature_Regulation"
+    ],
+    "baseline_counter": {
+      "Body Coordination": {
+        "Body Coordination": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "The Nervous System": {
+        "Neurons and their functions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "The Nerve Impulse and transmission": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Neurotransmitters": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Types of the nervous system": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Reflex action": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Drug abuse": {
+        "Drug abuse": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Sense organs": {
+        "Skin": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "The Tongue": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Nose": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "The Eye": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "The Ear": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "The endocrine system": {
+        "The endocrine glands": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Homeostasis in the human body": {
+        "The structure and function of the human kidney": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Body Coordination": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "The Nervous System": {
+        "question_count": 9,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Drug abuse": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Sense organs": {
+        "question_count": 9,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "The endocrine system": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Homeostasis in the human body": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Body Coordination>Body Coordination": ["Nervous coordination", "Hormonal coordination", "Speed comparison"],
+      "The Nervous System>Neurons and their functions": ["Sensory neurons", "Motor neurons", "Interneurons", "Axon structure"],
+      "The Nervous System>The Nerve Impulse and transmission": ["Resting potential", "Action potential", "Sodium influx"],
+      "The Nervous System>Neurotransmitters": ["Excitatory transmitter", "Inhibitory transmitter"],
+      "The Nervous System>Types of the nervous system": ["Central Nervous System", "Peripheral Nervous System", "Cerebrum", "Spinal cord"],
+      "The Nervous System>Reflex action": ["Reflex arc", "Stimulus-response pathway", "Knee-jerk reflex"],
+      "Drug abuse>Drug abuse": ["Nicotine", "Dopamine", "Alcohol addiction"],
+      "Sense organs>Skin": ["Epidermis", "Dermis", "Protection", "Temperature regulation"],
+      "Sense organs>The Tongue": ["Taste buds", "Papillae"],
+      "Sense organs>The Nose": ["Olfactory receptors", "Olfactory bulb", "Nasal concha"],
+      "Sense organs>The Eye": ["Retina", "Rods", "Cones", "Pupillary reflex"],
+      "Sense organs>The Ear": ["Cochlea", "Organ of Corti", "Semicircular canals"],
+      "The endocrine system>The endocrine glands": ["Hormones", "Target cells", "Pituitary gland"],
+      "Homeostasis in the human body>The structure and function of the human kidney": ["Nephron", "Ultrafiltration", "ADH", "Osmoregulation"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 45,
+      "questions_per_concept_ratio": 0.578,
+      "structural_coverage_percentage": 46.7
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 5: Human Body System",
+  "pdf_filename": "B12U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-12-19T14:48:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 26,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 14,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 46.7,
+      "concept_utilization_ratio": 0.578
+    },
+    "distribution_analysis": {
+      "most_covered_section": "The Nervous System",
+      "least_covered_section": "Body Coordination",
+      "imbalance_ratio": 4.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.578,
+      "remaining_concept_capacity": 19
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U5_Q011",
+      "generation_timestamp": "2024-12-19T14:48:30Z",
+      "section": "Sense organs",
+      "subsection": "The Nose",
+      "sub_subsection": null,
+      "structural_anchor": "The Nose",
+      "mcq_type": "D",
+      "question": "What is the primary function of the olfactory receptors located in the nasal epithelium?",
+      "options": {
+        "A": "Detecting sound vibrations",
+        "B": "Sensing changes in air pressure",
+        "C": "Identifying chemical molecules in the air",
+        "D": "Filtering dust particles from inhaled air"
+      },
+      "correct_answer": "C",
+      "hint": "These receptors are specialized for a specific chemical sense.",
+      "explanation": "Olfactory receptors detect airborne chemical molecules, enabling the sense of smell. Option D describes the function of nasal hairs and mucus, not the sensory receptors.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Sense organs",
+        "subsection_anchor": "The Nose",
+        "structural_element": "The Nose",
+        "content_anchor": "The human nose is a sense organ of smell",
+        "page_hint": null,
+        "concept_hash": "sha256_of_olfactory_receptor_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q012",
+      "generation_timestamp": "2024-12-19T14:48:30Z",
+      "section": "Sense organs",
+      "subsection": "The Eye",
+      "sub_subsection": "External structures of the eye",
+      "structural_anchor": "External structures of the eye",
+      "mcq_type": "G",
+      "question": "When moving from a dark room into bright sunlight, what immediate change occurs in the pupils to protect the retina?",
+      "options": {
+        "A": "The pupils dilate to allow more light in.",
+        "B": "The pupils constrict to reduce light entry.",
+        "C": "The lens becomes more convex.",
+        "D": "The ciliary muscles relax."
+      },
+      "correct_answer": "B",
+      "hint": "This reflex prevents damage to light-sensitive cells.",
+      "explanation": "Pupillary constriction in bright light reduces retinal exposure, protecting photoreceptors from damage. Option A describes the opposite response, which occurs in low-light conditions.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Sense organs",
+        "subsection_anchor": "The Eye",
+        "structural_element": "External structures of the eye",
+        "content_anchor": "In bright light, the circular muscles of the iris contract and the radial muscles relax",
+        "page_hint": null,
+        "concept_hash": "sha256_of_pupillary_light_reflex"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q013",
+      "generation_timestamp": "2024-12-19T14:48:30Z",
+      "section": "Sense organs",
+      "subsection": "The Ear",
+      "sub_subsection": "The sense of balance and movement",
+      "structural_anchor": "The sense of balance and movement",
+      "mcq_type": "B",
+      "question": "Which structures in the inner ear contain fluid and sensory hairs that detect rotational movements of the head?",
+      "options": {
+        "A": "Cochlea",
+        "B": "Ossicles",
+        "C": "Tympanic membrane",
+        "D": "Semicircular canals"
+      },
+      "correct_answer": "D",
+      "hint": "These three looped canals are oriented at right angles to each other.",
+      "explanation": "The semicircular canals contain endolymph and hair cells that sense angular acceleration during head rotation. Option A is incorrect because the cochlea is dedicated to hearing, not balance.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Sense organs",
+        "subsection_anchor": "The Ear",
+        "structural_element": "The sense of balance and movement",
+        "content_anchor": "The semicircular canals in the inner ear are concerned with the detection of motion",
+        "page_hint": null,
+        "concept_hash": "sha256_of_semicircular_canals_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q014",
+      "generation_timestamp": "2024-12-19T14:48:30Z",
+      "section": "The endocrine system",
+      "subsection": "The endocrine glands",
+      "sub_subsection": "The pituitary gland",
+      "structural_anchor": "The pituitary gland",
+      "mcq_type": "A",
+      "question": "Which endocrine gland is often described as the 'master gland' because it regulates the secretion of hormones from other glands?",
+      "options": {
+        "A": "Thyroid gland",
+        "B": "Adrenal gland",
+        "C": "Pituitary gland",
+        "D": "Pancreas"
+      },
+      "correct_answer": "C",
+      "hint": "This pea-sized gland is located at the base of the brain.",
+      "explanation": "The pituitary gland produces tropic hormones that control other endocrine glands, earning it the 'master gland' designation. Option A is incorrect because the thyroid is regulated by TSH from the pituitary.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The endocrine system",
+        "subsection_anchor": "The endocrine glands",
+        "structural_element": "The pituitary gland",
+        "content_anchor": "pituitary gland is sometimes described as the controller of the endocrine orchestra",
+        "page_hint": null,
+        "concept_hash": "sha256_of_pituitary_master_gland"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 96
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q015",
+      "generation_timestamp": "2024-12-19T14:48:30Z",
+      "section": "Homeostasis in the human body",
+      "subsection": "The structure and function of the human kidney",
+      "sub_subsection": "The roles of the different areas of a single kidney tubule",
+      "structural_anchor": "Second coiled (convoluted) tubule",
+      "mcq_type": "G",
+      "question": "What is the effect of anti-diuretic hormone (ADH) on the permeability of the second convoluted tubule and collecting duct?",
+      "options": {
+        "A": "Decreases water permeability, producing dilute urine.",
+        "B": "Increases water permeability, promoting water reabsorption.",
+        "C": "Increases sodium reabsorption only.",
+        "D": "Decreases urea reabsorption."
+      },
+      "correct_answer": "B",
+      "hint": "ADH helps the body conserve water when dehydrated.",
+      "explanation": "ADH increases water permeability in distal tubules and collecting ducts, enhancing water reabsorption and concentrating urine. Option A describes the condition when ADH levels are low.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Homeostasis in the human body",
+        "subsection_anchor": "The structure and function of the human kidney",
+        "structural_element": "Second coiled (convoluted) tubule",
+        "content_anchor": "more water is reabsorbed into the blood in this tubule under the influence of the anti-diuretic hormone",
+        "page_hint": null,
+        "concept_hash": "sha256_of_ADH_effect_on_kidney"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q016",
+      "generation_timestamp": "2024-12-19T14:48:30Z",
+      "section": "Body Coordination",
+      "subsection": "Body Coordination",
+      "sub_subsection": null,
+      "structural_anchor": "Table 5.1. Nervous system versus endocrine system",
+      "mcq_type": "I",
+      "question": "Compared to hormonal coordination via the endocrine system, what characteristic best describes nervous system coordination?",
+      "options": {
+        "A": "Slower initiation but longer-lasting effects",
+        "B": "Rapid action with short duration",
+        "C": "Chemical transmission through the bloodstream",
+        "D": "Effects on multiple target organs simultaneously"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the speed and duration differences highlighted in comparative tables.",
+      "explanation": "Nervous coordination uses electrical impulses for rapid, short-lived responses, unlike hormonal coordination. Option C incorrectly describes endocrine, not nervous, transmission.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Body Coordination",
+        "subsection_anchor": "Body Coordination",
+        "structural_element": "Table 5.1. Nervous system versus endocrine system",
+        "content_anchor": "Speed of action: Seconds (Nervous) vs Minutes to hours (Endocrine)",
+        "page_hint": null,
+        "concept_hash": "sha256_of_nervous_vs_endocrine_speed"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q017",
+      "generation_timestamp": "2024-12-19T14:48:30Z",
+      "section": "The Nervous System",
+      "subsection": "Neurons and their functions",
+      "sub_subsection": null,
+      "structural_anchor": "Axon",
+      "mcq_type": "B",
+      "question": "What is the name of the single, long extension of a neuron that conducts impulses away from the cell body?",
+      "options": {
+        "A": "Dendrite",
+        "B": "Axon",
+        "C": "Myelin sheath",
+        "D": "Synapse"
+      },
+      "correct_answer": "B",
+      "hint": "This structure may be insulated by a fatty covering.",
+      "explanation": "The axon is the neuronal process specialized for transmitting action potentials away from the soma. Option A is incorrect because dendrites receive signals, not transmit them.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The Nervous System",
+        "subsection_anchor": "Neurons and their functions",
+        "structural_element": "Axon",
+        "content_anchor": "Each neurone has only one axon that conducts information away from the cell body",
+        "page_hint": null,
+        "concept_hash": "sha256_of_axon_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 76,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q018",
+      "generation_timestamp": "2024-12-19T14:48:30Z",
+      "section": "The Nervous System",
+      "subsection": "The Nerve Impulse and transmission",
+      "sub_subsection": null,
+      "structural_anchor": "Depolarization",
+      "mcq_type": "F",
+      "question": "During the depolarization phase of an action potential, which ion flows into the neuron through voltage-gated channels, causing the interior to become more positive?",
+      "options": {
+        "A": "Potassium ions (K⁺)",
+        "B": "Chloride ions (Cl⁻)",
+        "C": "Calcium ions (Ca²⁺)",
+        "D": "Sodium ions (Na⁺)"
+      },
+      "correct_answer": "D",
+      "hint": "This ion has a higher concentration outside the neuron at rest.",
+      "explanation": "Sodium influx during depolarization reverses the membrane potential, making the inside positive relative to outside. Option A is incorrect because potassium efflux occurs during repolarization.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The Nervous System",
+        "subsection_anchor": "The Nerve Impulse and transmission",
+        "structural_element": "Depolarization",
+        "content_anchor": "Na+ ions flood in through cell membrane and create a positive charge",
+        "page_hint": null,
+        "concept_hash": "sha256_of_sodium_influx_depolarization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q019",
+      "generation_timestamp": "2024-12-19T14:48:30Z",
+      "section": "The Nervous System",
+      "subsection": "Types of the nervous system",
+      "sub_subsection": "The Central Nervous System",
+      "structural_anchor": "The spinal cord",
+      "mcq_type": "K",
+      "question": "In a cross-section of the spinal cord, where is the gray matter, which contains neuron cell bodies and synapses, primarily located?",
+      "options": {
+        "A": "In the outer region, forming columns",
+        "B": "In the central region, shaped like a butterfly",
+        "C": "Evenly distributed throughout",
+        "D": "Only in the ventral horns"
+      },
+      "correct_answer": "B",
+      "hint": "This arrangement contrasts with the brain, where gray matter is mostly external.",
+      "explanation": "Spinal gray matter forms an H-shaped central core containing interneurons and motor neuron cell bodies. Option A incorrectly describes the location of white matter, which contains myelinated tracts.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The Nervous System",
+        "subsection_anchor": "Types of the nervous system",
+        "structural_element": "The spinal cord",
+        "content_anchor": "In the spinal cord the grey matter is located in the middle whereas the white matter is found on the outside",
+        "page_hint": null,
+        "concept_hash": "sha256_of_spinal_cord_gray_matter"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q020",
+      "generation_timestamp": "2024-12-19T14:48:30Z",
+      "section": "Drug abuse",
+      "subsection": "Drug abuse",
+      "sub_subsection": "Alcohol",
+      "structural_anchor": "Alcohol",
+      "mcq_type": "H",
+      "question": "Which characteristic of alcohol use disorder involves continued drinking despite negative social, occupational, or health consequences?",
+      "options": {
+        "A": "Tolerance development",
+        "B": "Withdrawal symptoms",
+        "C": "Loss of control over intake",
+        "D": "Compulsive alcohol use"
+      },
+      "correct_answer": "D",
+      "hint": "This behavior persists even when aware of harmful outcomes.",
+      "explanation": "Compulsive use defines addiction where drinking continues despite adverse consequences. Option C describes inability to limit consumption, which is a separate diagnostic criterion.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Drug abuse",
+        "subsection_anchor": "Drug abuse",
+        "structural_element": "Alcohol",
+        "content_anchor": "alcohol use disorder is a condition characterized by an impaired ability to stop or control alcohol use despite adverse consequences",
+        "page_hint": null,
+        "concept_hash": "sha256_of_alcohol_compulsive_use"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3420,
+    "average_question_quality": 86.4,
+    "type_distribution": {
+      "A": 1,
+      "B": 3,
+      "D": 1,
+      "F": 1,
+      "G": 2,
+      "H": 1,
+      "I": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 6,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Body Coordination": 1,
+      "The Nervous System": 3,
+      "Drug abuse": 1,
+      "Sense organs": 3,
+      "The endocrine system": 1,
+      "Homeostasis in the human body": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

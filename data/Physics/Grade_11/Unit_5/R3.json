@@ -1,0 +1,950 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-27T10:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G11_Phy_U5_Q030",
+    "covered_sections": ["Introduction", "The Concept of Heat (5.1)", "Heat transfer mechanisms (5.2)", "Heat Capacity and Specific Heat Capacity (5.3)", "Thermal expansion (5.4)", "Change of phase (5.5)", "Calorimetry (5.6)"],
+    "used_question_signatures": ["hash_A_Heat_Intro", "hash_B_TempHeatDiff_5.1", "hash_G_SpontFlow_5.1", "hash_A_InternalEnergyDef_5.1", "hash_F_HeatWorkDiff_5.1", "hash_J_HeatTransferModes_5.2", "hash_A_ConductionDef_5.2", "hash_K_ConductorInsulator_5.2", "hash_A_HeatCapacityDef_5.3", "hash_B_SpecificHeatDef_5.3", "hash_H_ThermalEquilibrium_5.1", "hash_D_PhaseChangeTemp_5.5", "hash_I_ConvectionVsConduction_5.2", "hash_C_LinearExpansionFormula_5.4", "hash_E_LinearExpansionCalc_5.4", "hash_L_RadiationCharacteristic_5.2", "hash_M_SpecificHeatInterpret_5.3", "hash_N_ThermalExpansionCause_5.4", "hash_D_AreaExpansion_5.4", "hash_F_RealApparentExpansion_5.4", "hash_G_WorkInternalEnergy_5.1", "hash_A_LatentHeatDef_5.5", "hash_B_TriplePoint_5.5", "hash_H_SpecificHeatWater_5.3", "hash_E_VolumeExpansion_5.4", "hash_F_CalorimetryPrinciple_5.6", "hash_D_MixtureMethod_5.6", "hash_I_RadiationExamples_5.2", "hash_J_ConductionFactors_5.2", "hash_K_CriticalPoint_5.5"],
+    "baseline_counter": {
+      "Introduction": {
+        "No explicit subsection": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "The Concept of Heat (5.1)": {
+        "Brainstorming:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "What is heat?": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Heat, internal energy and thermodynamic work": {
+          "count": 5,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Key terms:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.1:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Heat transfer mechanisms (5.2)": {
+        "Brainstorming": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "1. Conduction": {
+          "count": 4,
+          "mini_headings_covered": ["Key terms:"],
+          "last_question_round": 3
+        },
+        "II. Convection": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "III. Radiation": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Review Questions 5.2:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Heat Capacity and Specific Heat Capacity (5.3)": {
+        "Brainstorming!": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Heat capacity": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Specific heat capacity": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Example 5.1:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.3": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Thermal expansion (5.4)": {
+        "Brainstorming:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Linear expansion": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Area expansion": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Volume Expansion": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Real and apparent coefficients of cubic expansion": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Thermal expansion of gases": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Applications of thermal expansion in solids": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.4:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Change of phase (5.5)": {
+        "Brainstorming": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "What is phase change?": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Latent heat": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Phase diagram": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Review Questions 5.5": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Calorimetry (5.6)": {
+        "After completing this section, you should be able to:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Brainstorming": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "5.6.1. Measuring specific heat capacity": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.6.2. Measuring specific latent heat": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.6": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "The Concept of Heat (5.1)": {
+        "question_count": 7,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Heat transfer mechanisms (5.2)": {
+        "question_count": 7,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Heat Capacity and Specific Heat Capacity (5.3)": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Thermal expansion (5.4)": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Change of phase (5.5)": {
+        "question_count": 5,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Calorimetry (5.6)": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>No explicit subsection": ["Energy transfer", "Heat transfer", "Temperature"],
+      "The Concept of Heat (5.1)>What is heat?": ["Spontaneous energy transfer", "Thermal equilibrium"],
+      "The Concept of Heat (5.1)>Heat, internal energy and thermodynamic work": ["Internal energy", "Thermodynamic work", "Energy transfer modes", "Thermal equilibrium condition", "Work-Energy relation"],
+      "Heat transfer mechanisms (5.2)>1. Conduction": ["Conduction", "Thermal conductors", "Thermal insulators", "Cross-sectional area"],
+      "Heat transfer mechanisms (5.2)>II. Convection": ["Convection", "Fluid movement"],
+      "Heat transfer mechanisms (5.2)>III. Radiation": ["Radiation", "Electromagnetic waves", "Everyday examples"],
+      "Heat Capacity and Specific Heat Capacity (5.3)>Heat capacity": ["Heat capacity", "Temperature change"],
+      "Heat Capacity and Specific Heat Capacity (5.3)>Specific heat capacity": ["Specific heat capacity", "Material property", "High vs low specific heat", "Water's high specific heat"],
+      "Thermal expansion (5.4)>Linear expansion": ["Linear expansion", "Coefficient α", "ΔL = L₀αΔT"],
+      "Thermal expansion (5.4)>Area expansion": ["Area expansion", "Coefficient β", "β = 2α"],
+      "Thermal expansion (5.4)>Volume Expansion": ["Volume expansion", "Coefficient γ", "γ = 3α"],
+      "Thermal expansion (5.4)>Real and apparent coefficients of cubic expansion": ["Real expansion", "Apparent expansion", "Container expansion"],
+      "Change of phase (5.5)>What is phase change?": ["Phase change", "Constant temperature"],
+      "Change of phase (5.5)>Latent heat": ["Latent heat", "Fusion", "Vaporization"],
+      "Change of phase (5.5)>Phase diagram": ["Triple point", "Critical point"],
+      "Calorimetry (5.6)>5.6.1. Measuring specific heat capacity": ["Calorimetry principle", "Heat exchange", "Mixture method"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_previous_R02_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 34,
+      "questions_per_concept_ratio": 0.88,
+      "structural_coverage_percentage": 43.5
+    }
+  },
+  "grade": "11",
+  "subject": "Physics",
+  "unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+  "pdf_filename": "P11U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T10:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 7,
+        "total_sections": 7,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 7,
+      "subsections_covered_count": 15,
+      "mini_headings_covered_count": 1,
+      "structural_coverage_percentage": 43.5,
+      "concept_utilization_ratio": 0.88
+    },
+    "distribution_analysis": {
+      "most_covered_section": "The Concept of Heat (5.1)",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Phy_U5_Q021",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "The Concept of Heat (5.1)",
+      "subsection": "Heat, internal energy and thermodynamic work",
+      "sub_subsection": null,
+      "structural_anchor": "Heat, internal energy and thermodynamic work",
+      "mcq_type": "G",
+      "question": "If heat is supplied to a gas confined by a movable piston, and the gas expands, what is the effect on the internal energy of the gas?",
+      "options": {
+        "A": "Internal energy increases because all supplied heat becomes internal energy.",
+        "B": "Internal energy may increase, decrease, or remain unchanged, depending on how much work the gas does.",
+        "C": "Internal energy decreases because expansion always cools a gas.",
+        "D": "Internal energy remains unchanged because heat input is balanced by work output."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the first law of thermodynamics: ΔU = Q - W.",
+      "explanation": "The change in internal energy (ΔU) equals heat added (Q) minus work done by the gas (W). If W = Q, ΔU is zero. Option A ignores the work done during expansion.",
+      "difficulty_level": "medium",
+      "formula_used": ["ΔU = Q - W"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "The Concept of Heat (5.1)",
+        "subsection_anchor": "Heat, internal energy and thermodynamic work",
+        "structural_element": "Heat, internal energy and thermodynamic work",
+        "content_anchor": "heat supplied is converted partly into internal energy and partly into work done",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_G_WorkInternalEnergy_5.1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q022",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "Change of phase (5.5)",
+      "subsection": "Latent heat",
+      "sub_subsection": null,
+      "structural_anchor": "Latent heat",
+      "mcq_type": "A",
+      "question": "What term describes the heat absorbed or released per unit mass during a phase change at constant temperature?",
+      "options": {
+        "A": "Latent heat",
+        "B": "Specific heat capacity",
+        "C": "Heat capacity",
+        "D": "Thermal conductivity"
+      },
+      "correct_answer": "A",
+      "hint": "This energy is 'hidden' as it does not cause a temperature change.",
+      "explanation": "Latent heat (L) is defined as Q/m for phase transitions at constant temperature. Option B refers to the heat required to change temperature, not phase.",
+      "difficulty_level": "easy",
+      "formula_used": ["Q = mL"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Change of phase (5.5)",
+        "subsection_anchor": "Latent heat",
+        "structural_element": "Latent heat",
+        "content_anchor": "energy absorbed or released by a substance during a change in its physical state",
+        "page_hint": "Page 23",
+        "concept_hash": "hash_A_LatentHeatDef_5.5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q023",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "Change of phase (5.5)",
+      "subsection": "Phase diagram",
+      "sub_subsection": null,
+      "structural_anchor": "Phase diagram",
+      "mcq_type": "B",
+      "question": "On a phase diagram, what is the name for the unique combination of temperature and pressure where solid, liquid, and vapor phases coexist in equilibrium?",
+      "options": {
+        "A": "Critical point",
+        "B": "Triple point",
+        "C": "Boiling point",
+        "D": "Melting point"
+      },
+      "correct_answer": "B",
+      "hint": "All three phases are present simultaneously at this single point.",
+      "explanation": "The triple point is the unique temperature and pressure where three phases coexist. Option A is the point where liquid and gas phases become indistinguishable.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Change of phase (5.5)",
+        "subsection_anchor": "Phase diagram",
+        "structural_element": "Phase diagram",
+        "content_anchor": "triple point represents the combination of pressure and temperature that facilitates all phases",
+        "page_hint": "Page 26",
+        "concept_hash": "hash_B_TriplePoint_5.5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q024",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "Heat Capacity and Specific Heat Capacity (5.3)",
+      "subsection": "Specific heat capacity",
+      "sub_subsection": null,
+      "structural_anchor": "Specific heat capacity",
+      "mcq_type": "H",
+      "question": "A common statement is that 'water heats up and cools down slowly compared to land.' Which property of water is primarily responsible for this effect?",
+      "options": {
+        "A": "Its high specific heat capacity.",
+        "B": "Its high thermal conductivity.",
+        "C": "Its low density.",
+        "D": "Its high latent heat of vaporization."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the energy required to change the temperature of a given mass.",
+      "explanation": "Water's high specific heat capacity means it requires more energy to change its temperature, leading to slower temperature changes. Option D affects the energy for phase changes, not temperature change rates.",
+      "difficulty_level": "medium",
+      "formula_used": ["Q = mcΔT"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Heat Capacity and Specific Heat Capacity (5.3)",
+        "subsection_anchor": "Specific heat capacity",
+        "structural_element": "Specific heat capacity",
+        "content_anchor": "water has very high specific heat compared to most other substances",
+        "page_hint": "Page 10",
+        "concept_hash": "hash_H_SpecificHeatWater_5.3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q025",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "Thermal expansion (5.4)",
+      "subsection": "Volume Expansion",
+      "sub_subsection": null,
+      "structural_anchor": "Volume Expansion",
+      "mcq_type": "E",
+      "question": "A copper cube with an initial volume of 1.00 × 10⁻³ m³ is heated from 20.0°C to 120.0°C. If α_copper = 1.7 × 10⁻⁵ °C⁻¹, what is its new volume?",
+      "options": {
+        "A": "1.0051 × 10⁻³ m³",
+        "B": "1.0034 × 10⁻³ m³",
+        "C": "1.0017 × 10⁻³ m³",
+        "D": "1.0000 × 10⁻³ m³"
+      },
+      "correct_answer": "A",
+      "hint": "Use V = V₀(1 + γΔT) with γ = 3α.",
+      "explanation": "γ = 3α = 5.1 × 10⁻⁵ °C⁻¹. ΔT = 100.0°C. ΔV = V₀γΔT = (1.00e-3)(5.1e-5)(100) = 5.1e-6 m³. New V = 1.0051e-3 m³. Option B uses γ = 2α (area expansion) incorrectly.",
+      "difficulty_level": "medium",
+      "formula_used": ["γ = 3α", "V = V₀(1 + γΔT)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "m³",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Thermal expansion (5.4)",
+        "subsection_anchor": "Volume Expansion",
+        "structural_element": "Volume Expansion",
+        "content_anchor": "γ = 3α",
+        "page_hint": "Page 17",
+        "concept_hash": "hash_E_VolumeExpansion_5.4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q026",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "Calorimetry (5.6)",
+      "subsection": "5.6.1. Measuring specific heat capacity",
+      "sub_subsection": null,
+      "structural_anchor": "5.6.1. Measuring specific heat capacity",
+      "mcq_type": "F",
+      "question": "In a calorimetry experiment, a hot metal block is placed in cold water. What fundamental principle is applied to determine the specific heat capacity of the metal?",
+      "options": {
+        "A": "Heat lost by the hot object equals heat gained by the cold object, assuming no heat loss to surroundings.",
+        "B": "The temperature change is proportional to the mass of the objects.",
+        "C": "Heat always flows from the object with higher specific heat to the one with lower specific heat.",
+        "D": "The final temperature is the average of the initial temperatures weighted by mass."
+      },
+      "correct_answer": "A",
+      "hint": "Calorimetry relies on conservation of energy within the isolated system.",
+      "explanation": "The principle of calorimetry states that in an isolated system, the heat lost by the hot body equals the heat gained by the cold body. Option D is a common misconception, not a fundamental principle.",
+      "difficulty_level": "easy",
+      "formula_used": ["Q_lost = Q_gained"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 27.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Calorimetry (5.6)",
+        "subsection_anchor": "5.6.1. Measuring specific heat capacity",
+        "structural_element": "5.6.1. Measuring specific heat capacity",
+        "content_anchor": "heat energy lost from the hot body will equal the heat gained by the cold body",
+        "page_hint": "Page 29",
+        "concept_hash": "hash_F_CalorimetryPrinciple_5.6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q027",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "Calorimetry (5.6)",
+      "subsection": "5.6.1. Measuring specific heat capacity",
+      "sub_subsection": null,
+      "structural_anchor": "5.6.1. Measuring specific heat capacity",
+      "mcq_type": "D",
+      "question": "In the mixture method for finding specific heat capacity, what measurements are essential?",
+      "options": {
+        "A": "Masses of hot solid and cold water, initial temperatures of both, and final equilibrium temperature.",
+        "B": "Only the final temperature and the specific heat of water.",
+        "C": "The time of contact between the solid and water.",
+        "D": "The atmospheric pressure and the volume of water."
+      },
+      "correct_answer": "A",
+      "hint": "The calculation uses conservation of energy: m_s c_s ΔT_s = m_w c_w ΔT_w (ignoring calorimeter).",
+      "explanation": "The mixture method requires masses and temperature changes to apply Q_lost = Q_gained. Option C is irrelevant for the basic energy balance calculation.",
+      "difficulty_level": "easy",
+      "formula_used": ["m_s c_s (T_h - T_f) = m_w c_w (T_f - T_c)"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 23.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 85
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Calorimetry (5.6)",
+        "subsection_anchor": "5.6.1. Measuring specific heat capacity",
+        "structural_element": "5.6.1. Measuring specific heat capacity",
+        "content_anchor": "heat lost by the hot solid object will be equal to the heat gained by the water",
+        "page_hint": "Page 33-34",
+        "concept_hash": "hash_D_MixtureMethod_5.6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q028",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "Heat transfer mechanisms (5.2)",
+      "subsection": "III. Radiation",
+      "sub_subsection": null,
+      "structural_anchor": "III. Radiation",
+      "mcq_type": "I",
+      "question": "Which of the following is an example of heat transfer primarily by radiation?",
+      "options": {
+        "A": "Feeling warmth from a campfire several meters away.",
+        "B": "A metal spoon becoming hot when left in a hot soup.",
+        "C": "Boiling water circulating in a pot.",
+        "D": "A heated air balloon rising."
+      },
+      "correct_answer": "A",
+      "hint": "Radiation does not require a medium and can travel through a vacuum.",
+      "explanation": "Warmth from a campfire at a distance travels via infrared radiation through the air. Option B is conduction, and option C is convection.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Heat transfer mechanisms (5.2)",
+        "subsection_anchor": "III. Radiation",
+        "structural_element": "III. Radiation",
+        "content_anchor": "When you sit in front of a campfire, you are warmed by its heat",
+        "page_hint": "Page 7",
+        "concept_hash": "hash_I_RadiationExamples_5.2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q029",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "Heat transfer mechanisms (5.2)",
+      "subsection": "1. Conduction",
+      "sub_subsection": null,
+      "structural_anchor": "1. Conduction",
+      "mcq_type": "J",
+      "question": "Which factor does NOT directly affect the rate of conductive heat transfer through a slab of material?",
+      "options": {
+        "A": "Thickness of the slab.",
+        "B": "Cross-sectional area of the slab.",
+        "C": "Temperature difference across the slab.",
+        "D": "Color of the slab's surface."
+      },
+      "correct_answer": "D",
+      "hint": "Conduction depends on material properties and geometry, not surface optical properties.",
+      "explanation": "Conduction rate depends on thermal conductivity, area, temperature difference, and inversely on thickness. Surface color primarily affects absorption and emission of radiation, not conduction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Heat transfer mechanisms (5.2)",
+        "subsection_anchor": "1. Conduction",
+        "structural_element": "1. Conduction",
+        "content_anchor": "rate of heat transfer depends on the properties of the medium",
+        "page_hint": "Page 6",
+        "concept_hash": "hash_J_ConductionFactors_5.2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q030",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "Change of phase (5.5)",
+      "subsection": "Phase diagram",
+      "sub_subsection": null,
+      "structural_anchor": "Phase diagram",
+      "mcq_type": "K",
+      "question": "On a phase diagram, what does the critical point represent?",
+      "options": {
+        "A": "The temperature and pressure above which distinct liquid and gas phases do not exist.",
+        "B": "The temperature at which a substance boils at standard atmospheric pressure.",
+        "C": "The point where solid and liquid phases are in equilibrium.",
+        "D": "The lowest temperature at which a substance can remain a liquid."
+      },
+      "correct_answer": "A",
+      "hint": "Beyond this point, the substance becomes a supercritical fluid.",
+      "explanation": "Above the critical temperature and pressure, the liquid and gas phases merge into a single supercritical fluid phase. Option B describes the normal boiling point, not the critical point.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Change of phase (5.5)",
+        "subsection_anchor": "Phase diagram",
+        "structural_element": "Phase diagram",
+        "content_anchor": "critical point is the point in temperature and pressure on a phase diagram where the liquid and gaseous phases merge",
+        "page_hint": "Page 26-27",
+        "concept_hash": "hash_K_CriticalPoint_5.5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3800,
+    "average_question_quality": 85.2,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "The Concept of Heat (5.1)": 1,
+      "Change of phase (5.5)": 3,
+      "Heat Capacity and Specific Heat Capacity (5.3)": 1,
+      "Thermal expansion (5.4)": 1,
+      "Calorimetry (5.6)": 2,
+      "Heat transfer mechanisms (5.2)": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

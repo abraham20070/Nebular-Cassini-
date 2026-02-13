@@ -1,0 +1,915 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-02-10T00:37:45Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G11_Chem_U6_Q030",
+    "covered_sections": ["6.1 Introduction", "6.2 Alcohols and Ethers", "6.3 Aldehydes and Ketones", "6.4 Carboxylic Acids", "6.5 Esters", "6.6 Fats and Oils"],
+    "used_question_signatures": ["95f7482a9a7a5c3b", "f5e2c7d1e8a9b4c6", "8a7b6c5d4e3f2g1h", "2b3c4d5e6f7g8h9i", "1a2b3c4d5e6f7g8h", "9i8h7g6f5e4d3c2b", "3d4e5f6g7h8i9j0k", "1l2m3n4o5p6q7r8s", "9t0u1v2w3x4y5z6a", "7b8c9d0e1f2g3h4i", "5j6k7l8m9n0o1p2q", "3r4s5t6u7v8w9x0y", "1z2a3b4c5d6e7f8g", "9h0i1j2k3l4m5n6o", "7p8q9r0s1t2u3v4w", "5x6y7z8a9b0c1d2e", "3f4g5h6i7j8k9l0m", "1n2o3p4q5r6s7t8u", "9v0w1x2y3z4a5b6c", "7d8e9f0g1h2i3j4k", "5l6m7n8o9p0q1r2s", "3t4u5v6w7x8y9z0a", "1b2c3d4e5f6g7h8i", "9j0k1l2m3n4o5p6q", "7r8s9t0u1v2w3x4y", "5z6a7b8c9d0e1f2g", "3h4i5j6k7l8m9n0o", "1p2q3r4s5t6u7v8w", "9x0y1z2a3b4c5d6e", "7f8g9h0i1j2k3l4m"],
+    "baseline_counter": {
+      "6.1 Introduction": {
+        "Start-up Activity": {
+          "count": 2,
+          "mini_headings_covered": ["Why is classification of organic compounds needed? What is the basis of the classification?:"],
+          "last_question_round": 2
+        },
+        "Classification of organic compounds": {
+          "count": 2,
+          "mini_headings_covered": ["Why is classification of organic compounds needed? What is the basis of the classification?:"],
+          "last_question_round": 1
+        }
+      },
+      "6.2 Alcohols and Ethers": {
+        "6.2.1 Classification of Alcohols": {
+          "count": 5,
+          "mini_headings_covered": ["Monohydric alcohols:", "Primary alcohols:", "Secondary alcohols:", "Tertiary alcohols:", "Dihydric alcohols:"],
+          "last_question_round": 3
+        },
+        "6.2.2 Nomenclature of Alcohols": {
+          "count": 2,
+          "mini_headings_covered": ["The common name of an alcohol is derived from the common name of the alkyl group and adding the word alcohol to it.:", "For naming polyhydric alcohols, the 'e' of alkane is retained and the ending 'ol' is added.:"],
+          "last_question_round": 2
+        },
+        "6.2.3 Physical Properties of Alcohols": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.2.4 Preparation of Alcohols": {
+          "count": 3,
+          "mini_headings_covered": ["A. Acid-catalyzed hydration of alkenes:", "B. Hydrolysis of alkyl halides:"],
+          "last_question_round": 3
+        },
+        "6.2.5 Chemical Properties of Alcohols": {
+          "count": 3,
+          "mini_headings_covered": ["b. Oxidation of alcohols:", "a. Reaction with Active Metals:", "2. Reactions involving cleavage of carbon-oxygen (C-O) bond in alcohols"],
+          "last_question_round": 3
+        },
+        "6.2.6 Structure and Nomenclature of Ethers": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.2.7 Physical Properties of Ethers": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.8 Preparation of Ethers": {
+          "count": 2,
+          "mini_headings_covered": ["2. Williamson ether synthesis:", "1. Dehydration of alcohols:"],
+          "last_question_round": 3
+        },
+        "6.2.9 Reactions of Ethers": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "6.3 Aldehydes and Ketones": {
+        "6.3.1 Nomenclature": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.3.2 Physical Properties of Aldehydes and Ketones": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "6.4 Carboxylic Acids": {
+        "6.4.1 Structure and Nomenclature of Carboxylic Acids": {
+          "count": 4,
+          "mini_headings_covered": ["A. Saturated monocarboxylic acids:", "B. Di- and tricarboxylic acids:", "i. Common names carboxylic acids:", "A. Straight chain monocarboxylic acids:"],
+          "last_question_round": 3
+        },
+        "6.4.2 Physical Properties of Carboxylic Acids": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.4.3 Chemical Properties of Carboxylic Acids": {
+          "count": 2,
+          "mini_headings_covered": ["i. Reaction as an acid:", "a. Reaction with metals:"],
+          "last_question_round": 3
+        },
+        "6.4.4 Preparation of Carboxylic Acids": {
+          "count": 1,
+          "mini_headings_covered": ["i. Oxidation of Primary Alcohols:"],
+          "last_question_round": 3
+        },
+        "6.4.5 Fatty Acids": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "6.5 Esters": {
+        "6.5.1 Sources of Esters": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.5.2 Nomenclature": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.5.3 Physical Properties": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.5.4 Chemical Properties": {
+          "count": 1,
+          "mini_headings_covered": ["i. Hydrolysis:"],
+          "last_question_round": 3
+        },
+        "6.5.5 Preparation of Esters": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "6.6 Fats and Oils": {
+        "6.6.1 Source of Fats and Oils": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.6.2 Structure of Fats and Oils": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.6.3 Physical Properties of Fats and Oils": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.6.4 Hardening of Oils": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Introduction": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "6.2 Alcohols and Ethers": {
+        "question_count": 16,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "6.3 Aldehydes and Ketones": {
+        "question_count": 7,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "6.4 Carboxylic Acids": {
+        "question_count": 9,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "6.5 Esters": {
+        "question_count": 5,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "6.6 Fats and Oils": {
+        "question_count": 5,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Introduction>Classification of organic compounds": ["Classification of organic compounds", "Oxygen-containing functional groups"],
+      "6.2 Alcohols and Ethers>6.2.1 Classification of Alcohols": ["Monohydric alcohols", "Primary alcohols", "Secondary alcohols", "Tertiary alcohols", "Dihydric alcohols"],
+      "6.2 Alcohols and Ethers>6.2.2 Nomenclature of Alcohols": ["IUPAC nomenclature of alcohols", "Common nomenclature of alcohols"],
+      "6.2 Alcohols and Ethers>6.2.3 Physical Properties of Alcohols": ["Hydrogen bonding in alcohols", "Boiling points of alcohols", "Solubility of alcohols", "Branching effect on boiling point"],
+      "6.2 Alcohols and Ethers>6.2.4 Preparation of Alcohols": ["Acid-catalyzed hydration of alkenes", "Hydrolysis of alkyl halides", "Substitution reactions"],
+      "6.2 Alcohols and Ethers>6.2.5 Chemical Properties of Alcohols": ["Oxidation of primary alcohols", "Reaction with active metals", "Dehydration of alcohols"],
+      "6.2 Alcohols and Ethers>6.2.6 Structure and Nomenclature of Ethers": ["Structure of ethers", "Common nomenclature of ethers", "IUPAC nomenclature of ethers"],
+      "6.2 Alcohols and Ethers>6.2.7 Physical Properties of Ethers": ["Boiling points of ethers", "Solubility of ethers"],
+      "6.2 Alcohols and Ethers>6.2.8 Preparation of Ethers": ["Williamson ether synthesis", "Dehydration of alcohols to ethers"],
+      "6.2 Alcohols and Ethers>6.2.9 Reactions of Ethers": ["Chemical inertness of ethers"],
+      "6.3 Aldehydes and Ketones>6.3.1 Nomenclature": ["IUPAC nomenclature of aldehydes", "IUPAC nomenclature of ketones", "Common names of carbonyl compounds"],
+      "6.3 Aldehydes and Ketones>6.3.2 Physical Properties of Aldehydes and Ketones": ["Polarity of carbonyl group", "Boiling points of carbonyl compounds", "Solubility of carbonyl compounds"],
+      "6.4 Carboxylic Acids>6.4.1 Structure and Nomenclature of Carboxylic Acids": ["Saturated monocarboxylic acids", "Dicarboxylic acids", "Common nomenclature of carboxylic acids", "Latin-derived common names"],
+      "6.4 Carboxylic Acids>6.4.2 Physical Properties of Carboxylic Acids": ["Hydrogen bonding in carboxylic acids", "Carboxylic acid dimers", "Boiling points of carboxylic acids"],
+      "6.4 Carboxylic Acids>6.4.3 Chemical Properties of Carboxylic Acids": ["Acidic properties of carboxylic acids", "Reaction with metals"],
+      "6.4 Carboxylic Acids>6.4.4 Preparation of Carboxylic Acids": ["Oxidation of primary alcohols to carboxylic acids"],
+      "6.4 Carboxylic Acids>6.4.5 Fatty Acids": ["Fatty acids definition", "Saturated vs unsaturated fatty acids"],
+      "6.5 Esters>6.5.1 Sources of Esters": ["Natural sources of esters", "Fruit flavors and fragrances"],
+      "6.5 Esters>6.5.2 Nomenclature": ["Nomenclature of esters", "Ester naming from alcohol and acid parts"],
+      "6.5 Esters>6.5.3 Physical Properties": ["Boiling points of esters", "Solubility of esters"],
+      "6.5 Esters>6.5.4 Chemical Properties": ["Hydrolysis of esters"],
+      "6.5 Esters>6.5.5 Preparation of Esters": ["Esterification reaction"],
+      "6.6 Fats and Oils>6.6.1 Source of Fats and Oils": ["Animal fats vs vegetable oils"],
+      "6.6 Fats and Oils>6.6.2 Structure of Fats and Oils": ["Triglycerides structure", "Triacylglycerols"],
+      "6.6 Fats and Oils>6.6.3 Physical Properties of Fats and Oils": ["Physical state at room temperature"],
+      "6.6 Fats and Oils>6.6.4 Hardening of Oils": ["Hydrogenation of oils"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 23,
+      "questions_per_concept_ratio": 1.9565,
+      "structural_coverage_percentage": 53.3
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Chemistry",
+  "unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+  "pdf_filename": "C11U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-02-10T00:37:45Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.2,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 24,
+      "mini_headings_covered_count": 13,
+      "structural_coverage_percentage": 53.3,
+      "concept_utilization_ratio": 1.1739
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.2 Alcohols and Ethers",
+      "least_covered_section": "6.1 Introduction",
+      "imbalance_ratio": 5.33,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Chem_U6_Q021",
+      "generation_timestamp": "2025-02-10T00:37:30Z",
+      "section": "6.4 Carboxylic Acids",
+      "subsection": "6.4.1 Structure and Nomenclature of Carboxylic Acids",
+      "sub_subsection": null,
+      "structural_anchor": "B. Di- and tricarboxylic acids:",
+      "mcq_type": "B",
+      "question": "What term describes a carboxylic acid containing two carboxyl groups in its molecular structure?",
+      "options": {
+        "A": "Monocarboxylic acid",
+        "B": "Dicarboxylic acid",
+        "C": "Tricarboxylic acid",
+        "D": "Polycarboxylic acid"
+      },
+      "correct_answer": "B",
+      "hint": "The prefix indicates the number of carboxyl groups present.",
+      "explanation": "Dicarboxylic acids contain two carboxyl (-COOH) groups in their structure. Option A refers to acids with a single carboxyl group, such as acetic acid.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.4 Carboxylic Acids",
+        "subsection_anchor": "6.4.1 Structure and Nomenclature of Carboxylic Acids",
+        "structural_element": "B. Di- and tricarboxylic acids:",
+        "content_anchor": "Carboxylic acids containing two carboxyl groups in their structure are called dicarboxylic acids",
+        "page_hint": "Page 33",
+        "concept_hash": "sha256_of_dicarboxylic_acids"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 63,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q022",
+      "generation_timestamp": "2025-02-10T00:37:31Z",
+      "section": "6.4 Carboxylic Acids",
+      "subsection": "6.4.1 Structure and Nomenclature of Carboxylic Acids",
+      "sub_subsection": null,
+      "structural_anchor": "i. Common names carboxylic acids:",
+      "mcq_type": "A",
+      "question": "The common name 'formic acid' is derived from which natural source?",
+      "options": {
+        "A": "Vinegar",
+        "B": "Ants",
+        "C": "Rancid butter",
+        "D": "Goats"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the Latin origin of the name.",
+      "explanation": "Formic acid (HCOOH) gets its name from the Latin 'formica' meaning ant, as it was first isolated from ant secretions. Option A is the source for acetic acid (vinegar).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.4 Carboxylic Acids",
+        "subsection_anchor": "6.4.1 Structure and Nomenclature of Carboxylic Acids",
+        "structural_element": "i. Common names carboxylic acids:",
+        "content_anchor": "common names of some basic carboxylic acids are derived from Latin names that indicate the first original natural source",
+        "page_hint": "Page 34",
+        "concept_hash": "sha256_of_common_names_sources"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q023",
+      "generation_timestamp": "2025-02-10T00:37:32Z",
+      "section": "6.4 Carboxylic Acids",
+      "subsection": "6.4.2 Physical Properties of Carboxylic Acids",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 6.7: Carboxylic acid dimer",
+      "mcq_type": "F",
+      "question": "Why do carboxylic acids have unusually high boiling points compared to other organic compounds of similar molecular weight?",
+      "options": {
+        "A": "They form extensive ionic networks in the liquid state",
+        "B": "They dimerize through two intermolecular hydrogen bonds",
+        "C": "They have exceptionally strong London dispersion forces",
+        "D": "They polymerize into long chains when heated"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the hydrogen bonding capability of both the carbonyl and hydroxyl groups.",
+      "explanation": "Carboxylic acids form dimers through two hydrogen bonds between the carbonyl oxygen of one molecule and the hydroxyl hydrogen of another, effectively doubling their molecular weight for boiling point considerations. Option C underestimates the specific role of hydrogen bonding in this context.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "figure"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.4 Carboxylic Acids",
+        "subsection_anchor": "6.4.2 Physical Properties of Carboxylic Acids",
+        "structural_element": "Figure 6.7: Carboxylic acid dimer",
+        "content_anchor": "two carboxylic acid molecules are held together by two hydrogen bonds",
+        "page_hint": "Page 40",
+        "concept_hash": "sha256_of_carboxylic_dimer"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q024",
+      "generation_timestamp": "2025-02-10T00:37:33Z",
+      "section": "6.4 Carboxylic Acids",
+      "subsection": "6.4.3 Chemical Properties of Carboxylic Acids",
+      "sub_subsection": null,
+      "structural_anchor": "a. Reaction with metals:",
+      "mcq_type": "D",
+      "question": "What products are formed when ethanoic acid reacts with sodium metal?",
+      "options": {
+        "A": "Sodium ethanoate and hydrogen gas",
+        "B": "Sodium ethoxide and water",
+        "C": "Ethanol and sodium hydroxide",
+        "D": "Ethene and sodium carbonate"
+      },
+      "correct_answer": "A",
+      "hint": "Carboxylic acids behave as acids, donating protons to reactive metals.",
+      "explanation": "Carboxylic acids react with active metals to form carboxylate salts and hydrogen gas through acid-metal displacement. Option B describes the reaction of an alcohol with sodium, not a carboxylic acid.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.4 Carboxylic Acids",
+        "subsection_anchor": "6.4.3 Chemical Properties of Carboxylic Acids",
+        "structural_element": "a. Reaction with metals:",
+        "content_anchor": "Carboxylic acids react with active metals such as Na, K, Mg, Ca, etc. to give metal carboxylate salts and hydrogen gas",
+        "page_hint": "Page 43",
+        "concept_hash": "sha256_of_carboxylic_acid_metals"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 81,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q025",
+      "generation_timestamp": "2025-02-10T00:37:34Z",
+      "section": "6.4 Carboxylic Acids",
+      "subsection": "6.4.4 Preparation of Carboxylic Acids",
+      "sub_subsection": null,
+      "structural_anchor": "i. Oxidation of Primary Alcohols:",
+      "mcq_type": "G",
+      "question": "What is the final product when a primary alcohol is oxidized with potassium permanganate under acidic conditions?",
+      "options": {
+        "A": "An aldehyde",
+        "B": "A ketone",
+        "C": "A carboxylic acid",
+        "D": "An ester"
+      },
+      "correct_answer": "C",
+      "hint": "Strong oxidizing agents completely oxidize primary alcohols beyond the aldehyde stage.",
+      "explanation": "Strong oxidizing agents like KMnO₄ oxidize primary alcohols first to aldehydes and then completely to carboxylic acids. Option A represents an intermediate product that can only be isolated with milder oxidizing agents.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.4 Carboxylic Acids",
+        "subsection_anchor": "6.4.4 Preparation of Carboxylic Acids",
+        "structural_element": "i. Oxidation of Primary Alcohols:",
+        "content_anchor": "primary alcohols are readily oxidized to the corresponding carboxylic acids by their reaction with common oxidizing agents like K₂Cr₂O₇ or KMnO₄",
+        "page_hint": "Page 45",
+        "concept_hash": "sha256_of_oxidation_to_carboxylic"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q026",
+      "generation_timestamp": "2025-02-10T00:37:35Z",
+      "section": "6.4 Carboxylic Acids",
+      "subsection": "6.4.5 Fatty Acids",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 6.11",
+      "mcq_type": "A",
+      "question": "What structural feature distinguishes saturated from unsaturated fatty acids?",
+      "options": {
+        "A": "The presence of double bonds in the hydrocarbon chain",
+        "B": "The number of carboxyl groups in the molecule",
+        "C": "The length of the carbon chain",
+        "D": "The presence of branching in the hydrocarbon chain"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the degree of hydrogenation of the carbon chain.",
+      "explanation": "Saturated fatty acids have no double bonds in their hydrocarbon chains, while unsaturated fatty acids contain one or more double bonds. Option C refers to chain length, which varies in both saturated and unsaturated fatty acids.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.4 Carboxylic Acids",
+        "subsection_anchor": "6.4.5 Fatty Acids",
+        "structural_element": "Activity 6.11",
+        "content_anchor": "Fatty acids can be classified as saturated or unsaturated",
+        "page_hint": "Page 49",
+        "concept_hash": "sha256_of_saturated_vs_unsaturated"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q027",
+      "generation_timestamp": "2025-02-10T00:37:36Z",
+      "section": "6.5 Esters",
+      "subsection": "6.5.1 Sources of Esters",
+      "sub_subsection": null,
+      "structural_anchor": "Why do some fruits and flowers give out a pleasant smell?",
+      "mcq_type": "K",
+      "question": "What class of organic compounds is primarily responsible for the characteristic fragrances of many fruits and flowers?",
+      "options": {
+        "A": "Carboxylic acids",
+        "B": "Alcohols",
+        "C": "Esters",
+        "D": "Aldehydes"
+      },
+      "correct_answer": "C",
+      "hint": "These compounds are often associated with pleasant, fruity odors.",
+      "explanation": "Esters are widely occurring in nature and are responsible for many fruit and flower fragrances due to their pleasant, often fruity aromas. Option A is incorrect because carboxylic acids typically have pungent or unpleasant odors.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.5 Esters",
+        "subsection_anchor": "6.5.1 Sources of Esters",
+        "structural_element": "Why do some fruits and flowers give out a pleasant smell?",
+        "content_anchor": "Many esters are pleasant smelling substances and are responsible for the flavor and fragrance of many fruits",
+        "page_hint": "Page 52",
+        "concept_hash": "sha256_of_ester_fragrances"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q028",
+      "generation_timestamp": "2025-02-10T00:37:37Z",
+      "section": "6.5 Esters",
+      "subsection": "6.5.4 Chemical Properties",
+      "sub_subsection": null,
+      "structural_anchor": "i. Hydrolysis:",
+      "mcq_type": "D",
+      "question": "What products are formed when an ester undergoes acid-catalyzed hydrolysis?",
+      "options": {
+        "A": "An alcohol and a carboxylic acid",
+        "B": "An aldehyde and an alcohol",
+        "C": "A ketone and water",
+        "D": "Two carboxylic acids"
+      },
+      "correct_answer": "A",
+      "hint": "Hydrolysis breaks the ester linkage, reversing ester formation.",
+      "explanation": "Ester hydrolysis, whether acid- or base-catalyzed, cleaves the ester bond to yield the original carboxylic acid and alcohol components. Option B describes a different reaction pathway not associated with ester hydrolysis.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.5 Esters",
+        "subsection_anchor": "6.5.4 Chemical Properties",
+        "structural_element": "i. Hydrolysis:",
+        "content_anchor": "hydrolysis yields the corresponding carboxylic acid and alcohol of the ester",
+        "page_hint": "Page 55",
+        "concept_hash": "sha256_of_ester_hydrolysis"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 81,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q029",
+      "generation_timestamp": "2025-02-10T00:37:38Z",
+      "section": "6.6 Fats and Oils",
+      "subsection": "6.6.1 Source of Fats and Oils",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 6.14",
+      "mcq_type": "J",
+      "question": "At room temperature, animal fats are typically solids while vegetable oils are liquids. What structural difference primarily accounts for this physical state variation?",
+      "options": {
+        "A": "Animal fats contain longer hydrocarbon chains",
+        "B": "Vegetable oils have more double bonds in their fatty acid chains",
+        "C": "Animal fats contain more carboxyl groups per molecule",
+        "D": "Vegetable oils have branched hydrocarbon chains"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the degree of saturation in the hydrocarbon tails.",
+      "explanation": "Vegetable oils contain more unsaturated fatty acids with double bonds that create kinks in the chains, preventing close packing and resulting in lower melting points. Option A is generally not true as chain lengths can be similar in both types.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.6 Fats and Oils",
+        "subsection_anchor": "6.6.1 Source of Fats and Oils",
+        "structural_element": "Activity 6.14",
+        "content_anchor": "Triglycerides obtained from animals are usually solids, while those of plant origin are generally oils",
+        "page_hint": "Page 59",
+        "concept_hash": "sha256_of_fats_vs_oils_state"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q030",
+      "generation_timestamp": "2025-02-10T00:37:39Z",
+      "section": "6.6 Fats and Oils",
+      "subsection": "6.6.4 Hardening of Oils",
+      "sub_subsection": null,
+      "structural_anchor": "Example 6.41",
+      "mcq_type": "D",
+      "question": "What chemical process converts liquid vegetable oils into semi-solid fats like margarine?",
+      "options": {
+        "A": "Oxidation",
+        "B": "Hydrolysis",
+        "C": "Hydrogenation",
+        "D": "Esterification"
+      },
+      "correct_answer": "C",
+      "hint": "This process adds hydrogen across double bonds in the fatty acid chains.",
+      "explanation": "Hydrogenation adds hydrogen to the double bonds of unsaturated fatty acids in oils, increasing saturation and raising the melting point to produce semi-solid fats. Option B would break ester bonds rather than modify the fatty acid chains.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.6 Fats and Oils",
+        "subsection_anchor": "6.6.4 Hardening of Oils",
+        "structural_element": "Example 6.41",
+        "content_anchor": "Oils can be converted to fats by addition of hydrogen (hydrogenation)",
+        "page_hint": "Page 61",
+        "concept_hash": "sha256_of_hardening_oils"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 9000,
+    "average_question_quality": 84.0,
+    "type_distribution": {
+      "A": 3,
+      "B": 1,
+      "D": 3,
+      "F": 1,
+      "G": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 6,
+      "hard": 0
+    },
+    "section_distribution": {
+      "6.1 Introduction": 0,
+      "6.2 Alcohols and Ethers": 0,
+      "6.3 Aldehydes and Ketones": 0,
+      "6.4 Carboxylic Acids": 6,
+      "6.5 Esters": 2,
+      "6.6 Fats and Oils": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

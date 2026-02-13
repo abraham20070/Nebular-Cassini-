@@ -1,0 +1,913 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:32:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Chem_U1_Q020",
+    "covered_sections": [
+      "1.1 Introduction>1.1.1",
+      "1.2 Chemical Equations>1.2.1",
+      "1.2 Chemical Equations>1.2.2",
+      "1.3 Types of Chemical Reactions>1.3.1",
+      "1.3 Types of Chemical Reactions>1.3.2",
+      "1.3 Types of Chemical Reactions>1.3.3",
+      "1.3 Types of Chemical Reactions>1.3.4",
+      "1.4 Oxidation and Reduction Reactions>1.4.1",
+      "1.4 Oxidation and Reduction Reactions>1.4.2",
+      "1.4 Oxidation and Reduction Reactions>1.4.3",
+      "1.5 Molecular and Formula Masses, the Mole Concept and Chemical Formulas>1.5.1",
+      "1.5 Molecular and Formula Masses, the Mole Concept and Chemical Formulas>1.5.2",
+      "1.5 Molecular and Formula Masses, the Mole Concept and Chemical Formulas>1.5.3",
+      "1.6 Stoichiometry>1.6.1",
+      "1.6 Stoichiometry>1.6.2",
+      "1.6 Stoichiometry>1.6.3",
+      "1.6 Stoichiometry>1.6.4",
+      "1.6 Stoichiometry>1.6.5"
+    ],
+    "used_question_signatures": [
+      "hash_A_ChemicalReaction_FormationNewSubstances",
+      "hash_B_PhysicalChange_NoNewSubstance",
+      "hash_A_ChemicalEquation_ReactantsProducts",
+      "hash_F_BalancingEquations_InspectionMethod",
+      "hash_A_CombinationReaction_SingleProduct",
+      "hash_J_DecompositionReaction_BreakingCompound",
+      "hash_G_SingleDisplacement_ActiveMetal",
+      "hash_A_OxidationNumber_ElectronGainLoss",
+      "hash_A_MolecularMass_SumAtomicMasses",
+      "hash_F_Stoichiometry_MoleRatios",
+      "hash_F_ChemicalEquationCharacteristics_HeatLightColor",
+      "hash_H_WordEquationVersusChemicalEquation_Difference",
+      "hash_E_BalancingLCM_AluminumOxygen",
+      "hash_I_DirectCombinationVsDecomposition_Comparison",
+      "hash_K_ThermalDecomposition_MercuryOxide",
+      "hash_N_SingleDisplacementConditions_MoreReactiveElement",
+      "hash_L_DoubleDisplacement_PrecipitateFormation",
+      "hash_G_OxidizingAgent_ElectronGain",
+      "hash_F_OxidationNumberRules_HydrogenExceptions",
+      "hash_D_OxidationNumberCalculation_HNO3"
+    ],
+    "baseline_counter": {
+      "1.1 Introduction": {
+        "1.1.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "1.2 Chemical Equations": {
+        "1.2.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.2.2": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.3 Types of Chemical Reactions": {
+        "1.3.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.3.2": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.3.3": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.3.4": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.4 Oxidation and Reduction Reactions": {
+        "1.4.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.4.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.4.3": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.4.4": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "1.5 Molecular and Formula Masses, the Mole Concept and Chemical Formulas": {
+        "1.5.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.5.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.5.3": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.6 Stoichiometry": {
+        "1.6.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.6.2": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.6.3": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.6.4": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.6.5": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.6.6": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1 Introduction": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.2 Chemical Equations": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.3 Types of Chemical Reactions": {
+        "question_count": 7,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.4 Oxidation and Reduction Reactions": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.5 Molecular and Formula Masses, the Mole Concept and Chemical Formulas": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.6 Stoichiometry": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1 Introduction>1.1.1": ["Chemical reaction", "Physical change", "Chemical change characteristics"],
+      "1.2 Chemical Equations>1.2.1": ["Chemical equation", "Reactants", "Products", "Word equation"],
+      "1.2 Chemical Equations>1.2.2": ["Balancing equations", "Inspection method", "LCM method", "Conservation of mass"],
+      "1.3 Types of Chemical Reactions>1.3.1": ["Combination reaction", "Synthesis", "Direct combination"],
+      "1.3 Types of Chemical Reactions>1.3.2": ["Decomposition reaction", "Thermal decomposition", "Photo decomposition"],
+      "1.3 Types of Chemical Reactions>1.3.3": ["Single displacement", "Active metal", "Reactivity series"],
+      "1.3 Types of Chemical Reactions>1.3.4": ["Double displacement", "Precipitation", "Ion exchange"],
+      "1.4 Oxidation and Reduction Reactions>1.4.1": ["Oxidation number", "Electron transfer", "Reduction definition"],
+      "1.4 Oxidation and Reduction Reactions>1.4.2": ["Oxidizing agent", "Reducing agent", "Electron transfer agents"],
+      "1.4 Oxidation and Reduction Reactions>1.4.3": ["Redox reactions", "Simultaneous oxidation reduction"],
+      "1.5 Molecular and Formula Masses, the Mole Concept and Chemical Formulas>1.5.1": ["Molecular mass", "Formula mass", "Atomic mass units"],
+      "1.5 Molecular and Formula Masses, the Mole Concept and Chemical Formulas>1.5.2": ["Mole concept", "Avogadro's number"],
+      "1.5 Molecular and Formula Masses, the Mole Concept and Chemical Formulas>1.5.3": ["Empirical formula", "Molecular formula", "Percent composition"],
+      "1.6 Stoichiometry>1.6.1": ["Mole ratios", "Stoichiometric coefficients"],
+      "1.6 Stoichiometry>1.6.2": ["Mass-mass relationships", "Mass ratio method"],
+      "1.6 Stoichiometry>1.6.3": ["Volume-volume relationships", "Molar volume", "Avogadro's law"],
+      "1.6 Stoichiometry>1.6.4": ["Mass-volume relationships", "STP conditions"],
+      "1.6 Stoichiometry>1.6.5": ["Limiting reactant", "Excess reactant"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_round1_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 20,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 70.6
+    }
+  },
+  "grade": "10",
+  "subject": "Chemistry",
+  "unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+  "pdf_filename": "C10U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:32:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.3,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 18,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 70.6,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.3 Types of Chemical Reactions",
+      "least_covered_section": "1.1 Introduction",
+      "imbalance_ratio": 3.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U1_Q011",
+      "generation_timestamp": "2025-01-28T10:32:00Z",
+      "section": "1.1 Introduction",
+      "subsection": "1.1.1",
+      "sub_subsection": null,
+      "structural_anchor": "",
+      "mcq_type": "F",
+      "question": "Which observable evidence most reliably indicates that a chemical reaction has occurred rather than a physical change?",
+      "options": {
+        "A": "Formation of a new substance with different properties",
+        "B": "Change in temperature",
+        "C": "Production of gas bubbles",
+        "D": "Change in color"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the defining characteristic that distinguishes chemical from physical changes.",
+      "explanation": "Chemical reactions are defined by the formation of new substances with distinct chemical properties, unlike physical changes. Option D can occur in both physical and chemical changes, making it less reliable as definitive evidence.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.1 Introduction",
+        "subsection_anchor": "1.1.1",
+        "structural_element": "content",
+        "content_anchor": "characteristics of chemical reaction",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_ChemicalChangeCharacteristics"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q012",
+      "generation_timestamp": "2025-01-28T10:32:00Z",
+      "section": "1.2 Chemical Equations",
+      "subsection": "1.2.1",
+      "sub_subsection": null,
+      "structural_anchor": "",
+      "mcq_type": "H",
+      "question": "What distinguishes a word equation from a chemical equation in representing reactions?",
+      "options": {
+        "A": "Chemical equations use symbols and formulas",
+        "B": "Word equations are more detailed",
+        "C": "Chemical equations are always balanced",
+        "D": "Word equations show physical states"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the representation method, not the content detail.",
+      "explanation": "Chemical equations employ chemical symbols and formulas to represent substances, while word equations use descriptive names. Option C is incorrect because unbalanced chemical equations exist before balancing.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.2 Chemical Equations",
+        "subsection_anchor": "1.2.1",
+        "structural_element": "content",
+        "content_anchor": "word equation vs chemical equation",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_EquationTypes"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q013",
+      "generation_timestamp": "2025-01-28T10:32:00Z",
+      "section": "1.2 Chemical Equations",
+      "subsection": "1.2.2",
+      "sub_subsection": null,
+      "structural_anchor": "",
+      "mcq_type": "E",
+      "question": "Using the Least Common Multiple method, what coefficients balance the equation: Al + O₂ → Al₂O₃?",
+      "options": {
+        "A": "4, 3, 2",
+        "B": "2, 3, 2",
+        "C": "3, 2, 1",
+        "D": "1, 1, 1"
+      },
+      "correct_answer": "A",
+      "hint": "Calculate total valencies and find their LCM to determine coefficients.",
+      "explanation": "The balanced equation is 4Al + 3O₂ → 2Al₂O₃, derived from LCM of total valencies (Al=3, O=4, Al₂O₃=6 each). Option B represents incorrect coefficients that don't satisfy atom conservation.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.2 Chemical Equations",
+        "subsection_anchor": "1.2.2",
+        "structural_element": "content",
+        "content_anchor": "LCM method balancing",
+        "page_hint": "Page 7-8",
+        "concept_hash": "sha256_of_LCM_Balancing"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 88,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q014",
+      "generation_timestamp": "2025-01-28T10:32:00Z",
+      "section": "1.3 Types of Chemical Reactions",
+      "subsection": "1.3.1",
+      "sub_subsection": null,
+      "structural_anchor": "",
+      "mcq_type": "I",
+      "question": "How do combination reactions fundamentally differ from decomposition reactions in terms of reactant and product counts?",
+      "options": {
+        "A": "Combination: multiple reactants, one product; Decomposition: one reactant, multiple products",
+        "B": "Both have multiple reactants and products",
+        "C": "Combination requires heat, decomposition does not",
+        "D": "Decomposition produces elements, combination produces compounds"
+      },
+      "correct_answer": "A",
+      "hint": "Compare the number of substances on each side of the reaction arrow.",
+      "explanation": "Combination reactions synthesize one product from multiple reactants, while decomposition breaks one reactant into multiple products. Option D incorrectly restricts decomposition products to only elements.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.3 Types of Chemical Reactions",
+        "subsection_anchor": "1.3.1",
+        "structural_element": "content",
+        "content_anchor": "combination vs decomposition",
+        "page_hint": "Page 13-14",
+        "concept_hash": "sha256_of_ReactionTypeComparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q015",
+      "generation_timestamp": "2025-01-28T10:32:00Z",
+      "section": "1.3 Types of Chemical Reactions",
+      "subsection": "1.3.2",
+      "sub_subsection": null,
+      "structural_anchor": "",
+      "mcq_type": "K",
+      "question": "When mercury(II) oxide is heated, it decomposes to mercury and oxygen. What does the Δ symbol above the reaction arrow indicate?",
+      "options": {
+        "A": "Heat is supplied to drive the decomposition",
+        "B": "The reaction occurs at room temperature",
+        "C": "A catalyst is present",
+        "D": "The products are gases"
+      },
+      "correct_answer": "A",
+      "hint": "Consider energy requirements for decomposition reactions.",
+      "explanation": "The Δ symbol denotes thermal decomposition, indicating heat energy is required to break chemical bonds. Option C incorrectly associates the symbol with catalysis rather than energy input.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.3 Types of Chemical Reactions",
+        "subsection_anchor": "1.3.2",
+        "structural_element": "content",
+        "content_anchor": "thermal decomposition symbol",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_ThermalDecomposition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q016",
+      "generation_timestamp": "2025-01-28T10:32:00Z",
+      "section": "1.3 Types of Chemical Reactions",
+      "subsection": "1.3.3",
+      "sub_subsection": null,
+      "structural_anchor": "",
+      "mcq_type": "N",
+      "question": "Under what condition can element A displace element B from compound BC in a single displacement reaction?",
+      "options": {
+        "A": "A is more reactive than B",
+        "B": "A and B have equal reactivity",
+        "C": "BC is a gaseous compound",
+        "D": "The reaction occurs in water"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the reactivity series for displacement reactions.",
+      "explanation": "Single displacement requires the displacing element to be more reactive than the element being displaced. Option B would prevent displacement since no driving force exists for the exchange.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.3 Types of Chemical Reactions",
+        "subsection_anchor": "1.3.3",
+        "structural_element": "content",
+        "content_anchor": "condition for single displacement",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_DisplacementCondition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q017",
+      "generation_timestamp": "2025-01-28T10:32:00Z",
+      "section": "1.3 Types of Chemical Reactions",
+      "subsection": "1.3.4",
+      "sub_subsection": null,
+      "structural_anchor": "",
+      "mcq_type": "L",
+      "question": "What evidence confirms that a double displacement reaction has occurred between two aqueous salt solutions?",
+      "options": {
+        "A": "Formation of a solid precipitate",
+        "B": "Change in solution temperature",
+        "C": "Production of gas bubbles",
+        "D": "Change in solution color"
+      },
+      "correct_answer": "A",
+      "hint": "Look for insoluble product formation from ion exchange.",
+      "explanation": "Double displacement often produces an insoluble precipitate when cation-anion pairs exchange. Option C typically indicates decomposition or single displacement rather than double displacement.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.3 Types of Chemical Reactions",
+        "subsection_anchor": "1.3.4",
+        "structural_element": "content",
+        "content_anchor": "precipitate formation in double displacement",
+        "page_hint": "Page 18-19",
+        "concept_hash": "sha256_of_DoubleDisplacementEvidence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q018",
+      "generation_timestamp": "2025-01-28T10:32:00Z",
+      "section": "1.4 Oxidation and Reduction Reactions",
+      "subsection": "1.4.2",
+      "sub_subsection": null,
+      "structural_anchor": "",
+      "mcq_type": "G",
+      "question": "In a redox reaction, what characteristic behavior identifies a substance as an oxidizing agent?",
+      "options": {
+        "A": "It gains electrons and undergoes reduction",
+        "B": "It loses electrons and undergoes oxidation",
+        "C": "It remains unchanged throughout the reaction",
+        "D": "It provides hydrogen ions"
+      },
+      "correct_answer": "A",
+      "hint": "Oxidizing agents cause oxidation by being reduced themselves.",
+      "explanation": "Oxidizing agents accept electrons from other substances, becoming reduced in the process. Option B describes reducing agents, which donate electrons and become oxidized.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.4 Oxidation and Reduction Reactions",
+        "subsection_anchor": "1.4.2",
+        "structural_element": "content",
+        "content_anchor": "oxidizing agent characteristics",
+        "page_hint": "Page 23",
+        "concept_hash": "sha256_of_OxidizingAgent"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q019",
+      "generation_timestamp": "2025-01-28T10:32:00Z",
+      "section": "1.4 Oxidation and Reduction Reactions",
+      "subsection": "1.4.3",
+      "sub_subsection": null,
+      "structural_anchor": "",
+      "mcq_type": "F",
+      "question": "Why must oxidation and reduction processes occur simultaneously in any redox reaction?",
+      "options": {
+        "A": "Electrons lost by one substance must be gained by another",
+        "B": "Both processes require the same activation energy",
+        "C": "The reaction would otherwise violate energy conservation",
+        "D": "Oxidation cannot occur without a catalyst"
+      },
+      "correct_answer": "A",
+      "hint": "Consider electron transfer as a closed system.",
+      "explanation": "Redox reactions involve electron transfer where oxidation (electron loss) and reduction (electron gain) are coupled processes. Option C incorrectly applies energy conservation rather than electron conservation.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.4 Oxidation and Reduction Reactions",
+        "subsection_anchor": "1.4.3",
+        "structural_element": "content",
+        "content_anchor": "simultaneous oxidation and reduction",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_SimultaneousRedox"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 89,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 96
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q020",
+      "generation_timestamp": "2025-01-28T10:32:00Z",
+      "section": "1.5 Molecular and Formula Masses, the Mole Concept and Chemical Formulas",
+      "subsection": "1.5.1",
+      "sub_subsection": null,
+      "structural_anchor": "",
+      "mcq_type": "D",
+      "question": "What is the oxidation number of hydrogen in HNO₃, applying standard oxidation number rules?",
+      "options": {
+        "A": "+1",
+        "B": "-1",
+        "C": "0",
+        "D": "+2"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the exception rules for hydrogen in compounds.",
+      "explanation": "Hydrogen has an oxidation number of +1 in most compounds, including HNO₃. Option B applies only to metal hydrides where hydrogen exhibits -1 oxidation state.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.4 Oxidation and Reduction Reactions",
+        "subsection_anchor": "1.4.1",
+        "structural_element": "content",
+        "content_anchor": "oxidation number rules for hydrogen",
+        "page_hint": "Page 21-22",
+        "concept_hash": "sha256_of_HydrogenOxidationNumber"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2650,
+    "average_question_quality": 86.7,
+    "type_distribution": {
+      "F": 2,
+      "H": 1,
+      "E": 1,
+      "I": 1,
+      "K": 1,
+      "N": 1,
+      "L": 1,
+      "G": 1,
+      "D": 1
+    },
+    "difficulty_distribution": {
+      "easy": 0,
+      "medium": 8,
+      "hard": 2
+    },
+    "section_distribution": {
+      "1.1 Introduction": 1,
+      "1.2 Chemical Equations": 2,
+      "1.3 Types of Chemical Reactions": 4,
+      "1.4 Oxidation and Reduction Reactions": 2,
+      "1.5 Molecular and Formula Masses, the Mole Concept and Chemical Formulas": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

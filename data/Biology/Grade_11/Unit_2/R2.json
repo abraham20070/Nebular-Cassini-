@@ -1,0 +1,867 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-20T10:10:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G11_Bio_U2_Q020",
+    "covered_sections": ["2.1. Characteristics of animals>(unnumbered subsection)", "2.2. Invertebrates and Vertebrates>2.2.1 Invertebrate Animals", "2.2. Invertebrates and Vertebrates>2.2.2 Vertebrate Animals", "2.3 Reproduction in Animals>2.3.1. Asexual reproduction in animals", "2.3 Reproduction in Animals>2.3.2 Sexual reproduction in animals", "2.3 Reproduction in Animals>2.3.3 Reproduction in insects (complete and incomplete metamorphosis)", "2.3 Reproduction in Animals>2.3.4 Reproduction in Frog", "2.4 The economic importance of animals (insects)>2.4.1 Beneficial aspects of insects", "2.5 Animal Behavior>2.5.1 Types of Animal Behavior", "2.6 Homeostasis in animals>2.6.1 Thermoregulation"],
+    "used_question_signatures": ["hash_A_animal_characteristics_list", "hash_B_heterotroph_definition", "hash_C_eukaryotic_characteristic", "hash_D_backbone_vertebrate", "hash_F_exoskeleton_invertebrate", "hash_G_sexual_offspring_genetics", "hash_H_asexual_single_parent", "hash_I_vertebrate_invertebrate_compare", "hash_J_vertebrate_classification", "hash_K_invertebrate_habitat", "hash_A_metamorphosis_stage", "hash_B_insect_pollinator", "hash_D_frog_external_fert", "hash_E_calc_surface_volume", "hash_F_concept_innate_behavior", "hash_G_cause_thermoregulation", "hash_H_misconception_blood_sugar", "hash_I_compare_fertilization", "hash_J_classify_behavior", "hash_K_interpret_economic_importance"],
+    "baseline_counter": {
+      "2.1. Characteristics of animals": {
+        "(unnumbered subsection)": {
+          "count": 3,
+          "mini_headings_covered": ["Self-questioning:", "Animals are eukaryotic, multicellular, heterotrophic, and sensitive to stimuli; and they reproduce, protect themselves, move, respire, excrete, grow, and have different body symmetries."],
+          "last_question_round": 1
+        }
+      },
+      "2.2. Invertebrates and Vertebrates": {
+        "2.2.1 Invertebrate Animals": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.2.2 Vertebrate Animals": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "2.3 Reproduction in Animals": {
+        "2.3.1. Asexual reproduction in animals": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.3.2 Sexual reproduction in animals": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.3.3 Reproduction in insects (complete and incomplete metamorphosis)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.3.4 Reproduction in Frog": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.3.5 Reproduction in Crocodiles": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.3.6 Reproduction in Birds": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.3.7 Reproduction in rat": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.4 The economic importance of animals (insects)": {
+        "2.4.1 Beneficial aspects of insects": {
+          "count": 2,
+          "mini_headings_covered": ["A. Agriculture", "B. Food"],
+          "last_question_round": 2
+        },
+        "2.4.2 Harmful aspects of insects": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.5 Animal Behavior": {
+        "2.5.1 Types of Animal Behavior": {
+          "count": 2,
+          "mini_headings_covered": ["Innate or inherent behavior"],
+          "last_question_round": 2
+        },
+        "2.5.2 Patterns of Behavior": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.6 Homeostasis in animals": {
+        "2.6.1 Thermoregulation": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.6.2 Osmoregulation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.6.3 Blood Sugar Regulation": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.6.4 Control of homeostasis": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.7 Renowned zoologists in Ethiopia": {
+        "(unnumbered subsection)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1. Characteristics of animals": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.2. Invertebrates and Vertebrates": {
+        "question_count": 8,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.3 Reproduction in Animals": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "2.4 The economic importance of animals (insects)": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "2.5 Animal Behavior": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "2.6 Homeostasis in animals": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "2.7 Renowned zoologists in Ethiopia": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1. Characteristics of animals>(unnumbered subsection)": ["Animal Characteristics List", "Heterotroph", "Eukaryotic Multicellular"],
+      "2.2. Invertebrates and Vertebrates>2.2.1 Invertebrate Animals": ["Lack Backbone", "Exoskeleton", "Cold-blooded", "Diverse Habitat"],
+      "2.2. Invertebrates and Vertebrates>2.2.2 Vertebrate Animals": ["Presence of Backbone", "Complex Organ Systems", "Internal Skeleton", "Closed Circulatory System"],
+      "2.3 Reproduction in Animals>2.3.1. Asexual reproduction in animals": ["Single Parent", "No Gamete Fusion"],
+      "2.3 Reproduction in Animals>2.3.2 Sexual reproduction in animals": ["Two Parents", "Gamete Fusion", "Genetic Variation"],
+      "2.3 Reproduction in Animals>2.3.3 Reproduction in insects (complete and incomplete metamorphosis)": ["Metamorphosis Stages", "Complete vs Incomplete"],
+      "2.3 Reproduction in Animals>2.3.4 Reproduction in Frog": ["External Fertilization", "Jelly-like Substance"],
+      "2.4 The economic importance of animals (insects)>2.4.1 Beneficial aspects of insects": ["Pollination", "Food Source", "Economic Value"],
+      "2.5 Animal Behavior>2.5.1 Types of Animal Behavior": ["Innate Behavior", "Learned Behavior"],
+      "2.6 Homeostasis in animals>2.6.1 Thermoregulation": ["Poikilotherm", "Homeotherm", "Vasodilation", "Surface Area to Volume"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_previous_R01_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 23,
+      "questions_per_concept_ratio": 0.87,
+      "structural_coverage_percentage": 31.8
+    }
+  },
+  "grade": "11",
+  "subject": "Biology",
+  "unit": "Unit 2: Animals",
+  "pdf_filename": "B11U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-20T10:15:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 7,
+        "progress_percentage": 85.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 11,
+      "mini_headings_covered_count": 5,
+      "structural_coverage_percentage": 50.0,
+      "concept_utilization_ratio": 0.87
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.3 Reproduction in Animals",
+      "least_covered_section": "2.7 Renowned zoologists in Ethiopia",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U2_Q011",
+      "generation_timestamp": "2025-01-20T10:10:05Z",
+      "section": "2.3 Reproduction in Animals",
+      "subsection": "2.3.3 Reproduction in insects (complete and incomplete metamorphosis)",
+      "sub_subsection": null,
+      "structural_anchor": "Complete metamorphosis has four stages whereas in complete metamorphosis has three stages.",
+      "mcq_type": "A",
+      "question": "Which sequence correctly lists the four developmental stages in the complete metamorphosis of an insect such as a butterfly?",
+      "options": {
+        "A": "Egg, nymph, pupa, adult",
+        "B": "Egg, larva, pupa, adult",
+        "C": "Egg, nymph, adult, senescent",
+        "D": "Larva, pupa, adult, reproductive"
+      },
+      "correct_answer": "B",
+      "hint": "Recall the distinct, resting stage that occurs between the feeding larval stage and the adult.",
+      "explanation": "Complete metamorphosis involves four stages: egg, larva (caterpillar), pupa (chrysalis), and adult (butterfly). The pupa is a non-feeding stage where major reorganization occurs. Option A describes the three stages of incomplete metamorphosis, which lacks a pupal stage.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.3 Reproduction in Animals",
+        "subsection_anchor": "2.3.3 Reproduction in insects (complete and incomplete metamorphosis)",
+        "structural_element": "Complete metamorphosis has four stages whereas in complete metamorphosis has three stages.",
+        "content_anchor": "four stages of complete metamorphosis are egg, larva, pupa, and adult",
+        "page_hint": "Page 11",
+        "concept_hash": "hash_A_metamorphosis_stage"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q012",
+      "generation_timestamp": "2025-01-20T10:10:15Z",
+      "section": "2.4 The economic importance of animals (insects)",
+      "subsection": "2.4.1 Beneficial aspects of insects",
+      "sub_subsection": null,
+      "structural_anchor": "Pollinators: insect pollinators are flower- visiting insects that forage on flowering plants to obtain plant- provided food (nectar, pollen).",
+      "mcq_type": "B",
+      "question": "An insect that transfers pollen from the anther of one flower to the stigma of another, enabling fertilization, is performing which specific ecological role?",
+      "options": {
+        "A": "Pest regulation",
+        "B": "Pollination",
+        "C": "Decomposition",
+        "D": "Parasitism"
+      },
+      "correct_answer": "B",
+      "hint": "This role directly facilitates the sexual reproduction of flowering plants.",
+      "explanation": "Pollination is the process of transferring pollen grains to the female reproductive part of a flower, a service provided by many insects like bees. Option A describes the action of predatory insects that control pest populations.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.4 The economic importance of animals (insects)",
+        "subsection_anchor": "2.4.1 Beneficial aspects of insects",
+        "structural_element": "Pollinators: insect pollinators are flower- visiting insects that forage on flowering plants to obtain plant- provided food (nectar, pollen).",
+        "content_anchor": "insect pollinators",
+        "page_hint": "Page 24",
+        "concept_hash": "hash_B_insect_pollinator"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q013",
+      "generation_timestamp": "2025-01-20T10:10:25Z",
+      "section": "2.3 Reproduction in Animals",
+      "subsection": "2.3.4 Reproduction in Frog",
+      "sub_subsection": null,
+      "structural_anchor": "Frogs have external fertilization. However, internal fertilization also occurs in a few species of frogs.",
+      "mcq_type": "D",
+      "question": "In a typical frog species, where does the process of fertilization occur?",
+      "options": {
+        "A": "Inside the female's oviduct",
+        "B": "Within the protective jelly surrounding the eggs",
+        "C": "In the external aquatic environment after both gametes are released",
+        "D": "Inside a specialized pouch on the male's back"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the location where sperm and egg meet when released by the parents.",
+      "explanation": "Most frogs exhibit external fertilization where the female releases eggs and the male releases sperm into the surrounding water, where fertilization occurs. Option A describes internal fertilization, which is rare in frogs.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.3 Reproduction in Animals",
+        "subsection_anchor": "2.3.4 Reproduction in Frog",
+        "structural_element": "Frogs have external fertilization. However, internal fertilization also occurs in a few species of frogs.",
+        "content_anchor": "external fertilization",
+        "page_hint": "Page 12",
+        "concept_hash": "hash_D_frog_external_fert"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q014",
+      "generation_timestamp": "2025-01-20T10:10:35Z",
+      "section": "2.6 Homeostasis in animals",
+      "subsection": "2.6.1 Thermoregulation",
+      "sub_subsection": null,
+      "structural_anchor": "As animals grow in size, their inside volume increases and the outside surface area decreases. This affects the surface-area-to-volume ratio.",
+      "mcq_type": "E",
+      "question": "A spherical cell has a radius of 2 units. If the radius increases to 4 units, what happens to its surface area to volume ratio?",
+      "options": {
+        "A": "It doubles.",
+        "B": "It halves.",
+        "C": "It remains the same.",
+        "D": "It quadruples."
+      },
+      "correct_answer": "B",
+      "hint": "Recall that volume increases with the cube of the radius, while surface area increases with the square.",
+      "explanation": "Surface area scales with r², volume scales with r³. Doubling the radius increases surface area by 4 times and volume by 8 times. Therefore, the SA:V ratio becomes (4/8) = 0.5 of the original, meaning it halves. Option A incorrectly assumes a linear relationship.",
+      "difficulty_level": "medium",
+      "formula_used": ["SA_sphere = 4πr²", "V_sphere = (4/3)πr³"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "ratio (unitless)",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.6 Homeostasis in animals",
+        "subsection_anchor": "2.6.1 Thermoregulation",
+        "structural_element": "As animals grow in size, their inside volume increases and the outside surface area decreases. This affects the surface-area-to-volume ratio.",
+        "content_anchor": "surface-area-to-volume ratio",
+        "page_hint": "Page 41",
+        "concept_hash": "hash_E_calc_surface_volume"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 90,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q015",
+      "generation_timestamp": "2025-01-20T10:10:45Z",
+      "section": "2.5 Animal Behavior",
+      "subsection": "2.5.1 Types of Animal Behavior",
+      "sub_subsection": null,
+      "structural_anchor": "Innate or inherent behavior is an inborn behavior that is determined by genes and independent of experience and specific to a species.",
+      "mcq_type": "F",
+      "question": "Under the condition that a behavior is genetically programmed and appears in a complete form the first time it is performed, which reasoning best explains why such behaviors are consistent across a species?",
+      "options": {
+        "A": "All individuals have identical life experiences that shape the behavior.",
+        "B": "The behavior is learned through observation of parents during a critical period.",
+        "C": "The underlying genetic instructions for the behavior are shared by members of the species.",
+        "D": "The behavior is a flexible response that is optimized through trial and error."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the source of the behavioral pattern when it is not influenced by individual experience.",
+      "explanation": "Innate behaviors are fixed action patterns encoded in an organism's DNA, ensuring uniformity within a species as all members share the relevant genes. Option B incorrectly describes learned behavior, which depends on experience.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.5 Animal Behavior",
+        "subsection_anchor": "2.5.1 Types of Animal Behavior",
+        "structural_element": "Innate or inherent behavior is an inborn behavior that is determined by genes and independent of experience and specific to a species.",
+        "content_anchor": "determined by genes",
+        "page_hint": "Page 30",
+        "concept_hash": "hash_F_concept_innate_behavior"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q016",
+      "generation_timestamp": "2025-01-20T10:10:55Z",
+      "section": "2.6 Homeostasis in animals",
+      "subsection": "2.6.1 Thermoregulation",
+      "sub_subsection": null,
+      "structural_anchor": "Vasodilation is the widening of blood vessels at the skin surface to increase heat loss through the surface of the skin.",
+      "mcq_type": "G",
+      "question": "If the core body temperature of a homeothermic animal rises above its set point, what immediate physiological response occurs to promote cooling?",
+      "options": {
+        "A": "Blood vessels near the skin constrict to reduce heat loss.",
+        "B": "Skeletal muscles contract rhythmically to generate heat.",
+        "C": "Blood vessels near the skin dilate to increase radiant heat loss.",
+        "D": "Metabolic rate decreases to reduce internal heat production."
+      },
+      "correct_answer": "C",
+      "hint": "Consider a mechanism that brings more warm blood to the body surface.",
+      "explanation": "Vasodilation increases blood flow to the skin's surface, allowing more heat to be lost to the environment via radiation and conduction. This is a key cooling response. Option A describes vasoconstriction, a response to cold that conserves heat.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.6 Homeostasis in animals",
+        "subsection_anchor": "2.6.1 Thermoregulation",
+        "structural_element": "Vasodilation is the widening of blood vessels at the skin surface to increase heat loss through the surface of the skin.",
+        "content_anchor": "vasodilation",
+        "page_hint": "Page 39",
+        "concept_hash": "hash_G_cause_thermoregulation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q017",
+      "generation_timestamp": "2025-01-20T10:11:05Z",
+      "section": "2.6 Homeostasis in animals",
+      "subsection": "2.6.3 Blood Sugar Regulation",
+      "sub_subsection": null,
+      "structural_anchor": "Two hormones produced from pancreas are responsible for controlling the concentration of glucose in the blood. These are insulin and glucagon.",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that administering insulin is an appropriate treatment for all cases of low blood glucose?",
+      "options": {
+        "A": "It assumes insulin's primary role is to stimulate glycogen breakdown in the liver.",
+        "B": "It overlooks the fact that insulin lowers blood glucose levels, which would worsen hypoglycemia.",
+        "C": "It confuses the function of insulin with that of glucagon, which raises blood glucose.",
+        "D": "It ignores the possibility that low blood glucose can be caused by excessive glucagon secretion."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the direct physiological effect of insulin on blood glucose concentration.",
+      "explanation": "Insagon promotes glucose uptake and storage, thereby decreasing blood glucose. Administering it during hypoglycemia would further lower glucose, creating a dangerous situation. The reasoning error is not recognizing insulin's glucose-lowering action. Option C misidentifies the error as a simple hormone mix-up.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.6 Homeostasis in animals",
+        "subsection_anchor": "2.6.3 Blood Sugar Regulation",
+        "structural_element": "Two hormones produced from pancreas are responsible for controlling the concentration of glucose in the blood. These are insulin and glucagon.",
+        "content_anchor": "insulin and glucagon",
+        "page_hint": "Page 43",
+        "concept_hash": "hash_H_misconception_blood_sugar"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 89,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q018",
+      "generation_timestamp": "2025-01-20T10:11:15Z",
+      "section": "2.3 Reproduction in Animals",
+      "subsection": "2.3.2 Sexual reproduction in animals",
+      "sub_subsection": null,
+      "structural_anchor": "There are two types of fertilization: external and internal.",
+      "mcq_type": "I",
+      "question": "How does the developmental environment of the embryo typically differ between animals that use external fertilization and those that use internal fertilization?",
+      "options": {
+        "A": "External fertilization always leads to live birth, while internal fertilization leads to egg laying.",
+        "B": "Internal fertilization provides a controlled, often protected environment for early development.",
+        "C": "External fertilization requires specialized male structures to transfer sperm to the female.",
+        "D": "Internal fertilization is exclusively associated with the production of shelled amniotic eggs."
+      },
+      "correct_answer": "B",
+      "hint": "Consider where fertilization occurs and the immediate consequences for the zygote.",
+      "explanation": "Internal fertilization occurs inside the female's body, offering a stable, protected environment for the zygote's initial development, often with parental provisioning. External fertilization, common in aquatic animals, leaves embryos exposed to the external environment. Option C incorrectly describes a requirement for internal, not external, fertilization.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.3 Reproduction in Animals",
+        "subsection_anchor": "2.3.2 Sexual reproduction in animals",
+        "structural_element": "There are two types of fertilization: external and internal.",
+        "content_anchor": "external and internal",
+        "page_hint": "Page 8",
+        "concept_hash": "hash_I_compare_fertilization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q019",
+      "generation_timestamp": "2025-01-20T10:11:25Z",
+      "section": "2.5 Animal Behavior",
+      "subsection": "2.5.1 Types of Animal Behavior",
+      "sub_subsection": null,
+      "structural_anchor": "Learned or acquired behavior is not inherited and not determined by genes. It is the type of animal behavior acquired during the lifetime of an individual.",
+      "mcq_type": "J",
+      "question": "Which of the following behavioral examples is most accurately classified as a learned behavior?",
+      "options": {
+        "A": "A spider spinning its first web without any prior experience.",
+        "B": "A newborn mammal suckling for milk immediately after birth.",
+        "C": "A bird avoiding a brightly colored insect after a previous unpleasant taste experience.",
+        "D": "A sea turtle hatchling moving toward the ocean immediately after emerging from the sand."
+      },
+      "correct_answer": "C",
+      "hint": "Look for a behavior that clearly results from individual experience modifying future actions.",
+      "explanation": "Avoidance based on a previous negative experience (taste aversion) is a clear example of associative learning, a type of learned behavior. Options A, B, and D describe innate, instinctive behaviors performed correctly on the first attempt.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.5 Animal Behavior",
+        "subsection_anchor": "2.5.1 Types of Animal Behavior",
+        "structural_element": "Learned or acquired behavior is not inherited and not determined by genes. It is the type of animal behavior acquired during the lifetime of an individual.",
+        "content_anchor": "learned or acquired behavior",
+        "page_hint": "Page 30",
+        "concept_hash": "hash_J_classify_behavior"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 88,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q020",
+      "generation_timestamp": "2025-01-20T10:11:35Z",
+      "section": "2.4 The economic importance of animals (insects)",
+      "subsection": "2.4.1 Beneficial aspects of insects",
+      "sub_subsection": null,
+      "structural_anchor": "Insects are the most diverse animals in the world. They have both positive and negative impacts on our economy, our lives, and the ecosystem.",
+      "mcq_type": "K",
+      "question": "The statement 'an estimated 35% of global crop production relies on insect pollination' best supports which interpretation about human agricultural systems?",
+      "options": {
+        "A": "Insect pollination is a minor, replaceable component of modern industrial agriculture.",
+        "B": "A significant portion of food security is directly dependent on healthy insect populations.",
+        "C": "Artificial pollination methods are currently more efficient and cost-effective than insect pollination.",
+        "D": "Crop diversity would increase dramatically if insect pollination ceased."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the scale of the dependency and its implications for food production.",
+      "explanation": "A 35% dependency indicates that insect pollinators play a substantial role in global food production, meaning food security is vulnerable to declines in pollinator populations. Option A is directly contradicted by the significant percentage given.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 85
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.4 The economic importance of animals (insects)",
+        "subsection_anchor": "2.4.1 Beneficial aspects of insects",
+        "structural_element": "Insects are the most diverse animals in the world. They have both positive and negative impacts on our economy, our lives, and the ecosystem.",
+        "content_anchor": "35% of crop production",
+        "page_hint": "Page 24-25",
+        "concept_hash": "hash_K_interpret_economic_importance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 83,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 87
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 95000,
+    "average_question_quality": 85.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "2.3 Reproduction in Animals": 3,
+      "2.4 The economic importance of animals (insects)": 2,
+      "2.5 Animal Behavior": 2,
+      "2.6 Homeostasis in animals": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

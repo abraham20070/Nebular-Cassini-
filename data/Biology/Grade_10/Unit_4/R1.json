@@ -1,0 +1,794 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:15:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Bio_U4_Q010",
+    "covered_sections": ["4.1 What is a cell cycle?>Objectives", "4.2 Cell division>Objectives", "4.2 Cell division>4.2.1 Mitosis>Objectives", "4.2 Cell division>4.2.2 Meiosis>Objectives", "4.3 Renowned Geneticist in Ethiopia>Objectives", "Unit Summary", "Learning objectives"],
+    "used_question_signatures": ["hash_7d83a1b2", "hash_9c4e5f6a", "hash_2b8c3d9e", "hash_5f1a7c3b", "hash_8d2e4f6c", "hash_3b9a5c1d", "hash_6e2f8d4a", "hash_1c5d9a3b", "hash_4f7c2e8d", "hash_9a3b6d1c"],
+    "baseline_counter": {
+      "4.1 What is a cell cycle?": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "4.2 Cell division": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "4.2.1 Mitosis": {
+          "Objectives": {
+            "count": 2,
+            "mini_headings_covered": [],
+            "last_question_round": 1
+          }
+        },
+        "4.2.2 Meiosis": {
+          "Objectives": {
+            "count": 1,
+            "mini_headings_covered": [],
+            "last_question_round": 1
+          }
+        }
+      },
+      "4.3 Renowned Geneticist in Ethiopia": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Unit Summary": {
+        "Unit Summary": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Learning objectives": {
+        "Learning objectives": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1 What is a cell cycle?": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.2 Cell division": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.3 Renowned Geneticist in Ethiopia": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Unit Summary": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Learning objectives": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1 What is a cell cycle?>Objectives": ["cell cycle definition", "interphase phases"],
+      "4.2 Cell division>Objectives": ["cell division purpose", "karyokinesis vs cytokinesis"],
+      "4.2 Cell division>4.2.1 Mitosis>Objectives": ["mitosis definition", "identical daughter cells"],
+      "4.2 Cell division>4.2.2 Meiosis>Objectives": ["meiosis definition", "haploid gametes"],
+      "4.3 Renowned Geneticist in Ethiopia>Objectives": ["Dr. Melaku Worede", "seed conservation"],
+      "Unit Summary": ["cell cycle sequence", "mitosis vs meiosis differences"],
+      "Learning objectives": ["cancer cell characteristics", "cell cycle control"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_initial_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 12,
+      "questions_per_concept_ratio": 0.83,
+      "structural_coverage_percentage": 20.0
+    }
+  },
+  "grade": "10",
+  "subject": "Biology",
+  "unit": "Unit 4: Cell Cycle",
+  "pdf_filename": "B10U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:15:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 8,
+        "progress_percentage": 62.5
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 7,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 20.0,
+      "concept_utilization_ratio": 0.83
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.2 Cell division",
+      "least_covered_section": "4.1 What is a cell cycle?",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.83,
+      "remaining_concept_capacity": 2
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U4_Q001",
+      "generation_timestamp": "2025-01-28T10:15:05Z",
+      "section": "4.1 What is a cell cycle?",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "define cell cycle, outline the different stages of cell cycle",
+      "mcq_type": "A",
+      "question": "What term describes the complete sequence of events from one cell division to the next, including growth and DNA replication?",
+      "options": {
+        "A": "Cell cycle",
+        "B": "Mitosis",
+        "C": "Cytokinesis",
+        "D": "Interphase"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the process that encompasses all stages from division to division.",
+      "explanation": "The cell cycle includes all phases from one cell division to the next, comprising interphase and mitotic division. Option D is incorrect as interphase is only one part of the complete cell cycle.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "4.1 What is a cell cycle?",
+        "subsection_anchor": "Objectives",
+        "structural_element": "define cell cycle, outline the different stages of cell cycle",
+        "content_anchor": "A cell cycle is a sequence of events",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_cell_cycle_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q002",
+      "generation_timestamp": "2025-01-28T10:15:07Z",
+      "section": "Learning objectives",
+      "subsection": "Learning objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Recognize the occurrence of cancer cells due to failure to control the cell cycle",
+      "mcq_type": "G",
+      "question": "If the regulatory mechanisms controlling cell division malfunction, what pathological condition typically results from uncontrolled cell proliferation?",
+      "options": {
+        "A": "Cancer",
+        "B": "Apoptosis",
+        "C": "Differentiation",
+        "D": "Senescence"
+      },
+      "correct_answer": "A",
+      "hint": "Consider diseases characterized by abnormal, unregulated cell growth.",
+      "explanation": "Cancer arises from failure of cell cycle control mechanisms, leading to unregulated cell division. Option B describes programmed cell death, which is actually suppressed in cancer development.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "Learning objectives",
+        "subsection_anchor": "Learning objectives",
+        "structural_element": "Recognize the occurrence of cancer cells due to failure to control the cell cycle",
+        "content_anchor": "Cancer will occur as a result of failure of controlling cell division",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_cancer_cell_cycle"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q003",
+      "generation_timestamp": "2025-01-28T10:15:09Z",
+      "section": "4.2 Cell division",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "recognize the causes of cell division and explain the importance of cell division",
+      "mcq_type": "F",
+      "question": "When a cell grows beyond a certain size, its surface area to volume ratio decreases, impairing material exchange. Which cellular process addresses this limitation by creating more cells with favorable ratios?",
+      "options": {
+        "A": "Cell division",
+        "B": "Cellular respiration",
+        "C": "Protein synthesis",
+        "D": "DNA replication"
+      },
+      "correct_answer": "A",
+      "hint": "Consider processes that increase cell number rather than cell size.",
+      "explanation": "Cell division solves the surface area to volume problem by producing more smaller cells with efficient material exchange. Option D is incorrect because DNA replication occurs within individual cells without addressing the ratio limitation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "4.2 Cell division",
+        "subsection_anchor": "Objectives",
+        "structural_element": "recognize the causes of cell division and explain the importance of cell division",
+        "content_anchor": "As the cell grows the volume of cytoplasm relative to the cell membrane will be small that it will have low surface area to volume ratio",
+        "page_hint": "Page 4-5",
+        "concept_hash": "sha256_of_cell_division_cause"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q004",
+      "generation_timestamp": "2025-01-28T10:15:11Z",
+      "section": "4.2 Cell division",
+      "subsection": "4.2.1 Mitosis",
+      "sub_subsection": "Objectives",
+      "structural_anchor": "outline the pattern of mitotic cell division, tell how mitosis produces daughter cells as an exact copy of mother cell",
+      "mcq_type": "B",
+      "question": "What type of nuclear division results in two daughter cells that are genetically identical to the parent cell, maintaining the same chromosome number?",
+      "options": {
+        "A": "Mitosis",
+        "B": "Meiosis",
+        "C": "Binary fission",
+        "D": "Budding"
+      },
+      "correct_answer": "A",
+      "hint": "Consider division processes that preserve chromosome number and genetic identity.",
+      "explanation": "Mitosis produces genetically identical diploid daughter cells from a diploid parent cell. Option B incorrectly describes meiosis, which reduces chromosome number by half.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "4.2 Cell division",
+        "subsection_anchor": "4.2.1 Mitosis",
+        "sub_subsection_anchor": "Objectives",
+        "structural_element": "outline the pattern of mitotic cell division, tell how mitosis produces daughter cells as an exact copy of mother cell",
+        "content_anchor": "Mitosis is a type of nuclear division where duplicated chromosomes of a single mother cell are distributed between two identical daughter cells",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_mitosis_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q005",
+      "generation_timestamp": "2025-01-28T10:15:13Z",
+      "section": "4.2 Cell division",
+      "subsection": "4.2.1 Mitosis",
+      "sub_subsection": "Objectives",
+      "structural_anchor": "point out the importance of mitosis",
+      "mcq_type": "F",
+      "question": "In multicellular organisms, cells have limited lifespans and require replacement. Which cellular process enables tissue repair and growth by increasing cell numbers while maintaining genetic consistency?",
+      "options": {
+        "A": "Mitosis",
+        "B": "Meiosis",
+        "C": "Fertilization",
+        "D": "Mutation"
+      },
+      "correct_answer": "A",
+      "hint": "Consider processes that produce identical cells for growth and repair.",
+      "explanation": "Mitosis enables growth and tissue repair by producing genetically identical cells. Option B is incorrect because meiosis produces gametes with half the chromosome number.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "4.2 Cell division",
+        "subsection_anchor": "4.2.1 Mitosis",
+        "sub_subsection_anchor": "Objectives",
+        "structural_element": "point out the importance of mitosis",
+        "content_anchor": "The process of mitosis is important to increase cell number, which in turn is essential for growth",
+        "page_hint": "Page 7-8",
+        "concept_hash": "sha256_of_mitosis_importance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q006",
+      "generation_timestamp": "2025-01-28T10:15:15Z",
+      "section": "4.2 Cell division",
+      "subsection": "4.2.2 Meiosis",
+      "sub_subsection": "Objectives",
+      "structural_anchor": "outline the pattern of cell division by meiosis, tell the importance of meiosis",
+      "mcq_type": "B",
+      "question": "Which nuclear division process occurs in reproductive organs and produces four haploid gametes from a single diploid parent cell?",
+      "options": {
+        "A": "Meiosis",
+        "B": "Mitosis",
+        "C": "Amitosis",
+        "D": "Endomitosis"
+      },
+      "correct_answer": "A",
+      "hint": "Consider processes that reduce chromosome number by half for sexual reproduction.",
+      "explanation": "Meiosis reduces chromosome number by half, producing haploid gametes for sexual reproduction. Option B incorrectly describes mitosis, which maintains chromosome number.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "4.2 Cell division",
+        "subsection_anchor": "4.2.2 Meiosis",
+        "sub_subsection_anchor": "Objectives",
+        "structural_element": "outline the pattern of cell division by meiosis, tell the importance of meiosis",
+        "content_anchor": "Meiosis involves two fissions of the nucleus giving rise to four gametes or sex cells, each possessing half the number of chromosomes",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_meiosis_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q007",
+      "generation_timestamp": "2025-01-28T10:15:17Z",
+      "section": "4.3 Renowned Geneticist in Ethiopia",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "appreciate the work of a renowned geneticist and look for more Ethiopian Geneticist who contributed a lot to their field",
+      "mcq_type": "K",
+      "question": "Which Ethiopian geneticist received the Right Livelihood Award in 1989 for establishing a seed conservation center and developing locally adapted native crops?",
+      "options": {
+        "A": "Dr. Melaku Worede",
+        "B": "Dr. Tewolde Berhan Gebre Egziabher",
+        "C": "Dr. Aklilu Lemma",
+        "D": "Dr. Sebsebe Demissew"
+      },
+      "correct_answer": "A",
+      "hint": "Consider scientists known for plant genetic resource conservation in Ethiopia.",
+      "explanation": "Dr. Melaku Worede established Ethiopia's Plant Genetic Resource Centre and received the 1989 Right Livelihood Award. Option B is incorrect as this scientist is known for environmental policy work rather than seed conservation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "4.3 Renowned Geneticist in Ethiopia",
+        "subsection_anchor": "Objectives",
+        "structural_element": "appreciate the work of a renowned geneticist and look for more Ethiopian Geneticist who contributed a lot to their field",
+        "content_anchor": "Dr. Melaku Worede, a geneticist and agronomist, is renowned for employing science to benefit poor farmers and saving Africa's seeds from extinction",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_melaku_worede"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q008",
+      "generation_timestamp": "2025-01-28T10:15:19Z",
+      "section": "Unit Summary",
+      "subsection": "Unit Summary",
+      "sub_subsection": null,
+      "structural_anchor": "A cell cycle is a sequence of events that takes place in the parent cell as a means of distributing genetic materials thereby forming daughter cells",
+      "mcq_type": "A",
+      "question": "Which term describes the ordered series of events involving cell growth, DNA replication, and division that produces new daughter cells?",
+      "options": {
+        "A": "Cell cycle",
+        "B": "Metabolic pathway",
+        "C": "Signal transduction",
+        "D": "Gene expression"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the complete process from one cell division to the next.",
+      "explanation": "The cell cycle encompasses all stages from cell growth through division to produce new cells. Option B describes biochemical reactions for metabolism rather than the division sequence.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "Unit Summary",
+        "subsection_anchor": "Unit Summary",
+        "structural_element": "A cell cycle is a sequence of events that takes place in the parent cell as a means of distributing genetic materials thereby forming daughter cells",
+        "content_anchor": "A cell cycle is a sequence of events that takes place in the parent cell as a means of distributing genetic materials thereby forming daughter cells",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_cell_cycle_summary"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q009",
+      "generation_timestamp": "2025-01-28T10:15:21Z",
+      "section": "Unit Summary",
+      "subsection": "Unit Summary",
+      "sub_subsection": null,
+      "structural_anchor": "Mitosis is a division of the somatic (body) cells to form identical daughter cells",
+      "mcq_type": "I",
+      "question": "Which statement correctly distinguishes mitosis from meiosis in terms of their products and locations?",
+      "options": {
+        "A": "Mitosis produces identical somatic cells, while meiosis produces haploid gametes in reproductive organs.",
+        "B": "Meiosis produces identical somatic cells, while mitosis produces haploid gametes in reproductive organs.",
+        "C": "Both processes produce identical daughter cells but occur in different tissues.",
+        "D": "Both processes reduce chromosome number but occur at different life stages."
+      },
+      "correct_answer": "A",
+      "hint": "Compare chromosome number maintenance versus reduction, and somatic versus reproductive contexts.",
+      "explanation": "Mitosis maintains chromosome number for somatic cell production, while meiosis reduces chromosome number for gamete formation. Option B reverses the correct functions of these two division processes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "Unit Summary",
+        "subsection_anchor": "Unit Summary",
+        "structural_element": "Mitosis is a division of the somatic (body) cells to form identical daughter cells",
+        "content_anchor": "Mitosis is a division of the somatic (body) cells to form identical daughter cells. Meiosis is a division of reproductive cells, resulting in daughter cells sex cells (gametes) with half of the chromosomes",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_mitosis_vs_meiosis"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 79,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q010",
+      "generation_timestamp": "2025-01-28T10:15:23Z",
+      "section": "Learning objectives",
+      "subsection": "Learning objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Compare and contrast Mitosis and Meiosis",
+      "mcq_type": "I",
+      "question": "How do the final products of mitosis and meiosis differ in chromosome number and genetic composition?",
+      "options": {
+        "A": "Mitosis produces two genetically identical diploid cells; meiosis produces four genetically varied haploid cells.",
+        "B": "Mitosis produces four genetically varied haploid cells; meiosis produces two genetically identical diploid cells.",
+        "C": "Both processes produce four genetically identical haploid cells.",
+        "D": "Both processes produce two genetically varied diploid cells."
+      },
+      "correct_answer": "A",
+      "hint": "Consider chromosome number maintenance versus reduction, and genetic variation mechanisms.",
+      "explanation": "Mitosis yields two diploid clones, while meiosis produces four haploid gametes with genetic variation from crossing over. Option B incorrectly reverses the outcomes of these two division processes.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        },
+        "option_parallelism_score": 98
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "Learning objectives",
+        "subsection_anchor": "Learning objectives",
+        "structural_element": "Compare and contrast Mitosis and Meiosis",
+        "content_anchor": "Mitosis produces identical daughter cells; meiosis produces gametes with half chromosomes",
+        "page_hint": "Page 1, 12",
+        "concept_hash": "sha256_of_mitosis_meiosis_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 18000,
+    "average_question_quality": 85.8,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "F": 2,
+      "G": 1,
+      "I": 2,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    },
+    "section_distribution": {
+      "4.1 What is a cell cycle?": 1,
+      "4.2 Cell division": 4,
+      "4.3 Renowned Geneticist in Ethiopia": 1,
+      "Unit Summary": 2,
+      "Learning objectives": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

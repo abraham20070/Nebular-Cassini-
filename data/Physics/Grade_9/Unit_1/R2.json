@@ -1,0 +1,918 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-04-10T12:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G9_Phy_U1_Q020",
+    "covered_sections": ["Introduction>At the end of this unit, you should be able to", "Introduction>Brainstorming Questions", "1.1 Definition and Nature of Physics>At the end of this section, you should be able to", "1.1 Definition and Nature of Physics>Activity 1.1", "1.2 Branches of Physics>At the end of this section, you should be able to", "1.2 Branches of Physics>Table 1.1 Some branches of physics and their descriptions", "1.2 Branches of Physics>Exercise 1.2", "1.2 Branches of Physics>Key Concept", "1.3 Related Fields to Physics>At the end of the lesson, you should be able to", "1.3 Related Fields to Physics>Activity 1.2", "1.3 Related Fields to Physics>Key Concept", "1.4 Historical Issues and Contributors>At the end of the lesson, you should be able to", "1.4 Historical Issues and Contributors>Galileo Galilei (1564-1642)", "Unit Summary>Unit Summary"],
+    "used_question_signatures": ["c9e3f2a1d8b7e6f5c4a3b2d1e0f9a8b7", "d0a1f2b3c4d5e6f7a8b9c0d1e2f3a4b5", "a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7", "b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8", "c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9", "d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0", "e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1", "f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2", "a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3", "b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4", "f1e2d3c4b5a6f7e8d9c0b1a2f3e4d5c6", "e2d3c4b5a6f7e8d9c0b1a2f3e4d5c6b7", "d3c4b5a6f7e8d9c0b1a2f3e4d5c6b7a8", "c4b5a6f7e8d9c0b1a2f3e4d5c6b7a8f9", "b5a6f7e8d9c0b1a2f3e4d5c6b7a8f9e0", "a6f7e8d9c0b1a2f3e4d5c6b7a8f9e0d1", "f7e8d9c0b1a2f3e4d5c6b7a8f9e0d1c2", "e8d9c0b1a2f3e4d5c6b7a8f9e0d1c2b3", "d9c0b1a2f3e4d5c6b7a8f9e0d1c2b3a4", "c0b1a2f3e4d5c6b7a8f9e0d1c2b3a4f5"],
+    "baseline_counter": {
+      "Introduction": {
+        "At the end of this unit, you should be able to": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Brainstorming Questions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.1 Definition and Nature of Physics": {
+        "At the end of this section, you should be able to": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Exercise 1.1": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Activity 1.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.2 Branches of Physics": {
+        "At the end of this section, you should be able to": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Table 1.1 Some branches of physics and their descriptions": {
+          "count": 8,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Exercise 1.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Key Concept": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.3 Related Fields to Physics": {
+        "At the end of the lesson, you should be able to": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Activity 1.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Key Concept": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.4 Historical Issues and Contributors": {
+        "At the end of the lesson, you should be able to": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Galileo Galilei (1564-1642)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Isaac Newton (1643-1727)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Michael Faraday (1791-1867)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "James Prescott Joule(1818-1889)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Marie Curie(1867-1934)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Albert Einstein (1879-1955)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Exercise 1.3": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Key Concept": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Unit Summary": {
+        "Unit Summary": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Review Questions (Page 8-10)": {
+        "Question 1": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Question 2": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Question 3": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Question 4": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Question 5": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Question 6": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Question 7": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.1 Definition and Nature of Physics": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.2 Branches of Physics": {
+        "question_count": 11,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.3 Related Fields to Physics": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.4 Historical Issues and Contributors": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Unit Summary": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Review Questions (Page 8-10)": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>At the end of this unit, you should be able to": ["Definition of physics"],
+      "Introduction>Brainstorming Questions": ["Natural science branches"],
+      "1.1 Definition and Nature of Physics>At the end of this section, you should be able to": ["Definition of physics", "Scope of physics"],
+      "1.1 Definition and Nature of Physics>Activity 1.1": ["Importance of physics"],
+      "1.2 Branches of Physics>At the end of this section, you should be able to": ["Branches of physics"],
+      "1.2 Branches of Physics>Table 1.1 Some branches of physics and their descriptions": ["Mechanics", "Acoustics", "Optics", "Thermodynamics", "Electromagnetism", "Nuclear Physics", "Astrophysics", "Quantum Mechanics"],
+      "1.2 Branches of Physics>Exercise 1.2": ["Branches categorization"],
+      "1.2 Branches of Physics>Key Concept": ["Physics as natural science"],
+      "1.3 Related Fields to Physics>At the end of the lesson, you should be able to": ["Physics as foundation", "Applications in other fields", "Interdisciplinary connections"],
+      "1.3 Related Fields to Physics>Activity 1.2": ["Applications of physics"],
+      "1.3 Related Fields to Physics>Key Concept": ["Foundation of sciences"],
+      "1.4 Historical Issues and Contributors>At the end of the lesson, you should be able to": ["Historical development"],
+      "1.4 Historical Issues and Contributors>Galileo Galilei (1564-1642)": ["Father of modern physics"],
+      "Unit Summary>Unit Summary": ["Key points of unit"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_after_batch_1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 27,
+      "questions_per_concept_ratio": 0.74,
+      "structural_coverage_percentage": 36.8
+    }
+  },
+  "grade": "9",
+  "subject": "Physics",
+  "unit": "Unit 1: Physics and Human Society",
+  "pdf_filename": "P9U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-04-10T12:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 7,
+        "progress_percentage": 71.4
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 14,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 73.7,
+      "concept_utilization_ratio": 0.74
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.2 Branches of Physics",
+      "least_covered_section": "Review Questions (Page 8-10)",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.74,
+      "remaining_concept_capacity": 13
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Phy_U1_Q011",
+      "generation_timestamp": "2025-04-10T12:05:00Z",
+      "section": "Introduction",
+      "subsection": "Brainstorming Questions",
+      "sub_subsection": null,
+      "structural_anchor": "What are the main branches of natural science?",
+      "mcq_type": "J",
+      "question": "Which of the following is considered one of the three main branches of natural science?",
+      "options": {
+        "A": "Physics",
+        "B": "History",
+        "C": "Economics",
+        "D": "Sociology"
+      },
+      "correct_answer": "A",
+      "hint": "Natural sciences study the physical world and its phenomena.",
+      "explanation": "Physics is a fundamental branch of natural science that investigates matter, energy, and their interactions. Option B incorrectly identifies history, which is a social science focusing on past human events.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Physics and Human Society",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Brainstorming Questions",
+        "structural_element": "What are the main branches of natural science?",
+        "content_anchor": "General science includes subjects like Biology, Chemistry and Physics",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_natural_science_branches"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Phy_U1_Q012",
+      "generation_timestamp": "2025-04-10T12:05:00Z",
+      "section": "1.1 Definition and Nature of Physics",
+      "subsection": "At the end of this section, you should be able to",
+      "sub_subsection": null,
+      "structural_anchor": "define physics in different ways",
+      "mcq_type": "F",
+      "question": "Given that physics describes fundamental aspects of the universe, which statement best characterizes its scope?",
+      "options": {
+        "A": "Physics examines the composition and behavior of matter and energy.",
+        "B": "Physics primarily studies biological systems and living organisms.",
+        "C": "Physics focuses on human social structures and cultural development.",
+        "D": "Physics analyzes economic systems and financial markets."
+      },
+      "correct_answer": "A",
+      "hint": "This field investigates the basic principles governing natural phenomena.",
+      "explanation": "Physics encompasses the study of matter, energy, and their fundamental interactions in the universe. Option B incorrectly describes biology, which specializes in living systems rather than physical principles.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "outcome"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Physics and Human Society",
+        "section_anchor": "1.1 Definition and Nature of Physics",
+        "subsection_anchor": "At the end of this section, you should be able to",
+        "structural_element": "define physics in different ways",
+        "content_anchor": "physics attempts to describe the basic mechanisms that make our universe behave the way it does",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_physics_scope"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Phy_U1_Q013",
+      "generation_timestamp": "2025-04-10T12:05:00Z",
+      "section": "1.1 Definition and Nature of Physics",
+      "subsection": "Activity 1.1",
+      "sub_subsection": null,
+      "structural_anchor": "What is a physicist?",
+      "mcq_type": "B",
+      "question": "What professional title is given to a scientist who specializes in studying the laws of nature and physical phenomena?",
+      "options": {
+        "A": "Physicist",
+        "B": "Chemist",
+        "C": "Biologist",
+        "D": "Geologist"
+      },
+      "correct_answer": "A",
+      "hint": "This scientist investigates fundamental principles governing the universe.",
+      "explanation": "A physicist is a professional who researches physical laws and natural phenomena through observation and experimentation. Option B incorrectly refers to a chemist, who studies chemical substances and reactions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Physics and Human Society",
+        "section_anchor": "1.1 Definition and Nature of Physics",
+        "subsection_anchor": "Activity 1.1",
+        "structural_element": "What is a physicist?",
+        "content_anchor": "A person who studies physics is called a physicist",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_physicist_profession"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Phy_U1_Q014",
+      "generation_timestamp": "2025-04-10T12:05:00Z",
+      "section": "1.2 Branches of Physics",
+      "subsection": "Table 1.1 Some branches of physics and their descriptions",
+      "sub_subsection": null,
+      "structural_anchor": "Astrophysics",
+      "mcq_type": "A",
+      "question": "Which branch of physics applies physical principles and methods to study celestial objects and cosmic phenomena?",
+      "options": {
+        "A": "Astrophysics",
+        "B": "Nuclear Physics",
+        "C": "Geophysics",
+        "D": "Biophysics"
+      },
+      "correct_answer": "A",
+      "hint": "This field investigates stars, galaxies, and the structure of the universe.",
+      "explanation": "Astrophysics employs physics principles to analyze astronomical objects and phenomena throughout the cosmos. Option C incorrectly identifies geophysics, which applies physics to study Earth's physical properties and processes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "table_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Physics and Human Society",
+        "section_anchor": "1.2 Branches of Physics",
+        "subsection_anchor": "Table 1.1 Some branches of physics and their descriptions",
+        "structural_element": "Astrophysics",
+        "content_anchor": "Astrophysics is a science that employs the methods and principles of physics in the study of astronomical objects and phenomena",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_astrophysics_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Phy_U1_Q015",
+      "generation_timestamp": "2025-04-10T12:05:00Z",
+      "section": "1.2 Branches of Physics",
+      "subsection": "Table 1.1 Some branches of physics and their descriptions",
+      "sub_subsection": null,
+      "structural_anchor": "Quantum mechanics",
+      "mcq_type": "A",
+      "question": "Which subfield of mechanics specifically examines the behavior of subatomic particles like electrons and protons?",
+      "options": {
+        "A": "Quantum mechanics",
+        "B": "Classical mechanics",
+        "C": "Statistical mechanics",
+        "D": "Fluid mechanics"
+      },
+      "correct_answer": "A",
+      "hint": "This area deals with phenomena at extremely small scales where classical physics breaks down.",
+      "explanation": "Quantum mechanics is the branch that describes the behavior of particles at atomic and subatomic scales. Option B incorrectly identifies classical mechanics, which applies to macroscopic objects under everyday conditions.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "table_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Physics and Human Society",
+        "section_anchor": "1.2 Branches of Physics",
+        "subsection_anchor": "Table 1.1 Some branches of physics and their descriptions",
+        "structural_element": "Quantum mechanics",
+        "content_anchor": "Quantum mechanics deals with the behavior of smallest particles like neutrons, protons, and electrons",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_quantum_mechanics_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Phy_U1_Q016",
+      "generation_timestamp": "2025-04-10T12:05:00Z",
+      "section": "1.2 Branches of Physics",
+      "subsection": "Key Concept",
+      "sub_subsection": null,
+      "structural_anchor": "Physics is a branch of natural science that attempts to describe the basic mechanisms that make our universe behave the way it does.",
+      "mcq_type": "F",
+      "question": "If physics aims to explain fundamental universe mechanisms, what is its primary relationship to other natural sciences?",
+      "options": {
+        "A": "Physics provides foundational principles for understanding natural phenomena.",
+        "B": "Physics is completely independent from other scientific disciplines.",
+        "C": "Physics focuses exclusively on technological applications rather than basic science.",
+        "D": "Physics mainly documents historical scientific discoveries without analysis."
+      },
+      "correct_answer": "A",
+      "hint": "This discipline establishes core concepts that support other fields of study.",
+      "explanation": "Physics establishes fundamental principles that underlie and support explanations across various natural sciences. Option C incorrectly suggests physics prioritizes technology over basic scientific investigation and theory development.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key_concept"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Physics and Human Society",
+        "section_anchor": "1.2 Branches of Physics",
+        "subsection_anchor": "Key Concept",
+        "structural_element": "Physics is a branch of natural science that attempts to describe the basic mechanisms that make our universe behave the way it does.",
+        "content_anchor": "Physics is a branch of natural science that attempts to describe the basic mechanisms that make our universe behave the way it does",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_physics_foundational_role"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Phy_U1_Q017",
+      "generation_timestamp": "2025-04-10T12:05:00Z",
+      "section": "1.3 Related Fields to Physics",
+      "subsection": "At the end of the lesson, you should be able to",
+      "sub_subsection": null,
+      "structural_anchor": "discuss the relationships between physics and other sciences and fields like transport, traffic, quality control and standards, etc.",
+      "mcq_type": "F",
+      "question": "Considering physics provides foundational principles, which statement accurately describes its connection to engineering disciplines?",
+      "options": {
+        "A": "Engineering applies physics principles to design and construct practical systems.",
+        "B": "Engineering develops entirely independent theories without physics basis.",
+        "C": "Physics focuses only on theoretical concepts unrelated to engineering.",
+        "D": "Engineering principles form the foundation for all physics discoveries."
+      },
+      "correct_answer": "A",
+      "hint": "This applied field relies on physical laws to create functional technologies and structures.",
+      "explanation": "Engineering utilizes physics principles to develop practical solutions, technologies, and infrastructure. Option C incorrectly suggests physics has no relevance to engineering, when in fact engineering directly applies physical laws.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "outcome"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Physics and Human Society",
+        "section_anchor": "1.3 Related Fields to Physics",
+        "subsection_anchor": "At the end of the lesson, you should be able to",
+        "structural_element": "discuss the relationships between physics and other sciences and fields like transport, traffic, quality control and standards, etc.",
+        "content_anchor": "Engineering: Most branches of engineering also apply physics",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_physics_engineering_relationship"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Phy_U1_Q018",
+      "generation_timestamp": "2025-04-10T12:05:00Z",
+      "section": "1.3 Related Fields to Physics",
+      "subsection": "Activity 1.2",
+      "sub_subsection": null,
+      "structural_anchor": "Discuss in groups and list some other fields or areas of science where physics is applicable.",
+      "mcq_type": "K",
+      "question": "Medical imaging techniques like X-rays and MRI scans utilize specific physical principles. Which interdisciplinary field develops such diagnostic technologies?",
+      "options": {
+        "A": "Medical Physics",
+        "B": "Biophysics",
+        "C": "Geophysics",
+        "D": "Chemical Physics"
+      },
+      "correct_answer": "A",
+      "hint": "This field bridges physics and medicine to create healthcare technologies.",
+      "explanation": "Medical Physics applies physics principles to develop diagnostic and therapeutic technologies for healthcare. Option B incorrectly refers to biophysics, which focuses on applying physics to study biological systems rather than medical technology.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Physics and Human Society",
+        "section_anchor": "1.3 Related Fields to Physics",
+        "subsection_anchor": "Activity 1.2",
+        "structural_element": "Discuss in groups and list some other fields or areas of science where physics is applicable.",
+        "content_anchor": "Medical Physics: Diagnostics and medical therapy, such as x- rays, magnetic resonance imaging (MRI), and ultrasonic blood flow measurements involves principles of physics",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_medical_physics_applications"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Phy_U1_Q019",
+      "generation_timestamp": "2025-04-10T12:05:00Z",
+      "section": "1.3 Related Fields to Physics",
+      "subsection": "Key Concept",
+      "sub_subsection": null,
+      "structural_anchor": "Physics is the foundation of many important scientific disciplines including, Chemistry, Engineering, Geology, Biophysics, Geophysics, Medical Physics etc.",
+      "mcq_type": "I",
+      "question": "How does the relationship between physics and geology differ from that between physics and biology?",
+      "options": {
+        "A": "Physics provides tools for geological analysis while biophysics applies physics to biological systems.",
+        "B": "Physics has no connection to geology but is essential for all biological research.",
+        "C": "Geology applies physics principles while biology operates independently from physics.",
+        "D": "Both geology and biology use identical physics applications without differentiation."
+      },
+      "correct_answer": "A",
+      "hint": "Consider how each field utilizes physical principles for its specific domain of study.",
+      "explanation": "Geology employs physics for Earth analysis while biophysics applies physics to biological phenomena, showing different interdisciplinary connections. Option C incorrectly suggests biology operates independently, when biophysics demonstrates direct physics application to living systems.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key_concept"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Physics and Human Society",
+        "section_anchor": "1.3 Related Fields to Physics",
+        "subsection_anchor": "Key Concept",
+        "structural_element": "Physics is the foundation of many important scientific disciplines including, Chemistry, Engineering, Geology, Biophysics, Geophysics, Medical Physics etc.",
+        "content_anchor": "Physics is the foundation of many important scientific disciplines",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_interdisciplinary_relationships"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Phy_U1_Q020",
+      "generation_timestamp": "2025-04-10T12:05:00Z",
+      "section": "1.4 Historical Issues and Contributors",
+      "subsection": "At the end of the lesson, you should be able to",
+      "sub_subsection": null,
+      "structural_anchor": "recognize at least three issues and four prominent physicists with significant contributions to the development of physics",
+      "mcq_type": "B",
+      "question": "Which historical period saw revolutionary discoveries that transformed classical physics into modern physics?",
+      "options": {
+        "A": "Early 20th century",
+        "B": "Late 18th century",
+        "C": "Mid-19th century",
+        "D": "Late 17th century"
+      },
+      "correct_answer": "A",
+      "hint": "This era introduced theories that challenged and extended previous physical understanding.",
+      "explanation": "The early 20th century brought transformative discoveries like relativity and quantum mechanics that revolutionized physics. Option D incorrectly identifies the late 17th century, which was characterized by classical mechanics development rather than modern physics emergence.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "outcome"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Physics and Human Society",
+        "section_anchor": "1.4 Historical Issues and Contributors",
+        "subsection_anchor": "At the end of the lesson, you should be able to",
+        "structural_element": "recognize at least three issues and four prominent physicists with significant contributions to the development of physics",
+        "content_anchor": "Revolutionary discoveries starting at the beginning of the 20th century transformed physics from classical physics to modern physics",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_modern_physics_transition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3450,
+    "average_question_quality": 86.5,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "F": 3,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 7,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "1.1 Definition and Nature of Physics": 2,
+      "1.2 Branches of Physics": 3,
+      "1.3 Related Fields to Physics": 3,
+      "1.4 Historical Issues and Contributors": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

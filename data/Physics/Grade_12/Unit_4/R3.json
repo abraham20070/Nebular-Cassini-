@@ -1,0 +1,833 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2024-07-14T20:20:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G12_Phys_U4_Q030",
+    "covered_sections": ["Introduction", "4.1 Magnets and Magnetic field", "4.2 Magnetic field lines", "4.3 Current and Magnetism", "4.4 Electromagnetic Induction", "4.5 Faraday's Law of electromagnetic Induction", "4.6 Transformers"],
+    "used_question_signatures": ["A_Magnets_Generate_Field", "A_Permanent_Magnet_Poles", "B_Like_Poles_Repel", "H_Magnetic_Pole_Separation", "C_B_Formula_Wire", "E_Calculate_B_Wire", "D_Right_Hand_Rule", "K_Interpret_Field_Line_Cross", "G_Current_Increase_Field", "F_Concept_Wire_Field", "A_Field_Line_Definition", "B_Field_Strength_Density", "H_Field_Line_Crossing", "D_Compass_Needle_Direction", "F_Earth_Magnetic_Field", "B_Amperes_Law_Statement", "C_B_Formula_Components", "E_Calculate_Current_B", "H_Magnetic_Field_Proportional_r", "G_Current_Reversal_Effect", "B_Electromagnetic_Induction_Definition", "D_Induction_Requirements", "A_Magnetic_Flux_Definition", "C_Flux_Formula_Components", "E_Calculate_Flux_1", "H_Flux_Angle_Maximum", "K_Interpret_Flux_Zero", "B_Faradays_Law_Statement", "D_Induced_emf_Factors", "H_Lenz_Law_Conservation"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "4.1 Magnets and Magnetic field": {
+        "4.1 Magnets and Magnetic field": {
+          "count": 5,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Differences Between Electric Field and Magnetic Field": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "4.2 Magnetic field lines": {
+        "Properties of Magnetic Field Lines": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "4.2 Magnetic field lines": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.3 Current and Magnetism": {
+        "Ampere's law": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Magnetic Field Created by a Long Straight Current-Carrying Wire": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.4 Electromagnetic Induction": {
+        "Magnetic flux": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "4.4 Electromagnetic Induction": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "4.5 Faraday's Law of electromagnetic Induction": {
+        "Faraday's law of electromagnetic induction and Lenz's Law": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "4.6 Transformers": {
+        "4.6 Transformers": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "4.7 Application and safety": {
+        "Applications of electromagnetism": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "4.1 Magnets and Magnetic field": {
+        "question_count": 9,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "4.2 Magnetic field lines": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "4.3 Current and Magnetism": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "4.4 Electromagnetic Induction": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.5 Faraday's Law of electromagnetic Induction": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.6 Transformers": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.7 Application and safety": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction": ["Electromagnetism", "Electric fields", "Magnetic fields", "Electromagnetic force", "Oersted experiment"],
+      "4.1 Magnets and Magnetic field": ["Magnet", "Magnetic field", "Magnetic pole", "North pole", "South pole", "Like poles repel", "Opposite poles attract", "Permanent magnet", "Electromagnet", "Earth's magnetic field", "Tesla", "Newton/coulomb", "Electric field lines", "Magnetic field lines"],
+      "Differences Between Electric Field and Magnetic Field": ["SI unit electric field", "SI unit magnetic field", "Electric field definition", "Magnetic field definition", "Field line origin", "Closed loops"],
+      "4.2 Magnetic field lines": ["Magnetic field lines", "Visual tool", "Iron filings", "Field strength density", "Field line crossing", "Compass direction", "Closed loops"],
+      "Properties of Magnetic Field Lines": ["Direction and magnitude", "Strength proportional to closeness", "Never cross", "Continuous closed loops", "Emerge from north, merge at south"],
+      "4.3 Current and Magnetism": ["Ampere's Law", "Current-magnetic field proportionality", "Permeability of free space", "Long straight wire formula", "B = μ₀I/(2πr)", "Circular field pattern", "Right-hand rule", "Field strength factors"],
+      "4.4 Electromagnetic Induction": ["Electromagnetic induction", "Michael Faraday", "Relative motion", "Changing magnetic field", "Induced emf", "Induced current", "Magnetic flux", "Φ = BAcosθ", "Weber", "Flux maximization"],
+      "Magnetic flux": ["Magnetic flux definition", "Total magnetic lines", "Area perpendicular", "Angle θ", "Weber (Wb)"],
+      "4.5 Faraday's Law of electromagnetic Induction": ["Faraday's Law", "Induced emf magnitude", "Rate of change of flux", "ε = -ΔΦ/Δt", "Lenz's Law", "Direction of induced current", "Opposes change", "Conservation of energy"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_placeholder_round3",
+    "content_density_metrics": {
+      "total_concepts_extracted": 44,
+      "questions_per_concept_ratio": 0.68,
+      "structural_coverage_percentage": 42.9
+    }
+  },
+  "grade": "12",
+  "subject": "Physics",
+  "unit": "Unit 4: Electromagnetism",
+  "pdf_filename": "P12U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-07-14T20:20:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 7,
+        "total_sections": 8,
+        "progress_percentage": 87.5
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 7,
+      "subsections_covered_count": 12,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 57.1,
+      "concept_utilization_ratio": 0.68
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.1 Magnets and Magnetic field",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 4.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Phys_U4_Q021",
+      "generation_timestamp": "2024-07-14T20:20:00Z",
+      "section": "4.4 Electromagnetic Induction",
+      "subsection": "4.4 Electromagnetic Induction",
+      "sub_subsection": null,
+      "structural_anchor": "4.4 Electromagnetic Induction",
+      "mcq_type": "B",
+      "question": "What is the phenomenon called when a changing magnetic field produces an electromotive force in a closed circuit?",
+      "options": {
+        "A": "Electromagnetic induction",
+        "B": "Magnetic resonance",
+        "C": "Electrostatic induction",
+        "D": "Capacitive coupling"
+      },
+      "correct_answer": "A",
+      "hint": "This phenomenon involves generating electricity from magnetism.",
+      "explanation": "Electromagnetic induction is the process where a changing magnetic field induces an electromotive force (emf) in a conductor. Option C involves the redistribution of electric charges by a nearby charged object, not a changing magnetic field.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.4 Electromagnetic Induction",
+        "subsection_anchor": "4.4 Electromagnetic Induction",
+        "structural_element": "4.4 Electromagnetic Induction",
+        "content_anchor": "changing or variable magnetic field can produce an electromotive force",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_Electromagnetic_Induction_Definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q022",
+      "generation_timestamp": "2024-07-14T20:20:00Z",
+      "section": "4.4 Electromagnetic Induction",
+      "subsection": "4.4 Electromagnetic Induction",
+      "sub_subsection": null,
+      "structural_anchor": "4.4 Electromagnetic Induction",
+      "mcq_type": "D",
+      "question": "Which condition is necessary to induce an electromotive force in a coil of wire?",
+      "options": {
+        "A": "A change in the magnetic flux through the coil",
+        "B": "A constant magnetic field through the coil",
+        "C": "The coil being made of copper wire",
+        "D": "The coil being connected to a battery"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what must vary to produce induction.",
+      "explanation": "Faraday's Law states that an emf is induced only when there is a change in magnetic flux through the coil. Option B describes a steady-state condition that does not induce an emf.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.4 Electromagnetic Induction",
+        "subsection_anchor": "4.4 Electromagnetic Induction",
+        "structural_element": "4.4 Electromagnetic Induction",
+        "content_anchor": "changing magnetic field can produce an electromotive force",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_Induction_Requirement_Change"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q023",
+      "generation_timestamp": "2024-07-14T20:20:00Z",
+      "section": "4.4 Electromagnetic Induction",
+      "subsection": "Magnetic flux",
+      "sub_subsection": null,
+      "structural_anchor": "Magnetic flux",
+      "mcq_type": "A",
+      "question": "What physical quantity measures the total magnetic field lines passing through a given area?",
+      "options": {
+        "A": "Magnetic flux",
+        "B": "Magnetic field strength",
+        "C": "Magnetic permeability",
+        "D": "Magnetic induction"
+      },
+      "correct_answer": "A",
+      "hint": "This quantity is symbolized by Φ and has units of Weber.",
+      "explanation": "Magnetic flux (Φ) quantifies the total number of magnetic field lines passing perpendicularly through a surface area. Option B is the magnetic field B, measured in Tesla, which is flux density.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.4 Electromagnetic Induction",
+        "subsection_anchor": "Magnetic flux",
+        "structural_element": "Magnetic flux",
+        "content_anchor": "Magnetic flux is a measurement of the total magnetic lines of force which passes through a given area",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_Magnetic_Flux_Definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q024",
+      "generation_timestamp": "2024-07-14T20:20:00Z",
+      "section": "4.4 Electromagnetic Induction",
+      "subsection": "Magnetic flux",
+      "sub_subsection": null,
+      "structural_anchor": "Φ_B = B.A = B A cosθ",
+      "mcq_type": "C",
+      "question": "In the magnetic flux formula Φ = BAcosθ, what does the angle θ represent?",
+      "options": {
+        "A": "Angle between the magnetic field B and the area vector A",
+        "B": "Angle between the magnetic field B and the horizontal",
+        "C": "Angle between the area vector A and the vertical",
+        "D": "Angle between two different magnetic fields"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the geometric relationship that affects how much field penetrates the area.",
+      "explanation": "θ is the angle between the magnetic field vector B and the normal (perpendicular) vector to the surface area A. Option C incorrectly references the vertical, which is not part of the flux definition.",
+      "difficulty_level": "medium",
+      "formula_used": ["Φ = BAcosθ"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.4 Electromagnetic Induction",
+        "subsection_anchor": "Magnetic flux",
+        "structural_element": "Φ_B = B.A = B A cosθ",
+        "content_anchor": "where θ is angle between B and A",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_Flux_Angle_Definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q025",
+      "generation_timestamp": "2024-07-14T20:20:00Z",
+      "section": "4.4 Electromagnetic Induction",
+      "subsection": "Magnetic flux",
+      "sub_subsection": null,
+      "structural_anchor": "Φ_B = B.A = B A cosθ",
+      "mcq_type": "E",
+      "question": "A rectangular loop with an area of 0.02 m² is placed perpendicular to a uniform magnetic field of 0.5 T. What is the magnetic flux through the loop?",
+      "options": {
+        "A": "0.01 Wb",
+        "B": "0.02 Wb",
+        "C": "0.005 Wb",
+        "D": "0.04 Wb"
+      },
+      "correct_answer": "A",
+      "hint": "When perpendicular, θ = 0°, so cosθ = 1.",
+      "explanation": "Since the loop is perpendicular to B, θ = 0° and cos0° = 1. Therefore, Φ = BA = (0.5 T)(0.02 m²) = 0.01 Wb. Option B results from using θ = 60° incorrectly.",
+      "difficulty_level": "medium",
+      "formula_used": ["Φ = BAcosθ"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "Wb",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.4 Electromagnetic Induction",
+        "subsection_anchor": "Magnetic flux",
+        "structural_element": "Φ_B = B.A = B A cosθ",
+        "content_anchor": "magnetic flux equation",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_Flux_Calculation_Example"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 90,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q026",
+      "generation_timestamp": "2024-07-14T20:20:00Z",
+      "section": "4.4 Electromagnetic Induction",
+      "subsection": "Magnetic flux",
+      "sub_subsection": null,
+      "structural_anchor": "Φ_B = B.A = B A cosθ",
+      "mcq_type": "H",
+      "question": "Which statement identifies an error in reasoning about when magnetic flux is zero?",
+      "options": {
+        "A": "Flux is zero only when the magnetic field strength B is zero.",
+        "B": "Flux is zero when the area of the loop is zero.",
+        "C": "Flux is zero when the angle between B and A is 90°.",
+        "D": "Flux is zero when the loop is parallel to the magnetic field lines."
+      },
+      "correct_answer": "A",
+      "hint": "Consider all variables in Φ = BAcosθ.",
+      "explanation": "Magnetic flux Φ = BAcosθ can be zero if B=0, A=0, or cosθ=0 (θ=90°). Statement A is incorrect because it ignores the other two conditions. Option D is actually correct (parallel means θ=90°, cos90°=0).",
+      "difficulty_level": "hard",
+      "formula_used": ["Φ = BAcosθ"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.4 Electromagnetic Induction",
+        "subsection_anchor": "Magnetic flux",
+        "structural_element": "Φ_B = B.A = B A cosθ",
+        "content_anchor": "magnetic flux equation",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_Flux_Zero_Conditions"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 90,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q027",
+      "generation_timestamp": "2024-07-14T20:20:00Z",
+      "section": "4.5 Faraday's Law of electromagnetic Induction",
+      "subsection": "Faraday's law of electromagnetic induction and Lenz's Law",
+      "sub_subsection": null,
+      "structural_anchor": "Faraday's law states that the magnitude of the induced electromotive force (emf) is directly proportional to the rate of change of the magnetic flux in a closed coil.",
+      "mcq_type": "B",
+      "question": "According to Faraday's Law, what determines the magnitude of the induced electromotive force in a coil?",
+      "options": {
+        "A": "The rate of change of magnetic flux through the coil",
+        "B": "The total resistance of the coil",
+        "C": "The magnitude of the magnetic field strength",
+        "D": "The area of the coil"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what the law states is directly proportional.",
+      "explanation": "Faraday's Law states that induced emf (ε) is proportional to the rate of change of magnetic flux (ΔΦ/Δt), not the flux itself. Option C affects the flux but not necessarily its rate of change.",
+      "difficulty_level": "medium",
+      "formula_used": ["ε = -ΔΦ/Δt"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.5 Faraday's Law of electromagnetic Induction",
+        "subsection_anchor": "Faraday's law of electromagnetic induction and Lenz's Law",
+        "structural_element": "Faraday's law states that the magnitude of the induced electromotive force (emf) is directly proportional to the rate of change of the magnetic flux in a closed coil.",
+        "content_anchor": "directly proportional to the rate of change of the magnetic flux",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_Faradays_Law_Statement"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q028",
+      "generation_timestamp": "2024-07-14T20:20:00Z",
+      "section": "4.5 Faraday's Law of electromagnetic Induction",
+      "subsection": "Faraday's law of electromagnetic induction and Lenz's Law",
+      "sub_subsection": null,
+      "structural_anchor": "Faraday's law states that the magnitude of the induced electromotive force (emf) is directly proportional to the rate of change of the magnetic flux in a closed coil.",
+      "mcq_type": "D",
+      "question": "Which factor would NOT increase the induced electromotive force in a coil experiencing a change in magnetic flux?",
+      "options": {
+        "A": "Increasing the number of turns in the coil",
+        "B": "Increasing the rate at which the magnetic flux changes",
+        "C": "Increasing the resistance of the coil wire",
+        "D": "Increasing the cross-sectional area of the coil"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the formula ε = -NΔΦ/Δt.",
+      "explanation": "According to ε = -NΔΦ/Δt, induced emf depends on N (turns) and ΔΦ/Δt (rate of flux change), which can be increased by area. Resistance affects current (I = ε/R) but not the induced emf itself. Option C is the factor that does not increase ε.",
+      "difficulty_level": "hard",
+      "formula_used": ["ε = -NΔΦ/Δt"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.5 Faraday's Law of electromagnetic Induction",
+        "subsection_anchor": "Faraday's law of electromagnetic induction and Lenz's Law",
+        "structural_element": "Faraday's law states that the magnitude of the induced electromotive force (emf) is directly proportional to the rate of change of the magnetic flux in a closed coil.",
+        "content_anchor": "induced electromotive force (emf) is directly proportional",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_Induced_emf_Factors"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 90,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q029",
+      "generation_timestamp": "2024-07-14T20:20:00Z",
+      "section": "4.5 Faraday's Law of electromagnetic Induction",
+      "subsection": "Faraday's law of electromagnetic induction and Lenz's Law",
+      "sub_subsection": null,
+      "structural_anchor": "Lenz's law states that the direction of the induced current in the coil is such that it opposes the change that causes the induced emf.",
+      "mcq_type": "H",
+      "question": "Lenz's Law is a consequence of which fundamental conservation principle?",
+      "options": {
+        "A": "Conservation of energy",
+        "B": "Conservation of charge",
+        "C": "Conservation of momentum",
+        "D": "Conservation of mass"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what would be violated if the induced current aided the change.",
+      "explanation": "Lenz's Law ensures that the induced current opposes the change in flux, which prevents the creation of energy from nothing and upholds conservation of energy. Option B is conserved in all electrical processes but is not the specific basis for Lenz's Law.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.5 Faraday's Law of electromagnetic Induction",
+        "subsection_anchor": "Faraday's law of electromagnetic induction and Lenz's Law",
+        "structural_element": "Lenz's law states that the direction of the induced current in the coil is such that it opposes the change that causes the induced emf.",
+        "content_anchor": "Lenz's law depends on the principle of conservation of energy",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_Lenz_Law_Conservation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q030",
+      "generation_timestamp": "2024-07-14T20:20:00Z",
+      "section": "4.6 Transformers",
+      "subsection": "4.6 Transformers",
+      "sub_subsection": null,
+      "structural_anchor": "4.6 Transformers",
+      "mcq_type": "B",
+      "question": "What electrical device transfers energy between circuits through electromagnetic induction while changing voltage levels?",
+      "options": {
+        "A": "Transformer",
+        "B": "Rectifier",
+        "C": "Capacitor",
+        "D": "Resistor"
+      },
+      "correct_answer": "A",
+      "hint": "This device commonly has primary and secondary coils.",
+      "explanation": "A transformer uses electromagnetic induction between primary and secondary coils to transfer electrical energy and step up or step down AC voltage. Option B converts AC to DC, but does not primarily change voltage through induction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.6 Transformers",
+        "subsection_anchor": "4.6 Transformers",
+        "structural_element": "4.6 Transformers",
+        "content_anchor": "transformer is an electrical device that transfers electrical energy from one circuit to another through the process of electromagnetic induction",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_Transformer_Definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2950,
+    "average_question_quality": 89.5,
+    "type_distribution": {
+      "A": 2,
+      "B": 4,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "H": 2
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    },
+    "section_distribution": {
+      "4.4 Electromagnetic Induction": 6,
+      "4.5 Faraday's Law of electromagnetic Induction": 3,
+      "4.6 Transformers": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

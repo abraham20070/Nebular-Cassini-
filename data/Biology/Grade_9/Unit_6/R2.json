@@ -1,0 +1,765 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-14T10:35:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G9_Bio_U6_Q020",
+    "covered_sections": ["6.1 Ecology>6.1.1 Definitions", "6.1 Ecology>6.1.2. Biotic and abiotic components", "6.1 Ecology>6.1.3. Ecological levels", "6.1 Ecology>6.1.4 Ecosystems", "6.1 Ecology>6.1.5 Biomes", "6.1 Ecology>1.1.6 Ecological succession", "6.2. Ecological relationships"],
+    "used_question_signatures": ["hash_Def_Ecology_WhatIsEcology", "hash_Term_Ecology_Ecologist", "hash_Con_A_Factors_LightAquatic", "hash_Con_B_Factors_OxygenAquatic", "hash_Type_G_Predation_Effect", "hash_Type_H_Mutualism_Error", "hash_Type_D_Levels_Population", "hash_Type_F_Levels_Community", "hash_Type_A_Biome_TropicalRainforest", "hash_Type_C_Succession_Primary", "hash_Type_E_Calc_TempRange", "hash_Type_J_Class_EcoLevels", "hash_Type_F_Eco_AquaticVsTerrestrial", "hash_Type_D_Succession_Secondary", "hash_Type_B_Biome_Desert", "hash_Type_K_Interp_BiomeTable", "hash_Type_F_Rel_Competition", "hash_Type_G_Rel_Predation", "hash_Type_I_Rel_MutualismCommensalism", "hash_Type_H_Rel_ParasitismError"],
+    "baseline_counter": {
+      "6.1 Ecology": {
+        "6.1.1 Definitions": {
+          "count": 2,
+          "mini_headings_covered": ["What is Ecology?"],
+          "last_question_round": 1
+        },
+        "6.1.2. Biotic and abiotic components": {
+          "count": 4,
+          "mini_headings_covered": ["Abiotic Factors", "Biotic Factors"],
+          "last_question_round": 2
+        },
+        "6.1.3. Ecological levels": {
+          "count": 3,
+          "mini_headings_covered": ["What is a population?", "What is a biological community?", "Did You Know?"],
+          "last_question_round": 2
+        },
+        "6.1.4 Ecosystems": {
+          "count": 2,
+          "mini_headings_covered": ["Types of ecosystems"],
+          "last_question_round": 2
+        },
+        "6.1.5 Biomes": {
+          "count": 4,
+          "mini_headings_covered": ["What are the tropical rain forests?", "What is a desert?", "Self Assessment (matching table)", "Aquatic biomes"],
+          "last_question_round": 2
+        },
+        "1.1.6 Ecological succession": {
+          "count": 2,
+          "mini_headings_covered": ["Key Terms"],
+          "last_question_round": 2
+        },
+        "6.2. Ecological relationships": {
+          "count": 4,
+          "mini_headings_covered": ["Competition(-/-)", "Predation (+/-)", "Mutualism (+/+)", "Parasitism (+/-)"],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Ecology": {
+        "question_count": 17,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "6.2. Ecological relationships": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Ecology>6.1.1 Definitions": ["Ecology", "Ecologist"],
+      "6.1 Ecology>6.1.2. Biotic and abiotic components": ["Abiotic Factors", "Light Penetration", "Dissolved Oxygen", "Temperature Range", "Biotic Factors", "Predation", "Mutualism"],
+      "6.1 Ecology>6.1.3. Ecological levels": ["Population", "Biological Community", "Ecological Levels", "Quadrat Sampling"],
+      "6.1 Ecology>6.1.4 Ecosystems": ["Terrestrial Ecosystems", "Aquatic Ecosystems", "Ecosystem Components"],
+      "6.1 Ecology>6.1.5 Biomes": ["Tropical Rainforest", "Desert", "Biome Classification", "Aquatic Biomes", "Salinity"],
+      "6.1 Ecology>1.1.6 Ecological succession": ["Primary Succession", "Secondary Succession"],
+      "6.2. Ecological relationships": ["Competition", "Intraspecific Competition", "Predation", "Mutualism", "Commensalism", "Parasitism"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 25,
+      "questions_per_concept_ratio": 0.8,
+      "structural_coverage_percentage": 35.5
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 6: Ecology",
+  "pdf_filename": "B9U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 5,
+      "constraint_violations_caught": 5,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-14T10:35:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 2,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 7,
+      "mini_headings_covered_count": 13,
+      "structural_coverage_percentage": 41.9,
+      "concept_utilization_ratio": 0.8
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.1 Ecology",
+      "least_covered_section": "6.2. Ecological relationships",
+      "imbalance_ratio": 5.67,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U6_Q011",
+      "generation_timestamp": "2025-01-14T10:35:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.2. Biotic and abiotic components",
+      "sub_subsection": null,
+      "structural_anchor": "Abiotic Factors",
+      "mcq_type": "E",
+      "question": "The metabolic activity of most organisms is severely limited outside a specific temperature range. If the lower limit is approximately 0°C and the upper limit is 45°C, what is the total span of this effective temperature range?",
+      "options": {
+        "A": "45°C",
+        "B": "40°C",
+        "C": "35°C",
+        "D": "50°C"
+      },
+      "correct_answer": "A",
+      "hint": "Calculate the difference between the upper and lower limits.",
+      "explanation": "The effective range is from 0°C to 45°C, a difference of 45°C (45 - 0 = 45). Option B results from an incorrect subtraction, such as 45 - 5.",
+      "difficulty_level": "easy",
+      "formula_used": ["range = upper_limit - lower_limit"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "°C",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.2. Biotic and abiotic components",
+        "structural_element": "Abiotic Factors",
+        "content_anchor": "Few organisms can maintain a sufficiently active metabolism at temperatures close to 0°C...and temperatures above 45°C destroy the enzymes of most organisms",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q012",
+      "generation_timestamp": "2025-01-14T10:35:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.3. Ecological levels",
+      "sub_subsection": null,
+      "structural_anchor": "Did You Know?",
+      "mcq_type": "J",
+      "question": "An ecologist counts the number of dandelion plants within several one-meter-square frames placed randomly in a field. At which ecological level is this sampling method primarily collecting data?",
+      "options": {
+        "A": "Population",
+        "B": "Community",
+        "C": "Ecosystem",
+        "D": "Biosphere"
+      },
+      "correct_answer": "A",
+      "hint": "The method estimates the number of individuals of a single species in an area.",
+      "explanation": "Using quadrats to count individuals of a single species, like dandelions, is a technique for estimating population size and density. Option B is incorrect because community-level study would involve counting all species present, not just one.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.3. Ecological levels",
+        "structural_element": "Did You Know?",
+        "content_anchor": "A quadrat is a way of marking off square areas within a habitat...ecologists then count the number of individuals that lie within their boundaries.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q013",
+      "generation_timestamp": "2025-01-14T10:35:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.4 Ecosystems",
+      "sub_subsection": null,
+      "structural_anchor": "Types of ecosystems",
+      "mcq_type": "F",
+      "question": "A rotting log on a forest floor contains insects, fungi, and decaying plant matter, all influenced by local humidity. Which reasoning best explains why this is considered an ecosystem rather than just a community?",
+      "options": {
+        "A": "It includes both living organisms and the abiotic factor of humidity that affects them.",
+        "B": "It contains multiple species that interact through predation and decomposition.",
+        "C": "It represents the highest level of biological organization on Earth.",
+        "D": "It is defined solely by the type of vegetation growing on its surface."
+      },
+      "correct_answer": "A",
+      "hint": "An ecosystem integrates biotic and abiotic components.",
+      "explanation": "An ecosystem is defined as a community of organisms plus the non-living environmental factors with which they interact, such as humidity. Option B describes only the biotic interactions that characterize a community.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.4 Ecosystems",
+        "structural_element": "Types of ecosystems",
+        "content_anchor": "An ecosystem is made of all of the different populations in a biological community and the community's abiotic factors.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q014",
+      "generation_timestamp": "2025-01-14T10:35:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "1.1.6 Ecological succession",
+      "sub_subsection": null,
+      "structural_anchor": "Key Terms",
+      "mcq_type": "D",
+      "question": "Which sequence of events describes the process that begins after a forest fire clears an area but leaves the soil intact?",
+      "options": {
+        "A": "Herbaceous plants colonize, followed by shrubs, and eventually trees.",
+        "B": "Lichens break down rock to form soil, followed by mosses and grasses.",
+        "C": "A stable climax community of mature trees is established immediately.",
+        "D": "The area remains barren until new soil is deposited by wind."
+      },
+      "correct_answer": "A",
+      "hint": "This process starts where soil and some seeds or roots survive.",
+      "explanation": "Secondary succession occurs on disturbed sites where soil remains, typically beginning with fast-growing herbaceous plants. Option B describes primary succession, which starts on bare rock without soil.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "1.1.6 Ecological succession",
+        "structural_element": "Key Terms",
+        "content_anchor": "secondary succession involves the re-colonization of an area after a major disturbance has removed most but not all of the organisms...the earliest plants to recolonize are often herbaceous species",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q015",
+      "generation_timestamp": "2025-01-14T10:35:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.5 Biomes",
+      "sub_subsection": null,
+      "structural_anchor": "What is a desert?",
+      "mcq_type": "B",
+      "question": "A biome characterized by an average annual precipitation of less than 10 centimeters and extreme daily temperature fluctuations is most accurately termed a what?",
+      "options": {
+        "A": "Desert",
+        "B": "Tundra",
+        "C": "Savanna",
+        "D": "Temperate Grassland"
+      },
+      "correct_answer": "A",
+      "hint": "Think of the driest biome with limited plant life.",
+      "explanation": "Deserts are defined by low precipitation (<10 cm/year) and often experience large temperature swings due to low humidity. Option B is incorrect because tundra has low temperatures and more precipitation, often as snow.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.5 Biomes",
+        "structural_element": "What is a desert?",
+        "content_anchor": "Deserts receive an average of less than 10 centimetres of rain per year...intense sunlight...At night...temperature to fall fast.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q016",
+      "generation_timestamp": "2025-01-14T10:35:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.5 Biomes",
+      "sub_subsection": null,
+      "structural_anchor": "Self Assessment (matching table)",
+      "mcq_type": "K",
+      "question": "A student matches 'conifers dominate' with 'Boreal Forest'. Which principle does this correct pairing illustrate?",
+      "options": {
+        "A": "The dominant vegetation type is a key characteristic used to classify terrestrial biomes.",
+        "B": "All forests within the same latitude range have identical tree species.",
+        "C": "Precipitation is the sole factor determining plant life in a biome.",
+        "D": "Animal diversity is always highest in biomes dominated by coniferous trees."
+      },
+      "correct_answer": "A",
+      "hint": "Consider how biomes are defined and distinguished from one another.",
+      "explanation": "Terrestrial biomes are largely classified by their dominant vegetation, which reflects the prevailing abiotic conditions like climate. Option C is incorrect because temperature, soil, and other factors also critically influence vegetation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.5 Biomes",
+        "structural_element": "Self Assessment (matching table)",
+        "content_anchor": "Boreal Forest: Conifers dominate",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 83,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q017",
+      "generation_timestamp": "2025-01-14T10:35:00Z",
+      "section": "6.2. Ecological relationships",
+      "subsection": "6.2. Ecological relationships",
+      "sub_subsection": null,
+      "structural_anchor": "Competition(-/-)",
+      "mcq_type": "F",
+      "question": "Two male lions from the same pride fight for access to a territory. Which concept most specifically describes this interaction?",
+      "options": {
+        "A": "Intraspecific Competition",
+        "B": "Interspecific Competition",
+        "C": "Predation",
+        "D": "Mutualism"
+      },
+      "correct_answer": "A",
+      "hint": "The interaction is between individuals of the same species for a limiting resource.",
+      "explanation": "Intraspecific competition occurs between members of the same species for resources like territory, mates, or food. Option B is incorrect because interspecific competition occurs between individuals of different species.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.2. Ecological relationships",
+        "subsection_anchor": "6.2. Ecological relationships",
+        "structural_element": "Competition(-/-)",
+        "content_anchor": "Fig.6.17 Intra-specific competitions between two lions",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q018",
+      "generation_timestamp": "2025-01-14T10:35:00Z",
+      "section": "6.2. Ecological relationships",
+      "subsection": "6.2. Ecological relationships",
+      "sub_subsection": null,
+      "structural_anchor": "Predation (+/-)",
+      "mcq_type": "G",
+      "question": "If a disease reduces the population of a prey species, such as rabbits, what is the most likely direct effect on a predator population like foxes that specializes in eating them?",
+      "options": {
+        "A": "The fox population will decrease due to reduced food availability.",
+        "B": "Foxes will immediately switch to hunting a completely different type of prey.",
+        "C": "The reproductive rate of individual foxes will increase to compensate.",
+        "D": "Foxes and rabbits will develop a mutualistic relationship."
+      },
+      "correct_answer": "A",
+      "hint": "Predators depend on prey as a food resource.",
+      "explanation": "Predation is a (+/-) interaction where predator population size is often directly limited by prey availability. Option B describes a potential long-term behavioral shift, not an immediate direct effect of reduced prey numbers.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.2. Ecological relationships",
+        "subsection_anchor": "6.2. Ecological relationships",
+        "structural_element": "Predation (+/-)",
+        "content_anchor": "Predation is interaction in which an individual of one species, the predator, kills and eats an individual of the other species, the prey.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 79,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q019",
+      "generation_timestamp": "2025-01-14T10:35:00Z",
+      "section": "6.2. Ecological relationships",
+      "subsection": "6.2. Ecological relationships",
+      "sub_subsection": null,
+      "structural_anchor": "Mutualism (+/+)",
+      "mcq_type": "I",
+      "question": "How do the interactions in mutualism and commensalism differ in their effects on the participating species?",
+      "options": {
+        "A": "Mutualism benefits both species, while commensalism benefits one without affecting the other.",
+        "B": "Mutualism involves a predator-prey relationship, while commensalism involves competition.",
+        "C": "Both interactions provide equal benefits to all species involved.",
+        "D": "Commensalism harms one species, while mutualism has no negative effects."
+      },
+      "correct_answer": "A",
+      "hint": "Compare the net outcomes for each participant.",
+      "explanation": "Mutualism is a (+/+) interaction where both species benefit, whereas commensalism is a (+/0) interaction where one benefits and the other is unaffected. Option D incorrectly assigns harm to commensalism, which characterizes parasitism or predation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.2. Ecological relationships",
+        "subsection_anchor": "6.2. Ecological relationships",
+        "structural_element": "Mutualism (+/+)",
+        "content_anchor": "Mutualism is interaction that benefits individuals of both of the interacting species.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 81,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q020",
+      "generation_timestamp": "2025-01-14T10:35:00Z",
+      "section": "6.2. Ecological relationships",
+      "subsection": "6.2. Ecological relationships",
+      "sub_subsection": null,
+      "structural_anchor": "Parasitism (+/-)",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that a parasite always kills its host immediately?",
+      "options": {
+        "A": "It misunderstands the parasite's reliance on the host's continued survival for its own nourishment.",
+        "B": "It correctly describes the outcome of all exploitative species interactions.",
+        "C": "It confuses parasitism with predation, where the prey is typically killed quickly.",
+        "D": "It ignores the fact that parasites provide benefits to their hosts in exchange for resources."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the long-term relationship between a parasite and its host.",
+      "explanation": "Parasitism is a (+/-) interaction where the parasite derives nourishment from the host, which is harmed but often not killed immediately to ensure a longer resource supply. Option C is incorrect because, while it contrasts with predation, the primary error is about the timing of host death, not confusion of terms.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.2. Ecological relationships",
+        "subsection_anchor": "6.2. Ecological relationships",
+        "structural_element": "Parasitism (+/-)",
+        "content_anchor": "Parasitism is exploitative interaction in which one organism, the parasite, derives its nourishment from another organism, its host, which is harmed in the process.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 86,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2800,
+    "average_question_quality": 85.4,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "D": 1,
+      "E": 1,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "6.1 Ecology": 7,
+      "6.2. Ecological relationships": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,980 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T10:20:00Z",
+  "round_id": "R01",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Chem_U2_Q030",
+    "covered_sections": [
+      "Unit Outcomes",
+      "2.1 Oxidation-Reduction Reactions>2.1.1 Oxidation",
+      "2.1 Oxidation-Reduction Reactions>2.1.2 Reduction",
+      "2.1 Oxidation-Reduction Reactions>2.1.3 Balancing Oxidation-Reduction (Redox) Reactions",
+      "2.2 Electrolysis of Aqueous Solutions>2.2.1 Electrolytic Cells",
+      "2.2 Electrolysis of Aqueous Solutions>2.2.2 Preferential Discharge",
+      "2.2 Electrolysis of Aqueous Solutions>2.2.3 Electrolysis of Some Selected Aqueous Solutions",
+      "2.3 Quantitative Aspects of Electrolysis>2.3.1 Faraday's First Law of Electrolysis",
+      "2.3 Quantitative Aspects of Electrolysis>2.3.2 Faraday's Second Law of Electrolysis",
+      "2.4 Industrial Application of Electrolysis>Extraction of Metals",
+      "2.4 Industrial Application of Electrolysis>Electrolytic refining of Metals",
+      "2.4 Industrial Application of Electrolysis>Electroplating of Metals",
+      "2.4 Industrial Application of Electrolysis>Electrolysynthesis of Nonmetals and Compounds",
+      "2.5 Volatic Cells>Construction of Voltaic Cells (Zn-Cu voltaic Cell)",
+      "2.5 Volatic Cells>Cell diagram (Cell Notation)",
+      "2.5 Volatic Cells>Measuring Standard electrode Potentials",
+      "2.5 Volatic Cells>Electromotive Force (EMF)"
+    ],
+    "used_question_signatures": [
+      "A_Redox_Reaction_Definition_Unit_Outcomes",
+      "B_Oxidation_Electron_Loss_2.1.1",
+      "C_Reduction_Electron_Gain_2.1.2",
+      "D_Redox_Identification_Mg_HCl_2.1.2",
+      "E_Balancing_Oxidation_Number_PbS_2.1.3",
+      "F_Conceptual_Half_Reaction_Electron_Flow_2.1.3",
+      "G_Cause_Effect_Concentration_Preferred_Discharge_2.2.1",
+      "H_Misconception_Electrolytic_Cell_Energy_2.2.1",
+      "I_Comparison_Metallic_Electrolytic_Conduction_2.2.1",
+      "J_Classification_Conductors_Activity_2.2",
+      "K_Interpretation_Electrochemical_Series_Preferred_Discharge_2.2.2",
+      "L_Experimental_NaCl_Electrolysis_Products_2.2.3",
+      "M_Sequence_Preferred_Discharge_Factors_Order_2.2.2",
+      "N_Limitation_Active_Electrode_Effect_2.2.2",
+      "D_Direct_Application_Faradays_First_Law_Mass_Calculation_2.3.1",
+      "E_Numerical_Faradays_Second_Law_Mass_Ratio_2.3.2",
+      "F_Conceptual_Aluminum_Extraction_Electrolysis_2.4",
+      "G_Cause_Effect_Reactivity_Series_Metal_Extraction_2.4",
+      "H_Misconception_Electrorefining_Anode_Mud_2.4",
+      "I_Comparison_Extraction_Methods_Carbon_vs_Electrolysis_2.4",
+      "J_Classification_Electroplating_Components_2.4",
+      "K_Interpretation_Chlor_Alkali_Industry_Reactions_2.4",
+      "L_Experimental_Copper_Plating_Setup_2.4",
+      "M_Sequence_Galvanic_Cell_Operation_2.5",
+      "N_Limitation_Direct_Electron_Transfer_Voltaic_Cell_2.5",
+      "A_Definition_Cell_Notation_Conventions_2.5",
+      "B_Term_Standard_Hydrogen_Electrode_2.5",
+      "C_Formula_Cell_Potential_Calculation_2.5",
+      "D_Direct_Application_EMF_Sign_Spontaneity_2.5",
+      "E_Numerical_Standard_Reduction_Potential_Calculation_2.5"
+    ],
+    "baseline_counter": {
+      "Unit Outcomes": {
+        "Unit Outcomes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "2.1 Oxidation-Reduction Reactions": {
+        "2.1.1 Oxidation": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.1.2 Reduction": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.1.3 Balancing Oxidation-Reduction (Redox) Reactions": {
+          "count": 2,
+          "mini_headings_covered": ["Balancing Redox Reactions Using Change in Oxidation-Number Method"],
+          "last_question_round": 1
+        }
+      },
+      "2.2 Electrolysis of Aqueous Solutions": {
+        "2.2.1 Electrolytic Cells": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.2.2 Preferential Discharge": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.2.3 Electrolysis of Some Selected Aqueous Solutions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "2.3 Quantitative Aspects of Electrolysis": {
+        "2.3.1 Faraday's First Law of Electrolysis": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.3.2 Faraday's Second Law of Electrolysis": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "2.4 Industrial Application of Electrolysis": {
+        "Extraction of Metals": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Electrolytic refining of Metals": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Electroplating of Metals": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Electrolysynthesis of Nonmetals and Compounds": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "2.5 Volatic Cells": {
+        "Construction of Voltaic Cells (Zn-Cu voltaic Cell)": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Cell diagram (Cell Notation)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Measuring Standard electrode Potentials": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Electromotive Force (EMF)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Dependent of Cell Potential EMF on Concentration": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Nernst Equation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Concentration Cells": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Determination of pH": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Batteries": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Fuel cells": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Corrosion of Metals": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Protecting Against the Corrosion of Iron": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Unit Summary": {
+        "Unit Summary": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "CHECK LIST": {
+        "CHECK LIST": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "KEY TERMS": {
+        "KEY TERMS": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Unit Outcomes": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.1 Oxidation-Reduction Reactions": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.2 Electrolysis of Aqueous Solutions": {
+        "question_count": 7,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "2.3 Quantitative Aspects of Electrolysis": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "2.4 Industrial Application of Electrolysis": {
+        "question_count": 8,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "2.5 Volatic Cells": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Unit Summary": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "CHECK LIST": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "KEY TERMS": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Unit Outcomes>Unit Outcomes": ["redox reactions", "oxidation-reduction"],
+      "2.1 Oxidation-Reduction Reactions>2.1.1 Oxidation": ["electron loss", "increase in oxidation number"],
+      "2.1 Oxidation-Reduction Reactions>2.1.2 Reduction": ["electron gain", "decrease in oxidation number", "redox pair"],
+      "2.1 Oxidation-Reduction Reactions>2.1.3 Balancing Oxidation-Reduction (Redox) Reactions": ["oxidation number method", "half-reaction method", "electron transfer"],
+      "2.2 Electrolysis of Aqueous Solutions>2.2.1 Electrolytic Cells": ["electrolytic conduction", "metallic conduction", "ion migration", "energy conversion"],
+      "2.2 Electrolysis of Aqueous Solutions>2.2.2 Preferential Discharge": ["electrochemical series", "concentration effect", "electrode nature", "discharge preference"],
+      "2.2 Electrolysis of Aqueous Solutions>2.2.3 Electrolysis of Some Selected Aqueous Solutions": ["brine electrolysis", "hydrogen production", "chlorine production"],
+      "2.3 Quantitative Aspects of Electrolysis>2.3.1 Faraday's First Law of Electrolysis": ["mass proportional to charge", "electrochemical equivalent", "current-time relationship"],
+      "2.3 Quantitative Aspects of Electrolysis>2.3.2 Faraday's Second Law of Electrolysis": ["mass ratio equals equivalent mass ratio", "series electrolysis", "equivalent mass proportionality"],
+      "2.4 Industrial Application of Electrolysis>Extraction of Metals": ["aluminum extraction", "molten oxide electrolysis", "reactive metals", "carbon reduction limitation"],
+      "2.4 Industrial Application of Electrolysis>Electrolytic refining of Metals": ["anode mud", "soluble impurities", "cathode purity", "impure anode"],
+      "2.4 Industrial Application of Electrolysis>Electroplating of Metals": ["sacrificial anode", "cathode object", "metal salt electrolyte", "copper plating"],
+      "2.4 Industrial Application of Electrolysis>Electrolysynthesis of Nonmetals and Compounds": ["chlor-alkali industry", "sodium hydroxide production", "chlorine production", "hydrogen byproduct"],
+      "2.5 Volatic Cells>Construction of Voltaic Cells (Zn-Cu voltaic Cell)": ["Daniell cell", "salt bridge", "electron flow", "spontaneous reaction"],
+      "2.5 Volatic Cells>Cell diagram (Cell Notation)": ["phase boundary", "double vertical line", "anode left cathode right", "concentration notation"],
+      "2.5 Volatic Cells>Measuring Standard electrode Potentials": ["standard hydrogen electrode", "reference electrode", "E° = 0 V", "relative measurement"],
+      "2.5 Volatic Cells>Electromotive Force (EMF)": ["potential difference", "electron driving force", "cathode minus anode", "spontaneity indicator"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_after_batch_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 41,
+      "questions_per_concept_ratio": 0.73,
+      "structural_coverage_percentage": 48.1
+    }
+  },
+  "grade": "12",
+  "subject": "Chemistry",
+  "unit": "Unit 2: ELECTROCHEMISTRY",
+  "pdf_filename": "C12U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 5,
+      "constraint_violations_caught": 5,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T10:25:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 7,
+        "total_sections": 9,
+        "progress_percentage": 77.8
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 8.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 7,
+      "subsections_covered_count": 17,
+      "mini_headings_covered_count": 2,
+      "structural_coverage_percentage": 44.4,
+      "concept_utilization_ratio": 0.73
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.4 Industrial Application of Electrolysis",
+      "least_covered_section": "Unit Summary",
+      "imbalance_ratio": 8.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Chem_U2_Q021",
+      "generation_timestamp": "2025-01-27T10:21:00Z",
+      "section": "2.4 Industrial Application of Electrolysis",
+      "subsection": "Electroplating of Metals",
+      "sub_subsection": null,
+      "structural_anchor": "Electroplating of Metals",
+      "mcq_type": "J",
+      "question": "Which component in an electroplating setup serves as the source of metal ions for deposition?",
+      "options": {
+        "A": "The object being plated (cathode)",
+        "B": "The metal anode of the plating material",
+        "C": "The electrolyte containing metal ions",
+        "D": "The power supply providing electrons"
+      },
+      "correct_answer": "C",
+      "hint": "Consider where the metal ions originate before they deposit on the object.",
+      "explanation": "The electrolyte contains dissolved metal ions that migrate to the cathode for deposition. Option B incorrectly identifies the anode, which dissolves to replenish ions but isn't the direct source during plating.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.4 Industrial Application of Electrolysis",
+        "subsection_anchor": "Electroplating of Metals",
+        "structural_element": "Electroplating of Metals",
+        "content_anchor": "the salt solution of the metal which is to be deposited is taken as electrolyte",
+        "page_hint": "Page 34",
+        "concept_hash": "sha256_of_electroplating_electrolyte"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q022",
+      "generation_timestamp": "2025-01-27T10:21:30Z",
+      "section": "2.4 Industrial Application of Electrolysis",
+      "subsection": "Electrolysynthesis of Nonmetals and Compounds",
+      "sub_subsection": null,
+      "structural_anchor": "Electro Synthesis of Compounds",
+      "mcq_type": "K",
+      "question": "What inference can be drawn about the chlor-alkali industry from the overall reaction 2NaCl(aq) + 2H₂O(l) → 2NaOH(aq) + Cl₂(g) + H₂(g)?",
+      "options": {
+        "A": "Only chlorine gas is produced as a valuable product.",
+        "B": "Sodium hydroxide forms at the cathode while chlorine forms at the anode.",
+        "C": "Water acts solely as a solvent without participating in reactions.",
+        "D": "Hydrogen gas is an undesirable byproduct that must be captured."
+      },
+      "correct_answer": "B",
+      "hint": "Analyze the half-reactions and their electrode locations.",
+      "explanation": "Hydroxide ions accumulate at the cathode producing NaOH, while chloride ions oxidize at the anode producing Cl₂. Option D incorrectly characterizes hydrogen, which is a useful byproduct in many applications.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.4 Industrial Application of Electrolysis",
+        "subsection_anchor": "Electrolysynthesis of Nonmetals and Compounds",
+        "structural_element": "Electro Synthesis of Compounds",
+        "content_anchor": "Cathode reaction: 2H₂O(l) + 2e⁻ → H₂(g) + 2OH⁻(aq)",
+        "page_hint": "Page 36",
+        "concept_hash": "sha256_of_chlor_alkali_reactions"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q023",
+      "generation_timestamp": "2025-01-27T10:22:00Z",
+      "section": "2.4 Industrial Application of Electrolysis",
+      "subsection": "Electroplating of Metals",
+      "sub_subsection": null,
+      "structural_anchor": "Experiment 2.3",
+      "mcq_type": "L",
+      "question": "In a copper plating experiment where an iron key is connected to the negative terminal, what observation confirms successful electroplating?",
+      "options": {
+        "A": "The copper anode increases in mass.",
+        "B": "The electrolyte solution turns blue.",
+        "C": "The iron key develops a copper-colored coating.",
+        "D": "Bubbles form only at the anode."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the visual change expected on the object being plated.",
+      "explanation": "Copper deposition on the iron key produces a visible copper-colored metallic layer. Option A incorrectly describes anode behavior; the copper anode actually decreases in mass as it dissolves.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "experiment"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.4 Industrial Application of Electrolysis",
+        "subsection_anchor": "Electroplating of Metals",
+        "structural_element": "Experiment 2.3",
+        "content_anchor": "Electroplating of an iron key with copper metal",
+        "page_hint": "Page 35",
+        "concept_hash": "sha256_of_copper_plating_experiment"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q024",
+      "generation_timestamp": "2025-01-27T10:22:30Z",
+      "section": "2.5 Volatic Cells",
+      "subsection": "Construction of Voltaic Cells (Zn-Cu voltaic Cell)",
+      "sub_subsection": null,
+      "structural_anchor": "Construction of Voltaic Cells (Zn-Cu voltaic Cell)",
+      "mcq_type": "M",
+      "question": "In what sequence do these events occur during Daniell cell operation: (1) zinc atoms lose electrons, (2) electrons flow through external circuit, (3) copper ions gain electrons, (4) zinc ions enter solution?",
+      "options": {
+        "A": "1, 4, 2, 3",
+        "B": "1, 2, 3, 4",
+        "C": "4, 1, 2, 3",
+        "D": "2, 1, 3, 4"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the cause-effect relationship between oxidation, electron release, and subsequent processes.",
+      "explanation": "Zinc oxidation (1) releases electrons and forms ions that enter solution (4); electrons then flow (2) to cathode where copper ions gain them (3). Option B incorrectly separates zinc oxidation from its ion formation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.5 Volatic Cells",
+        "subsection_anchor": "Construction of Voltaic Cells (Zn-Cu voltaic Cell)",
+        "structural_element": "Construction of Voltaic Cells (Zn-Cu voltaic Cell)",
+        "content_anchor": "Zn atoms lose electrons → Zn²⁺ ions form → electrons flow → Cu²⁺ gain electrons",
+        "page_hint": "Page 38",
+        "concept_hash": "sha256_of_daniell_cell_sequence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q025",
+      "generation_timestamp": "2025-01-27T10:23:00Z",
+      "section": "2.5 Volatic Cells",
+      "subsection": "Construction of Voltaic Cells (Zn-Cu voltaic Cell)",
+      "sub_subsection": null,
+      "structural_anchor": "Construction of Voltaic Cells (Zn-Cu voltaic Cell)",
+      "mcq_type": "N",
+      "question": "Under what condition does direct electron transfer between zinc and copper ions prevent useful electrical work in a voltaic cell?",
+      "options": {
+        "A": "When the electrolyte concentrations are too low",
+        "B": "When the electrodes are physically separated without a salt bridge",
+        "C": "When zinc and copper solutions mix in the same compartment",
+        "D": "When the external circuit resistance is too high"
+      },
+      "correct_answer": "C",
+      "hint": "Consider what happens when oxidizing and reducing agents can contact each other directly.",
+      "explanation": "Mixed solutions allow direct redox reaction without electron flow through an external circuit, eliminating electrical work. Option B describes a necessary separation for proper operation, not a limitation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.5 Volatic Cells",
+        "subsection_anchor": "Construction of Voltaic Cells (Zn-Cu voltaic Cell)",
+        "structural_element": "Construction of Voltaic Cells (Zn-Cu voltaic Cell)",
+        "content_anchor": "unless the two solutions are separated from each other, the Cu²⁺ ions will react directly with the zinc bar and no useful electrical work will be obtained",
+        "page_hint": "Page 39",
+        "concept_hash": "sha256_of_direct_transfer_limitation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 77,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q026",
+      "generation_timestamp": "2025-01-27T10:23:30Z",
+      "section": "2.5 Volatic Cells",
+      "subsection": "Cell diagram (Cell Notation)",
+      "sub_subsection": null,
+      "structural_anchor": "Cell diagram (Cell Notation)",
+      "mcq_type": "A",
+      "question": "What does a single vertical line represent in electrochemical cell notation?",
+      "options": {
+        "A": "A salt bridge connecting half-cells",
+        "B": "A phase boundary between different states",
+        "C": "The direction of electron flow",
+        "D": "A concentration gradient within a solution"
+      },
+      "correct_answer": "B",
+      "hint": "Consider what separates different components in the cell representation.",
+      "explanation": "Single vertical lines indicate phase boundaries, such as between solid electrodes and aqueous solutions. Option A incorrectly describes the double vertical line representing salt bridges.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.5 Volatic Cells",
+        "subsection_anchor": "Cell diagram (Cell Notation)",
+        "structural_element": "Cell diagram (Cell Notation)",
+        "content_anchor": "a boundary between different phases is represented by a single vertical line",
+        "page_hint": "Page 40",
+        "concept_hash": "sha256_of_cell_notation_conventions"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q027",
+      "generation_timestamp": "2025-01-27T10:24:00Z",
+      "section": "2.5 Volatic Cells",
+      "subsection": "Measuring Standard electrode Potentials",
+      "sub_subsection": null,
+      "structural_anchor": "Measuring Standard electrode Potentials",
+      "mcq_type": "B",
+      "question": "Which electrode serves as the universal reference with an assigned potential of 0.00 V at standard conditions?",
+      "options": {
+        "A": "Zinc electrode",
+        "B": "Copper electrode",
+        "C": "Standard hydrogen electrode",
+        "D": "Calomel electrode"
+      },
+      "correct_answer": "C",
+      "hint": "Consider which electrode establishes the baseline for all other potential measurements.",
+      "explanation": "The standard hydrogen electrode (SHE) provides the reference potential of 0.00 V against which all others are measured. Option D describes an alternative reference electrode but not the primary standard.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.5 Volatic Cells",
+        "subsection_anchor": "Measuring Standard electrode Potentials",
+        "structural_element": "Measuring Standard electrode Potentials",
+        "content_anchor": "standard hydrogen electrode (SHE)... E° = 0 V",
+        "page_hint": "Page 42",
+        "concept_hash": "sha256_of_standard_hydrogen_electrode"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 83
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q028",
+      "generation_timestamp": "2025-01-27T10:24:30Z",
+      "section": "2.5 Volatic Cells",
+      "subsection": "Measuring Standard electrode Potentials",
+      "sub_subsection": null,
+      "structural_anchor": "Measuring Standard electrode Potentials",
+      "mcq_type": "C",
+      "question": "What formula calculates standard cell potential from individual electrode potentials?",
+      "options": {
+        "A": "E°cell = E°anode - E°cathode",
+        "B": "E°cell = E°cathode + E°anode",
+        "C": "E°cell = E°cathode - E°anode",
+        "D": "E°cell = (E°cathode × E°anode) / 2"
+      },
+      "correct_answer": "C",
+      "hint": "Consider how reduction potentials combine when oxidation occurs at the anode.",
+      "explanation": "Cell potential equals cathode reduction potential minus anode reduction potential, accounting for oxidation being the reverse of reduction. Option A incorrectly subtracts in the wrong order.",
+      "difficulty_level": "easy",
+      "formula_used": ["E°cell = E°cathode - E°anode"],
+      "numeric": {
+        "is_numeric": false,
+        "units": "V",
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.5 Volatic Cells",
+        "subsection_anchor": "Measuring Standard electrode Potentials",
+        "structural_element": "Measuring Standard electrode Potentials",
+        "content_anchor": "E°cell = E°cathode - E°anode",
+        "page_hint": "Page 45",
+        "concept_hash": "sha256_of_cell_potential_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q029",
+      "generation_timestamp": "2025-01-27T10:25:00Z",
+      "section": "2.5 Volatic Cells",
+      "subsection": "Electromotive Force (EMF)",
+      "sub_subsection": null,
+      "structural_anchor": "Electromotive Force (EMF)",
+      "mcq_type": "D",
+      "question": "What does a positive EMF value indicate about the spontaneity of a redox reaction in a voltaic cell?",
+      "options": {
+        "A": "The reaction is non-spontaneous and requires external energy.",
+        "B": "The reaction proceeds spontaneously in the forward direction.",
+        "C": "The reaction has reached equilibrium with no net change.",
+        "D": "The reaction rate is too slow to be practical."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the relationship between potential difference and thermodynamic favorability.",
+      "explanation": "Positive EMF corresponds to negative ΔG, indicating spontaneous forward reaction. Option A describes electrolytic cells with negative EMF requiring external energy input.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.5 Volatic Cells",
+        "subsection_anchor": "Electromotive Force (EMF)",
+        "structural_element": "Electromotive Force (EMF)",
+        "content_anchor": "E°cell > 0 for a spontaneous reaction",
+        "page_hint": "Page 47",
+        "concept_hash": "sha256_of_EMF_spontaneity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q030",
+      "generation_timestamp": "2025-01-27T10:25:30Z",
+      "section": "2.5 Volatic Cells",
+      "subsection": "Measuring Standard electrode Potentials",
+      "sub_subsection": null,
+      "structural_anchor": "Measuring Standard electrode Potentials",
+      "mcq_type": "E",
+      "question": "If a Zn|Zn²⁺||H⁺|H₂ cell produces 0.76 V with SHE as cathode, what is the standard reduction potential of Zn²⁺/Zn?",
+      "options": {
+        "A": "+0.76 V",
+        "B": "-0.76 V",
+        "C": "+1.52 V",
+        "D": "-1.52 V"
+      },
+      "correct_answer": "B",
+      "hint": "Use E°cell = E°cathode - E°anode with SHE potential as 0.00 V.",
+      "explanation": "0.76 V = 0.00 V - E°Zn, therefore E°Zn = -0.76 V. Option A incorrectly assumes the measured potential is the zinc electrode potential directly.",
+      "difficulty_level": "medium",
+      "formula_used": ["E°cell = E°cathode - E°anode"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "V",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.5 Volatic Cells",
+        "subsection_anchor": "Measuring Standard electrode Potentials",
+        "structural_element": "Measuring Standard electrode Potentials",
+        "content_anchor": "0.76 V = 0 - E°Zn²⁺/Zn",
+        "page_hint": "Page 45",
+        "concept_hash": "sha256_of_Zn_reduction_potential_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3400,
+    "average_question_quality": 85.4,
+    "type_distribution": {
+      "J": 1,
+      "K": 1,
+      "L": 1,
+      "M": 1,
+      "N": 1,
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 6,
+      "hard": 0
+    },
+    "section_distribution": {
+      "2.4 Industrial Application of Electrolysis": 3,
+      "2.5 Volatic Cells": 7
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

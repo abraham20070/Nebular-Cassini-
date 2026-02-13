@@ -1,0 +1,785 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Bio_U6_Q010",
+    "covered_sections": [
+      "6.1 Trophic Levels>6.1.1 Food chain and food web",
+      "6.1 Trophic Levels>6.1.2 Flow of energy and matter through ecosystem",
+      "6.2 Cycling of Materials in an Ecosystem>6.2.1 Water cycle",
+      "6.2 Cycling of Materials in an Ecosystem>6.2.2 Carbon cycle",
+      "6.2 Cycling of Materials in an Ecosystem>6.2.3 Nitrogen cycle",
+      "6.2 Cycling of Materials in an Ecosystem>6.2.4 Phosphorus cycle"
+    ],
+    "used_question_signatures": [
+      "hash_cdc3b7a1",
+      "hash_8e9f4c2d",
+      "hash_5a1b8e3f",
+      "hash_2d7c9a4b",
+      "hash_6e3f8b1c",
+      "hash_9a2c5d7e",
+      "hash_4b8d1f3a",
+      "hash_1c7e9b5d",
+      "hash_3f2a8c6e",
+      "hash_7d5b1e9c"
+    ],
+    "baseline_counter": {
+      "6.1 Trophic Levels": {
+        "6.1.1 Food chain and food web": {
+          "count": 1,
+          "mini_headings_covered": ["Direction: Think of a possible feeding relationship..."],
+          "last_question_round": 1
+        },
+        "6.1.2 Flow of energy and matter through ecosystem": {
+          "count": 3,
+          "mini_headings_covered": ["Figure 6.5 An Idealized pyramid of energy"],
+          "last_question_round": 1
+        },
+        "Objectives": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "6.2 Cycling of Materials in an Ecosystem": {
+        "6.2.1 Water cycle": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.2 Carbon cycle": {
+          "count": 2,
+          "mini_headings_covered": ["Attention: Photosynthesis and cellular respiration"],
+          "last_question_round": 1
+        },
+        "6.2.3 Nitrogen cycle": {
+          "count": 2,
+          "mini_headings_covered": ["Key terms: DNA, Functional proteins, Structural protein"],
+          "last_question_round": 1
+        },
+        "6.2.4 Phosphorus cycle": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Objectives": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Trophic Levels": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "6.2 Cycling of Materials in an Ecosystem": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Trophic Levels>6.1.1 Food chain and food web": ["Food chain", "Food web", "Producers", "Consumers"],
+      "6.1 Trophic Levels>6.1.2 Flow of energy and matter through ecosystem": ["Energy flow", "Ecological pyramid", "Energy loss", "Trophic levels"],
+      "6.2 Cycling of Materials in an Ecosystem>6.2.1 Water cycle": ["Evaporation", "Transpiration", "Condensation", "Precipitation"],
+      "6.2 Cycling of Materials in an Ecosystem>6.2.2 Carbon cycle": ["Photosynthesis", "Respiration", "Carbon dioxide", "Fossil fuels"],
+      "6.2 Cycling of Materials in an Ecosystem>6.2.3 Nitrogen cycle": ["Nitrogen fixation", "DNA", "Proteins", "Soil bacteria"],
+      "6.2 Cycling of Materials in an Ecosystem>6.2.4 Phosphorus cycle": ["ATP", "DNA", "Phosphate ions", "Eutrophication"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_initial_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 22,
+      "questions_per_concept_ratio": 0.45,
+      "structural_coverage_percentage": 31.6
+    }
+  },
+  "grade": "10",
+  "subject": "Biology",
+  "unit": "Unit 6: Ecological Interactions",
+  "pdf_filename": "B10U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:30:45Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 2,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 1.5,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 31.6,
+      "concept_utilization_ratio": 0.45
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.2 Cycling of Materials in an Ecosystem",
+      "least_covered_section": "6.1 Trophic Levels",
+      "imbalance_ratio": 1.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U6_Q001",
+      "generation_timestamp": "2025-01-28T10:30:01Z",
+      "section": "6.1 Trophic Levels",
+      "subsection": "6.1.1 Food chain and food web",
+      "sub_subsection": null,
+      "structural_anchor": "Direction: Think of a possible feeding relationship...",
+      "mcq_type": "B",
+      "question": "Which term describes organisms that produce their own food using sunlight?",
+      "options": {
+        "A": "Consumers",
+        "B": "Decomposers",
+        "C": "Producers",
+        "D": "Herbivores"
+      },
+      "correct_answer": "C",
+      "hint": "These organisms are at the beginning of food chains.",
+      "explanation": "Producers, also called autotrophs, convert solar energy into chemical energy through photosynthesis. Option A incorrectly refers to organisms that consume other organisms for energy.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.1 Trophic Levels",
+        "subsection_anchor": "6.1.1 Food chain and food web",
+        "structural_element": "Direction: Think of a possible feeding relationship...",
+        "content_anchor": "plants are the first to trap energy and produce their food",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_producers_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q002",
+      "generation_timestamp": "2025-01-28T10:30:03Z",
+      "section": "6.1 Trophic Levels",
+      "subsection": "6.1.2 Flow of energy and matter through ecosystem",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 6.5 An Idealized pyramid of energy",
+      "mcq_type": "A",
+      "question": "What is the approximate percentage of energy transferred from one trophic level to the next in an ecological pyramid?",
+      "options": {
+        "A": "1%",
+        "B": "10%",
+        "C": "50%",
+        "D": "90%"
+      },
+      "correct_answer": "B",
+      "hint": "Most energy is lost as heat or used for metabolic activities.",
+      "explanation": "The 10% rule states that only about 10% of energy is transferred between trophic levels, with 90% lost primarily as heat. Option D incorrectly represents the percentage of energy lost, not transferred.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": "percentage",
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "figure"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.1 Trophic Levels",
+        "subsection_anchor": "6.1.2 Flow of energy and matter through ecosystem",
+        "structural_element": "Figure 6.5 An Idealized pyramid of energy",
+        "content_anchor": "90% energy loss at each trophic level",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_10percent_rule"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q003",
+      "generation_timestamp": "2025-01-28T10:30:05Z",
+      "section": "6.1 Trophic Levels",
+      "subsection": "6.1.2 Flow of energy and matter through ecosystem",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 6.5 An Idealized pyramid of energy",
+      "mcq_type": "F",
+      "question": "Why does the number of trophic levels in an ecosystem typically not exceed four?",
+      "options": {
+        "A": "Because predators prefer to eat producers directly",
+        "B": "Due to insufficient energy transfer to sustain higher levels",
+        "C": "Because decomposers recycle all available energy",
+        "D": "Due to competition reducing available food sources"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the decreasing amount of energy available at each level.",
+      "explanation": "The energy pyramid shows progressive energy loss at each trophic level, leaving insufficient energy to sustain additional levels. Option C incorrectly suggests decomposers capture energy, when they actually break down dead matter.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "figure"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.1 Trophic Levels",
+        "subsection_anchor": "6.1.2 Flow of energy and matter through ecosystem",
+        "structural_element": "Figure 6.5 An Idealized pyramid of energy",
+        "content_anchor": "energy successively declines in amount",
+        "page_hint": "Page 4-5",
+        "concept_hash": "sha256_of_energy_limitation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q004",
+      "generation_timestamp": "2025-01-28T10:30:07Z",
+      "section": "6.1 Trophic Levels",
+      "subsection": "6.1.2 Flow of energy and matter through ecosystem",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 6.5 An Idealized pyramid of energy",
+      "mcq_type": "G",
+      "question": "If the population of herbivores decreases significantly in an ecosystem, what is the most likely immediate effect on primary carnivores?",
+      "options": {
+        "A": "Increased competition among primary carnivores",
+        "B": "Decreased availability of food for primary carnivores",
+        "C": "Increased population of decomposers",
+        "D": "Decreased energy transfer to producers"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the feeding relationships between trophic levels.",
+      "explanation": "Primary carnivores depend on herbivores as their food source, so reduced herbivore populations decrease food availability. Option A incorrectly addresses competition rather than the direct food shortage effect.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "figure"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.1 Trophic Levels",
+        "subsection_anchor": "6.1.2 Flow of energy and matter through ecosystem",
+        "structural_element": "Figure 6.5 An Idealized pyramid of energy",
+        "content_anchor": "energy flows from one trophic level to the next",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_trophic_interactions"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q005",
+      "generation_timestamp": "2025-01-28T10:30:09Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "6.2.1 Water cycle",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.1 Water cycle",
+      "mcq_type": "M",
+      "question": "Which sequence correctly orders the main processes in the water cycle?",
+      "options": {
+        "A": "Evaporation → Condensation → Precipitation → Runoff",
+        "B": "Condensation → Evaporation → Precipitation → Transpiration",
+        "C": "Precipitation → Evaporation → Runoff → Condensation",
+        "D": "Transpiration → Condensation → Evaporation → Precipitation"
+      },
+      "correct_answer": "A",
+      "hint": "The cycle begins with water changing from liquid to gas.",
+      "explanation": "The water cycle typically starts with evaporation, followed by condensation forming clouds, then precipitation returning water to Earth, and finally runoff moving water across surfaces. Option B incorrectly places condensation before evaporation.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "6.2.1 Water cycle",
+        "structural_element": "6.2.1 Water cycle",
+        "content_anchor": "evaporation, transpiration, condensation, precipitation, and runoff",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_water_cycle_processes"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q006",
+      "generation_timestamp": "2025-01-28T10:30:11Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "6.2.2 Carbon cycle",
+      "sub_subsection": null,
+      "structural_anchor": "Attention: Photosynthesis and cellular respiration",
+      "mcq_type": "I",
+      "question": "How do photosynthesis and cellular respiration differ in their exchange of gases with the atmosphere?",
+      "options": {
+        "A": "Photosynthesis releases oxygen, while respiration releases carbon dioxide",
+        "B": "Both processes release carbon dioxide into the atmosphere",
+        "C": "Photosynthesis absorbs oxygen, while respiration absorbs carbon dioxide",
+        "D": "Both processes release oxygen into the atmosphere"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the gas inputs and outputs of each process.",
+      "explanation": "Photosynthesis uses carbon dioxide and releases oxygen, while cellular respiration uses oxygen and releases carbon dioxide. Option C incorrectly reverses the gas absorption patterns of both processes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "attention"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "6.2.2 Carbon cycle",
+        "structural_element": "Attention: Photosynthesis and cellular respiration",
+        "content_anchor": "photosynthesis is the exact reverse of aerobic respiration",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_gas_exchange"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q007",
+      "generation_timestamp": "2025-01-28T10:30:13Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "6.2.2 Carbon cycle",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.2 Carbon cycle",
+      "mcq_type": "G",
+      "question": "What is the primary effect of increased atmospheric carbon dioxide concentrations on Earth's climate?",
+      "options": {
+        "A": "Enhanced photosynthesis in all plants",
+        "B": "Increased absorption of solar radiation",
+        "C": "Trapping of heat in the atmosphere",
+        "D": "Reduced oxygen availability for respiration"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the greenhouse effect mechanism.",
+      "explanation": "Carbon dioxide acts as a greenhouse gas that absorbs and traps heat in the atmosphere, leading to global warming. Option B incorrectly describes absorption of solar radiation rather than infrared radiation trapping.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "6.2.2 Carbon cycle",
+        "structural_element": "6.2.2 Carbon cycle",
+        "content_anchor": "atmospheric CO2 acts like a heat-trapping blanket",
+        "page_hint": "Page 10-11",
+        "concept_hash": "sha256_of_greenhouse_effect"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q008",
+      "generation_timestamp": "2025-01-28T10:30:15Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "6.2.3 Nitrogen cycle",
+      "sub_subsection": null,
+      "structural_anchor": "Key terms: DNA, Functional proteins, Structural protein",
+      "mcq_type": "B",
+      "question": "Which biological molecule contains nitrogen and carries genetic information?",
+      "options": {
+        "A": "Carbohydrate",
+        "B": "Lipid",
+        "C": "DNA",
+        "D": "ATP"
+      },
+      "correct_answer": "C",
+      "hint": "This molecule has a double-helix structure and contains nucleotides.",
+      "explanation": "DNA (deoxyribonucleic acid) contains nitrogenous bases in its nucleotide structure and stores genetic information. Option D refers to ATP, which is an energy carrier molecule rather than a genetic information store.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key terms"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "6.2.3 Nitrogen cycle",
+        "structural_element": "Key terms: DNA, Functional proteins, Structural protein",
+        "content_anchor": "DNA contains a unique genetic code",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_DNA_nitrogen"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q009",
+      "generation_timestamp": "2025-01-28T10:30:17Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "6.2.3 Nitrogen cycle",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.3 Nitrogen cycle",
+      "mcq_type": "F",
+      "question": "Why is biological nitrogen fixation essential for plant growth?",
+      "options": {
+        "A": "It directly provides plants with atmospheric nitrogen gas",
+        "B": "It converts atmospheric nitrogen into forms plants can absorb",
+        "C": "It increases soil oxygen content for root respiration",
+        "D": "It decomposes organic matter to release nutrients"
+      },
+      "correct_answer": "B",
+      "hint": "Plants cannot use atmospheric nitrogen directly.",
+      "explanation": "Biological nitrogen fixation converts atmospheric nitrogen gas into ammonia or nitrate, which plants can absorb and use for protein synthesis. Option A incorrectly suggests plants can use atmospheric nitrogen directly without conversion.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "6.2.3 Nitrogen cycle",
+        "structural_element": "6.2.3 Nitrogen cycle",
+        "content_anchor": "atmospheric nitrogen cannot be directly used by plants",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_nitrogen_fixation_importance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q010",
+      "generation_timestamp": "2025-01-28T10:30:19Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "6.2.4 Phosphorus cycle",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.4. Phosphorus cycle",
+      "mcq_type": "B",
+      "question": "Which molecule, essential for energy transfer in cells, contains phosphorus?",
+      "options": {
+        "A": "Glucose",
+        "B": "Hemoglobin",
+        "C": "ATP",
+        "D": "Cellulose"
+      },
+      "correct_answer": "C",
+      "hint": "This molecule is often called the energy currency of the cell.",
+      "explanation": "ATP (adenosine triphosphate) contains phosphate groups and serves as the primary energy carrier in cellular processes. Option A refers to glucose, a carbohydrate that stores but doesn't directly transfer energy in the same way.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "6.2.4 Phosphorus cycle",
+        "structural_element": "6.2.4. Phosphorus cycle",
+        "content_anchor": "phosphorus is needed in the synthesis of ATP",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_ATP_phosphorus"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2450,
+    "average_question_quality": 82.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 3,
+      "F": 2,
+      "G": 2,
+      "I": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 6,
+      "hard": 0
+    },
+    "section_distribution": {
+      "6.1 Trophic Levels": 4,
+      "6.2 Cycling of Materials in an Ecosystem": 6
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

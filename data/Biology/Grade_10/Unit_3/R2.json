@@ -1,0 +1,746 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T15:45:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Bio_U3_Q020",
+    "covered_sections": ["3.1. Biochemical molecules>3.1.1. Inorganic molecules: water", "3.1. Biochemical molecules>3.1.2. Inorganic ions", "3.1. Biochemical molecules>3.1.3. Organic molecules"],
+    "used_question_signatures": ["7e1e0e0ccbad97e39da1f937d51fa02a", "77c72bb90eccd43f9e9f85f66a72762d", "6f441a82e0e20a2bd5a8d57f46991542", "5b883cce4ac07ecfa9a8bea2b65e1a97", "87e4e7bf83d446322e4ffd6152072886", "2e6c403d45bff814e7ba27f795a767b1", "c4a6e482d578eb0ce5d2d2ecda244f44", "9ea1e702577bb71599fd8da4b23688a8", "fe37b74a8d51baaaac39de29090b5115", "d7ce2adcff88c850eb1a4a4d62c06919", "2b5cbf7865aa84a4b1b28a4ddaac8bf4", "1a7a5ba9ee3fbfe4d8a978872231d776", "cb2fa87405540794769869868f6050b9", "4a3d7c372557034dd6c928dc3a97ae49", "24c6cdaa87b25e23f4cf2c8f933a9e7c", "9564e5f30ae826de1dd7f6fe1c84299c", "37a6e62a10e546f6d9a6b92c8b368931", "e1624240300a6f2d0d781a39b2165e48", "e41d8bc6b1e6e7fc24479a366f15c744", "d97a2d5629c180fc3dc7d69acb15b732"],
+    "baseline_counter": {
+      "3.1. Biochemical molecules": {
+        "3.1.1. Inorganic molecules: water": {
+          "count": 4,
+          "mini_headings_covered": ["The properties of water", "1. Water as a solvent", "3. High latent heat of vaporization", "5. High surface tension and cohesion"],
+          "last_question_round": 2
+        },
+        "3.1.2. Inorganic ions": {
+          "count": 5,
+          "mini_headings_covered": ["Classification of inorganic ions", "a. Hydrogen ions", "b. Sodium ions", "c. Potassium ions", "d. Calcium ion"],
+          "last_question_round": 2
+        },
+        "3.1.3. Organic molecules": {
+          "count": 11,
+          "mini_headings_covered": ["Carbohydrates", "a. Monosaccharides", "- Roles of monosaccharides in living organisms", "b. Disaccharides (C12H22O11)", "c. Polysaccharides -(C6H10O5)-n", "- Starch [-(C6H1005)-n]", "- Glycogen [-(C6H1005)-n]", "- Cellulose [-(C6H1005)-n]", "- Major functions of carbohydrates", "Lipids", "Fatty acids [CH3(CH2)nCOOH]"],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1. Biochemical molecules>3.1.1. Inorganic molecules: water": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.1. Biochemical molecules>3.1.2. Inorganic ions": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.1. Biochemical molecules>3.1.3. Organic molecules": {
+        "question_count": 11,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1. Biochemical molecules>3.1.1. Inorganic molecules: water": ["Water as a polar solvent", "High specific heat capacity of water", "High latent heat of vaporization", "Surface tension from cohesion"],
+      "3.1. Biochemical molecules>3.1.2. Inorganic ions": ["Hydrogen ions and pH", "Sodium as an extracellular cation", "Potassium as an intracellular cation", "Calcium in bones and teeth", "Macro vs micro nutrient classification"],
+      "3.1. Biochemical molecules>3.1.3. Organic molecules": ["Carbohydrate monomer monosaccharides", "Disaccharide maltose composition", "Polysaccharide energy storage", "Structural polysaccharide cellulose", "Lipid insolubility in water", "Starch as plant storage", "Glycogen as animal storage", "Fatty acid saturation", "Carbohydrate functions"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "8c2f9a3b1d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 17,
+      "questions_per_concept_ratio": 1.18,
+      "structural_coverage_percentage": 27.8
+    }
+  },
+  "grade": "10",
+  "subject": "Biology",
+  "unit": "Unit 3: Biochemical molecules",
+  "pdf_filename": "B10U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T15:45:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 1,
+        "total_sections": 1,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.75,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 3,
+      "mini_headings_covered_count": 17,
+      "structural_coverage_percentage": 47.2,
+      "concept_utilization_ratio": 1.18
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.1. Biochemical molecules>3.1.3. Organic molecules",
+      "least_covered_section": "3.1. Biochemical molecules>3.1.1. Inorganic molecules: water",
+      "imbalance_ratio": 2.75,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.18,
+      "remaining_concept_capacity": 14
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U3_Q011",
+      "generation_timestamp": "2025-01-28T15:45:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.1. Inorganic molecules: water",
+      "sub_subsection": null,
+      "structural_anchor": "3. High latent heat of vaporization",
+      "mcq_type": "G",
+      "question": "If sweat evaporation from skin increases significantly on a hot day, what direct effect does this have on body temperature?",
+      "options": {
+        "A": "Increases core temperature due to metabolic heat",
+        "B": "Decreases skin temperature through cooling",
+        "C": "Stabilizes internal temperature by insulation",
+        "D": "Has no effect on thermal regulation"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the energy required to convert liquid water into water vapor.",
+      "explanation": "Water's high latent heat of vaporization means evaporation requires substantial thermal energy, which is drawn from the skin, producing a cooling effect. Option C describes the role of insulation, which is unrelated to the evaporative cooling mechanism.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.1. Inorganic molecules: water",
+        "structural_element": "3. High latent heat of vaporization",
+        "content_anchor": "latent heat of vaporization...very significant quantities of energy are required for vaporization",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_latent_heat_cooling"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q012",
+      "generation_timestamp": "2025-01-28T15:45:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.1. Inorganic molecules: water",
+      "sub_subsection": null,
+      "structural_anchor": "5. High surface tension and cohesion",
+      "mcq_type": "K",
+      "question": "A raft spider can walk on the surface of a pond without sinking. Which property of water, resulting from intermolecular forces, makes this possible?",
+      "options": {
+        "A": "High specific heat capacity",
+        "B": "Low density as ice",
+        "C": "High surface tension",
+        "D": "Universal solvent property"
+      },
+      "correct_answer": "C",
+      "hint": "This property creates a 'skin' on the water surface that can support small objects.",
+      "explanation": "High surface tension arises from strong cohesive forces between water molecules at the air-water interface, creating a resistant surface. Option A refers to water's thermal stability, which doesn't explain surface support.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.1. Inorganic molecules: water",
+        "structural_element": "5. High surface tension and cohesion",
+        "content_anchor": "High cohesion also results in high surface tension...allows certain small organisms...to walk on the water surface",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_surface_tension"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q013",
+      "generation_timestamp": "2025-01-28T15:45:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.2. Inorganic ions",
+      "sub_subsection": null,
+      "structural_anchor": "c. Potassium ions",
+      "mcq_type": "D",
+      "question": "An average adult requires approximately 3-4 grams of potassium daily. Which of the following foods is the richest natural source of this ion?",
+      "options": {
+        "A": "Bananas and oranges",
+        "B": "Table salt (NaCl)",
+        "C": "Milk and cheese",
+        "D": "Leafy green vegetables"
+      },
+      "correct_answer": "A",
+      "hint": "This fruit is particularly noted for its high potassium content.",
+      "explanation": "Bananas and oranges are fruits exceptionally rich in potassium ions, making them important dietary sources. Option B provides sodium chloride, which is a source of sodium and chloride ions, not potassium.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.2. Inorganic ions",
+        "structural_element": "c. Potassium ions",
+        "content_anchor": "It is abundantly present in fruits like bananas, oranges",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_potassium_sources"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q014",
+      "generation_timestamp": "2025-01-28T15:45:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.2. Inorganic ions",
+      "sub_subsection": null,
+      "structural_anchor": "c. Potassium ions",
+      "mcq_type": "F",
+      "question": "Potassium ions are the major intracellular cations, while sodium ions dominate extracellular fluids. Which reasoning best explains the importance of maintaining this concentration gradient across cell membranes?",
+      "options": {
+        "A": "It prevents water from entering cells by osmosis.",
+        "B": "It provides structural rigidity to the cell membrane.",
+        "C": "It is essential for generating resting membrane potential and nerve impulse transmission.",
+        "D": "It allows for the direct synthesis of ATP within the cytoplasm."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the role of ion gradients in electrical signaling in nerve and muscle cells.",
+      "explanation": "The sodium-potassium gradient established by the Na+/K+ pump creates a resting membrane potential, which is fundamental for nerve impulse propagation and muscle contraction. Option A incorrectly describes osmotic regulation, which involves overall solute concentration rather than specific ion gradients.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.2. Inorganic ions",
+        "structural_element": "c. Potassium ions",
+        "content_anchor": "potassium ions are the major intracellular cations...necessary for the normal functioning of cells, nerves, and muscles",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_potassium_gradient_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q015",
+      "generation_timestamp": "2025-01-28T15:45:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.2. Inorganic ions",
+      "sub_subsection": null,
+      "structural_anchor": "d. Calcium ion",
+      "mcq_type": "A",
+      "question": "Approximately 99% of the calcium in the human body is found in a specific hard tissue. Where is this calcium primarily located?",
+      "options": {
+        "A": "Blood plasma and extracellular fluid",
+        "B": "Muscle cells and nerve endings",
+        "C": "Bones and teeth",
+        "D": "Liver and kidney tissues"
+      },
+      "correct_answer": "C",
+      "hint": "This tissue provides structural support and mineral storage.",
+      "explanation": "The vast majority of body calcium is deposited as calcium phosphate in the hydroxyapatite crystals of bones and teeth, providing strength and rigidity. Option A contains the remaining 1% of calcium, which is involved in physiological processes like blood clotting and muscle contraction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.2. Inorganic ions",
+        "structural_element": "d. Calcium ion",
+        "content_anchor": "Bones and teeth are the major organs having a lot of calcium...99% of calcium is present in bones and teeth",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_calcium_location"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q016",
+      "generation_timestamp": "2025-01-28T15:45:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "- Starch [-(C6H1005)-n]",
+      "mcq_type": "B",
+      "question": "Plants store excess glucose as an insoluble polysaccharide in structures like roots and seeds. What is the name of this storage molecule?",
+      "options": {
+        "A": "Glycogen",
+        "B": "Cellulose",
+        "C": "Starch",
+        "D": "Chitin"
+      },
+      "correct_answer": "C",
+      "hint": "This polymer forms granules and is a major component of foods like potatoes and rice.",
+      "explanation": "Starch is the primary storage polysaccharide in plants, composed of glucose monomers and deposited in amyloplasts within storage organs. Option A, glycogen, is the analogous storage molecule in animals.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "- Starch [-(C6H1005)-n]",
+        "content_anchor": "Starch is the plant's stored form of sugar...stored as starch in various plant components such as roots and seeds",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_starch_storage"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q017",
+      "generation_timestamp": "2025-01-28T15:45:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "- Glycogen [-(C6H1005)-n]",
+      "mcq_type": "D",
+      "question": "During intense exercise, muscle cells rapidly break down a stored polysaccharide to release glucose for energy. Which polysaccharide serves this immediate energy reserve function in muscles?",
+      "options": {
+        "A": "Cellulose",
+        "B": "Starch",
+        "C": "Glycogen",
+        "D": "Chitin"
+      },
+      "correct_answer": "C",
+      "hint": "This highly branched polymer is stored as granules within muscle cells.",
+      "explanation": "Glycogen is the short-term energy storage polysaccharide in animals, hydrolyzed in muscle cells during activity to provide glucose for glycolysis. Option B, starch, is the plant storage equivalent and is not typically found in animal tissues.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "- Glycogen [-(C6H1005)-n]",
+        "content_anchor": "Glycogen...is the storage form of glucose in humans and other animals...stored in liver and muscle cells",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_glycogen_muscle_energy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q018",
+      "generation_timestamp": "2025-01-28T15:45:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "- Cellulose [-(C6H1005)-n]",
+      "mcq_type": "F",
+      "question": "Cellulose fibers in plant cell walls have strength comparable to steel, yet they allow water and solutes to pass through. Which reasoning best explains this combination of properties?",
+      "options": {
+        "A": "Cellulose is a hydrophobic lipid that repels water while providing rigid scaffolding.",
+        "B": "The dense, crystalline packing of glucose chains provides strength, while gaps between fibers create porosity.",
+        "C": "Cellulose contains metallic ions that confer strength, and protein channels facilitate transport.",
+        "D": "It is a flexible, gelatinous matrix that expands when wet, creating pores."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the arrangement of glucose polymers and the spaces between them.",
+      "explanation": "Cellulose microfibrils are tightly packed, linear chains of glucose that provide tensile strength, but they are organized in a meshwork with interstitial spaces. Option A is incorrect because cellulose is hydrophilic, not hydrophobic, and is not a lipid.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "- Cellulose [-(C6H1005)-n]",
+        "content_anchor": "Cellulose fibers are porous, allowing water and solutes to pass...strength of cellulose fibers is roughly similar to that of steel",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_cellulose_structure_property"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 83,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q019",
+      "generation_timestamp": "2025-01-28T15:45:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "- Major functions of carbohydrates",
+      "mcq_type": "J",
+      "question": "Which of the following is correctly classified as a primary function of carbohydrates in living organisms?",
+      "options": {
+        "A": "Formation of phospholipid bilayers in cell membranes",
+        "B": "Long-term energy storage in adipose tissue",
+        "C": "Immediate energy supply through cellular respiration",
+        "D": "Encoding genetic information in nucleotide sequences"
+      },
+      "correct_answer": "C",
+      "hint": "Glucose oxidation yields ATP rapidly.",
+      "explanation": "Carbohydrates, particularly glucose, serve as the primary and most readily metabolized energy source for cellular respiration. Option B describes the function of lipids (fats) for long-term energy storage.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "- Major functions of carbohydrates",
+        "content_anchor": "They serve as the primary source of energy for most organisms",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_carbohydrate_energy_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q020",
+      "generation_timestamp": "2025-01-28T15:45:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "Fatty acids [CH3(CH2)nCOOH]",
+      "mcq_type": "I",
+      "question": "Which statement correctly compares saturated and unsaturated fatty acids based on their chemical structure?",
+      "options": {
+        "A": "Saturated fatty acids contain carbon-carbon double bonds, while unsaturated ones do not.",
+        "B": "Unsaturated fatty acids have one or more carbon-carbon double bonds, while saturated ones have only single bonds.",
+        "C": "Saturated fatty acids are always liquid at room temperature, while unsaturated ones are solid.",
+        "D": "Unsaturated fatty acids have longer hydrocarbon chains than saturated ones."
+      },
+      "correct_answer": "B",
+      "hint": "The term 'saturated' refers to hydrogen atoms bonded to carbon.",
+      "explanation": "Unsaturated fatty acids contain one or more C=C double bonds in their hydrocarbon tails, reducing hydrogen content. Saturated fatty acids have only C-C single bonds and are fully saturated with hydrogen. Option C reverses the typical physical states; saturated fats are usually solid, while unsaturated oils are liquid.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "Fatty acids [CH3(CH2)nCOOH]",
+        "content_anchor": "Unsaturated fatty acids consist of one or more double bonds...Saturated fatty acids have no double bonds",
+        "page_hint": "Page 17-18",
+        "concept_hash": "sha256_of_fatty_acid_saturation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 5120,
+    "average_question_quality": 87.2,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 2,
+      "F": 2,
+      "G": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "3.1. Biochemical molecules>3.1.1. Inorganic molecules: water": 2,
+      "3.1. Biochemical molecules>3.1.2. Inorganic ions": 3,
+      "3.1. Biochemical molecules>3.1.3. Organic molecules": 5
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

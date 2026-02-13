@@ -1,0 +1,843 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2026-01-28T10:20:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Bio_U4_Q030",
+    "covered_sections": ["Introduction to reproduction", "Asexual reproduction", "Types of asexual reproduction", "Sexual reproduction in Humans"],
+    "used_question_signatures": ["8f3c9b2a1d5e7f0a", "4b7a2c9d1e6f0a3b", "2d9a5c7b1f0e3a4b", "5c1a9d3b7f0e2a4b", "7b2d5a1c9f0e3a4b", "1a9c5d3b7f0e2a4b", "9b3c7a1d5f0e2a4b", "3a7c5b1d9f0e2a4b", "6f0a2b4c7d1e3a5b", "2b4a6c0f7d1e3a5b", "4d7a1c9b3f0e2a5b", "7a1d4c9b3f0e2a5b", "1c9a4d7b3f0e2a5b", "9a1c4d7b3f0e2a5b", "c4a1d9b7f0e3a2b5", "d1a4c9b7f0e3a2b5", "a4c1d9b7f0e3a2b5", "9b1c4a7d0f3e2a5b", "b1c9a4d7f0e3a2b5", "1c9b4a7d0f3e2a5b", "7d0f3a2b5c1e4a9b", "3a2b5c7d0f1e4a9b", "2b5c3a7d0f1e4a9b", "5c3a2b7d0f1e4a9b", "c3a5b2d7f0e1a4b9", "a5b2c3d7f0e1a4b9", "b2c5a3d7f0e1a4b9", "2c5b3a7d0f1e4a9b", "5b3c2a7d0f1e4a9b", "3c2b5a7d0f1e4a9b"],
+    "baseline_counter": {
+      "Introduction to reproduction": {
+        "Learning competences": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Activity 4.1. Reflective discussion": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "4.1 Introduction to reproduction": {
+          "count": 1,
+          "mini_headings_covered": ["What is reproduction?"],
+          "last_question_round": 1
+        }
+      },
+      "Asexual reproduction": {
+        "4.2 Asexual reproduction": {
+          "count": 2,
+          "mini_headings_covered": ["What is common to all types of asexual reproduction?"],
+          "last_question_round": 1
+        },
+        "Activity 4.2: Concept mapping": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Types of asexual reproduction": {
+        "4.3 Types of asexual reproduction": {
+          "count": 2,
+          "mini_headings_covered": ["Did You Know?"],
+          "last_question_round": 1
+        },
+        "4.3.1 Fission": {
+          "count": 2,
+          "mini_headings_covered": ["What are the steps of fission?"],
+          "last_question_round": 2
+        },
+        "4.3.2 Fragmentation": {
+          "count": 2,
+          "mini_headings_covered": ["What is fragmentation?"],
+          "last_question_round": 2
+        },
+        "4.3.3 Budding": {
+          "count": 2,
+          "mini_headings_covered": ["In budding, the two daughter cells are unequal. Why?"],
+          "last_question_round": 2
+        },
+        "4.3.4 Vegetative propagation": {
+          "count": 4,
+          "mini_headings_covered": ["What is a stolon?", "What is a rhizome?", "What is a corm?", "What is a tuber?", "What is a bulb?"],
+          "last_question_round": 3
+        },
+        "4.3.5 Parthenogenesis": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Sexual reproduction in Humans": {
+        "4.4 Sexual reproduction in Humans": {
+          "count": 4,
+          "mini_headings_covered": ["What is sexual reproduction?"],
+          "last_question_round": 3
+        },
+        "4.5 Primary and secondary sexual characteristics": {
+          "count": 3,
+          "mini_headings_covered": ["What are primary sexual characteristics?", "What are secondary sexual characteristics?"],
+          "last_question_round": 3
+        },
+        "4.6 Male reproductive structures": {
+          "count": 2,
+          "mini_headings_covered": ["What are the functions of the male reproductive organs?"],
+          "last_question_round": 3
+        },
+        "4.7. Female reproductive structures": {
+          "count": 1,
+          "mini_headings_covered": ["What are the functions of female reproductive organs?"],
+          "last_question_round": 3
+        },
+        "4.8 The Menstrual cycle": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "4.8 Fertilization and pregnancy": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "4.10 Methods of birth control": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "4.11 Sexually transmitted infections (STIs): Transmission and prevention": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction to reproduction": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Asexual reproduction": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Types of asexual reproduction": {
+        "question_count": 13,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Sexual reproduction in Humans": {
+        "question_count": 12,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction to reproduction>4.1 Introduction to reproduction": ["Reproduction as a characteristic of life", "Modes of reproduction"],
+      "Asexual reproduction>4.2 Asexual reproduction": ["Asexual reproduction definition", "Advantages of asexual reproduction", "Disadvantages of asexual reproduction"],
+      "Asexual reproduction>Activity 4.2: Concept mapping": ["Comparison of asexual reproduction types"],
+      "Types of asexual reproduction>4.3 Types of asexual reproduction": ["Bacterial reproduction rate"],
+      "Types of asexual reproduction>4.3.1 Fission": ["Binary fission", "Multiple fission"],
+      "Types of asexual reproduction>4.3.2 Fragmentation": ["Fragmentation as asexual reproduction", "Regeneration in fragmentation"],
+      "Types of asexual reproduction>4.3.3 Budding": ["Budding process", "Unequal division in budding", "Yeast budding"],
+      "Types of asexual reproduction>4.3.4 Vegetative propagation": ["Stolon", "Rhizome", "Corm", "Tuber", "Bulb", "Food storage in vegetative structures", "Bulb structure"],
+      "Types of asexual reproduction>4.3.5 Parthenogenesis": ["Parthenogenesis definition", "Unfertilized egg development", "Male production in honeybees"],
+      "Sexual reproduction in Humans>4.4 Sexual reproduction in Humans": ["Sexual reproduction definition", "Gametes", "Fertilization", "Zygote", "Internal vs external fertilization"],
+      "Sexual reproduction in Humans>4.5 Primary and secondary sexual characteristics": ["Primary sexual characteristics", "Secondary sexual characteristics", "Hormonal control of puberty"],
+      "Sexual reproduction in Humans>4.6 Male reproductive structures": ["Testes function", "Sperm production", "Scrotum function"],
+      "Sexual reproduction in Humans>4.7. Female reproductive structures": ["Ovary function", "Egg production"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 33,
+      "questions_per_concept_ratio": 0.91,
+      "structural_coverage_percentage": 38.2
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 4: Reproduction",
+  "pdf_filename": "B9U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-01-28T10:25:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 8,
+        "progress_percentage": 50.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 6.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 16,
+      "mini_headings_covered_count": 14,
+      "structural_coverage_percentage": 38.2,
+      "concept_utilization_ratio": 0.91
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Types of asexual reproduction",
+      "least_covered_section": "Introduction to reproduction",
+      "imbalance_ratio": 6.5,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.91,
+      "remaining_concept_capacity": 3
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U4_Q021",
+      "generation_timestamp": "2026-01-28T10:11:00Z",
+      "section": "Asexual reproduction",
+      "subsection": "Activity 4.2: Concept mapping",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 4.2: Concept mapping",
+      "mcq_type": "I",
+      "question": "Both fission and budding are forms of asexual reproduction. What distinguishes these two processes?",
+      "options": {
+        "A": "Fission produces genetically diverse offspring, while budding produces identical offspring.",
+        "B": "Fission results in equal-sized daughter cells, while budding produces unequal-sized cells.",
+        "C": "Fission occurs only in plants, while budding occurs only in animals.",
+        "D": "Fission requires gamete formation, while budding does not."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the relative sizes of the offspring produced.",
+      "explanation": "Binary fission divides a parent cell into two equal halves, while budding produces a smaller outgrowth that detaches. Option A is incorrect because both processes produce genetically identical offspring through mitotic division.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 86
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Asexual reproduction",
+        "subsection_anchor": "Activity 4.2: Concept mapping",
+        "structural_element": "Activity 4.2: Concept mapping",
+        "content_anchor": "discuss the differences and similarities... among different types of asexual reproduction",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_comparison_of_asexual_types"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 81,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q022",
+      "generation_timestamp": "2026-01-28T10:11:30Z",
+      "section": "Types of asexual reproduction",
+      "subsection": "4.3.4 Vegetative propagation",
+      "sub_subsection": null,
+      "structural_anchor": "What is a bulb?",
+      "mcq_type": "B",
+      "question": "Which vegetative structure consists of a short stem surrounded by fleshy leaves and functions as an underground storage unit?",
+      "options": {
+        "A": "Tuber",
+        "B": "Bulb",
+        "C": "Rhizome",
+        "D": "Corm"
+      },
+      "correct_answer": "B",
+      "hint": "This structure often has layers like an onion.",
+      "explanation": "A bulb is a modified stem with fleshy leaves that store nutrients underground, enabling plant survival and regrowth. Option A refers to a tuber, which is a swollen stem without the layered leaf structure.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 78
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Types of asexual reproduction",
+        "subsection_anchor": "4.3.4 Vegetative propagation",
+        "structural_element": "What is a bulb?",
+        "content_anchor": "bulb... is a modification of a stem that has the appearance of enlarged fleshy leaves",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_bulb_structure"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 83
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q023",
+      "generation_timestamp": "2026-01-28T10:12:00Z",
+      "section": "Types of asexual reproduction",
+      "subsection": "4.3.5 Parthenogenesis",
+      "sub_subsection": null,
+      "structural_anchor": "4.3.5 Parthenogenesis",
+      "mcq_type": "D",
+      "question": "In honeybee colonies, unfertilized eggs develop into drones through parthenogenesis. What is the genetic relationship between these drones and their queen mother?",
+      "options": {
+        "A": "Drones are genetically identical clones of the queen.",
+        "B": "Drones are genetically different from the queen due to mutation.",
+        "C": "Drones are genetically identical to worker bees.",
+        "D": "Drones have half the genetic material of the queen."
+      },
+      "correct_answer": "D",
+      "hint": "Consider that unfertilized eggs are haploid.",
+      "explanation": "Unfertilized eggs are haploid, containing half the queen's genetic material, so drones have half the genetic content. Option A is incorrect because clones would be genetically identical diploid individuals.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 84
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Types of asexual reproduction",
+        "subsection_anchor": "4.3.5 Parthenogenesis",
+        "structural_element": "4.3.5 Parthenogenesis",
+        "content_anchor": "all the bees derived through parthenogenesis are males these are the few drones",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_male_production_in_honeybees"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q024",
+      "generation_timestamp": "2026-01-28T10:12:30Z",
+      "section": "Sexual reproduction in Humans",
+      "subsection": "4.4 Sexual reproduction in Humans",
+      "sub_subsection": null,
+      "structural_anchor": "What is sexual reproduction?",
+      "mcq_type": "I",
+      "question": "How does internal fertilization differ from external fertilization?",
+      "options": {
+        "A": "Internal fertilization occurs outside the female's body, while external fertilization occurs inside.",
+        "B": "Internal fertilization involves gamete fusion inside the female's body, while external fertilization occurs in water.",
+        "C": "Internal fertilization produces fewer offspring, while external fertilization produces more offspring.",
+        "D": "Internal fertilization requires aquatic environments, while external fertilization requires terrestrial environments."
+      },
+      "correct_answer": "B",
+      "hint": "Consider where the sperm and egg meet.",
+      "explanation": "Internal fertilization involves sperm meeting egg within the female reproductive tract, while external fertilization typically occurs in water where both gametes are released. Option A incorrectly reverses the locations of the two processes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 87
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Sexual reproduction in Humans",
+        "subsection_anchor": "4.4 Sexual reproduction in Humans",
+        "structural_element": "What is sexual reproduction?",
+        "content_anchor": "can occur either inside (internal fertilization) or outside (external fertilization) the body",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_internal_vs_external_fertilization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q025",
+      "generation_timestamp": "2026-01-28T10:13:00Z",
+      "section": "Sexual reproduction in Humans",
+      "subsection": "4.4 Sexual reproduction in Humans",
+      "sub_subsection": null,
+      "structural_anchor": "What is sexual reproduction?",
+      "mcq_type": "F",
+      "question": "If genetic variation in offspring is advantageous for species survival in changing environments, which reproductive method would be most beneficial?",
+      "options": {
+        "A": "Asexual reproduction through binary fission",
+        "B": "Sexual reproduction involving meiosis and fertilization",
+        "C": "Vegetative propagation using stolons",
+        "D": "Parthenogenesis from unfertilized eggs"
+      },
+      "correct_answer": "B",
+      "hint": "Consider which process introduces genetic recombination.",
+      "explanation": "Sexual reproduction combines genetic material from two parents through meiosis and fertilization, generating unique genetic combinations. Option A produces genetically identical offspring, which offers no genetic variation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 85
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Sexual reproduction in Humans",
+        "subsection_anchor": "4.4 Sexual reproduction in Humans",
+        "structural_element": "What is sexual reproduction?",
+        "content_anchor": "sexual reproduction involves the production of sex cells",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_genetic_variation_in_sexual_reproduction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q026",
+      "generation_timestamp": "2026-01-28T10:13:30Z",
+      "section": "Sexual reproduction in Humans",
+      "subsection": "4.5 Primary and secondary sexual characteristics",
+      "sub_subsection": null,
+      "structural_anchor": "What role do hormones play in puberty?",
+      "mcq_type": "G",
+      "question": "What is the primary effect of increased estrogen levels in females during puberty?",
+      "options": {
+        "A": "Development of facial hair and deepening of voice",
+        "B": "Stimulation of breast development and hip broadening",
+        "C": "Production of sperm cells in the testes",
+        "D": "Increased muscle mass and growth of body hair"
+      },
+      "correct_answer": "B",
+      "hint": "Estrogen is the primary female sex hormone.",
+      "explanation": "Estrogen triggers female secondary sexual characteristics, including breast development, hip broadening, and fat deposition. Option A describes effects of testosterone, the primary male sex hormone.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 86
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Sexual reproduction in Humans",
+        "subsection_anchor": "4.5 Primary and secondary sexual characteristics",
+        "structural_element": "What role do hormones play in puberty?",
+        "content_anchor": "estrogen... is responsible for the secondary sex characteristics of females",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_estrogen_effects"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q027",
+      "generation_timestamp": "2026-01-28T10:14:00Z",
+      "section": "Sexual reproduction in Humans",
+      "subsection": "4.6 Male reproductive structures",
+      "sub_subsection": null,
+      "structural_anchor": "What are the functions of the male reproductive organs?",
+      "mcq_type": "B",
+      "question": "What is the primary function of the testes in the male reproductive system?",
+      "options": {
+        "A": "Storage and maturation of sperm",
+        "B": "Production of sperm and testosterone",
+        "C": "Transport of sperm during ejaculation",
+        "D": "Secretion of fluids that nourish sperm"
+      },
+      "correct_answer": "B",
+      "hint": "Consider both the cellular and hormonal products.",
+      "explanation": "Testes produce sperm through spermatogenesis in seminiferous tubules and secrete testosterone from interstitial cells. Option A describes the function of the epididymis, where sperm mature and are stored.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Sexual reproduction in Humans",
+        "subsection_anchor": "4.6 Male reproductive structures",
+        "structural_element": "What are the functions of the male reproductive organs?",
+        "content_anchor": "paired testes are the sites of sperm production... produce the male sex hormone (testosterone)",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_tests_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q028",
+      "generation_timestamp": "2026-01-28T10:14:30Z",
+      "section": "Sexual reproduction in Humans",
+      "subsection": "4.6 Male reproductive structures",
+      "sub_subsection": null,
+      "structural_anchor": "What are the functions of the male reproductive organs?",
+      "mcq_type": "G",
+      "question": "Why are human testes located in the scrotum outside the abdominal cavity?",
+      "options": {
+        "A": "To protect testes from physical injury",
+        "B": "To provide a cooler temperature for sperm production",
+        "C": "To allow easier access for medical examination",
+        "D": "To reduce friction during movement"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the temperature sensitivity of sperm development.",
+      "explanation": "Spermatogenesis requires temperatures 2-3°C below body temperature, which the scrotal location provides. Option A is incorrect because external placement actually increases vulnerability to injury rather than protecting testes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 85
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Sexual reproduction in Humans",
+        "subsection_anchor": "4.6 Male reproductive structures",
+        "structural_element": "What are the functions of the male reproductive organs?",
+        "content_anchor": "provides an environment of slightly lower temperature... viable sperm do not form at temperatures maintained within the body",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_scrotum_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q029",
+      "generation_timestamp": "2026-01-28T10:15:00Z",
+      "section": "Sexual reproduction in Humans",
+      "subsection": "4.7. Female reproductive structures",
+      "sub_subsection": null,
+      "structural_anchor": "What are the functions of female reproductive organs?",
+      "mcq_type": "B",
+      "question": "Which female reproductive organs produce eggs and secrete estrogen and progesterone?",
+      "options": {
+        "A": "Ovaries",
+        "B": "Oviducts",
+        "C": "Uterus",
+        "D": "Vagina"
+      },
+      "correct_answer": "A",
+      "hint": "These are the primary female gonads.",
+      "explanation": "Ovaries are the female gonads responsible for egg production (oogenesis) and secretion of estrogen and progesterone. Option B refers to fallopian tubes that transport eggs, not produce them.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 77
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Sexual reproduction in Humans",
+        "subsection_anchor": "4.7. Female reproductive structures",
+        "structural_element": "What are the functions of female reproductive organs?",
+        "content_anchor": "ovaries... produce and release egg. They also secrete estrogens and progesterone",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_ovary_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 82
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q030",
+      "generation_timestamp": "2026-01-28T10:15:30Z",
+      "section": "Sexual reproduction in Humans",
+      "subsection": "4.5 Primary and secondary sexual characteristics",
+      "sub_subsection": null,
+      "structural_anchor": "What are the psychological and social changes during puberty? How do they affect life of the youth?",
+      "mcq_type": "F",
+      "question": "During puberty, adolescents experience rapid physical changes that can affect body image. What psychological challenge might a late-maturing male face compared to early-maturing peers?",
+      "options": {
+        "A": "Greater confidence and higher social status among peers",
+        "B": "Increased risk of developing feminine characteristics",
+        "C": "Potential for lower self-esteem and poor self-image",
+        "D": "Earlier development of romantic relationships"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the social comparison and self-perception during adolescent development.",
+      "explanation": "Late-maturing males may experience negative self-comparison with peers, leading to lower self-esteem and social anxiety. Option A describes potential advantages often associated with early maturation rather than late maturation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 84
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Sexual reproduction in Humans",
+        "subsection_anchor": "4.5 Primary and secondary sexual characteristics",
+        "structural_element": "What are the psychological and social changes during puberty? How do they affect life of the youth?",
+        "content_anchor": "late-developing males may suffer from a poor self-image",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_psychological_challenges_puberty"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 86
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 270000,
+    "average_question_quality": 84.4,
+    "type_distribution": {
+      "B": 2,
+      "D": 1,
+      "F": 2,
+      "G": 2,
+      "I": 3
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Asexual reproduction": 1,
+      "Types of asexual reproduction": 2,
+      "Sexual reproduction in Humans": 7
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

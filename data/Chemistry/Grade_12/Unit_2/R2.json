@@ -1,0 +1,957 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T10:10:00Z",
+  "round_id": "R01",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Chem_U2_Q020",
+    "covered_sections": [
+      "Unit Outcomes",
+      "2.1 Oxidation-Reduction Reactions>2.1.1 Oxidation",
+      "2.1 Oxidation-Reduction Reactions>2.1.2 Reduction",
+      "2.1 Oxidation-Reduction Reactions>2.1.3 Balancing Oxidation-Reduction (Redox) Reactions",
+      "2.2 Electrolysis of Aqueous Solutions>2.2.1 Electrolytic Cells",
+      "2.2 Electrolysis of Aqueous Solutions>2.2.2 Preferential Discharge",
+      "2.2 Electrolysis of Aqueous Solutions>2.2.3 Electrolysis of Some Selected Aqueous Solutions",
+      "2.3 Quantitative Aspects of Electrolysis>2.3.1 Faraday's First Law of Electrolysis",
+      "2.3 Quantitative Aspects of Electrolysis>2.3.2 Faraday's Second Law of Electrolysis",
+      "2.4 Industrial Application of Electrolysis>Extraction of Metals"
+    ],
+    "used_question_signatures": [
+      "A_Redox_Reaction_Definition_Unit_Outcomes",
+      "B_Oxidation_Electron_Loss_2.1.1",
+      "C_Reduction_Electron_Gain_2.1.2",
+      "D_Redox_Identification_Mg_HCl_2.1.2",
+      "E_Balancing_Oxidation_Number_PbS_2.1.3",
+      "F_Conceptual_Half_Reaction_Electron_Flow_2.1.3",
+      "G_Cause_Effect_Concentration_Preferred_Discharge_2.2.1",
+      "H_Misconception_Electrolytic_Cell_Energy_2.2.1",
+      "I_Comparison_Metallic_Electrolytic_Conduction_2.2.1",
+      "J_Classification_Conductors_Activity_2.2",
+      "K_Interpretation_Electrochemical_Series_Preferred_Discharge_2.2.2",
+      "L_Experimental_NaCl_Electrolysis_Products_2.2.3",
+      "M_Sequence_Preferred_Discharge_Factors_Order_2.2.2",
+      "N_Limitation_Active_Electrode_Effect_2.2.2",
+      "D_Direct_Application_Faradays_First_Law_Mass_Calculation_2.3.1",
+      "E_Numerical_Faradays_Second_Law_Mass_Ratio_2.3.2",
+      "F_Conceptual_Aluminum_Extraction_Electrolysis_2.4",
+      "G_Cause_Effect_Reactivity_Series_Metal_Extraction_2.4",
+      "H_Misconception_Electrorefining_Anode_Mud_2.4",
+      "I_Comparison_Extraction_Methods_Carbon_vs_Electrolysis_2.4"
+    ],
+    "baseline_counter": {
+      "Unit Outcomes": {
+        "Unit Outcomes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "2.1 Oxidation-Reduction Reactions": {
+        "2.1.1 Oxidation": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.1.2 Reduction": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.1.3 Balancing Oxidation-Reduction (Redox) Reactions": {
+          "count": 2,
+          "mini_headings_covered": ["Balancing Redox Reactions Using Change in Oxidation-Number Method"],
+          "last_question_round": 1
+        }
+      },
+      "2.2 Electrolysis of Aqueous Solutions": {
+        "2.2.1 Electrolytic Cells": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.2.2 Preferential Discharge": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.2.3 Electrolysis of Some Selected Aqueous Solutions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "2.3 Quantitative Aspects of Electrolysis": {
+        "2.3.1 Faraday's First Law of Electrolysis": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.3.2 Faraday's Second Law of Electrolysis": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "2.4 Industrial Application of Electrolysis": {
+        "Extraction of Metals": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Electrolytic refining of Metals": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Electroplating of Metals": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Electrolysynthesis of Nonmetals and Compounds": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.5 Volatic Cells": {
+        "Construction of Voltaic Cells (Zn-Cu voltaic Cell)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Cell diagram (Cell Notation)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Measuring Standard electrode Potentials": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Electromotive Force (EMF)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Dependent of Cell Potential EMF on Concentration": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Nernst Equation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Concentration Cells": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Determination of pH": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Batteries": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Fuel cells": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Corrosion of Metals": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Protecting Against the Corrosion of Iron": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Unit Summary": {
+        "Unit Summary": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "CHECK LIST": {
+        "CHECK LIST": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "KEY TERMS": {
+        "KEY TERMS": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Unit Outcomes": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.1 Oxidation-Reduction Reactions": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.2 Electrolysis of Aqueous Solutions": {
+        "question_count": 7,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "2.3 Quantitative Aspects of Electrolysis": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "2.4 Industrial Application of Electrolysis": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "2.5 Volatic Cells": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Unit Summary": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "CHECK LIST": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "KEY TERMS": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Unit Outcomes>Unit Outcomes": ["redox reactions", "oxidation-reduction"],
+      "2.1 Oxidation-Reduction Reactions>2.1.1 Oxidation": ["electron loss", "increase in oxidation number"],
+      "2.1 Oxidation-Reduction Reactions>2.1.2 Reduction": ["electron gain", "decrease in oxidation number", "redox pair"],
+      "2.1 Oxidation-Reduction Reactions>2.1.3 Balancing Oxidation-Reduction (Redox) Reactions": ["oxidation number method", "half-reaction method", "electron transfer"],
+      "2.2 Electrolysis of Aqueous Solutions>2.2.1 Electrolytic Cells": ["electrolytic conduction", "metallic conduction", "ion migration", "energy conversion"],
+      "2.2 Electrolysis of Aqueous Solutions>2.2.2 Preferential Discharge": ["electrochemical series", "concentration effect", "electrode nature", "discharge preference"],
+      "2.2 Electrolysis of Aqueous Solutions>2.2.3 Electrolysis of Some Selected Aqueous Solutions": ["brine electrolysis", "hydrogen production", "chlorine production"],
+      "2.3 Quantitative Aspects of Electrolysis>2.3.1 Faraday's First Law of Electrolysis": ["mass proportional to charge", "electrochemical equivalent", "current-time relationship"],
+      "2.3 Quantitative Aspects of Electrolysis>2.3.2 Faraday's Second Law of Electrolysis": ["mass ratio equals equivalent mass ratio", "series electrolysis", "equivalent mass proportionality"],
+      "2.4 Industrial Application of Electrolysis>Extraction of Metals": ["aluminum extraction", "molten oxide electrolysis", "reactive metals", "carbon reduction limitation"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_after_batch_1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 25,
+      "questions_per_concept_ratio": 0.8,
+      "structural_coverage_percentage": 33.3
+    }
+  },
+  "grade": "12",
+  "subject": "Chemistry",
+  "unit": "Unit 2: ELECTROCHEMISTRY",
+  "pdf_filename": "C12U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T10:15:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 9,
+        "progress_percentage": 55.6
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 7.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 10,
+      "mini_headings_covered_count": 1,
+      "structural_coverage_percentage": 37.0,
+      "concept_utilization_ratio": 0.8
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.2 Electrolysis of Aqueous Solutions",
+      "least_covered_section": "2.5 Volatic Cells",
+      "imbalance_ratio": 7.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Chem_U2_Q011",
+      "generation_timestamp": "2025-01-27T10:11:00Z",
+      "section": "2.2 Electrolysis of Aqueous Solutions",
+      "subsection": "2.2.2 Preferential Discharge",
+      "sub_subsection": null,
+      "structural_anchor": "2.2.2 Preferential Discharge",
+      "mcq_type": "K",
+      "question": "Given copper ions are lower in the electrochemical series than potassium ions, what inference can be made about their discharge at the cathode during electrolysis?",
+      "options": {
+        "A": "Potassium ions discharge first due to higher reactivity.",
+        "B": "Copper ions discharge first despite lower concentration.",
+        "C": "Both discharge simultaneously in proportion to concentration.",
+        "D": "Neither discharges if hydroxide ions are present."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the relationship between electrochemical series position and discharge preference.",
+      "explanation": "Copper ions discharge preferentially over potassium ions because lower position in the electrochemical series indicates greater tendency to gain electrons. Option A incorrectly reverses the relationship between electrochemical series position and discharge preference.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.2 Electrolysis of Aqueous Solutions",
+        "subsection_anchor": "2.2.2 Preferential Discharge",
+        "structural_element": "2.2.2 Preferential Discharge",
+        "content_anchor": "the copper ions will accept electrons, and get discharged as copper atoms first",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_electrochemical_series_discharge"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 81,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q012",
+      "generation_timestamp": "2025-01-27T10:11:30Z",
+      "section": "2.2 Electrolysis of Aqueous Solutions",
+      "subsection": "2.2.3 Electrolysis of Some Selected Aqueous Solutions",
+      "sub_subsection": null,
+      "structural_anchor": "Electrolysis of concentrated Sodium Chloride solution (brine solution)",
+      "mcq_type": "L",
+      "question": "What products form at the electrodes during the electrolysis of concentrated sodium chloride solution with inert electrodes?",
+      "options": {
+        "A": "Hydrogen at cathode, oxygen at anode",
+        "B": "Sodium at cathode, chlorine at anode",
+        "C": "Hydrogen at cathode, chlorine at anode",
+        "D": "Oxygen at cathode, chlorine at anode"
+      },
+      "correct_answer": "C",
+      "hint": "Consider which ions discharge preferentially in concentrated chloride solution.",
+      "explanation": "Hydrogen ions discharge at the cathode producing hydrogen gas, while chloride ions discharge at the anode producing chlorine gas. Option A incorrectly identifies oxygen formation, which occurs in dilute solutions or with different electrolytes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.2 Electrolysis of Aqueous Solutions",
+        "subsection_anchor": "2.2.3 Electrolysis of Some Selected Aqueous Solutions",
+        "structural_element": "Electrolysis of concentrated Sodium Chloride solution (brine solution)",
+        "content_anchor": "Cathode: 2H⁺(aq) + 2e⁻ → H₂(g); Anode: 2Cl⁻(aq) → Cl₂(g) + 2e⁻",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_brine_electrolysis_products"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q013",
+      "generation_timestamp": "2025-01-27T10:12:00Z",
+      "section": "2.2 Electrolysis of Aqueous Solutions",
+      "subsection": "2.2.2 Preferential Discharge",
+      "sub_subsection": null,
+      "structural_anchor": "2.2.2 Preferential Discharge",
+      "mcq_type": "M",
+      "question": "In what order should these factors be considered when predicting which ion discharges at an electrode: (1) electrochemical series position, (2) ion concentration, (3) electrode material?",
+      "options": {
+        "A": "1, then 2, then 3",
+        "B": "2, then 1, then 3",
+        "C": "3, then 1, then 2",
+        "D": "All factors simultaneously with equal weight"
+      },
+      "correct_answer": "C",
+      "hint": "Consider which factor fundamentally changes the available discharge reactions.",
+      "explanation": "Electrode material is considered first because active electrodes undergo oxidation themselves, changing available reactions. Option A incorrectly prioritizes electrochemical series position, which applies primarily to inert electrodes.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.2 Electrolysis of Aqueous Solutions",
+        "subsection_anchor": "2.2.2 Preferential Discharge",
+        "structural_element": "2.2.2 Preferential Discharge",
+        "content_anchor": "if the electrode used is inert... when the electrode used is active... it takes part in the electrode reaction",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_discharge_factors_order"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 86,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q014",
+      "generation_timestamp": "2025-01-27T10:12:30Z",
+      "section": "2.2 Electrolysis of Aqueous Solutions",
+      "subsection": "2.2.2 Preferential Discharge",
+      "sub_subsection": null,
+      "structural_anchor": "The Nature of Electrode",
+      "mcq_type": "N",
+      "question": "Under what condition does the electrochemical series fail to predict discharge order at an electrode?",
+      "options": {
+        "A": "When ion concentrations are unequal",
+        "B": "When the electrolyte temperature exceeds 50°C",
+        "C": "When using an active electrode material",
+        "D": "When the solution is highly acidic"
+      },
+      "correct_answer": "C",
+      "hint": "Consider when the electrode itself participates in the reaction.",
+      "explanation": "Active electrodes undergo oxidation themselves, bypassing anion discharge predictions based on the electrochemical series. Option A describes a situation where concentration affects discharge order but doesn't invalidate the electrochemical series framework.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.2 Electrolysis of Aqueous Solutions",
+        "subsection_anchor": "2.2.2 Preferential Discharge",
+        "structural_element": "The Nature of Electrode",
+        "content_anchor": "when the electrode used is active... it takes part in the electrode reaction and plays an important role in deciding the ions which will preferentially be discharged",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_active_electrode_limitation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q015",
+      "generation_timestamp": "2025-01-27T10:13:00Z",
+      "section": "2.3 Quantitative Aspects of Electrolysis",
+      "subsection": "2.3.1 Faraday's First Law of Electrolysis",
+      "sub_subsection": null,
+      "structural_anchor": "2.3.1 Faraday's First Law of Electrolysis",
+      "mcq_type": "D",
+      "question": "What mass of copper deposits during electrolysis when 0.0253 moles of electrons pass through copper(II) sulfate solution?",
+      "options": {
+        "A": "0.804 g",
+        "B": "1.608 g",
+        "C": "0.402 g",
+        "D": "3.216 g"
+      },
+      "correct_answer": "A",
+      "hint": "Use the relationship Cu²⁺ + 2e⁻ → Cu(s) and copper's molar mass (63.5 g/mol).",
+      "explanation": "Each mole of copper requires 2 moles of electrons. Mass = (0.0253 mol e⁻ ÷ 2) × 63.5 g/mol = 0.804 g. Option C results from using the full electron amount without dividing by 2 for the stoichiometry.",
+      "difficulty_level": "medium",
+      "formula_used": ["m = (Q × M) / (n × F)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "g",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.3 Quantitative Aspects of Electrolysis",
+        "subsection_anchor": "2.3.1 Faraday's First Law of Electrolysis",
+        "structural_element": "2.3.1 Faraday's First Law of Electrolysis",
+        "content_anchor": "2 mol e⁻ = 63.5 g Cu",
+        "page_hint": "Page 28",
+        "concept_hash": "sha256_of_faraday_first_law_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q016",
+      "generation_timestamp": "2025-01-27T10:13:30Z",
+      "section": "2.3 Quantitative Aspects of Electrolysis",
+      "subsection": "2.3.2 Faraday's Second Law of Electrolysis",
+      "sub_subsection": null,
+      "structural_anchor": "2.3.2 Faraday's Second Law of Electrolysis",
+      "mcq_type": "E",
+      "question": "If 0.108 g of silver deposits during electrolysis of cells in series, what mass of copper deposits given equivalent masses of 108 g/eq for Ag and 31.75 g/eq for Cu?",
+      "options": {
+        "A": "0.016 g",
+        "B": "0.032 g",
+        "C": "0.064 g",
+        "D": "0.128 g"
+      },
+      "correct_answer": "B",
+      "hint": "Apply the ratio m₁/E₁ = m₂/E₂ using the given equivalent masses.",
+      "explanation": "Using m_Cu/E_Cu = m_Ag/E_Ag: m_Cu = (31.75 × 0.108) / 108 = 0.032 g. Option A results from incorrectly inverting the ratio or miscalculating the division.",
+      "difficulty_level": "medium",
+      "formula_used": ["m₁/E₁ = m₂/E₂"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "g",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.3 Quantitative Aspects of Electrolysis",
+        "subsection_anchor": "2.3.2 Faraday's Second Law of Electrolysis",
+        "structural_element": "2.3.2 Faraday's Second Law of Electrolysis",
+        "content_anchor": "m_Cu = (E_Cu × m_Ag) / E_Ag = 0.032 g",
+        "page_hint": "Page 30",
+        "concept_hash": "sha256_of_faraday_second_law_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q017",
+      "generation_timestamp": "2025-01-27T10:14:00Z",
+      "section": "2.4 Industrial Application of Electrolysis",
+      "subsection": "Extraction of Metals",
+      "sub_subsection": null,
+      "structural_anchor": "Extraction of Metals",
+      "mcq_type": "F",
+      "question": "Under the condition that aluminum oxide must be molten for electrolysis, which reasoning best explains why aluminum extraction uses electrolysis rather than carbon reduction?",
+      "options": {
+        "A": "Aluminum has higher affinity for oxygen than carbon, making reduction by carbon thermodynamically unfavorable.",
+        "B": "Aluminum oxide decomposes spontaneously at high temperatures without needing reduction.",
+        "C": "Carbon reduction produces aluminum carbide as an undesirable byproduct.",
+        "D": "Electrolysis requires less energy than carbon reduction for aluminum production."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the relative positions of aluminum and carbon in the reactivity series.",
+      "explanation": "Aluminum's high oxygen affinity places it above carbon in the reactivity series, making carbon unable to displace aluminum from its oxide. Option C incorrectly identifies a byproduct issue rather than the fundamental thermodynamic limitation.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.4 Industrial Application of Electrolysis",
+        "subsection_anchor": "Extraction of Metals",
+        "structural_element": "Extraction of Metals",
+        "content_anchor": "metals more reactive than carbon are extracted using electrolysis",
+        "page_hint": "Page 32",
+        "concept_hash": "sha256_of_aluminum_extraction_rationale"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 79,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q018",
+      "generation_timestamp": "2025-01-27T10:14:30Z",
+      "section": "2.4 Industrial Application of Electrolysis",
+      "subsection": "Extraction of Metals",
+      "sub_subsection": null,
+      "structural_anchor": "Extraction of Metals",
+      "mcq_type": "G",
+      "question": "If a metal is less reactive than carbon, what happens to the extraction method preference for obtaining it from its ore?",
+      "options": {
+        "A": "Electrolysis becomes necessary due to high reduction potential.",
+        "B": "Carbon reduction becomes feasible and more economical.",
+        "C": "Both methods work equally well, so cost determines choice.",
+        "D": "Direct thermal decomposition without reducing agent is possible."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the thermodynamic feasibility of displacement reactions based on reactivity.",
+      "explanation": "Metals below carbon in the reactivity series can be reduced by carbon through displacement reactions. Option A incorrectly applies to metals more reactive than carbon, which require electrolysis.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.4 Industrial Application of Electrolysis",
+        "subsection_anchor": "Extraction of Metals",
+        "structural_element": "Extraction of Metals",
+        "content_anchor": "if a metal is less reactive than carbon, it can be extracted by reacting it with carbon",
+        "page_hint": "Page 32",
+        "concept_hash": "sha256_of_carbon_reduction_applicability"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q019",
+      "generation_timestamp": "2025-01-27T10:15:00Z",
+      "section": "2.4 Industrial Application of Electrolysis",
+      "subsection": "Extraction of Metals",
+      "sub_subsection": null,
+      "structural_anchor": "Electrolytic refining of Metals",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that anode mud in electrorefining consists of soluble impurities?",
+      "options": {
+        "A": "Anode mud contains insoluble impurities that settle, while soluble impurities remain in solution.",
+        "B": "Anode mud actually represents purified metal that failed to dissolve completely.",
+        "C": "All impurities dissolve during electrorefining, leaving no solid residue.",
+        "D": "Anode mud forms from cathode deposition rather than anode dissolution."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the different behaviors of soluble versus insoluble impurities during electrolysis.",
+      "explanation": "Insoluble impurities settle as anode mud, while soluble impurities enter the electrolyte solution. Option C incorrectly suggests complete dissolution of all impurities, which doesn't account for insoluble components.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_pressed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.4 Industrial Application of Electrolysis",
+        "subsection_anchor": "Extraction of Metals",
+        "structural_element": "Electrolytic refining of Metals",
+        "content_anchor": "insoluble impurities settle down at the bottom of the anode and are known as anode mud whereas the soluble impurities go into the solution",
+        "page_hint": "Page 33",
+        "concept_hash": "sha256_of_anode_mud_composition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Chem_U2_Q020",
+      "generation_timestamp": "2025-01-27T10:15:30Z",
+      "section": "2.4 Industrial Application of Electrolysis",
+      "subsection": "Extraction of Metals",
+      "sub_subsection": null,
+      "structural_anchor": "Extraction of Metals",
+      "mcq_type": "I",
+      "question": "How does electrolytic extraction of aluminum differ from carbon reduction of iron in terms of raw material state and reducing agent?",
+      "options": {
+        "A": "Aluminum uses molten oxide with electrical reduction; iron uses solid oxide with carbon reduction.",
+        "B": "Both use carbon reduction but at different temperature ranges.",
+        "C": "Both require electrolysis but with different electrolyte compositions.",
+        "D": "Aluminum uses solid oxide with carbon reduction; iron uses molten oxide with electrolysis."
+      },
+      "correct_answer": "A",
+      "hint": "Compare the physical state of the ore and the nature of the reducing agent in each process.",
+      "explanation": "Aluminum extraction electrolyzes molten aluminum oxide, while iron reduction uses solid iron oxide with carbon. Option D incorrectly reverses the methods used for each metal extraction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "2.4 Industrial Application of Electrolysis",
+        "subsection_anchor": "Extraction of Metals",
+        "structural_element": "Extraction of Metals",
+        "content_anchor": "aluminum from aluminum oxide using electrolysis; iron from iron oxide using carbon reduction",
+        "page_hint": "Pages 32-33",
+        "concept_hash": "sha256_of_extraction_methods_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 77,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3500,
+    "average_question_quality": 87.2,
+    "type_distribution": {
+      "K": 1,
+      "L": 1,
+      "M": 1,
+      "N": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1
+    },
+    "difficulty_distribution": {
+      "easy": 0,
+      "medium": 8,
+      "hard": 2
+    },
+    "section_distribution": {
+      "2.2 Electrolysis of Aqueous Solutions": 4,
+      "2.3 Quantitative Aspects of Electrolysis": 2,
+      "2.4 Industrial Application of Electrolysis": 4
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

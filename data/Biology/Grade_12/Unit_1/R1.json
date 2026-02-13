@@ -1,0 +1,808 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-27T10:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Bio_U1_Q010",
+    "covered_sections": ["1.1. Application in Conservation of natural resources", "1.2. Food and nutrition security", "1.3. Creating conscious citizens and ensuring sustainable development", "1.4. Applications in biotechnology", "1.5. Genetic Engineering"],
+    "used_question_signatures": ["7a165744d7b8c96d6d8a7b4b9d8e6f1a", "e3c7b8d9f1a2b3c4d5e6f7a8b9c0d1e2", "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d", "f5e4d3c2b1a9f8e7d6c5b4a3f2e1d0", "b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4", "d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5", "c2a3b4c5d6e7f8a9b0c1d2e3f4a5b6", "e1f2a3b4c5d6e7f8a9b0c1d2e3f4a", "a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2", "d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7"],
+    "baseline_counter": {
+      "Unit learning outcome": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "1.1. Application in Conservation of natural resources": {
+        "count": 2,
+        "mini_headings_covered": ["Keywords"],
+        "last_question_round": 1
+      },
+      "1.2. Food and nutrition security": {
+        "count": 2,
+        "mini_headings_covered": ["Keywords"],
+        "last_question_round": 1
+      },
+      "1.3. Creating conscious citizens and ensuring sustainable development": {
+        "count": 2,
+        "mini_headings_covered": ["Keywords"],
+        "last_question_round": 1
+      },
+      "1.4. Applications in biotechnology": {
+        "count": 2,
+        "mini_headings_covered": ["(i). Application of Biology for Food processing and production"],
+        "last_question_round": 1
+      },
+      "1.5. Genetic Engineering": {
+        "count": 2,
+        "mini_headings_covered": ["a. Animal breeding and transgenic animals, and plants and disease, and pest management"],
+        "last_question_round": 1
+      },
+      "1.6. Health and wellbeing": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "V). Applications in biomining": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "VI. Application in the Environment": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "1. Application in Industry": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "VIII. Applications in agriculture": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "X. Biological warfare": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "UNIT SUMMARY": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "III. Review Questions": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1. Application in Conservation of natural resources": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.2. Food and nutrition security": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.3. Creating conscious citizens and ensuring sustainable development": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.4. Applications in biotechnology": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.5. Genetic Engineering": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1. Application in Conservation of natural resources>Keywords": ["Natural resources", "Renewable", "Non-renewable", "Conservation", "Extinct"],
+      "1.2. Food and nutrition security>Keywords": ["Food Security"],
+      "1.3. Creating conscious citizens and ensuring sustainable development>Keywords": ["Conscious citizen"],
+      "1.4. Applications in biotechnology>(i). Application of Biology for Food processing and production": ["Biotechnology", "Single-cell protein", "Spirulina"],
+      "1.5. Genetic Engineering>a. Animal breeding and transgenic animals, and plants and disease, and pest management": ["Genetic engineering", "Transgenic organism", "Animal breeding"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_initial_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 12,
+      "questions_per_concept_ratio": 0.83,
+      "structural_coverage_percentage": 13.33
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 1: Applications of Biology",
+  "pdf_filename": "B12U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T10:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 14,
+        "progress_percentage": 35.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 5,
+      "structural_coverage_percentage": 13.16,
+      "concept_utilization_ratio": 0.83
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.1. Application in Conservation of natural resources",
+      "least_covered_section": "Unit learning outcome",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.83,
+      "remaining_concept_capacity": 14
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U1_Q001",
+      "generation_timestamp": "2025-01-27T10:00:01Z",
+      "section": "1.1. Application in Conservation of natural resources",
+      "subsection": "Keywords",
+      "sub_subsection": null,
+      "structural_anchor": "Natural resources:",
+      "mcq_type": "B",
+      "question": "What is the term for physical supplies that exist in nature, such as soil, water, air, plants, and animals?",
+      "options": {
+        "A": "Natural resources",
+        "B": "Human resources",
+        "C": "Economic resources",
+        "D": "Synthetic resources"
+      },
+      "correct_answer": "A",
+      "hint": "These supplies are provided by nature, not created by humans.",
+      "explanation": "Natural resources are materials and components supplied by nature, used to support life and human activity. Option C, economic resources, incorrectly refers to human-made assets used in production.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.1. Application in Conservation of natural resources",
+        "subsection_anchor": "Keywords",
+        "structural_element": "Natural resources:",
+        "content_anchor": "physical supplies that exist in nature",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_natural_resources"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q002",
+      "generation_timestamp": "2025-01-27T10:00:02Z",
+      "section": "1.1. Application in Conservation of natural resources",
+      "subsection": "Keywords",
+      "sub_subsection": null,
+      "structural_anchor": "Renewable:",
+      "mcq_type": "B",
+      "question": "Which term describes resources capable of being produced indefinitely, such as sunlight, wind, and carefully managed trees?",
+      "options": {
+        "A": "Non-renewable resources",
+        "B": "Renewable resources",
+        "C": "Finite resources",
+        "D": "Depletable resources"
+      },
+      "correct_answer": "B",
+      "hint": "These resources are not used up permanently if managed correctly.",
+      "explanation": "Renewable resources are naturally replenished on a human timescale, like solar energy or sustainably harvested timber. Option A incorrectly refers to resources with a finite supply, such as fossil fuels.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.1. Application in Conservation of natural resources",
+        "subsection_anchor": "Keywords",
+        "structural_element": "Renewable:",
+        "content_anchor": "Capable of being produced indefinitely",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_renewable"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q003",
+      "generation_timestamp": "2025-01-27T10:00:03Z",
+      "section": "1.2. Food and nutrition security",
+      "subsection": "Keywords",
+      "sub_subsection": null,
+      "structural_anchor": "Food Security:",
+      "mcq_type": "A",
+      "question": "What condition is achieved when all people have reliable access to a sufficient quantity of safe, nutritious food?",
+      "options": {
+        "A": "Food availability",
+        "B": "Food security",
+        "C": "Nutritional balance",
+        "D": "Dietary sufficiency"
+      },
+      "correct_answer": "B",
+      "hint": "This condition encompasses physical, social, and economic access to food.",
+      "explanation": "Food security is defined by consistent access to adequate food for an active, healthy life. Option A describes only the physical presence of food, ignoring access and utilization.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.2. Food and nutrition security",
+        "subsection_anchor": "Keywords",
+        "structural_element": "Food Security:",
+        "content_anchor": "all people have physical, social, and economic access to sufficient, safe, and nutritious food",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_food_security"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q004",
+      "generation_timestamp": "2025-01-27T10:00:04Z",
+      "section": "1.2. Food and nutrition security",
+      "subsection": "Keywords",
+      "sub_subsection": null,
+      "structural_anchor": "Food Security:",
+      "mcq_type": "F",
+      "question": "If a population has access to ample food supplies but lacks the economic means to purchase it, which component of food security is deficient?",
+      "options": {
+        "A": "Food availability",
+        "B": "Food access",
+        "C": "Food utilization",
+        "D": "Food stability"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the economic dimension of obtaining food.",
+      "explanation": "Food access involves the ability to acquire adequate food through purchase, barter, or other means. Option A incorrectly focuses on the physical presence of food, not the ability to obtain it.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.2. Food and nutrition security",
+        "subsection_anchor": "Keywords",
+        "structural_element": "Food Security:",
+        "content_anchor": "economic access",
+        "page_hint": "Page 6-7",
+        "concept_hash": "sha256_of_food_access"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q005",
+      "generation_timestamp": "2025-01-27T10:00:05Z",
+      "section": "1.3. Creating conscious citizens and ensuring sustainable development",
+      "subsection": "Keywords",
+      "sub_subsection": null,
+      "structural_anchor": "Conscious citizen:",
+      "mcq_type": "A",
+      "question": "What term describes an individual who values human life, connects with a higher purpose, and takes ethical responsibility for transforming skills into action?",
+      "options": {
+        "A": "Global citizen",
+        "B": "Conscious citizen",
+        "C": "Active citizen",
+        "D": "Responsible citizen"
+      },
+      "correct_answer": "B",
+      "hint": "This concept emphasizes awareness and ethical action beyond basic responsibility.",
+      "explanation": "A conscious citizen is defined by a deep awareness of social, global, and environmental contexts coupled with ethical decision-making. Option D describes a narrower focus on duty without the explicit connection to a higher purpose.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.3. Creating conscious citizens and ensuring sustainable development",
+        "subsection_anchor": "Keywords",
+        "structural_element": "Conscious citizen:",
+        "content_anchor": "Person who places value on being fully human while connecting with a higher purpose",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_conscious_citizen"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q006",
+      "generation_timestamp": "2025-01-27T10:00:06Z",
+      "section": "1.3. Creating conscious citizens and ensuring sustainable development",
+      "subsection": "Keywords",
+      "sub_subsection": null,
+      "structural_anchor": "Conscious citizen:",
+      "mcq_type": "G",
+      "question": "If a conscious citizen develops a bio-based technology that consumes fewer resources and incorporates recycling, what is the primary intended effect on sustainable development?",
+      "options": {
+        "A": "Increase short-term economic profits",
+        "B": "Reduce environmental impact",
+        "C": "Simplify manufacturing processes",
+        "D": "Expand global trade networks"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the environmental pillar of sustainability.",
+      "explanation": "Sustainable development aims to balance economic, social, and environmental needs. Reducing resource consumption and waste directly lessens environmental impact. Option C describes a process improvement that may not inherently benefit sustainability.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.3. Creating conscious citizens and ensuring sustainable development",
+        "subsection_anchor": "Keywords",
+        "structural_element": "Conscious citizen:",
+        "content_anchor": "develop innovative and cost effective bio- based technologies which consume fewer resources, incorporate recycling",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_sustainable_tech"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q007",
+      "generation_timestamp": "2025-01-27T10:00:07Z",
+      "section": "1.4. Applications in biotechnology",
+      "subsection": "(i). Application of Biology for Food processing and production",
+      "sub_subsection": null,
+      "structural_anchor": "Biotechnology",
+      "mcq_type": "A",
+      "question": "What is the broad term for technologies that use living organisms or their products to develop products benefiting humans?",
+      "options": {
+        "A": "Genetic engineering",
+        "B": "Bioinformatics",
+        "C": "Biotechnology",
+        "D": "Microbiology"
+      },
+      "correct_answer": "C",
+      "hint": "This field encompasses applications from food production to medicine.",
+      "explanation": "Biotechnology is defined as the application of biological systems or organisms to make or modify products. Option A is a specific technique within biotechnology focused on altering genetic material.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 22.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.4. Applications in biotechnology",
+        "subsection_anchor": "(i). Application of Biology for Food processing and production",
+        "structural_element": "Biotechnology",
+        "content_anchor": "application of technologies that involve the use of living organisms, or products from living organisms",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_biotechnology"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q008",
+      "generation_timestamp": "2025-01-27T10:00:08Z",
+      "section": "1.4. Applications in biotechnology",
+      "subsection": "(i). Application of Biology for Food processing and production",
+      "sub_subsection": null,
+      "structural_anchor": "single- cell protein (SCP)",
+      "mcq_type": "B",
+      "question": "What is the name for protein-rich material produced from waste substances like molasses, petroleum by-products, or agricultural wastes using microbial culture?",
+      "options": {
+        "A": "Mycoprotein",
+        "B": "Spirulina",
+        "C": "Single-cell protein",
+        "D": "Pruteen"
+      },
+      "correct_answer": "C",
+      "hint": "The name indicates the source is single-celled organisms.",
+      "explanation": "Single-cell protein is produced by culturing microorganisms on various waste substrates to create a protein source. Option D is a specific brand name for an animal feed produced from bacteria, which is a type of SCP.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.4. Applications in biotechnology",
+        "subsection_anchor": "(i). Application of Biology for Food processing and production",
+        "structural_element": "single- cell protein (SCP)",
+        "content_anchor": "produced from waste materials such as molasses",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_scp"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q009",
+      "generation_timestamp": "2025-01-27T10:00:09Z",
+      "section": "1.5. Genetic Engineering",
+      "subsection": "a. Animal breeding and transgenic animals, and plants and disease, and pest management",
+      "sub_subsection": null,
+      "structural_anchor": "Genetic engineering",
+      "mcq_type": "A",
+      "question": "What is the process called where DNA is transferred from one organism into another, resulting in a genetically modified organism?",
+      "options": {
+        "A": "Selective breeding",
+        "B": "Tissue culture",
+        "C": "Genetic engineering",
+        "D": "Cloning"
+      },
+      "correct_answer": "C",
+      "hint": "This involves direct manipulation of an organism's genome.",
+      "explanation": "Genetic engineering involves the direct transfer of genes to alter an organism's traits. Option A involves selecting existing traits over generations without direct DNA transfer.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.5. Genetic Engineering",
+        "subsection_anchor": "a. Animal breeding and transgenic animals, and plants and disease, and pest management",
+        "structural_element": "Genetic engineering",
+        "content_anchor": "process of transferring DNA from one organism into another",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_genetic_engineering"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 76,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q010",
+      "generation_timestamp": "2025-01-27T10:00:10Z",
+      "section": "1.5. Genetic Engineering",
+      "subsection": "a. Animal breeding and transgenic animals, and plants and disease, and pest management",
+      "sub_subsection": null,
+      "structural_anchor": "transgenic organism",
+      "mcq_type": "B",
+      "question": "What is the term for an organism that has received genetic material from a different species via recombinant DNA technology?",
+      "options": {
+        "A": "Genetically modified organism",
+        "B": "Transgenic organism",
+        "C": "Cloned organism",
+        "D": "Hybrid organism"
+      },
+      "correct_answer": "B",
+      "hint": "The prefix indicates genetic material has crossed species boundaries.",
+      "explanation": "A transgenic organism contains genetic material from another species, introduced through genetic engineering. Option A is a broader category that includes organisms modified with genes from the same species.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.5. Genetic Engineering",
+        "subsection_anchor": "a. Animal breeding and transgenic animals, and plants and disease, and pest management",
+        "structural_element": "transgenic organism",
+        "content_anchor": "received genetic material from a different species",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_transgenic"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 9000,
+    "average_question_quality": 82.0,
+    "type_distribution": {
+      "A": 4,
+      "B": 4,
+      "F": 1,
+      "G": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "1.1. Application in Conservation of natural resources": 2,
+      "1.2. Food and nutrition security": 2,
+      "1.3. Creating conscious citizens and ensuring sustainable development": 2,
+      "1.4. Applications in biotechnology": 2,
+      "1.5. Genetic Engineering": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

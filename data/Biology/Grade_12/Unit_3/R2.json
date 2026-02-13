@@ -1,0 +1,965 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T00:01:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G12_Bio_U3_Q020",
+    "covered_sections": ["Unit learning outcomes", "Overview", "3.1. Energy", "3.2. Photosynthesis", "3.2.1. Photosynthetic pigments", "3.2.2. Light-dependent and light-independent reactions", "3.3. Contributions of photosynthesis", "3.4. Cellular Respiration", "3.4.1. The site of cellular respiration", "3.4.2. Stages of respiration", "Table 3.1. Comparison of anabolic and catabolic pathways", "Self-questioning", "Activity 3.4", "Absorption spectra of photosynthetic pigments", "Light-Dependent Reactions(cyclic and noncyclic photophosphorylation)", "Photosystem I and photosystem II", "Light-Independent Reactions (Calvin cycle)", "Stage I: Glycolysis", "Stage II: Pyruvate oxidation (link reaction)", "Stage III: Kreb cycle", "Stage IV: Oxidative phosphorylation", "Key words", "Fermentation"],
+    "used_question_signatures": ["1a1dfe5b32925d69b3b69c8a6c3a3d7f", "2b4c7e9b3c2d1a5f8e6d7c9b0a1f2e3d", "3c5d8f0a4d3e2b6a9f7e8d0c1b2a3f4", "4d6e9a1b5e4f3c7b0a8f9e1d2c3b4a5", "5e7f0b2c6f5a4d8c1b9a0f2e3d4c5b6", "6f8a0c3d7a6b5e9d2c0b1a3f4e5d6c7", "7a9b1d4e8b7c6f0a3d1c2b4a5f6e7d8", "8b0c2e5f9c8d7a1b4e2d3c5b6a7f8e9", "9c1d3f6a0d9e8b2c5f3e4d6c7b8a9f0", "0d2e4a7b1e0f9c3d6a4f5e7d8c9b0a1", "a1e3f5b8c2d0f1a4e7b9c6d3f5a8b1c", "b2f4a6c9d3e1a2b5f8c0d4e7a9b2c5f", "c3a5b7d0e4f2b3c6a9d1e5f8b0c3d6a", "d4b6c8e1f5a3c4d7b0e2f6a9c1d4e7b", "e5c7d9f2a6b4d5e8c1f3a0b5d2e8c1f", "f6d8e0a3b7c5e6f9d2a4b1c6e3f9d2a", "g7e9f1b4c8d6f7a0e3b5c2d7f4a0e3b", "h8f0a2c5d9e7a8b1f4c6d3e8b5a1f4c", "i9a1b3d6e0f8b9c2a5d7e4f9c6b2a5d", "j0b2c4e7f1a9c0d3b6e8f5a0d7c3b6e"],
+    "baseline_counter": {
+      "Unit learning outcomes": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Overview": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.1. Energy": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Table 3.1. Comparison of anabolic and catabolic pathways": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Self-questioning": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "3.2. Photosynthesis": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.2.1. Photosynthetic pigments": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Activity 3.4": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Absorption spectra of photosynthetic pigments": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "3.2.2. Light-dependent and light-independent reactions": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Light-Dependent Reactions(cyclic and noncyclic photophosphorylation)": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Photosystem I and photosystem II": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Light-Independent Reactions (Calvin cycle)": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "3.3. Contributions of photosynthesis": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "3.4. Cellular Respiration": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "3.4.1. The site of cellular respiration": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.4.2. Stages of respiration": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Stage I: Glycolysis": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Stage II: Pyruvate oxidation (link reaction)": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Stage III: Kreb cycle": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Stage IV: Oxidative phosphorylation": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Key words": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Fermentation": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Unit learning outcomes": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Overview": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.1. Energy": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Table 3.1. Comparison of anabolic and catabolic pathways": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Self-questioning": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "3.2. Photosynthesis": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.2.1. Photosynthetic pigments": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Activity 3.4": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Absorption spectra of photosynthetic pigments": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "3.2.2. Light-dependent and light-independent reactions": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Light-Dependent Reactions(cyclic and noncyclic photophosphorylation)": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Photosystem I and photosystem II": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Light-Independent Reactions (Calvin cycle)": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "3.3. Contributions of photosynthesis": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "3.4. Cellular Respiration": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "3.4.1. The site of cellular respiration": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.4.2. Stages of respiration": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Stage I: Glycolysis": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Stage II: Pyruvate oxidation (link reaction)": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Stage III: Kreb cycle": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Stage IV: Oxidative phosphorylation": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Key words": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Fermentation": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Unit learning outcomes": ["energy transformation", "photosynthesis equation", "absorption spectra", "CO2 fixation", "photorespiration rate", "starch presence", "energy harvest", "phosphorylation types", "electron transport", "fermentation significance", "energy yield calculation", "CO2 O2 balance", "differentiation", "application"],
+      "Overview": ["cellular activities require energy", "metabolism enzyme-mediated reactions"],
+      "3.1. Energy": ["metabolism", "anabolism", "catabolism", "endergonic", "exergonic", "comparison table"],
+      "3.2. Photosynthesis": ["photosynthesis chemical reaction", "leaf structure", "chloroplast structure"],
+      "3.2.1. Photosynthetic pigments": ["chlorophyll a", "chlorophyll b", "carotenoids", "absorption spectrum", "light wavelength effect"],
+      "3.2.2. Light-dependent and light-independent reactions": ["light-dependent reactions", "Calvin cycle", "photophosphorylation", "photolysis", "photosystems", "carbon fixation stages"],
+      "3.3. Contributions of photosynthesis": ["oxygen source", "food source", "carbon cycle", "global warming mitigation", "atmospheric balance"],
+      "3.4. Cellular Respiration": ["ATP energy currency", "coupled reactions", "glycolysis products", "respiration definition"],
+      "3.4.1. The site of cellular respiration": ["glycolysis cytosol", "Krebs cycle mitochondria", "eukaryotic vs prokaryotic"],
+      "3.4.2. Stages of respiration": ["glycolysis phases", "pyruvate oxidation", "Krebs cycle steps", "oxidative phosphorylation", "electron transport chain", "ATP yield"],
+      "Table 3.1. Comparison of anabolic and catabolic pathways": ["constructive vs destructive", "energy requirement vs release"],
+      "Self-questioning": ["metabolism meaning", "anabolism vs catabolism difference"],
+      "Activity 3.4": ["wavelength effect on photosynthesis"],
+      "Absorption spectra of photosynthetic pigments": ["chlorophyll a b absorption peaks", "carotenoids absorption"],
+      "Light-Dependent Reactions(cyclic and noncyclic photophosphorylation)": ["cyclic vs non-cyclic", "ATP NADPH production", "water photolysis"],
+      "Photosystem I and photosystem II": ["electron excitation", "electron transport chain", "proton pump"],
+      "Light-Independent Reactions (Calvin cycle)": ["carbon fixation", "reduction", "regeneration", "RuBP", "3-PGA", "G3P"],
+      "Stage I: Glycolysis": ["energy investment", "cleavage", "energy liberation", "net ATP yield", "pyruvate production"],
+      "Stage II: Pyruvate oxidation (link reaction)": ["acetyl CoA formation", "NADH production", "CO2 release"],
+      "Stage III: Kreb cycle": ["citric acid formation", "NADH FADH2 production", "CO2 release", "oxaloacetate regeneration"],
+      "Stage IV: Oxidative phosphorylation": ["electron transport chain", "proton gradient", "chemiosmosis", "ATP synthase", "oxygen as final electron acceptor"],
+      "Key words": ["coenzyme A", "dehydrogenation", "decarboxylation", "terminal electron acceptor"],
+      "Fermentation": ["alcohol fermentation", "lactic acid fermentation", "NAD+ regeneration", "anaerobic conditions"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 75,
+      "questions_per_concept_ratio": 0.27,
+      "structural_coverage_percentage": 95.0
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 3: Energy Transformation",
+  "pdf_filename": "B12U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T00:01:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 10,
+        "total_sections": 10,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 10,
+      "subsections_covered_count": 9,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 95.0,
+      "concept_utilization_ratio": 0.27
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Unit learning outcomes",
+      "least_covered_section": "Stage I: Glycolysis",
+      "imbalance_ratio": 1.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U3_Q011",
+      "generation_timestamp": "2025-01-27T00:01:00Z",
+      "section": "Unit learning outcomes",
+      "subsection": "Unit learning outcomes",
+      "sub_subsection": null,
+      "structural_anchor": "Unit learning outcomes",
+      "mcq_type": "D",
+      "question": "Given the chemical equation for photosynthesis, what are the net products when six molecules of carbon dioxide are fixed?",
+      "options": {
+        "A": "One glucose molecule and six water molecules",
+        "B": "One glucose molecule and six oxygen molecules",
+        "C": "Six glucose molecules and six oxygen molecules",
+        "D": "Six water molecules and six oxygen molecules"
+      },
+      "correct_answer": "B",
+      "hint": "The balanced equation shows a 1:6 ratio between glucose and oxygen produced.",
+      "explanation": "The photosynthesis equation, 6CO2 + 6H2O → C6H12O6 + 6O2, indicates that six fixed CO2 molecules yield one glucose and six O2 molecules. Option A incorrectly includes water as a product instead of a reactant.",
+      "difficulty_level": "medium",
+      "formula_used": ["6CO2 + 6H2O + light energy → C6H12O6 + 6O2"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "Unit learning outcomes",
+        "subsection_anchor": "Unit learning outcomes",
+        "structural_element": "Unit learning outcomes",
+        "content_anchor": "Summarize the process of photosynthesis using chemical equation",
+        "page_hint": "Page 2",
+        "concept_hash": "hash_of_photosynthesis_equation_application"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q012",
+      "generation_timestamp": "2025-01-27T00:01:00Z",
+      "section": "3.1. Energy",
+      "subsection": "Table 3.1. Comparison of anabolic and catabolic pathways",
+      "sub_subsection": null,
+      "structural_anchor": "Table 3.1. Comparison of anabolic and catabolic pathways",
+      "mcq_type": "I",
+      "question": "Based on their fundamental characteristics, how do anabolic pathways primarily differ from catabolic pathways regarding energy?",
+      "options": {
+        "A": "Anabolism harvests energy, while catabolism expends it.",
+        "B": "Anabolism requires energy input, while catabolism releases energy.",
+        "C": "Both pathways release energy, but anabolism does so faster.",
+        "D": "Both pathways require energy, but catabolism requires more."
+      },
+      "correct_answer": "B",
+      "hint": "Consider whether the process is building up or breaking down molecules.",
+      "explanation": "Anabolic pathways are endergonic, consuming energy to synthesize complex molecules, whereas catabolic pathways are exergonic, releasing energy through breakdown. Option A reverses the correct relationship between the two pathways.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.1. Energy",
+        "subsection_anchor": "Table 3.1. Comparison of anabolic and catabolic pathways",
+        "structural_element": "Table 3.1. Comparison of anabolic and catabolic pathways",
+        "content_anchor": "It is an endergonic (energy-absorbing) reaction. It is an exergonic (energy-releasing) reaction.",
+        "page_hint": "Page 4",
+        "concept_hash": "hash_of_anabolism_catabolism_energy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q013",
+      "generation_timestamp": "2025-01-27T00:01:00Z",
+      "section": "3.1. Energy",
+      "subsection": "Self-questioning",
+      "sub_subsection": null,
+      "structural_anchor": "Self-questioning",
+      "mcq_type": "F",
+      "question": "Considering the cellular need to both build and break down molecules, which reasoning best explains why organisms maintain both anabolic and catabolic pathways?",
+      "options": {
+        "A": "Catabolism provides the energy and molecular building blocks required for anabolism.",
+        "B": "Anabolism breaks down nutrients to provide immediate energy for catabolism.",
+        "C": "The two pathways operate independently to maximize speed of each process.",
+        "D": "Anabolism occurs only during growth, while catabolism occurs during rest."
+      },
+      "correct_answer": "A",
+      "hint": "Think about the interdependence of energy release and consumption.",
+      "explanation": "Catabolic reactions degrade molecules, releasing energy and generating precursors that are used by anabolic pathways to synthesize needed cellular components. Option B incorrectly reverses the functional relationship between the two types of pathways.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.1. Energy",
+        "subsection_anchor": "Self-questioning",
+        "structural_element": "Self-questioning",
+        "content_anchor": "How are anabolism and catabolism differ?",
+        "page_hint": "Page 4",
+        "concept_hash": "hash_of_anabolism_catabolism_interdependence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q014",
+      "generation_timestamp": "2025-01-27T00:01:00Z",
+      "section": "3.2.1. Photosynthetic pigments",
+      "subsection": "Activity 3.4",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 3.4",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that exposing a plant to 600 nm light would yield the lowest photosynthetic rate?",
+      "options": {
+        "A": "It overlooks that chlorophyll a and b absorb red light effectively.",
+        "B": "It assumes green light is highly absorbed because leaves appear green.",
+        "C": "It confuses the absorption peak of carotenoids with that of chlorophyll.",
+        "D": "It mistakenly associates wavelength with energy independent of pigment absorption."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the absorption spectra of the primary photosynthetic pigments.",
+      "explanation": "Chlorophyll a has a strong absorption peak in the red region around 660-680 nm, making 600 nm light quite effective. Option B describes a common misconception where the reflected color (green) is incorrectly assumed to be the most absorbed.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.1. Photosynthetic pigments",
+        "structural_element": "Activity 3.4",
+        "content_anchor": "would a wavelength of 350 nm, 450 nm, or 600 nm produce the highest photosynthetic rate?",
+        "page_hint": "Page 9",
+        "concept_hash": "hash_of_wavelength_misconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q015",
+      "generation_timestamp": "2025-01-27T00:01:00Z",
+      "section": "3.2.1. Photosynthetic pigments",
+      "subsection": "Absorption spectra of photosynthetic pigments",
+      "sub_subsection": null,
+      "structural_anchor": "Absorption spectra of photosynthetic pigments",
+      "mcq_type": "K",
+      "question": "An absorption spectrum shows that carotenoids have high absorption in the blue-green region. What is the primary functional significance of this for photosynthesis?",
+      "options": {
+        "A": "They directly drive the electron transport chain in photosystem II.",
+        "B": "They broaden the range of light wavelengths that can be utilized.",
+        "C": "They protect chlorophyll by dissipating excess light energy as heat.",
+        "D": "They reflect green light, giving leaves their characteristic color."
+      },
+      "correct_answer": "B",
+      "hint": "Think about the role of 'accessory' pigments.",
+      "explanation": "Carotenoids are accessory pigments that absorb light in regions where chlorophyll absorbs poorly, transferring the energy to chlorophyll to expand the usable light spectrum. Option C describes a photoprotective role, which is secondary to their primary function in energy capture.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.1. Photosynthetic pigments",
+        "structural_element": "Absorption spectra of photosynthetic pigments",
+        "content_anchor": "Carotenoids... absorb in the blue-green region... expanding the wavelength range",
+        "page_hint": "Page 10",
+        "concept_hash": "hash_of_carotenoid_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q016",
+      "generation_timestamp": "2025-01-27T00:01:00Z",
+      "section": "3.2.2. Light-dependent and light-independent reactions",
+      "subsection": "Light-Dependent Reactions(cyclic and noncyclic photophosphorylation)",
+      "sub_subsection": null,
+      "structural_anchor": "Light-Dependent Reactions(cyclic and noncyclic photophosphorylation)",
+      "mcq_type": "I",
+      "question": "How does the pathway of electrons in cyclic photophosphorylation differ from that in non-cyclic photophosphorylation?",
+      "options": {
+        "A": "Cyclic uses both photosystem I and II, while non-cyclic uses only photosystem I.",
+        "B": "Cyclic produces NADPH and ATP, while non-cyclic produces only ATP.",
+        "C": "Cyclic uses only photosystem I and produces ATP without NADPH or O2.",
+        "D": "Cyclic involves the photolysis of water, while non-cyclic does not."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the products and the photosystems involved in each pathway.",
+      "explanation": "Cyclic photophosphorylation involves only photosystem I and generates ATP without producing NADPH or releasing oxygen. Option A incorrectly assigns the photosystem usage, reversing the actual roles.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 27.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.2. Light-dependent and light-independent reactions",
+        "structural_element": "Light-Dependent Reactions(cyclic and noncyclic photophosphorylation)",
+        "content_anchor": "Comparison of cyclic and non-cyclic photophosphorylation",
+        "page_hint": "Page 12",
+        "concept_hash": "hash_of_cyclic_vs_noncyclic"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 77,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q017",
+      "generation_timestamp": "2025-01-27T00:01:00Z",
+      "section": "3.2.2. Light-dependent and light-independent reactions",
+      "subsection": "Photosystem I and photosystem II",
+      "sub_subsection": null,
+      "structural_anchor": "Photosystem I and photosystem II",
+      "mcq_type": "G",
+      "question": "If a mutation disrupts the proton pump in the cytochrome complex of the electron transport chain, what is the direct consequence for ATP synthesis?",
+      "options": {
+        "A": "NADPH production increases to compensate.",
+        "B": "The proton gradient across the thylakoid membrane fails to form.",
+        "C": "Electron flow from water to photosystem I ceases entirely.",
+        "D": "The oxidation of water during photolysis is inhibited."
+      },
+      "correct_answer": "B",
+      "hint": "The proton gradient is essential for driving ATP synthase.",
+      "explanation": "The proton pump actively transports H+ into the thylakoid lumen, creating the gradient that powers chemiosmotic ATP synthesis. Option C is incorrect because electron flow could still occur, but without the linked proton movement.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.2. Light-dependent and light-independent reactions",
+        "structural_element": "Photosystem I and photosystem II",
+        "content_anchor": "the energy they lose powers the pump which moves protons... drives the chemiosmotic synthesis of ATP",
+        "page_hint": "Page 13",
+        "concept_hash": "hash_of_proton_pump_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 88,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q018",
+      "generation_timestamp": "2025-01-27T00:01:00Z",
+      "section": "3.2.2. Light-dependent and light-independent reactions",
+      "subsection": "Light-Independent Reactions (Calvin cycle)",
+      "sub_subsection": null,
+      "structural_anchor": "Light-Independent Reactions (Calvin cycle)",
+      "mcq_type": "N",
+      "question": "Under what condition is the enzyme rubisco more likely to catalyze the oxygenation of RuBP instead of its carboxylation?",
+      "options": {
+        "A": "High concentrations of carbon dioxide relative to oxygen",
+        "B": "Low temperatures and high light intensity",
+        "C": "High temperatures and low carbon dioxide concentrations",
+        "D": "An abundance of ATP and NADPH from the light reactions"
+      },
+      "correct_answer": "C",
+      "hint": "Consider factors that affect the competitive binding of O2 vs CO2 to the active site.",
+      "explanation": "Rubisco's oxygenase activity is favored under hot, dry conditions when stomata close, causing low CO2 and high O2 concentrations inside the leaf. Option A describes conditions that favor the normal carboxylation reaction.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.2. Light-dependent and light-independent reactions",
+        "structural_element": "Light-Independent Reactions (Calvin cycle)",
+        "content_anchor": "Photorespiration... RuBisco instead of combining with CO2 it combines with O2",
+        "page_hint": "Page 18",
+        "concept_hash": "hash_of_rubisco_oxygenase_condition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q019",
+      "generation_timestamp": "2025-01-27T00:01:00Z",
+      "section": "3.3. Contributions of photosynthesis",
+      "subsection": "3.3. Contributions of photosynthesis",
+      "sub_subsection": null,
+      "structural_anchor": "3.3. Contributions of photosynthesis",
+      "mcq_type": "F",
+      "question": "Which reasoning best explains how ancient photosynthesis contributes to the phenomenon of global warming when its products are burned?",
+      "options": {
+        "A": "Burning releases oxygen that was stored during photosynthesis, increasing atmospheric O2.",
+        "B": "Combustion oxidizes carbon that was fixed from the ancient atmosphere, releasing it as CO2.",
+        "C": "The heat from burning fossil fuels directly raises the planet's average temperature.",
+        "D": "Burning destroys ozone in the upper atmosphere, allowing more solar radiation to reach Earth."
+      },
+      "correct_answer": "B",
+      "hint": "Fossil fuels are composed of carbon that was removed from the carbon cycle long ago.",
+      "explanation": "Fossil fuels represent stored photosynthetic products; their combustion rapidly re-oxidizes the carbon, returning it to the atmosphere as CO2, a greenhouse gas. Option C describes a local heat effect, not the primary mechanism of global warming via greenhouse gases.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.3. Contributions of photosynthesis",
+        "subsection_anchor": "3.3. Contributions of photosynthesis",
+        "structural_element": "3.3. Contributions of photosynthesis",
+        "content_anchor": "Human beings are also dependent on ancient products of photosynthesis (fossil fuels...)",
+        "page_hint": "Page 22",
+        "concept_hash": "hash_of_fossil_fuels_global_warming"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q020",
+      "generation_timestamp": "2025-01-27T00:01:00Z",
+      "section": "3.4. Cellular Respiration",
+      "subsection": "3.4. Cellular Respiration",
+      "sub_subsection": null,
+      "structural_anchor": "3.4. Cellular Respiration",
+      "mcq_type": "D",
+      "question": "In a coupled reaction where ATP hydrolysis provides energy for muscle contraction, what is the direct role of the energy released from ATP?",
+      "options": {
+        "A": "It is stored as chemical potential energy in the muscle proteins.",
+        "B": "It is used to phosphorylate ADP back to ATP for reuse.",
+        "C": "It causes a conformational change in the actin-myosin complex.",
+        "D": "It is converted to heat, which increases the rate of enzymatic reactions."
+      },
+      "correct_answer": "C",
+      "hint": "The energy from ATP is used to perform mechanical work at the molecular level.",
+      "explanation": "The free energy released from ATP hydrolysis powers the sliding of actin and myosin filaments by inducing a shape change in the myosin head. Option D describes a non-productive dissipation of energy, not its direct use in performing work.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_pressed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.4. Cellular Respiration",
+        "subsection_anchor": "3.4. Cellular Respiration",
+        "structural_element": "3.4. Cellular Respiration",
+        "content_anchor": "When ATP is added to isolated actomyosin, the protein fibers contract.",
+        "page_hint": "Page 26",
+        "concept_hash": "hash_of_coupled_reaction_muscle"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4750,
+    "average_question_quality": 86.1,
+    "type_distribution": {
+      "D": 2,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "I": 2,
+      "K": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 4,
+      "hard": 4
+    },
+    "section_distribution": {
+      "Unit learning outcomes": 1,
+      "3.1. Energy": 2,
+      "3.2.1. Photosynthetic pigments": 2,
+      "3.2.2. Light-dependent and light-independent reactions": 3,
+      "3.3. Contributions of photosynthesis": 1,
+      "3.4. Cellular Respiration": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

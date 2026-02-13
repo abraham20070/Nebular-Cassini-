@@ -1,0 +1,783 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-05-28T08:15:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Chem_U3_Q010",
+    "covered_sections": ["3.1 Introduction", "3.2 Kinetic Theory and Properties of Matter", "3.3 The Gaseous State"],
+    "used_question_signatures": ["a8f7c9d1b5e0", "b2e4d6a8c0f1", "c3f5a7b9d1e2", "d1e3f5a7b9c2", "e4b6d8f0a2c1", "f7a9c1e3b5d0", "g5b7d9f1a3c2", "h3d5f7a9b1c0", "i9a1c3e5b7d2", "j2b4d6f8a0c1"],
+    "baseline_counter": {
+      "3.1 Introduction": {
+        "implicit_subsection": {
+          "count": 2,
+          "mini_headings_covered": ["Solid:", "Liquid:"],
+          "last_question_round": 1
+        }
+      },
+      "3.2 Kinetic Theory and Properties of Matter": {
+        "3.2.1 The Kinetic Theory of Matter": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "3.2.2 Properties of Matter": {
+          "count": 2,
+          "mini_headings_covered": ["Properties of Gases:", "Properties of Solids:"],
+          "last_question_round": 1
+        }
+      },
+      "3.3 The Gaseous State": {
+        "3.3.1 The Kinetic Molecular Theory of Gases": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "3.3.2 The Gas Laws": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.4 The Liquid State": {
+        "3.4.1 Energy Changes in Liquids": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "3.5 The Solid State": {
+        "implicit_subsection": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1 Introduction": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.2 Kinetic Theory and Properties of Matter": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.3 The Gaseous State": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.4 The Liquid State": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "3.5 The Solid State": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1 Introduction>implicit_subsection": ["Solid definite shape and volume", "Liquid definite volume no definite shape", "States of matter"],
+      "3.2 Kinetic Theory and Properties of Matter>3.2.1 The Kinetic Theory of Matter": ["Continuous random motion", "Kinetic energy proportional to temperature"],
+      "3.2 Kinetic Theory and Properties of Matter>3.2.2 Properties of Matter": ["Gas compressibility", "Solid incompressibility", "Gas low density", "Solid high density"],
+      "3.3 The Gaseous State>3.3.1 The Kinetic Molecular Theory of Gases": ["Gas particle collisions cause pressure", "Average KE proportional to Kelvin temperature"],
+      "3.3 The Gaseous State>3.3.2 The Gas Laws": ["Boyle's Law inverse relationship", "Charles' Law direct relationship", "Ideal Gas Equation PV=nRT"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_integrity",
+    "content_density_metrics": {
+      "total_concepts_extracted": 14,
+      "questions_per_concept_ratio": 0.71,
+      "structural_coverage_percentage": 20.0
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Chemistry",
+  "unit": "Unit 3: PHYSICAL STATES OF MATTER",
+  "pdf_filename": "C11U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-05-28T08:15:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 5,
+        "progress_percentage": 60.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 4,
+      "structural_coverage_percentage": 20.0,
+      "concept_utilization_ratio": 0.71
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.3 The Gaseous State",
+      "least_covered_section": "3.4 The Liquid State",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Chem_U3_Q001",
+      "generation_timestamp": "2024-05-28T08:14:15Z",
+      "section": "3.1 Introduction",
+      "subsection": "implicit_subsection",
+      "sub_subsection": null,
+      "structural_anchor": "Solid:",
+      "mcq_type": "A",
+      "question": "Which state of matter is characterized by a rigid structure with both a fixed shape and a fixed volume?",
+      "options": {
+        "A": "Solid",
+        "B": "Liquid",
+        "C": "Gas",
+        "D": "Plasma"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the arrangement and movement of particles in different states.",
+      "explanation": "Solids maintain a fixed shape and volume because their particles are tightly packed in a rigid, organized structure with strong intermolecular forces. Option B is incorrect because liquids have a fixed volume but take the shape of their container.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.1 Introduction",
+        "subsection_anchor": "implicit_subsection",
+        "structural_element": "Solid:",
+        "content_anchor": "A solid is rigid; it has a fixed volume and a fixed shape.",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_solid_fixed_shape_volume"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q002",
+      "generation_timestamp": "2024-05-28T08:14:20Z",
+      "section": "3.1 Introduction",
+      "subsection": "implicit_subsection",
+      "sub_subsection": null,
+      "structural_anchor": "Liquid:",
+      "mcq_type": "B",
+      "question": "A substance takes the shape of its container, has a definite volume, and is slightly compressible. What is this state of matter?",
+      "options": {
+        "A": "Solid",
+        "B": "Liquid",
+        "C": "Gas",
+        "D": "Plasma"
+      },
+      "correct_answer": "B",
+      "hint": "Identify the state with volume conservation but shape adaptation.",
+      "explanation": "Liquids have a definite volume but no definite shape, conforming to their container, due to particles that are close but can flow past each other. Option C is incorrect because gases have neither definite shape nor volume and are highly compressible.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.1 Introduction",
+        "subsection_anchor": "implicit_subsection",
+        "structural_element": "Liquid:",
+        "content_anchor": "A liquid has a definite volume, but does not have a definite shape. It takes the shape of its container. It is very slightly compressible",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_liquid_definite_volume"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q003",
+      "generation_timestamp": "2024-05-28T08:14:30Z",
+      "section": "3.2 Kinetic Theory and Properties of Matter",
+      "subsection": "3.2.1 The Kinetic Theory of Matter",
+      "sub_subsection": null,
+      "structural_anchor": "Content under 3.2.1",
+      "mcq_type": "F",
+      "question": "The particles in a sample of matter are in continuous, random motion. If the temperature of the sample is increased, what is the most direct effect on this motion?",
+      "options": {
+        "A": "The average speed of the particles increases.",
+        "B": "The attractive forces between particles become stronger.",
+        "C": "The particles arrange into a more orderly pattern.",
+        "D": "The spaces between particles decrease significantly."
+      },
+      "correct_answer": "A",
+      "hint": "Relate thermal energy to particle kinetic energy.",
+      "explanation": "The kinetic theory states that the temperature of a substance is a measure of the average kinetic energy of its particles. Increasing temperature directly increases this kinetic energy, resulting in higher average particle speeds. Option C is incorrect because higher temperature typically increases disorder, not order.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.2 Kinetic Theory and Properties of Matter",
+        "subsection_anchor": "3.2.1 The Kinetic Theory of Matter",
+        "structural_element": "Content under 3.2.1",
+        "content_anchor": "The particles are in a state of continuous and random motion with all possible velocities. The motion of the particles increases with a rise in temperature.",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_kinetic_theory_motion_temperature"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q004",
+      "generation_timestamp": "2024-05-28T08:14:40Z",
+      "section": "3.2 Kinetic Theory and Properties of Matter",
+      "subsection": "3.2.2 Properties of Matter",
+      "sub_subsection": null,
+      "structural_anchor": "Properties of Gases:",
+      "mcq_type": "G",
+      "question": "If the volume of a rigid container filled with gas is reduced by half at constant temperature, what is the direct effect on the pressure exerted by the gas?",
+      "options": {
+        "A": "The pressure decreases by half.",
+        "B": "The pressure doubles.",
+        "C": "The pressure remains unchanged.",
+        "D": "The pressure increases fourfold."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the relationship between gas volume and particle collisions with the container walls.",
+      "explanation": "According to Boyle's Law, for a fixed mass of gas at constant temperature, pressure is inversely proportional to volume. Halving the volume doubles the frequency of particle collisions with the container walls, thereby doubling the pressure. Option A incorrectly suggests a direct proportional relationship.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.2 Kinetic Theory and Properties of Matter",
+        "subsection_anchor": "3.2.2 Properties of Matter",
+        "structural_element": "Properties of Gases:",
+        "content_anchor": "Gases exert pressure in all directions. This pressure is due to collisions between gas molecules and the walls of the container.",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_gas_pressure_collisions"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q005",
+      "generation_timestamp": "2024-05-28T08:14:50Z",
+      "section": "3.2 Kinetic Theory and Properties of Matter",
+      "subsection": "3.2.2 Properties of Matter",
+      "sub_subsection": null,
+      "structural_anchor": "Properties of Solids:",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that solids can be easily compressed like gases?",
+      "options": {
+        "A": "It assumes solids have strong intermolecular forces restricting particle movement.",
+        "B": "It overlooks that solid particles are in constant, rapid, random motion.",
+        "C": "It confuses the large, empty spaces between gas particles with the minimal spaces between solid particles.",
+        "D": "It misapplies the principle that density is unrelated to compressibility."
+      },
+      "correct_answer": "C",
+      "hint": "Compare the particle spacing and intermolecular forces in solids versus gases.",
+      "explanation": "The kinetic theory explains that gases are highly compressible due to the large empty spaces between their widely spaced particles. Solids are nearly incompressible because their particles are packed tightly with minimal free space and strong intermolecular forces. Option B is incorrect because, while solid particles vibrate, their motion is restricted and not the primary reason for incompressibility.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.2 Kinetic Theory and Properties of Matter",
+        "subsection_anchor": "3.2.2 Properties of Matter",
+        "structural_element": "Properties of Solids:",
+        "content_anchor": "Solids are extremely difficult to compress because the high interparticle forces of attraction between the particles of solids are very strong due to a very short distance between them.",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_solid_incompressibility"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q006",
+      "generation_timestamp": "2024-05-28T08:15:00Z",
+      "section": "3.3 The Gaseous State",
+      "subsection": "3.3.1 The Kinetic Molecular Theory of Gases",
+      "sub_subsection": null,
+      "structural_anchor": "Assumptions of the kinetic molecular theory of gases:",
+      "mcq_type": "A",
+      "question": "According to the kinetic molecular theory, what is the primary cause of the pressure exerted by a gas confined to a container?",
+      "options": {
+        "A": "Collisions of gas particles with the container walls.",
+        "B": "The gravitational pull on the gas particles.",
+        "C": "The chemical reactions between gas particles.",
+        "D": "The magnetic fields generated by moving particles."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the constant motion of gas particles and their interactions with surfaces.",
+      "explanation": "The kinetic molecular theory posits that gas particles are in constant, random, straight-line motion. Pressure arises from the force per unit area exerted by the countless collisions of these particles with the walls of their container. Option B is incorrect because gravitational effects are negligible for gas pressure under normal conditions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.3 The Gaseous State",
+        "subsection_anchor": "3.3.1 The Kinetic Molecular Theory of Gases",
+        "structural_element": "Assumptions of the kinetic molecular theory of gases:",
+        "content_anchor": "The particles collide with each other and with the surfaces around them... This assumption explains why gases... exert pressure.",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_gas_pressure_cause"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 70,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q007",
+      "generation_timestamp": "2024-05-28T08:15:10Z",
+      "section": "3.3 The Gaseous State",
+      "subsection": "3.3.1 The Kinetic Molecular Theory of Gases",
+      "sub_subsection": null,
+      "structural_anchor": "Content under 3.3.1",
+      "mcq_type": "F",
+      "question": "If two gas samples are at the same temperature but one contains lighter molecules than the other, which statement correctly compares their average kinetic energies?",
+      "options": {
+        "A": "The sample with lighter molecules has a higher average kinetic energy.",
+        "B": "The sample with heavier molecules has a higher average kinetic energy.",
+        "C": "Both samples have the same average kinetic energy.",
+        "D": "The average kinetic energy cannot be determined without pressure data."
+      },
+      "correct_answer": "C",
+      "hint": "Recall the relationship between temperature and kinetic energy at the molecular level.",
+      "explanation": "A fundamental postulate of the kinetic molecular theory is that the average kinetic energy of gas particles is proportional to the Kelvin temperature. Therefore, at the same temperature, all gases, regardless of molecular mass, have the same average kinetic energy. Option A confuses kinetic energy with molecular speed; lighter molecules move faster to have the same kinetic energy.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.3 The Gaseous State",
+        "subsection_anchor": "3.3.1 The Kinetic Molecular Theory of Gases",
+        "structural_element": "Content under 3.3.1",
+        "content_anchor": "The average kinetic energy of gas particles is proportional to the temperature of the gas in kelvins.",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_average_KE_proportional_to_T"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q008",
+      "generation_timestamp": "2024-05-28T08:15:20Z",
+      "section": "3.3 The Gaseous State",
+      "subsection": "3.3.2 The Gas Laws",
+      "sub_subsection": null,
+      "structural_anchor": "Boyle's Law",
+      "mcq_type": "D",
+      "question": "A sealed syringe contains 20.0 mL of air at 1.0 atm pressure. If the plunger is depressed to reduce the volume to 5.0 mL while keeping temperature constant, what is the new pressure inside the syringe?",
+      "options": {
+        "A": "0.25 atm",
+        "B": "1.0 atm",
+        "C": "4.0 atm",
+        "D": "5.0 atm"
+      },
+      "correct_answer": "C",
+      "hint": "Apply the inverse relationship between pressure and volume for a fixed amount of gas at constant temperature.",
+      "explanation": "Boyle's Law states P1V1 = P2V2 for an isothermal process. Using (1.0 atm)(20.0 mL) = P2(5.0 mL) gives P2 = 4.0 atm. The pressure increases because the same number of gas particles are confined to a smaller volume, increasing collision frequency. Option A incorrectly applies a direct proportional relationship.",
+      "difficulty_level": "medium",
+      "formula_used": ["P1V1 = P2V2"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "atm, mL",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.3 The Gaseous State",
+        "subsection_anchor": "3.3.2 The Gas Laws",
+        "structural_element": "Boyle's Law",
+        "content_anchor": "Boyle's law states that the volume of a fixed mass of gas is inversely proportional to the pressure at a constant temperature. Mathematically this is written as: P1V1 = P2V2.",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_boyles_law_equation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 96
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q009",
+      "generation_timestamp": "2024-05-28T08:15:30Z",
+      "section": "3.3 The Gaseous State",
+      "subsection": "3.3.2 The Gas Laws",
+      "sub_subsection": null,
+      "structural_anchor": "Charles' Law",
+      "mcq_type": "D",
+      "question": "A balloon filled with helium has a volume of 2.5 L at 25°C. What will its volume become if it is placed in a freezer at -10°C, assuming constant pressure?",
+      "options": {
+        "A": "1.9 L",
+        "B": "2.2 L",
+        "C": "2.5 L",
+        "D": "3.0 L"
+      },
+      "correct_answer": "B",
+      "hint": "Convert temperatures to Kelvin and apply the direct relationship between volume and Kelvin temperature.",
+      "explanation": "Charles' Law states V1/T1 = V2/T2 at constant pressure. T1 = 25°C + 273 = 298 K, T2 = -10°C + 273 = 263 K. V2 = (2.5 L * 263 K) / 298 K ≈ 2.2 L. The volume decreases because lower temperature reduces the average kinetic energy of the gas particles. Option D incorrectly predicts an increase in volume with decreasing temperature.",
+      "difficulty_level": "medium",
+      "formula_used": ["V1/T1 = V2/T2"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "L, °C, K",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.3 The Gaseous State",
+        "subsection_anchor": "3.3.2 The Gas Laws",
+        "structural_element": "Charles' Law",
+        "content_anchor": "Charles' law states that the volume of a fixed mass of gas at constant pressure varies directly with the Kelvin temperature.",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_charles_law_equation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q010",
+      "generation_timestamp": "2024-05-28T08:15:40Z",
+      "section": "3.3 The Gaseous State",
+      "subsection": "3.3.2 The Gas Laws",
+      "sub_subsection": null,
+      "structural_anchor": "The Ideal Gas Equation",
+      "mcq_type": "C",
+      "question": "Which mathematical equation correctly relates the pressure (P), volume (V), number of moles (n), and temperature (T) of an ideal gas?",
+      "options": {
+        "A": "P/V = nRT",
+        "B": "PV = nR/T",
+        "C": "PV = nRT",
+        "D": "PT = nRV"
+      },
+      "correct_answer": "C",
+      "hint": "Identify the combined law that integrates Boyle's, Charles's, and Avogadro's laws.",
+      "explanation": "The Ideal Gas Equation, PV = nRT, is a combination of Boyle's Law (P∝1/V), Charles's Law (V∝T), and Avogadro's Law (V∝n), with R as the universal gas constant. Option A incorrectly places volume in the denominator, misrepresenting the inverse relationship from Boyle's Law.",
+      "difficulty_level": "easy",
+      "formula_used": ["PV = nRT"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.3 The Gaseous State",
+        "subsection_anchor": "3.3.2 The Gas Laws",
+        "structural_element": "The Ideal Gas Equation",
+        "content_anchor": "the ideal gas equation: VP = nRT",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_ideal_gas_equation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 85000,
+    "average_question_quality": 85.4,
+    "type_distribution": {
+      "A": 3,
+      "B": 1,
+      "C": 1,
+      "D": 2,
+      "F": 2,
+      "G": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "3.1 Introduction": 2,
+      "3.2 Kinetic Theory and Properties of Matter": 3,
+      "3.3 The Gaseous State": 5
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

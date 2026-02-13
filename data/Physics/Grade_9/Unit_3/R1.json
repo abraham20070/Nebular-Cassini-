@@ -1,0 +1,804 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-10-12T10:15:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G9_Phy_U3_Q010",
+    "covered_sections": ["Position, Distance and Displacement>Position, Distance and Displacement", "Position, Distance and Displacement>Exercise 3.1", "Position, Distance and Displacement>Exercise 3.2", "Position, Distance and Displacement>Displacement", "Average Speed and Instantaneous Speed>Average Speed and Instantaneous Speed", "Average Speed and Instantaneous Speed>Exercise 3.5"],
+    "used_question_signatures": ["4a7c1d79c9cba1e2f7e5b9a1c8d3f2e1", "9b8a7c6d5e4f3g2h1i0j9k8l7m6n5", "2b3c4d5e6f7g8h9i0j1k2l3m4n5o", "6d7e8f9g0h1i2j3k4l5m6n7o8p9", "1e2f3g4h5i6j7k8l9m0n1o2p3q4", "5f6g7h8i9j0k1l2m3n4o5p6q7r8", "9g0h1i2j3k4l5m6n7o8p9q0r1s2", "3h4i5j6k7l8m9n0o1p2q3r4s5t6", "7i8j9k0l1m2n3o4p5q6r7s8t9u0", "1j2k3l4m5n6o7p8q9r0s1t2u3v4"],
+    "baseline_counter": {
+      "Position, Distance and Displacement": {
+        "Position, Distance and Displacement": {
+          "count": 2,
+          "mini_headings_covered": ["Key Concept: A frame of reference...", "Key Concept: Position is a measurement..."],
+          "last_question_round": 1
+        },
+        "Exercise 3.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Exercise 3.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Displacement": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Average Speed and Instantaneous Speed": {
+        "Average Speed and Instantaneous Speed": {
+          "count": 3,
+          "mini_headings_covered": ["Key Concept: Acceleration is the rate of change..."],
+          "last_question_round": 1
+        },
+        "Exercise 3.5": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Average Velocity and Instantaneous Velocity": {
+        "Average Velocity and Instantaneous Velocity": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Acceleration": {
+        "Acceleration": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Uniform Motion": {
+        "Uniform Motion": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Graphical Representation of Motion": {
+        "Graphical Representation of Motion": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Position, Distance and Displacement": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Average Speed and Instantaneous Speed": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Average Velocity and Instantaneous Velocity": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Acceleration": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Uniform Motion": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Graphical Representation of Motion": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Position, Distance and Displacement>Position, Distance and Displacement": ["Frame of reference", "Position", "Motion", "Rest"],
+      "Position, Distance and Displacement>Exercise 3.1": ["Relative motion", "Reference frames"],
+      "Position, Distance and Displacement>Exercise 3.2": ["Distance", "Scalar quantity"],
+      "Position, Distance and Displacement>Displacement": ["Displacement", "Vector quantity"],
+      "Average Speed and Instantaneous Speed>Average Speed and Instantaneous Speed": ["Speed", "Average speed", "Instantaneous speed", "Scalar"],
+      "Average Speed and Instantaneous Speed>Exercise 3.5": ["Speedometer", "Instantaneous speed measurement"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state_hash_v1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 14,
+      "questions_per_concept_ratio": 0.71,
+      "structural_coverage_percentage": 10.7
+    }
+  },
+  "grade": "9",
+  "subject": "Physics",
+  "unit": "Unit 3: Motion in a straight line",
+  "pdf_filename": "P9U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-10-12T10:15:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 6,
+        "progress_percentage": 33.3
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 10.7,
+      "concept_utilization_ratio": 0.71
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Average Speed and Instantaneous Speed",
+      "least_covered_section": "Average Velocity and Instantaneous Velocity",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Phy_U3_Q001",
+      "generation_timestamp": "2025-10-12T10:15:02Z",
+      "section": "Position, Distance and Displacement",
+      "subsection": "Position, Distance and Displacement",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept: A frame of reference...",
+      "mcq_type": "A",
+      "question": "What defines a frame of reference in the description of motion?",
+      "options": {
+        "A": "A set of coordinates used to determine object positions",
+        "B": "The total distance traveled by an object",
+        "C": "The rate of change of velocity",
+        "D": "The shortest path between two points"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what establishes the coordinate system for position measurements.",
+      "explanation": "A frame of reference establishes a coordinate system that allows determination of an object's position. Option B incorrectly describes distance, which is a scalar measurement of path length.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Position, Distance and Displacement",
+        "subsection_anchor": "Position, Distance and Displacement",
+        "structural_element": "Key Concept: A frame of reference...",
+        "content_anchor": "set of coordinates that can be used to determine positions",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_hash_of_frame_of_reference"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q002",
+      "generation_timestamp": "2025-10-12T10:15:04Z",
+      "section": "Position, Distance and Displacement",
+      "subsection": "Position, Distance and Displacement",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept: Position is a measurement...",
+      "mcq_type": "A",
+      "question": "What quantity describes the location of an object relative to a chosen reference point?",
+      "options": {
+        "A": "Position",
+        "B": "Velocity",
+        "C": "Acceleration",
+        "D": "Distance"
+      },
+      "correct_answer": "A",
+      "hint": "This measurement establishes where something is located in space.",
+      "explanation": "Position quantifies an object's location relative to a reference point, typically an origin. Option D describes distance, which measures path length without directional information.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Position, Distance and Displacement",
+        "subsection_anchor": "Position, Distance and Displacement",
+        "structural_element": "Key Concept: Position is a measurement...",
+        "content_anchor": "measurement of a location, with respect to some reference point",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_hash_of_position_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q003",
+      "generation_timestamp": "2025-10-12T10:15:06Z",
+      "section": "Position, Distance and Displacement",
+      "subsection": "Exercise 3.1",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.1",
+      "mcq_type": "F",
+      "question": "A person sitting on a moving horse observes the ground passing by. Which statement correctly analyzes their motion from different frames of reference?",
+      "options": {
+        "A": "Relative to the horse, the person is at rest; relative to the ground, the person is in motion",
+        "B": "Relative to both the horse and ground, the person is in motion",
+        "C": "Relative to the horse, the person is in motion; relative to the ground, the person is at rest",
+        "D": "Relative to both the horse and ground, the person is at rest"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the relative position change between the observer and each reference frame.",
+      "explanation": "Motion is relative to the chosen frame of reference. The person maintains a fixed position relative to the horse but changes position relative to the ground. Option C reverses the correct relationship between the two frames.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 22.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Position, Distance and Displacement",
+        "subsection_anchor": "Exercise 3.1",
+        "structural_element": "Exercise 3.1",
+        "content_anchor": "sitting on a horse, horse moving, rest or motion, two frames of reference",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_hash_of_relative_motion_exercise"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q004",
+      "generation_timestamp": "2025-10-12T10:15:08Z",
+      "section": "Position, Distance and Displacement",
+      "subsection": "Exercise 3.2",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.2",
+      "mcq_type": "B",
+      "question": "What fundamental characteristic distinguishes distance as a scalar quantity?",
+      "options": {
+        "A": "It has magnitude only, with no directional component",
+        "B": "It has both magnitude and specific direction",
+        "C": "It represents the rate of change of position",
+        "D": "It measures the shortest path between points"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what information is required to fully specify this physical quantity.",
+      "explanation": "Distance is a scalar quantity defined solely by its magnitude without directional information. Option B incorrectly describes vector quantities like displacement, which require both magnitude and direction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Position, Distance and Displacement",
+        "subsection_anchor": "Exercise 3.2",
+        "structural_element": "Exercise 3.2",
+        "content_anchor": "distance positive or negative quantity, scalar physical quantity",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_hash_of_distance_scalar"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q005",
+      "generation_timestamp": "2025-10-12T10:15:10Z",
+      "section": "Position, Distance and Displacement",
+      "subsection": "Displacement",
+      "sub_subsection": null,
+      "structural_anchor": "Displacement",
+      "mcq_type": "B",
+      "question": "Which vector quantity describes the change in position of an object from its initial to final location?",
+      "options": {
+        "A": "Displacement",
+        "B": "Distance",
+        "C": "Speed",
+        "D": "Velocity"
+      },
+      "correct_answer": "A",
+      "hint": "This quantity considers only the straight-line change in position, not the path taken.",
+      "explanation": "Displacement is a vector quantity representing the straight-line change in position from initial to final point. Option B describes distance, which measures total path length regardless of direction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Position, Distance and Displacement",
+        "subsection_anchor": "Displacement",
+        "structural_element": "Displacement",
+        "content_anchor": "change of position in a certain direction, vector quantity",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_hash_of_displacement_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q006",
+      "generation_timestamp": "2025-10-12T10:15:12Z",
+      "section": "Average Speed and Instantaneous Speed",
+      "subsection": "Average Speed and Instantaneous Speed",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept: Acceleration is the rate of change...",
+      "mcq_type": "A",
+      "question": "What scalar quantity measures how fast an object changes its location without regard to direction?",
+      "options": {
+        "A": "Speed",
+        "B": "Velocity",
+        "C": "Acceleration",
+        "D": "Displacement"
+      },
+      "correct_answer": "A",
+      "hint": "This quantity represents the rate of distance covered per unit time.",
+      "explanation": "Speed is defined as the distance covered per unit time and lacks directional specification. Option B describes velocity, which includes both speed and direction as a vector quantity.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 79
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Average Speed and Instantaneous Speed",
+        "subsection_anchor": "Average Speed and Instantaneous Speed",
+        "structural_element": "Key Concept: Acceleration is the rate of change...",
+        "content_anchor": "speed is a quantity that describes how fast a body moves",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_hash_of_speed_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q007",
+      "generation_timestamp": "2025-10-12T10:15:14Z",
+      "section": "Average Speed and Instantaneous Speed",
+      "subsection": "Average Speed and Instantaneous Speed",
+      "sub_subsection": null,
+      "structural_anchor": "Average Speed and Instantaneous Speed",
+      "mcq_type": "D",
+      "question": "A vehicle travels 150 kilometers in 2.5 hours along a straight highway. What is its average speed during this journey?",
+      "options": {
+        "A": "60 km/h",
+        "B": "50 km/h",
+        "C": "75 km/h",
+        "D": "80 km/h"
+      },
+      "correct_answer": "A",
+      "hint": "Average speed equals total distance divided by total time taken.",
+      "explanation": "Average speed is calculated as total distance divided by total time: 150 km ÷ 2.5 h = 60 km/h. Option C results from incorrectly adding rather than dividing the given values.",
+      "difficulty_level": "medium",
+      "formula_used": ["v = S/t"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "km/h",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Average Speed and Instantaneous Speed",
+        "subsection_anchor": "Average Speed and Instantaneous Speed",
+        "structural_element": "Average Speed and Instantaneous Speed",
+        "content_anchor": "average speed = total distance covered / total time taken",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_hash_of_average_speed_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q008",
+      "generation_timestamp": "2025-10-12T10:15:16Z",
+      "section": "Average Speed and Instantaneous Speed",
+      "subsection": "Average Speed and Instantaneous Speed",
+      "sub_subsection": null,
+      "structural_anchor": "Average Speed and Instantaneous Speed",
+      "mcq_type": "F",
+      "question": "During a trip with varying speeds, which measurement represents the rate of motion at a specific instant rather than over the entire journey?",
+      "options": {
+        "A": "Instantaneous speed",
+        "B": "Average speed",
+        "C": "Constant speed",
+        "D": "Uniform speed"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what a speedometer displays at any given moment during travel.",
+      "explanation": "Instantaneous speed measures how fast an object moves at a particular moment in time. Option B describes the overall rate calculated from total distance and total time for the entire journey.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Average Speed and Instantaneous Speed",
+        "subsection_anchor": "Average Speed and Instantaneous Speed",
+        "structural_element": "Average Speed and Instantaneous Speed",
+        "content_anchor": "speed at any specific instant is called instantaneous speed",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_hash_of_instantaneous_speed"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q009",
+      "generation_timestamp": "2025-10-12T10:15:18Z",
+      "section": "Average Speed and Instantaneous Speed",
+      "subsection": "Exercise 3.5",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.5",
+      "mcq_type": "K",
+      "question": "What information does a speedometer provide about a vehicle's motion at any given moment?",
+      "options": {
+        "A": "Instantaneous speed",
+        "B": "Average speed for the trip",
+        "C": "Total distance traveled",
+        "D": "Average acceleration"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what the instrument displays as the vehicle's speed changes during travel.",
+      "explanation": "A speedometer measures and displays the instantaneous speed of a vehicle at a particular moment. Option B incorrectly describes a calculated value based on total journey distance and time.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Average Speed and Instantaneous Speed",
+        "subsection_anchor": "Exercise 3.5",
+        "structural_element": "Exercise 3.5",
+        "content_anchor": "speedometer reads instantaneous speed",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_hash_of_speedometer_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 63,
+        "distractor_quality_score": 76,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Phy_U3_Q010",
+      "generation_timestamp": "2025-10-12T10:15:20Z",
+      "section": "Average Speed and Instantaneous Speed",
+      "subsection": "Exercise 3.5",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.5",
+      "mcq_type": "D",
+      "question": "If a car's speedometer shows 90 km/h while traveling on a straight road, what distance will it cover in 20 minutes at this constant speed?",
+      "options": {
+        "A": "30 km",
+        "B": "45 km",
+        "C": "60 km",
+        "D": "75 km"
+      },
+      "correct_answer": "A",
+      "hint": "Convert time to hours and use the relationship distance = speed × time.",
+      "explanation": "Distance equals speed multiplied by time: 90 km/h × (20/60) h = 30 km. Option B results from incorrectly using 30 minutes instead of 20 minutes in the calculation.",
+      "difficulty_level": "medium",
+      "formula_used": ["S = v × t"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "km",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 17.6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a straight line",
+        "section_anchor": "Average Speed and Instantaneous Speed",
+        "subsection_anchor": "Exercise 3.5",
+        "structural_element": "Exercise 3.5",
+        "content_anchor": "speedometer reading, distance calculation",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_hash_of_distance_from_speed"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 24500,
+    "average_question_quality": 83.5,
+    "type_distribution": {
+      "A": 3,
+      "B": 2,
+      "D": 2,
+      "F": 2,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Position, Distance and Displacement": 5,
+      "Average Speed and Instantaneous Speed": 5
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

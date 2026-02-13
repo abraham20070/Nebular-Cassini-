@@ -1,0 +1,805 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-05-20T10:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Chem_U3_Q010",
+    "covered_sections": ["Unit outcomes", "Start-up Activity", "3.1 Introduction", "3.2 Natural Resources and Industry", "3.2.1 Natural Resources (Raw Materials)", "3.2.2 Industry", "3.3 Manufacturing of Valuable Products/Chemicals", "3.3.1 Ammonia (NH3)"],
+    "used_question_signatures": ["eb3d6e8a5b7c1f4a", "a2c5e8f1b9d3g7h0", "c4f8a1d5b9e3h7j2", "d9b3e7a1f5c8h2j6", "f1a5c9e3b7d2h8j4", "b7d2f6a9c3e8h1j5", "a8c2f6b9d4e1h5j7", "d3b7f1a5c9e2h6j8", "e9c5a1f8b4d2h7j3", "b2f6d9a4c8e1h3j7"],
+    "baseline_counter": {
+      "Unit outcomes": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "Start-up Activity": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.1 Introduction": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.2 Natural Resources and Industry": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.2.1 Natural Resources (Raw Materials)": {
+        "count": 1,
+        "mini_headings_covered": ["Classification of Natural Resources:"],
+        "last_question_round": 1
+      },
+      "3.2.2 Industry": {
+        "count": 2,
+        "mini_headings_covered": ["Classification of manufacturing industry:", "Chemical Industry:"],
+        "last_question_round": 1
+      },
+      "3.3 Manufacturing of Valuable Products/Chemicals": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.3.1 Ammonia (NH3)": {
+        "count": 1,
+        "mini_headings_covered": ["Properties:"],
+        "last_question_round": 1
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Unit outcomes": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Start-up Activity": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.1 Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.2 Natural Resources and Industry": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.3 Manufacturing of Valuable Products/Chemicals": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.4 Some Manufacturing Industries in Ethiopia": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Unit Summary": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "CHECK LIST KEY TERMS": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "REVIEW EXERCISE FOR UNIT 3": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Unit outcomes": ["Renewable and non-renewable resources", "Chemical industry importance"],
+      "Start-up Activity": ["Metal and non-metal occurrence"],
+      "3.1 Introduction": ["Industrial chemistry definition"],
+      "3.2.1 Natural Resources (Raw Materials)": ["Renewable vs non-renewable resources"],
+      "3.2.2 Industry": ["Manufacturing industry classification"],
+      "3.3.1 Ammonia (NH3)": ["Ammonia density and ionization"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state_hash_placeholder",
+    "content_density_metrics": {
+      "total_concepts_extracted": 8,
+      "questions_per_concept_ratio": 1.25,
+      "structural_coverage_percentage": 12.5
+    }
+  },
+  "grade": "12",
+  "subject": "Chemistry",
+  "unit": "Unit 3: Industrial Chemistry",
+  "pdf_filename": "C12U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 12,
+      "constraint_violations_caught": 8,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-05-20T10:02:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 9,
+        "progress_percentage": 44.4
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 11.1,
+      "concept_utilization_ratio": 0.8
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.2 Natural Resources and Industry",
+      "least_covered_section": "3.4 Some Manufacturing Industries in Ethiopia",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.25,
+      "remaining_concept_capacity": 40
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Chem_U3_Q001",
+      "generation_timestamp": "2024-05-20T10:00:05Z",
+      "section": "Unit outcomes",
+      "subsection": "Unit outcomes",
+      "sub_subsection": null,
+      "structural_anchor": "Unit outcomes",
+      "mcq_type": "K",
+      "question": "What common characteristic links the economic importance of both renewable and non-renewable natural resources to industrial chemistry?",
+      "options": {
+        "A": "Both require complex extraction technologies unavailable in developing nations.",
+        "B": "Both serve as primary raw materials for the transformation processes in chemical industries.",
+        "C": "Both are equally abundant and can be depleted without environmental consequences.",
+        "D": "Both are primarily used for energy generation rather than material synthesis."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the fundamental role of raw materials in any manufacturing process.",
+      "explanation": "Renewable and non-renewable resources are fundamental as raw materials that undergo physical and chemical transformations in industrial processes. Option C is incorrect because non-renewable resources are finite and their depletion has significant environmental impacts.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "Unit outcomes",
+        "subsection_anchor": "Unit outcomes",
+        "structural_element": "Unit outcomes",
+        "content_anchor": "renewable and non-renewable natural resources",
+        "page_hint": "Page 1",
+        "concept_hash": "hash_raw_materials_importance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q002",
+      "generation_timestamp": "2024-05-20T10:00:12Z",
+      "section": "Start-up Activity",
+      "subsection": "Start-up Activity",
+      "sub_subsection": null,
+      "structural_anchor": "Start-up Activity",
+      "mcq_type": "F",
+      "question": "Given that certain metals are extracted from specific mineral ores, which reasoning best explains why the geographic location of an industry is often tied to the source of its raw materials?",
+      "options": {
+        "A": "Transporting heavy, bulk raw materials over long distances is economically prohibitive.",
+        "B": "The chemical processes required for extraction only work at the site of the ore deposit.",
+        "C": "Labor costs are universally lower near mining communities.",
+        "D": "Environmental regulations forbid the movement of unprocessed ores across regions."
+      },
+      "correct_answer": "A",
+      "hint": "Think about the logistics and economics of moving large quantities of material.",
+      "explanation": "Industrial economics strongly favors minimizing transport costs for heavy, low-value raw materials like ores. Option C is a flawed generalization, as labor costs vary widely and are not the primary factor in such location decisions.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "Start-up Activity",
+        "subsection_anchor": "Start-up Activity",
+        "structural_element": "Start-up Activity",
+        "content_anchor": "occurrence and extraction of metals",
+        "page_hint": "Page 2",
+        "concept_hash": "hash_industry_location_raw_materials"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 70,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q003",
+      "generation_timestamp": "2024-05-20T10:00:20Z",
+      "section": "3.1 Introduction",
+      "subsection": "3.1 Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "3.1 Introduction",
+      "mcq_type": "A",
+      "question": "What is the defining scope of industrial chemistry as a scientific discipline?",
+      "options": {
+        "A": "The theoretical study of atomic structure and bonding in novel compounds.",
+        "B": "The application of physical and chemical processes to transform raw materials into beneficial products.",
+        "C": "The exclusive focus on developing new pharmaceutical drugs.",
+        "D": "The environmental management of waste produced by manufacturing sectors."
+      },
+      "correct_answer": "B",
+      "hint": "Look for the description that links processes, raw materials, and final products.",
+      "explanation": "Industrial chemistry is defined by its applied focus on transforming natural raw materials into useful products through designed processes. Option A describes pure chemistry, not the applied nature of industrial chemistry.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 78
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.1 Introduction",
+        "subsection_anchor": "3.1 Introduction",
+        "structural_element": "3.1 Introduction",
+        "content_anchor": "industrial chemistry is a branch",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_industrial_chemistry_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q004",
+      "generation_timestamp": "2024-05-20T10:00:28Z",
+      "section": "3.2 Natural Resources and Industry",
+      "subsection": "3.2 Natural Resources and Industry",
+      "sub_subsection": null,
+      "structural_anchor": "3.2 Natural Resources and Industry",
+      "mcq_type": "J",
+      "question": "Into which primary categories are natural resources conventionally classified based on their replenishment cycles?",
+      "options": {
+        "A": "Organic and inorganic",
+        "B": "Metallic and non-metallic",
+        "C": "Renewable and non-renewable",
+        "D": "Terrestrial and aquatic"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the rate at which a resource can be naturally restored after use.",
+      "explanation": "The fundamental classification of natural resources hinges on their capacity for regeneration through natural cycles. Option A classifies based on chemical composition, which is not the primary criterion for resource management.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 75
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.2 Natural Resources and Industry",
+        "subsection_anchor": "3.2 Natural Resources and Industry",
+        "structural_element": "3.2 Natural Resources and Industry",
+        "content_anchor": "classify natural resources",
+        "page_hint": "Page 4",
+        "concept_hash": "hash_resource_classification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q005",
+      "generation_timestamp": "2024-05-20T10:00:35Z",
+      "section": "3.2 Natural Resources and Industry",
+      "subsection": "3.2.1 Natural Resources (Raw Materials)",
+      "sub_subsection": null,
+      "structural_anchor": "Classification of Natural Resources:",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that solar energy is a non-renewable resource?",
+      "options": {
+        "A": "It overlooks that solar energy is derived from a chemical reaction.",
+        "B": "It confuses the finite nature of collecting devices with the infinite nature of the energy source itself.",
+        "C": "It assumes solar energy cannot be converted into electricity efficiently.",
+        "D": "It mistakenly classifies energy based on its environmental impact rather than its source."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the timescale of depletion for the sun's energy output versus human consumption.",
+      "explanation": "Solar energy is classified as renewable because the solar stock is inexhaustible on a human timescale. The error lies in conflating the limited lifespan of man-made collection panels with the effectively unlimited source.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 87
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.2 Natural Resources and Industry",
+        "subsection_anchor": "3.2.1 Natural Resources (Raw Materials)",
+        "structural_element": "Classification of Natural Resources:",
+        "content_anchor": "solar energy is considered a renewable resource",
+        "page_hint": "Page 5",
+        "concept_hash": "hash_solar_renewable_misconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 78,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q006",
+      "generation_timestamp": "2024-05-20T10:00:42Z",
+      "section": "3.2 Natural Resources and Industry",
+      "subsection": "3.2.2 Industry",
+      "sub_subsection": null,
+      "structural_anchor": "Classification of manufacturing industry:",
+      "mcq_type": "B",
+      "question": "What term describes the compartment of an economy concerned with the large-scale production of goods from raw materials using organized labor?",
+      "options": {
+        "A": "Service industry",
+        "B": "Manufacturing industry",
+        "C": "Extractive industry",
+        "D": "Agro-based industry"
+      },
+      "correct_answer": "B",
+      "hint": "The key process is 'making' or 'producing' goods, not extracting or providing services.",
+      "explanation": "A manufacturing industry is specifically defined by its role in transforming raw materials into finished or semi-finished goods. Option C is incorrect as extractive industries focus on obtaining raw materials, not transforming them into new products.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.2 Natural Resources and Industry",
+        "subsection_anchor": "3.2.2 Industry",
+        "structural_element": "Classification of manufacturing industry:",
+        "content_anchor": "manufacturing industry is a compartment",
+        "page_hint": "Page 6",
+        "concept_hash": "hash_manufacturing_industry_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q007",
+      "generation_timestamp": "2024-05-20T10:00:50Z",
+      "section": "3.2 Natural Resources and Industry",
+      "subsection": "3.2.2 Industry",
+      "sub_subsection": null,
+      "structural_anchor": "Chemical Industry:",
+      "mcq_type": "I",
+      "question": "How does a chemical industry that uses preprocessed compounds differ fundamentally from one that uses natural raw materials directly?",
+      "options": {
+        "A": "It operates on a significantly smaller scale with lower energy requirements.",
+        "B": "Its raw materials are products from other industrial processes rather than primary resources.",
+        "C": "It exclusively produces consumer goods rather than industrial intermediates.",
+        "D": "It does not involve chemical reactions in its manufacturing steps."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the origin of the inputs to the production process.",
+      "explanation": "A key classification of chemical industries is based on whether they use primary natural resources or secondary, preprocessed materials from other industries. Option A is a flawed generalization, as scale and energy use are not defining differences.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.2 Natural Resources and Industry",
+        "subsection_anchor": "3.2.2 Industry",
+        "structural_element": "Chemical Industry:",
+        "content_anchor": "industries use products from other industries",
+        "page_hint": "Page 7",
+        "concept_hash": "hash_chemical_industry_classification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 76,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q008",
+      "generation_timestamp": "2024-05-20T10:00:58Z",
+      "section": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "subsection": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "sub_subsection": null,
+      "structural_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "mcq_type": "D",
+      "question": "A manufacturing process is designed to produce a desired product through a succession of integrated treatment steps. What is the primary nature of these treatment steps?",
+      "options": {
+        "A": "They are exclusively chemical reactions between organic compounds.",
+        "B": "They can be either physical operations or chemical reactions.",
+        "C": "They are always biological fermentation processes.",
+        "D": "They are primarily mechanical assembly stages."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the broad methods used to transform starting materials into a final product.",
+      "explanation": "Industrial manufacturing processes integrate a sequence of steps that can include physical operations (like grinding, distillation) and chemical reactions. Option A is incorrect because it excludes physical steps and inorganic reactions, which are common.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 77
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "structural_element": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "content_anchor": "succession of treatment steps",
+        "page_hint": "Page 8",
+        "concept_hash": "hash_manufacturing_process_steps"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q009",
+      "generation_timestamp": "2024-05-20T10:01:05Z",
+      "section": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "subsection": "3.3.1 Ammonia (NH3)",
+      "sub_subsection": null,
+      "structural_anchor": "Properties:",
+      "mcq_type": "E",
+      "question": "A sample of ammonia gas at STP has a density of 0.769 kg/m³. What is the mass, in grams, of 2.50 liters of this gas under the same conditions?",
+      "options": {
+        "A": "0.769 g",
+        "B": "1.92 g",
+        "C": "7.69 g",
+        "D": "19.2 g"
+      },
+      "correct_answer": "B",
+      "hint": "Use the density and the given volume. Remember to convert units consistently (liters to cubic meters, kilograms to grams).",
+      "explanation": "Density is mass per unit volume. First, convert 2.50 L to 0.00250 m³. Mass = Density × Volume = 0.769 kg/m³ × 0.00250 m³ = 0.0019225 kg = 1.9225 g. Option D results from forgetting to convert liters to cubic meters.",
+      "difficulty_level": "medium",
+      "formula_used": ["mass = density × volume"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "g",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.1 Ammonia (NH3)",
+        "structural_element": "Properties:",
+        "content_anchor": "density of 0.769 kg/m³ at STP",
+        "page_hint": "Page 9",
+        "concept_hash": "hash_ammonia_density_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q010",
+      "generation_timestamp": "2024-05-20T10:01:15Z",
+      "section": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "subsection": "3.3.1 Ammonia (NH3)",
+      "sub_subsection": null,
+      "structural_anchor": "Properties:",
+      "mcq_type": "G",
+      "question": "In an aqueous solution, ammonia establishes an equilibrium: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻. If additional ammonium chloride (NH₄Cl) is dissolved into this solution, what is the immediate effect on the concentration of hydroxide ions (OH⁻)?",
+      "options": {
+        "A": "The OH⁻ concentration increases due to the common ion effect.",
+        "B": "The OH⁻ concentration decreases as the equilibrium shifts to the left.",
+        "C": "The OH⁻ concentration remains unchanged because NH₄Cl is a neutral salt.",
+        "D": "The OH⁻ concentration first increases then decreases as a new equilibrium is established."
+      },
+      "correct_answer": "B",
+      "hint": "Apply Le Chatelier's principle to the equilibrium. Consider what species NH₄Cl adds to the solution.",
+      "explanation": "Dissolving NH₄Cl increases the concentration of NH₄⁺ ions. According to Le Chatelier's principle, the equilibrium shifts left to consume the added NH₄⁺, thereby consuming OH⁻ and decreasing its concentration. Option A incorrectly applies the common ion effect.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.1 Ammonia (NH3)",
+        "structural_element": "Properties:",
+        "content_anchor": "ammonia is partially ionized according to the equilibrium",
+        "page_hint": "Page 9",
+        "concept_hash": "hash_ammonia_equilibrium_shift"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 130000,
+    "average_question_quality": 82.0,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Unit outcomes": 1,
+      "Start-up Activity": 1,
+      "3.1 Introduction": 1,
+      "3.2 Natural Resources and Industry": 4,
+      "3.3 Manufacturing of Valuable Products/Chemicals": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

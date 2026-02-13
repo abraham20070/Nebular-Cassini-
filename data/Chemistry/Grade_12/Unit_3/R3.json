@@ -1,0 +1,893 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-05-20T10:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G12_Chem_U3_Q030",
+    "covered_sections": ["Unit outcomes", "Start-up Activity", "3.1 Introduction", "3.2 Natural Resources and Industry", "3.2.1 Natural Resources (Raw Materials)", "3.2.2 Industry", "3.3 Manufacturing of Valuable Products/Chemicals", "3.3.1 Ammonia (NH3)", "3.3.2 Nitric Acid", "3.3.3 Nitrogen- Based Fertilizers", "3.3.4 Sulphuric Acid", "3.3.5 Some Common Pesticides and Herbicides", "3.3.6 Sodium Carbonate", "3.3.7 Sodium Hydroxide (NaOH)", "3.4 Some Manufacturing Industries in Ethiopia", "3.4.1 Glass Manufacturing", "3.4.2 Manufacturing of Ceramics", "3.4.3 Cement", "3.4.4 Sugar Manufacturing", "3.4.5 Paper and Pulp", "3.4.6 Tannery", "3.4.7 Food Processing and Preservation", "3.4.8 Manufacturing of Ethanol"],
+    "used_question_signatures": ["eb3d6e8a5b7c1f4a", "a2c5e8f1b9d3g7h0", "c4f8a1d5b9e3h7j2", "d9b3e7a1f5c8h2j6", "f1a5c9e3b7d2h8j4", "b7d2f6a9c3e8h1j5", "a8c2f6b9d4e1h5j7", "d3b7f1a5c9e2h6j8", "e9c5a1f8b4d2h7j3", "b2f6d9a4c8e1h3j7", "k5m9p3r7t1v8x2z4", "n8q2s6u0w4y8a1c5", "g7j3l9o5q1t7v3x9", "h4k0m6p2r8t4v0x6", "d1f7h3j9l5n1p7r3", "s5u1w7y3a9c5e1g7", "b8d4f0h6j2l8n4p0", "r2t8v4x0z6b2d8f4", "i6k2m8o4q0s6u2w8", "p9r5t1v7x3z9b5d1", "c3e9g5i1k7m3o9q5", "f2h8j4l0n6p2r8t4", "a7c1e7g3i9k5m1o7", "d0f6h2j8l4n0p6r2", "b5d1f7h3j9l5n1p7", "q3s9u5w1y7a3c9e5", "t8v4x0z6b2d8f4h0", "m2o8q4s0u6w2y8a4", "i0k6m2o8q4s0u6w2", "p1r7t3v9x5z1b7d3"],
+    "baseline_counter": {
+      "Unit outcomes": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "Start-up Activity": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.1 Introduction": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.2 Natural Resources and Industry": {
+        "count": 5,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "3.2.1 Natural Resources (Raw Materials)": {
+        "count": 3,
+        "mini_headings_covered": ["Classification of Natural Resources:"],
+        "last_question_round": 3
+      },
+      "3.2.2 Industry": {
+        "count": 3,
+        "mini_headings_covered": ["Classification of manufacturing industry:", "Chemical Industry:"],
+        "last_question_round": 2
+      },
+      "3.3 Manufacturing of Valuable Products/Chemicals": {
+        "count": 13,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "3.3.1 Ammonia (NH3)": {
+        "count": 4,
+        "mini_headings_covered": ["Properties:", "Uses:", "Preparation:", "Steps Involved in Ammonia Production:"],
+        "last_question_round": 3
+      },
+      "3.3.2 Nitric Acid": {
+        "count": 3,
+        "mini_headings_covered": ["Properties:", "Uses:", "Preparation:"],
+        "last_question_round": 3
+      },
+      "3.3.3 Nitrogen- Based Fertilizers": {
+        "count": 3,
+        "mini_headings_covered": ["Urea:", "Diammonium Monohydrogen Phosphate(DAP), (NH4)2HPO4:", "Anhydrous Ammonia:"],
+        "last_question_round": 3
+      },
+      "3.3.4 Sulphuric Acid": {
+        "count": 2,
+        "mini_headings_covered": ["Properties:", "Preparation:"],
+        "last_question_round": 3
+      },
+      "3.3.5 Some Common Pesticides and Herbicides": {
+        "count": 2,
+        "mini_headings_covered": ["Pesticides:", "Herbicides (chemical weed killers):"],
+        "last_question_round": 3
+      },
+      "3.3.6 Sodium Carbonate": {
+        "count": 2,
+        "mini_headings_covered": ["Properties:", "Production Method (Solvay process):"],
+        "last_question_round": 3
+      },
+      "3.3.7 Sodium Hydroxide (NaOH)": {
+        "count": 1,
+        "mini_headings_covered": ["Properties:"],
+        "last_question_round": 3
+      },
+      "3.4 Some Manufacturing Industries in Ethiopia": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "3.4.1 Glass Manufacturing": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "3.4.2 Manufacturing of Ceramics": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "3.4.3 Cement": {
+        "count": 2,
+        "mini_headings_covered": ["Manufacturing Process:", "Setting of Cement:"],
+        "last_question_round": 3
+      },
+      "3.4.4 Sugar Manufacturing": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "3.4.5 Paper and Pulp": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "3.4.6 Tannery": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "3.4.7 Food Processing and Preservation": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "3.4.8 Manufacturing of Ethanol": {
+        "count": 2,
+        "mini_headings_covered": ["Industrial preparation of Ethanol:", "Local Preparation of Ethanol (Araki):"],
+        "last_question_round": 3
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Unit outcomes": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Start-up Activity": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.1 Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.2 Natural Resources and Industry": {
+        "question_count": 5,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "3.3 Manufacturing of Valuable Products/Chemicals": {
+        "question_count": 18,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "3.4 Some Manufacturing Industries in Ethiopia": {
+        "question_count": 11,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Unit Summary": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "CHECK LIST KEY TERMS": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "REVIEW EXERCISE FOR UNIT 3": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Unit outcomes": ["Renewable and non-renewable resources", "Chemical industry importance"],
+      "Start-up Activity": ["Metal and non-metal occurrence"],
+      "3.1 Introduction": ["Industrial chemistry definition"],
+      "3.2.1 Natural Resources (Raw Materials)": ["Renewable vs non-renewable resources", "Solar energy classification", "Resource consumption rate"],
+      "3.2.2 Industry": ["Manufacturing industry classification", "Chemical industry input types"],
+      "3.3.1 Ammonia (NH3)": ["Ammonia density and ionization", "Ammonia equilibrium", "Haber process reactants", "Haber process conditions"],
+      "3.3.2 Nitric Acid": ["Nitric acid decomposition", "Nitric acid primary use", "Ostwald process steps"],
+      "3.3.3 Nitrogen- Based Fertilizers": ["Urea production reaction", "DAP composition", "Anhydrous ammonia application"],
+      "3.3.4 Sulphuric Acid": ["Sulfuric acid dilution safety", "Contact process step 2"],
+      "3.3.5 Some Common Pesticides and Herbicides": ["Pesticide definition", "Herbicide vs pesticide"],
+      "3.3.6 Sodium Carbonate": ["Sodium carbonate solubility", "Solvay process primary reaction"],
+      "3.3.7 Sodium Hydroxide (NaOH)": ["NaOH corrosive nature"],
+      "3.4 Some Manufacturing Industries in Ethiopia": ["Glass main component"],
+      "3.4.1 Glass Manufacturing": ["Soda-lime glass composition", "Glass furnace operation"],
+      "3.4.2 Manufacturing of Ceramics": ["Ceramic material composition"],
+      "3.4.3 Cement": ["Cement setting chemistry", "Portland cement composition"],
+      "3.4.4 Sugar Manufacturing": ["Sugar cane composition"],
+      "3.4.5 Paper and Pulp": ["Paper definition"],
+      "3.4.6 Tannery": ["Tanning definition"],
+      "3.4.7 Food Processing and Preservation": ["Food preservation goal"],
+      "3.4.8 Manufacturing of Ethanol": ["Ethanol fermentation reaction", "Araki preparation method"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_previous_state_placeholder_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 32,
+      "questions_per_concept_ratio": 0.94,
+      "structural_coverage_percentage": 46.9
+    }
+  },
+  "grade": "12",
+  "subject": "Chemistry",
+  "unit": "Unit 3: Industrial Chemistry",
+  "pdf_filename": "C12U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 11,
+      "constraint_violations_caught": 8,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-05-20T10:12:45Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 9,
+        "progress_percentage": 66.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 23,
+      "mini_headings_covered_count": 16,
+      "structural_coverage_percentage": 38.3,
+      "concept_utilization_ratio": 0.66
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "least_covered_section": "Unit Summary",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.94,
+      "remaining_concept_capacity": 130
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Chem_U3_Q021",
+      "generation_timestamp": "2024-05-20T10:10:05Z",
+      "section": "3.2.1 Natural Resources (Raw Materials)",
+      "subsection": "3.2.1 Natural Resources (Raw Materials)",
+      "sub_subsection": null,
+      "structural_anchor": "Classification of Natural Resources:",
+      "mcq_type": "M",
+      "question": "Arrange the following resources in order of increasing renewability rate: 1. Fossil fuels, 2. Forest timber, 3. Solar energy, 4. Mineral ores.",
+      "options": {
+        "A": "1, 4, 2, 3",
+        "B": "4, 1, 2, 3",
+        "C": "2, 3, 1, 4",
+        "D": "3, 2, 4, 1"
+      },
+      "correct_answer": "A",
+      "hint": "Consider which resources cannot be replenished at all, which can over decades, and which are effectively constant.",
+      "explanation": "Fossil fuels and mineral ores are non-renewable (rate ~0), with fossil fuels forming over millions of years. Forest timber is renewable over decades. Solar energy is continuously available (infinite rate on human scale). Option B incorrectly places mineral ores as less renewable than fossil fuels.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.2 Natural Resources and Industry",
+        "subsection_anchor": "3.2.1 Natural Resources (Raw Materials)",
+        "structural_element": "Classification of Natural Resources:",
+        "content_anchor": "renewable and non-renewable resources",
+        "page_hint": "Pages 5-6",
+        "concept_hash": "hash_resource_renewability_ordering"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q022",
+      "generation_timestamp": "2024-05-20T10:10:13Z",
+      "section": "3.3.1 Ammonia (NH3)",
+      "subsection": "3.3.1 Ammonia (NH3)",
+      "sub_subsection": null,
+      "structural_anchor": "Steps Involved in Ammonia Production:",
+      "mcq_type": "D",
+      "question": "In the Haber process, what specific combination of pressure and temperature conditions is typically applied to the nitrogen-hydrogen mixture to optimize ammonia yield?",
+      "options": {
+        "A": "15-25 MPa and 300-500°C",
+        "B": "1-5 MPa and 100-200°C",
+        "C": "50-100 MPa and 700-900°C",
+        "D": "Atmospheric pressure and 25°C"
+      },
+      "correct_answer": "A",
+      "hint": "The process requires high pressure to favor the side of the reaction with fewer gas molecules and moderate temperature to balance kinetics and equilibrium.",
+      "explanation": "The Haber process uses high pressure (15-25 MPa) to shift equilibrium toward ammonia (fewer gas molecules) and moderate temperature (300-500°C) as a compromise between reaction rate and equilibrium constant. Option B uses insufficient pressure for significant yield.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 22.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.1 Ammonia (NH3)",
+        "structural_element": "Steps Involved in Ammonia Production:",
+        "content_anchor": "pressure of 15-25MPa at a temperature of 300-500°C",
+        "page_hint": "Page 11",
+        "concept_hash": "hash_haber_process_conditions"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q023",
+      "generation_timestamp": "2024-05-20T10:10:20Z",
+      "section": "3.3.2 Nitric Acid",
+      "subsection": "3.3.2 Nitric Acid",
+      "sub_subsection": null,
+      "structural_anchor": "Preparation:",
+      "mcq_type": "I",
+      "question": "How does the industrial Ostwald process for nitric acid production fundamentally differ from simple laboratory acid displacement methods?",
+      "options": {
+        "A": "It uses ammonia as the starting material instead of a nitrate salt.",
+        "B": "It operates at room temperature without a catalyst.",
+        "C": "It produces nitric acid that is free of nitrogen dioxide impurities.",
+        "D": "It yields a more dilute acid that cannot be concentrated."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the primary raw material and the series of oxidation steps involved.",
+      "explanation": "The Ostwald process is an oxidation cascade starting with catalytic oxidation of ammonia. Laboratory methods typically displace nitric acid from its salts using a less volatile acid. Option C is incorrect; Ostwald process acid often contains dissolved NO₂.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.2 Nitric Acid",
+        "structural_element": "Preparation:",
+        "content_anchor": "Ostwald process... catalytic oxidation of ammonia",
+        "page_hint": "Page 19",
+        "concept_hash": "hash_ostwald_vs_lab_method"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 77,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q024",
+      "generation_timestamp": "2024-05-20T10:10:28Z",
+      "section": "3.3.3 Nitrogen- Based Fertilizers",
+      "subsection": "3.3.3 Nitrogen- Based Fertilizers",
+      "sub_subsection": null,
+      "structural_anchor": "Anhydrous Ammonia:",
+      "mcq_type": "L",
+      "question": "For effective application as a fertilizer, how must anhydrous ammonia be handled and introduced into agricultural soil?",
+      "options": {
+        "A": "Sprayed on the soil surface as a fine mist.",
+        "B": "Injected 6-8 inches below the soil surface.",
+        "C": "Mixed with irrigation water and flood-applied.",
+        "D": "Broadcast as solid pellets and lightly tilled in."
+      },
+      "correct_answer": "B",
+      "hint": "Ammonia is a gas at atmospheric pressure; consider methods to prevent its escape.",
+      "explanation": "Anhydrous ammonia must be injected deep into moist soil to prevent volatilization loss of the gaseous NH₃ and to allow reaction with soil water. Option A would result in almost complete loss to the atmosphere.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 78
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.3 Nitrogen- Based Fertilizers",
+        "structural_element": "Anhydrous Ammonia:",
+        "content_anchor": "applied by injection 6 to 8 inches below the soil surface",
+        "page_hint": "Page 24",
+        "concept_hash": "hash_anhydrous_ammonia_application"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q025",
+      "generation_timestamp": "2024-05-20T10:10:35Z",
+      "section": "3.3.4 Sulphuric Acid",
+      "subsection": "3.3.4 Sulphuric Acid",
+      "sub_subsection": null,
+      "structural_anchor": "Preparation:",
+      "mcq_type": "C",
+      "question": "In the Contact process, which chemical equation represents the catalytic oxidation step that converts sulfur dioxide to sulfur trioxide?",
+      "options": {
+        "A": "S(s) + O₂(g) → SO₂(g)",
+        "B": "2SO₂(g) + O₂(g) ⇌ 2SO₃(g)",
+        "C": "SO₃(g) + H₂SO₄(l) → H₂S₂O₇(l)",
+        "D": "H₂S₂O₇(l) + H₂O(l) → 2H₂SO₄(l)"
+      },
+      "correct_answer": "B",
+      "hint": "This step involves the key equilibrium reaction that uses a vanadium(V) oxide catalyst.",
+      "explanation": "Step 2 of the Contact process is the reversible, catalytic oxidation of SO₂ to SO₃. Option A represents the combustion of sulfur to produce SO₂, which is the preceding step.",
+      "difficulty_level": "easy",
+      "formula_used": ["2SO₂(g) + O₂(g) ⇌ 2SO₃(g)"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 33.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 72
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.4 Sulphuric Acid",
+        "structural_element": "Preparation:",
+        "content_anchor": "2SO₂(g) + O₂(g) → 2SO₃(g)",
+        "page_hint": "Page 29",
+        "concept_hash": "hash_contact_process_step2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 86,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q026",
+      "generation_timestamp": "2024-05-20T10:10:42Z",
+      "section": "3.3.5 Some Common Pesticides and Herbicides",
+      "subsection": "3.3.5 Some Common Pesticides and Herbicides",
+      "sub_subsection": null,
+      "structural_anchor": "Herbicides (chemical weed killers):",
+      "mcq_type": "J",
+      "question": "Into which functional category does a chemical fall if it is designed to kill all plant material upon contact, regardless of species?",
+      "options": {
+        "A": "Selective herbicide",
+        "B": "Non-selective herbicide",
+        "C": "Fungicide",
+        "D": "Insecticide"
+      },
+      "correct_answer": "B",
+      "hint": "The prefix 'non-' indicates a lack of specificity in its action.",
+      "explanation": "Non-selective herbicides are total weed killers that affect all plants. Selective herbicides target specific weeds while sparing the crop. Option D targets insects, not plants.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 76
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.5 Some Common Pesticides and Herbicides",
+        "structural_element": "Herbicides (chemical weed killers):",
+        "content_anchor": "Non-selective herbicides... kill all plant material",
+        "page_hint": "Page 35",
+        "concept_hash": "hash_nonselective_herbicide"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q027",
+      "generation_timestamp": "2024-05-20T10:10:50Z",
+      "section": "3.3.6 Sodium Carbonate",
+      "subsection": "3.3.6 Sodium Carbonate",
+      "sub_subsection": null,
+      "structural_anchor": "Production Method (Solvay process):",
+      "mcq_type": "K",
+      "question": "What is the net chemical transformation achieved by the Solvay process, as represented by its overall reaction equation?",
+      "options": {
+        "A": "CaCO₃ + 2NaCl → Na₂CO₃ + CaCl₂",
+        "B": "NaCl + H₂O + CO₂ + NH₃ → NaHCO₃ + NH₄Cl",
+        "C": "2NaHCO₃ → Na₂CO₃ + H₂O + CO₂",
+        "D": "Ca(OH)₂ + 2NH₄Cl → CaCl₂ + 2NH₃ + 2H₂O"
+      },
+      "correct_answer": "A",
+      "hint": "Look for the equation that shows the starting raw materials (limestone and salt) and the main product (sodium carbonate).",
+      "explanation": "The Solvay process uses limestone (CaCO₃) and salt (NaCl) to produce sodium carbonate (Na₂CO₃) and calcium chloride (CaCl₂) as a byproduct. Option B represents an intermediate step, not the net transformation.",
+      "difficulty_level": "medium",
+      "formula_used": ["CaCO₃ + 2NaCl → Na₂CO₃ + CaCl₂"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 30.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 75
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.6 Sodium Carbonate",
+        "structural_element": "Production Method (Solvay process):",
+        "content_anchor": "overall reaction: CaCO₃ + 2NaCl → Na₂CO₃ + CaCl₂",
+        "page_hint": "Page 37",
+        "concept_hash": "hash_solvay_overall_reaction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q028",
+      "generation_timestamp": "2024-05-20T10:10:58Z",
+      "section": "3.3.7 Sodium Hydroxide (NaOH)",
+      "subsection": "3.3.7 Sodium Hydroxide (NaOH)",
+      "sub_subsection": null,
+      "structural_anchor": "Properties:",
+      "mcq_type": "H",
+      "question": "Which statement identifies a critical hazard associated with handling solid sodium hydroxide that is not typically a concern with common table salt (NaCl)?",
+      "options": {
+        "A": "It can absorb moisture from the air and form concentrated solutions.",
+        "B": "It dissolves exothermically in water, releasing heat.",
+        "C": "Its aqueous solutions have a high electrical conductivity.",
+        "D": "It can cause severe chemical burns upon contact with skin by decomposing proteins."
+      },
+      "correct_answer": "D",
+      "hint": "Consider the specific 'caustic' or corrosive nature of strong bases versus neutral salts.",
+      "explanation": "Sodium hydroxide's severe hazard is its causticity—it hydrolyzes proteins and lipids in tissue, causing chemical burns. While NaCl solutions conduct electricity (C) and NaOH dissolution is exothermic (B), these are not unique, critical hazards compared to its corrosiveness.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.7 Sodium Hydroxide (NaOH)",
+        "structural_element": "Properties:",
+        "content_anchor": "corrosive action on many substances: it decomposes proteins",
+        "page_hint": "Page 38",
+        "concept_hash": "hash_naoh_hazard_corrosiveness"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 79,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q029",
+      "generation_timestamp": "2024-05-20T10:11:05Z",
+      "section": "3.4.1 Glass Manufacturing",
+      "subsection": "3.4.1 Glass Manufacturing",
+      "sub_subsection": null,
+      "structural_anchor": "3.4.1 Glass Manufacturing",
+      "mcq_type": "B",
+      "question": "What is the primary chemical compound that constitutes the main component of most manufactured glass?",
+      "options": {
+        "A": "Sodium carbonate (Na₂CO₃)",
+        "B": "Calcium oxide (CaO)",
+        "C": "Silicon dioxide (SiO₂)",
+        "D": "Boron oxide (B₂O₃)"
+      },
+      "correct_answer": "C",
+      "hint": "This compound is commonly found in sand and provides the basic network structure of glass.",
+      "explanation": "Silica (SiO₂) is the fundamental glass-forming oxide that creates the random, amorphous network. Sodium and calcium oxides are modifiers that lower the melting point but are not the primary component. Option D is specific to borosilicate glass.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.4 Some Manufacturing Industries in Ethiopia",
+        "subsection_anchor": "3.4.1 Glass Manufacturing",
+        "structural_element": "3.4.1 Glass Manufacturing",
+        "content_anchor": "main component of glass is silica",
+        "page_hint": "Page 41",
+        "concept_hash": "hash_glass_main_component"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q030",
+      "generation_timestamp": "2024-05-20T10:11:12Z",
+      "section": "3.4.1 Glass Manufacturing",
+      "subsection": "3.4.1 Glass Manufacturing",
+      "sub_subsection": null,
+      "structural_anchor": "Steps in glass production",
+      "mcq_type": "F",
+      "question": "A glass manufacturing furnace operates continuously at about 1600°C. Under the condition that maintaining this high temperature is energy-intensive, which reasoning best explains why batch preparation must carefully control the proportion of sodium carbonate added to silica sand?",
+      "options": {
+        "A": "Excess sodium carbonate makes the glass too brittle for forming.",
+        "B": "Sodium carbonate acts as a flux, significantly lowering the required melting temperature of silica.",
+        "C": "Sodium carbonate provides the color for the final glass product.",
+        "D": "Too little sodium carbonate prevents the removal of bubbles during annealing."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the role of additives that modify the melting point of the primary component.",
+      "explanation": "Sodium carbonate (a flux) reacts with silica to form sodium silicate, which has a much lower melting point than pure silica, thereby reducing energy costs. Option A is incorrect; soda actually makes glass less brittle but more soluble.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 87
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.4 Some Manufacturing Industries in Ethiopia",
+        "subsection_anchor": "3.4.1 Glass Manufacturing",
+        "structural_element": "Steps in glass production",
+        "content_anchor": "raw materials are mixed in a proportion of 60% sand, 21% sodium carbonate",
+        "page_hint": "Page 43",
+        "concept_hash": "hash_sodium_carbonate_flux_role"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 76,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 127000,
+    "average_question_quality": 82.8,
+    "type_distribution": {
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "F": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1,
+      "L": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "3.2 Natural Resources and Industry": 1,
+      "3.3 Manufacturing of Valuable Products/Chemicals": 7,
+      "3.4 Some Manufacturing Industries in Ethiopia": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

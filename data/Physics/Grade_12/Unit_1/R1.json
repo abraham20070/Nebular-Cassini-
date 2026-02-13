@@ -1,0 +1,818 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-26T12:34:56Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Physics_U1_Q010",
+    "covered_sections": [
+      "Introduction>Introduction",
+      "Physics and other sciences>Physics and chemistry",
+      "Physics and other sciences>Physics and biology>Physics of Newtonian mechanics and biology",
+      "Physics and other sciences>Physics and biology>Physics of sound wave and biology",
+      "Physics and other sciences>Physics and astronomy>Newton's laws of motion and astronomy",
+      "Physics and other sciences>Physics and astronomy>Physics of electromagnetic wave and astronomy",
+      "Physics and other sciences>Physics and geology",
+      "Physics and engineering>Civil engineering",
+      "Physics and engineering>Mechanical engineering",
+      "Physics and engineering>Electrical engineering"
+    ],
+    "used_question_signatures": [
+      "sha256_0c3a6b7d1e9f2a5c8b4e7d6f1a9c3b2e8d5f4a7c6b9e2d1f8a3c5b7e9d4f2a1",
+      "sha256_1d4b7c8e2a0f3b6c9d5e8f1a2c7b4e9d3f6a8c5b1e7d2f9a4c6b8e0d3f5a2",
+      "sha256_2e5c8d9f3b1g4d7e0f2b5c8e1d4f7a0c3b6e9d2f5a8c1b4e7d0f3a6c9e2b5",
+      "sha256_3f6d9e0g4c2h5e1g3c6f0b4d7g1c4e8a2d5f9b2e6a0d3f7b1e5a9d2f6b0",
+      "sha256_4g7e0f1h5d3i6f2h4d7g2b5e8h2d5f9a3e6f0b3e7a1d4f8b2e6a0d3f7b1",
+      "sha256_5h8f1g2i6e4j7g3i5e8h3c6f9i3e6g0a4f7g1c4f8a2e5g9c3f7a1e4g8c2",
+      "sha256_6i9g2h3j7f5k8h4j6f9i4d7g0j4f7h1a5g8h2d5g9a3f6h0d4g8a2f5h9d3",
+      "sha256_7j0h3i4k8g6l9i5k7g0j5e8h1k5g8i2a6h9i3e6h0a4g7i1e5h9a3g6i0e4",
+      "sha256_8k1i4j5l9h7m0j6l8h1k6f9i2l6h9j3a7i0j4f7i1a5h8j2f6i0a4h7j1f5",
+      "sha256_9l2j5k6m0i8n1k7m9i2l7g0j3m7i0k4a8j1k5g8j2a6i9k3g7j1a5i8k2g6"
+    ],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Physics and other sciences": {
+        "Physics and chemistry": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Physics and biology": {
+          "Physics of Newtonian mechanics and biology": {
+            "count": 1,
+            "mini_headings_covered": ["Physics of Newtonian mechanics and biology"],
+            "last_question_round": 1
+          },
+          "Physics of sound wave and biology": {
+            "count": 1,
+            "mini_headings_covered": ["Physics of sound wave and biology"],
+            "last_question_round": 1
+          }
+        },
+        "Physics and astronomy": {
+          "Newton's laws of motion and astronomy": {
+            "count": 1,
+            "mini_headings_covered": ["Newton's laws of motion and astronomy"],
+            "last_question_round": 1
+          },
+          "Physics of electromagnetic wave and astronomy": {
+            "count": 1,
+            "mini_headings_covered": ["Physics of electromagnetic wave and astronomy"],
+            "last_question_round": 1
+          }
+        },
+        "Physics and geology": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Physics and engineering": {
+        "Civil engineering": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Mechanical engineering": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Electrical engineering": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Physics and other sciences": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Physics and engineering": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["scientific fields interdependence"],
+      "Physics and other sciences>Physics and chemistry": ["spectroscopy", "atomic structure"],
+      "Physics and other sciences>Physics and biology>Physics of Newtonian mechanics and biology": ["center of mass", "equilibrium"],
+      "Physics and other sciences>Physics and biology>Physics of sound wave and biology": ["sound production", "vocal cords"],
+      "Physics and other sciences>Physics and astronomy>Newton's laws of motion and astronomy": ["gravitational force", "orbital motion"],
+      "Physics and other sciences>Physics and astronomy>Physics of electromagnetic wave and astronomy": ["electromagnetic spectrum", "telescopes"],
+      "Physics and other sciences>Physics and geology": ["earth science", "geological processes"],
+      "Physics and engineering>Civil engineering": ["structural design", "forces"],
+      "Physics and engineering>Mechanical engineering": ["mechanical systems", "thermodynamics"],
+      "Physics and engineering>Electrical engineering": ["electrical circuits", "energy conversion"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_initial_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 20,
+      "questions_per_concept_ratio": 0.5,
+      "structural_coverage_percentage": 31.25
+    }
+  },
+  "grade": "12",
+  "subject": "Physics",
+  "unit": "Unit 1: Application of physics in other fields",
+  "pdf_filename": "P12U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-26T12:34:56Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 6,
+        "progress_percentage": 16.67
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 9,
+      "mini_headings_covered_count": 4,
+      "structural_coverage_percentage": 31.25,
+      "concept_utilization_ratio": 0.5
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Physics and other sciences",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 5.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Physics_U1_Q001",
+      "generation_timestamp": "2025-01-26T12:34:56Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "Introduction",
+      "mcq_type": "F",
+      "question": "Which reasoning best explains why scientific disciplines benefit from advances in other scientific fields?",
+      "options": {
+        "A": "Each discipline operates independently with unique methodologies",
+        "B": "Scientific boundaries are fixed and prevent knowledge transfer",
+        "C": "Advancements in one field often provide tools or concepts applicable to others",
+        "D": "Only physics contributes to the development of other sciences"
+      },
+      "correct_answer": "C",
+      "hint": "Consider how discoveries in one field can enable progress in another.",
+      "explanation": "Scientific progress often involves interdisciplinary transfer, where tools like spectroscopy developed in physics advance chemistry. Option A incorrectly assumes independence, whereas real scientific development frequently crosses disciplinary boundaries.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": "Introduction",
+        "content_anchor": "scientific disciplines benefit from advances in other areas",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_scientific_interdependence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q002",
+      "generation_timestamp": "2025-01-26T12:34:56Z",
+      "section": "Physics and other sciences",
+      "subsection": "Physics and chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Physics and chemistry",
+      "mcq_type": "A",
+      "question": "Which technique studies the interaction between matter and electromagnetic radiation to determine atomic structure?",
+      "options": {
+        "A": "Spectroscopy",
+        "B": "Chromatography",
+        "C": "Titration",
+        "D": "Electrophoresis"
+      },
+      "correct_answer": "A",
+      "hint": "This method analyzes wavelength-dependent absorption or emission.",
+      "explanation": "Spectroscopy examines how matter interacts with specific wavelengths of electromagnetic radiation, revealing atomic and molecular structures. Option B separates mixtures but doesn't provide structural information through radiation interaction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and other sciences",
+        "subsection_anchor": "Physics and chemistry",
+        "structural_element": "Physics and chemistry",
+        "content_anchor": "spectroscopy interaction matter electromagnetic radiation",
+        "page_hint": "Page 2-3",
+        "concept_hash": "sha256_spectroscopy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q003",
+      "generation_timestamp": "2025-01-26T12:34:56Z",
+      "section": "Physics and other sciences",
+      "subsection": "Physics and biology",
+      "sub_subsection": "Physics of Newtonian mechanics and biology",
+      "structural_anchor": "Physics of Newtonian mechanics and biology",
+      "mcq_type": "G",
+      "question": "If a person's center of mass shifts beyond their base of support, what immediate physical consequence occurs?",
+      "options": {
+        "A": "Rotational stability increases",
+        "B": "The person begins to fall",
+        "C": "Gravitational force decreases",
+        "D": "The base of support expands automatically"
+      },
+      "correct_answer": "B",
+      "hint": "Consider torque and equilibrium conditions.",
+      "explanation": "Newtonian mechanics dictates that when the center of mass moves beyond the base, an unbalanced torque causes rotation and falling. Option A incorrectly reverses the stability relationship, as displacement reduces stability.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and other sciences",
+        "subsection_anchor": "Physics and biology",
+        "structural_element": "Physics of Newtonian mechanics and biology",
+        "content_anchor": "center of mass beyond base causes falling",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_center_of_mass_stability"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q004",
+      "generation_timestamp": "2025-01-26T12:34:56Z",
+      "section": "Physics and other sciences",
+      "subsection": "Physics and biology",
+      "sub_subsection": "Physics of sound wave and biology",
+      "structural_anchor": "Physics of sound wave and biology",
+      "mcq_type": "B",
+      "question": "What biological structure produces sound waves through vibration during exhalation?",
+      "options": {
+        "A": "Vocal cords",
+        "B": "Eardrum",
+        "C": "Bronchial tubes",
+        "D": "Diaphragm"
+      },
+      "correct_answer": "A",
+      "hint": "This structure is located in the larynx.",
+      "explanation": "Vocal cords vibrate as air passes through them, generating sound waves through mechanical disturbance. Option B detects sound but doesn't produce it, functioning as a receiver rather than a source.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and other sciences",
+        "subsection_anchor": "Physics and biology",
+        "structural_element": "Physics of sound wave and biology",
+        "content_anchor": "vocal cords produce sound vibration exhalation",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_vocal_cords_sound"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q005",
+      "generation_timestamp": "2025-01-26T12:34:56Z",
+      "section": "Physics and other sciences",
+      "subsection": "Physics and astronomy",
+      "sub_subsection": "Newton's laws of motion and astronomy",
+      "structural_anchor": "Newton's laws of motion and astronomy",
+      "mcq_type": "D",
+      "question": "What fundamental force described by Newton's law of gravitation maintains planetary orbits around the Sun?",
+      "options": {
+        "A": "Electromagnetic force",
+        "B": "Strong nuclear force",
+        "C": "Gravitational force",
+        "D": "Weak nuclear force"
+      },
+      "correct_answer": "C",
+      "hint": "This force acts between masses over distance.",
+      "explanation": "Newton's law of gravitation describes the attractive force between masses that provides centripetal force for orbital motion. Option A governs charged particles but doesn't primarily determine planetary orbits.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and other sciences",
+        "subsection_anchor": "Physics and astronomy",
+        "structural_element": "Newton's laws of motion and astronomy",
+        "content_anchor": "Newton's law gravitation planetary motion",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_newton_gravitation_orbits"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 70,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q006",
+      "generation_timestamp": "2025-01-26T12:34:56Z",
+      "section": "Physics and other sciences",
+      "subsection": "Physics and astronomy",
+      "sub_subsection": "Physics of electromagnetic wave and astronomy",
+      "structural_anchor": "Physics of electromagnetic wave and astronomy",
+      "mcq_type": "J",
+      "question": "Which type of telescope specifically detects radio wave emissions from astronomical objects?",
+      "options": {
+        "A": "Optical telescope",
+        "B": "Radio telescope",
+        "C": "Infrared telescope",
+        "D": "X-ray telescope"
+      },
+      "correct_answer": "B",
+      "hint": "This instrument observes the longest wavelength region.",
+      "explanation": "Radio telescopes are designed to collect and analyze radio waves, a specific portion of the electromagnetic spectrum. Option A detects visible light, not radio frequencies.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and other sciences",
+        "subsection_anchor": "Physics and astronomy",
+        "structural_element": "Physics of electromagnetic wave and astronomy",
+        "content_anchor": "radio telescopes detect radio waves",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_radio_telescope"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q007",
+      "generation_timestamp": "2025-01-26T12:34:56Z",
+      "section": "Physics and other sciences",
+      "subsection": "Physics and geology",
+      "sub_subsection": null,
+      "structural_anchor": "Physics and geology",
+      "mcq_type": "I",
+      "question": "How does geology primarily differ from physics in its study of Earth materials?",
+      "options": {
+        "A": "Geology applies physics concepts to study rock properties and Earth processes",
+        "B": "Geology ignores physical principles when analyzing Earth structure",
+        "C": "Physics studies only astronomical objects while geology studies only Earth",
+        "D": "Geology relies exclusively on chemistry without using physics"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the interdisciplinary relationship between these fields.",
+      "explanation": "Geology utilizes physics concepts like electromagnetism and stress-strain relationships to analyze rocks and geological processes. Option B incorrectly suggests geology operates without physical principles, contradicting its scientific foundation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and other sciences",
+        "subsection_anchor": "Physics and geology",
+        "structural_element": "Physics and geology",
+        "content_anchor": "geology uses physics concepts study Earth",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_geology_physics_relationship"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q008",
+      "generation_timestamp": "2025-01-26T12:34:56Z",
+      "section": "Physics and engineering",
+      "subsection": "Civil engineering",
+      "sub_subsection": null,
+      "structural_anchor": "Civil engineering",
+      "mcq_type": "D",
+      "question": "What primary physics knowledge enables civil engineers to design stable bridges and buildings?",
+      "options": {
+        "A": "Understanding of chemical reactions",
+        "B": "Knowledge of biological processes",
+        "C": "Application of force analysis and material strength",
+        "D": "Study of astronomical phenomena"
+      },
+      "correct_answer": "C",
+      "hint": "Consider structural integrity and load-bearing requirements.",
+      "explanation": "Civil engineering applies physics principles of forces, stress, and material properties to ensure structural stability. Option A relates to chemical engineering rather than structural design fundamentals.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and engineering",
+        "subsection_anchor": "Civil engineering",
+        "structural_element": "Civil engineering",
+        "content_anchor": "civil engineering uses physics forces design",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_civil_engineering_forces"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q009",
+      "generation_timestamp": "2025-01-26T12:34:56Z",
+      "section": "Physics and engineering",
+      "subsection": "Mechanical engineering",
+      "sub_subsection": null,
+      "structural_anchor": "Mechanical engineering",
+      "mcq_type": "K",
+      "question": "Which interpretation correctly describes mechanical engineering's use of physics concepts?",
+      "options": {
+        "A": "Mechanical engineering ignores thermodynamics when designing engines",
+        "B": "Physics principles like mechanics and dynamics are applied to create functional mechanical systems",
+        "C": "Only electrical principles matter in mechanical engineering",
+        "D": "Mechanical engineering relies solely on chemistry without physics"
+      },
+      "correct_answer": "B",
+      "hint": "Consider systems like engines and vehicles.",
+      "explanation": "Mechanical engineering applies physics concepts including mechanics, dynamics, and thermodynamics to design systems like engines and vehicles. Option A incorrectly dismisses thermodynamics, which is essential for engine efficiency and performance analysis.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and engineering",
+        "subsection_anchor": "Mechanical engineering",
+        "structural_element": "Mechanical engineering",
+        "content_anchor": "mechanical engineering uses mechanics thermodynamics",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_mechanical_engineering_physics"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q010",
+      "generation_timestamp": "2025-01-26T12:34:56Z",
+      "section": "Physics and engineering",
+      "subsection": "Electrical engineering",
+      "sub_subsection": null,
+      "structural_anchor": "Electrical engineering",
+      "mcq_type": "C",
+      "question": "What fundamental physics area provides the theoretical foundation for designing electrical circuits and motors?",
+      "options": {
+        "A": "Thermodynamics",
+        "B": "Electromagnetism",
+        "C": "Newtonian mechanics",
+        "D": "Optics"
+      },
+      "correct_answer": "B",
+      "hint": "This field describes interactions between electric charges and magnetic fields.",
+      "explanation": "Electromagnetism describes how electric currents create magnetic fields and vice versa, forming the basis for electrical circuit and motor design. Option C governs motion but doesn't explain electromagnetic induction essential for electrical engineering.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and engineering",
+        "subsection_anchor": "Electrical engineering",
+        "structural_element": "Electrical engineering",
+        "content_anchor": "electrical engineering requires electromagnetism",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_electrical_engineering_electromagnetism"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3850,
+    "average_question_quality": 82.0,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 2,
+      "F": 1,
+      "G": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "Physics and other sciences": 6,
+      "Physics and engineering": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

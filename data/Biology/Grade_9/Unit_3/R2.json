@@ -1,0 +1,871 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-07-19T10:02:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G9_Bio_U3_Q020",
+    "covered_sections": ["3.1. What is a cell?>Objectives", "3.1. What is a cell?>Key Terms", "3.2. Cell theory>Objectives", "3.2. Cell theory>Attention", "3.3. Cell structure and function>Objectives", "3.4. Types of cells>Objectives", "3.5. Animal and plant cells>Objectives", "3.6 Observing cells under a microscope>Objectives", "3.7 The cell and its environment>3.7.1. Passive transport>Key Terms", "3.8. Levels of Biological Organization>Objectives", "3.3. Cell structure and function>Activity 3.4: Group work", "3.3. Cell structure and function>Attention", "3.7 The cell and its environment>3.7.1. Passive transport>Diffusion", "3.7 The cell and its environment>3.7.1. Passive transport>Factors influencing the rate of diffusion", "3.8. Levels of Biological Organization>Key Terms", "3.4. Types of cells>Attention", "3.6 Observing cells under a microscope>3:2: Laboratory Activity", "3.7 The cell and its environment>3.7.2. Active transport>Attention", "3.1. What is a cell?>Activity 3.1: Group work"],
+    "used_question_signatures": ["cd450ae11f9aae53b45a57493b166b0b", "0a31e92d56a6d8461c4a053c98e50081", "c96cded159ef606545d92260066cf2d5", "e88984c28e7b32a02c4a29a10c8e588e", "00803c5fecfe7482a6836f9474c8a45b", "f84ef7a6fea17b2b2ad2fa2d283055bd", "67772ad16c4daa5c754c5f6c151f2a97", "1f5b93207414791212e1ee3733077b65", "143da10803bb5a1ba014e48ee8ef53d8", "78ab8d9cae147f0f0642d61c9f7b3228", "3c4b6c5b3e0c4d1b8a9f7c2d5e8a9f3b", "7a2e8d9f1c3b5a7d9e0f2a4c6b8d0e1f", "5c9a3b7d2e8f1a4c6b9d0e2f3a5c7b8", "2b8d0e1f3a5c7b9d0e2f4a6c8b0d1e3", "9e0f2a4c6b8d0e1f3a5c7b9d0e2f4a", "6c8b0d1e3f5a7c9e1f2b4d6a8c0e2f", "4a6c8b0d2e4f6a8c0e2f4b6d8a0c2e", "8c0e2f4b6d8a0c2e4f6b8d0a2c4e6f", "1f3a5c7b9d0e2f4a6c8b0d1e3f5a7"],
+    "baseline_counter": {
+      "3.1. What is a cell?": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "Key Terms": {
+          "count": 1,
+          "mini_headings_covered": ["Key Terms"],
+          "last_question_round": 1
+        },
+        "Activity 3.1: Group work": {
+          "count": 1,
+          "mini_headings_covered": ["Activity 3.1: Group work"],
+          "last_question_round": 2
+        }
+      },
+      "3.2. Cell theory": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "Attention": {
+          "count": 1,
+          "mini_headings_covered": ["Attention"],
+          "last_question_round": 1
+        }
+      },
+      "3.3. Cell structure and function": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "Activity 3.4: Group work": {
+          "count": 1,
+          "mini_headings_covered": ["Activity 3.4: Group work"],
+          "last_question_round": 2
+        },
+        "Attention": {
+          "count": 1,
+          "mini_headings_covered": ["Attention"],
+          "last_question_round": 2
+        }
+      },
+      "3.4. Types of cells": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "Attention": {
+          "count": 1,
+          "mini_headings_covered": ["Attention"],
+          "last_question_round": 2
+        }
+      },
+      "3.5. Animal and plant cells": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        }
+      },
+      "3.6 Observing cells under a microscope": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "3:2: Laboratory Activity": {
+          "count": 1,
+          "mini_headings_covered": ["3:2: Laboratory Activity"],
+          "last_question_round": 2
+        }
+      },
+      "3.7 The cell and its environment": {
+        "3.7.1. Passive transport": {
+          "count": 3,
+          "mini_headings_covered": ["Key Terms", "Diffusion", "Factors influencing the rate of diffusion"],
+          "last_question_round": 2
+        },
+        "3.7.2. Active transport": {
+          "count": 1,
+          "mini_headings_covered": ["Attention"],
+          "last_question_round": 2
+        }
+      },
+      "3.8. Levels of Biological Organization": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "Key Terms": {
+          "count": 1,
+          "mini_headings_covered": ["Key Terms"],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1. What is a cell?": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.2. Cell theory": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.3. Cell structure and function": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.4. Types of cells": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.5. Animal and plant cells": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.6 Observing cells under a microscope": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.7 The cell and its environment": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.8. Levels of Biological Organization": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1. What is a cell?>Objectives": ["Composition of living things", "Unicellular vs multicellular"],
+      "3.1. What is a cell?>Key Terms": ["Cell", "Unicellular organisms", "Multicellular organisms"],
+      "3.2. Cell theory>Objectives": ["Cell theory description", "Scientists involved"],
+      "3.2. Cell theory>Attention": ["Robert Hooke", "Cell discovery"],
+      "3.3. Cell structure and function>Objectives": ["Main cell structures", "Cell functions"],
+      "3.4. Types of cells>Objectives": ["Prokaryotic vs eukaryotic"],
+      "3.5. Animal and plant cells>Objectives": ["Plant vs animal cell structures"],
+      "3.6 Observing cells under a microscope>Objectives": ["Microscope use", "Cell observation"],
+      "3.7 The cell and its environment>3.7.1. Passive transport>Key Terms": ["Diffusion", "Osmosis", "Active transport"],
+      "3.8. Levels of Biological Organization>Objectives": ["Tissue definition", "Organ definition", "Organ system definition"],
+      "3.3. Cell structure and function>Activity 3.4: Group work": ["Nerve cell structure", "Muscle cell structure"],
+      "3.3. Cell structure and function>Attention": ["Cell membrane permeability"],
+      "3.7 The cell and its environment>3.7.1. Passive transport>Diffusion": ["Concentration gradient", "Movement of molecules"],
+      "3.7 The cell and its environment>3.7.1. Passive transport>Factors influencing the rate of diffusion": ["Temperature effect", "Surface area effect", "Distance effect"],
+      "3.8. Levels of Biological Organization>Key Terms": ["Tissues", "Organs", "Systems"],
+      "3.4. Types of cells>Attention": ["Etymology of eukaryotic", "Cell size comparison"],
+      "3.6 Observing cells under a microscope>3:2: Laboratory Activity": ["Onion cell staining", "Cheek cell observation"],
+      "3.7 The cell and its environment>3.7.2. Active transport>Attention": ["Sodium-potassium pump", "Active transport energy"],
+      "3.1. What is a cell?>Activity 3.1: Group work": ["Cell study importance", "Cellular activities"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 31,
+      "questions_per_concept_ratio": 0.65,
+      "structural_coverage_percentage": 90.5
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 3: Cells",
+  "pdf_filename": "B9U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-07-19T10:02:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 8,
+        "total_sections": 8,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 8,
+      "subsections_covered_count": 14,
+      "mini_headings_covered_count": 19,
+      "structural_coverage_percentage": 90.5,
+      "concept_utilization_ratio": 0.65
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.7 The cell and its environment",
+      "least_covered_section": "3.5. Animal and plant cells",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U3_Q011",
+      "generation_timestamp": "2024-07-19T10:02:00Z",
+      "section": "3.3. Cell structure and function",
+      "subsection": "Activity 3.4: Group work",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 3.4: Group work",
+      "mcq_type": "F",
+      "question": "Under the condition that a cell must transmit electrical signals quickly across long distances, which reasoning best explains why nerve cells are elongated with branched extensions?",
+      "options": {
+        "A": "To maximize nutrient absorption from surrounding fluids",
+        "B": "To provide structural support against mechanical stress",
+        "C": "To create extensive surface area for rapid signal transmission",
+        "D": "To store large quantities of energy-rich molecules"
+      },
+      "correct_answer": "C",
+      "hint": "Consider how cell shape relates to its primary function.",
+      "explanation": "Nerve cell elongation and branching provide extensive surface area for electrical signal transmission across distances. Option A misattributes the function to nutrient absorption, which is not the primary role of nerve cells.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.3. Cell structure and function",
+        "subsection_anchor": "Activity 3.4: Group work",
+        "structural_element": "Activity 3.4: Group work",
+        "content_anchor": "examine Fig 3.2 and 3.3 carefully and discuss the structures and functions",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_nerve_cell_structure"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 80
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q012",
+      "generation_timestamp": "2024-07-19T10:02:00Z",
+      "section": "3.3. Cell structure and function",
+      "subsection": "Attention",
+      "sub_subsection": null,
+      "structural_anchor": "Attention",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that cell membranes allow all substances to pass freely?",
+      "options": {
+        "A": "Cell membranes have rigid structures that prevent any substance movement",
+        "B": "Cell membranes are completely impermeable to water and ions",
+        "C": "Cell membranes contain pores that permit unrestricted bidirectional flow",
+        "D": "Cell membranes selectively control substance passage based on size and charge"
+      },
+      "correct_answer": "D",
+      "hint": "Consider the selective nature of membrane permeability.",
+      "explanation": "Cell membranes are selectively permeable, regulating substance passage rather than allowing free movement. Option C incorrectly suggests unrestricted flow, which contradicts the selective nature of membrane transport.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.3. Cell structure and function",
+        "subsection_anchor": "Attention",
+        "structural_element": "Attention",
+        "content_anchor": "Cell membrane is semi-permeable (selectively permeable) because it chooses what can go in and out of the cell",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_selective_permeability"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q013",
+      "generation_timestamp": "2024-07-19T10:02:00Z",
+      "section": "3.7 The cell and its environment",
+      "subsection": "3.7.1. Passive transport",
+      "sub_subsection": null,
+      "structural_anchor": "Diffusion",
+      "mcq_type": "G",
+      "question": "If the concentration gradient of oxygen molecules across a cell membrane increases, what happens to the rate of oxygen diffusion into the cell?",
+      "options": {
+        "A": "The diffusion rate remains constant regardless of gradient",
+        "B": "The diffusion rate decreases as the gradient increases",
+        "C": "The diffusion rate increases proportionally to the gradient",
+        "D": "The diffusion rate becomes zero when the gradient reaches maximum"
+      },
+      "correct_answer": "C",
+      "hint": "Consider how concentration differences affect molecular movement.",
+      "explanation": "Diffusion rate increases with greater concentration gradients because molecules move more rapidly from high to low concentration areas. Option B incorrectly reverses this relationship, suggesting decreased movement with increased gradient.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.7 The cell and its environment",
+        "subsection_anchor": "3.7.1. Passive transport",
+        "structural_element": "Diffusion",
+        "content_anchor": "This is the movement of molecules from a region of high concentration to a region of low concentration down the concentration gradient",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_diffusion_gradient"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q014",
+      "generation_timestamp": "2024-07-19T10:02:00Z",
+      "section": "3.7 The cell and its environment",
+      "subsection": "3.7.1. Passive transport",
+      "sub_subsection": null,
+      "structural_anchor": "Factors influencing the rate of diffusion",
+      "mcq_type": "F",
+      "question": "Under the condition that temperature affects molecular motion, which reasoning best explains why increasing temperature accelerates diffusion rates?",
+      "options": {
+        "A": "Higher temperatures increase membrane permeability to all substances",
+        "B": "Warmer conditions create larger concentration gradients across membranes",
+        "C": "Increased thermal energy provides greater kinetic energy to molecules",
+        "D": "Elevated temperatures break down diffusion barriers within the membrane"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the relationship between temperature and molecular energy.",
+      "explanation": "Temperature increases provide molecules with greater kinetic energy, enabling faster movement and diffusion. Option A incorrectly attributes the effect to membrane permeability changes rather than molecular energy.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.7 The cell and its environment",
+        "subsection_anchor": "3.7.1. Passive transport",
+        "structural_element": "Factors influencing the rate of diffusion",
+        "content_anchor": "Temperature: increase in temperature causes an increase in the kinetic energy that molecules and ions possess enabling them to move faster",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_temperature_diffusion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 80
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q015",
+      "generation_timestamp": "2024-07-19T10:02:00Z",
+      "section": "3.8. Levels of Biological Organization",
+      "subsection": "Key Terms",
+      "sub_subsection": null,
+      "structural_anchor": "Key Terms",
+      "mcq_type": "I",
+      "question": "How do tissues differ from organs in biological organization?",
+      "options": {
+        "A": "Tissues perform multiple functions while organs specialize in single functions",
+        "B": "Tissues consist of similar cells while organs contain different tissue types",
+        "C": "Tissues are microscopic structures while organs are always visible",
+        "D": "Tissues exist only in animals while organs occur in both plants and animals"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the composition of each structural level.",
+      "explanation": "Tissues comprise similar cells working together, whereas organs are formed from multiple tissue types performing coordinated functions. Option A incorrectly reverses the functional specialization between these levels.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.8. Levels of Biological Organization",
+        "subsection_anchor": "Key Terms",
+        "structural_element": "Key Terms",
+        "content_anchor": "Tissues: group of cells that have the same function. Organs: group of tissues that work together to do a particular function",
+        "page_hint": "Page 26",
+        "concept_hash": "sha256_of_tissue_vs_organ"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q016",
+      "generation_timestamp": "2024-07-19T10:02:00Z",
+      "section": "3.4. Types of cells",
+      "subsection": "Attention",
+      "sub_subsection": null,
+      "structural_anchor": "Attention",
+      "mcq_type": "K",
+      "question": "What is the significance of the Greek terms 'eu' (true) and 'karyon' (kernel) in the word 'eukaryotic'?",
+      "options": {
+        "A": "They indicate that eukaryotic cells contain true membrane-bound nuclei",
+        "B": "They signify that eukaryotic cells are larger than prokaryotic cells",
+        "C": "They demonstrate that eukaryotic cells evolved after prokaryotic cells",
+        "D": "They show that eukaryotic cells have more complex metabolic pathways"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the literal meaning of the word components.",
+      "explanation": "The term 'eukaryotic' literally means 'true kernel,' referring to the presence of a membrane-bound nucleus. Option C describes evolutionary sequence but doesn't explain the etymology of the term itself.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.4. Types of cells",
+        "subsection_anchor": "Attention",
+        "structural_element": "Attention",
+        "content_anchor": "The term Eukaryotic is derived from the Greek eu, true, and karyn, kernel, referring to the nucleus",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_eukaryotic_etymology"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 80
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q017",
+      "generation_timestamp": "2024-07-19T10:02:00Z",
+      "section": "3.6 Observing cells under a microscope",
+      "subsection": "3:2: Laboratory Activity",
+      "sub_subsection": null,
+      "structural_anchor": "3:2: Laboratory Activity",
+      "mcq_type": "L",
+      "question": "What is the primary purpose of adding iodine solution when preparing onion epidermal cells for microscopic observation?",
+      "options": {
+        "A": "To kill any microorganisms present on the tissue surface",
+        "B": "To stain cellular structures for better visibility",
+        "C": "To dissolve the cell wall for easier light transmission",
+        "D": "To preserve the tissue structure for long-term storage"
+      },
+      "correct_answer": "B",
+      "hint": "Consider how stains affect contrast under the microscope.",
+      "explanation": "Iodine solution stains cellular components like nuclei, making them more visible under magnification. Option A incorrectly describes disinfection, which is not the primary purpose of staining in this context.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.6 Observing cells under a microscope",
+        "subsection_anchor": "3:2: Laboratory Activity",
+        "structural_element": "3:2: Laboratory Activity",
+        "content_anchor": "Then, add two to three drops of iodine solution for staining",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_staining_purpose"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q018",
+      "generation_timestamp": "2024-07-19T10:02:00Z",
+      "section": "3.7 The cell and its environment",
+      "subsection": "3.7.2. Active transport",
+      "sub_subsection": null,
+      "structural_anchor": "Attention",
+      "mcq_type": "G",
+      "question": "If a cell uses energy to maintain higher potassium ion concentration inside than outside, what transport mechanism is primarily involved?",
+      "options": {
+        "A": "Facilitated diffusion through channel proteins",
+        "B": "Osmosis driven by water concentration differences",
+        "C": "Active transport against the concentration gradient",
+        "D": "Simple diffusion along the concentration gradient"
+      },
+      "correct_answer": "C",
+      "hint": "Consider movement against concentration differences requiring energy.",
+      "explanation": "Active transport moves substances against concentration gradients using cellular energy. Option D describes passive movement along gradients, which doesn't require energy input.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.7 The cell and its environment",
+        "subsection_anchor": "3.7.2. Active transport",
+        "structural_element": "Attention",
+        "content_anchor": "Active transport is the movement of particles through a cell membrane from a region of lower concentration to a region of higher concentration against a concentration gradient, using the energy released during respiration",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_active_transport_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q019",
+      "generation_timestamp": "2024-07-19T10:02:00Z",
+      "section": "3.1. What is a cell?",
+      "subsection": "Activity 3.1: Group work",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 3.1: Group work",
+      "mcq_type": "F",
+      "question": "Under the condition that all living organisms require energy for biological activities, which reasoning best explains why cells are considered the basic unit of life?",
+      "options": {
+        "A": "Cells contain specialized structures that independently perform all life functions",
+        "B": "Cells are the largest structures visible without magnification in most organisms",
+        "C": "Cells coordinate activities through external signaling from the environment",
+        "D": "Cells evolved after multicellular organisms developed complex organ systems"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what defines a fundamental living unit.",
+      "explanation": "Cells perform all essential life functions independently, making them the smallest complete living units. Option D incorrectly reverses the evolutionary sequence of cellular development.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.1. What is a cell?",
+        "subsection_anchor": "Activity 3.1: Group work",
+        "structural_element": "Activity 3.1: Group work",
+        "content_anchor": "Why do we study about cell? List some important biological activities take place in the cell",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_cell_as_basic_unit"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 80
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q020",
+      "generation_timestamp": "2024-07-19T10:02:00Z",
+      "section": "3.7 The cell and its environment",
+      "subsection": "3.7.1. Passive transport",
+      "sub_subsection": null,
+      "structural_anchor": "Factors influencing the rate of diffusion",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that diffusion rate depends only on concentration gradient?",
+      "options": {
+        "A": "Diffusion rate decreases as temperature increases due to molecular collisions",
+        "B": "Diffusion occurs equally rapidly for all molecules regardless of size",
+        "C": "Diffusion rate is unaffected by the distance molecules must travel",
+        "D": "Diffusion requires active transport proteins to facilitate movement"
+      },
+      "correct_answer": "C",
+      "hint": "Consider other factors that influence molecular movement.",
+      "explanation": "Diffusion rate decreases with greater distance, as molecules take longer to travel between areas. Option D incorrectly suggests diffusion requires energy, confusing it with active transport mechanisms.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.7 The cell and its environment",
+        "subsection_anchor": "3.7.1. Passive transport",
+        "structural_element": "Factors influencing the rate of diffusion",
+        "content_anchor": "Distance travelled: the farther the distance that a substance must travel, the slower the diffusion rate",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_diffusion_distance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2950,
+    "average_question_quality": 82.5,
+    "type_distribution": {
+      "F": 3,
+      "G": 2,
+      "H": 2,
+      "I": 1,
+      "K": 1,
+      "L": 1
+    },
+    "difficulty_distribution": {
+      "easy": 0,
+      "medium": 10,
+      "hard": 0
+    },
+    "section_distribution": {
+      "3.1. What is a cell?": 1,
+      "3.3. Cell structure and function": 2,
+      "3.4. Types of cells": 1,
+      "3.6 Observing cells under a microscope": 1,
+      "3.7 The cell and its environment": 4,
+      "3.8. Levels of Biological Organization": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

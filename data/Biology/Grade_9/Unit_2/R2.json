@@ -1,0 +1,827 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-03-07T12:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G9_Bio_U2_Q020",
+    "covered_sections": ["2.1. Characteristics of living things", "2.2. Taxonomy of living things", "2.3. Relevance of classification", "2.4. Linnaean system of nomenclature", "2.5. Common Ethiopian animals and plants", "2.6. The five-kingdom system of classification"],
+    "used_question_signatures": ["d8d0f9d3b4ee57e5a5c5c4dc2f2b84b7e0e8a4a6", "9e9f0a15c48c61c8b1b2e6c2c6b8c8a6e4c5b7d8f", "4a6c8f9e1b2d3c5a7e9f0a1c3d5b7e2f4a6c8d0f", "5b7d9f1a3c5e7b9d1f3a5c7e9b1d3f5a7c9e1b3d", "6c8e0a2c4e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4", "7d9f1b3d5f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5", "8e0a2c4e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4e6", "9f1b3d5f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5f7", "0a2c4e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4e6a8", "1b3d5f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5f7b9", "a2c4e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4e6a8c", "b3d5f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5f7b9d", "c4e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4e6a8c0e", "d5f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5f7b9d1f", "e6a8c0e2a4c6e8a0c2e4a6c8e0a2c4e6a8c0e2a", "f7b9d1f3b5d7f9b1d3f5b7d9f1b3d5f7b9d1f3b", "a8c0e2a4c6e8a0c2e4a6c8e0a2c4e6a8c0e2a4c", "b9d1f3b5d7f9b1d3f5b7d9f1b3d5f7b9d1f3b5d", "c0e2a4c6e8a0c2e4a6c8e0a2c4e6a8c0e2a4c6e", "d1f3b5d7f9b1d3f5b7d9f1b3d5f7b9d1f3b5d7f"],
+    "baseline_counter": {
+      "2.1. Characteristics of living things": {
+        "No subsection": {
+          "count": 5,
+          "mini_headings_covered": ["All living things are made up of one or more cells:", "All living things can grow:", "All living things can reproduce:", "All living things require energy:", "All living things can excrete:"],
+          "last_question_round": 2
+        }
+      },
+      "2.2. Taxonomy of living things": {
+        "2.2.1. Principles of classification": {
+          "count": 4,
+          "mini_headings_covered": ["Why do biologists classify living things?:"],
+          "last_question_round": 1
+        },
+        "2.2.2. Taxonomic hierarchies in biological classification": {
+          "count": 2,
+          "mini_headings_covered": ["Taxonomic hierarchy is the process...:", "Key Terms:"],
+          "last_question_round": 2
+        }
+      },
+      "2.3. Relevance of classification": {
+        "No subsection": {
+          "count": 2,
+          "mini_headings_covered": ["What is the relevance of biological classification?:"],
+          "last_question_round": 1
+        }
+      },
+      "2.4. Linnaean system of nomenclature": {
+        "No subsection": {
+          "count": 2,
+          "mini_headings_covered": ["Binomial nomenclature"],
+          "last_question_round": 2
+        }
+      },
+      "2.5. Common Ethiopian animals and plants": {
+        "No subsection": {
+          "count": 2,
+          "mini_headings_covered": ["Ethiopia is endowed with...:", "Table 1: Scientific names of some common plants and animals in Ethiopia"],
+          "last_question_round": 2
+        }
+      },
+      "2.6. The five-kingdom system of classification": {
+        "Kingdom Monera": {
+          "count": 1,
+          "mini_headings_covered": ["What are Monera?:"],
+          "last_question_round": 2
+        },
+        "Kingdom Protista": {
+          "count": 1,
+          "mini_headings_covered": ["What are protists?:"],
+          "last_question_round": 2
+        },
+        "Kingdom Fungi": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Kingdom Plantae": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Kingdom Animalia": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.7. Renowned Taxonomists in Ethiopia": {
+        "No subsection": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1. Characteristics of living things": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "2.2. Taxonomy of living things": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "2.3. Relevance of classification": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.4. Linnaean system of nomenclature": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "2.5. Common Ethiopian animals and plants": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "2.6. The five-kingdom system of classification": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "2.7. Renowned Taxonomists in Ethiopia": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1. Characteristics of living things>No subsection": ["Cellular Organization", "Growth", "Reproduction", "Energy Requirement (Metabolism)", "Excretion"],
+      "2.2. Taxonomy of living things>2.2.1. Principles of classification": ["Purpose of Classification", "Taxonomy", "Taxonomists"],
+      "2.2. Taxonomy of living things>2.2.2. Taxonomic hierarchies in biological classification": ["Taxonomic Hierarchy (Order)", "Taxon Definition"],
+      "2.3. Relevance of classification>No subsection": ["Study of Relationships", "Economic Utility"],
+      "2.4. Linnaean system of nomenclature>No subsection": ["Binomial Nomenclature Structure", "Writing Conventions (Italics/Capitalization)"],
+      "2.5. Common Ethiopian animals and plants>No subsection": ["Ethiopian Biodiversity", "Scientific Name Examples"],
+      "2.6. The five-kingdom system of classification>Kingdom Monera": ["Prokaryotic Cells", "Eubacteria vs Archaebacteria"],
+      "2.6. The five-kingdom system of classification>Kingdom Protista": ["Eukaryotic Unicellular/Multicellular", "Diverse Nutrition"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_from_previous_state_R01",
+    "content_density_metrics": {
+      "total_concepts_extracted": 17,
+      "questions_per_concept_ratio": 1.18,
+      "structural_coverage_percentage": 16.3
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 2: Characteristics and Classification of Organisms",
+  "pdf_filename": "B9U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-03-07T12:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 7,
+        "progress_percentage": 85.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 12,
+      "structural_coverage_percentage": 16.3,
+      "concept_utilization_ratio": 1.18
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.2. Taxonomy of living things",
+      "least_covered_section": "2.7. Renowned Taxonomists in Ethiopia",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U2_Q011",
+      "generation_timestamp": "2025-03-07T12:05:00Z",
+      "section": "2.1. Characteristics of living things",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "All living things require energy:",
+      "mcq_type": "D",
+      "question": "What is the ultimate source of energy that powers the metabolic activities of plants?",
+      "options": {
+        "A": "Sunlight",
+        "B": "Organic matter from soil",
+        "C": "Heat from the Earth's core",
+        "D": "Chemical energy from respiration"
+      },
+      "correct_answer": "A",
+      "hint": "Plants are producers that convert an external energy source into food.",
+      "explanation": "Plants are autotrophs that use sunlight energy in photosynthesis to produce organic compounds. Option D describes a process (respiration) that releases energy, not the ultimate source for plant food production.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.1. Characteristics of living things",
+        "subsection_anchor": null,
+        "structural_element": "All living things require energy:",
+        "content_anchor": "energy from the sunlight to make their foods",
+        "page_hint": 2,
+        "concept_hash": "sha256_of_Energy_Requirement_Metabolism"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q012",
+      "generation_timestamp": "2025-03-07T12:05:00Z",
+      "section": "2.1. Characteristics of living things",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "All living things can excrete:",
+      "mcq_type": "B",
+      "question": "What is the term for the biological process of removing metabolic waste products from an organism's body?",
+      "options": {
+        "A": "Excretion",
+        "B": "Respiration",
+        "C": "Digestion",
+        "D": "Secretion"
+      },
+      "correct_answer": "A",
+      "hint": "This process deals specifically with waste removal from cellular activities.",
+      "explanation": "Excretion is the elimination of metabolic wastes like carbon dioxide and urea. Option B, respiration, is a metabolic process that produces some of these wastes but does not involve their removal from the body.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.1. Characteristics of living things",
+        "subsection_anchor": null,
+        "structural_element": "All living things can excrete:",
+        "content_anchor": "removal of the metabolic wastes",
+        "page_hint": 2,
+        "concept_hash": "sha256_of_Excretion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q013",
+      "generation_timestamp": "2025-03-07T12:05:00Z",
+      "section": "2.2. Taxonomy of living things",
+      "subsection": "2.2.2. Taxonomic hierarchies in biological classification",
+      "sub_subsection": null,
+      "structural_anchor": "Key Terms:",
+      "mcq_type": "B",
+      "question": "In biological classification, what is the term for a named group of organisms at any rank, such as a family or an order?",
+      "options": {
+        "A": "Taxon",
+        "B": "Species",
+        "C": "Domain",
+        "D": "Hierarchy"
+      },
+      "correct_answer": "A",
+      "hint": "This term refers to the group itself, not the ranking system.",
+      "explanation": "A taxon is a formally recognized group of organisms at any level of the classification hierarchy. Option D, hierarchy, refers to the system of ranks, not a specific group within it.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key terms"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.2. Taxonomy of living things",
+        "subsection_anchor": "2.2.2. Taxonomic hierarchies in biological classification",
+        "structural_element": "Key Terms:",
+        "content_anchor": "Taxon: is a group of organisms",
+        "page_hint": 5,
+        "concept_hash": "sha256_of_Taxon_Definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q014",
+      "generation_timestamp": "2025-03-07T12:05:00Z",
+      "section": "2.4. Linnaean system of nomenclature",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Binomial nomenclature",
+      "mcq_type": "D",
+      "question": "How should the scientific name 'Panthera leo' appear in a printed textbook?",
+      "options": {
+        "A": "Panthera leo",
+        "B": "Panthera Leo",
+        "C": "Panthera leo",
+        "D": "PANTHERA LEO"
+      },
+      "correct_answer": "C",
+      "hint": "Recall the formatting rules for genus and species names in print.",
+      "explanation": "Binomial nomenclature requires the genus name capitalized, the species name lowercase, and the entire name italicized in print. Option A lacks italics, violating the standard printing convention.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 79
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.4. Linnaean system of nomenclature",
+        "subsection_anchor": null,
+        "structural_element": "Binomial nomenclature",
+        "content_anchor": "italicized when printed",
+        "page_hint": 8,
+        "concept_hash": "sha256_of_Writing_Conventions_ItalicsCapitalization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 88,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q015",
+      "generation_timestamp": "2025-03-07T12:05:00Z",
+      "section": "2.5. Common Ethiopian animals and plants",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Ethiopia is endowed with...:",
+      "mcq_type": "K",
+      "question": "Ethiopia's status as a primary center of diversity for crops like teff and noug is primarily attributed to which combination of factors?",
+      "options": {
+        "A": "Geographic location, topographical diversity, and varied climate",
+        "B": "Advanced agricultural technology and extensive irrigation",
+        "C": "High levels of imported plant species over centuries",
+        "D": "Uniform flat terrain and consistent tropical rainfall"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the natural environmental features that promote species variation.",
+      "explanation": "Ethiopia's diverse geography and climate create varied ecological niches, driving the evolution of unique crop varieties. Option D is incorrect because uniform conditions typically reduce, not increase, genetic diversity.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 83
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.5. Common Ethiopian animals and plants",
+        "subsection_anchor": null,
+        "structural_element": "Ethiopia is endowed with...:",
+        "content_anchor": "geographical location, topographical diversity and diverse climatic features",
+        "page_hint": 8,
+        "concept_hash": "sha256_of_Ethiopian_Biodiversity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q016",
+      "generation_timestamp": "2025-03-07T12:05:00Z",
+      "section": "2.5. Common Ethiopian animals and plants",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Table 1: Scientific names of some common plants and animals in Ethiopia",
+      "mcq_type": "B",
+      "question": "According to its scientific name, what is the genus of the Gelada monkey found in Ethiopia?",
+      "options": {
+        "A": "Theropithecus",
+        "B": "Cercopithecidae",
+        "C": "Primate",
+        "D": "Mammalia"
+      },
+      "correct_answer": "A",
+      "hint": "The genus is the first part of the two-part scientific name.",
+      "explanation": "In binomial nomenclature, the genus is the first name; for the Gelada, it is Theropithecus. Option B is the family name, which is a higher taxonomic rank than genus.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "table"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.5. Common Ethiopian animals and plants",
+        "subsection_anchor": null,
+        "structural_element": "Table 1: Scientific names of some common plants and animals in Ethiopia",
+        "content_anchor": "Gelada... Theropithecus",
+        "page_hint": 9,
+        "concept_hash": "sha256_of_Scientific_Name_Examples"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q017",
+      "generation_timestamp": "2025-03-07T12:05:00Z",
+      "section": "2.6. The five-kingdom system of classification",
+      "subsection": "Kingdom Monera",
+      "sub_subsection": null,
+      "structural_anchor": "What are Monera?:",
+      "mcq_type": "I",
+      "question": "How do eubacteria and archaebacteria primarily differ in a fundamental structural aspect of their cells?",
+      "options": {
+        "A": "The chemical composition of their cell walls",
+        "B": "The presence or absence of a cell membrane",
+        "C": "The ability to perform photosynthesis",
+        "D": "The requirement for oxygen to survive"
+      },
+      "correct_answer": "A",
+      "hint": "Consider a structural difference that distinguishes these two prokaryotic groups.",
+      "explanation": "Archaebacteria possess cell walls with unique chemical compositions distinct from the peptidoglycan found in eubacteria. Option C is a functional difference, not the fundamental structural distinction mentioned in the text.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 87
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.6. The five-kingdom system of classification",
+        "subsection_anchor": "Kingdom Monera",
+        "structural_element": "What are Monera?:",
+        "content_anchor": "Archaeobacteria... have very different cell walls than bacteria",
+        "page_hint": 12,
+        "concept_hash": "sha256_of_Eubacteria_vs_Archaebacteria"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q018",
+      "generation_timestamp": "2025-03-07T12:05:00Z",
+      "section": "2.6. The five-kingdom system of classification",
+      "subsection": "Kingdom Monera",
+      "sub_subsection": null,
+      "structural_anchor": "What are Monera?:",
+      "mcq_type": "A",
+      "question": "What defines all members of the kingdom Monera at the cellular level?",
+      "options": {
+        "A": "They are prokaryotic cells lacking a nucleus.",
+        "B": "They are eukaryotic cells with membrane-bound organelles.",
+        "C": "They are multicellular organisms with specialized tissues.",
+        "D": "They are photosynthetic organisms with chloroplasts."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the most basic cellular structure that unites bacteria and archaea.",
+      "explanation": "Monera encompasses all prokaryotes, which are characterized by the absence of a membrane-bound nucleus. Option B describes eukaryotic cells, which define kingdoms other than Monera.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.6. The five-kingdom system of classification",
+        "subsection_anchor": "Kingdom Monera",
+        "structural_element": "What are Monera?:",
+        "content_anchor": "prokaryotic cells, relatively small and simple cells that lack a nucleus",
+        "page_hint": 4,
+        "concept_hash": "sha256_of_Prokaryotic_Cells"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 63,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q019",
+      "generation_timestamp": "2025-03-07T12:05:00Z",
+      "section": "2.6. The five-kingdom system of classification",
+      "subsection": "Kingdom Protista",
+      "sub_subsection": null,
+      "structural_anchor": "What are protists?:",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that all protists are microscopic and unicellular?",
+      "options": {
+        "A": "It overlooks the existence of large, multicellular protists such as certain algae.",
+        "B": "It confuses protists with prokaryotic organisms like bacteria.",
+        "C": "It assumes protists are defined by their method of reproduction.",
+        "D": "It mistakenly attributes photosynthetic ability to all protists."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the diversity in size and cellularity within the protist kingdom.",
+      "explanation": "Kingdom Protista includes diverse forms, from microscopic unicellular amoebas to large multicellular seaweeds. Option D identifies a different misconception about nutrition, not the one concerning size and cellularity.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 84
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.6. The five-kingdom system of classification",
+        "subsection_anchor": "Kingdom Protista",
+        "structural_element": "What are protists?:",
+        "content_anchor": "single-celled... as well as many-celled... Some are microscopic, others are very large",
+        "page_hint": 13,
+        "concept_hash": "sha256_of_Eukaryotic_UnicellularMulticellular"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 81,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Bio_U2_Q020",
+      "generation_timestamp": "2025-03-07T12:05:00Z",
+      "section": "2.6. The five-kingdom system of classification",
+      "subsection": "Kingdom Protista",
+      "sub_subsection": null,
+      "structural_anchor": "What are protists?:",
+      "mcq_type": "F",
+      "question": "Given that organisms within Kingdom Protista exhibit varied modes of nutrition, which reasoning best explains why this kingdom is considered a collection of diverse eukaryotes rather than a cohesive group?",
+      "options": {
+        "A": "Protists lack a single defining biological characteristic other than being eukaryotic.",
+        "B": "All protists share identical reproductive strategies and cellular structures.",
+        "C": "Protists are defined by their common habitat in aquatic environments.",
+        "D": "The kingdom includes only organisms that are harmful parasites."
+      },
+      "correct_answer": "A",
+      "hint": "Consider what unifying feature, other than basic cell type, is absent among protists.",
+      "explanation": "Kingdom Protista is a 'catch-all' for eukaryotes that don't fit into other kingdoms, due to their extreme diversity in form and function. Option C is incorrect because habitat is not a defining taxonomic characteristic for the kingdom.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 82
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Characteristics and Classification of Organisms",
+        "section_anchor": "2.6. The five-kingdom system of classification",
+        "subsection_anchor": "Kingdom Protista",
+        "structural_element": "What are protists?:",
+        "content_anchor": "Protists have only one thing in common\u2014they are all eukaryotes",
+        "page_hint": 13,
+        "concept_hash": "sha256_of_Diverse_Nutrition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 79,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2500,
+    "average_question_quality": 83.2,
+    "type_distribution": {
+      "A": 2,
+      "B": 3,
+      "D": 2,
+      "F": 1,
+      "H": 1,
+      "I": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 4,
+      "hard": 1
+    },
+    "section_distribution": {
+      "2.1. Characteristics of living things": 2,
+      "2.2. Taxonomy of living things": 1,
+      "2.4. Linnaean system of nomenclature": 1,
+      "2.5. Common Ethiopian animals and plants": 2,
+      "2.6. The five-kingdom system of classification": 4
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,746 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T15:35:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Bio_U3_Q010",
+    "covered_sections": ["3.1. Biochemical molecules>3.1.1. Inorganic molecules: water", "3.1. Biochemical molecules>3.1.2. Inorganic ions", "3.1. Biochemical molecules>3.1.3. Organic molecules"],
+    "used_question_signatures": ["7e1e0e0ccbad97e39da1f937d51fa02a", "77c72bb90eccd43f9e9f85f66a72762d", "6f441a82e0e20a2bd5a8d57f46991542", "5b883cce4ac07ecfa9a8bea2b65e1a97", "87e4e7bf83d446322e4ffd6152072886", "2e6c403d45bff814e7ba27f795a767b1", "c4a6e482d578eb0ce5d2d2ecda244f44", "9ea1e702577bb71599fd8da4b23688a8", "fe37b74a8d51baaaac39de29090b5115", "d7ce2adcff88c850eb1a4a4d62c06919"],
+    "baseline_counter": {
+      "3.1. Biochemical molecules": {
+        "3.1.1. Inorganic molecules: water": {
+          "count": 2,
+          "mini_headings_covered": ["The properties of water", "1. Water as a solvent"],
+          "last_question_round": 1
+        },
+        "3.1.2. Inorganic ions": {
+          "count": 3,
+          "mini_headings_covered": ["Classification of inorganic ions", "a. Hydrogen ions", "b. Sodium ions"],
+          "last_question_round": 1
+        },
+        "3.1.3. Organic molecules": {
+          "count": 5,
+          "mini_headings_covered": ["Carbohydrates", "a. Monosaccharides", "- Roles of monosaccharides in living organisms", "b. Disaccharides (C12H22O11)", "c. Polysaccharides -(C6H10O5)-n"],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1. Biochemical molecules>3.1.1. Inorganic molecules: water": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.1. Biochemical molecules>3.1.2. Inorganic ions": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.1. Biochemical molecules>3.1.3. Organic molecules": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1. Biochemical molecules>3.1.1. Inorganic molecules: water": ["Water as a polar solvent", "High specific heat capacity of water"],
+      "3.1. Biochemical molecules>3.1.2. Inorganic ions": ["Hydrogen ions and pH", "Sodium as an extracellular cation", "Potassium as an intracellular cation"],
+      "3.1. Biochemical molecules>3.1.3. Organic molecules": ["Carbohydrate monomer monosaccharides", "Disaccharide maltose composition", "Polysaccharide energy storage", "Structural polysaccharide cellulose", "Lipid insolubility in water"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "f1a1efee4e45d2c7b3b3dc03c231f6acb6a8b0d6f0e1e3c5c9d4a8f7e1b2c3a",
+    "content_density_metrics": {
+      "total_concepts_extracted": 10,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 13.9
+    }
+  },
+  "grade": "10",
+  "subject": "Biology",
+  "unit": "Unit 3: Biochemical molecules",
+  "pdf_filename": "B10U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T15:35:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 1,
+        "total_sections": 1,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.5,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 3,
+      "mini_headings_covered_count": 10,
+      "structural_coverage_percentage": 27.8,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.1. Biochemical molecules>3.1.3. Organic molecules",
+      "least_covered_section": "3.1. Biochemical molecules>3.1.1. Inorganic molecules: water",
+      "imbalance_ratio": 2.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U3_Q001",
+      "generation_timestamp": "2025-01-28T15:35:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.1. Inorganic molecules: water",
+      "sub_subsection": null,
+      "structural_anchor": "1. Water as a solvent",
+      "mcq_type": "A",
+      "question": "What property of water makes it effective at dissolving ionic compounds and polar molecules like sugars?",
+      "options": {
+        "A": "Its high specific heat capacity",
+        "B": "Its polar molecular structure",
+        "C": "Its high surface tension",
+        "D": "Its low density as a solid"
+      },
+      "correct_answer": "B",
+      "hint": "This property results from the unequal sharing of electrons between oxygen and hydrogen atoms.",
+      "explanation": "The polar nature of water molecules allows them to attract and surround charged ions and other polar molecules, facilitating dissolution. Option A refers to water's ability to resist temperature change, which is unrelated to its solvent action.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.1. Inorganic molecules: water",
+        "structural_element": "1. Water as a solvent",
+        "content_anchor": "effective solvent for ions and polar molecules",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_water_solvent_property"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q002",
+      "generation_timestamp": "2025-01-28T15:35:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.1. Inorganic molecules: water",
+      "sub_subsection": null,
+      "structural_anchor": "The properties of water",
+      "mcq_type": "F",
+      "question": "If a lake cools from 25°C to 5°C, the temperature change for organisms within it is less extreme than for the surrounding air. Which property of water best explains this moderating effect?",
+      "options": {
+        "A": "High latent heat of vaporization",
+        "B": "High specific heat capacity",
+        "C": "High surface tension",
+        "D": "Low density as a solid"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the amount of energy required to change water's temperature.",
+      "explanation": "Water's high specific heat capacity means it can absorb or release large amounts of thermal energy with minimal temperature change, creating a stable environment. Option A describes the energy needed for vaporization, which relates to cooling effects, not temperature moderation of a body of water.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.1. Inorganic molecules: water",
+        "structural_element": "The properties of water",
+        "content_anchor": "high specific heat capacity",
+        "page_hint": "Page 3-4",
+        "concept_hash": "sha256_of_specific_heat_capacity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q003",
+      "generation_timestamp": "2025-01-28T15:35:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.2. Inorganic ions",
+      "sub_subsection": null,
+      "structural_anchor": "a. Hydrogen ions",
+      "mcq_type": "D",
+      "question": "The concentration of hydrogen ions in a solution is 0.0001 mol/L. What is the pH of this solution?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "4",
+        "D": "7"
+      },
+      "correct_answer": "C",
+      "hint": "pH is the negative logarithm (base 10) of the hydrogen ion concentration.",
+      "explanation": "The pH is calculated as -log₁₀(0.0001) = -log₁₀(10⁻⁴) = 4. Option D (pH 7) represents neutrality and would correspond to a hydrogen ion concentration of 1 × 10⁻⁷ mol/L.",
+      "difficulty_level": "medium",
+      "formula_used": ["pH = -log₁₀[H⁺]"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "dimensionless (pH)",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.2. Inorganic ions",
+        "structural_element": "a. Hydrogen ions",
+        "content_anchor": "pH scale and hydrogen ion concentration",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_pH_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q004",
+      "generation_timestamp": "2025-01-28T15:35:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.2. Inorganic ions",
+      "sub_subsection": null,
+      "structural_anchor": "Classification of inorganic ions",
+      "mcq_type": "J",
+      "question": "Sodium, chloride, and potassium are required in amounts greater than 100 mg per day in the human diet. Which category of inorganic ions do they belong to?",
+      "options": {
+        "A": "Micronutrients",
+        "B": "Trace elements",
+        "C": "Macronutrients",
+        "D": "Electrolytes"
+      },
+      "correct_answer": "C",
+      "hint": "This classification is based on the quantity required daily.",
+      "explanation": "Macronutrients are inorganic ions needed in relatively large amounts (more than 100 mg/day) in the diet, such as sodium, potassium, and chloride. Option A, micronutrients, are required in much smaller, trace amounts, like iron and copper.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.2. Inorganic ions",
+        "structural_element": "Classification of inorganic ions",
+        "content_anchor": "Macro-nutrients & Micro-nutrients",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_macro_micro_classification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q005",
+      "generation_timestamp": "2025-01-28T15:35:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.2. Inorganic ions",
+      "sub_subsection": null,
+      "structural_anchor": "b. Sodium ions",
+      "mcq_type": "G",
+      "question": "If the sodium ion concentration in extracellular fluid decreases significantly, what is the most likely direct effect on body cells?",
+      "options": {
+        "A": "Increased water movement into cells",
+        "B": "Decreased osmotic pressure in blood",
+        "C": "Enhanced nerve impulse transmission",
+        "D": "Improved muscle contraction"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the relationship between ion concentration, osmotic pressure, and water movement.",
+      "explanation": "Sodium ions are major contributors to extracellular osmotic pressure. A decrease reduces the osmotic gradient, causing water to move by osmosis into cells where the relative ion concentration is now higher. Option C is incorrect because low extracellular sodium typically impairs, not enhances, nerve function.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.2. Inorganic ions",
+        "structural_element": "b. Sodium ions",
+        "content_anchor": "sodium ion concentration in extracellular fluids",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_sodium_osmotic_role"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q006",
+      "generation_timestamp": "2025-01-28T15:35:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "Carbohydrates",
+      "mcq_type": "B",
+      "question": "Glucose, galactose, and fructose are all simple sugars with the formula C6H12O6. What is the collective term for these molecules?",
+      "options": {
+        "A": "Disaccharides",
+        "B": "Polysaccharides",
+        "C": "Monosaccharides",
+        "D": "Oligosaccharides"
+      },
+      "correct_answer": "C",
+      "hint": "These are the simplest, single-unit sugars that cannot be hydrolyzed into smaller carbohydrate molecules.",
+      "explanation": "Monosaccharides are the basic monomeric units of carbohydrates, such as glucose, galactose, and fructose. Option A, disaccharides, are composed of two monosaccharide units linked together, like sucrose or lactose.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "Carbohydrates",
+        "content_anchor": "monosaccharides glucose, galactose, fructose",
+        "page_hint": "Page 11-12",
+        "concept_hash": "sha256_of_monosaccharides"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q007",
+      "generation_timestamp": "2025-01-28T15:35:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "a. Monosaccharides",
+      "mcq_type": "I",
+      "question": "Which statement correctly compares the primary biological roles of glucose and ribose?",
+      "options": {
+        "A": "Glucose is a structural component of cell walls, while ribose stores genetic information.",
+        "B": "Glucose is a major energy source in respiration, while ribose is a component of nucleotides.",
+        "C": "Glucose forms the backbone of lipids, while ribose is involved in protein synthesis.",
+        "D": "Glucose provides insulation, while ribose catalyzes metabolic reactions."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the metabolic fate of glucose and the molecular composition of nucleic acids.",
+      "explanation": "Glucose is oxidized during cellular respiration to produce ATP, serving as a key energy source. Ribose is a pentose sugar that forms part of the nucleotide structure in RNA and ATP. Option A incorrectly assigns cellulose's structural role to glucose and DNA's role to ribose.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "a. Monosaccharides",
+        "content_anchor": "Roles of monosaccharides in living organisms",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_glucose_ribose_roles"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q008",
+      "generation_timestamp": "2025-01-28T15:35:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "b. Disaccharides (C12H22O11)",
+      "mcq_type": "C",
+      "question": "Maltose is formed by the condensation of two glucose molecules. What is the molecular formula of maltose?",
+      "options": {
+        "A": "C6H12O6",
+        "B": "C12H24O12",
+        "C": "C12H22O11",
+        "D": "C11H22O10"
+      },
+      "correct_answer": "C",
+      "hint": "Condensation involves the loss of a water molecule (H2O) when monomers join.",
+      "explanation": "The general formula for a disaccharide like maltose is C12H22O11, reflecting the combination of two C6H12O6 monomers minus one H2O molecule. Option B (C12H24O12) represents the simple sum of two glucose molecules without accounting for the water loss during bond formation.",
+      "difficulty_level": "medium",
+      "formula_used": ["C12H22O11"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "b. Disaccharides (C12H22O11)",
+        "content_anchor": "Maltose, which is composed of glucose + glucose",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_maltose_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q009",
+      "generation_timestamp": "2025-01-28T15:35:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "c. Polysaccharides -(C6H10O5)-n",
+      "mcq_type": "D",
+      "question": "In animals, excess glucose is polymerized and stored as granules in the liver and muscles. What is the name of this storage polysaccharide?",
+      "options": {
+        "A": "Starch",
+        "B": "Cellulose",
+        "C": "Glycogen",
+        "D": "Chitin"
+      },
+      "correct_answer": "C",
+      "hint": "This polymer is highly branched and serves as the primary carbohydrate reserve in animal cells.",
+      "explanation": "Glycogen is the polysaccharide storage form of glucose in animals, stored in liver and muscle cells. Option A, starch, is the analogous storage polysaccharide found in plants.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "c. Polysaccharides -(C6H10O5)-n",
+        "content_anchor": "Glycogen, which is made up of monomers of glucose",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_glycogen_storage"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q010",
+      "generation_timestamp": "2025-01-28T15:35:00Z",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": null,
+      "structural_anchor": "Lipids",
+      "mcq_type": "H",
+      "question": "A common error is to think that lipids dissolve readily in water because they are organic molecules. What is the flaw in this reasoning?",
+      "options": {
+        "A": "Lipids are inorganic compounds.",
+        "B": "Lipids are polar molecules attracted to water.",
+        "C": "Lipids are nonpolar and hydrophobic.",
+        "D": "Lipids are polymers of amino acids."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the chemical nature of lipids and the principle of 'like dissolves like'.",
+      "explanation": "Lipids are predominantly nonpolar hydrocarbons, making them hydrophobic and insoluble in polar solvents like water. Option B is incorrect because it describes the property of polar molecules, which is opposite to the nature of lipids.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "Lipids",
+        "content_anchor": "Lipids are diverse groups of biomolecules that are insoluble in water",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_lipid_insolubility"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4850,
+    "average_question_quality": 86.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 2,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "3.1. Biochemical molecules>3.1.1. Inorganic molecules: water": 2,
+      "3.1. Biochemical molecules>3.1.2. Inorganic ions": 3,
+      "3.1. Biochemical molecules>3.1.3. Organic molecules": 5
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

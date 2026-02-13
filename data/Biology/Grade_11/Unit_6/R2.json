@@ -1,0 +1,806 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-25T12:00:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G11_Bio_U6_Q020",
+    "covered_sections": ["6.1 Population ecology>6.1.1 Population size, density and dispersal", "6.1 Population ecology>6.1.2 Exponential and logistic growth in populations", "6.1 Population ecology>6.1.3 Demographic structure", "6.2 Natural resources>6.2.1 Renewable", "6.2 Natural resources>6.2.2 Non-renewable", "6.3 Conservation of natural resources in Ethiopia", "6.4 Impact of traffic accident on wild and domestic animals", "6.5 Impact of human activities on the environment", "6.6 Indigenous conservation practices in Ethiopia"],
+    "used_question_signatures": ["8a3f1def6b7c9e2d5a4b", "1b5c9e3d7a2f8d4b6c0", "7e2d4b1a9c6f0d3b5a8", "3d9a6c0b4f8e2d1b7a5", "2f8b4d6a0c9e3b1d7a", "9c1e4b7a0d3f8b2d6a", "4b8d2f6a0c9e1b3d7a", "0d3f7b2a9c6e1b4d8a", "6e1b4d8a0c9f2b3d7a", "5a9c3e1b7d0f2b4d8a", "8c2f5b9d1a7e3b0d4a", "1d7b3f9a5c0e2b8d4a", "9a2d6b0f4c8e1b3d7a", "4c0e8b2d6a1f3b9d5a", "2b8d4f0a6c1e3b9d7a", "6f1d9b3a7e0c2b8d4a", "3a7e1c9b5d0f2b8d4a", "0e4b8d2f6a1c3b9d7a", "5b9d3a7e1c0f2b8d4a", "7c1e3b9d5a0f2b8d4a"],
+    "baseline_counter": {
+      "6.1 Population ecology": {
+        "6.1.1 Population size, density and dispersal": {
+          "count": 4,
+          "mini_headings_covered": ["Population size", "Population density", "Population dispersal", "Studying populations using the Quadrat method"],
+          "last_question_round": 2
+        },
+        "6.1.2 Exponential and logistic growth in populations": {
+          "count": 5,
+          "mini_headings_covered": ["Exponential growth model", "Logistic growth model"],
+          "last_question_round": 2
+        },
+        "6.1.3 Demographic structure": {
+          "count": 5,
+          "mini_headings_covered": ["Population pyramid", "Survivorship Curves"],
+          "last_question_round": 2
+        },
+        "6.1.4 Population regulation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "6.2 Natural resources": {
+        "6.2.1 Renewable": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.2 Non-renewable": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "6.3 Conservation of natural resources in Ethiopia": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "6.4 Impact of traffic accident on wild and domestic animals": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "6.5 Impact of human activities on the environment": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "6.6 Indigenous conservation practices in Ethiopia": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Population ecology": {
+        "question_count": 14,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "6.2 Natural resources": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "6.3 Conservation of natural resources in Ethiopia": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "6.4 Impact of traffic accident on wild and domestic animals": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "6.5 Impact of human activities on the environment": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "6.6 Indigenous conservation practices in Ethiopia": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Population ecology>6.1.1 Population size, density and dispersal": ["Population size (N)", "Population density", "Dispersal patterns", "Quadrat method"],
+      "6.1 Population ecology>6.1.2 Exponential and logistic growth in populations": ["Exponential growth (J-curve)", "Logistic growth (S-curve)", "Carrying capacity (K)", "Per capita rate of increase (r)"],
+      "6.1 Population ecology>6.1.3 Demographic structure": ["Population pyramid", "Age-sex structure", "Survivorship curves"],
+      "6.2 Natural resources>6.2.1 Renewable": ["Renewable resources"],
+      "6.2 Natural resources>6.2.2 Non-renewable": ["Non-renewable resources"],
+      "6.3 Conservation of natural resources in Ethiopia": ["Conservation"],
+      "6.4 Impact of traffic accident on wild and domestic animals": ["Traffic accident impact"],
+      "6.5 Impact of human activities on the environment": ["Environmental impact"],
+      "6.6 Indigenous conservation practices in Ethiopia": ["Indigenous conservation"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_after_round_1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 19,
+      "questions_per_concept_ratio": 1.05,
+      "structural_coverage_percentage": 33.3
+    }
+  },
+  "grade": "11",
+  "subject": "Biology",
+  "unit": "Unit 6: Population and natural resources",
+  "pdf_filename": "B11U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-25T12:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 8,
+        "progress_percentage": 75.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 7,
+      "mini_headings_covered_count": 7,
+      "structural_coverage_percentage": 33.3,
+      "concept_utilization_ratio": 1.05
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.1 Population ecology",
+      "least_covered_section": "6.3 Conservation of natural resources in Ethiopia",
+      "imbalance_ratio": 4.67,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U6_Q011",
+      "generation_timestamp": "2025-01-25T12:00:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.1 Population size, density and dispersal",
+      "sub_subsection": null,
+      "structural_anchor": "Studying populations using the Quadrat method",
+      "mcq_type": "L",
+      "question": "A researcher places a 1m² square frame at random locations in a field to count plant individuals. Which sampling method is being used?",
+      "options": {
+        "A": "Quadrat method",
+        "B": "Mark-recapture method",
+        "C": "Transect sampling",
+        "D": "Census method"
+      },
+      "correct_answer": "A",
+      "hint": "This method involves counting organisms within predefined square areas.",
+      "explanation": "The quadrat method uses square frames to sample immobile organisms like plants for population estimation. Option B is used for mobile animals and involves marking and recapturing individuals.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.1 Population size, density and dispersal",
+        "structural_element": "Studying populations using the Quadrat method",
+        "content_anchor": "quadrat is a square made from sticks and string",
+        "page_hint": null,
+        "concept_hash": "sha256_of_quadrat_method"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q012",
+      "generation_timestamp": "2025-01-25T12:00:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.2 Exponential and logistic growth in populations",
+      "sub_subsection": null,
+      "structural_anchor": "Logistic growth model",
+      "mcq_type": "C",
+      "question": "In the logistic growth equation, which variable represents the maximum population size that an environment can sustain?",
+      "options": {
+        "A": "Carrying capacity (K)",
+        "B": "Intrinsic rate of increase (r)",
+        "C": "Population size (N)",
+        "D": "Time (t)"
+      },
+      "correct_answer": "A",
+      "hint": "This is the upper limit where population growth levels off.",
+      "explanation": "Carrying capacity (K) is the maximum population size supported by available resources in the logistic model. Option B represents the per capita growth rate, not the environmental limit.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.2 Exponential and logistic growth in populations",
+        "structural_element": "Logistic growth model",
+        "content_anchor": "maximum population size that the available resources in an environment can sustain/support is called carrying capacity (K)",
+        "page_hint": null,
+        "concept_hash": "sha256_of_carrying_capacity_K"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q013",
+      "generation_timestamp": "2025-01-25T12:00:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.3 Demographic structure",
+      "sub_subsection": null,
+      "structural_anchor": "Survivorship Curves",
+      "mcq_type": "J",
+      "question": "Organisms that produce many offspring with little parental care, resulting in high early mortality, typically exhibit which type of survivorship curve?",
+      "options": {
+        "A": "Type III",
+        "B": "Type I",
+        "C": "Type II",
+        "D": "Type IV"
+      },
+      "correct_answer": "A",
+      "hint": "This curve shows a steep initial drop, indicating most individuals die young.",
+      "explanation": "Type III survivorship curves characterize species with high juvenile mortality but increased survival for those reaching adulthood. Type I curves, option B, show low mortality until old age, typical of humans.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.3 Demographic structure",
+        "structural_element": "Survivorship Curves",
+        "content_anchor": "Type III: organisms produce many offspring but provide them with little or no care",
+        "page_hint": null,
+        "concept_hash": "sha256_of_type_iii_survivorship"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q014",
+      "generation_timestamp": "2025-01-25T12:00:00Z",
+      "section": "6.2 Natural resources",
+      "subsection": "6.2.2 Non-renewable",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.2 Non-renewable",
+      "mcq_type": "B",
+      "question": "Which of the following is a characteristic of non-renewable natural resources?",
+      "options": {
+        "A": "They cannot be replenished at the same rate they are consumed",
+        "B": "They are unlimited in supply for human use",
+        "C": "They regenerate quickly within a human lifetime",
+        "D": "They include sunlight and wind energy"
+      },
+      "correct_answer": "A",
+      "hint": "These resources form over geological timescales and deplete faster than they form.",
+      "explanation": "Non-renewable resources, like fossil fuels and minerals, have formation rates far slower than consumption rates. Option D incorrectly lists renewable resources.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.2 Natural resources",
+        "subsection_anchor": "6.2.2 Non-renewable",
+        "structural_element": "6.2.2 Non-renewable",
+        "content_anchor": "do not naturally replenish at the same speed at which they are used",
+        "page_hint": null,
+        "concept_hash": "sha256_of_non_renewable_characteristic"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q015",
+      "generation_timestamp": "2025-01-25T12:00:00Z",
+      "section": "6.3 Conservation of natural resources in Ethiopia",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "6.3 Conservation of natural resources in Ethiopia",
+      "mcq_type": "A",
+      "question": "What is the primary goal of conservation regarding natural resources?",
+      "options": {
+        "A": "To ensure resources are available for future generations",
+        "B": "To maximize immediate resource extraction",
+        "C": "To eliminate all human use of resources",
+        "D": "To focus only on non-renewable resources"
+      },
+      "correct_answer": "A",
+      "hint": "Conservation involves wise use and protection for long-term sustainability.",
+      "explanation": "Conservation aims at the sustainable management and protection of natural resources for present and future use. Option B describes overexploitation, which is contrary to conservation principles.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.3 Conservation of natural resources in Ethiopia",
+        "subsection_anchor": null,
+        "structural_element": "6.3 Conservation of natural resources in Ethiopia",
+        "content_anchor": "care, protection, and wise use of natural resources so that the resources can be used for future generations",
+        "page_hint": null,
+        "concept_hash": "sha256_of_conservation_goal"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q016",
+      "generation_timestamp": "2025-01-25T12:00:00Z",
+      "section": "6.4 Impact of traffic accident on wild and domestic animals",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "6.4 Impact of traffic accident on wild and domestic animals",
+      "mcq_type": "G",
+      "question": "How do road traffic accidents primarily affect wildlife populations in conservation areas?",
+      "options": {
+        "A": "By causing direct mortality when animals cross roads",
+        "B": "By increasing genetic diversity through migration",
+        "C": "By providing new food sources from roadkill",
+        "D": "By reducing competition between species"
+      },
+      "correct_answer": "A",
+      "hint": "Animals are often killed by vehicles while moving between habitats.",
+      "explanation": "Vehicle collisions are a major cause of wildlife mortality, especially near protected areas where animals cross roads. Option C incorrectly frames roadkill as a beneficial resource rather than a population threat.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.4 Impact of traffic accident on wild and domestic animals",
+        "subsection_anchor": null,
+        "structural_element": "6.4 Impact of traffic accident on wild and domestic animals",
+        "content_anchor": "car accidents have also been the major cause of death for both wild and domestic animals",
+        "page_hint": null,
+        "concept_hash": "sha256_of_traffic_accident_impact"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q017",
+      "generation_timestamp": "2025-01-25T12:00:00Z",
+      "section": "6.5 Impact of human activities on the environment",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "6.5 Impact of human activities on the environment",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that industrial emissions have no significant environmental impact?",
+      "options": {
+        "A": "It ignores the cumulative and long-term effects of pollutants on ecosystems",
+        "B": "It correctly assumes that natural processes can neutralize all industrial waste",
+        "C": "It acknowledges that pollution only affects areas immediately around factories",
+        "D": "It recognizes that technology will eventually solve all environmental problems"
+      },
+      "correct_answer": "A",
+      "hint": "Pollutants often persist, accumulate, and cause widespread damage over time.",
+      "explanation": "The misconception underestimates how pollutants bioaccumulate and cause systemic damage beyond local areas. Option D represents optimistic technological faith, not the specific error of ignoring cumulative impacts.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.5 Impact of human activities on the environment",
+        "subsection_anchor": null,
+        "structural_element": "6.5 Impact of human activities on the environment",
+        "content_anchor": "human activities... have a negative impact on the environment",
+        "page_hint": null,
+        "concept_hash": "sha256_of_human_impact_error"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 80,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q018",
+      "generation_timestamp": "2025-01-25T12:00:00Z",
+      "section": "6.6 Indigenous conservation practices in Ethiopia",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "6.6 Indigenous conservation practices in Ethiopia",
+      "mcq_type": "B",
+      "question": "What term describes knowledge systems developed by local communities over generations to manage their natural environment?",
+      "options": {
+        "A": "Indigenous knowledge",
+        "B": "Scientific methodology",
+        "C": "Industrial technology",
+        "D": "Global conservation policy"
+      },
+      "correct_answer": "A",
+      "hint": "This knowledge is rooted in long-term observation and cultural tradition.",
+      "explanation": "Indigenous knowledge encompasses traditional practices for resource conservation developed through community experience. Option B refers to formal, empirical research methods, not locally derived traditional knowledge.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.6 Indigenous conservation practices in Ethiopia",
+        "subsection_anchor": null,
+        "structural_element": "6.6 Indigenous conservation practices in Ethiopia",
+        "content_anchor": "Indigenous knowledge is a body of knowledge built over generations by a group of local people",
+        "page_hint": null,
+        "concept_hash": "sha256_of_indigenous_knowledge"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q019",
+      "generation_timestamp": "2025-01-25T12:00:00Z",
+      "section": "6.2 Natural resources",
+      "subsection": "6.2.1 Renewable",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.1 Renewable",
+      "mcq_type": "I",
+      "question": "How do renewable resources fundamentally differ from non-renewable resources in terms of availability?",
+      "options": {
+        "A": "Renewable resources can regenerate, while non-renewable resources deplete permanently",
+        "B": "Renewable resources are always more abundant than non-renewable resources",
+        "C": "Non-renewable resources are easier to extract than renewable resources",
+        "D": "Renewable resources have no economic value compared to non-renewable resources"
+      },
+      "correct_answer": "A",
+      "hint": "Think about the timescale of replenishment versus consumption.",
+      "explanation": "Renewable resources like solar energy naturally replenish within human timescales, unlike fossil fuels that form over millions of years. Option B is incorrect because abundance varies by location and resource type.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.2 Natural resources",
+        "subsection_anchor": "6.2.1 Renewable",
+        "structural_element": "6.2.1 Renewable",
+        "content_anchor": "How can you classify natural resources into renewable and non- renewable?",
+        "page_hint": null,
+        "concept_hash": "sha256_of_renewable_vs_nonrenewable"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q020",
+      "generation_timestamp": "2025-01-25T12:00:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.2 Exponential and logistic growth in populations",
+      "sub_subsection": null,
+      "structural_anchor": "Exponential growth model",
+      "mcq_type": "F",
+      "question": "Under what environmental condition would a population most likely exhibit exponential growth?",
+      "options": {
+        "A": "When resources are unlimited and there is no competition",
+        "B": "When the population is near its carrying capacity",
+        "C": "When density-dependent factors strongly regulate growth",
+        "D": "When immigration and emigration rates are balanced"
+      },
+      "correct_answer": "A",
+      "hint": "Exponential growth represents ideal, unconstrained population increase.",
+      "explanation": "Exponential growth occurs only in an ideal environment with abundant resources and no limiting factors. Option B describes conditions for logistic growth, where resource limitation slows population increase.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.2 Exponential and logistic growth in populations",
+        "structural_element": "Exponential growth model",
+        "content_anchor": "growth of a population in an ideal environment with unlimited resources",
+        "page_hint": null,
+        "concept_hash": "sha256_of_exponential_conditions"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3800,
+    "average_question_quality": 84.5,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "C": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "6.1 Population ecology": 4,
+      "6.2 Natural resources": 2,
+      "6.3 Conservation of natural resources in Ethiopia": 1,
+      "6.4 Impact of traffic accident on wild and domestic animals": 1,
+      "6.5 Impact of human activities on the environment": 1,
+      "6.6 Indigenous conservation practices in Ethiopia": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

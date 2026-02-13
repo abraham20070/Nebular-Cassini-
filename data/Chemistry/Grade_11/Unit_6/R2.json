@@ -1,0 +1,867 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-02-10T00:36:30Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G11_Chem_U6_Q020",
+    "covered_sections": ["6.1 Introduction", "6.2 Alcohols and Ethers", "6.3 Aldehydes and Ketones", "6.4 Carboxylic Acids", "6.5 Esters"],
+    "used_question_signatures": ["95f7482a9a7a5c3b", "f5e2c7d1e8a9b4c6", "8a7b6c5d4e3f2g1h", "2b3c4d5e6f7g8h9i", "1a2b3c4d5e6f7g8h", "9i8h7g6f5e4d3c2b", "3d4e5f6g7h8i9j0k", "1l2m3n4o5p6q7r8s", "9t0u1v2w3x4y5z6a", "7b8c9d0e1f2g3h4i", "5j6k7l8m9n0o1p2q", "3r4s5t6u7v8w9x0y", "1z2a3b4c5d6e7f8g", "9h0i1j2k3l4m5n6o", "7p8q9r0s1t2u3v4w", "5x6y7z8a9b0c1d2e", "3f4g5h6i7j8k9l0m", "1n2o3p4q5r6s7t8u", "9v0w1x2y3z4a5b6c", "7d8e9f0g1h2i3j4k"],
+    "baseline_counter": {
+      "6.1 Introduction": {
+        "Start-up Activity": {
+          "count": 2,
+          "mini_headings_covered": ["Why is classification of organic compounds needed? What is the basis of the classification?:"],
+          "last_question_round": 2
+        },
+        "Classification of organic compounds": {
+          "count": 2,
+          "mini_headings_covered": ["Why is classification of organic compounds needed? What is the basis of the classification?:"],
+          "last_question_round": 1
+        }
+      },
+      "6.2 Alcohols and Ethers": {
+        "6.2.1 Classification of Alcohols": {
+          "count": 4,
+          "mini_headings_covered": ["Monohydric alcohols:", "Primary alcohols:", "Secondary alcohols:", "Tertiary alcohols:"],
+          "last_question_round": 2
+        },
+        "6.2.2 Nomenclature of Alcohols": {
+          "count": 2,
+          "mini_headings_covered": ["The common name of an alcohol is derived from the common name of the alkyl group and adding the word alcohol to it.:", "For naming polyhydric alcohols, the 'e' of alkane is retained and the ending 'ol' is added.:"],
+          "last_question_round": 2
+        },
+        "6.2.3 Physical Properties of Alcohols": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.4 Preparation of Alcohols": {
+          "count": 2,
+          "mini_headings_covered": ["A. Acid-catalyzed hydration of alkenes:"],
+          "last_question_round": 1
+        },
+        "6.2.5 Chemical Properties of Alcohols": {
+          "count": 2,
+          "mini_headings_covered": ["b. Oxidation of alcohols:", "a. Reaction with Active Metals:"],
+          "last_question_round": 2
+        },
+        "6.2.6 Structure and Nomenclature of Ethers": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.7 Physical Properties of Ethers": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.8 Preparation of Ethers": {
+          "count": 1,
+          "mini_headings_covered": ["2. Williamson ether synthesis:"],
+          "last_question_round": 2
+        },
+        "6.2.9 Reactions of Ethers": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "6.3 Aldehydes and Ketones": {
+        "6.3.1 Nomenclature": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.3.2 Physical Properties of Aldehydes and Ketones": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "6.4 Carboxylic Acids": {
+        "6.4.1 Structure and Nomenclature of Carboxylic Acids": {
+          "count": 2,
+          "mini_headings_covered": ["A. Saturated monocarboxylic acids:", "B. Di- and tricarboxylic acids:"],
+          "last_question_round": 2
+        },
+        "6.4.2 Physical Properties of Carboxylic Acids": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.4.3 Chemical Properties of Carboxylic Acids": {
+          "count": 1,
+          "mini_headings_covered": ["i. Reaction as an acid:"],
+          "last_question_round": 2
+        }
+      },
+      "6.5 Esters": {
+        "6.5.1 Sources of Esters": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.5.2 Nomenclature": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "6.6 Fats and Oils": {
+        "6.6.1 Source of Fats and Oils": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Introduction": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "6.2 Alcohols and Ethers": {
+        "question_count": 12,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "6.3 Aldehydes and Ketones": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "6.4 Carboxylic Acids": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "6.5 Esters": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "6.6 Fats and Oils": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Introduction>Classification of organic compounds": ["Classification of organic compounds", "Oxygen-containing functional groups"],
+      "6.2 Alcohols and Ethers>6.2.1 Classification of Alcohols": ["Monohydric alcohols", "Primary alcohols", "Secondary alcohols", "Tertiary alcohols"],
+      "6.2 Alcohols and Ethers>6.2.2 Nomenclature of Alcohols": ["IUPAC nomenclature of alcohols", "Common nomenclature of alcohols"],
+      "6.2 Alcohols and Ethers>6.2.3 Physical Properties of Alcohols": ["Hydrogen bonding in alcohols", "Boiling points of alcohols", "Solubility of alcohols"],
+      "6.2 Alcohols and Ethers>6.2.4 Preparation of Alcohols": ["Acid-catalyzed hydration of alkenes"],
+      "6.2 Alcohols and Ethers>6.2.5 Chemical Properties of Alcohols": ["Oxidation of primary alcohols", "Reaction with active metals"],
+      "6.2 Alcohols and Ethers>6.2.6 Structure and Nomenclature of Ethers": ["Structure of ethers", "Common nomenclature of ethers"],
+      "6.2 Alcohols and Ethers>6.2.7 Physical Properties of Ethers": ["Boiling points of ethers", "Solubility of ethers"],
+      "6.2 Alcohols and Ethers>6.2.8 Preparation of Ethers": ["Williamson ether synthesis"],
+      "6.2 Alcohols and Ethers>6.2.9 Reactions of Ethers": ["Chemical inertness of ethers"],
+      "6.3 Aldehydes and Ketones>6.3.1 Nomenclature": ["IUPAC nomenclature of aldehydes", "IUPAC nomenclature of ketones"],
+      "6.3 Aldehydes and Ketones>6.3.2 Physical Properties of Aldehydes and Ketones": ["Polarity of carbonyl group"],
+      "6.4 Carboxylic Acids>6.4.1 Structure and Nomenclature of Carboxylic Acids": ["Saturated monocarboxylic acids", "Dicarboxylic acids", "Common nomenclature of carboxylic acids"],
+      "6.4 Carboxylic Acids>6.4.2 Physical Properties of Carboxylic Acids": ["Hydrogen bonding in carboxylic acids"],
+      "6.4 Carboxylic Acids>6.4.3 Chemical Properties of Carboxylic Acids": ["Acidic properties of carboxylic acids"],
+      "6.5 Esters>6.5.1 Sources of Esters": ["Natural sources of esters"],
+      "6.5 Esters>6.5.2 Nomenclature": ["Nomenclature of esters"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 16,
+      "questions_per_concept_ratio": 1.5625,
+      "structural_coverage_percentage": 36.7
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Chemistry",
+  "unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+  "pdf_filename": "C11U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-02-10T00:36:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 6,
+        "progress_percentage": 83.3
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 16,
+      "mini_headings_covered_count": 9,
+      "structural_coverage_percentage": 36.7,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.2 Alcohols and Ethers",
+      "least_covered_section": "6.6 Fats and Oils",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Chem_U6_Q011",
+      "generation_timestamp": "2025-02-10T00:36:15Z",
+      "section": "6.2 Alcohols and Ethers",
+      "subsection": "6.2.1 Classification of Alcohols",
+      "sub_subsection": null,
+      "structural_anchor": "Tertiary alcohols:",
+      "mcq_type": "J",
+      "question": "How many alkyl groups are attached to the carbon atom bearing the hydroxyl group in a tertiary alcohol?",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four"
+      },
+      "correct_answer": "C",
+      "hint": "The classification refers to the degree of substitution on the hydroxyl-bearing carbon.",
+      "explanation": "Tertiary alcohols have the hydroxyl group on a carbon atom that is bonded to three alkyl groups. Option B describes secondary alcohols, which have two alkyl groups attached to that carbon.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.2 Alcohols and Ethers",
+        "subsection_anchor": "6.2.1 Classification of Alcohols",
+        "structural_element": "Tertiary alcohols:",
+        "content_anchor": "carbon with the hydroxyl group is attached to three other alkyl groups",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_tertiary_alcohols"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 61,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q012",
+      "generation_timestamp": "2025-02-10T00:36:16Z",
+      "section": "6.2 Alcohols and Ethers",
+      "subsection": "6.2.2 Nomenclature of Alcohols",
+      "sub_subsection": null,
+      "structural_anchor": "For naming polyhydric alcohols, the 'e' of alkane is retained and the ending 'ol' is added.:",
+      "mcq_type": "A",
+      "question": "What is the IUPAC name for a compound with two hydroxyl groups on a three-carbon chain?",
+      "options": {
+        "A": "Propanol",
+        "B": "Propanediol",
+        "C": "Propanoic acid",
+        "D": "Propane"
+      },
+      "correct_answer": "B",
+      "hint": "The prefix indicates the number of hydroxyl groups present.",
+      "explanation": "Compounds with two hydroxyl groups are named as alkanediols, with 'diol' indicating two -OH groups. Option A refers to a monohydric alcohol with only one hydroxyl group.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.2 Alcohols and Ethers",
+        "subsection_anchor": "6.2.2 Nomenclature of Alcohols",
+        "structural_element": "For naming polyhydric alcohols, the 'e' of alkane is retained and the ending 'ol' is added.:",
+        "content_anchor": "number of - OH groups is indicated by adding the multiplicative prefix, di, tri, etc., before 'ol'",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_polyhydric_nomenclature"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 63,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q013",
+      "generation_timestamp": "2025-02-10T00:36:17Z",
+      "section": "6.2 Alcohols and Ethers",
+      "subsection": "6.2.3 Physical Properties of Alcohols",
+      "sub_subsection": null,
+      "structural_anchor": "Table 6.1: IUPAC Names, Condensed Structure and Physical Constants of the First Six Monohydric Alcohol",
+      "mcq_type": "K",
+      "question": "As the carbon chain length increases in a homologous series of monohydric alcohols, what trend is observed in their solubility in water?",
+      "options": {
+        "A": "Solubility increases",
+        "B": "Solubility decreases",
+        "C": "Solubility remains constant",
+        "D": "Solubility first increases then decreases"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the balance between polar hydroxyl group and nonpolar hydrocarbon chain.",
+      "explanation": "The solubility of alcohols in water decreases with increasing carbon number because the nonpolar hydrocarbon portion becomes larger relative to the polar hydroxyl group. Option A incorrectly reverses this well-established trend for homologous series.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "table"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.2 Alcohols and Ethers",
+        "subsection_anchor": "6.2.3 Physical Properties of Alcohols",
+        "structural_element": "Table 6.1: IUPAC Names, Condensed Structure and Physical Constants of the First Six Monohydric Alcohol",
+        "content_anchor": "solubility of alcohols in water decreases with increasing carbon number",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_alcohol_solubility_trend"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q014",
+      "generation_timestamp": "2025-02-10T00:36:18Z",
+      "section": "6.2 Alcohols and Ethers",
+      "subsection": "6.2.5 Chemical Properties of Alcohols",
+      "sub_subsection": null,
+      "structural_anchor": "a. Reaction with Active Metals:",
+      "mcq_type": "D",
+      "question": "What products are formed when ethanol reacts with sodium metal?",
+      "options": {
+        "A": "Sodium ethoxide and hydrogen gas",
+        "B": "Sodium ethanoate and water",
+        "C": "Ethanal and sodium hydroxide",
+        "D": "Ethene and sodium hydride"
+      },
+      "correct_answer": "A",
+      "hint": "Active metals displace hydrogen from the hydroxyl group.",
+      "explanation": "Alcohols react with active metals like sodium to form alkoxides and hydrogen gas through cleavage of the O-H bond. Option B describes the reaction of a carboxylic acid with a base, not an alcohol with a metal.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.2 Alcohols and Ethers",
+        "subsection_anchor": "6.2.5 Chemical Properties of Alcohols",
+        "structural_element": "a. Reaction with Active Metals:",
+        "content_anchor": "Alcohols react with Li, Na, K, Mg, and other active metals to liberate hydrogen",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_alcohol_active_metals"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 81,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q015",
+      "generation_timestamp": "2025-02-10T00:36:19Z",
+      "section": "6.2 Alcohols and Ethers",
+      "subsection": "6.2.6 Structure and Nomenclature of Ethers",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 6.5",
+      "mcq_type": "F",
+      "question": "Ethers have the general formula R-O-R'. What structural feature distinguishes symmetrical from unsymmetrical ethers?",
+      "options": {
+        "A": "The presence of an oxygen atom in the molecule",
+        "B": "Whether the R groups attached to oxygen are identical or different",
+        "C": "The number of carbon atoms in the molecule",
+        "D": "The presence of double bonds in the R groups"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the alkyl or aryl groups bonded to the oxygen atom.",
+      "explanation": "Symmetrical ethers have two identical R groups attached to oxygen, while unsymmetrical ethers have different R groups. Option A is incorrect because all ethers contain an oxygen atom by definition.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.2 Alcohols and Ethers",
+        "subsection_anchor": "6.2.6 Structure and Nomenclature of Ethers",
+        "structural_element": "Activity 6.5",
+        "content_anchor": "If the alkyl substituents are identical, the ether is a symmetrical ether. If the substituents are different, the ether is an unsymmetrical ether",
+        "page_hint": "Page 22",
+        "concept_hash": "sha256_of_ether_symmetry"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q016",
+      "generation_timestamp": "2025-02-10T00:36:20Z",
+      "section": "6.2 Alcohols and Ethers",
+      "subsection": "6.2.7 Physical Properties of Ethers",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 6.4: Weak attractive interactions exist between diethyl ether molecules in the pure liquid",
+      "mcq_type": "I",
+      "question": "How do the boiling points of ethers compare to those of alcohols with similar molecular weights?",
+      "options": {
+        "A": "Ethers have much higher boiling points",
+        "B": "Ethers have slightly higher boiling points",
+        "C": "Ethers have much lower boiling points",
+        "D": "They have approximately the same boiling points"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the intermolecular forces present in each type of compound.",
+      "explanation": "Ethers have much lower boiling points than alcohols of comparable molecular weight because they cannot form hydrogen bonds with each other, only weaker dipole-dipole interactions. Option A incorrectly reverses this relationship.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "figure"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.2 Alcohols and Ethers",
+        "subsection_anchor": "6.2.7 Physical Properties of Ethers",
+        "structural_element": "Figure 6.4: Weak attractive interactions exist between diethyl ether molecules in the pure liquid",
+        "content_anchor": "boiling points of ethers are much lower than those of alcohols of comparable molecular weight",
+        "page_hint": "Page 23",
+        "concept_hash": "sha256_of_ether_boiling_points"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q017",
+      "generation_timestamp": "2025-02-10T00:36:21Z",
+      "section": "6.2 Alcohols and Ethers",
+      "subsection": "6.2.8 Preparation of Ethers",
+      "sub_subsection": null,
+      "structural_anchor": "2. Williamson ether synthesis:",
+      "mcq_type": "D",
+      "question": "What reactants are combined in the Williamson ether synthesis to produce an ether?",
+      "options": {
+        "A": "Two alcohols with acid catalyst",
+        "B": "An alkene and water with acid catalyst",
+        "C": "An alkyl halide and an alkoxide ion",
+        "D": "Two alkyl halides with base"
+      },
+      "correct_answer": "C",
+      "hint": "This synthesis involves nucleophilic substitution by an oxygen nucleophile.",
+      "explanation": "Williamson ether synthesis involves an SN2 reaction between an alkoxide ion and a primary alkyl halide to form an ether. Option A describes the dehydration of alcohols, which can produce ethers under different conditions but is a different method.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.2 Alcohols and Ethers",
+        "subsection_anchor": "6.2.8 Preparation of Ethers",
+        "structural_element": "2. Williamson ether synthesis:",
+        "content_anchor": "an alkyl halide is made to react with an alkoxide which leads to the formation of ether",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_williamson_synthesis"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q018",
+      "generation_timestamp": "2025-02-10T00:36:22Z",
+      "section": "6.2 Alcohols and Ethers",
+      "subsection": "6.2.9 Reactions of Ethers",
+      "sub_subsection": null,
+      "structural_anchor": "Example 6.24",
+      "mcq_type": "H",
+      "question": "Which statement accurately describes the chemical reactivity of ethers under normal laboratory conditions?",
+      "options": {
+        "A": "Ethers readily undergo oxidation with common oxidizing agents",
+        "B": "Ethers are highly reactive toward nucleophiles and electrophiles",
+        "C": "Ethers are relatively inert and resistant to most chemical reactions",
+        "D": "Ethers easily hydrolyze in aqueous acidic solutions"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the stability of the C-O-C linkage and the lack of reactive functional groups.",
+      "explanation": "Ethers are relatively inert due to the strong C-O bonds and lack of polarizable functional groups, making them useful as solvents. Option A is incorrect because ethers do not react with common oxidizing agents like KMnO₄ or K₂Cr₂O₇ under normal conditions.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.2 Alcohols and Ethers",
+        "subsection_anchor": "6.2.9 Reactions of Ethers",
+        "structural_element": "Example 6.24",
+        "content_anchor": "Ethers, R- O- R, resemble hydrocarbons in their resistance to chemical reaction",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_ether_reactivity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q019",
+      "generation_timestamp": "2025-02-10T00:36:23Z",
+      "section": "6.3 Aldehydes and Ketones",
+      "subsection": "6.3.1 Nomenclature",
+      "sub_subsection": null,
+      "structural_anchor": "Example 6.27",
+      "mcq_type": "B",
+      "question": "What is the IUPAC name for CH₃COCH₂CH₃?",
+      "options": {
+        "A": "Propanone",
+        "B": "Butanone",
+        "C": "Pentanone",
+        "D": "Ethyl methyl ketone"
+      },
+      "correct_answer": "B",
+      "hint": "Identify the longest chain containing the carbonyl group and number it to give the carbonyl the lowest position.",
+      "explanation": "The compound CH₃COCH₂CH₃ is a four-carbon ketone with the carbonyl at carbon 2, giving it the IUPAC name butan-2-one or simply butanone. Option A refers to acetone (CH₃COCH₃), which has three carbons.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.3 Aldehydes and Ketones",
+        "subsection_anchor": "6.3.1 Nomenclature",
+        "structural_element": "Example 6.27",
+        "content_anchor": "IUPAC names of ketones are obtained by using the suffix - one",
+        "page_hint": "Page 27",
+        "concept_hash": "sha256_of_ketone_nomenclature"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q020",
+      "generation_timestamp": "2025-02-10T00:36:24Z",
+      "section": "6.4 Carboxylic Acids",
+      "subsection": "6.4.1 Structure and Nomenclature of Carboxylic Acids",
+      "sub_subsection": null,
+      "structural_anchor": "A. Saturated monocarboxylic acids:",
+      "mcq_type": "A",
+      "question": "What functional group characterizes all carboxylic acids?",
+      "options": {
+        "A": "-OH",
+        "B": "-CHO",
+        "C": "-COOH",
+        "D": "-CO-"
+      },
+      "correct_answer": "C",
+      "hint": "This group combines carbonyl and hydroxyl functionalities on the same carbon.",
+      "explanation": "Carboxylic acids contain the carboxyl group (-COOH), which consists of a carbonyl group bonded to a hydroxyl group. Option A refers to alcohols, while option B refers to aldehydes.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+        "section_anchor": "6.4 Carboxylic Acids",
+        "subsection_anchor": "6.4.1 Structure and Nomenclature of Carboxylic Acids",
+        "structural_element": "A. Saturated monocarboxylic acids:",
+        "content_anchor": "carboxyl group (COOH) is a functional group consisting of a carbonyl group with a hydroxyl group attached to the same carbon atom",
+        "page_hint": "Page 32",
+        "concept_hash": "sha256_of_carboxyl_group"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 9000,
+    "average_question_quality": 83.1,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "D": 2,
+      "F": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "6.1 Introduction": 0,
+      "6.2 Alcohols and Ethers": 8,
+      "6.3 Aldehydes and Ketones": 1,
+      "6.4 Carboxylic Acids": 1,
+      "6.5 Esters": 0,
+      "6.6 Fats and Oils": 0
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

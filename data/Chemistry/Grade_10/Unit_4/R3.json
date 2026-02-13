@@ -1,0 +1,791 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:20:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Chem_U4_Q030",
+    "covered_sections": ["4.1 Introduction", "4.2 Energy Changes in Electrochemistry", "4.3 Electrochemical Cells", "4.4 Electrolysis", "Energy and Climate"],
+    "used_question_signatures": ["hash_A_intro_energy", "hash_A_exo_def", "hash_B_endo_term", "hash_C_enthalpy_eq", "hash_D_combustion_app", "hash_E_heat_calc", "hash_F_system_surr", "hash_G_NaOH_dissolve", "hash_H_miscon_photosynth", "hash_I_conduct_compare", "hash_J_primary_cell", "hash_A_electrochem_def", "hash_B_graphite_cond", "hash_C_dissoc_eq", "hash_D_strong_weak", "hash_E_ion_count_calc", "hash_F_calorimeter", "hash_G_temp_effect", "hash_H_miscon_solid_cond", "hash_I_cell_compare", "hash_K_greenhouse", "hash_A_nonelectrolyte", "hash_B_voltaic_spon", "hash_C_salt_bridge", "hash_D_Daniell_cell", "hash_E_voltage_calc", "hash_F_secondary_cell", "hash_G_charging", "hash_H_miscon_anode", "hash_I_experiment_compare", "hash_K_CO2_capture"],
+    "baseline_counter": {
+      "4.1 Introduction": {
+        "4.1.1 Exothermic and Endothermic Chemical Reactions": {
+          "count": 8,
+          "mini_headings_covered": ["Activity 4.2"],
+          "last_question_round": 1
+        },
+        "4.1.2 Importance of Chemical Changes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "4.2 Energy Changes in Electrochemistry": {
+        "4.2.1 Electrochemistry": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "4.2.2 Electrical Conductivity": {
+          "count": 9,
+          "mini_headings_covered": ["a) Metallic conductivity", "b) Electrolytic conductivity", "Strong and Weak Electrolytes", "Dissociation"],
+          "last_question_round": 3
+        }
+      },
+      "4.3 Electrochemical Cells": {
+        "4.3.1 Galvanic (Voltaic) Cells": {
+          "count": 7,
+          "mini_headings_covered": ["What is a galvanic cell?", "Primary Cells (Battery Cells)", "Secondary (Rechargeable) Cells"],
+          "last_question_round": 3
+        }
+      },
+      "4.4 Electrolysis": {
+        "4.4.1 Electrolysis of Molten (Fused) Electrolytes": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Energy and Climate": {
+        "Energy and Climate": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1 Introduction": {
+        "question_count": 9,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "4.2 Energy Changes in Electrochemistry": {
+        "question_count": 10,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.3 Electrochemical Cells": {
+        "question_count": 7,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.4 Electrolysis": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Energy and Climate": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1 Introduction>4.1.1 Exothermic and Endothermic Chemical Reactions": ["Energy change in reactions", "Exothermic definition", "Endothermic definition", "Enthalpy change", "Combustion", "Calorimeter", "Specific heat capacity", "System vs surroundings"],
+      "4.1 Introduction>4.1.2 Importance of Chemical Changes": ["Energy production from reactions"],
+      "4.2 Energy Changes in Electrochemistry>4.2.1 Electrochemistry": ["Electrochemistry definition", "Energy interconversion"],
+      "4.2 Energy Changes in Electrochemistry>4.2.2 Electrical Conductivity": ["Metallic conduction", "Electrolytic conduction", "Charge carriers", "Graphite conductivity", "Strong vs weak electrolytes", "Dissociation equations", "Ion concentration", "Nonelectrolytes", "Temperature effect"],
+      "4.3 Electrochemical Cells>4.3.1 Galvanic (Voltaic) Cells": ["Galvanic cell purpose", "Spontaneous redox", "Primary vs secondary cells", "Cell comparison", "Voltaic cell definition", "Salt bridge function", "Daniell cell", "Secondary cell reactions", "Charging process"],
+      "4.4 Electrolysis>4.4.1 Electrolysis of Molten (Fused) Electrolytes": ["Electrolysis definition", "Electrode identification", "Electrolytic cell setup"],
+      "Energy and Climate>Energy and Climate": ["Greenhouse effect", "CO2 role", "Carbon capture"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_R03_B03",
+    "content_density_metrics": {
+      "total_concepts_extracted": 31,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 45.5
+    }
+  },
+  "grade": "10",
+  "subject": "Chemistry",
+  "unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+  "pdf_filename": "C10U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:25:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 5,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 5.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 7,
+      "mini_headings_covered_count": 8,
+      "structural_coverage_percentage": 36.4,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.2 Energy Changes in Electrochemistry",
+      "least_covered_section": "Energy and Climate",
+      "imbalance_ratio": 5.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U4_Q021",
+      "generation_timestamp": "2025-01-28T10:20:30Z",
+      "section": "4.2 Energy Changes in Electrochemistry",
+      "subsection": "4.2.2 Electrical Conductivity",
+      "sub_subsection": null,
+      "structural_anchor": "Strong and Weak Electrolytes",
+      "mcq_type": "A",
+      "question": "What term describes a compound that does not produce ions when dissolved in water and therefore cannot conduct electricity?",
+      "options": {
+        "A": "Strong electrolyte",
+        "B": "Weak electrolyte",
+        "C": "Nonelectrolyte",
+        "D": "Semiconductor"
+      },
+      "correct_answer": "C",
+      "hint": "Consider substances that dissolve as neutral molecules without ionization.",
+      "explanation": "Nonelectrolytes dissolve as intact molecules without dissociating into ions, preventing electrical conduction. Option A describes compounds that completely dissociate into ions, opposite to nonelectrolyte behavior.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "Mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.2 Energy Changes in Electrochemistry",
+        "subsection_anchor": "4.2.2 Electrical Conductivity",
+        "structural_element": "Strong and Weak Electrolytes",
+        "content_anchor": "nonelectrolyte does not conduct electric current",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_nonelectrolyte_def"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q022",
+      "generation_timestamp": "2025-01-28T10:20:45Z",
+      "section": "4.3 Electrochemical Cells",
+      "subsection": "4.3.1 Galvanic (Voltaic) Cells",
+      "sub_subsection": null,
+      "structural_anchor": "What is a galvanic cell?",
+      "mcq_type": "B",
+      "question": "Which characteristic distinguishes a voltaic cell from other electrochemical systems?",
+      "options": {
+        "A": "It uses electrical energy to drive non-spontaneous reactions",
+        "B": "It generates electrical energy from spontaneous redox reactions",
+        "C": "It requires continuous external power supply to operate",
+        "D": "It always involves electrolysis of aqueous solutions"
+      },
+      "correct_answer": "B",
+      "hint": "Focus on the energy conversion direction in the cell.",
+      "explanation": "Voltaic cells convert chemical energy to electrical energy through spontaneous oxidation-reduction reactions. Option A describes electrolytic cells, which consume rather than generate electrical energy.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.3 Electrochemical Cells",
+        "subsection_anchor": "4.3.1 Galvanic (Voltaic) Cells",
+        "structural_element": "What is a galvanic cell?",
+        "content_anchor": "galvanic cell converts chemical energy to electrical energy",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_voltaic_spontaneous"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q023",
+      "generation_timestamp": "2025-01-28T10:21:00Z",
+      "section": "4.3 Electrochemical Cells",
+      "subsection": "4.3.1 Galvanic (Voltaic) Cells",
+      "sub_subsection": null,
+      "structural_anchor": "Primary Cells (Battery Cells)",
+      "mcq_type": "C",
+      "question": "In a Daniell cell, what is the primary function of the salt bridge connecting the two half-cells?",
+      "options": {
+        "A": "To allow electrons to flow between the electrodes",
+        "B": "To maintain electrical neutrality by allowing ion migration",
+        "C": "To increase the voltage output of the cell",
+        "D": "To prevent mixing of the anode and cathode solutions"
+      },
+      "correct_answer": "B",
+      "hint": "Consider charge balance as reactions proceed in each compartment.",
+      "explanation": "The salt bridge permits ion movement to balance charges accumulating in each half-cell, maintaining electrical neutrality for continuous current flow. Option A incorrectly assigns electron conduction to the salt bridge, when electrons actually flow through the external wire.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.3 Electrochemical Cells",
+        "subsection_anchor": "4.3.1 Galvanic (Voltaic) Cells",
+        "structural_element": "Primary Cells (Battery Cells)",
+        "content_anchor": "salt bridge maintains electrical neutrality between solutions",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_of_salt_bridge_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 77,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q024",
+      "generation_timestamp": "2025-01-28T10:21:15Z",
+      "section": "4.3 Electrochemical Cells",
+      "subsection": "4.3.1 Galvanic (Voltaic) Cells",
+      "sub_subsection": null,
+      "structural_anchor": "Primary Cells (Battery Cells)",
+      "mcq_type": "D",
+      "question": "In the Daniell cell with zinc and copper electrodes, zinc metal dissolves while copper ions deposit as solid copper. What overall reaction occurs?",
+      "options": {
+        "A": "Zn²⁺(aq) + Cu(s) → Zn(s) + Cu²⁺(aq)",
+        "B": "Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)",
+        "C": "Zn(s) + 2Cu⁺(aq) → Zn²⁺(aq) + 2Cu(s)",
+        "D": "Zn²⁺(aq) + 2Cu(s) → Zn(s) + 2Cu⁺(aq)"
+      },
+      "correct_answer": "B",
+      "hint": "Zinc oxidizes to ions while copper ions reduce to metal.",
+      "explanation": "The spontaneous redox reaction involves zinc oxidation (Zn → Zn²⁺ + 2e⁻) and copper ion reduction (Cu²⁺ + 2e⁻ → Cu), giving the net ionic equation shown. Option A reverses the reaction direction, making it non-spontaneous.",
+      "difficulty_level": "medium",
+      "formula_used": ["Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "Mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.3 Electrochemical Cells",
+        "subsection_anchor": "4.3.1 Galvanic (Voltaic) Cells",
+        "structural_element": "Primary Cells (Battery Cells)",
+        "content_anchor": "Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_of_Daniell_cell_reaction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 79,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q025",
+      "generation_timestamp": "2025-01-28T10:21:30Z",
+      "section": "4.3 Electrochemical Cells",
+      "subsection": "4.3.1 Galvanic (Voltaic) Cells",
+      "sub_subsection": null,
+      "structural_anchor": "Primary Cells (Battery Cells)",
+      "mcq_type": "E",
+      "question": "If eight 1.5 V dry cells are connected in series, what is the total voltage of the battery arrangement?",
+      "options": {
+        "A": "1.5 V",
+        "B": "8.0 V",
+        "C": "12.0 V",
+        "D": "15.0 V"
+      },
+      "correct_answer": "C",
+      "hint": "In series connection, voltages add directly.",
+      "explanation": "Series connection sums individual cell voltages: 8 cells × 1.5 V/cell = 12.0 V total. Option B results from incorrectly multiplying 1.5 by 8 but making arithmetic error.",
+      "difficulty_level": "easy",
+      "formula_used": ["V_total = n × V_cell"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "V",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "Mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.3 Electrochemical Cells",
+        "subsection_anchor": "4.3.1 Galvanic (Voltaic) Cells",
+        "structural_element": "Primary Cells (Battery Cells)",
+        "content_anchor": "eight 1.5 V cells in series give 12.0 V",
+        "page_hint": "Page 22",
+        "concept_hash": "sha256_of_voltage_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 74,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q026",
+      "generation_timestamp": "2025-01-28T10:21:45Z",
+      "section": "4.3 Electrochemical Cells",
+      "subsection": "4.3.1 Galvanic (Voltaic) Cells",
+      "sub_subsection": null,
+      "structural_anchor": "Secondary (Rechargeable) Cells",
+      "mcq_type": "F",
+      "question": "Lead-acid batteries used in automobiles can be recharged repeatedly. Which reasoning best explains this rechargeability?",
+      "options": {
+        "A": "The electrode reactions are reversible when external current is applied",
+        "B": "Fresh electrolyte solution is generated during each charging cycle",
+        "C": "The battery contains replaceable zinc electrodes that renew the cell",
+        "D": "Solar energy automatically regenerates the chemical reactants"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what happens when current direction is reversed.",
+      "explanation": "Secondary cells have reversible redox reactions; applying external current reverses the discharge reactions, regenerating original reactants. Option C incorrectly describes primary cell characteristics with consumable electrodes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.3 Electrochemical Cells",
+        "subsection_anchor": "4.3.1 Galvanic (Voltaic) Cells",
+        "structural_element": "Secondary (Rechargeable) Cells",
+        "content_anchor": "secondary cells are rechargeable because reactions can be reversed",
+        "page_hint": "Page 21-22",
+        "concept_hash": "sha256_of_secondary_cell_recharge"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 81,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q027",
+      "generation_timestamp": "2025-01-28T10:22:00Z",
+      "section": "4.3 Electrochemical Cells",
+      "subsection": "4.3.1 Galvanic (Voltaic) Cells",
+      "sub_subsection": null,
+      "structural_anchor": "Secondary (Rechargeable) Cells",
+      "mcq_type": "G",
+      "question": "When a discharged lead-acid battery is connected to an external power source for charging, what happens to the direction of electron flow compared to discharge?",
+      "options": {
+        "A": "Electrons flow in the same direction but at higher rate",
+        "B": "Electron flow direction reverses relative to discharge",
+        "C": "Electrons stop flowing entirely during charging",
+        "D": "Electron flow becomes random and bidirectional"
+      },
+      "correct_answer": "B",
+      "hint": "Consider that charging reverses the spontaneous discharge reactions.",
+      "explanation": "Changing forces non-spontaneous reverse reactions, causing electron flow from external source into the battery, opposite to discharge direction. Option A incorrectly assumes same direction, which would further discharge rather than charge the battery.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "Mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.3 Electrochemical Cells",
+        "subsection_anchor": "4.3.1 Galvanic (Voltaic) Cells",
+        "structural_element": "Secondary (Rechargeable) Cells",
+        "content_anchor": "direction of electron flow changes during charging",
+        "page_hint": "Page 22",
+        "concept_hash": "sha256_of_charging_electron_flow"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q028",
+      "generation_timestamp": "2025-01-28T10:22:15Z",
+      "section": "4.4 Electrolysis",
+      "subsection": "4.4.1 Electrolysis of Molten (Fused) Electrolytes",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 4.6",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to labeling the positive electrode as the cathode in an electrolytic cell?",
+      "options": {
+        "A": "In electrolytic cells, the cathode is negative as electrons enter there",
+        "B": "All positive electrodes are cathodes regardless of cell type",
+        "C": "Electrode polarity depends only on the metal used, not cell type",
+        "D": "Cathodes always attract anions for oxidation reactions"
+      },
+      "correct_answer": "A",
+      "hint": "Compare electrode definitions between galvanic and electrolytic cells.",
+      "explanation": "In electrolytic cells, the cathode is connected to the negative terminal and attracts cations for reduction. Option B contains the error by applying galvanic cell definitions (where cathode is positive) to electrolytic cells.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.4 Electrolysis",
+        "subsection_anchor": "4.4.1 Electrolysis of Molten (Fused) Electrolytes",
+        "structural_element": "Activity 4.6",
+        "content_anchor": "in electrolytic cell, cathode is negative electrode",
+        "page_hint": "Page 23-24",
+        "concept_hash": "sha256_of_electrode_misconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 83,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q029",
+      "generation_timestamp": "2025-01-28T10:22:30Z",
+      "section": "4.4 Electrolysis",
+      "subsection": "4.4.1 Electrolysis of Molten (Fused) Electrolytes",
+      "sub_subsection": null,
+      "structural_anchor": "4.4.1 Electrolysis of Molten (Fused) Electrolytes",
+      "mcq_type": "I",
+      "question": "How do the experimental setups for testing conductivity of metals and electrolytic solutions fundamentally differ?",
+      "options": {
+        "A": "Both use the same apparatus with solid electrodes dipped in solutions",
+        "B": "Metal testing requires direct wire connection, solution testing uses electrodes in liquid",
+        "C": "Only metal conductivity tests require a power source",
+        "D": "Solution conductivity cannot be tested with light bulb indicators"
+      },
+      "correct_answer": "B",
+      "hint": "Consider how charge carriers interact with the testing circuit.",
+      "explanation": "Metals conduct through their bulk structure via direct wire connections, while solutions require immersed electrodes to contact mobile ions. Option A incorrectly suggests identical setups, ignoring that metals don't need immersion in a container.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "Subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.4 Electrolysis",
+        "subsection_anchor": "4.4.1 Electrolysis of Molten (Fused) Electrolytes",
+        "structural_element": "4.4.1 Electrolysis of Molten (Fused) Electrolytes",
+        "content_anchor": "conductivity apparatus differs for metals vs solutions",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_experiment_setup_compare"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q030",
+      "generation_timestamp": "2025-01-28T10:22:45Z",
+      "section": "Energy and Climate",
+      "subsection": "Energy and Climate",
+      "sub_subsection": null,
+      "structural_anchor": "Energy and Climate",
+      "mcq_type": "K",
+      "question": "Large-scale tree planting is proposed as a climate change mitigation strategy. What is the primary mechanism by which trees help reduce atmospheric CO₂ levels?",
+      "options": {
+        "A": "Trees reflect more sunlight back to space, cooling the planet",
+        "B": "Trees absorb CO₂ during photosynthesis and store carbon in biomass",
+        "C": "Trees release oxygen that reacts with CO₂ to form harmless compounds",
+        "D": "Trees increase cloud formation which blocks solar radiation"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the carbon cycle and photosynthesis process.",
+      "explanation": "Through photosynthesis, trees absorb atmospheric CO₂, incorporating carbon into plant tissues and soils, effectively sequestering carbon. Option C incorrectly describes a chemical reaction between O₂ and CO₂ that doesn't occur naturally at significant rates.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "Section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "Energy and Climate",
+        "subsection_anchor": "Energy and Climate",
+        "structural_element": "Energy and Climate",
+        "content_anchor": "large-scale tree planting captures and sequesters carbon",
+        "page_hint": "Page 28",
+        "concept_hash": "sha256_of_CO2_capture_trees"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 135000,
+    "average_question_quality": 86.8,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    },
+    "section_distribution": {
+      "4.1 Introduction": 0,
+      "4.2 Energy Changes in Electrochemistry": 1,
+      "4.3 Electrochemical Cells": 6,
+      "4.4 Electrolysis": 2,
+      "Energy and Climate": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

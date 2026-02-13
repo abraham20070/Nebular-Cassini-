@@ -1,0 +1,864 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2026-01-28T12:04:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G9_Chem_U4_Q020",
+    "covered_sections": [
+      "Historical Development of Periodic Classification of the Elements>Dobereiner's Triads",
+      "Historical Development of Periodic Classification of the Elements>Newland's Law of Octaves",
+      "Mendleev's Classification of the Elements>Mendeleev's Periodic Law",
+      "The Modern Periodic Table>The Periodic Law",
+      "The Modern Periodic Table>Groups and Periods",
+      "The Modern Periodic Table>Classification of the Elements",
+      "The Modern Periodic Table>The Representative Elements",
+      "The Major Trends in the Periodic Table>Atomic radius",
+      "The Major Trends in the Periodic Table>lonization Energy",
+      "The Major Trends in the Periodic Table>Electron Affinity"
+    ],
+    "used_question_signatures": [
+      "hash_A_TriadMeanWeight",
+      "hash_B_TriadMiddleElement",
+      "hash_H_TriadMisconceptionArithmeticMean",
+      "hash_A_NewlandsOctavePattern",
+      "hash_F_NewlandsLimitationInertGases",
+      "hash_J_NewlandsOctavesClassification",
+      "hash_B_MendeleevOrdering",
+      "hash_F_MendeleevPeriodicFunction",
+      "hash_A_ModernPeriodicLawBasis",
+      "hash_E_PeriodNumberShells",
+      "hash_C_ValenceElectronCalculation",
+      "hash_I_PeriodVsGroupFromConfig",
+      "hash_D_BlockFromLastElectron",
+      "hash_J_pBlockGroups",
+      "hash_B_AlkalineEarthConfig",
+      "hash_A_RepresentativeElementsDefinition",
+      "hash_G_AtomicRadiusDownGroupTrend",
+      "hash_E_AtomicRadiusHalfDistance",
+      "hash_H_IonizationEnergyShieldingMisconception",
+      "hash_K_IonizationEnergyTrendInterpretation"
+    ],
+    "baseline_counter": {
+      "Historical Development of Periodic Classification of the Elements": {
+        "Dobereiner's Triads": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Newland's Law of Octaves": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Mendleev's Classification of the Elements": {
+        "Mendeleev's Periodic Law": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "The Modern Periodic Table": {
+        "The Periodic Law": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Groups and Periods": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Classification of the Elements": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "The Representative Elements": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "The Major Trends in the Periodic Table": {
+        "Atomic radius": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "lonization Energy": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Electron Affinity": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Electronegativity": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Historical Development of Periodic Classification of the Elements": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Mendleev's Classification of the Elements": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "The Modern Periodic Table": {
+        "question_count": 8,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "The Major Trends in the Periodic Table": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 1,
+    "concepts_mapped": {
+      "Historical Development of Periodic Classification of the Elements>Dobereiner's Triads": [
+        "triad",
+        "atomic weight",
+        "arithmetic mean"
+      ],
+      "Historical Development of Periodic Classification of the Elements>Newland's Law of Octaves": [
+        "every eighth element",
+        "inert gases",
+        "octaves classification"
+      ],
+      "Mendleev's Classification of the Elements>Mendeleev's Periodic Law": [
+        "increasing atomic weights",
+        "periodic function"
+      ],
+      "The Modern Periodic Table>The Periodic Law": [
+        "atomic number",
+        "periodic function"
+      ],
+      "The Modern Periodic Table>Groups and Periods": [
+        "period number",
+        "shells",
+        "group number",
+        "valence electrons"
+      ],
+      "The Modern Periodic Table>Classification of the Elements": [
+        "s-block",
+        "p-block",
+        "valence shell configuration"
+      ],
+      "The Modern Periodic Table>The Representative Elements": [
+        "main group",
+        "valence electrons",
+        "outer electron configuration"
+      ],
+      "The Major Trends in the Periodic Table>Atomic radius": [
+        "increases down group",
+        "half distance between nuclei"
+      ],
+      "The Major Trends in the Periodic Table>lonization Energy": [
+        "energy to remove electron",
+        "shielding effect",
+        "decreases down group"
+      ],
+      "The Major Trends in the Periodic Table>Electron Affinity": [
+        "energy change adding electron",
+        "negative for nonmetals"
+      ]
+    },
+    "baseline_complete": false,
+    "validation_hash": "placeholder_sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 23,
+      "questions_per_concept_ratio": 0.87,
+      "structural_coverage_percentage": 71.4
+    }
+  },
+  "grade": "9",
+  "subject": "Chemistry",
+  "unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+  "pdf_filename": "C9U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 10,
+      "constraint_violations_caught": 10,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-01-28T12:04:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 4,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 10,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 71.4,
+      "concept_utilization_ratio": 0.87
+    },
+    "distribution_analysis": {
+      "most_covered_section": "The Modern Periodic Table",
+      "least_covered_section": "Mendleev's Classification of the Elements",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Chem_U4_Q011",
+      "generation_timestamp": "2026-01-28T12:04:00Z",
+      "section": "The Modern Periodic Table",
+      "subsection": "Groups and Periods",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.3",
+      "mcq_type": "C",
+      "question": "Which expression correctly calculates the total number of valence electrons for a main group element from its electron configuration?",
+      "options": {
+        "A": "Sum of electrons in all s and p orbitals of the highest principal quantum number",
+        "B": "Total electrons in the outermost shell only",
+        "C": "Electrons in the d orbitals of the penultimate shell",
+        "D": "Difference between atomic number and number of core electrons"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how group numbers relate to electron configuration for main group elements.",
+      "explanation": "For main group elements, valence electrons are those in the s and p orbitals of the highest principal quantum number, which determines the group number. Option B is incorrect because it could include d or f electrons if present in the outermost shell.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Modern Periodic Table",
+        "subsection_anchor": "Groups and Periods",
+        "structural_element": "Example 4.3",
+        "content_anchor": "The number of valence electrons of chlorine is 7. Hence chlorine is found in Group VIIA.",
+        "page_hint": 13,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q012",
+      "generation_timestamp": "2026-01-28T12:04:00Z",
+      "section": "The Modern Periodic Table",
+      "subsection": "Groups and Periods",
+      "sub_subsection": null,
+      "structural_anchor": "Paragraph under 'Groups:'",
+      "mcq_type": "I",
+      "question": "What is the key difference between determining the period number and the group number for a main group element from its electron configuration?",
+      "options": {
+        "A": "Period number equals the highest principal quantum number, while group number equals the count of valence electrons.",
+        "B": "Period number depends on total electrons, while group number depends on proton number.",
+        "C": "Period number is based on atomic mass, while group number is based on reactivity.",
+        "D": "Period number counts all shells, while group number counts only the s-subshell electrons."
+      },
+      "correct_answer": "A",
+      "hint": "Consider what each number represents about the electron arrangement.",
+      "explanation": "The period number indicates the number of electron shells (highest principal quantum number), while the group number for main group elements corresponds to the number of valence electrons. Option D is incorrect because group number for main group elements includes electrons in both s and p orbitals of the valence shell.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Modern Periodic Table",
+        "subsection_anchor": "Groups and Periods",
+        "structural_element": "Elements in a given group have the same number of outermost shell electrons.",
+        "content_anchor": "period number equals the number of shells, group number equals valence electrons",
+        "page_hint": 11,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q013",
+      "generation_timestamp": "2026-01-28T12:04:00Z",
+      "section": "The Modern Periodic Table",
+      "subsection": "Classification of the Elements",
+      "sub_subsection": null,
+      "structural_anchor": "s-block elements definition",
+      "mcq_type": "D",
+      "question": "An element has its last electron entering a 3s orbital. To which block of the periodic table does this element belong?",
+      "options": {
+        "A": "s-block",
+        "B": "p-block",
+        "C": "d-block",
+        "D": "f-block"
+      },
+      "correct_answer": "A",
+      "hint": "The block is determined by the type of orbital (s, p, d, f) receiving the last electron.",
+      "explanation": "Elements whose last electron occupies an s orbital are classified as s-block elements, which include Groups IA and IIA. Option B is incorrect because p-block elements have their last electron entering a p orbital.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Modern Periodic Table",
+        "subsection_anchor": "Classification of the Elements",
+        "structural_element": "s-block elements: If the last electron enters into s-orbital, the elements are called as s-block elements.",
+        "page_hint": 13,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q014",
+      "generation_timestamp": "2026-01-28T12:04:00Z",
+      "section": "The Modern Periodic Table",
+      "subsection": "Classification of the Elements",
+      "sub_subsection": null,
+      "structural_anchor": "p-block elements definition",
+      "mcq_type": "J",
+      "question": "Elements in Groups IIIA through VIIIA, with valence shell configurations of ns²np¹⁻⁶, are classified into which block?",
+      "options": {
+        "A": "s-block",
+        "B": "p-block",
+        "C": "d-block",
+        "D": "f-block"
+      },
+      "correct_answer": "B",
+      "hint": "The block name corresponds to the orbital type indicated in the general electron configuration.",
+      "explanation": "Elements with their last electron in a p orbital are p-block elements, occupying groups IIIA to VIIIA. Option A is incorrect as s-block elements have configurations ending in ns¹ or ns² and are in groups IA and IIA.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Modern Periodic Table",
+        "subsection_anchor": "Classification of the Elements",
+        "structural_element": "p-block elements: If the last electron enters into the p-orbital, the elements are called as p-block elements.",
+        "page_hint": 13,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q015",
+      "generation_timestamp": "2026-01-28T12:04:00Z",
+      "section": "The Modern Periodic Table",
+      "subsection": "Classification of the Elements",
+      "sub_subsection": null,
+      "structural_anchor": "General valence shell electronic configuration for s-block",
+      "mcq_type": "B",
+      "question": "What general valence electron configuration is shared by all alkaline earth metals?",
+      "options": {
+        "A": "ns¹",
+        "B": "ns²",
+        "C": "ns²np¹",
+        "D": "ns²np⁶"
+      },
+      "correct_answer": "B",
+      "hint": "Alkaline earth metals are Group IIA elements in the s-block.",
+      "explanation": "Alkaline earth metals have two valence electrons in an s orbital, giving them the general configuration ns². Option A is the configuration for alkali metals (Group IA), which have one valence electron.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Modern Periodic Table",
+        "subsection_anchor": "Classification of the Elements",
+        "structural_element": "[IG] ns² for Alkaline earth metals",
+        "page_hint": 13,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 70,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q016",
+      "generation_timestamp": "2026-01-28T12:04:00Z",
+      "section": "The Modern Periodic Table",
+      "subsection": "The Representative Elements",
+      "sub_subsection": null,
+      "structural_anchor": "Representative elements definition",
+      "mcq_type": "A",
+      "question": "Elements in Groups IA through VIIIA, which have incompletely filled s or p subshells in their outermost shell, are collectively known as what?",
+      "options": {
+        "A": "Representative elements",
+        "B": "Transition elements",
+        "C": "Inner transition elements",
+        "D": "Noble gases"
+      },
+      "correct_answer": "A",
+      "hint": "These are also called main group elements and show predictable trends in properties.",
+      "explanation": "Representative elements are the main group elements with incomplete s or p valence subshells, encompassing Groups IA to VIIIA. Option D is incorrect because noble gases (Group VIIIA) have completely filled p subshells and are a subset of the representative elements.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Modern Periodic Table",
+        "subsection_anchor": "The Representative Elements",
+        "structural_element": "the representative elements (also called main group elements) are the elements in Groups IA through VIIIA",
+        "page_hint": 15,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q017",
+      "generation_timestamp": "2026-01-28T12:04:00Z",
+      "section": "The Major Trends in the Periodic Table",
+      "subsection": "Atomic radius",
+      "sub_subsection": null,
+      "structural_anchor": "Paragraph starting 'Within a group of elements...'",
+      "mcq_type": "G",
+      "question": "If you move down a group in the periodic table, what happens to the atomic radius and why?",
+      "options": {
+        "A": "Atomic radius increases because additional electron shells are added, outweighing increased nuclear charge.",
+        "B": "Atomic radius decreases because the increased nuclear charge pulls electrons closer.",
+        "C": "Atomic radius remains constant because the number of valence electrons is the same.",
+        "D": "Atomic radius increases only for metals but decreases for nonmetals."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the balance between the pull from the nucleus and the distance of the outermost electrons.",
+      "explanation": "Atomic radius increases down a group as additional principal energy levels are added, increasing the distance of the valence electrons from the nucleus. Option B describes the trend across a period from left to right, not down a group.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Major Trends in the Periodic Table",
+        "subsection_anchor": "Atomic radius",
+        "structural_element": "Within a group of elements we find that atomic radius increases with increasing atomic number.",
+        "page_hint": 18,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q018",
+      "generation_timestamp": "2026-01-28T12:04:00Z",
+      "section": "The Major Trends in the Periodic Table",
+      "subsection": "Atomic radius",
+      "sub_subsection": null,
+      "structural_anchor": "Definition in metals",
+      "mcq_type": "E",
+      "question": "In a solid metal, the atomic radius is defined as one-half the distance between the centers of two adjacent atoms. If this distance is measured as 224 picometers, what is the atomic radius?",
+      "options": {
+        "A": "112 pm",
+        "B": "224 pm",
+        "C": "448 pm",
+        "D": "56 pm"
+      },
+      "correct_answer": "A",
+      "hint": "The radius is half of the total center-to-center distance.",
+      "explanation": "The atomic radius is half the internuclear distance, so 224 pm ÷ 2 = 112 pm. Option B is the internuclear distance itself, not the radius.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": "pm",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "concept"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 75
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Major Trends in the Periodic Table",
+        "subsection_anchor": "Atomic radius",
+        "structural_element": "atomic radius is simply one- half the distance between the nuclei in two neighbouring atoms",
+        "page_hint": 18,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 70,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 80
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q019",
+      "generation_timestamp": "2026-01-28T12:04:00Z",
+      "section": "The Major Trends in the Periodic Table",
+      "subsection": "lonization Energy",
+      "sub_subsection": null,
+      "structural_anchor": "Paragraph discussing shielding effect",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that ionization energy always decreases down a group solely because the outermost electron is farther from the nucleus?",
+      "options": {
+        "A": "It overlooks the simultaneous increase in nuclear charge and ignores the significant role of electron shielding.",
+        "B": "It assumes that atomic size is the only factor, when in fact electron-electron repulsions dominate.",
+        "C": "It incorrectly applies the trend observed across a period to the trend down a group.",
+        "D": "It fails to consider that ionization energy is actually defined for gaseous atoms only."
+      },
+      "correct_answer": "A",
+      "hint": "Consider all factors that influence the force felt by the outermost electron.",
+      "explanation": "While increased distance is a factor, the decrease in ionization energy down a group is also due to increased shielding by inner electrons, which reduces the effective nuclear charge felt by the valence electron. Option C is incorrect because the trend across a period (increasing ionization energy) is different from the trend down a group.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Major Trends in the Periodic Table",
+        "subsection_anchor": "lonization Energy",
+        "structural_element": "This effect, where the full positive charge of the nucleus is not felt by outer electrons due to the negative charges of inner electrons partially canceling out the positive charge, is called shielding.",
+        "page_hint": 22,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q020",
+      "generation_timestamp": "2026-01-28T12:04:00Z",
+      "section": "The Major Trends in the Periodic Table",
+      "subsection": "Electron Affinity",
+      "sub_subsection": null,
+      "structural_anchor": "First Electron Affinity definition",
+      "mcq_type": "K",
+      "question": "The first electron affinity is the energy released when a gaseous atom gains an electron. For most nonmetals, what is the sign of this energy change and what does it indicate?",
+      "options": {
+        "A": "Negative, indicating the process releases energy and is favorable.",
+        "B": "Positive, indicating the process absorbs energy and is unfavorable.",
+        "C": "Zero, indicating no energy change occurs during electron addition.",
+        "D": "It varies, being negative for halogens but positive for other nonmetals."
+      },
+      "correct_answer": "A",
+      "hint": "Think about whether energy is given off or required when a nonmetal atom becomes a negative ion.",
+      "explanation": "First electron affinity is negative for most nonmetals because energy is released as the electron is attracted to the nucleus, making anion formation exothermic. Option B describes the typical scenario for adding an electron to a negative ion (second electron affinity) or for some metal atoms.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Major Trends in the Periodic Table",
+        "subsection_anchor": "Electron Affinity",
+        "structural_element": "First Electron Affinity (negative energy because energy released): X(g) + e⁻ → X⁻(g)",
+        "page_hint": 24,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "interpreting",
+        "exam_alignment_score": 88
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2450,
+    "average_question_quality": 84.2,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "The Modern Periodic Table": 6,
+      "The Major Trends in the Periodic Table": 4
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

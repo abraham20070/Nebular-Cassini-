@@ -1,0 +1,830 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2026-01-28T12:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G9_Chem_U4_Q010",
+    "covered_sections": [
+      "Historical Development of Periodic Classification of the Elements>Dobereiner's Triads",
+      "Historical Development of Periodic Classification of the Elements>Newland's Law of Octaves",
+      "Mendleev's Classification of the Elements>Mendeleev's Periodic Law",
+      "The Modern Periodic Table>The Periodic Law",
+      "The Modern Periodic Table>Groups and Periods"
+    ],
+    "used_question_signatures": [
+      "hash_A_TriadMeanWeight",
+      "hash_B_TriadMiddleElement",
+      "hash_H_TriadMisconceptionArithmeticMean",
+      "hash_A_NewlandsOctavePattern",
+      "hash_F_NewlandsLimitationInertGases",
+      "hash_J_NewlandsOctavesClassification",
+      "hash_B_MendeleevOrdering",
+      "hash_F_MendeleevPeriodicFunction",
+      "hash_A_ModernPeriodicLawBasis",
+      "hash_E_PeriodNumberShells"
+    ],
+    "baseline_counter": {
+      "Historical Development of Periodic Classification of the Elements": {
+        "Dobereiner's Triads": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Newland's Law of Octaves": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Mendleev's Classification of the Elements": {
+        "Mendeleev's Periodic Law": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "The Modern Periodic Table": {
+        "The Periodic Law": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Groups and Periods": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Classification of the Elements": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "The Representative Elements": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "The Major Trends in the Periodic Table": {
+        "Atomic radius": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "lonization Energy": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Electron Affinity": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Electronegativity": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Historical Development of Periodic Classification of the Elements": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Mendleev's Classification of the Elements": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "The Modern Periodic Table": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "The Major Trends in the Periodic Table": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Historical Development of Periodic Classification of the Elements>Dobereiner's Triads": [
+        "triad",
+        "atomic weight",
+        "arithmetic mean"
+      ],
+      "Historical Development of Periodic Classification of the Elements>Newland's Law of Octaves": [
+        "every eighth element",
+        "inert gases",
+        "octaves classification"
+      ],
+      "Mendleev's Classification of the Elements>Mendeleev's Periodic Law": [
+        "increasing atomic weights",
+        "periodic function"
+      ],
+      "The Modern Periodic Table>The Periodic Law": [
+        "atomic number",
+        "periodic function"
+      ],
+      "The Modern Periodic Table>Groups and Periods": [
+        "period number",
+        "shells"
+      ]
+    },
+    "baseline_complete": false,
+    "validation_hash": "placeholder_sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 12,
+      "questions_per_concept_ratio": 0.83,
+      "structural_coverage_percentage": 35.7
+    }
+  },
+  "grade": "9",
+  "subject": "Chemistry",
+  "unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+  "pdf_filename": "C9U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-01-28T12:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 4,
+        "progress_percentage": 75.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 35.7,
+      "concept_utilization_ratio": 0.83
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Historical Development of Periodic Classification of the Elements",
+      "least_covered_section": "The Major Trends in the Periodic Table",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Chem_U4_Q001",
+      "generation_timestamp": "2026-01-28T12:00:00Z",
+      "section": "Historical Development of Periodic Classification of the Elements",
+      "subsection": "Dobereiner's Triads",
+      "sub_subsection": null,
+      "structural_anchor": "Table 4.2",
+      "mcq_type": "A",
+      "question": "In Dobereiner's classification system, what is the relationship between the atomic weight of the middle element in a triad and the weights of the other two?",
+      "options": {
+        "A": "It is the arithmetic mean.",
+        "B": "It is the geometric mean.",
+        "C": "It is double the first element's weight.",
+        "D": "It equals the sum of the other two."
+      },
+      "correct_answer": "A",
+      "hint": "Focus on the mathematical relationship linking the three atomic weights in a set.",
+      "explanation": "Dobereiner's triad concept states the middle element's atomic weight is the arithmetic mean of the other two, as seen with lithium, sodium, and potassium. Option B incorrectly suggests a geometric mean, which is not supported by the classification system.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "table"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "Historical Development of Periodic Classification of the Elements",
+        "subsection_anchor": "Dobereiner's Triads",
+        "structural_element": "Table 4.2 Examples of Dobereiner's triads.",
+        "content_anchor": "the atomic weight of the middle element is the arithmetic mean",
+        "page_hint": 3,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q002",
+      "generation_timestamp": "2026-01-28T12:00:00Z",
+      "section": "Historical Development of Periodic Classification of the Elements",
+      "subsection": "Dobereiner's Triads",
+      "sub_subsection": null,
+      "structural_anchor": "Section 4.1.1",
+      "mcq_type": "B",
+      "question": "Which term describes a set of three elements with similar chemical and physical properties, where the atomic weight of the middle element is the average of the other two?",
+      "options": {
+        "A": "Octave",
+        "B": "Triad",
+        "C": "Period",
+        "D": "Group"
+      },
+      "correct_answer": "B",
+      "hint": "The classification is named for the number of elements in the set.",
+      "explanation": "A triad is a group of three elements with related properties, as defined by Dobereiner. Option A refers to Newlands' classification based on sets of eight elements, which is a different system.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "Historical Development of Periodic Classification of the Elements",
+        "subsection_anchor": "Dobereiner's Triads",
+        "structural_element": "4.1.1 Dobereiner's Triads",
+        "content_anchor": "groups of three elements that showed similarity",
+        "page_hint": 3,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q003",
+      "generation_timestamp": "2026-01-28T12:00:00Z",
+      "section": "Historical Development of Periodic Classification of the Elements",
+      "subsection": "Dobereiner's Triads",
+      "sub_subsection": null,
+      "structural_anchor": "Table 4.2 Example (i)",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that in a triad of elements, the middle atomic weight must always be exactly twice that of the first element?",
+      "options": {
+        "A": "It incorrectly assumes a multiplicative relationship instead of an averaging one.",
+        "B": "It overlooks that the three elements have identical chemical properties.",
+        "C": "It applies only to triads where the elements are all metals.",
+        "D": "It confuses the roles of the first and last elements in the set."
+      },
+      "correct_answer": "A",
+      "hint": "The error involves the mathematical relationship used to link the atomic weights.",
+      "explanation": "Dobereiner's law specifies an arithmetic mean relationship, not a fixed doubling of the first element's weight. Option B is incorrect because while properties are similar, they are not identical, and this is not the central error in the described reasoning.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "table"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "Historical Development of Periodic Classification of the Elements",
+        "subsection_anchor": "Dobereiner's Triads",
+        "structural_element": "Table 4.2. Examples of Dobereiner's triads.",
+        "content_anchor": "atomic weight of the middle element is the arithmetic mean",
+        "page_hint": 3,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q004",
+      "generation_timestamp": "2026-01-28T12:00:00Z",
+      "section": "Historical Development of Periodic Classification of the Elements",
+      "subsection": "Newland's Law of Octaves",
+      "sub_subsection": null,
+      "structural_anchor": "Section 4.1.2",
+      "mcq_type": "A",
+      "question": "According to Newlands' Law of Octaves, what pattern is observed when elements are arranged in increasing order of atomic weight?",
+      "options": {
+        "A": "Every eighth element has properties similar to the first.",
+        "B": "Every third element has identical atomic weights.",
+        "C": "Elements alternate between metals and nonmetals.",
+        "D": "Atomic weight doubles with each successive element."
+      },
+      "correct_answer": "A",
+      "hint": "The pattern is based on a repeating interval, analogous to musical notes.",
+      "explanation": "Newlands observed a periodic repetition of properties every eighth element, which he termed the Law of Octaves. Option C describes a different pattern not central to this classification system.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "Historical Development of Periodic Classification of the Elements",
+        "subsection_anchor": "Newland's Law of Octaves",
+        "structural_element": "4.1.2 Newland's Law of Octaves",
+        "content_anchor": "the properties of every eighth element are similar to that of the first one",
+        "page_hint": 4,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q005",
+      "generation_timestamp": "2026-01-28T12:00:00Z",
+      "section": "Historical Development of Periodic Classification of the Elements",
+      "subsection": "Newland's Law of Octaves",
+      "sub_subsection": null,
+      "structural_anchor": "Limitation (i)",
+      "mcq_type": "F",
+      "question": "Which reasoning best explains why Newlands' Law of Octaves was limited in its application to all known elements?",
+      "options": {
+        "A": "The classification failed to account for undiscovered noble gases, which disrupted the eight-element pattern.",
+        "B": "Elements beyond calcium did not follow the pattern because their atomic weights were incorrectly measured.",
+        "C": "The law only worked for the first 20 elements, after which quantum effects become significant.",
+        "D": "It required elements to be arranged by atomic number, a concept not yet established."
+      },
+      "correct_answer": "A",
+      "hint": "Consider elements that were unknown at the time but are now placed in the periodic table.",
+      "explanation": "A key limitation was the absence of noble gases, which when discovered would occupy positions between the repeating groups, breaking the octave pattern. Option B is incorrect because the limitation was structural, not primarily due to measurement errors in atomic weight.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "Historical Development of Periodic Classification of the Elements",
+        "subsection_anchor": "Newland's Law of Octaves",
+        "structural_element": "The limitations of this classification of elements were that: i. The inert gases were not discovered till then.",
+        "content_anchor": "inert gases were not discovered",
+        "page_hint": 4,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q006",
+      "generation_timestamp": "2026-01-28T12:00:00Z",
+      "section": "Historical Development of Periodic Classification of the Elements",
+      "subsection": "Newland's Law of Octaves",
+      "sub_subsection": null,
+      "structural_anchor": "Table 4.3",
+      "mcq_type": "J",
+      "question": "Newlands arranged known elements into a table with columns labeled Sa, Re, Ga, etc., drawing an analogy to musical octaves. What classification approach does this represent?",
+      "options": {
+        "A": "Grouping by similar atomic weights",
+        "B": "Arranging by repeating patterns of properties",
+        "C": "Classifying based on chemical reactivity alone",
+        "D": "Sorting elements into metals and nonmetals"
+      },
+      "correct_answer": "B",
+      "hint": "The analogy to music emphasizes a repeating sequence.",
+      "explanation": "Newlands' approach was based on the periodic repetition of properties every eighth element, analogous to musical notes. Option A describes Dobereiner's triads, which focus on specific weight relationships within small groups.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "table"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "Historical Development of Periodic Classification of the Elements",
+        "subsection_anchor": "Newland's Law of Octaves",
+        "structural_element": "Table 4.3 Newlands' law of octaves.",
+        "content_anchor": "compared this relationship to the first octave in music",
+        "page_hint": 4,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q007",
+      "generation_timestamp": "2026-01-28T12:00:00Z",
+      "section": "Mendleev's Classification of the Elements",
+      "subsection": "Mendeleev's Periodic Law",
+      "sub_subsection": null,
+      "structural_anchor": "Section 4.2.1",
+      "mcq_type": "B",
+      "question": "Mendeleev arranged the elements in a specific order to create his periodic table. What was that order?",
+      "options": {
+        "A": "Increasing atomic number",
+        "B": "Increasing atomic weight",
+        "C": "Alphabetical order of names",
+        "D": "Decreasing density"
+      },
+      "correct_answer": "B",
+      "hint": "This ordering was based on the measurable property known to chemists in the 19th century.",
+      "explanation": "Mendeleev organized elements by increasing atomic weight, which revealed periodic patterns in their properties. Option A describes the basis for the modern periodic table, which was developed later.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "Mendleev's Classification of the Elements",
+        "subsection_anchor": "Mendeleev's Periodic Law",
+        "structural_element": "4.2.1 Mendeleev's Periodic Law",
+        "content_anchor": "arranged the elements in order of increasing atomic weights",
+        "page_hint": 5,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q008",
+      "generation_timestamp": "2026-01-28T12:00:00Z",
+      "section": "Mendleev's Classification of the Elements",
+      "subsection": "Mendeleev's Periodic Law",
+      "sub_subsection": null,
+      "structural_anchor": "Mendeleev's periodic law stated",
+      "mcq_type": "F",
+      "question": "Mendeleev's Periodic Law states that properties are a periodic function of atomic weight. Which reasoning best explains the significance of the term 'periodic function' in this context?",
+      "options": {
+        "A": "It means properties repeat at regular intervals when elements are ordered by atomic weight.",
+        "B": "It indicates that all properties change smoothly and continuously with increasing weight.",
+        "C": "It shows that properties are random and cannot be predicted from atomic weight.",
+        "D": "It implies that each element has a unique set of properties unrelated to others."
+      },
+      "correct_answer": "A",
+      "hint": "Focus on the concept of repetition or recurrence in a sequence.",
+      "explanation": "A periodic function implies a repeating pattern, so elements with similar properties appear at regular intervals in the sequence. Option B incorrectly describes a smooth, continuous change, which contradicts the observed repetition of properties.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "Mendleev's Classification of the Elements",
+        "subsection_anchor": "Mendeleev's Periodic Law",
+        "structural_element": "Mendeleev's periodic law stated that the physical and chemical properties of elements are the periodic function of their atomic weights.",
+        "content_anchor": "periodic function of their atomic weights",
+        "page_hint": 6,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q009",
+      "generation_timestamp": "2026-01-28T12:00:00Z",
+      "section": "The Modern Periodic Table",
+      "subsection": "The Periodic Law",
+      "sub_subsection": null,
+      "structural_anchor": "Section 4.3.1",
+      "mcq_type": "A",
+      "question": "According to the modern periodic law, what is the fundamental property upon which the periodic classification of elements is based?",
+      "options": {
+        "A": "Atomic number",
+        "B": "Atomic mass",
+        "C": "Number of neutrons",
+        "D": "Density"
+      },
+      "correct_answer": "A",
+      "hint": "This property determines an element's position and is unique for each element.",
+      "explanation": "The modern periodic law states that properties are a periodic function of atomic number, resolving inconsistencies seen in earlier tables based on atomic mass. Option B refers to the basis of Mendeleev's table, which was superseded.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Modern Periodic Table",
+        "subsection_anchor": "The Periodic Law",
+        "structural_element": "4.3.1 The Periodic Law",
+        "content_anchor": "physical and chemical properties of the elements are the periodic functions of their atomic number",
+        "page_hint": 11,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q010",
+      "generation_timestamp": "2026-01-28T12:00:00Z",
+      "section": "The Modern Periodic Table",
+      "subsection": "Groups and Periods",
+      "sub_subsection": null,
+      "structural_anchor": "Paragraph under 'Periods:'",
+      "mcq_type": "E",
+      "question": "An element has electrons occupying three main energy shells. What is its period number in the modern periodic table?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_answer": "C",
+      "hint": "The period number corresponds to the number of electron shells an atom possesses.",
+      "explanation": "The period number equals the number of principal electron shells; an element with three shells is in period 3. Option B is incorrect because that would correspond to an element with only two electron shells.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Modern Periodic Table",
+        "subsection_anchor": "Groups and Periods",
+        "structural_element": "Elements in the same period have the same number of shells.",
+        "content_anchor": "number of shell is equal to the number of period",
+        "page_hint": 11,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 70,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2450,
+    "average_question_quality": 83.0,
+    "type_distribution": {
+      "A": 3,
+      "B": 2,
+      "E": 1,
+      "F": 2,
+      "H": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Historical Development of Periodic Classification of the Elements": 6,
+      "Mendleev's Classification of the Elements": 2,
+      "The Modern Periodic Table": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

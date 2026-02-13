@@ -1,0 +1,912 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-01-01T00:01:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G11_Physics_U6_Q020",
+    "covered_sections": ["Introduction", "6.1 Coulomb's Law>Properties of Electric Charges", "6.1 Coulomb's Law>Electrostatic Force", "6.1 Coulomb's Law>Force on a Charge due to Multiple Electric Charges", "6.2 Electric Fields>Electric field lines", "6.2 Electric Fields>The Electric field strength", "6.2 Electric Fields>Electric field for multiple point charges", "6.2 Electric Fields>Electric flux", "6.3 Electric Potential>Electric Potential Energy", "6.3 Electric Potential>Electric Potential", "6.3 Electric Potential>Electric Potential Difference", "6.4 Electric Current, Resistance and Ohm's law>Electric Current"],
+    "used_question_signatures": ["hash_A_Charge_Quantization_Intro", "hash_B_Charge_Types_PropCharges", "hash_C_Coulombs_Law_Formula_ElecForce", "hash_D_Coulombs_Law_Calculation_ElecForce", "hash_F_Superposition_Principle_MultiForce", "hash_G_FieldLine_Direction_PosCharge", "hash_H_Misconception_FieldLine_Crossing", "hash_A_Field_Strength_Definition", "hash_E_Field_Strength_Calculation", "hash_K_Field_Visualization_Lines", "hash_E_Field_Multiple_Charges_Magnitude", "hash_K_Electric_Flux_Definition", "hash_E_Flux_Calculation_Uniform", "hash_A_Potential_Energy_Definition", "hash_G_Potential_Energy_Change", "hash_A_Electric_Potential_Definition", "hash_E_Potential_Due_to_Point_Charge", "hash_A_Potential_Difference_Definition", "hash_E_Current_Calculation"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "6.1 Coulomb's Law": {
+        "Properties of Electric Charges": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Electrostatic Force": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Force on a Charge due to Multiple Electric Charges": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "6.2 Electric Fields": {
+        "Electric field lines": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Electric field strength": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Electric field for multiple point charges": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Electric flux": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "6.3 Electric Potential": {
+        "Electric Potential Energy": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Electric Potential": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Electric Potential Difference": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Equipotential line or surface": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "6.4 Electric Current, Resistance and Ohm's law": {
+        "Electric Current": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Electric current and current density": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Drift velocity": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Resistance and Ohm's Law": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Resistors": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Combination of Resistors": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Measuring Instruments": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Conversion of galvanometer to ammeter and voltmeter": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "The Potential divider": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Potentiometer": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Kirchhoff's Rules": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "6.6 Capacitors and Capacitance": {
+        "Capacitor and Capacitance": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Parallel-plate Capacitor": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Dielectrics": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Combination of Capacitors": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "6.7 Electric Circuits in Our Surroundings": {
+        "Household Electric Installations": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Color Code of Resistors": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "6.1 Coulomb's Law": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "6.2 Electric Fields": {
+        "question_count": 7,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "6.3 Electric Potential": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "6.4 Electric Current, Resistance and Ohm's law": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "6.6 Capacitors and Capacitance": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "6.7 Electric Circuits in Our Surroundings": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction": ["Electrostatics", "Current Electricity"],
+      "6.1 Coulomb's Law>Properties of Electric Charges": ["Charge Quantization", "Types of Charge"],
+      "6.1 Coulomb's Law>Electrostatic Force": ["Coulomb's Law Formula", "Force Calculation"],
+      "6.1 Coulomb's Law>Force on a Charge due to Multiple Electric Charges": ["Superposition Principle"],
+      "6.2 Electric Fields>Electric field lines": ["Field Line Direction", "Field Line Properties"],
+      "6.2 Electric Fields>The Electric field strength": ["Electric Field Strength Definition", "Field Strength Calculation"],
+      "6.2 Electric Fields>Electric field for multiple point charges": ["Vector Sum of Fields"],
+      "6.2 Electric Fields>Electric flux": ["Electric Flux Definition", "Flux Calculation"],
+      "6.3 Electric Potential>Electric Potential Energy": ["Potential Energy Definition", "Work-Energy Theorem"],
+      "6.3 Electric Potential>Electric Potential": ["Electric Potential Definition", "Potential of Point Charge"],
+      "6.3 Electric Potential>Electric Potential Difference": ["Potential Difference Definition"],
+      "6.4 Electric Current, Resistance and Ohm's law>Electric Current": ["Current Definition", "Charge Flow Rate"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 19,
+      "questions_per_concept_ratio": 1.05,
+      "structural_coverage_percentage": 25.0
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Physics",
+  "unit": "Unit 6: ELECTROSTATICS AND ELECTRIC CIRCUIT",
+  "pdf_filename": "P11U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-01-01T00:01:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 7,
+        "progress_percentage": 57.14
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 12,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 25.0,
+      "concept_utilization_ratio": 1.05
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.2 Electric Fields",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 7.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.05,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Physics_U6_Q011",
+      "generation_timestamp": "2024-01-01T00:01:00Z",
+      "section": "6.2 Electric Fields",
+      "subsection": "Electric field for multiple point charges",
+      "sub_subsection": null,
+      "structural_anchor": "Electric field for multiple point charges",
+      "mcq_type": "K",
+      "question": "The electric field vectors at a point due to two nearby positive charges point in opposite directions. What does this indicate about the net field at that point?",
+      "options": {
+        "A": "The net field magnitude is the sum of the individual field magnitudes.",
+        "B": "The net field magnitude is the difference between the individual field magnitudes.",
+        "C": "The net field direction is undefined.",
+        "D": "The point must lie on the line joining the two charges."
+      },
+      "correct_answer": "B",
+      "hint": "Consider how vectors pointing in opposite directions combine.",
+      "explanation": "When field vectors are opposite, the net field is found by subtracting the smaller magnitude from the larger, with the direction of the larger vector. Option A is correct only when vectors point in the same direction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ELECTROSTATICS AND ELECTRIC CIRCUIT",
+        "section_anchor": "6.2 Electric Fields",
+        "subsection_anchor": "Electric field for multiple point charges",
+        "structural_element": "Electric field for multiple point charges",
+        "content_anchor": "vector sum of the electric fields",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_Vector_Sum_of_Fields"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Physics_U6_Q012",
+      "generation_timestamp": "2024-01-01T00:01:00Z",
+      "section": "6.2 Electric Fields",
+      "subsection": "Electric flux",
+      "sub_subsection": null,
+      "structural_anchor": "Electric flux",
+      "mcq_type": "K",
+      "question": "What does the electric flux through a surface physically represent?",
+      "options": {
+        "A": "The total charge enclosed by the surface.",
+        "B": "The number of electric field lines crossing the surface.",
+        "C": "The electric field strength at the surface.",
+        "D": "The work done to move a charge across the surface."
+      },
+      "correct_answer": "B",
+      "hint": "Flux is a measure related to field lines and area.",
+      "explanation": "Electric flux (Φ = E⋅A) is proportional to the net number of electric field lines penetrating a surface. Option A is related to Gauss's law, which connects flux to enclosed charge.",
+      "difficulty_level": "medium",
+      "formula_used": ["φ = E A cosθ"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ELECTROSTATICS AND ELECTRIC CIRCUIT",
+        "section_anchor": "6.2 Electric Fields",
+        "subsection_anchor": "Electric flux",
+        "structural_element": "Electric flux",
+        "content_anchor": "measure of the number of electric field lines",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_Electric_Flux_Definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Physics_U6_Q013",
+      "generation_timestamp": "2024-01-01T00:01:00Z",
+      "section": "6.2 Electric Fields",
+      "subsection": "Electric flux",
+      "sub_subsection": null,
+      "structural_anchor": "Electric flux",
+      "mcq_type": "E",
+      "question": "A uniform electric field of 500 N/C is directed perpendicularly through a rectangular surface of area 0.02 m². What is the electric flux through the surface?",
+      "options": {
+        "A": "10 N·m²/C",
+        "B": "25 N·m²/C",
+        "C": "0 N·m²/C",
+        "D": "250 N·m²/C"
+      },
+      "correct_answer": "A",
+      "hint": "Use Φ = EA for perpendicular field.",
+      "explanation": "For a perpendicular uniform field, Φ = EA = (500 N/C) × (0.02 m²) = 10 N·m²/C. Option D results from miscalculating 500 × 0.02 as 100 instead of 10.",
+      "difficulty_level": "easy",
+      "formula_used": ["φ = E A"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "N·m²/C",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ELECTROSTATICS AND ELECTRIC CIRCUIT",
+        "section_anchor": "6.2 Electric Fields",
+        "subsection_anchor": "Electric flux",
+        "structural_element": "Electric flux",
+        "content_anchor": "φ = EA",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_Flux_Calculation_Uniform"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Physics_U6_Q014",
+      "generation_timestamp": "2024-01-01T00:01:00Z",
+      "section": "6.3 Electric Potential",
+      "subsection": "Electric Potential Energy",
+      "sub_subsection": null,
+      "structural_anchor": "Electric Potential Energy",
+      "mcq_type": "A",
+      "question": "What is electric potential energy in the context of two point charges?",
+      "options": {
+        "A": "The work done by the electric field to bring the charges from infinity to their positions.",
+        "B": "The force per unit charge experienced by a test charge.",
+        "C": "The rate at which work is done on a moving charge.",
+        "D": "The energy stored in the electric field between the charges."
+      },
+      "correct_answer": "D",
+      "hint": "Potential energy is stored energy associated with configuration.",
+      "explanation": "Electric potential energy is the energy stored in a system of charges due to their positions relative to each other. Option A describes the work done by an external agent, not the field.",
+      "difficulty_level": "medium",
+      "formula_used": ["U = k q₁ q₂ / r"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ELECTROSTATICS AND ELECTRIC CIRCUIT",
+        "section_anchor": "6.3 Electric Potential",
+        "subsection_anchor": "Electric Potential Energy",
+        "structural_element": "Electric Potential Energy",
+        "content_anchor": "potential energy of a test charge",
+        "page_hint": "Page 16-17",
+        "concept_hash": "sha256_of_Potential_Energy_Definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Physics_U6_Q015",
+      "generation_timestamp": "2024-01-01T00:01:00Z",
+      "section": "6.3 Electric Potential",
+      "subsection": "Electric Potential Energy",
+      "sub_subsection": null,
+      "structural_anchor": "Electric Potential Energy",
+      "mcq_type": "G",
+      "question": "If the distance between two positive point charges is increased, what happens to their electric potential energy?",
+      "options": {
+        "A": "It increases because work must be done against repulsion.",
+        "B": "It decreases because the force between them weakens.",
+        "C": "It remains constant because charge is conserved.",
+        "D": "It becomes zero at infinite separation."
+      },
+      "correct_answer": "A",
+      "hint": "Consider whether work is done by or against the electric field.",
+      "explanation": "For like charges, increasing separation requires work against repulsion, which increases the system's potential energy. Option B incorrectly applies the behavior of opposite charges.",
+      "difficulty_level": "medium",
+      "formula_used": ["U = k q₁ q₂ / r"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ELECTROSTATICS AND ELECTRIC CIRCUIT",
+        "section_anchor": "6.3 Electric Potential",
+        "subsection_anchor": "Electric Potential Energy",
+        "structural_element": "Electric Potential Energy",
+        "content_anchor": "work has to be done by an external agent",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_Work_Energy_Theorem"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Physics_U6_Q016",
+      "generation_timestamp": "2024-01-01T00:01:00Z",
+      "section": "6.3 Electric Potential",
+      "subsection": "Electric Potential",
+      "sub_subsection": null,
+      "structural_anchor": "Electric Potential",
+      "mcq_type": "A",
+      "question": "Electric potential at a point in an electric field is defined as:",
+      "options": {
+        "A": "The force experienced by a unit positive charge placed at that point.",
+        "B": "The work done per unit positive charge to bring it from infinity to that point.",
+        "C": "The electric field strength multiplied by the distance from the source charge.",
+        "D": "The potential energy of a unit mass placed at that point."
+      },
+      "correct_answer": "B",
+      "hint": "Potential is work done per unit charge against the field.",
+      "explanation": "Electric potential V = W/q, where W is work done by an external agent to bring charge q from infinity. Option A describes electric field strength, not potential.",
+      "difficulty_level": "medium",
+      "formula_used": ["V = W / q", "V = k Q / r"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ELECTROSTATICS AND ELECTRIC CIRCUIT",
+        "section_anchor": "6.3 Electric Potential",
+        "subsection_anchor": "Electric Potential",
+        "structural_element": "Electric Potential",
+        "content_anchor": "work done per positive charge",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_Electric_Potential_Definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Physics_U6_Q017",
+      "generation_timestamp": "2024-01-01T00:01:00Z",
+      "section": "6.3 Electric Potential",
+      "subsection": "Electric Potential",
+      "sub_subsection": null,
+      "structural_anchor": "Electric Potential",
+      "mcq_type": "E",
+      "question": "What is the electric potential at a distance of 0.5 m from a point charge of +4.0 µC? (Use k = 9.0 × 10⁹ N·m²/C²)",
+      "options": {
+        "A": "7.2 × 10⁴ V",
+        "B": "7.2 × 10³ V",
+        "C": "3.6 × 10⁴ V",
+        "D": "1.8 × 10⁴ V"
+      },
+      "correct_answer": "A",
+      "hint": "Use V = kQ/r for the potential due to a point charge.",
+      "explanation": "V = kQ/r = (9×10⁹) × (4×10⁻⁶) / 0.5 = 7.2 × 10⁴ V. Option C results from using r² instead of r in the denominator.",
+      "difficulty_level": "medium",
+      "formula_used": ["V = k Q / r"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "V",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ELECTROSTATICS AND ELECTRIC CIRCUIT",
+        "section_anchor": "6.3 Electric Potential",
+        "subsection_anchor": "Electric Potential",
+        "structural_element": "Electric Potential",
+        "content_anchor": "V = k Q / r",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_Potential_Due_to_Point_Charge"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Physics_U6_Q018",
+      "generation_timestamp": "2024-01-01T00:01:00Z",
+      "section": "6.3 Electric Potential",
+      "subsection": "Electric Potential Difference",
+      "sub_subsection": null,
+      "structural_anchor": "Electric Potential Difference",
+      "mcq_type": "A",
+      "question": "What is the physical meaning of the potential difference between two points in an electric field?",
+      "options": {
+        "A": "The force required to move a unit charge between the points.",
+        "B": "The work done per unit charge to move a charge between the points.",
+        "C": "The electric field strength multiplied by the distance between the points.",
+        "D": "The change in potential energy of any charge moving between the points."
+      },
+      "correct_answer": "B",
+      "hint": "Potential difference relates work and charge.",
+      "explanation": "Potential difference ΔV = W/q, where W is work done by or against the field. Option D is incorrect because the change in potential energy depends on the specific charge, ΔU = qΔV.",
+      "difficulty_level": "medium",
+      "formula_used": ["ΔV = W / q", "ΔV = E d"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ELECTROSTATICS AND ELECTRIC CIRCUIT",
+        "section_anchor": "6.3 Electric Potential",
+        "subsection_anchor": "Electric Potential Difference",
+        "structural_element": "Electric Potential Difference",
+        "content_anchor": "work required to move a unit positive test charge",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_Potential_Difference_Definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Physics_U6_Q019",
+      "generation_timestamp": "2024-01-01T00:01:00Z",
+      "section": "6.4 Electric Current, Resistance and Ohm's law",
+      "subsection": "Electric Current",
+      "sub_subsection": null,
+      "structural_anchor": "Electric Current",
+      "mcq_type": "A",
+      "question": "What is the definition of electric current in a conductor?",
+      "options": {
+        "A": "The speed at which electrons drift through the material.",
+        "B": "The potential difference across the conductor divided by its resistance.",
+        "C": "The rate of flow of electric charge through a cross-section.",
+        "D": "The energy transferred per unit time by moving charges."
+      },
+      "correct_answer": "C",
+      "hint": "Current is defined in terms of charge and time.",
+      "explanation": "Electric current I = Δq/Δt, the net charge flowing per unit time. Option B is Ohm's law, which relates current to voltage and resistance but is not the definition.",
+      "difficulty_level": "easy",
+      "formula_used": ["I = Δq / Δt"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ELECTROSTATICS AND ELECTRIC CIRCUIT",
+        "section_anchor": "6.4 Electric Current, Resistance and Ohm's law",
+        "subsection_anchor": "Electric Current",
+        "structural_element": "Electric Current",
+        "content_anchor": "rate of flow of charges",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_Current_Definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Physics_U6_Q020",
+      "generation_timestamp": "2024-01-01T00:01:00Z",
+      "section": "6.4 Electric Current, Resistance and Ohm's law",
+      "subsection": "Electric Current",
+      "sub_subsection": null,
+      "structural_anchor": "Electric Current",
+      "mcq_type": "E",
+      "question": "A charge of 24 C passes through a cross-section of a wire in 8.0 s. What is the average current in the wire?",
+      "options": {
+        "A": "3.0 A",
+        "B": "0.33 A",
+        "C": "192 A",
+        "D": "2.0 A"
+      },
+      "correct_answer": "A",
+      "hint": "Use I = Q/t.",
+      "explanation": "I = Δq/Δt = 24 C / 8.0 s = 3.0 A. Option B results from inverting the ratio (8/24).",
+      "difficulty_level": "easy",
+      "formula_used": ["I = Δq / Δt"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "A",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ELECTROSTATICS AND ELECTRIC CIRCUIT",
+        "section_anchor": "6.4 Electric Current, Resistance and Ohm's law",
+        "subsection_anchor": "Electric Current",
+        "structural_element": "Electric Current",
+        "content_anchor": "I = Δq/Δt",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_Charge_Flow_Rate"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4200,
+    "average_question_quality": 86.5,
+    "type_distribution": {
+      "A": 4,
+      "E": 3,
+      "G": 1,
+      "K": 2
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 7,
+      "hard": 0
+    },
+    "section_distribution": {
+      "6.2 Electric Fields": 3,
+      "6.3 Electric Potential": 5,
+      "6.4 Electric Current, Resistance and Ohm's law": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

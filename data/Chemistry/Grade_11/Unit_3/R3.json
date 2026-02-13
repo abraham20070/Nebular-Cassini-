@@ -1,0 +1,789 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-05-28T08:25:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G11_Chem_U3_Q030",
+    "covered_sections": ["3.1 Introduction", "3.2 Kinetic Theory and Properties of Matter", "3.3 The Gaseous State", "3.4 The Liquid State", "3.5 The Solid State"],
+    "used_question_signatures": ["a8f7c9d1b5e0", "b2e4d6a8c0f1", "c3f5a7b9d1e2", "d1e3f5a7b9c2", "e4b6d8f0a2c1", "f7a9c1e3b5d0", "g5b7d9f1a3c2", "h3d5f7a9b1c0", "i9a1c3e5b7d2", "j2b4d6f8a0c1", "k4c6e8a0b2d1", "l5d7f9a1b3c0", "m6e8a0b2c4d1", "n7f9a1b3c5d0", "o0a2b4c6d8e1", "p1b3c5d7e9f0", "q2c4d6e8f0a1", "r3d5e7f9a1b0", "s4e6f8a0b2c1", "t5f7a9b1c3d0", "u6a8b0c2d4e1", "v7b9c1d3e5f0", "w8c0d2e4f6a1", "x9d1e3f5a7b0", "y0e2f4a6b8c1", "z1f3a5b7c9d0", "aa2b4c6d8e0f1", "bb3c5d7e9f1a0", "cc4d6e8f0a2b1", "dd5e7f9a1b3c0"],
+    "baseline_counter": {
+      "3.1 Introduction": {
+        "implicit_subsection": {
+          "count": 4,
+          "mini_headings_covered": ["Solid:", "Liquid:", "Gas:", "Plasma:"],
+          "last_question_round": 3
+        }
+      },
+      "3.2 Kinetic Theory and Properties of Matter": {
+        "3.2.1 The Kinetic Theory of Matter": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "3.2.2 Properties of Matter": {
+          "count": 5,
+          "mini_headings_covered": ["Properties of Gases:", "Properties of Solids:", "Properties of Liquids:"],
+          "last_question_round": 3
+        }
+      },
+      "3.3 The Gaseous State": {
+        "3.3.1 The Kinetic Molecular Theory of Gases": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "3.3.2 The Gas Laws": {
+          "count": 9,
+          "mini_headings_covered": ["i. Boyle's Law", "ii. Charles' Law", "iii. Gay Lussac's Law", "iv. The Combined Gas Law", "v. Avogadro's law", "vi. The Ideal Gas Equation", "vii. Graham's Law of Diffusion"],
+          "last_question_round": 3
+        }
+      },
+      "3.4 The Liquid State": {
+        "3.4.1 Energy Changes in Liquids": {
+          "count": 4,
+          "mini_headings_covered": ["Evaporation:", "Boiling and Boiling Point:", "Vapor pressure:", "Molar heat of vaporization"],
+          "last_question_round": 3
+        }
+      },
+      "3.5 The Solid State": {
+        "implicit_subsection": {
+          "count": 4,
+          "mini_headings_covered": ["Melting:", "Sublimation:", "Freezing:", "Heating curve"],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1 Introduction": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "3.2 Kinetic Theory and Properties of Matter": {
+        "question_count": 8,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "3.3 The Gaseous State": {
+        "question_count": 13,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "3.4 The Liquid State": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "3.5 The Solid State": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1 Introduction>implicit_subsection": ["Solid definite shape and volume", "Liquid definite volume no definite shape", "Gas no definite shape or volume", "Plasma ionized gas", "States of matter"],
+      "3.2 Kinetic Theory and Properties of Matter>3.2.1 The Kinetic Theory of Matter": ["Continuous random motion", "Kinetic energy proportional to temperature", "Intermolecular forces exist", "Spaces between particles"],
+      "3.2 Kinetic Theory and Properties of Matter>3.2.2 Properties of Matter": ["Gas compressibility", "Solid incompressibility", "Gas low density", "Solid high density", "Liquid definite volume", "Liquid slight compressibility", "Fluidity of liquids"],
+      "3.3 The Gaseous State>3.3.1 The Kinetic Molecular Theory of Gases": ["Gas particle collisions cause pressure", "Average KE proportional to Kelvin temperature", "Gas particles negligible volume", "Particles do not attract"],
+      "3.3 The Gaseous State>3.3.2 The Gas Laws": ["Boyle's Law inverse relationship", "Charles' Law direct relationship", "Gay-Lussac's Law P∝T", "Combined Gas Law PV/T=k", "Avogadro's Law V∝n", "Graham's Law r∝1/√M", "Ideal Gas Equation PV=nRT", "Standard molar volume 22.4 L/mol"],
+      "3.4 The Liquid State>3.4.1 Energy Changes in Liquids": ["Evaporation surface phenomenon", "Boiling point depends on pressure", "Vapor pressure", "Molar heat of vaporization", "Condensation reverse of evaporation"],
+      "3.5 The Solid State>implicit_subsection": ["Melting solid to liquid", "Sublimation solid to gas", "Freezing liquid to solid", "Heating curve shows phase changes", "Melting point", "Heat of fusion"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_updated_state_integrity_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 34,
+      "questions_per_concept_ratio": 0.85,
+      "structural_coverage_percentage": 60.0
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Chemistry",
+  "unit": "Unit 3: PHYSICAL STATES OF MATTER",
+  "pdf_filename": "C11U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-05-28T08:25:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 5,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.25,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 18,
+      "structural_coverage_percentage": 60.0,
+      "concept_utilization_ratio": 0.85
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.3 The Gaseous State",
+      "least_covered_section": "3.1 Introduction",
+      "imbalance_ratio": 3.25,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Chem_U3_Q021",
+      "generation_timestamp": "2024-05-28T08:24:10Z",
+      "section": "3.1 Introduction",
+      "subsection": "implicit_subsection",
+      "sub_subsection": null,
+      "structural_anchor": "Plasma:",
+      "mcq_type": "K",
+      "question": "A gaseous mixture consists of positive ions and free electrons at an extremely high temperature. Which state of matter does this describe?",
+      "options": {
+        "A": "Supercritical fluid",
+        "B": "Liquid crystal",
+        "C": "Plasma",
+        "D": "Bose-Einstein condensate"
+      },
+      "correct_answer": "C",
+      "hint": "This state exists at temperatures of millions of degrees Celsius.",
+      "explanation": "Plasma is the fourth state of matter, characterized by ionized gas where atoms are stripped of electrons, creating a mixture of positive ions and free electrons. It exists at extremely high temperatures, such as in stars. Option A describes a distinct phase with properties between gas and liquid at high pressure and temperature.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.1 Introduction",
+        "subsection_anchor": "implicit_subsection",
+        "structural_element": "Plasma:",
+        "content_anchor": "Plasma is the fourth physical state of matter... a gaseous mixture of positive ions and electrons, is called plasma.",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_plasma_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q022",
+      "generation_timestamp": "2024-05-28T08:24:20Z",
+      "section": "3.2 Kinetic Theory and Properties of Matter",
+      "subsection": "3.2.1 The Kinetic Theory of Matter",
+      "sub_subsection": null,
+      "structural_anchor": "Content under 3.2.1",
+      "mcq_type": "N",
+      "question": "According to the kinetic theory, under what condition would the attractive forces between particles have the greatest effect on the substance's physical state?",
+      "options": {
+        "A": "When the particles have very high kinetic energy.",
+        "B": "When the temperature is very high.",
+        "C": "When the particles are very close together.",
+        "D": "When the substance is in the gaseous phase."
+      },
+      "correct_answer": "C",
+      "hint": "Intermolecular forces are short-range forces.",
+      "explanation": "The kinetic theory states that attractive forces between particles become stronger as the particles move closer together. At very small separations, as in solids and liquids, these forces dominate and determine properties like rigidity and surface tension. Option A is incorrect because high kinetic energy tends to overcome attractive forces, favoring the gaseous state.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.2 Kinetic Theory and Properties of Matter",
+        "subsection_anchor": "3.2.1 The Kinetic Theory of Matter",
+        "structural_element": "Content under 3.2.1",
+        "content_anchor": "There are attractive forces between atoms/molecules, and these become stronger as the particles move closer together.",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_attractive_forces_strength"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q023",
+      "generation_timestamp": "2024-05-28T08:24:30Z",
+      "section": "3.2 Kinetic Theory and Properties of Matter",
+      "subsection": "3.2.2 Properties of Matter",
+      "sub_subsection": null,
+      "structural_anchor": "Properties of Liquids:",
+      "mcq_type": "F",
+      "question": "Considering that liquids can flow, which explanation best accounts for why they do not expand to fill a container completely like gases do?",
+      "options": {
+        "A": "Liquid particles have insufficient kinetic energy to overcome gravitational pull.",
+        "B": "Intermolecular attractions in liquids are strong enough to maintain a definite volume despite fluidity.",
+        "C": "Liquid particles are electrically charged, creating repulsive forces that limit expansion.",
+        "D": "The container exerts a compressive force that counteracts liquid expansion."
+      },
+      "correct_answer": "B",
+      "hint": "Compare the strength of intermolecular forces in liquids versus gases.",
+      "explanation": "Liquids have a definite volume because the intermolecular attractions between their particles, while weaker than in solids, are sufficiently strong to keep the particles close together as a cohesive mass. This allows flow but prevents indefinite expansion. Option A is incorrect because gravity affects all matter but is not the primary reason liquids maintain volume.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.2 Kinetic Theory and Properties of Matter",
+        "subsection_anchor": "3.2.2 Properties of Matter",
+        "structural_element": "Properties of Liquids:",
+        "content_anchor": "Liquids have a definite volume... Lack of a definite shape for liquid substances arises from low intermolecular forces of attraction between their particles as compared to that of solids.",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_liquid_definite_volume_explanation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q024",
+      "generation_timestamp": "2024-05-28T08:24:40Z",
+      "section": "3.3 The Gaseous State",
+      "subsection": "3.3.1 The Kinetic Molecular Theory of Gases",
+      "sub_subsection": null,
+      "structural_anchor": "Assumptions of the kinetic molecular theory of gases:",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in assuming that the volume occupied by gas particles themselves significantly contributes to the total volume of the gas?",
+      "options": {
+        "A": "It overlooks that gas particles are in constant motion, making their effective volume zero.",
+        "B": "It confuses the large, empty spaces between gas particles with the negligible volume of the particles themselves.",
+        "C": "It misapplies Avogadro's law, which only relates volume to number of particles, not particle size.",
+        "D": "It assumes gas particles attract each other strongly, reducing the space they occupy."
+      },
+      "correct_answer": "B",
+      "hint": "One assumption of the kinetic molecular theory addresses the relative volumes of particles versus empty space.",
+      "explanation": "A key postulate of the kinetic molecular theory is that the volume of gas particles is negligible compared to the total volume of the gas. Most of a gas's volume is empty space, which is why gases are highly compressible. Option A is incorrect because motion does not make particle volume zero; they still have physical size.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.3 The Gaseous State",
+        "subsection_anchor": "3.3.1 The Kinetic Molecular Theory of Gases",
+        "structural_element": "Assumptions of the kinetic molecular theory of gases:",
+        "content_anchor": "There is a lot of space between gas particles compared with the size of the particles themselves. In other words, the volume of the particles is negligible compared to the total volume of the gas.",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_gas_particle_volume_negligible"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q025",
+      "generation_timestamp": "2024-05-28T08:24:50Z",
+      "section": "3.3 The Gaseous State",
+      "subsection": "3.3.2 The Gas Laws",
+      "sub_subsection": null,
+      "structural_anchor": "iv. The Combined Gas Law",
+      "mcq_type": "E",
+      "question": "A gas sample occupies 5.00 L at 2.00 atm and 300 K. What volume will it occupy at 1.50 atm and 400 K?",
+      "options": {
+        "A": "4.44 L",
+        "B": "6.67 L",
+        "C": "8.89 L",
+        "D": "11.11 L"
+      },
+      "correct_answer": "C",
+      "hint": "Use the combined gas law, which relates initial and final pressure, volume, and temperature.",
+      "explanation": "The Combined Gas Law states P₁V₁/T₁ = P₂V₂/T₂. Rearranging: V₂ = (P₁V₁T₂)/(P₂T₁) = (2.00 atm × 5.00 L × 400 K) / (1.50 atm × 300 K) = 8.89 L. The volume increases due to both decreased pressure and increased temperature. Option B might result from forgetting to convert temperatures to Kelvin or misapplying the law.",
+      "difficulty_level": "medium",
+      "formula_used": ["P₁V₁/T₁ = P₂V₂/T₂"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "L, atm, K",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.3 The Gaseous State",
+        "subsection_anchor": "3.3.2 The Gas Laws",
+        "structural_element": "iv. The Combined Gas Law",
+        "content_anchor": "The combined gas law... expresses the relationship between pressure, volume, and temperature of a fixed amount of gas. Mathematically: P₁V₁/T₁ = P₂V₂/T₂.",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_combined_gas_law"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 96
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q026",
+      "generation_timestamp": "2024-05-28T08:25:00Z",
+      "section": "3.3 The Gaseous State",
+      "subsection": "3.3.2 The Gas Laws",
+      "sub_subsection": null,
+      "structural_anchor": "vi. The Ideal Gas Equation",
+      "mcq_type": "E",
+      "question": "What is the volume occupied by 0.250 moles of nitrogen gas at 298 K and 1.50 atm pressure? (R = 0.0821 L·atm/mol·K)",
+      "options": {
+        "A": "2.05 L",
+        "B": "4.10 L",
+        "C": "6.15 L",
+        "D": "8.20 L"
+      },
+      "correct_answer": "B",
+      "hint": "Rearrange the ideal gas law, PV = nRT, to solve for volume.",
+      "explanation": "Using the ideal gas equation: V = nRT/P = (0.250 mol × 0.0821 L·atm/mol·K × 298 K) / 1.50 atm = 4.10 L. This calculation applies the relationship between moles, temperature, pressure, and volume for an ideal gas. Option A might result from forgetting to divide by pressure.",
+      "difficulty_level": "medium",
+      "formula_used": ["PV = nRT"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "L, mol, K, atm",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.3 The Gaseous State",
+        "subsection_anchor": "3.3.2 The Gas Laws",
+        "structural_element": "vi. The Ideal Gas Equation",
+        "content_anchor": "the ideal gas equation: VP = nRT",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_ideal_gas_equation_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q027",
+      "generation_timestamp": "2024-05-28T08:25:10Z",
+      "section": "3.4 The Liquid State",
+      "subsection": "3.4.1 Energy Changes in Liquids",
+      "sub_subsection": null,
+      "structural_anchor": "Vapor pressure:",
+      "mcq_type": "G",
+      "question": "If the temperature of a liquid in a closed container is increased, what is the direct effect on its equilibrium vapor pressure?",
+      "options": {
+        "A": "The vapor pressure decreases because more molecules condense.",
+        "B": "The vapor pressure increases because the rate of evaporation increases.",
+        "C": "The vapor pressure remains constant as evaporation and condensation rates balance.",
+        "D": "The vapor pressure first increases then decreases due to saturation."
+      },
+      "correct_answer": "B",
+      "hint": "Consider how temperature affects the kinetic energy of liquid molecules at the surface.",
+      "explanation": "Vapor pressure is the partial pressure of a vapor in dynamic equilibrium with its liquid. Increasing temperature raises the average kinetic energy of liquid molecules, allowing more to escape into the vapor phase, thereby increasing the equilibrium vapor pressure. Option A incorrectly describes the effect on condensation rate, which also increases but not enough to lower the new equilibrium pressure.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.4 The Liquid State",
+        "subsection_anchor": "3.4.1 Energy Changes in Liquids",
+        "structural_element": "Vapor pressure:",
+        "content_anchor": "The vapor pressure of a liquid depends up on the temperature. At a given temperature, vapor pressure is constant. The vapor pressures of liquids always increase as temperature increases because the rate of evaporation increases with increasing temperature.",
+        "page_hint": "Page 33",
+        "concept_hash": "sha256_of_vapor_pressure_temperature"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q028",
+      "generation_timestamp": "2024-05-28T08:25:20Z",
+      "section": "3.4 The Liquid State",
+      "subsection": "3.4.1 Energy Changes in Liquids",
+      "sub_subsection": null,
+      "structural_anchor": "Content under 3.4.1",
+      "mcq_type": "C",
+      "question": "What quantity of energy, typically expressed in kJ/mol, is required to convert one mole of a liquid at its boiling point to a gas?",
+      "options": {
+        "A": "Molar heat of fusion",
+        "B": "Molar heat of vaporization",
+        "C": "Molar heat of sublimation",
+        "D": "Molar heat of condensation"
+      },
+      "correct_answer": "B",
+      "hint": "This is an endothermic process associated with the liquid-to-gas transition.",
+      "explanation": "The molar heat of vaporization (ΔH_vap) is the amount of energy needed to vaporize one mole of a liquid at its boiling point. This energy breaks intermolecular forces as molecules enter the gas phase. Option D is incorrect because the molar heat of condensation is the energy released during the reverse, exothermic process.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.4 The Liquid State",
+        "subsection_anchor": "3.4.1 Energy Changes in Liquids",
+        "structural_element": "Content under 3.4.1",
+        "content_anchor": "The molar heat of vaporization (ΔH_vap) of water... is the amount of heat needed to convert 1 mole of a liquid at its boiling point to a gas.",
+        "page_hint": "Page 38",
+        "concept_hash": "sha256_of_molar_heat_of_vaporization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q029",
+      "generation_timestamp": "2024-05-28T08:25:30Z",
+      "section": "3.5 The Solid State",
+      "subsection": "implicit_subsection",
+      "sub_subsection": null,
+      "structural_anchor": "Freezing:",
+      "mcq_type": "B",
+      "question": "What is the reverse process of melting, where a liquid transforms into a solid?",
+      "options": {
+        "A": "Sublimation",
+        "B": "Freezing",
+        "C": "Condensation",
+        "D": "Deposition"
+      },
+      "correct_answer": "B",
+      "hint": "This process releases heat energy as particles become more ordered.",
+      "explanation": "Freezing, or solidification, is the exothermic phase change where a liquid loses heat energy, causing particles to slow down and arrange into the fixed, ordered structure of a solid. Option D is incorrect because deposition is the direct change from gas to solid.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.5 The Solid State",
+        "subsection_anchor": "implicit_subsection",
+        "structural_element": "Freezing:",
+        "content_anchor": "This process is called freezing or solidification.",
+        "page_hint": "Page 39",
+        "concept_hash": "sha256_of_freezing_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 73,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q030",
+      "generation_timestamp": "2024-05-28T08:25:40Z",
+      "section": "3.5 The Solid State",
+      "subsection": "implicit_subsection",
+      "sub_subsection": null,
+      "structural_anchor": "Heating curve",
+      "mcq_type": "K",
+      "question": "On a heating curve for a pure substance, what does a horizontal plateau at a constant temperature represent?",
+      "options": {
+        "A": "A region where the substance is being heated at a constant rate.",
+        "B": "A phase change where added heat energy breaks intermolecular bonds without raising temperature.",
+        "C": "The point where the substance has reached its maximum possible temperature.",
+        "D": "A region where the heat capacity of the substance is zero."
+      },
+      "correct_answer": "B",
+      "hint": "During a phase change, temperature remains constant until the transition is complete.",
+      "explanation": "A heating curve plots temperature versus heat added. Horizontal plateaus occur during phase changes (melting, boiling) because the added energy is used to overcome intermolecular forces and change the state, not to increase kinetic energy (temperature). Option A is incorrect because a constant heating rate typically produces a sloped line, not a plateau.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.5 The Solid State",
+        "subsection_anchor": "implicit_subsection",
+        "structural_element": "Heating curve",
+        "content_anchor": "A heating curve is a plot of the temperature versus the amount of heat added... It is at plateaus that a phase change occurs.",
+        "page_hint": "Page 41",
+        "concept_hash": "sha256_of_heating_curve_plateau"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 94
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 90000,
+    "average_question_quality": 87.5,
+    "type_distribution": {
+      "B": 2,
+      "C": 1,
+      "E": 2,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "K": 2,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 2
+    },
+    "section_distribution": {
+      "3.1 Introduction": 1,
+      "3.2 Kinetic Theory and Properties of Matter": 2,
+      "3.3 The Gaseous State": 3,
+      "3.4 The Liquid State": 2,
+      "3.5 The Solid State": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

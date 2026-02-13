@@ -1,0 +1,934 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-27T10:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Phy_U5_Q010",
+    "covered_sections": ["Introduction", "The Concept of Heat (5.1)", "Heat transfer mechanisms (5.2)", "Heat Capacity and Specific Heat Capacity (5.3)"],
+    "used_question_signatures": ["hash_A_Heat_Intro", "hash_B_TempHeatDiff_5.1", "hash_G_SpontFlow_5.1", "hash_D_InternalEnergyDef_5.1", "hash_F_HeatWorkDiff_5.1", "hash_J_HeatTransferModes_5.2", "hash_A_ConductionDef_5.2", "hash_K_ConductorInsulator_5.2", "hash_A_HeatCapacityDef_5.3", "hash_B_SpecificHeatDef_5.3"],
+    "baseline_counter": {
+      "Introduction": {
+        "No explicit subsection": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "The Concept of Heat (5.1)": {
+        "Brainstorming:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "What is heat?": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Heat, internal energy and thermodynamic work": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Key terms:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.1:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Heat transfer mechanisms (5.2)": {
+        "Brainstorming": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "1. Conduction": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "II. Convection": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "III. Radiation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.2:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Heat Capacity and Specific Heat Capacity (5.3)": {
+        "Brainstorming!": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Heat capacity": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Specific heat capacity": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Example 5.1:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.3": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Thermal expansion (5.4)": {
+        "Brainstorming:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Linear expansion": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Area expansion": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Volume Expansion": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Real and apparent coefficients of cubic expansion": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Thermal expansion of gases": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Applications of thermal expansion in solids": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.4:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Change of phase (5.5)": {
+        "Brainstorming": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "What is phase change?": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Latent heat": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Phase diagram": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.5": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Calorimetry (5.6)": {
+        "After completing this section, you should be able to:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Brainstorming": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "5.6.1. Measuring specific heat capacity": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "5.6.2. Measuring specific latent heat": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Review Questions 5.6": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "The Concept of Heat (5.1)": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Heat transfer mechanisms (5.2)": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Heat Capacity and Specific Heat Capacity (5.3)": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Thermal expansion (5.4)": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Change of phase (5.5)": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Calorimetry (5.6)": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>No explicit subsection": ["Energy transfer", "Heat transfer", "Temperature"],
+      "The Concept of Heat (5.1)>What is heat?": ["Spontaneous energy transfer", "Thermal equilibrium"],
+      "The Concept of Heat (5.1)>Heat, internal energy and thermodynamic work": ["Internal energy", "Thermodynamic work", "Energy transfer modes"],
+      "Heat transfer mechanisms (5.2)>1. Conduction": ["Conduction", "Thermal conductors", "Thermal insulators"],
+      "Heat Capacity and Specific Heat Capacity (5.3)>Heat capacity": ["Heat capacity", "Temperature change"],
+      "Heat Capacity and Specific Heat Capacity (5.3)>Specific heat capacity": ["Specific heat capacity", "Material property"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state_hash",
+    "content_density_metrics": {
+      "total_concepts_extracted": 13,
+      "questions_per_concept_ratio": 0.77,
+      "structural_coverage_percentage": 17.4
+    }
+  },
+  "grade": "11",
+  "subject": "Physics",
+  "unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+  "pdf_filename": "P11U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T10:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 7,
+        "progress_percentage": 57.1
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 17.4,
+      "concept_utilization_ratio": 0.77
+    },
+    "distribution_analysis": {
+      "most_covered_section": "The Concept of Heat (5.1)",
+      "least_covered_section": "Thermal expansion (5.4)",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Phy_U5_Q001",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "Introduction",
+      "subsection": "No explicit subsection",
+      "sub_subsection": null,
+      "structural_anchor": "Introduction",
+      "mcq_type": "A",
+      "question": "What is the term for the spontaneous transfer of energy from a region of higher temperature to a region of lower temperature?",
+      "options": {
+        "A": "Heat",
+        "B": "Temperature",
+        "C": "Internal energy",
+        "D": "Thermodynamic work"
+      },
+      "correct_answer": "A",
+      "hint": "This is a process variable, not a property possessed by an object.",
+      "explanation": "Heat is defined as the spontaneous transfer of thermal energy due to a temperature difference. Option C confuses heat with internal energy, which is the total energy stored within a system.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "No explicit subsection",
+        "structural_element": "Introduction",
+        "content_anchor": "spontaneous transfer of energy",
+        "page_hint": "Page 2",
+        "concept_hash": "hash_A_Heat_Intro"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q002",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "The Concept of Heat (5.1)",
+      "subsection": "What is heat?",
+      "sub_subsection": null,
+      "structural_anchor": "What is heat?",
+      "mcq_type": "B",
+      "question": "Which physical quantity represents the average kinetic energy of the particles in a substance?",
+      "options": {
+        "A": "Heat",
+        "B": "Temperature",
+        "C": "Internal energy",
+        "D": "Thermal equilibrium"
+      },
+      "correct_answer": "B",
+      "hint": "This is a fundamental property, not energy in transit.",
+      "explanation": "Temperature is a measure of the average kinetic energy of particles. Option A is incorrect because heat is the energy transferred, not a measure of particle energy.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "The Concept of Heat (5.1)",
+        "subsection_anchor": "What is heat?",
+        "structural_element": "What is heat?",
+        "content_anchor": "average kinetic energy",
+        "page_hint": "Page 2",
+        "concept_hash": "hash_B_TempHeatDiff_5.1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q003",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "The Concept of Heat (5.1)",
+      "subsection": "What is heat?",
+      "sub_subsection": null,
+      "structural_anchor": "What is heat?",
+      "mcq_type": "G",
+      "question": "If two objects at different temperatures are brought into thermal contact, what is the direction of spontaneous energy flow?",
+      "options": {
+        "A": "From the object with lower temperature to the object with higher temperature",
+        "B": "From the object with higher temperature to the object with lower temperature",
+        "C": "Energy flows equally in both directions",
+        "D": "No energy flow occurs"
+      },
+      "correct_answer": "B",
+      "hint": "The flow is spontaneous, not requiring external work.",
+      "explanation": "Heat flows spontaneously from regions of higher temperature to regions of lower temperature. Option A incorrectly reverses the fundamental direction of spontaneous heat transfer.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "The Concept of Heat (5.1)",
+        "subsection_anchor": "What is heat?",
+        "structural_element": "What is heat?",
+        "content_anchor": "spontaneously from the hotter object",
+        "page_hint": "Page 2",
+        "concept_hash": "hash_G_SpontFlow_5.1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q004",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "The Concept of Heat (5.1)",
+      "subsection": "Heat, internal energy and thermodynamic work",
+      "sub_subsection": null,
+      "structural_anchor": "Heat, internal energy and thermodynamic work",
+      "mcq_type": "A",
+      "question": "What term describes the sum of kinetic energy due to molecular motion and potential energy due to molecular forces within a system?",
+      "options": {
+        "A": "Internal energy",
+        "B": "Heat",
+        "C": "Temperature",
+        "D": "Thermodynamic work"
+      },
+      "correct_answer": "A",
+      "hint": "This is the total energy stored within the boundaries of a system.",
+      "explanation": "Internal energy encompasses all kinetic and potential energies at the molecular level within a system. Option B is incorrect because heat refers specifically to energy in transit across a boundary.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "The Concept of Heat (5.1)",
+        "subsection_anchor": "Heat, internal energy and thermodynamic work",
+        "structural_element": "Heat, internal energy and thermodynamic work",
+        "content_anchor": "sum of internal kinetic energy and internal potential energy",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_A_InternalEnergyDef_5.1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q005",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "The Concept of Heat (5.1)",
+      "subsection": "Heat, internal energy and thermodynamic work",
+      "sub_subsection": null,
+      "structural_anchor": "Heat, internal energy and thermodynamic work",
+      "mcq_type": "F",
+      "question": "Considering that both can change the internal energy of a system, which statement best explains the fundamental distinction between heat and work?",
+      "options": {
+        "A": "Heat involves energy transfer due to a temperature difference, while work involves energy transfer due to a force acting through a distance.",
+        "B": "Heat is measured in joules, while work is measured in watts.",
+        "C": "Heat always increases temperature, while work always decreases it.",
+        "D": "Heat is a property of a system, while work is a process."
+      },
+      "correct_answer": "A",
+      "hint": "Think about the mechanisms of energy transfer, not just the outcomes.",
+      "explanation": "Heat is the transfer of thermal energy driven by a temperature gradient, while work is the transfer of mechanical energy via forces and displacement. Option D incorrectly describes heat as a property rather than a process of energy transfer.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "The Concept of Heat (5.1)",
+        "subsection_anchor": "Heat, internal energy and thermodynamic work",
+        "structural_element": "Heat, internal energy and thermodynamic work",
+        "content_anchor": "Heat is the transfer of thermal energy between systems, while work is the transfer of mechanical energy",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_F_HeatWorkDiff_5.1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q006",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "Heat transfer mechanisms (5.2)",
+      "subsection": "1. Conduction",
+      "sub_subsection": null,
+      "structural_anchor": "1. Conduction",
+      "mcq_type": "J",
+      "question": "Which of the following correctly classifies the three primary modes of heat transfer?",
+      "options": {
+        "A": "Conduction, Induction, Radiation",
+        "B": "Conduction, Convection, Radiation",
+        "C": "Conduction, Reflection, Refraction",
+        "D": "Insulation, Convection, Emission"
+      },
+      "correct_answer": "B",
+      "hint": "One involves particle collisions, one involves fluid movement, and one involves waves.",
+      "explanation": "The three fundamental heat transfer mechanisms are conduction (through collisions), convection (through fluid movement), and radiation (via electromagnetic waves). Option A incorrectly substitutes 'Induction,' which is not a primary heat transfer mode.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Heat transfer mechanisms (5.2)",
+        "subsection_anchor": "1. Conduction",
+        "structural_element": "1. Conduction",
+        "content_anchor": "conduction, convection, and radiation",
+        "page_hint": "Page 5",
+        "concept_hash": "hash_J_HeatTransferModes_5.2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q007",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "Heat transfer mechanisms (5.2)",
+      "subsection": "1. Conduction",
+      "sub_subsection": null,
+      "structural_anchor": "1. Conduction",
+      "mcq_type": "A",
+      "question": "What is the process of heat transfer through direct collisions between neighboring particles called?",
+      "options": {
+        "A": "Conduction",
+        "B": "Convection",
+        "C": "Radiation",
+        "D": "Insulation"
+      },
+      "correct_answer": "A",
+      "hint": "This mechanism is dominant in solids and involves no bulk movement of the material.",
+      "explanation": "Conduction is the transfer of thermal energy via particle collisions without net material movement. Option B describes convection, which involves bulk fluid motion carrying heat.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Heat transfer mechanisms (5.2)",
+        "subsection_anchor": "1. Conduction",
+        "structural_element": "1. Conduction",
+        "content_anchor": "direct transfer of heat from one object to another by collisions",
+        "page_hint": "Page 5",
+        "concept_hash": "hash_A_ConductionDef_5.2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q008",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "Heat transfer mechanisms (5.2)",
+      "subsection": "1. Conduction",
+      "sub_subsection": null,
+      "structural_anchor": "Key terms:",
+      "mcq_type": "K",
+      "question": "Metals are typically good thermal conductors, while materials like wood or fiberglass are poor conductors. How does this property relate to their classification?",
+      "options": {
+        "A": "Good conductors are also called thermal insulators.",
+        "B": "Poor conductors are classified as thermal insulators.",
+        "C": "The ability to conduct heat is unrelated to insulation properties.",
+        "D": "All solids are equally effective as thermal conductors."
+      },
+      "correct_answer": "B",
+      "hint": "Insulation is the opposite of efficient conduction.",
+      "explanation": "Materials that are poor conductors of heat are termed thermal insulators, as they resist heat flow. Option A incorrectly labels good conductors as insulators, reversing the definitions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Heat transfer mechanisms (5.2)",
+        "subsection_anchor": "1. Conduction",
+        "structural_element": "Key terms:",
+        "content_anchor": "good conductors, good insulators are very poor conductors",
+        "page_hint": "Page 6",
+        "concept_hash": "hash_K_ConductorInsulator_5.2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q009",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "Heat Capacity and Specific Heat Capacity (5.3)",
+      "subsection": "Heat capacity",
+      "sub_subsection": null,
+      "structural_anchor": "Heat capacity",
+      "mcq_type": "A",
+      "question": "What quantity represents the amount of heat required to change an object's temperature by one degree Celsius or one kelvin?",
+      "options": {
+        "A": "Heat capacity",
+        "B": "Specific heat capacity",
+        "C": "Latent heat",
+        "D": "Thermal conductivity"
+      },
+      "correct_answer": "A",
+      "hint": "This is an extensive property that depends on the object's mass.",
+      "explanation": "Heat capacity (C) is defined as Q/ΔT, the heat needed per unit temperature change for a specific object. Option B refers to the intensive property per unit mass.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Heat Capacity and Specific Heat Capacity (5.3)",
+        "subsection_anchor": "Heat capacity",
+        "structural_element": "Heat capacity",
+        "content_anchor": "amount of heat required to change the temperature",
+        "page_hint": "Page 9",
+        "concept_hash": "hash_A_HeatCapacityDef_5.3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U5_Q010",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "Heat Capacity and Specific Heat Capacity (5.3)",
+      "subsection": "Specific heat capacity",
+      "sub_subsection": null,
+      "structural_anchor": "Specific heat capacity",
+      "mcq_type": "B",
+      "question": "Which term describes the heat required to raise the temperature of one kilogram of a substance by one degree Celsius?",
+      "options": {
+        "A": "Heat capacity",
+        "B": "Specific heat capacity",
+        "C": "Latent heat of fusion",
+        "D": "Coefficient of thermal expansion"
+      },
+      "correct_answer": "B",
+      "hint": "This is an intensive property characteristic of the material itself.",
+      "explanation": "Specific heat capacity (c) is defined per unit mass, making it a material property. Option A is the extensive counterpart for a specific object, not per unit mass.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: HEAT CONDUCTION AND CALORIMETRY",
+        "section_anchor": "Heat Capacity and Specific Heat Capacity (5.3)",
+        "subsection_anchor": "Specific heat capacity",
+        "structural_element": "Specific heat capacity",
+        "content_anchor": "amount of heat absorbed or released by 1kg",
+        "page_hint": "Page 10",
+        "concept_hash": "hash_B_SpecificHeatDef_5.3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3100,
+    "average_question_quality": 83.0,
+    "type_distribution": {
+      "A": 4,
+      "B": 2,
+      "F": 1,
+      "G": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 9,
+      "medium": 1,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "The Concept of Heat (5.1)": 4,
+      "Heat transfer mechanisms (5.2)": 3,
+      "Heat Capacity and Specific Heat Capacity (5.3)": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

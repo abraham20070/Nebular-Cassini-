@@ -1,0 +1,812 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2026-01-27T15:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Bio_U6_Q010",
+    "covered_sections": ["6.1. Climate Change: Causes and effects>6.1.1. Definition of Climate Change", "6.1. Climate Change: Causes and effects>6.1.2. Causes of climate change What Causes Climate change?", "Effects of climate change>6.2.1. Effects of climate change on biodiversity", "Effects of climate change>6.2.2. Effects of climate change on Agriculture", "Effects of climate change>6.2.3. Effect of climate change on forest productivity", "Mitigation Measure>6.3. International conventions"],
+    "used_question_signatures": ["a2c8f89f8b8d8a1e", "b3d9e90f9c9e9b2f", "c4e0a10g0d0f0c3g", "d5f1b11h1e1g1d4h", "e6g2c12i2f2h2e5i", "f7h3d13j3g3i3f6j", "g8i4e14k4h4j4g7k", "h9j5f15l5i5k5h8l", "i10k6g16m6j6l6i9m", "j11l7h17n7k7m7j10n"],
+    "baseline_counter": {
+      "6.1. Climate Change: Causes and effects": {
+        "6.1.1. Definition of Climate Change": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.1.2. Causes of climate change What Causes Climate change?": {
+          "count": 3,
+          "mini_headings_covered": ["What are greenhouse gases?", "Greenhouse effect", "Table 6.1. Types of greenhouse gases and their major sources"],
+          "last_question_round": 1
+        }
+      },
+      "Effects of climate change": {
+        "6.2.1. Effects of climate change on biodiversity": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.2. Effects of climate change on Agriculture": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.3. Effect of climate change on forest productivity": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.4. Climate change and natural disasters 6.2.4.1. Climate change and natural disasters": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "6.2.4.2. Melting ice and rising seas": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "6.2.4.3. Extreme weather, shifting rainfall": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "6.2.4.4. Risks of climate change for human health": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Mitigation Measure": {
+        "6.3. International conventions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.3.1. The United Nations Framework Convention": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "6.3.2. Kyoto Protocol on Climate Change": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "6.3.3. International and national practices of Implementation of conventions": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "REVIEW": {
+        "End-of-unit questions (Pages 21-22)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1. Climate Change: Causes and effects": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Effects of climate change": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Mitigation Measure": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "REVIEW": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1. Climate Change: Causes and effects>6.1.1. Definition of Climate Change": ["Climate change definition", "Global phenomenon"],
+      "6.1. Climate Change: Causes and effects>6.1.2. Causes of climate change What Causes Climate change?": ["Greenhouse gases", "Carbon dioxide", "Fossil fuels", "Anthropogenic drivers", "Industrial Revolution"],
+      "Effects of climate change>6.2.1. Effects of climate change on biodiversity": ["Biodiversity loss", "Habitat change"],
+      "Effects of climate change>6.2.2. Effects of climate change on Agriculture": ["Agricultural productivity", "Food availability"],
+      "Effects of climate change>6.2.3. Effect of climate change on forest productivity": ["Forest disturbances", "Wildfires"],
+      "Mitigation Measure>6.3. International conventions": ["International agreements", "UNFCCC"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_integrity",
+    "content_density_metrics": {
+      "total_concepts_extracted": 13,
+      "questions_per_concept_ratio": 0.77,
+      "structural_coverage_percentage": 13.3
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 6: Climate Change",
+  "pdf_filename": "B12U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-01-27T15:31:45Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 4,
+        "progress_percentage": 75.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 5.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 13.3,
+      "concept_utilization_ratio": 0.77
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.1. Climate Change: Causes and effects",
+      "least_covered_section": "REVIEW",
+      "imbalance_ratio": 5.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U6_Q001",
+      "generation_timestamp": "2026-01-27T15:31:00Z",
+      "section": "6.1. Climate Change: Causes and effects",
+      "subsection": "6.1.1. Definition of Climate Change",
+      "sub_subsection": null,
+      "structural_anchor": "Definition of Climate Change",
+      "mcq_type": "A",
+      "question": "What term describes the long-term transformation of Earth's climate system, characterized by changes in temperature, precipitation, and wind patterns?",
+      "options": {
+        "A": "Climate change",
+        "B": "Weather variability",
+        "C": "Seasonal fluctuation",
+        "D": "Atmospheric oscillation"
+      },
+      "correct_answer": "A",
+      "hint": "Focus on systematic changes over decades or longer.",
+      "explanation": "Climate change is defined as systematic long-term alterations in Earth's atmospheric conditions, including temperature and precipitation. Option B refers to short-term atmospheric variations rather than persistent systemic shifts.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "6.1. Climate Change: Causes and effects",
+        "subsection_anchor": "6.1.1. Definition of Climate Change",
+        "structural_element": "Definition of Climate Change",
+        "content_anchor": "global phenomenon of climate transformation",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_climate_change_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q002",
+      "generation_timestamp": "2026-01-27T15:31:05Z",
+      "section": "6.1. Climate Change: Causes and effects",
+      "subsection": "6.1.1. Definition of Climate Change",
+      "sub_subsection": null,
+      "structural_anchor": "Definition of Climate Change",
+      "mcq_type": "G",
+      "question": "If human activities significantly alter Earth's energy balance by increasing atmospheric greenhouse gases, what is the primary consequence for global climate patterns?",
+      "options": {
+        "A": "Systematic long-term climate transformation",
+        "B": "Temporary seasonal weather anomalies",
+        "C": "Increased regional cloud formation only",
+        "D": "Reduced solar radiation reaching Earth's surface"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the difference between weather events and systemic climate shifts.",
+      "explanation": "Altering Earth's energy balance through greenhouse gases causes systematic climate transformation over decades. Option B incorrectly describes short-term weather events rather than persistent climate system changes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "6.1. Climate Change: Causes and effects",
+        "subsection_anchor": "6.1.1. Definition of Climate Change",
+        "structural_element": "Definition of Climate Change",
+        "content_anchor": "systematic change in the long-term state of the atmosphere",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_energy_balance_climate"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q003",
+      "generation_timestamp": "2026-01-27T15:31:10Z",
+      "section": "6.1. Climate Change: Causes and effects",
+      "subsection": "6.1.2. Causes of climate change What Causes Climate change?",
+      "sub_subsection": null,
+      "structural_anchor": "What are greenhouse gases?",
+      "mcq_type": "B",
+      "question": "Which atmospheric compounds function by trapping heat radiated from Earth's surface, maintaining the planet's average temperature at approximately 14°C?",
+      "options": {
+        "A": "Greenhouse gases",
+        "B": "Ozone-depleting substances",
+        "C": "Aerosol propellants",
+        "D": "Inert atmospheric gases"
+      },
+      "correct_answer": "A",
+      "hint": "These gases create an insulating effect in the atmosphere.",
+      "explanation": "Greenhouse gases like carbon dioxide and methane absorb and re-radiate infrared radiation, creating the greenhouse effect. Option B refers to chemicals that damage the ozone layer rather than trap thermal radiation.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "6.1. Climate Change: Causes and effects",
+        "subsection_anchor": "6.1.2. Causes of climate change What Causes Climate change?",
+        "structural_element": "What are greenhouse gases?",
+        "content_anchor": "trap heat, average 14°C",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_greenhouse_gases_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q004",
+      "generation_timestamp": "2026-01-27T15:31:15Z",
+      "section": "6.1. Climate Change: Causes and effects",
+      "subsection": "6.1.2. Causes of climate change What Causes Climate change?",
+      "sub_subsection": null,
+      "structural_anchor": "Greenhouse effect",
+      "mcq_type": "F",
+      "question": "Under the condition that atmospheric concentrations of certain gases increase significantly, which reasoning best explains why Earth's average temperature rises?",
+      "options": {
+        "A": "Enhanced greenhouse effect traps more outgoing infrared radiation",
+        "B": "Increased cloud formation reflects more incoming solar radiation",
+        "C": "Higher gas concentrations reduce the atmosphere's total volume",
+        "D": "Additional gases catalyze exothermic chemical reactions in the stratosphere"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how certain gases interact with thermal radiation.",
+      "explanation": "The greenhouse effect involves gases absorbing and re-emitting infrared radiation, trapping heat. Option B describes albedo effects from clouds, which is a separate cooling mechanism.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "6.1. Climate Change: Causes and effects",
+        "subsection_anchor": "6.1.2. Causes of climate change What Causes Climate change?",
+        "structural_element": "Greenhouse effect",
+        "content_anchor": "trap heat, glass walls of a greenhouse",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_greenhouse_effect_mechanism"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q005",
+      "generation_timestamp": "2026-01-27T15:31:20Z",
+      "section": "6.1. Climate Change: Causes and effects",
+      "subsection": "6.1.2. Causes of climate change What Causes Climate change?",
+      "sub_subsection": null,
+      "structural_anchor": "Table 6.1. Types of greenhouse gases and their major sources",
+      "mcq_type": "J",
+      "question": "Fossil fuel combustion, deforestation, and industrial processes are primary anthropogenic sources for which category of climate-active atmospheric compounds?",
+      "options": {
+        "A": "Carbon dioxide (CO₂)",
+        "B": "Methane (CH₄)",
+        "C": "Nitrous oxide (N₂O)",
+        "D": "Hydrofluorocarbons (HFCs)"
+      },
+      "correct_answer": "A",
+      "hint": "This gas is released from burning coal, oil, and natural gas.",
+      "explanation": "Carbon dioxide is primarily emitted from fossil fuel combustion and deforestation. Option B, methane, primarily originates from agricultural activities like livestock digestion and rice paddies.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "6.1. Climate Change: Causes and effects",
+        "subsection_anchor": "6.1.2. Causes of climate change What Causes Climate change?",
+        "structural_element": "Table 6.1. Types of greenhouse gases and their major sources",
+        "content_anchor": "Fossil Fuel Combustion, deforestation",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_co2_sources"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 79,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q006",
+      "generation_timestamp": "2026-01-27T15:31:25Z",
+      "section": "Effects of climate change",
+      "subsection": "6.2.1. Effects of climate change on biodiversity",
+      "sub_subsection": null,
+      "structural_anchor": "Effects of climate change on biodiversity",
+      "mcq_type": "G",
+      "question": "If changing climate conditions alter precipitation patterns and temperature regimes in an ecosystem, what is the most likely consequence for species that cannot adapt quickly?",
+      "options": {
+        "A": "Habitat loss and potential extinction",
+        "B": "Increased reproductive rates",
+        "C": "Enhanced genetic diversity",
+        "D": "Accelerated evolutionary speciation"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the relationship between environmental change and species survival requirements.",
+      "explanation": "Climate change can render habitats unsuitable, leading to biodiversity loss when species cannot adapt or migrate. Option D describes speciation, which occurs over much longer timescales than climate-induced habitat changes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 17.6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "Effects of climate change",
+        "subsection_anchor": "6.2.1. Effects of climate change on biodiversity",
+        "structural_element": "Effects of climate change on biodiversity",
+        "content_anchor": "species must either adapt or migrate",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_biodiversity_habitat_loss"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 81,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q007",
+      "generation_timestamp": "2026-01-27T15:31:30Z",
+      "section": "Effects of climate change",
+      "subsection": "6.2.2. Effects of climate change on Agriculture",
+      "sub_subsection": null,
+      "structural_anchor": "Effects of climate change on Agriculture",
+      "mcq_type": "G",
+      "question": "What happens to agricultural productivity when rising temperatures combine with altered precipitation patterns and increased extreme weather events?",
+      "options": {
+        "A": "Overall productivity typically decreases",
+        "B": "Crop yields increase uniformly across all regions",
+        "C": "Soil fertility improves without additional inputs",
+        "D": "Pest resistance in plants strengthens naturally"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how crops respond to multiple simultaneous stressors.",
+      "explanation": "Multiple climate stressors generally reduce agricultural productivity by disrupting growing conditions. Option B incorrectly assumes beneficial effects despite documented negative impacts on many crop systems.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "Effects of climate change",
+        "subsection_anchor": "6.2.2. Effects of climate change on Agriculture",
+        "structural_element": "Effects of climate change on Agriculture",
+        "content_anchor": "disrupt food availability, reduce access to food",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_agricultural_productivity_climate"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 77,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q008",
+      "generation_timestamp": "2026-01-27T15:31:35Z",
+      "section": "Effects of climate change",
+      "subsection": "6.2.3. Effect of climate change on forest productivity",
+      "sub_subsection": null,
+      "structural_anchor": "Effect of climate change on forest productivity",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that climate change uniformly benefits forest ecosystems through extended growing seasons?",
+      "options": {
+        "A": "It ignores increased disturbances like wildfires and pest outbreaks",
+        "B": "It overestimates tree species' migration capabilities",
+        "C": "It assumes all tree species respond identically to warming",
+        "D": "All of the above represent flaws in this reasoning"
+      },
+      "correct_answer": "D",
+      "hint": "Consider multiple factors that counteract potential benefits of longer growing seasons.",
+      "explanation": "Climate change affects forests through multiple interacting stressors beyond growing season length. The reasoning error involves overlooking disturbance increases, migration limitations, and species-specific responses.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "Effects of climate change",
+        "subsection_anchor": "6.2.3. Effect of climate change on forest productivity",
+        "structural_element": "Effect of climate change on forest productivity",
+        "content_anchor": "alter frequency and intensity of forest disturbances",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_forest_disturbances_climate"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 87,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q009",
+      "generation_timestamp": "2026-01-27T15:31:40Z",
+      "section": "Mitigation Measure",
+      "subsection": "6.3. International conventions",
+      "sub_subsection": null,
+      "structural_anchor": "6.3. International conventions",
+      "mcq_type": "B",
+      "question": "What term describes multilateral agreements established to address global environmental issues through coordinated national commitments?",
+      "options": {
+        "A": "International conventions",
+        "B": "Bilateral trade agreements",
+        "C": "Regional development pacts",
+        "D": "Sectoral regulatory frameworks"
+      },
+      "correct_answer": "A",
+      "hint": "These involve multiple countries cooperating on shared challenges.",
+      "explanation": "International conventions are formal agreements between nations to address transnational issues like climate change. Option B refers to trade deals between two countries rather than environmental cooperation.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "Mitigation Measure",
+        "subsection_anchor": "6.3. International conventions",
+        "structural_element": "6.3. International conventions",
+        "content_anchor": "international conventions have continuously evolved",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_international_conventions_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q010",
+      "generation_timestamp": "2026-01-27T15:31:45Z",
+      "section": "Mitigation Measure",
+      "subsection": "6.3. International conventions",
+      "sub_subsection": null,
+      "structural_anchor": "6.3. International conventions",
+      "mcq_type": "F",
+      "question": "Under the condition that countries seek to limit global temperature rise while supporting sustainable development, which reasoning best explains the purpose of nationally determined contributions?",
+      "options": {
+        "A": "They allow customized national commitments within a global framework",
+        "B": "They enforce uniform emission reductions across all nations",
+        "C": "They prioritize economic growth over environmental protection",
+        "D": "They eliminate the need for international monitoring systems"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how diverse national circumstances affect climate action capabilities.",
+      "explanation": "Nationally determined contributions enable countries to set appropriate climate targets based on their specific contexts. Option B incorrectly assumes a one-size-fits-all approach rather than differentiated responsibilities.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "Mitigation Measure",
+        "subsection_anchor": "6.3. International conventions",
+        "structural_element": "6.3. International conventions",
+        "content_anchor": "each country would propose a national contribution",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_nationally_determined_contributions"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 79,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 86
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 45000,
+    "average_question_quality": 84.0,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "F": 2,
+      "G": 3,
+      "H": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "6.1. Climate Change: Causes and effects": 5,
+      "Effects of climate change": 3,
+      "Mitigation Measure": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

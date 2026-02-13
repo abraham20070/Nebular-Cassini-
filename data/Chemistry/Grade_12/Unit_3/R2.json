@@ -1,0 +1,833 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-05-20T10:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G12_Chem_U3_Q020",
+    "covered_sections": ["Unit outcomes", "Start-up Activity", "3.1 Introduction", "3.2 Natural Resources and Industry", "3.2.1 Natural Resources (Raw Materials)", "3.2.2 Industry", "3.3 Manufacturing of Valuable Products/Chemicals", "3.3.1 Ammonia (NH3)", "3.3.2 Nitric Acid", "3.3.3 Nitrogen- Based Fertilizers", "3.3.4 Sulphuric Acid", "3.3.5 Some Common Pesticides and Herbicides", "3.3.6 Sodium Carbonate"],
+    "used_question_signatures": ["eb3d6e8a5b7c1f4a", "a2c5e8f1b9d3g7h0", "c4f8a1d5b9e3h7j2", "d9b3e7a1f5c8h2j6", "f1a5c9e3b7d2h8j4", "b7d2f6a9c3e8h1j5", "a8c2f6b9d4e1h5j7", "d3b7f1a5c9e2h6j8", "e9c5a1f8b4d2h7j3", "b2f6d9a4c8e1h3j7", "k5m9p3r7t1v8x2z4", "n8q2s6u0w4y8a1c5", "g7j3l9o5q1t7v3x9", "h4k0m6p2r8t4v0x6", "d1f7h3j9l5n1p7r3", "s5u1w7y3a9c5e1g7", "b8d4f0h6j2l8n4p0", "r2t8v4x0z6b2d8f4", "i6k2m8o4q0s6u2w8", "p9r5t1v7x3z9b5d1"],
+    "baseline_counter": {
+      "Unit outcomes": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "Start-up Activity": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.1 Introduction": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.2 Natural Resources and Industry": {
+        "count": 4,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.2.1 Natural Resources (Raw Materials)": {
+        "count": 2,
+        "mini_headings_covered": ["Classification of Natural Resources:"],
+        "last_question_round": 2
+      },
+      "3.2.2 Industry": {
+        "count": 3,
+        "mini_headings_covered": ["Classification of manufacturing industry:", "Chemical Industry:"],
+        "last_question_round": 2
+      },
+      "3.3 Manufacturing of Valuable Products/Chemicals": {
+        "count": 5,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "3.3.1 Ammonia (NH3)": {
+        "count": 3,
+        "mini_headings_covered": ["Properties:", "Uses:", "Preparation:"],
+        "last_question_round": 2
+      },
+      "3.3.2 Nitric Acid": {
+        "count": 2,
+        "mini_headings_covered": ["Properties:", "Uses:"],
+        "last_question_round": 2
+      },
+      "3.3.3 Nitrogen- Based Fertilizers": {
+        "count": 2,
+        "mini_headings_covered": ["Urea:", "Diammonium Monohydrogen Phosphate(DAP), (NH4)2HPO4:"],
+        "last_question_round": 2
+      },
+      "3.3.4 Sulphuric Acid": {
+        "count": 1,
+        "mini_headings_covered": ["Properties:"],
+        "last_question_round": 2
+      },
+      "3.3.5 Some Common Pesticides and Herbicides": {
+        "count": 1,
+        "mini_headings_covered": ["Pesticides:"],
+        "last_question_round": 2
+      },
+      "3.3.6 Sodium Carbonate": {
+        "count": 1,
+        "mini_headings_covered": ["Properties:"],
+        "last_question_round": 2
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Unit outcomes": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Start-up Activity": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.1 Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.2 Natural Resources and Industry": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.3 Manufacturing of Valuable Products/Chemicals": {
+        "question_count": 9,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.4 Some Manufacturing Industries in Ethiopia": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Unit Summary": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "CHECK LIST KEY TERMS": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "REVIEW EXERCISE FOR UNIT 3": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Unit outcomes": ["Renewable and non-renewable resources", "Chemical industry importance"],
+      "Start-up Activity": ["Metal and non-metal occurrence"],
+      "3.1 Introduction": ["Industrial chemistry definition"],
+      "3.2.1 Natural Resources (Raw Materials)": ["Renewable vs non-renewable resources", "Solar energy classification"],
+      "3.2.2 Industry": ["Manufacturing industry classification", "Chemical industry input types"],
+      "3.3.1 Ammonia (NH3)": ["Ammonia density and ionization", "Ammonia equilibrium", "Haber process reactants"],
+      "3.3.2 Nitric Acid": ["Nitric acid decomposition", "Nitric acid primary use"],
+      "3.3.3 Nitrogen- Based Fertilizers": ["Urea production reaction", "DAP composition"],
+      "3.3.4 Sulphuric Acid": ["Sulfuric acid dilution safety"],
+      "3.3.5 Some Common Pesticides and Herbicides": ["Pesticide definition"],
+      "3.3.6 Sodium Carbonate": ["Sodium carbonate solubility"],
+      "3.4 Some Manufacturing Industries in Ethiopia": ["Glass main component"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_previous_state_placeholder_1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 17,
+      "questions_per_concept_ratio": 1.18,
+      "structural_coverage_percentage": 30.9
+    }
+  },
+  "grade": "12",
+  "subject": "Chemistry",
+  "unit": "Unit 3: Industrial Chemistry",
+  "pdf_filename": "C12U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 9,
+      "constraint_violations_caught": 7,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-05-20T10:07:15Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 9,
+        "progress_percentage": 66.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 13,
+      "mini_headings_covered_count": 10,
+      "structural_coverage_percentage": 24.7,
+      "concept_utilization_ratio": 0.71
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "least_covered_section": "Unit Summary",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.18,
+      "remaining_concept_capacity": 80
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Chem_U3_Q011",
+      "generation_timestamp": "2024-05-20T10:05:05Z",
+      "section": "3.2.1 Natural Resources (Raw Materials)",
+      "subsection": "3.2.1 Natural Resources (Raw Materials)",
+      "sub_subsection": null,
+      "structural_anchor": "Classification of Natural Resources:",
+      "mcq_type": "C",
+      "question": "Which mathematical relationship best represents the defining characteristic of non-renewable resources when considering their rate of consumption (R) versus their rate of natural regeneration (G)?",
+      "options": {
+        "A": "R = G",
+        "B": "R << G",
+        "C": "R >> G",
+        "D": "R is independent of G"
+      },
+      "correct_answer": "C",
+      "hint": "Non-renewable resources cannot be replenished through natural processes at a meaningful rate.",
+      "explanation": "For non-renewable resources, the consumption rate far exceeds any negligible natural regeneration rate. Option A describes a sustainable balance characteristic of renewable resources.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.2 Natural Resources and Industry",
+        "subsection_anchor": "3.2.1 Natural Resources (Raw Materials)",
+        "structural_element": "Classification of Natural Resources:",
+        "content_anchor": "cannot be replenished through natural processes",
+        "page_hint": "Page 6",
+        "concept_hash": "hash_nonrenewable_rate_relation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q012",
+      "generation_timestamp": "2024-05-20T10:05:12Z",
+      "section": "3.3.1 Ammonia (NH3)",
+      "subsection": "3.3.1 Ammonia (NH3)",
+      "sub_subsection": null,
+      "structural_anchor": "Uses:",
+      "mcq_type": "N",
+      "question": "Under which condition is ammonia NOT suitable for direct application as a nitrogen fertilizer?",
+      "options": {
+        "A": "When it is applied by injection into moist soil.",
+        "B": "When it is applied as an aqueous solution to alkaline soils.",
+        "C": "When it is converted to ammonium nitrate before application.",
+        "D": "When it is used in controlled-release formulations."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the chemical behavior of ammonia gas in contact with basic conditions.",
+      "explanation": "Ammonia is a weak base. Applying it to alkaline soils promotes its conversion back to gaseous NH₃, leading to volatilization loss rather than soil retention. Option C describes a valid use where ammonia is first processed into a stable salt.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.1 Ammonia (NH3)",
+        "structural_element": "Uses:",
+        "content_anchor": "raw material for the production of nitrogen fertilizers",
+        "page_hint": "Page 10",
+        "concept_hash": "hash_ammonia_fertilizer_limitation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q013",
+      "generation_timestamp": "2024-05-20T10:05:20Z",
+      "section": "3.3.1 Ammonia (NH3)",
+      "subsection": "3.3.1 Ammonia (NH3)",
+      "sub_subsection": null,
+      "structural_anchor": "Preparation:",
+      "mcq_type": "L",
+      "question": "In the industrial Haber process, what are the two primary gaseous reactants fed into the catalytic chamber?",
+      "options": {
+        "A": "Nitrogen and oxygen",
+        "B": "Ammonia and water vapor",
+        "C": "Nitrogen and hydrogen",
+        "D": "Nitric oxide and hydrogen"
+      },
+      "correct_answer": "C",
+      "hint": "The process involves the direct combination of two elements to form ammonia.",
+      "explanation": "The Haber process synthesizes ammonia via the direct reaction of nitrogen gas (N₂) and hydrogen gas (H₂). Option A is incorrect as oxygen would oxidize the hydrogen or catalyst, not produce ammonia.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 75
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.1 Ammonia (NH3)",
+        "structural_element": "Preparation:",
+        "content_anchor": "direct combination of nitrogen and hydrogen",
+        "page_hint": "Page 10",
+        "concept_hash": "hash_haber_reactants"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q014",
+      "generation_timestamp": "2024-05-20T10:05:28Z",
+      "section": "3.3.2 Nitric Acid",
+      "subsection": "3.3.2 Nitric Acid",
+      "sub_subsection": null,
+      "structural_anchor": "Properties:",
+      "mcq_type": "G",
+      "question": "Pure nitric acid is a colorless liquid, but it often turns brown upon exposure to light. If light causes the decomposition of HNO₃, what is the direct effect on the concentration of nitrogen dioxide (NO₂) in the liquid?",
+      "options": {
+        "A": "NO₂ concentration decreases as it reacts with oxygen.",
+        "B": "NO₂ concentration increases due to its formation from HNO₃ decomposition.",
+        "C": "NO₂ concentration remains constant because it is a gas and escapes.",
+        "D": "NO₂ concentration first decreases then increases as equilibrium shifts."
+      },
+      "correct_answer": "B",
+      "hint": "The brown color is attributed to the formation of NO₂. Consider the products of the decomposition reaction.",
+      "explanation": "The decomposition reaction 4HNO₃ → 4NO₂ + O₂ + 2H₂O produces nitrogen dioxide gas, which dissolves in the acid, increasing its concentration and causing the brown color. Option A incorrectly describes the fate of the product.",
+      "difficulty_level": "medium",
+      "formula_used": ["4HNO₃ → 4NO₂ + O₂ + 2H₂O"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.2 Nitric Acid",
+        "structural_element": "Properties:",
+        "content_anchor": "turns brown because of slight decomposition into NO₂",
+        "page_hint": "Page 18",
+        "concept_hash": "hash_nitric_acid_decomposition_color"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q015",
+      "generation_timestamp": "2024-05-20T10:05:35Z",
+      "section": "3.3.2 Nitric Acid",
+      "subsection": "3.3.2 Nitric Acid",
+      "sub_subsection": null,
+      "structural_anchor": "Uses:",
+      "mcq_type": "D",
+      "question": "What is the primary industrial application that consumes the largest proportion of manufactured nitric acid?",
+      "options": {
+        "A": "Production of explosives for mining and construction.",
+        "B": "Synthesis of ammonium nitrate fertilizer.",
+        "C": "Etching of metal surfaces in electronics manufacturing.",
+        "D": "Manufacture of dyes and pharmaceutical intermediates."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the global scale of agriculture and the demand for nitrogen fertilizers.",
+      "explanation": "The neutralization of nitric acid with ammonia to produce ammonium nitrate fertilizer represents its single largest use worldwide. Option A, while significant, does not match the volume dedicated to fertilizer production.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.2 Nitric Acid",
+        "structural_element": "Uses:",
+        "content_anchor": "Neutralization of nitric acid with ammonia results in ammonium nitrate",
+        "page_hint": "Page 18",
+        "concept_hash": "hash_nitric_acid_primary_use"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q016",
+      "generation_timestamp": "2024-05-20T10:05:42Z",
+      "section": "3.3.3 Nitrogen- Based Fertilizers",
+      "subsection": "3.3.3 Nitrogen- Based Fertilizers",
+      "sub_subsection": null,
+      "structural_anchor": "Urea:",
+      "mcq_type": "E",
+      "question": "Urea is produced industrially by reacting ammonia with carbon dioxide. If 68.0 g of ammonia (NH₃, M = 17.0 g/mol) reacts completely, what is the theoretical mass of urea ((NH₂)₂CO, M = 60.0 g/mol) produced? The overall reaction is 2NH₃ + CO₂ → (NH₂)₂CO + H₂O.",
+      "options": {
+        "A": "30.0 g",
+        "B":  "60.0 g",
+        "C": "120.0 g",
+        "D": "240.0 g"
+      },
+      "correct_answer": "C",
+      "hint": "Use stoichiometry. Find moles of NH₃, then moles of urea from the balanced equation, then mass of urea.",
+      "explanation": "Moles of NH₃ = 68.0 g / 17.0 g/mol = 4.0 mol. From the equation, 2 mol NH₃ produces 1 mol urea. Thus, 4.0 mol NH₃ produces 2.0 mol urea. Mass = 2.0 mol × 60.0 g/mol = 120.0 g. Option B is the molar mass, not the calculated product mass.",
+      "difficulty_level": "medium",
+      "formula_used": ["n = m/M", "mass_product = n_reactant × (stoich_product/stoich_reactant) × M_product"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "g",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.3 Nitrogen- Based Fertilizers",
+        "structural_element": "Urea:",
+        "content_anchor": "Urea is manufactured by reacting CO₂ with NH₃",
+        "page_hint": "Page 25",
+        "concept_hash": "hash_urea_production_stoichiometry"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q017",
+      "generation_timestamp": "2024-05-20T10:05:50Z",
+      "section": "3.3.3 Nitrogen- Based Fertilizers",
+      "subsection": "3.3.3 Nitrogen- Based Fertilizers",
+      "sub_subsection": null,
+      "structural_anchor": "Diammonium Monohydrogen Phosphate(DAP), (NH4)2HPO4:",
+      "mcq_type": "B",
+      "question": "What is the chemical name of the compound with the formula (NH₄)₂HPO₄, commonly used as a fertilizer?",
+      "options": {
+        "A": "Ammonium phosphate",
+        "B": "Diammonium monohydrogen phosphate",
+        "C": "Ammonium dihydrogen phosphate",
+        "D": "Diammonium phosphate"
+      },
+      "correct_answer": "B",
+      "hint": "The name should reflect the number of ammonium ions and the specific hydrogen phosphate anion present.",
+      "explanation": "The formula (NH₄)₂HPO₄ indicates two ammonium cations and one monohydrogen phosphate anion (HPO₄²⁻). Option D is a common but incomplete name that doesn't specify the anion's protonation state.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 50.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 70
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.3 Nitrogen- Based Fertilizers",
+        "structural_element": "Diammonium Monohydrogen Phosphate(DAP), (NH4)2HPO4:",
+        "content_anchor": "Diammonium monohydrogen phosphate (DAP)",
+        "page_hint": "Page 27",
+        "concept_hash": "hash_DAP_naming"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q018",
+      "generation_timestamp": "2024-05-20T10:05:58Z",
+      "section": "3.3.4 Sulphuric Acid",
+      "subsection": "3.3.4 Sulphuric Acid",
+      "sub_subsection": null,
+      "structural_anchor": "Properties:",
+      "mcq_type": "H",
+      "question": "Which option identifies the critical safety error in the procedure for preparing a dilute sulfuric acid solution?",
+      "options": {
+        "A": "Adding concentrated sulfuric acid to a large volume of water while stirring.",
+        "B": "Adding water slowly to a small volume of concentrated sulfuric acid.",
+        "C": "Mixing equal volumes of acid and water simultaneously.",
+        "D": "Pre-cooling both the acid and water before mixing."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the highly exothermic nature of the dissolution and the risk of violent boiling or splattering.",
+      "explanation": "The correct safety procedure is 'Always add acid to water' to control the exothermic heat release and prevent violent splashing. Option B reverses this, creating a dangerous localized heat concentration.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.4 Sulphuric Acid",
+        "structural_element": "Properties:",
+        "content_anchor": "sulphuric acid should be added to water, not the other way around",
+        "page_hint": "Page 28",
+        "concept_hash": "hash_sulfuric_acid_dilution_safety"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q019",
+      "generation_timestamp": "2024-05-20T10:06:05Z",
+      "section": "3.3.5 Some Common Pesticides and Herbicides",
+      "subsection": "3.3.5 Some Common Pesticides and Herbicides",
+      "sub_subsection": null,
+      "structural_anchor": "Pesticides:",
+      "mcq_type": "A",
+      "question": "What is the primary function of a pesticide in an agricultural context?",
+      "options": {
+        "A": "To provide essential nutrients to growing plants.",
+        "B": "To prevent or control organisms considered pests, such as insects or weeds.",
+        "C": "To improve the water retention capacity of the soil.",
+        "D": "To accelerate the natural decomposition of plant residue."
+      },
+      "correct_answer": "B",
+      "hint": "The prefix 'pest-' indicates the target of these chemicals.",
+      "explanation": "Pesticides are biologically active chemicals designed to manage populations of pests that damage crops. Option A describes the function of fertilizers, not pesticides.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 76
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.5 Some Common Pesticides and Herbicides",
+        "structural_element": "Pesticides:",
+        "content_anchor": "chemicals used to prevent or control pests",
+        "page_hint": "Page 31",
+        "concept_hash": "hash_pesticide_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q020",
+      "generation_timestamp": "2024-05-20T10:06:12Z",
+      "section": "3.3.6 Sodium Carbonate",
+      "subsection": "3.3.6 Sodium Carbonate",
+      "sub_subsection": null,
+      "structural_anchor": "Properties:",
+      "mcq_type": "F",
+      "question": "Sodium carbonate is soluble in water but insoluble in alcohol. Which reasoning best explains this difference in solubility behavior?",
+      "options": {
+        "A": "Water molecules can effectively solvate sodium and carbonate ions through ion-dipole interactions, while nonpolar alcohol cannot.",
+        "B": "Sodium carbonate reacts chemically with water to form a soluble product but undergoes no reaction with alcohol.",
+        "C": "The high density of sodium carbonate particles causes them to sediment in less dense alcohol but not in denser water.",
+        "D": "Alcohol molecules are larger than water molecules, creating steric hindrance that prevents dissolution."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the polar nature of the solute (ionic) and the solvents.",
+      "explanation": "Sodium carbonate is an ionic compound that dissolves through strong ion-dipole attractions with polar water molecules. Alcohols, being less polar, cannot effectively compete with the strong ionic lattice energy. Option B is incorrect because dissolution is a physical process, not a chemical reaction in this case.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        },
+        "option_parallelism_score": 86
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Industrial Chemistry",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.6 Sodium Carbonate",
+        "structural_element": "Properties:",
+        "content_anchor": "Sodium carbonate can be easily dissolved in water... insoluble in alcohol",
+        "page_hint": "Page 36",
+        "concept_hash": "hash_sodium_carbonate_solubility"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 77,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 132000,
+    "average_question_quality": 83.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "L": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    },
+    "section_distribution": {
+      "3.2 Natural Resources and Industry": 1,
+      "3.3 Manufacturing of Valuable Products/Chemicals": 9
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

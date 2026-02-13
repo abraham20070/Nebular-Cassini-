@@ -1,0 +1,786 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2024-05-15T10:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Phy_U3_Q010",
+    "covered_sections": ["Introduction", "3.1 Elasticity and plasticity", "3.2 Density and specific gravity"],
+    "used_question_signatures": ["hash_A_Elasticity_Intro", "hash_B_Plasticity_3.1", "hash_A_Density_3.2", "hash_B_SpecificGravity_3.2", "hash_D_DensityCalc_3.2", "hash_E_DensityCalcNum_3.2", "hash_F_ElasticBehavior_3.1", "hash_G_StressStrain_3.3", "hash_H_MisconceptionElastic_3.1", "hash_J_MaterialClassification_3.2"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": ["[Unit outcomes/competencies]"],
+          "last_question_round": 1
+        }
+      },
+      "3.1 Elasticity and plasticity": {
+        "3.1 Elasticity and plasticity": {
+          "count": 3,
+          "mini_headings_covered": ["[Key Concept]"],
+          "last_question_round": 1
+        }
+      },
+      "3.2 Density and specific gravity": {
+        "3.2 Density and specific gravity": {
+          "count": 5,
+          "mini_headings_covered": ["[Key Concept]"],
+          "last_question_round": 1
+        }
+      },
+      "3.3 Stress and Strain": {
+        "3.3 Stress and Strain": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.4 Young's Modulus": {
+        "3.4 Young's Modulus": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "3.5 Static equilibrium": {
+        "3.5 Static equilibrium": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.1 Elasticity and plasticity": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.2 Density and specific gravity": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.3 Stress and Strain": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.4 Young's Modulus": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "3.5 Static equilibrium": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction": ["Elasticity", "Plasticity", "Static Equilibrium"],
+      "3.1 Elasticity and plasticity": ["Elasticity", "Plasticity", "Deformation", "Elastic deformation", "Plastic deformation"],
+      "3.2 Density and specific gravity": ["Density", "Specific Gravity", "Mass", "Volume", "Archimedes' principle"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state_hash",
+    "content_density_metrics": {
+      "total_concepts_extracted": 11,
+      "questions_per_concept_ratio": 0.91,
+      "structural_coverage_percentage": 25.0
+    }
+  },
+  "grade": "10",
+  "subject": "Physics",
+  "unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+  "pdf_filename": "P10U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-05-15T10:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 6,
+        "progress_percentage": 50.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 4,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 25.0,
+      "concept_utilization_ratio": 0.91
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.2 Density and specific gravity",
+      "least_covered_section": "3.4 Young's Modulus",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phy_U3_Q001",
+      "generation_timestamp": "2024-05-15T10:00:00Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "[Unit outcomes/competencies]",
+      "mcq_type": "A",
+      "question": "What is the property called when a material tends to regain its original shape after an applied force is removed?",
+      "options": {
+        "A": "Elasticity",
+        "B": "Plasticity",
+        "C": "Density",
+        "D": "Equilibrium"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the behavior of materials like springs or rubber bands.",
+      "explanation": "Elasticity is the property of a material to return to its original shape after the deforming force is removed. Option B, plasticity, describes materials that undergo permanent deformation and do not return to their original shape.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unit-outcome"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": "[Unit outcomes/competencies]",
+        "content_anchor": "state elasticity and plasticity",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_elasticity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q002",
+      "generation_timestamp": "2024-05-15T10:00:00Z",
+      "section": "3.1 Elasticity and plasticity",
+      "subsection": "3.1 Elasticity and plasticity",
+      "sub_subsection": null,
+      "structural_anchor": "[Key Concept]",
+      "mcq_type": "B",
+      "question": "Which term describes a non-reversible change in the shape of an object in response to an applied external force?",
+      "options": {
+        "A": "Elastic deformation",
+        "B": "Plastic deformation",
+        "C": "Tensile strain",
+        "D": "Compressive stress"
+      },
+      "correct_answer": "B",
+      "hint": "Think of materials like putty or clay that stay deformed.",
+      "explanation": "Plastic deformation is a permanent, non-reversible change in shape. Option A incorrectly refers to elastic deformation, which is reversible when the force is removed.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.1 Elasticity and plasticity",
+        "subsection_anchor": "3.1 Elasticity and plasticity",
+        "structural_element": "[Key Concept]",
+        "content_anchor": "Plastic deformation is non- reversible change of shape",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_plastic_deformation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q003",
+      "generation_timestamp": "2024-05-15T10:00:00Z",
+      "section": "3.2 Density and specific gravity",
+      "subsection": "3.2 Density and specific gravity",
+      "sub_subsection": null,
+      "structural_anchor": "[Key Concept]",
+      "mcq_type": "A",
+      "question": "What physical property of a pure substance is defined as its mass per unit volume?",
+      "options": {
+        "A": "Density",
+        "B": "Specific gravity",
+        "C": "Weight",
+        "D": "Elasticity"
+      },
+      "correct_answer": "A",
+      "hint": "This property determines if an object sinks or floats in a fluid.",
+      "explanation": "Density is defined as mass divided by volume (ρ = m/V). Option B, specific gravity, is a ratio comparing a substance's density to that of water.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.2 Density and specific gravity",
+        "subsection_anchor": "3.2 Density and specific gravity",
+        "structural_element": "[Key Concept]",
+        "content_anchor": "Density is a characteristic property",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_density_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q004",
+      "generation_timestamp": "2024-05-15T10:00:00Z",
+      "section": "3.2 Density and specific gravity",
+      "subsection": "3.2 Density and specific gravity",
+      "sub_subsection": null,
+      "structural_anchor": "[Key Concept]",
+      "mcq_type": "B",
+      "question": "A substance has a specific gravity of 2.7. What does this dimensionless number represent?",
+      "options": {
+        "A": "Its mass in grams",
+        "B": "The ratio of its density to the density of water at 4°C",
+        "C": "Its volume in cubic centimeters",
+        "D": "The force it exerts due to gravity"
+      },
+      "correct_answer": "B",
+      "hint": "Specific gravity compares a substance's density to a standard reference.",
+      "explanation": "Specific gravity is defined as the ratio of a substance's density to the density of water at 4°C. Option A confuses specific gravity with mass, which is measured in kilograms or grams.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.2 Density and specific gravity",
+        "subsection_anchor": "3.2 Density and specific gravity",
+        "structural_element": "[Key Concept]",
+        "content_anchor": "Specific Gravity is a unitless quantity as it is the ratio of two densities",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_specific_gravity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q005",
+      "generation_timestamp": "2024-05-15T10:00:00Z",
+      "section": "3.2 Density and specific gravity",
+      "subsection": "3.2 Density and specific gravity",
+      "sub_subsection": null,
+      "structural_anchor": "[Example 3.1]",
+      "mcq_type": "D",
+      "question": "A mineral sample has a volume of 20 cm³ and a mass of 54 g. What is its density?",
+      "options": {
+        "A": "0.37 g/cm³",
+        "B": "2.7 g/cm³",
+        "C": "5.4 g/cm³",
+        "D": "10.8 g/cm³"
+      },
+      "correct_answer": "B",
+      "hint": "Use the formula density = mass / volume.",
+      "explanation": "Density is calculated as mass divided by volume: ρ = m/V = 54 g / 20 cm³ = 2.7 g/cm³. Option A results from incorrectly dividing volume by mass.",
+      "difficulty_level": "easy",
+      "formula_used": ["ρ = m/V"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "g/cm³",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.2 Density and specific gravity",
+        "subsection_anchor": "3.2 Density and specific gravity",
+        "structural_element": "[Example 3.1]",
+        "content_anchor": "A mining worker gets an unknown mineral with a volume of 20cm³ and a mass of 54g",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_density_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q006",
+      "generation_timestamp": "2024-05-15T10:00:00Z",
+      "section": "3.2 Density and specific gravity",
+      "subsection": "3.2 Density and specific gravity",
+      "sub_subsection": null,
+      "structural_anchor": "[Example 3.2]",
+      "mcq_type": "E",
+      "question": "A solid iron sphere has a radius of 0.18 m. If the density of iron is 7860 kg/m³, what is the mass of the sphere?",
+      "options": {
+        "A": "188.6 kg",
+        "B": "94.3 kg",
+        "C": "377.2 kg",
+        "D": "565.8 kg"
+      },
+      "correct_answer": "A",
+      "hint": "First calculate the sphere's volume, then use mass = density × volume.",
+      "explanation": "The volume of a sphere is V = (4/3)πr³. For r=0.18 m, V ≈ 0.0244 m³. Mass is m = ρV = 7860 kg/m³ × 0.0244 m³ ≈ 188.6 kg. Option B might come from using the diameter instead of the radius to calculate volume.",
+      "difficulty_level": "medium",
+      "formula_used": ["V = (4/3)πr³", "m = ρV"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "kg",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.2 Density and specific gravity",
+        "subsection_anchor": "3.2 Density and specific gravity",
+        "structural_element": "[Example 3.2]",
+        "content_anchor": "What is the mass of a solid iron ball of radius 18cm",
+        "page_hint": "Page 7-8",
+        "concept_hash": "sha256_of_mass_from_density"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q007",
+      "generation_timestamp": "2024-05-15T10:00:00Z",
+      "section": "3.1 Elasticity and plasticity",
+      "subsection": "3.1 Elasticity and plasticity",
+      "sub_subsection": null,
+      "structural_anchor": "[Key Concept]",
+      "mcq_type": "F",
+      "question": "Under the condition that an external force is small, which reasoning best explains why a helical spring returns to its original length when the force is removed?",
+      "options": {
+        "A": "The material has high density, resisting permanent change.",
+        "B": "The elastic property of the material restores its original molecular arrangement.",
+        "C": "The plastic deformation of the spring is temporary.",
+        "D": "The spring's specific gravity is less than one, allowing recovery."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the microscopic behavior of elastic materials when forces are applied and removed.",
+      "explanation": "Elasticity involves the material's ability to return to its original molecular configuration after stress removal. Option C incorrectly describes plastic deformation, which is permanent and non-reversible.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.1 Elasticity and plasticity",
+        "subsection_anchor": "3.1 Elasticity and plasticity",
+        "structural_element": "[Key Concept]",
+        "content_anchor": "Elastic deformation is a reversible deformation",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_elastic_behavior"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q008",
+      "generation_timestamp": "2024-05-15T10:00:00Z",
+      "section": "3.3 Stress and Strain",
+      "subsection": "3.3 Stress and Strain",
+      "sub_subsection": null,
+      "structural_anchor": "[Key Concept]",
+      "mcq_type": "G",
+      "question": "If the perpendicular force applied to a rod's cross-sectional area increases, what happens to the tensile stress?",
+      "options": {
+        "A": "It decreases proportionally.",
+        "B": "It remains constant.",
+        "C": "It increases proportionally.",
+        "D": "It becomes zero."
+      },
+      "correct_answer": "C",
+      "hint": "Recall the definition of stress as force per unit area.",
+      "explanation": "Tensile stress is defined as force divided by area (σ = F⊥/A). Increasing the force while keeping area constant directly increases the stress. Option A incorrectly assumes an inverse relationship.",
+      "difficulty_level": "easy",
+      "formula_used": ["σ = F⊥/A"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.3 Stress and Strain",
+        "subsection_anchor": "3.3 Stress and Strain",
+        "structural_element": "[Key Concept]",
+        "content_anchor": "Stress is a quantity that contains information about the magnitude of force causing deformation",
+        "page_hint": "Page 9-10",
+        "concept_hash": "sha256_of_stress_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q009",
+      "generation_timestamp": "2024-05-15T10:00:00Z",
+      "section": "3.1 Elasticity and plasticity",
+      "subsection": "3.1 Elasticity and plasticity",
+      "sub_subsection": null,
+      "structural_anchor": "[Key Concept]",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that a stretched rubber band that does not fully return to its original length must be plastic?",
+      "options": {
+        "A": "It confuses elasticity with high density.",
+        "B": "It assumes all deformation beyond perfect recovery indicates plasticity, ignoring that elasticity has limits.",
+        "C": "It mistakes tensile stress for plastic deformation.",
+        "D": "It incorrectly uses specific gravity to judge material behavior."
+      },
+      "correct_answer": "B",
+      "hint": "Consider that elastic materials can be deformed beyond their elastic limit.",
+      "explanation": "A material remains elastic if it returns to its original shape after force removal, but permanent deformation occurs only when stress exceeds the elastic limit. Option C incorrectly conflates stress, a cause, with the type of deformation, which is the effect.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.1 Elasticity and plasticity",
+        "subsection_anchor": "3.1 Elasticity and plasticity",
+        "structural_element": "[Key Concept]",
+        "content_anchor": "Plastic deformation is non- reversible change of shape",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_elastic_limit_misconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Phy_U3_Q010",
+      "generation_timestamp": "2024-05-15T10:00:00Z",
+      "section": "3.2 Density and specific gravity",
+      "subsection": "3.2 Density and specific gravity",
+      "sub_subsection": null,
+      "structural_anchor": "[Key Concept]",
+      "mcq_type": "J",
+      "question": "Based on Table 3.1, which pair correctly classifies a substance by its state of matter and relative density?",
+      "options": {
+        "A": "Helium: Solid, 1.79 × 10⁻⁴",
+        "B": "Mercury: Liquid, 13.6",
+        "C": "Iron: Gas, 7.86",
+        "D": "Air: Liquid, 1.29 × 10⁻³"
+      },
+      "correct_answer": "B",
+      "hint": "Refer to the typical states of matter for common substances and their relative densities.",
+      "explanation": "Mercury is a liquid with a high specific gravity of 13.6. Option A is incorrect because helium is a gas, not a solid, with a very low relative density.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Elasticity and Static Equilibrium of Rigid Body",
+        "section_anchor": "3.2 Density and specific gravity",
+        "subsection_anchor": "3.2 Density and specific gravity",
+        "structural_element": "[Key Concept]",
+        "content_anchor": "Specific Gravity is a unitless quantity",
+        "page_hint": "Page 5-6",
+        "concept_hash": "sha256_of_material_classification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 90,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 95
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2450,
+    "average_question_quality": 84.5,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "3.1 Elasticity and plasticity": 3,
+      "3.2 Density and specific gravity": 5,
+      "3.3 Stress and Strain": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

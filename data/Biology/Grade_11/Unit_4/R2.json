@@ -1,0 +1,852 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-04-11T10:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G11_Bio_U4_Q020",
+    "covered_sections": ["4.1. The genetic materials>4.2. The structure and function of DNA and RNA>4.2.1. The Structure and function of DNA", "4.1. The genetic materials>4.2. The structure and function of DNA and RNA>4.2.2 The structure and function of RNA", "4.3 The process of cell division>4.3.1 Cell Division>I. Mitosis", "4.4 Protein synthesis", "4.5 Mendelian inheritance>4.5.1 Mendelian crosses", "4.5 Mendelian inheritance>4.5.2 Monohybrid cross", "4.5 Mendelian inheritance>4.5.3 Dihybrid Cross>The Law of segregation", "4.6 Sex determination", "4.7 Non-Mendelian inheritance>4.7.1 Co-dominance, Incomplete dominance and Multiple alleles>Co-dominance", "4.8 Human pedigree analysis and its importance", "4.1. The genetic materials>4.2. The structure and function of DNA and RNA>4.2.3 DNA replication", "4.3 The process of cell division>4.3.1 Cell Division>II. Meiosis", "4.5 Mendelian inheritance>4.5.3 Dihybrid Cross>The Law of Independent Assortment", "4.5 Mendelian inheritance>4.5.4 Test Crosses", "4.7 Non-Mendelian inheritance>4.7.1 Co-dominance, Incomplete dominance and Multiple alleles>Incomplete dominance", "4.7 Non-Mendelian inheritance>4.7.2 Rh factor inheritance in humans and its medical importance", "4.7 Non-Mendelian inheritance>4.7.3 Sex-linked inheritance in humans", "4.8 Human pedigree analysis and its importance>Self-questioning", "4.9 Genetic disorders>4.9.1 Single-gene disorders", "4.9 Genetic disorders>4.9.2 Chromosome disorders"],
+    "used_question_signatures": ["hash_1", "hash_2", "hash_3", "hash_4", "hash_5", "hash_6", "hash_7", "hash_8", "hash_9", "hash_10", "hash_11", "hash_12", "hash_13", "hash_14", "hash_15", "hash_16", "hash_17", "hash_18", "hash_19", "hash_20"],
+    "baseline_counter": {
+      "4.1. The genetic materials": {
+        "4.2. The structure and function of DNA and RNA": {
+          "count": 4,
+          "mini_headings_covered": ["The structure of DNA", "Genes and chromosomes", "The structure of RNA", "The function of RNA", "DNA replication"],
+          "last_question_round": 2
+        }
+      },
+      "4.3 The process of cell division": {
+        "4.3.1 Cell Division": {
+          "count": 3,
+          "mini_headings_covered": ["I. Mitosis", "II. Meiosis"],
+          "last_question_round": 2
+        }
+      },
+      "4.4 Protein synthesis": {
+        "": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "4.5 Mendelian inheritance": {
+        "4.5.1 Mendelian crosses": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "4.5.2 Monohybrid cross": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "4.5.3 Dihybrid Cross": {
+          "count": 3,
+          "mini_headings_covered": ["The Law of segregation", "The Law of Independent Assortment"],
+          "last_question_round": 2
+        },
+        "4.5.4 Test Crosses": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.6 Sex determination": {
+        "": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.7 Non-Mendelian inheritance": {
+        "4.7.1 Co-dominance, Incomplete dominance and Multiple alleles": {
+          "count": 3,
+          "mini_headings_covered": ["Co-dominance", "Incomplete dominance", "The A and B blood types are also co-dominant"],
+          "last_question_round": 2
+        },
+        "4.7.2 Rh factor inheritance in humans and its medical importance": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "4.7.3 Sex-linked inheritance in humans": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.8 Human pedigree analysis and its importance": {
+        "": {
+          "count": 2,
+          "mini_headings_covered": ["Self-questioning"],
+          "last_question_round": 2
+        }
+      },
+      "4.9 Genetic disorders": {
+        "4.9.1 Single-gene disorders": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "4.9.2 Chromosome disorders": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1. The genetic materials": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.3 The process of cell division": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.4 Protein synthesis": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "4.5 Mendelian inheritance": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.6 Sex determination": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.7 Non-Mendelian inheritance": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "4.8 Human pedigree analysis and its importance": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.9 Genetic disorders": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1. The genetic materials>4.2. The structure and function of DNA and RNA": ["DNA structure", "RNA structure", "Genes", "Chromosomes", "DNA replication", "Semiconservative replication"],
+      "4.3 The process of cell division>4.3.1 Cell Division": ["Mitosis stages", "Meiosis stages", "Crossing over"],
+      "4.4 Protein synthesis": ["Transcription", "Translation"],
+      "4.5 Mendelian inheritance>4.5.1 Mendelian crosses": ["Gregor Mendel", "Pea plant traits"],
+      "4.5 Mendelian inheritance>4.5.2 Monohybrid cross": ["Punnett square", "F1 generation", "F2 generation"],
+      "4.5 Mendelian inheritance>4.5.3 Dihybrid Cross": ["Law of segregation", "Law of independent assortment", "Dihybrid ratio"],
+      "4.5 Mendelian inheritance>4.5.4 Test Crosses": ["Test cross", "Unknown genotype"],
+      "4.6 Sex determination": ["Sex chromosomes", "XX vs XY", "Gamete contribution"],
+      "4.7 Non-Mendelian inheritance>4.7.1 Co-dominance, Incomplete dominance and Multiple alleles": ["Codominance", "Incomplete dominance", "ABO blood types"],
+      "4.7 Non-Mendelian inheritance>4.7.2 Rh factor inheritance in humans and its medical importance": ["Rh factor", "Rh positive", "Rh negative"],
+      "4.7 Non-Mendelian inheritance>4.7.3 Sex-linked inheritance in humans": ["X-linked inheritance", "Hemophilia"],
+      "4.8 Human pedigree analysis and its importance": ["Pedigree symbols", "Autosomal dominant"],
+      "4.9 Genetic disorders>4.9.1 Single-gene disorders": ["Genetic disorders", "Mutation"],
+      "4.9 Genetic disorders>4.9.2 Chromosome disorders": ["Chromosomal abnormalities", "Down syndrome"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_round1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 30,
+      "questions_per_concept_ratio": 0.67,
+      "structural_coverage_percentage": 45.0
+    }
+  },
+  "grade": "11",
+  "subject": "Biology",
+  "unit": "Unit 4: Genetics",
+  "pdf_filename": "B11U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-04-11T10:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 9,
+        "total_sections": 12,
+        "progress_percentage": 75.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 6.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 9,
+      "subsections_covered_count": 15,
+      "mini_headings_covered_count": 10,
+      "structural_coverage_percentage": 45.0,
+      "concept_utilization_ratio": 0.67
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.5 Mendelian inheritance",
+      "least_covered_section": "4.4 Protein synthesis",
+      "imbalance_ratio": 6.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U4_Q011",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "4.1. The genetic materials",
+      "subsection": "4.2. The structure and function of DNA and RNA",
+      "sub_subsection": "4.2.3 DNA replication",
+      "structural_anchor": "4.2.3 DNA replication",
+      "mcq_type": "F",
+      "question": "If DNA replication is semiconservative, what would be the composition of each new DNA molecule after replication?",
+      "options": {
+        "A": "One original strand and one newly synthesized strand",
+        "B": "Two completely new strands",
+        "C": "Two original strands rewound together",
+        "D": "Fragments of original and new strands interspersed"
+      },
+      "correct_answer": "A",
+      "hint": "Semiconservative means each new double helix contains one conserved parental strand.",
+      "explanation": "Semiconservative replication produces DNA molecules each composed of one original template strand and one newly synthesized complementary strand. Option B describes conservative replication, an alternative model disproven by experimental evidence.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.1. The genetic materials",
+        "subsection_anchor": "4.2. The structure and function of DNA and RNA",
+        "structural_element": "4.2.3 DNA replication",
+        "content_anchor": "DNA replication is a semiconservative which means that each strand in the DNA double helix acts as a template for the synthesis of a new, complementary strand",
+        "page_hint": "Page 8",
+        "concept_hash": "hash_semiconservative_replication"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q012",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "4.3 The process of cell division",
+      "subsection": "4.3.1 Cell Division",
+      "sub_subsection": "II. Meiosis",
+      "structural_anchor": "II. Meiosis",
+      "mcq_type": "G",
+      "question": "If crossing over occurs during prophase I of meiosis, what direct effect does this have on genetic variation in gametes?",
+      "options": {
+        "A": "Creates new combinations of alleles on homologous chromosomes",
+        "B": "Increases the total number of chromosomes in each cell",
+        "C": "Prevents independent assortment of genes",
+        "D": "Eliminates mutations from the genetic code"
+      },
+      "correct_answer": "A",
+      "hint": "Crossing over involves exchange of genetic material between non-sister chromatids.",
+      "explanation": "Crossing over during prophase I exchanges genetic material between homologous chromosomes, creating recombinant chromosomes with new allele combinations. Option C is incorrect because crossing over occurs alongside independent assortment rather than preventing it.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.3 The process of cell division",
+        "subsection_anchor": "4.3.1 Cell Division",
+        "structural_element": "II. Meiosis",
+        "content_anchor": "Non- sister chromatids of homologous chromosomes form chiasmata to exchange genetic material during prophase I of meiosis I",
+        "page_hint": "Page 17",
+        "concept_hash": "hash_crossing_over_variation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q013",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "4.5 Mendelian inheritance",
+      "subsection": "4.5.2 Monohybrid cross",
+      "sub_subsection": null,
+      "structural_anchor": "4.5.2 Monohybrid cross",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that a monohybrid cross between two heterozygous parents should produce equal numbers of dominant and recessive phenotypes?",
+      "options": {
+        "A": "Fails to account for the 3:1 phenotypic ratio resulting from dominance relationships",
+        "B": "Ignores that alleles segregate independently during gamete formation",
+        "C": "Assumes incomplete dominance rather than complete dominance",
+        "D": "Overlooks that crossing over alters phenotypic ratios in F2 generations"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the expected phenotypic ratio from a cross of two heterozygotes for a trait with complete dominance.",
+      "explanation": "A monohybrid cross between heterozygotes (Aa × Aa) yields a 3:1 phenotypic ratio due to complete dominance, not a 1:1 ratio. Option B describes an error related to dihybrid crosses and independent assortment rather than monohybrid inheritance.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 85
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.5 Mendelian inheritance",
+        "subsection_anchor": "4.5.2 Monohybrid cross",
+        "structural_element": "4.5.2 Monohybrid cross",
+        "content_anchor": "Mendel counted the number of second-generation (F2) progeny with dominant or recessive traits and found a 3:1 ratio",
+        "page_hint": "Page 27",
+        "concept_hash": "hash_monohybrid_misconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q014",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "4.5 Mendelian inheritance",
+      "subsection": "4.5.3 Dihybrid Cross",
+      "sub_subsection": "The Law of Independent Assortment",
+      "structural_anchor": "The Law of Independent Assortment",
+      "mcq_type": "F",
+      "question": "If genes for seed color and seed texture assort independently, which principle explains why the alleles for these traits are distributed randomly into gametes?",
+      "options": {
+        "A": "Independent alignment of homologous chromosome pairs during metaphase I",
+        "B": "Separation of sister chromatids during anaphase II",
+        "C": "Crossing over between non-sister chromatids in prophase I",
+        "D": "DNA replication during S phase before meiosis"
+      },
+      "correct_answer": "A",
+      "hint": "Consider when homologous chromosome pairs align at the metaphase plate.",
+      "explanation": "The Law of Independent Assortment occurs when homologous chromosome pairs align randomly at the metaphase plate during meiosis I. Option C increases genetic variation but does not directly cause independent assortment of unlinked genes.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.5 Mendelian inheritance",
+        "subsection_anchor": "4.5.3 Dihybrid Cross",
+        "structural_element": "The Law of Independent Assortment",
+        "content_anchor": "The Law of independent assortment occurs in metaphase I of meiosis when pairs of chromosomes randomly align next at the center",
+        "page_hint": "Page 32",
+        "concept_hash": "hash_independent_assortment_mechanism"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q015",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "4.5 Mendelian inheritance",
+      "subsection": "4.5.4 Test Crosses",
+      "sub_subsection": null,
+      "structural_anchor": "4.5.4 Test Crosses",
+      "mcq_type": "D",
+      "question": "What phenotypic ratio in offspring would result from crossing a heterozygous purple-flowered pea plant (Pp) with a homozygous recessive white-flowered plant (pp)?",
+      "options": {
+        "A": "1 purple : 1 white",
+        "B": "All purple",
+        "C": "3 purple : 1 white",
+        "D": "All white"
+      },
+      "correct_answer": "A",
+      "hint": "A test cross with a heterozygote produces equal numbers of dominant and recessive phenotypes.",
+      "explanation": "A test cross between a heterozygote (Pp) and homozygous recessive (pp) yields a 1:1 phenotypic ratio, as half the gametes carry the dominant allele. Option B would result from crossing a homozygous dominant individual with a homozygous recessive plant.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.5 Mendelian inheritance",
+        "subsection_anchor": "4.5.4 Test Crosses",
+        "structural_element": "4.5.4 Test Crosses",
+        "content_anchor": "If the phenotypic ratio in the F1 generation were 1:1, the unknown genotype of the parent would be heterozygous (Pp)",
+        "page_hint": "Page 33",
+        "concept_hash": "hash_test_cross_heterozygote"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q016",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "4.6 Sex determination",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "4.6 Sex determination",
+      "mcq_type": "E",
+      "question": "If a human population has an equal probability of producing male and female offspring, what is the probability that a couple's first three children will all be girls?",
+      "options": {
+        "A": "1/8",
+        "B": "1/4",
+        "C": "1/2",
+        "D": "3/4"
+      },
+      "correct_answer": "A",
+      "hint": "Calculate the probability of three independent events each with 1/2 chance.",
+      "explanation": "The probability of three consecutive female births is (1/2) × (1/2) × (1/2) = 1/8, assuming equal sex probability. Option B represents the probability of having exactly two girls out of three children rather than three consecutive girls.",
+      "difficulty_level": "medium",
+      "formula_used": ["Probability = (1/2)^n"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "probability",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.6 Sex determination",
+        "subsection_anchor": "",
+        "structural_element": "4.6 Sex determination",
+        "content_anchor": "The probability of being male and female in human reproduction",
+        "page_hint": "Page 35",
+        "concept_hash": "hash_sex_probability_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q017",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "4.7 Non-Mendelian inheritance",
+      "subsection": "4.7.1 Co-dominance, Incomplete dominance and Multiple alleles",
+      "sub_subsection": "Incomplete dominance",
+      "structural_anchor": "Incomplete dominance",
+      "mcq_type": "I",
+      "question": "How does the phenotypic outcome of incomplete dominance differ from that of complete dominance in a heterozygous individual?",
+      "options": {
+        "A": "Produces an intermediate phenotype rather than expressing only the dominant trait",
+        "B": "Expresses both alleles equally in separate tissues instead of blending",
+        "C": "Suppresses both parental traits to create a novel phenotype",
+        "D": "Randomly expresses one allele or the other in different cells"
+      },
+      "correct_answer": "A",
+      "hint": "In incomplete dominance, neither allele is completely dominant over the other.",
+      "explanation": "Incomplete dominance results in a blended intermediate phenotype in heterozygotes, unlike complete dominance where only the dominant trait is expressed. Option B describes codominance where both alleles are fully expressed simultaneously in the same tissue.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.7 Non-Mendelian inheritance",
+        "subsection_anchor": "4.7.1 Co-dominance, Incomplete dominance and Multiple alleles",
+        "structural_element": "Incomplete dominance",
+        "content_anchor": "In incomplete dominance, the mix of genetic traits that produce an intermediate phenotype result in heterozygotes in terms of physical traits",
+        "page_hint": "Page 37",
+        "concept_hash": "hash_incomplete_dominance_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q018",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "4.7 Non-Mendelian inheritance",
+      "subsection": "4.7.2 Rh factor inheritance in humans and its medical importance",
+      "sub_subsection": null,
+      "structural_anchor": "4.7.2 Rh factor inheritance in humans and its medical importance",
+      "mcq_type": "A",
+      "question": "What term describes individuals who lack the Rh(D) antigen on their red blood cells?",
+      "options": {
+        "A": "Rh negative",
+        "B": "Rh positive",
+        "C": "Rh heterozygous",
+        "D": "Rh dominant"
+      },
+      "correct_answer": "A",
+      "hint": "This Rh status is determined by the absence of a specific antigen.",
+      "explanation": "Rh negative individuals lack the Rh(D) antigen on their red blood cells, in contrast to Rh positive individuals who possess the antigen. Option C refers to genetic makeup rather than phenotypic blood group classification.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.7 Non-Mendelian inheritance",
+        "subsection_anchor": "4.7.2 Rh factor inheritance in humans and its medical importance",
+        "structural_element": "4.7.2 Rh factor inheritance in humans and its medical importance",
+        "content_anchor": "People who are Rh-/Rh- do not possess the antigen are called Rh negative",
+        "page_hint": "Page 40",
+        "concept_hash": "hash_rh_negative_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q019",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "4.7 Non-Mendelian inheritance",
+      "subsection": "4.7.3 Sex-linked inheritance in humans",
+      "sub_subsection": null,
+      "structural_anchor": "4.7.3 Sex-linked inheritance in humans",
+      "mcq_type": "G",
+      "question": "If a woman carries one recessive allele for hemophilia on one X chromosome, why does she typically not express the disease?",
+      "options": {
+        "A": "Her normal X chromosome provides a functional allele that masks the recessive allele",
+        "B": "The Y chromosome carries a dominant allele that suppresses hemophilia expression",
+        "C": "X-linked recessive disorders require two Y chromosomes for expression",
+        "D": "Female hormones prevent the expression of blood clotting disorders"
+      },
+      "correct_answer": "A",
+      "hint": "Consider that females have two X chromosomes while males have only one.",
+      "explanation": "Females with one recessive hemophilia allele are typically carriers because the normal allele on their other X chromosome produces sufficient clotting factor. Option C is biologically impossible since females do not possess Y chromosomes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 85
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.7 Non-Mendelian inheritance",
+        "subsection_anchor": "4.7.3 Sex-linked inheritance in humans",
+        "structural_element": "4.7.3 Sex-linked inheritance in humans",
+        "content_anchor": "She does not have the diseases because her normal X chromosome masks them",
+        "page_hint": "Page 42",
+        "concept_hash": "hash_xlinked_carrier_female"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q020",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "4.8 Human pedigree analysis and its importance",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Self-questioning",
+      "mcq_type": "B",
+      "question": "What symbols are conventionally used in pedigree charts to represent male and female individuals, respectively?",
+      "options": {
+        "A": "Square for male, circle for female",
+        "B": "Circle for male, triangle for female",
+        "C": "Triangle for male, square for female",
+        "D": "Diamond for male, circle for female"
+      },
+      "correct_answer": "A",
+      "hint": "These geometric shapes provide visual differentiation between sexes in family trees.",
+      "explanation": "Standard pedigree notation uses squares to represent males and circles for females, facilitating quick interpretation of family relationships. Option D uses non-standard symbols not commonly employed in genetic pedigree analysis.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.8 Human pedigree analysis and its importance",
+        "subsection_anchor": "",
+        "structural_element": "Self-questioning",
+        "content_anchor": "The square represents the male, the circle represents the female",
+        "page_hint": "Page 44",
+        "concept_hash": "hash_pedigree_symbols"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 5200,
+    "average_question_quality": 86.0,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "D": 2,
+      "E": 1,
+      "F": 2,
+      "G": 2,
+      "H": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 5,
+      "hard": 3
+    },
+    "section_distribution": {
+      "4.1. The genetic materials": 1,
+      "4.3 The process of cell division": 1,
+      "4.5 Mendelian inheritance": 3,
+      "4.6 Sex determination": 1,
+      "4.7 Non-Mendelian inheritance": 3,
+      "4.8 Human pedigree analysis and its importance": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

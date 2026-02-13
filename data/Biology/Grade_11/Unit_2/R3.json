@@ -1,0 +1,875 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-20T10:20:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G11_Bio_U2_Q030",
+    "covered_sections": ["2.1. Characteristics of animals>(unnumbered subsection)", "2.2. Invertebrates and Vertebrates>2.2.1 Invertebrate Animals", "2.2. Invertebrates and Vertebrates>2.2.2 Vertebrate Animals", "2.3 Reproduction in Animals>2.3.1. Asexual reproduction in animals", "2.3 Reproduction in Animals>2.3.2 Sexual reproduction in animals", "2.3 Reproduction in Animals>2.3.3 Reproduction in insects (complete and incomplete metamorphosis)", "2.3 Reproduction in Animals>2.3.4 Reproduction in Frog", "2.3 Reproduction in Animals>2.3.5 Reproduction in Crocodiles", "2.3 Reproduction in Animals>2.3.6 Reproduction in Birds", "2.3 Reproduction in Animals>2.3.7 Reproduction in rat", "2.4 The economic importance of animals (insects)>2.4.1 Beneficial aspects of insects", "2.4 The economic importance of animals (insects)>2.4.2 Harmful aspects of insects", "2.5 Animal Behavior>2.5.1 Types of Animal Behavior", "2.5 Animal Behavior>2.5.2 Patterns of Behavior", "2.6 Homeostasis in animals>2.6.1 Thermoregulation", "2.6 Homeostasis in animals>2.6.2 Osmoregulation", "2.6 Homeostasis in animals>2.6.4 Control of homeostasis", "2.7 Renowned zoologists in Ethiopia>(unnumbered subsection)"],
+    "used_question_signatures": ["hash_A_animal_characteristics_list", "hash_B_heterotroph_definition", "hash_C_eukaryotic_characteristic", "hash_D_backbone_vertebrate", "hash_F_exoskeleton_invertebrate", "hash_G_sexual_offspring_genetics", "hash_H_asexual_single_parent", "hash_I_vertebrate_invertebrate_compare", "hash_J_vertebrate_classification", "hash_K_invertebrate_habitat", "hash_A_metamorphosis_stage", "hash_B_insect_pollinator", "hash_D_frog_external_fert", "hash_E_calc_surface_volume", "hash_F_concept_innate_behavior", "hash_G_cause_thermoregulation", "hash_H_misconception_blood_sugar", "hash_I_compare_fertilization", "hash_J_classify_behavior", "hash_K_interpret_economic_importance", "hash_B_crocodile_internal_fert", "hash_C_bird_oviduct_part", "hash_D_rat_gestation_period", "hash_E_numeric_osmoregulation", "hash_F_concept_negative_feedback", "hash_G_cause_locust_damage", "hash_H_misconception_poikilotherm", "hash_I_compare_social_behavior", "hash_J_classify_pattern_behavior", "hash_L_experimental_zoology_ethiopia"],
+    "baseline_counter": {
+      "2.1. Characteristics of animals": {
+        "(unnumbered subsection)": {
+          "count": 3,
+          "mini_headings_covered": ["Self-questioning:", "Animals are eukaryotic, multicellular, heterotrophic, and sensitive to stimuli; and they reproduce, protect themselves, move, respire, excrete, grow, and have different body symmetries."],
+          "last_question_round": 1
+        }
+      },
+      "2.2. Invertebrates and Vertebrates": {
+        "2.2.1 Invertebrate Animals": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.2.2 Vertebrate Animals": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "2.3 Reproduction in Animals": {
+        "2.3.1. Asexual reproduction in animals": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.3.2 Sexual reproduction in animals": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.3.3 Reproduction in insects (complete and incomplete metamorphosis)": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "2.3.4 Reproduction in Frog": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "2.3.5 Reproduction in Crocodiles": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "2.3.6 Reproduction in Birds": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "2.3.7 Reproduction in rat": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "2.4 The economic importance of animals (insects)": {
+        "2.4.1 Beneficial aspects of insects": {
+          "count": 3,
+          "mini_headings_covered": ["A. Agriculture", "B. Food"],
+          "last_question_round": 2
+        },
+        "2.4.2 Harmful aspects of insects": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "2.5 Animal Behavior": {
+        "2.5.1 Types of Animal Behavior": {
+          "count": 3,
+          "mini_headings_covered": ["Innate or inherent behavior"],
+          "last_question_round": 2
+        },
+        "2.5.2 Patterns of Behavior": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "2.6 Homeostasis in animals": {
+        "2.6.1 Thermoregulation": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.6.2 Osmoregulation": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "2.6.3 Blood Sugar Regulation": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.6.4 Control of homeostasis": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "2.7 Renowned zoologists in Ethiopia": {
+        "(unnumbered subsection)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1. Characteristics of animals": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.2. Invertebrates and Vertebrates": {
+        "question_count": 8,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.3 Reproduction in Animals": {
+        "question_count": 12,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "2.4 The economic importance of animals (insects)": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "2.5 Animal Behavior": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "2.6 Homeostasis in animals": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "2.7 Renowned zoologists in Ethiopia": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1. Characteristics of animals>(unnumbered subsection)": ["Animal Characteristics List", "Heterotroph", "Eukaryotic Multicellular"],
+      "2.2. Invertebrates and Vertebrates>2.2.1 Invertebrate Animals": ["Lack Backbone", "Exoskeleton", "Cold-blooded", "Diverse Habitat"],
+      "2.2. Invertebrates and Vertebrates>2.2.2 Vertebrate Animals": ["Presence of Backbone", "Complex Organ Systems", "Internal Skeleton", "Closed Circulatory System"],
+      "2.3 Reproduction in Animals>2.3.1. Asexual reproduction in animals": ["Single Parent", "No Gamete Fusion"],
+      "2.3 Reproduction in Animals>2.3.2 Sexual reproduction in animals": ["Two Parents", "Gamete Fusion", "Genetic Variation"],
+      "2.3 Reproduction in Animals>2.3.3 Reproduction in insects (complete and incomplete metamorphosis)": ["Metamorphosis Stages", "Complete vs Incomplete"],
+      "2.3 Reproduction in Animals>2.3.4 Reproduction in Frog": ["External Fertilization", "Jelly-like Substance"],
+      "2.3 Reproduction in Animals>2.3.5 Reproduction in Crocodiles": ["Internal Fertilization", "Leathery Eggs"],
+      "2.3 Reproduction in Animals>2.3.6 Reproduction in Birds": ["Oviduct Parts", "Internal Fertilization", "Amniotic Egg"],
+      "2.3 Reproduction in Animals>2.3.7 Reproduction in rat": ["Gestation Period", "Internal Development", "Placenta"],
+      "2.4 The economic importance of animals (insects)>2.4.1 Beneficial aspects of insects": ["Pollination", "Food Source", "Economic Value"],
+      "2.4 The economic importance of animals (insects)>2.4.2 Harmful aspects of insects": ["Crop Pest", "Disease Vector"],
+      "2.5 Animal Behavior>2.5.1 Types of Animal Behavior": ["Innate Behavior", "Learned Behavior"],
+      "2.5 Animal Behavior>2.5.2 Patterns of Behavior": ["Social Behavior", "Territoriality"],
+      "2.6 Homeostasis in animals>2.6.1 Thermoregulation": ["Poikilotherm", "Homeotherm", "Vasodilation", "Surface Area to Volume"],
+      "2.6 Homeostasis in animals>2.6.2 Osmoregulation": ["Kidney Function", "ADH hormone"],
+      "2.6 Homeostasis in animals>2.6.4 Control of homeostasis": ["Negative Feedback", "Set Point"],
+      "2.7 Renowned zoologists in Ethiopia>(unnumbered subsection)": ["Zoology Research", "Scientific Contribution"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_previous_R02_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 36,
+      "questions_per_concept_ratio": 0.83,
+      "structural_coverage_percentage": 59.1
+    }
+  },
+  "grade": "11",
+  "subject": "Biology",
+  "unit": "Unit 2: Animals",
+  "pdf_filename": "B11U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-20T10:25:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 7,
+        "total_sections": 7,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 7,
+      "subsections_covered_count": 18,
+      "mini_headings_covered_count": 5,
+      "structural_coverage_percentage": 72.7,
+      "concept_utilization_ratio": 0.83
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.3 Reproduction in Animals",
+      "least_covered_section": "2.7 Renowned zoologists in Ethiopia",
+      "imbalance_ratio": 12.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U2_Q021",
+      "generation_timestamp": "2025-01-20T10:20:05Z",
+      "section": "2.3 Reproduction in Animals",
+      "subsection": "2.3.5 Reproduction in Crocodiles",
+      "sub_subsection": null,
+      "structural_anchor": "They have internal fertilization.",
+      "mcq_type": "B",
+      "question": "In crocodiles, the fusion of sperm and egg typically occurs within which part of the female's reproductive tract?",
+      "options": {
+        "A": "In the external aquatic environment after egg deposition",
+        "B": "Inside the female's body prior to egg laying",
+        "C": "Within the protective jelly coating after the egg is laid",
+        "D": "In a specialized nest chamber constructed by the male"
+      },
+      "correct_answer": "B",
+      "hint": "This type of fertilization requires direct transfer of sperm from male to female.",
+      "explanation": "Crocodiles exhibit internal fertilization, where sperm are deposited inside the female's reproductive tract, and fertilization occurs before the shelled eggs are laid. Option A describes external fertilization, which is characteristic of frogs, not crocodiles.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.3 Reproduction in Animals",
+        "subsection_anchor": "2.3.5 Reproduction in Crocodiles",
+        "structural_element": "They have internal fertilization.",
+        "content_anchor": "internal fertilization",
+        "page_hint": "Page 14",
+        "concept_hash": "hash_B_crocodile_internal_fert"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 86,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q022",
+      "generation_timestamp": "2025-01-20T10:20:15Z",
+      "section": "2.3 Reproduction in Animals",
+      "subsection": "2.3.6 Reproduction in Birds",
+      "sub_subsection": null,
+      "structural_anchor": "The oviduct consists of the infundibulum, magnum, isthmus, uterus, and vagina (Table 1).",
+      "mcq_type": "C",
+      "question": "In which specific region of the bird oviduct is the egg white (albumen) secreted and deposited around the yolk?",
+      "options": {
+        "A": "Infundibulum",
+        "B": "Magnum",
+        "C": "Isthmus",
+        "D": "Uterus"
+      },
+      "correct_answer": "B",
+      "hint": "This part is described as the longest section of the oviduct responsible for albumen secretion.",
+      "explanation": "The magnum is the longest part of the oviduct where glands secrete the albumen, or egg white, around the yolk. Option C, the isthmus, is where the shell membranes are formed.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.3 Reproduction in Animals",
+        "subsection_anchor": "2.3.6 Reproduction in Birds",
+        "structural_element": "The oviduct consists of the infundibulum, magnum, isthmus, uterus, and vagina (Table 1).",
+        "content_anchor": "Magnum • Secretion of albumen",
+        "page_hint": "Page 16",
+        "concept_hash": "hash_C_bird_oviduct_part"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 89,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q023",
+      "generation_timestamp": "2025-01-20T10:20:25Z",
+      "section": "2.3 Reproduction in Animals",
+      "subsection": "2.3.7 Reproduction in rat",
+      "sub_subsection": null,
+      "structural_anchor": "The average pregnancy time or gestation period of a rat varies depending on the species.",
+      "mcq_type": "D",
+      "question": "What is the approximate gestation period for a brown rat (Rattus norvegicus) from fertilization to birth?",
+      "options": {
+        "A": "10-12 days",
+        "B": "22-24 days",
+        "C": "37-49 days",
+        "D": "60-70 days"
+      },
+      "correct_answer": "B",
+      "hint": "This period is relatively short, characteristic of small rodents.",
+      "explanation": "The gestation period for a brown rat is typically 22 to 24 days. Option C describes the longer gestation period of the Giant Mole Rat, which is an exception among rats.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": "days",
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.3 Reproduction in Animals",
+        "subsection_anchor": "2.3.7 Reproduction in rat",
+        "structural_element": "The average pregnancy time or gestation period of a rat varies depending on the species.",
+        "content_anchor": "gestation period for a brown rat is 22 to 24 days",
+        "page_hint": "Page 21",
+        "concept_hash": "hash_D_rat_gestation_period"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 92,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q024",
+      "generation_timestamp": "2025-01-20T10:20:35Z",
+      "section": "2.6 Homeostasis in animals",
+      "subsection": "2.6.2 Osmoregulation",
+      "sub_subsection": null,
+      "structural_anchor": "When the water level in the body is high, the kidney releases a large amount of hypotonic urine. When the water level is low, It retains water and produces a low amount of hypertonic urine.",
+      "mcq_type": "E",
+      "question": "If a human consumes 1 liter of pure water, leading to a decrease in blood osmolarity, what is the expected change in urine output and concentration?",
+      "options": {
+        "A": "Urine volume decreases, and urine becomes more concentrated.",
+        "B": "Urine volume increases, and urine becomes more dilute.",
+        "C": "Urine volume stays the same, but urea concentration increases.",
+        "D": "Urine volume decreases, and urine becomes more dilute."
+      },
+      "correct_answer": "B",
+      "hint": "The body will excrete the excess water to restore normal blood concentration.",
+      "explanation": "Ingesting excess water dilutes body fluids. To restore homeostasis, the kidneys excrete a larger volume of dilute (hypotonic) urine. This involves reduced secretion of Antidiuretic Hormone (ADH). Option A describes the body's response to dehydration, not overhydration.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.6 Homeostasis in animals",
+        "subsection_anchor": "2.6.2 Osmoregulation",
+        "structural_element": "When the water level in the body is high, the kidney releases a large amount of hypotonic urine. When the water level is low, It retains water and produces a low amount of hypertonic urine.",
+        "content_anchor": "large amount of hypotonic urine",
+        "page_hint": "Page 42",
+        "concept_hash": "hash_E_numeric_osmoregulation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q025",
+      "generation_timestamp": "2025-01-20T10:20:45Z",
+      "section": "2.6 Homeostasis in animals",
+      "subsection": "2.6.4 Control of homeostasis",
+      "sub_subsection": null,
+      "structural_anchor": "Negative feedback mechanism is a homeostatic process that reverses the direction of the stimulus or any deviation from the normal.",
+      "mcq_type": "F",
+      "question": "Under the condition that a system detects a deviation from a physiological set point, which reasoning best explains the function of a negative feedback mechanism?",
+      "options": {
+        "A": "It amplifies the initial change to drive the system toward a new, stable state.",
+        "B": "It initiates a series of responses that counteract the change to restore the original set point.",
+        "C": "It deactivates all regulatory sensors to prevent further disturbance to the system.",
+        "D": "It memorizes the new condition as the normal set point for future reference."
+      },
+      "correct_answer": "B",
+      "hint": "Consider a control system designed for stability and resistance to change.",
+      "explanation": "Negative feedback mechanisms are stabilizing; they sense a deviation and trigger responses that oppose that deviation, returning the system to its set point. Option A describes positive feedback, which amplifies changes away from the set point.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.6 Homeostasis in animals",
+        "subsection_anchor": "2.6.4 Control of homeostasis",
+        "structural_element": "Negative feedback mechanism is a homeostatic process that reverses the direction of the stimulus or any deviation from the normal.",
+        "content_anchor": "reverses the direction of the stimulus",
+        "page_hint": "Page 45",
+        "concept_hash": "hash_F_concept_negative_feedback"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q026",
+      "generation_timestamp": "2025-01-20T10:20:55Z",
+      "section": "2.4 The economic importance of animals (insects)",
+      "subsection": "2.4.2 Harmful aspects of insects",
+      "sub_subsection": null,
+      "structural_anchor": "Locusts are among the most destructive of all insect pests.",
+      "mcq_type": "G",
+      "question": "If a large swarm of desert locusts consumes most of the green vegetation in a region, what is the most direct consequence for local agriculture?",
+      "options": {
+        "A": "Increased soil fertility due to the rapid decomposition of plant matter.",
+        "B": "A dramatic reduction in crop yield and potential food shortages.",
+        "C": "Enhanced pollination services from other insect species moving into the area.",
+        "D": "Long-term improvement in crop resistance to future pest outbreaks."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the immediate impact of losing the edible parts of cultivated plants.",
+      "explanation": "Locust swarms devour leaves, stems, and flowers of crops, leading to near-total harvest loss and severe food insecurity. Option A incorrectly suggests a benefit; while decomposition occurs, the immediate agricultural loss is catastrophic.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.4 The economic importance of animals (insects)",
+        "subsection_anchor": "2.4.2 Harmful aspects of insects",
+        "structural_element": "Locusts are among the most destructive of all insect pests.",
+        "content_anchor": "destructive of all insect pests",
+        "page_hint": "Page 28",
+        "concept_hash": "hash_G_cause_locust_damage"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q027",
+      "generation_timestamp": "2025-01-20T10:21:05Z",
+      "section": "2.6 Homeostasis in animals",
+      "subsection": "2.6.1 Thermoregulation",
+      "sub_subsection": null,
+      "structural_anchor": "Poikilothermic animals, also known as ectothermic animals, lack internal control over their body temperature.",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that a poikilothermic animal, like a lizard, is always colder than its homeothermic surroundings?",
+      "options": {
+        "A": "It assumes poikilotherms cannot behaviorally regulate their body temperature.",
+        "B": "It overlooks that a lizard basking in the sun can have a body temperature warmer than the air.",
+        "C": "It confuses the source of body heat with the ability to maintain a constant temperature.",
+        "D": "It ignores that homeotherms also experience fluctuations in core body temperature."
+      },
+      "correct_answer": "B",
+      "hint": "Consider how a reptile uses external heat sources.",
+      "explanation": "Poikilotherms rely on external heat sources. A lizard basking in direct sunlight can achieve a body temperature significantly higher than the ambient air temperature. The reasoning error is assuming their temperature always matches the immediate air temperature. Option C misidentifies the core error, which is about a specific temperature comparison, not the general heat source.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.6 Homeostasis in animals",
+        "subsection_anchor": "2.6.1 Thermoregulation",
+        "structural_element": "Poikilothermic animals, also known as ectothermic animals, lack internal control over their body temperature.",
+        "content_anchor": "body temperature of these organisms is generally similar to the temperature of the environment",
+        "page_hint": "Page 37",
+        "concept_hash": "hash_H_misconception_poikilotherm"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q028",
+      "generation_timestamp": "2025-01-20T10:21:15Z",
+      "section": "2.5 Animal Behavior",
+      "subsection": "2.5.2 Patterns of Behavior",
+      "sub_subsection": null,
+      "structural_anchor": "Social behaviour: it is the behavioral pattern of animals commonly observed in that live in groups.",
+      "mcq_type": "I",
+      "question": "How do the potential benefits of social behavior for insects like ants typically compare to the benefits for solitary insects?",
+      "options": {
+        "A": "Social insects gain no reproductive advantage but have improved individual foraging efficiency.",
+        "B": "Social organization allows for division of labor, enhancing colony survival and efficiency.",
+        "C": "Solitary insects always have longer lifespans due to reduced competition within the nest.",
+        "D": "The primary benefit for social insects is reduced need for communication compared to solitary species."
+      },
+      "correct_answer": "B",
+      "hint": "Consider how tasks are distributed among different colony members (queens, workers, soldiers).",
+      "explanation": "Social insects like ants exhibit division of labor, where specialized castes perform specific tasks (e.g., foraging, defense, brood care), increasing the overall efficiency and resilience of the colony. Option A is incorrect because sociality often confers significant reproductive success for the colony as a whole.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.5 Animal Behavior",
+        "subsection_anchor": "2.5.2 Patterns of Behavior",
+        "structural_element": "Social behaviour: it is the behavioral pattern of animals commonly observed in that live in groups.",
+        "content_anchor": "division of labor",
+        "page_hint": "Page 34",
+        "concept_hash": "hash_I_compare_social_behavior"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q029",
+      "generation_timestamp": "2025-01-20T10:21:25Z",
+      "section": "2.5 Animal Behavior",
+      "subsection": "2.5.1 Types of Animal Behavior",
+      "sub_subsection": null,
+      "structural_anchor": "Territoriality it is behavioral pattern that involves protecting spaces by an animal from others.",
+      "mcq_type": "J",
+      "question": "Which of the following behaviors is most accurately classified as an example of territoriality?",
+      "options": {
+        "A": "A wolf pack cooperatively hunting a large deer.",
+        "B": "A male lion spraying pheromones to mark the boundaries of its pride's range.",
+        "C": "Monarch butterflies migrating thousands of kilometers to overwintering sites.",
+        "D": "A chimpanzee using a stick to extract termites from a mound."
+      },
+      "correct_answer": "B",
+      "hint": "Look for a behavior that defines and defends an area against others of the same species.",
+      "explanation": "Territoriality involves defending an area from intruders, often using signals like scent marking. Lion spraying is a classic territorial marker. Option A describes cooperative hunting, which is a social behavior, not primarily territorial defense.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.5 Animal Behavior",
+        "subsection_anchor": "2.5.1 Types of Animal Behavior",
+        "structural_element": "Territoriality it is behavioral pattern that involves protecting spaces by an animal from others.",
+        "content_anchor": "Male dogs and lions use pheromones in their urine to mark their territory",
+        "page_hint": "Page 35",
+        "concept_hash": "hash_J_classify_pattern_behavior"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 88,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q030",
+      "generation_timestamp": "2025-01-20T10:21:35Z",
+      "section": "2.7 Renowned zoologists in Ethiopia",
+      "subsection": "(unnumbered subsection)",
+      "sub_subsection": null,
+      "structural_anchor": "Zoology is the study of animals in relation to their evolution, anatomy, physiology, behavior, habitats and health.",
+      "mcq_type": "L",
+      "question": "A researcher spends years observing and recording the social structure, diet, and migration patterns of a rare primate species in its natural forest habitat. This work is best described as an example of which scientific approach?",
+      "options": {
+        "A": "Experimental laboratory physiology",
+        "B": "Field-based zoological research",
+        "C": "Theoretical evolutionary modeling",
+        "D": "Controlled biomedical testing"
+      },
+      "correct_answer": "B",
+      "hint": "The research involves direct observation of animals in their native environment.",
+      "explanation": "Field-based zoological research involves studying animals in their natural habitats to understand their behavior, ecology, and physiology. This contrasts with controlled laboratory experiments. Option A describes research conducted in an artificial, controlled setting.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.7 Renowned zoologists in Ethiopia",
+        "subsection_anchor": "(unnumbered subsection)",
+        "structural_element": "Zoology is the study of animals in relation to their evolution, anatomy, physiology, behavior, habitats and health.",
+        "content_anchor": "study of animals",
+        "page_hint": "Page 47",
+        "concept_hash": "hash_L_experimental_zoology_ethiopia"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 90000,
+    "average_question_quality": 85.3,
+    "type_distribution": {
+      "B": 2,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "2.3 Reproduction in Animals": 3,
+      "2.4 The economic importance of animals (insects)": 1,
+      "2.5 Animal Behavior": 2,
+      "2.6 Homeostasis in animals": 3,
+      "2.7 Renowned zoologists in Ethiopia": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

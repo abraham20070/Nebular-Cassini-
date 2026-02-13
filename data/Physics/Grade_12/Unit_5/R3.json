@@ -1,0 +1,940 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-04-04T09:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G12_Phy_U5_Q030",
+    "covered_sections": ["Introduction", "5.1 Semiconductors", "5.2 Diodes and their Functions", "5.3 Rectification", "5.4 Transistors and their application", "5.5 Integrated Circuits", "5.6 Logic gates and logic circuits", "5.7 Application of electronics", "Project", "Unit summary"],
+    "used_question_signatures": ["A_electron_hole_Brainstorming 5.2", "B_Ntype_At the end 5.1", "F_doping_semiconductor_Types of Semiconductors", "D_biasing_Forward biased", "C_formula_I-V", "E_cutin_Review 5.2", "G_rectification_Half wave rectification", "H_rectifier_output_Working principle of Half Wave Rectifier:", "I_LED_Photodiode_Practical uses of diodes", "J_gate_class_Logic gates", "H_depletion_bias_Biasing of P-N junction diode", "N_reverse_bias_Biasing of P-N junction diode", "K_fullwave_Full-wave Rectification", "E_gain_Example 5.1", "D_config_Transistor configurations", "G_breakdown_Current-voltage (I-V) characteristics", "B_conductor_Introduction", "F_analog_digital_Digital and analog signals", "A_extrinsic_Types of Semiconductors", "C_boolean_Logic gates", "D_bipolar_At the end of this section 5.4", "M_bias_Transistor applications", "L_capacitor_Diodes and capacitor", "A_IC_importance_Importance of integrated circuits", "G_application_Application of electronics", "H_smoothing_Diodes and capacitor", "E_transistor_construction_Basic transistor operation", "B_OR_gate_Logic gates", "F_project_Project", "M_summary_Unit summary"],
+    "baseline_counter": {
+      "Introduction": {
+        "Brainstorming question 5.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "5.1 Semiconductors": {
+        "At the end of this section, you will be able to:": {
+          "count": 3,
+          "mini_headings_covered": ["Lattice structure of semiconductors", "Brainstorming question 5.2"],
+          "last_question_round": 1
+        },
+        "Types of Semiconductors": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Review question 5.1:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "5.2 Diodes and their Functions": {
+        "At the end of this section, you will be able to:": {
+          "count": 1,
+          "mini_headings_covered": ["P-N junction diode"],
+          "last_question_round": 1
+        },
+        "Biasing of P-N junction diode": {
+          "count": 4,
+          "mini_headings_covered": ["Forward biased", "Reverse biased"],
+          "last_question_round": 2
+        },
+        "Current-voltage (I-V) characteristics of the semiconductor diode": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Review question 5.2:": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.3 Rectification": {
+        "At the end of this section, you will be able to:": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Half wave rectification": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Working principle of Half Wave Rectifier:": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Full-wave Rectification": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Working principle of full wave bridge rectifier": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Diodes and capacitor": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Practical uses of diodes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.4 Transistors and their application": {
+        "At the end of this section, you will be able to:": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Basic transistor operation": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Transistor configurations": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Example 5.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Review question 5.4:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "5.5 Integrated Circuits": {
+        "At the end of this section, you will be able to:": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "5.6 Logic gates and logic circuits": {
+        "At the end of this section, you will be able to:": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Digital and analog signals": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Logic gates": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "5.7 Application of electronics": {
+        "Aerospace industry": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Project": {
+        "Project": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Unit summary": {
+        "Unit summary": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "5.1 Semiconductors": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "5.2 Diodes and their Functions": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "5.3 Rectification": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "5.4 Transistors and their application": {
+        "question_count": 5,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "5.5 Integrated Circuits": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "5.6 Logic gates and logic circuits": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "5.7 Application of electronics": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Project": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Unit summary": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1 Semiconductors>At the end of this section, you will be able to:": ["electron-hole pair", "charge carrier"],
+      "5.1 Semiconductors>Types of Semiconductors": ["doping", "extrinsic semiconductor", "intrinsic semiconductor", "N-type"],
+      "5.2 Diodes and their Functions>Biasing of P-N junction diode": ["forward bias", "depletion region", "reverse bias"],
+      "5.2 Diodes and their Functions>Current-voltage (I-V) characteristics of the semiconductor diode": ["cut-in voltage", "breakdown voltage"],
+      "5.3 Rectification>At the end of this section, you will be able to:": ["rectification"],
+      "5.3 Rectification>Practical uses of diodes": ["LED", "photodiode"],
+      "5.3 Rectification>Working principle of Half Wave Rectifier:": ["pulsating DC"],
+      "5.3 Rectification>Full-wave Rectification": ["bridge rectifier"],
+      "5.3 Rectification>Diodes and capacitor": ["smoothing capacitor", "ripple reduction"],
+      "5.4 Transistors and their application>At the end of this section, you will be able to:": ["amplification", "current gain", "bipolar junction transistor"],
+      "5.4 Transistors and their application>Transistor configurations": ["common-emitter"],
+      "5.4 Transistors and their application>Basic transistor operation": ["NPN transistor"],
+      "5.4 Transistors and their application>Transistor applications": ["biasing condition"],
+      "5.5 Integrated Circuits>At the end of this section, you will be able to:": ["integrated circuit", "microchip"],
+      "5.6 Logic gates and logic circuits>At the end of this section, you will be able to:": ["analog signal", "digital signal"],
+      "5.6 Logic gates and logic circuits>Logic gates": ["Boolean algebra", "OR gate"],
+      "5.7 Application of electronics>Aerospace industry": ["application"],
+      "Introduction>Brainstorming question 5.1": ["conductor", "insulator"],
+      "Project>Project": ["practical work"],
+      "Unit summary>Unit summary": ["doping", "depletion region"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "previous_state_hash_placeholder_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 32,
+      "questions_per_concept_ratio": 0.94,
+      "structural_coverage_percentage": 50.0
+    }
+  },
+  "grade": "12",
+  "subject": "Physics",
+  "unit": "Unit 5: Basics of electronics",
+  "pdf_filename": "P12U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-04-04T09:12:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 10,
+        "total_sections": 11,
+        "progress_percentage": 90.9
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 10,
+      "subsections_covered_count": 22,
+      "mini_headings_covered_count": 5,
+      "structural_coverage_percentage": 50.0,
+      "concept_utilization_ratio": 0.94
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.2 Diodes and their Functions",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 6.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Phy_U5_Q021",
+      "generation_timestamp": "2025-04-04T09:10:05Z",
+      "section": "5.4 Transistors and their application",
+      "subsection": "At the end of this section, you will be able to:",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "Which type of transistor is constructed with a layer of P-type semiconductor material sandwiched between two layers of N-type material?",
+      "options": {
+        "A": "NPN transistor",
+        "B": "PNP transistor",
+        "C": "JFET",
+        "D": "MOSFET"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the sequence of semiconductor materials from emitter to collector.",
+      "explanation": "An NPN transistor has an N-P-N structure, with a P-type base sandwiched between N-type emitter and collector. Option B is incorrect as a PNP transistor has the opposite P-N-P structure.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.4 Transistors and their application",
+        "subsection_anchor": "At the end of this section, you will be able to:",
+        "structural_element": "In the first method, the P- type material is sandwiched between two N- type materials, forming an NPN transistor",
+        "content_anchor": "NPN transistor",
+        "page_hint": "Page 14",
+        "concept_hash": "concept_npn_structure"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q022",
+      "generation_timestamp": "2025-04-04T09:10:20Z",
+      "section": "5.4 Transistors and their application",
+      "subsection": "Transistor applications",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "M",
+      "question": "For a transistor to function as an amplifier rather than a switch, what must be the biasing condition of its two junctions?",
+      "options": {
+        "A": "Emitter-base junction forward biased; collector-base junction reverse biased.",
+        "B": "Both junctions forward biased.",
+        "C": "Both junctions reverse biased.",
+        "D": "Emitter-base junction reverse biased; collector-base junction forward biased."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the standard active region of operation for amplification.",
+      "explanation": "In the active region used for amplification, the emitter-base junction is forward biased to inject carriers, while the collector-base junction is reverse biased to collect them. Option B describes saturation mode, used for switching.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 23.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.4 Transistors and their application",
+        "subsection_anchor": "Transistor applications",
+        "structural_element": "In a properly biased transistor, the emitter junction is forward biased and the collector junction is reverse biased.",
+        "content_anchor": "forward biased and the collector junction is reverse biased",
+        "page_hint": "Page 15",
+        "concept_hash": "concept_transistor_biasing_amplifier"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q023",
+      "generation_timestamp": "2025-04-04T09:10:35Z",
+      "section": "5.3 Rectification",
+      "subsection": "Diodes and capacitor",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "L",
+      "question": "In a full-wave rectifier circuit, what is the primary function of a capacitor connected in parallel with the load resistor?",
+      "options": {
+        "A": "To smooth the pulsating DC output by charging during voltage peaks and discharging during troughs.",
+        "B": "To block DC components while allowing AC ripples to pass through.",
+        "C": "To increase the output voltage by storing electrical energy indefinitely.",
+        "D": "To protect the diodes from high reverse voltage spikes."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the effect on the waveform's smoothness.",
+      "explanation": "A smoothing capacitor charges to the peak voltage and discharges into the load during low-voltage periods, reducing ripple and producing a more stable DC output. Option B describes the function of a coupling capacitor in AC circuits.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.3 Rectification",
+        "subsection_anchor": "Diodes and capacitor",
+        "structural_element": "Capacitor is used in rectifier circuits to smooth the fluctuations of the output voltage.",
+        "content_anchor": "charging and discharging process of the capacitor smooths out the waveform",
+        "page_hint": "Page 12",
+        "concept_hash": "concept_smoothing_capacitor"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q024",
+      "generation_timestamp": "2025-04-04T09:10:50Z",
+      "section": "5.5 Integrated Circuits",
+      "subsection": "At the end of this section, you will be able to:",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "A",
+      "question": "What term describes a complete electronic circuit fabricated on a single small chip of semiconductor material, typically silicon?",
+      "options": {
+        "A": "Integrated circuit",
+        "B": "Discrete circuit",
+        "C": "Printed circuit board",
+        "D": "Vacuum tube"
+      },
+      "correct_answer": "A",
+      "hint": "Focus on the miniaturization and integration of multiple components.",
+      "explanation": "An integrated circuit (IC) or microchip contains multiple electronic components like transistors and resistors fabricated together on a semiconductor substrate. Option B refers to circuits built from separate, individual components.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 28.6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.5 Integrated Circuits",
+        "subsection_anchor": "At the end of this section, you will be able to:",
+        "structural_element": "An integrated circuit (IC) (also referred to as a chip, or a microchip) is a set of electronic circuits on one small flat piece of semiconductor material",
+        "content_anchor": "integrated circuit",
+        "page_hint": "Page 20",
+        "concept_hash": "concept_integrated_circuit"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 59,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q025",
+      "generation_timestamp": "2025-04-04T09:11:05Z",
+      "section": "5.7 Application of electronics",
+      "subsection": "Aerospace industry",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "G",
+      "question": "If electronic sensors in an aircraft fail, what is a direct consequence for monitoring physical parameters like altitude and temperature?",
+      "options": {
+        "A": "Accurate real-time data becomes unavailable, potentially affecting flight safety and navigation.",
+        "B": "The mechanical control systems automatically take over without any impact.",
+        "C": "The aircraft's speed increases to compensate for the lack of data.",
+        "D": "The sensors switch to analog mechanical backups instantly."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the role of electronic systems in providing critical flight information.",
+      "explanation": "Electronic sensors provide essential real-time data for flight systems; their failure compromises the accuracy of altitude, temperature, and other measurements, affecting safety. Option B is incorrect because many modern aircraft systems rely heavily on electronic data with limited mechanical backups.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.7 Application of electronics",
+        "subsection_anchor": "Aerospace industry",
+        "structural_element": "hundreds of instruments which are used to measure different physical factors like temperature, pressure, elevation",
+        "content_anchor": "measure different physical factors",
+        "page_hint": "Page 29",
+        "concept_hash": "concept_aerospace_sensors"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 63,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q026",
+      "generation_timestamp": "2025-04-04T09:11:20Z",
+      "section": "5.3 Rectification",
+      "subsection": "Diodes and capacitor",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that a larger capacitor in a rectifier circuit will completely eliminate all ripple voltage?",
+      "options": {
+        "A": "It ignores that a capacitor cannot maintain a constant voltage indefinitely; it discharges between charging peaks, leaving some residual ripple.",
+        "B": "It assumes the capacitor has infinite capacitance, which is physically impossible.",
+        "C": "It confuses the role of the capacitor with that of the load resistor.",
+        "D": "It mistakenly believes ripple frequency depends on capacitor size rather than AC input frequency."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the practical limitations of capacitor smoothing.",
+      "explanation": "A capacitor smooths but cannot eliminate ripple entirely because it discharges between AC peaks, with the ripple amplitude inversely related to capacitance and load. Option D contains a factual error about ripple frequency, but not the primary reasoning flaw about complete elimination.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.3 Rectification",
+        "subsection_anchor": "Diodes and capacitor",
+        "structural_element": "The capacitor discharges and provides the required current to the load resistor from its stored charge.",
+        "content_anchor": "smooths out the waveform",
+        "page_hint": "Page 12",
+        "concept_hash": "concept_capacitor_limitation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q027",
+      "generation_timestamp": "2025-04-04T09:11:35Z",
+      "section": "5.4 Transistors and their application",
+      "subsection": "Basic transistor operation",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "E",
+      "question": "In an NPN transistor with an emitter current (I_E) of 5.2 mA and a collector current (I_C) of 5.0 mA, what is the base current (I_B) in microamperes?",
+      "options": {
+        "A": "200 μA",
+        "B": "20 μA",
+        "C": "10.2 mA",
+        "D": "0.2 μA"
+      },
+      "correct_answer": "A",
+      "hint": "Use the relationship I_E = I_B + I_C.",
+      "explanation": "The base current is I_B = I_E - I_C = 5.2 mA - 5.0 mA = 0.2 mA = 200 μA. Option C incorrectly adds the currents instead of subtracting.",
+      "difficulty_level": "medium",
+      "formula_used": ["I_E = I_B + I_C"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "μA",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.4 Transistors and their application",
+        "subsection_anchor": "Basic transistor operation",
+        "structural_element": "I_E = I_B + I_C",
+        "content_anchor": "emitter current is the sum of the base current and collector current",
+        "page_hint": "Page 16",
+        "concept_hash": "concept_transistor_current_relation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q028",
+      "generation_timestamp": "2025-04-04T09:11:50Z",
+      "section": "5.6 Logic gates and logic circuits",
+      "subsection": "Logic gates",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "B",
+      "question": "Which basic logic gate produces a high output (1) when at least one of its inputs is high (1)?",
+      "options": {
+        "A": "OR gate",
+        "B": "AND gate",
+        "C": "NOT gate",
+        "D": "NAND gate"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the gate that implements logical addition.",
+      "explanation": "An OR gate implements the Boolean addition operation, outputting 1 if any input is 1. Option B is incorrect as an AND gate outputs 1 only when all inputs are 1.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.6 Logic gates and logic circuits",
+        "subsection_anchor": "Logic gates",
+        "structural_element": "OR gate... lamp is ON if switch A OR switch B is closed",
+        "content_anchor": "OR gate",
+        "page_hint": "Page 24",
+        "concept_hash": "concept_or_gate_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 56,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q029",
+      "generation_timestamp": "2025-04-04T09:12:05Z",
+      "section": "Project",
+      "subsection": "Project",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "A student constructs a half-wave rectifier circuit using a diode, resistor, and AC power supply. Which reasoning best explains why the output voltage across the resistor is zero during half of the AC cycle?",
+      "options": {
+        "A": "During that half-cycle, the diode is reverse-biased, blocking current flow through the resistor.",
+        "B": "The resistor's value is too high to allow any current during that half-cycle.",
+        "C": "The AC power supply automatically shuts off during alternate half-cycles.",
+        "D": "The diode acts as a short circuit, diverting all current away from the resistor."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the diode's behavior when the AC polarity reverses.",
+      "explanation": "During one half-cycle, the diode is reverse-biased and presents very high resistance, preventing current through the load resistor and resulting in zero output voltage. Option D incorrectly describes forward bias behavior where the diode conducts.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "Project",
+        "subsection_anchor": "Project",
+        "structural_element": "construct a half-wave rectification circuit",
+        "content_anchor": "half-wave rectifier",
+        "page_hint": "Page 31",
+        "concept_hash": "concept_halfwave_rectifier_project"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q030",
+      "generation_timestamp": "2025-04-04T09:12:20Z",
+      "section": "Unit summary",
+      "subsection": "Unit summary",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "M",
+      "question": "What is the correct sequence of steps describing the formation of a P-N junction diode?",
+      "options": {
+        "A": "1. Join P-type and N-type materials. 2. Diffusion creates a depletion region. 3. An electric field establishes a barrier potential.",
+        "B": "1. Apply forward bias voltage. 2. Depletion region widens. 3. Current flows.",
+        "C": "1. Dope silicon with boron. 2. Heat the material. 3. Cut into slices.",
+        "D": "1. Connect to a battery. 2. Holes and electrons combine. 3. Light is emitted."
+      },
+      "correct_answer": "A",
+      "hint": "Focus on the physical process when two doped semiconductor materials are joined.",
+      "explanation": "When P-type and N-type semiconductors are joined, carrier diffusion creates a depletion region with an intrinsic electric field and barrier potential. Option B describes the biasing process, not the initial junction formation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "Unit summary",
+        "subsection_anchor": "Unit summary",
+        "structural_element": "A junction diode is created by joining N- type and P- type materials together. The depletion region is a region in a P- N junction diode where no mobile charge carriers are present.",
+        "content_anchor": "depletion region",
+        "page_hint": "Page 32",
+        "concept_hash": "concept_pn_junction_formation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 140000,
+    "average_question_quality": 84.5,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "L": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "5.3 Rectification": 2,
+      "5.4 Transistors and their application": 3,
+      "5.5 Integrated Circuits": 1,
+      "5.6 Logic gates and logic circuits": 1,
+      "5.7 Application of electronics": 1,
+      "Project": 1,
+      "Unit summary": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

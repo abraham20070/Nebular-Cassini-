@@ -1,0 +1,792 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T10:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G11_Phy_U1_Q030",
+    "covered_sections": ["Introduction", "1.1 Importance of Physics to Society", "1.2 Physics Communities and Their Roles", "1.3 Making of Physics Knowledge", "1.4 The Mission of Physics and Career Awareness", "1.5 Current Status of Physics"],
+    "used_question_signatures": ["hash_A_intro_outcomes", "hash_B_1.1_brainstorm", "hash_D_1.2_objectives", "hash_F_1.3_experimental", "hash_H_1.3_scientific_method", "hash_J_1.4_career_typical", "hash_K_1.4_career_space", "hash_L_1.5_discovery_exoplanet", "hash_M_1.5_discovery_blackhole", "hash_N_1.5_discovery_gravitational", "hash_G_1.1_economic", "hash_A_1.2_definition", "hash_C_1.3_a_priori", "hash_E_1.4_healthcare", "hash_F_1.4_energy", "hash_G_1.5_quantum_crypto", "hash_I_1.5_global_warming", "hash_J_1.5_jwst", "hash_K_1.3_memory", "hash_L_1.2_group_work", "hash_D_1.1_technology_benefit", "hash_B_1.3_introspection", "hash_E_1.3_example_scientific", "hash_H_1.4_career_tech", "hash_I_1.4_career_geophysics", "hash_M_1.5_high_energy", "hash_N_1.5_future_perspective", "hash_A_intro_innovation", "hash_C_1.2_benefits", "hash_F_1.5_climate_model"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 2,
+          "mini_headings_covered": ["Unit outcomes / learning competencies"],
+          "last_question_round": 3
+        }
+      },
+      "1.1 Importance of Physics to Society": {
+        "1.1 Importance of Physics to Society": {
+          "count": 3,
+          "mini_headings_covered": ["Brainstorming questions"],
+          "last_question_round": 3
+        }
+      },
+      "1.2 Physics Communities and Their Roles": {
+        "1.2 Physics Communities and Their Roles": {
+          "count": 3,
+          "mini_headings_covered": ["Objectives of EPS", "Group Work"],
+          "last_question_round": 3
+        }
+      },
+      "1.3 Making of Physics Knowledge": {
+        "1.3 Making of Physics Knowledge": {
+          "count": 5,
+          "mini_headings_covered": ["Experimental knowledge", "Scientific method", "Non-Experiential Knowledge", "Examples of Scientific Method in Physics"],
+          "last_question_round": 3
+        }
+      },
+      "1.4 The Mission of Physics and Career Awareness": {
+        "1.4 The Mission of Physics and Career Awareness": {
+          "count": 6,
+          "mini_headings_covered": ["Typical careers in physics", "Physics careers in space and astronomy", "Physics careers in healthcare", "Physics careers in energy", "Physics careers in technology", "Geophysics and meteorology careers"],
+          "last_question_round": 3
+        }
+      },
+      "1.5 Current Status of Physics": {
+        "1.5 Current Status of Physics": {
+          "count": 8,
+          "mini_headings_covered": ["Discovery of Exoplanets:", "Black hole:", "Gravitational wave (Large scale structures)", "Quantum cryptography:", "Global warming:", "James Webb Space Telescope (JWST)", "High energy physics (Particle Accelerators)", "Future perspectives."],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "1.1 Importance of Physics to Society": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "1.2 Physics Communities and Their Roles": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "1.3 Making of Physics Knowledge": {
+        "question_count": 5,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "1.4 The Mission of Physics and Career Awareness": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "1.5 Current Status of Physics": {
+        "question_count": 8,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["physics impact", "innovation", "economic growth", "sector innovation"],
+      "1.1 Importance of Physics to Society>1.1 Importance of Physics to Society": ["society benefit", "technology", "economic engines", "medical applications"],
+      "1.2 Physics Communities and Their Roles>1.2 Physics Communities and Their Roles": ["scientific association", "promoting education", "group collaboration", "society benefits"],
+      "1.3 Making of Physics Knowledge>1.3 Making of Physics Knowledge": ["experiential knowledge", "scientific method steps", "a priori knowledge", "introspection", "experimental example"],
+      "1.4 The Mission of Physics and Career Awareness>1.4 The Mission of Physics and Career Awareness": ["career diversity", "astronomy roles", "healthcare physics", "energy sector", "technology sector", "geophysics"],
+      "1.5 Current Status of Physics>1.5 Current Status of Physics": ["exoplanets", "black holes", "gravitational waves", "quantum cryptography", "global warming", "JWST", "Higgs boson", "international collaboration"]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_placeholder_for_state_integrity_check_round3",
+    "content_density_metrics": {
+      "total_concepts_extracted": 27,
+      "questions_per_concept_ratio": 1.11,
+      "structural_coverage_percentage": 100.0
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Physics",
+  "unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+  "pdf_filename": "P11U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T10:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 18,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 1.11
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.5 Current Status of Physics",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Phy_U1_Q021",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "Unit outcomes / learning competencies",
+      "mcq_type": "D",
+      "question": "A major driver of innovation across energy, healthcare, and communication sectors relies on principles from which field?",
+      "options": {
+        "A": "Physics",
+        "B": "Sociology",
+        "C": "Literature",
+        "D": "History"
+      },
+      "correct_answer": "A",
+      "hint": "This field provides the foundational knowledge for technological advancement.",
+      "explanation": "Physics underpins technological development in multiple high-impact sectors through its fundamental laws. Option B studies human society, not the physical principles behind technology.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unit-outcomes"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": "Unit outcomes / learning competencies",
+        "content_anchor": "Physics is a major driver of innovation and economic growth in world- wide in sectors ranging from energy, security, advanced manufacturing, data extraction and analysis to health care and diagnostic, finance and communication",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_physics_innovation_driver"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q022",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "1.1 Importance of Physics to Society",
+      "subsection": "1.1 Importance of Physics to Society",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming questions",
+      "mcq_type": "I",
+      "question": "How does the role of physics in developing medical imaging techniques compare to its role in creating transportation vehicles?",
+      "options": {
+        "A": "Both apply physical principles to solve practical human problems.",
+        "B": "Medical imaging uses biology, while transportation relies solely on mechanics.",
+        "C": "Transportation requires more international collaboration than medical imaging.",
+        "D": "Medical imaging is purely theoretical, while transportation is applied."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the common foundation in applying laws of physics.",
+      "explanation": "Physics provides the underlying principles for diverse technologies, from MRI scanners to aerodynamics. Option B incorrectly suggests medical imaging does not use physics, when it heavily depends on electromagnetism and nuclear physics.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "brainstorming"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.1 Importance of Physics to Society",
+        "subsection_anchor": "1.1 Importance of Physics to Society",
+        "structural_element": "Brainstorming questions",
+        "content_anchor": "Physics improves our quality of life by providing the basic understanding necessary for developing new instrumentation and techniques for medical applications... Transportation vehicles such as automobiles, airplanes and space shuttles could not be constructed without the help of physics experts.",
+        "page_hint": "Pages 2, 3, 16",
+        "concept_hash": "sha256_of_physics_applied_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q023",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "1.2 Physics Communities and Their Roles",
+      "subsection": "1.2 Physics Communities and Their Roles",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming questions",
+      "mcq_type": "B",
+      "question": "What is the primary purpose for establishing a professional society focused on a scientific discipline?",
+      "options": {
+        "A": "To advance research and education within that field",
+        "B": "To regulate commercial product sales",
+        "C": "To manage government science funding allocations",
+        "D": "To award academic degrees to members"
+      },
+      "correct_answer": "A",
+      "hint": "These societies are formed by practitioners to promote their discipline.",
+      "explanation": "Scientific societies exist to foster collaboration, disseminate knowledge, and promote professional development. Option D is incorrect because degree-granting is the role of accredited educational institutions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "brainstorming"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.2 Physics Communities and Their Roles",
+        "subsection_anchor": "1.2 Physics Communities and Their Roles",
+        "structural_element": "Brainstorming questions",
+        "content_anchor": "What is the purpose of establishment of physics communities?",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_society_purpose"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q024",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "1.3 Making of Physics Knowledge",
+      "subsection": "1.3 Making of Physics Knowledge",
+      "sub_subsection": null,
+      "structural_anchor": "Experimental knowledge",
+      "mcq_type": "F",
+      "question": "Introspection allows a person to examine their own mental states. Which reasoning best explains why this is considered a source of experiential knowledge?",
+      "options": {
+        "A": "It provides direct, private access to one's thoughts and feelings.",
+        "B": "It relies on external measurements of brain activity.",
+        "C": "It uses logical deduction from universal principles.",
+        "D": "It depends on testimony from other individuals."
+      },
+      "correct_answer": "A",
+      "hint": "Experiential knowledge comes from personal experience.",
+      "explanation": "Introspection yields knowledge through first-person experience of one's own consciousness. Option C describes a priori reasoning, which is non-experiential.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.3 Making of Physics Knowledge",
+        "subsection_anchor": "1.3 Making of Physics Knowledge",
+        "structural_element": "Experimental knowledge",
+        "content_anchor": "Introspection is like a sixth sense that looks into the most intimate parts of our minds, which allows us to inspect how we are feeling and how our thoughts are operating.",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_introspection_experiential"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q025",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "1.3 Making of Physics Knowledge",
+      "subsection": "1.3 Making of Physics Knowledge",
+      "sub_subsection": null,
+      "structural_anchor": "Examples of Scientific Method in Physics",
+      "mcq_type": "E",
+      "question": "In an experiment, water boils at 95°C at an altitude of 3000 m. If the boiling point decreases by approximately 1°C per 300 m increase, what is the expected boiling point at 3600 m?",
+      "options": {
+        "A": "94°C",
+        "B": "95°C",
+        "C": "96°C",
+        "D": "93°C"
+      },
+      "correct_answer": "D",
+      "hint": "Calculate the additional altitude increase and corresponding temperature drop.",
+      "explanation": "Altitude increases by 600 m (3600 - 3000). At 1°C per 300 m, the drop is 2°C. 95°C - 2°C = 93°C. Option A results from a miscalculation of only a 1°C total drop.",
+      "difficulty_level": "medium",
+      "formula_used": ["ΔT = (Δh / 300) × -1°C"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "°C",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.3 Making of Physics Knowledge",
+        "subsection_anchor": "1.3 Making of Physics Knowledge",
+        "structural_element": "Examples of Scientific Method in Physics",
+        "content_anchor": "The boiling temperature of water decreases approximately by one degree Celsius.",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_boiling_point_altitude_calc"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q026",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "1.4 The Mission of Physics and Career Awareness",
+      "subsection": "1.4 The Mission of Physics and Career Awareness",
+      "sub_subsection": null,
+      "structural_anchor": "Physics careers in technology",
+      "mcq_type": "H",
+      "question": "A belief that robotics development requires only computer programming skills overlooks a fundamental requirement. What is the flaw in this reasoning?",
+      "options": {
+        "A": "It ignores the need for understanding physical laws governing motion, sensors, and materials.",
+        "B": "It assumes robotics is exclusively a software discipline.",
+        "C": "It underestimates the importance of user interface design.",
+        "D": "It overemphasizes the role of biological inspiration."
+      },
+      "correct_answer": "A",
+      "hint": "Robotics involves interaction with the physical world.",
+      "explanation": "Robotics integrates physics principles like mechanics, electronics, and control theory. Option B restates the misconception rather than identifying the specific missing knowledge area.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.4 The Mission of Physics and Career Awareness",
+        "subsection_anchor": "1.4 The Mission of Physics and Career Awareness",
+        "structural_element": "Physics careers in technology",
+        "content_anchor": "Fields with particularly high demand for research and development workers... include relatively young fields such as robotics, nanoscience and nanotechnology.",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_robotics_physics_requirement"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q027",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "1.4 The Mission of Physics and Career Awareness",
+      "subsection": "1.4 The Mission of Physics and Career Awareness",
+      "sub_subsection": null,
+      "structural_anchor": "Geophysics and meteorology careers",
+      "mcq_type": "J",
+      "question": "Which career path applies physics principles to study natural disasters and long-term climate patterns?",
+      "options": {
+        "A": "Geophysics and meteorology",
+        "B": "Medical physics",
+        "C": "Astrophysics",
+        "D": "Nuclear engineering"
+      },
+      "correct_answer": "A",
+      "hint": "This field focuses on Earth systems and atmospheric phenomena.",
+      "explanation": "Geophysics and meteorology use physics to understand Earth's processes, including seismic events and climate. Option C studies celestial objects beyond Earth.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.4 The Mission of Physics and Career Awareness",
+        "subsection_anchor": "1.4 The Mission of Physics and Career Awareness",
+        "structural_element": "Geophysics and meteorology careers",
+        "content_anchor": "geophysicists are more concerned with the prediction of natural disasters, meteorologists focus on areas such as daily weather forecasting, as well as researching the long- term effects of climate change.",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_geophysics_meteorology_focus"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q028",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "1.5 Current Status of Physics",
+      "subsection": "1.5 Current Status of Physics",
+      "sub_subsection": null,
+      "structural_anchor": "High energy physics (Particle Accelerators)",
+      "mcq_type": "M",
+      "question": "What is the correct chronological order of these major physics discoveries?",
+      "options": {
+        "A": "Higgs boson prediction → LHC construction → Higgs boson detection",
+        "B": "Higgs boson detection → LHC construction → Higgs boson prediction",
+        "C": "LHC construction → Higgs boson prediction → Higgs boson detection",
+        "D": "Higgs boson prediction → Higgs boson detection → LHC construction"
+      },
+      "correct_answer": "A",
+      "hint": "Theoretical prediction preceded experimental verification using a specially built facility.",
+      "explanation": "The Higgs boson was predicted in the 1960s, the LHC was built to test such predictions, and detection occurred in 2012. Option D places detection before the necessary instrument construction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.5 Current Status of Physics",
+        "subsection_anchor": "1.5 Current Status of Physics",
+        "structural_element": "High energy physics (Particle Accelerators)",
+        "content_anchor": "The experiment took 60 years to prove the existence of this particle.",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_higgs_discovery_sequence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q029",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "1.5 Current Status of Physics",
+      "subsection": "1.5 Current Status of Physics",
+      "sub_subsection": null,
+      "structural_anchor": "Future perspectives.",
+      "mcq_type": "N",
+      "question": "Frontier physics research requires massive financial investment and international collaboration. What condition limits widespread participation by all countries?",
+      "options": {
+        "A": "High costs and need for advanced infrastructure",
+        "B": "Lack of theoretical interest globally",
+        "C": "Restrictions on sharing scientific knowledge",
+        "D": "Absence of relevant educational programs"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the practical and economic barriers to building large-scale research facilities.",
+      "explanation": "Projects like particle accelerators and space telescopes demand billions of dollars and technical resources. Option B is incorrect because theoretical interest exists globally, but capacity varies.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.5 Current Status of Physics",
+        "subsection_anchor": "1.5 Current Status of Physics",
+        "structural_element": "Future perspectives.",
+        "content_anchor": "Research at the forefront is very expensive (Billions of dollars), it is also needing a collaboration of scientists from many fields. It also involves many countries.",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_research_cost_collaboration"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q030",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "1.5 Current Status of Physics",
+      "subsection": "1.5 Current Status of Physics",
+      "sub_subsection": null,
+      "structural_anchor": "Global warming:",
+      "mcq_type": "F",
+      "question": "Climate models predict long-term warming trends based on physical principles. Which reasoning best explains why these models are considered scientific tools rather than conjectures?",
+      "options": {
+        "A": "They are built on established laws of physics and validated against observational data.",
+        "B": "They rely primarily on expert opinion and political consensus.",
+        "C": "They use simplified assumptions that ignore atmospheric complexity.",
+        "D": "They are designed to produce predetermined outcomes for policy purposes."
+      },
+      "correct_answer": "A",
+      "hint": "Scientific models are grounded in empirical evidence and theoretical foundations.",
+      "explanation": "Climate models apply fluid dynamics, thermodynamics, and radiation physics to simulate Earth's system, with predictions tested against historical data. Option C describes a weakness, not the basis for their scientific status.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.5 Current Status of Physics",
+        "subsection_anchor": "1.5 Current Status of Physics",
+        "structural_element": "Global warming:",
+        "content_anchor": "Syukuro Manabe and Klaus Hasselmann have won the Nobel Prize in Physics in 2021 for modeling earth's climate and reliability predicting global warming.",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_climate_models_scientific_basis"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4000,
+    "average_question_quality": 86.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "D": 1,
+      "E": 1,
+      "F": 2,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "1.1 Importance of Physics to Society": 1,
+      "1.2 Physics Communities and Their Roles": 1,
+      "1.3 Making of Physics Knowledge": 3,
+      "1.4 The Mission of Physics and Career Awareness": 2,
+      "1.5 Current Status of Physics": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

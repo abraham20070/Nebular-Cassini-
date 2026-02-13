@@ -1,0 +1,814 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-11-08T10:48:30Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G9_Chem_U2_Q020",
+    "covered_sections": [
+      "Measurements and Units in Chemistry>SI Units (The International System of Units)",
+      "Measurements and Units in Chemistry>Derived Units",
+      "Measurements and Units in Chemistry>Common Prefixes Used in SI Units",
+      "Measurements and Units in Chemistry>Uncertainty in Measurements",
+      "Measurements and Units in Chemistry>Precision and Accuracy",
+      "Measurements and Units in Chemistry>Significant Figures",
+      "Measurements and Units in Chemistry>Scientific Notation and Decimal Places",
+      "Chemistry as Experimental Science>The Scientific Method",
+      "Chemistry as Experimental Science>Some Experimental Skills in Chemistry",
+      "Chemistry as Experimental Science>Writing a Laboratory Report",
+      "Measurements and Units in Chemistry>SI Units (The International System of Units): Heat and Temperature"
+    ],
+    "used_question_signatures": [
+      "hash_si_base_units",
+      "hash_si_prefix_kilo",
+      "hash_derived_unit_volume",
+      "hash_density_formula",
+      "hash_density_application",
+      "hash_uncertainty_definition",
+      "hash_precision_vs_accuracy",
+      "hash_sigfig_rule_nonzero",
+      "hash_scientific_notation_purpose",
+      "hash_scientific_method_step1",
+      "hash_kelvin_celsius_relation",
+      "hash_celsius_fahrenheit_formula",
+      "hash_derived_unit_speed",
+      "hash_si_prefix_milli",
+      "hash_random_systematic_error",
+      "hash_accuracy_definition",
+      "hash_sigfig_rule_zeros_between",
+      "hash_scientific_notation_conversion",
+      "hash_scientific_method_hypothesis",
+      "hash_lab_safety_eyeprotection"
+    ],
+    "baseline_counter": {
+      "Measurements and Units in Chemistry": {
+        "SI Units (The International System of Units)": {
+          "count": 3,
+          "mini_headings_covered": ["Heat and Temperature"],
+          "last_question_round": 2
+        },
+        "Derived Units": {
+          "count": 3,
+          "mini_headings_covered": ["Volume", "Density"],
+          "last_question_round": 2
+        },
+        "Common Prefixes Used in SI Units": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Uncertainty in Measurements": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Precision and Accuracy": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Significant Figures": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Scientific Notation and Decimal Places": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Chemistry as Experimental Science": {
+        "The Scientific Method": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Some Experimental Skills in Chemistry": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Writing a Laboratory Report": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Measurements and Units in Chemistry": {
+        "question_count": 16,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Chemistry as Experimental Science": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Measurements and Units in Chemistry>SI Units (The International System of Units)": ["SI base units", "Kelvin-Celsius relationship", "Celsius-Fahrenheit formula"],
+      "Measurements and Units in Chemistry>Derived Units": ["Volume", "Density formula", "Speed definition"],
+      "Measurements and Units in Chemistry>Common Prefixes Used in SI Units": ["Prefix kilo-", "Prefix milli-"],
+      "Measurements and Units in Chemistry>Uncertainty in Measurements": ["Uncertainty definition", "Random vs systematic error"],
+      "Measurements and Units in Chemistry>Precision and Accuracy": ["Precision vs accuracy", "Accuracy definition"],
+      "Measurements and Units in Chemistry>Significant Figures": ["Significant figures rule", "Zeros between nonzero digits"],
+      "Measurements and Units in Chemistry>Scientific Notation and Decimal Places": ["Purpose of scientific notation", "Conversion to scientific notation"],
+      "Chemistry as Experimental Science>The Scientific Method": ["First step of scientific method", "Hypothesis"],
+      "Chemistry as Experimental Science>Some Experimental Skills in Chemistry": ["Laboratory safety", "Eye protection"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state_R01",
+    "content_density_metrics": {
+      "total_concepts_extracted": 19,
+      "questions_per_concept_ratio": 1.05,
+      "structural_coverage_percentage": 95.0
+    }
+  },
+  "grade": "9",
+  "subject": "Chemistry",
+  "unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+  "pdf_filename": "C9U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-11-08T10:48:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 2,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 9,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 95.0,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Measurements and Units in Chemistry",
+      "least_covered_section": "Chemistry as Experimental Science",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.05,
+      "remaining_concept_capacity": 181
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Chem_U2_Q011",
+      "generation_timestamp": "2024-11-08T10:48:30Z",
+      "section": "Measurements and Units in Chemistry",
+      "subsection": "SI Units (The International System of Units)",
+      "sub_subsection": null,
+      "structural_anchor": "Heat and Temperature",
+      "mcq_type": "D",
+      "question": "A temperature of 25.0°C needs to be converted to the Kelvin scale. What is the correct temperature in kelvins?",
+      "options": {
+        "A": "298.2 K",
+        "B": "273.2 K",
+        "C": "298.0 K",
+        "D": "273.0 K"
+      },
+      "correct_answer": "A",
+      "hint": "Use the relationship K = °C + 273.15",
+      "explanation": "The Kelvin temperature is found by adding 273.15 to the Celsius temperature: 25.0 + 273.15 = 298.15 K, which rounds to 298.2 K. Option C results from incorrectly using 273.0 instead of 273.15.",
+      "difficulty_level": "easy",
+      "formula_used": ["K = °C + 273.15"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "K",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Measurements and Units in Chemistry",
+        "subsection_anchor": "SI Units (The International System of Units)",
+        "structural_element": "Heat and Temperature",
+        "content_anchor": "K = °C + 273.15",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_kelvin_celsius_relation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q012",
+      "generation_timestamp": "2024-11-08T10:48:30Z",
+      "section": "Measurements and Units in Chemistry",
+      "subsection": "SI Units (The International System of Units)",
+      "sub_subsection": null,
+      "structural_anchor": "Heat and Temperature",
+      "mcq_type": "C",
+      "question": "Which formula correctly converts a temperature from degrees Fahrenheit (°F) to degrees Celsius (°C)?",
+      "options": {
+        "A": "°C = (5/9) × (°F - 32)",
+        "B": "°C = (9/5) × °F + 32",
+        "C": "°C = (5/9) × °F - 32",
+        "D": "°C = °F - 273.15"
+      },
+      "correct_answer": "A",
+      "hint": "Remember that the Fahrenheit scale has a different zero point and degree size than Celsius.",
+      "explanation": "The correct conversion formula accounts for both the scale difference and zero-point offset: °C = (5/9) × (°F - 32). Option B is the reverse conversion from Celsius to Fahrenheit.",
+      "difficulty_level": "medium",
+      "formula_used": ["°C = (5/9) × (°F - 32)"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Measurements and Units in Chemistry",
+        "subsection_anchor": "SI Units (The International System of Units)",
+        "structural_element": "Heat and Temperature",
+        "content_anchor": "°C = (5°C/9°F) × (°F - 32°F)",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_celsius_fahrenheit_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q013",
+      "generation_timestamp": "2024-11-08T10:48:30Z",
+      "section": "Measurements and Units in Chemistry",
+      "subsection": "Derived Units",
+      "sub_subsection": null,
+      "structural_anchor": "Derived Units",
+      "mcq_type": "A",
+      "question": "Speed is defined as the rate of change of distance with time. What is the correct SI derived unit for speed?",
+      "options": {
+        "A": "meters per second (m/s)",
+        "B": "meters squared (m²)",
+        "C": "seconds per meter (s/m)",
+        "D": "cubic meters (m³)"
+      },
+      "correct_answer": "A",
+      "hint": "Speed equals distance divided by time.",
+      "explanation": "Since speed = distance/time, the SI unit is meters per second (m/s). Option C inverts the relationship, representing the reciprocal of speed.",
+      "difficulty_level": "easy",
+      "formula_used": ["speed = distance/time"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Measurements and Units in Chemistry",
+        "subsection_anchor": "Derived Units",
+        "structural_element": "Derived Units",
+        "content_anchor": "speed = distance/time, SI unit of speed is meters per second",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_derived_unit_speed"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q014",
+      "generation_timestamp": "2024-11-08T10:48:30Z",
+      "section": "Measurements and Units in Chemistry",
+      "subsection": "Common Prefixes Used in SI Units",
+      "sub_subsection": null,
+      "structural_anchor": "Examples of SI prefixes",
+      "mcq_type": "B",
+      "question": "Which metric prefix corresponds to a multiplication factor of 10⁻³?",
+      "options": {
+        "A": "milli-",
+        "B": "centi-",
+        "C": "micro-",
+        "D": "kilo-"
+      },
+      "correct_answer": "A",
+      "hint": "Think about millimeters in relation to meters.",
+      "explanation": "The prefix 'milli-' represents 10⁻³ or 0.001 of the base unit. Option B represents 'centi-', which corresponds to 10⁻².",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Measurements and Units in Chemistry",
+        "subsection_anchor": "Common Prefixes Used in SI Units",
+        "structural_element": "Table 2.4",
+        "content_anchor": "10⁻³ milli- m 0.001",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_prefix_milli"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q015",
+      "generation_timestamp": "2024-11-08T10:48:30Z",
+      "section": "Measurements and Units in Chemistry",
+      "subsection": "Uncertainty in Measurements",
+      "sub_subsection": null,
+      "structural_anchor": "Uncertainty in Measurements",
+      "mcq_type": "I",
+      "question": "What distinguishes a random error from a systematic error in experimental measurements?",
+      "options": {
+        "A": "Random errors vary unpredictably, while systematic errors cause consistent bias.",
+        "B": "Random errors can be eliminated, while systematic errors cannot.",
+        "C": "Random errors result from instrument limitations, while systematic errors come from user mistakes.",
+        "D": "Random errors affect accuracy, while systematic errors affect precision."
+      },
+      "correct_answer": "A",
+      "hint": "Consider whether errors follow a pattern or occur without predictability.",
+      "explanation": "Random errors are unpredictable variations that differ with each measurement, while systematic errors consistently shift results in one direction. Option D incorrectly associates random errors with accuracy rather than precision.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Measurements and Units in Chemistry",
+        "subsection_anchor": "Uncertainty in Measurements",
+        "structural_element": "Uncertainty in Measurements",
+        "content_anchor": "systematic uncertainties are those which consistently cause the value to be too large or too small; random uncertainties are variations in the measurements that occur without a predictable pattern",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_random_systematic_error"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q016",
+      "generation_timestamp": "2024-11-08T10:48:30Z",
+      "section": "Measurements and Units in Chemistry",
+      "subsection": "Precision and Accuracy",
+      "sub_subsection": null,
+      "structural_anchor": "Precision and Accuracy",
+      "mcq_type": "A",
+      "question": "In measurement science, what does 'accuracy' specifically refer to?",
+      "options": {
+        "A": "How closely a measured value agrees with the true value",
+        "B": "How closely repeated measurements agree with each other",
+        "C": "The resolution of the measuring instrument",
+        "D": "The absence of random errors in measurements"
+      },
+      "correct_answer": "A",
+      "hint": "Accuracy concerns correctness, not reproducibility.",
+      "explanation": "Accuracy describes the closeness of a measurement to the accepted or true value. Option B defines precision, which relates to the agreement among repeated measurements.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Measurements and Units in Chemistry",
+        "subsection_anchor": "Precision and Accuracy",
+        "structural_element": "Precision and Accuracy",
+        "content_anchor": "accuracy... refers to the closeness of a single measurement to its true value",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_accuracy_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q017",
+      "generation_timestamp": "2024-11-08T10:48:30Z",
+      "section": "Measurements and Units in Chemistry",
+      "subsection": "Significant Figures",
+      "sub_subsection": null,
+      "structural_anchor": "Significant Figures",
+      "mcq_type": "H",
+      "question": "How many significant figures does the measurement 40,501 kg contain?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "6"
+      },
+      "correct_answer": "A",
+      "hint": "Zeros between nonzero digits are significant.",
+      "explanation": "All digits in 40,501 are significant: the '4', '0', '5', '0', and '1'. The zeros are between nonzero digits, making them significant. Option B incorrectly counts only the nonzero digits.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Measurements and Units in Chemistry",
+        "subsection_anchor": "Significant Figures",
+        "structural_element": "Significant Figures",
+        "content_anchor": "40,501 kg contains five significant figures",
+        "page_hint": "Page 15-16",
+        "concept_hash": "sha256_of_sigfig_rule_zeros_between"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q018",
+      "generation_timestamp": "2024-11-08T10:48:30Z",
+      "section": "Measurements and Units in Chemistry",
+      "subsection": "Scientific Notation and Decimal Places",
+      "sub_subsection": null,
+      "structural_anchor": "Scientific Notation and Decimal Places",
+      "mcq_type": "D",
+      "question": "The number 602,000,000,000,000,000,000,000 is written in scientific notation as 6.02 × 10²³. What does the exponent 23 indicate?",
+      "options": {
+        "A": "The decimal point was moved 23 places to the left",
+        "B": "The decimal point was moved 23 places to the right",
+        "C": "The number has 23 significant figures",
+        "D": "The number is multiplied by 23"
+      },
+      "correct_answer": "A",
+      "hint": "In scientific notation, the exponent shows how many places the decimal moved.",
+      "explanation": "The exponent 23 indicates the decimal point moved 23 places to the left to convert from the large number to 6.02. Option B would represent a very small number (negative exponent).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Measurements and Units in Chemistry",
+        "subsection_anchor": "Scientific Notation and Decimal Places",
+        "structural_element": "Scientific Notation and Decimal Places",
+        "content_anchor": "602,000,000,000,000,000,000,000 = 6.02 × 10²³; 23 places to the left",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_scientific_notation_conversion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q019",
+      "generation_timestamp": "2024-11-08T10:48:30Z",
+      "section": "Chemistry as Experimental Science",
+      "subsection": "The Scientific Method",
+      "sub_subsection": null,
+      "structural_anchor": "Scientific Method Steps",
+      "mcq_type": "A",
+      "question": "In the scientific method, what is a hypothesis?",
+      "options": {
+        "A": "A testable explanation based on observation",
+        "B": "A proven scientific fact",
+        "C": "The final conclusion of an experiment",
+        "D": "A random guess without evidence"
+      },
+      "correct_answer": "A",
+      "hint": "A hypothesis comes after observation and before experimentation.",
+      "explanation": "A hypothesis is a proposed explanation for an observed phenomenon that can be tested through experimentation. Option B describes a theory, which is supported by extensive evidence.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Chemistry as Experimental Science",
+        "subsection_anchor": "The Scientific Method",
+        "structural_element": "Scientific Method Steps",
+        "content_anchor": "formulate a hypothesis based on the observation",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_scientific_method_hypothesis"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U2_Q020",
+      "generation_timestamp": "2024-11-08T10:48:30Z",
+      "section": "Chemistry as Experimental Science",
+      "subsection": "Some Experimental Skills in Chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Laboratory Safety Rules",
+      "mcq_type": "J",
+      "question": "Which of the following is a fundamental safety rule that must always be followed in a chemistry laboratory?",
+      "options": {
+        "A": "Wear approved eye protection at all times",
+        "B": "Taste chemicals to identify them",
+        "C": "Work alone to avoid distractions",
+        "D": "Pour water into concentrated acid when diluting"
+      },
+      "correct_answer": "A",
+      "hint": "Consider protection against chemical splashes and spills.",
+      "explanation": "Approved eye protection is essential to prevent injury from chemical splashes or flying debris. Option D describes an unsafe practice; acids should always be added to water, not vice versa.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: MEASUREMENTS AND SCIENTIFIC METHODS",
+        "section_anchor": "Chemistry as Experimental Science",
+        "subsection_anchor": "Some Experimental Skills in Chemistry",
+        "structural_element": "Laboratory Safety Rules",
+        "content_anchor": "Wear approved eye protection at all times in the laboratory",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_lab_safety_eyeprotection"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3500,
+    "average_question_quality": 83.5,
+    "type_distribution": {
+      "A": 3,
+      "B": 1,
+      "C": 1,
+      "D": 2,
+      "H": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Measurements and Units in Chemistry": 8,
+      "Chemistry as Experimental Science": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

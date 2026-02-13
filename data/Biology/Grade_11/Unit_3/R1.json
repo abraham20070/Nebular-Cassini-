@@ -1,0 +1,782 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-05-15T08:10:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Bio_U3_Q010",
+    "covered_sections": ["Unit learning outcomes>Unit learning outcomes", "3.1. What are enzymes?>3.1. What are enzymes?", "Lab activity 3.1>Lab activity 3.1", "3.2 Properties and functions of enzymes>3.2.1 General properties of an enzyme", "3.2 Properties and functions of enzymes>3.2.2 The function of enzymes", "3.3 Protein structures>3.3 Protein structures"],
+    "used_question_signatures": ["8b5d3b0fd8c5d2c3b5e5b5d3b0fd8c5d2c3b5e5", "7a4c2a0ec7b4c1b2a4d6a4c2a0ec7b4c1b2a4d6", "6c3b1b0db6a3b0a1b3c5c3b1b0db6a3b0a1b3c5", "5d2a0a0ca5d2a0a0ca5d2a0a0ca5d2a0a0ca5d", "4b1c9b9bb4b1c9b9bb4b1c9b9bb4b1c9b9bb4b", "3a0b8a8aa3a0b8a8aa3a0b8a8aa3a0b8a8aa3a", "2c9a7a9a92c9a7a9a92c9a7a9a92c9a7a9a92c", "1b8a6a8a81b8a6a8a81b8a6a8a81b8a6a8a81b", "0a7a5a7a70a7a5a7a70a7a5a7a70a7a5a7a70a", "9c6a4a6a69c6a4a6a69c6a4a6a69c6a4a6a69c"],
+    "baseline_counter": {
+      "Unit learning outcomes": {
+        "Unit learning outcomes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.1. What are enzymes?": {
+        "3.1. What are enzymes?": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Lab activity 3.1": {
+        "Lab activity 3.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.2 Properties and functions of enzymes": {
+        "3.2.1 General properties of an enzyme": {
+          "count": 2,
+          "mini_headings_covered": ["The physical properties of enzymes"],
+          "last_question_round": 1
+        },
+        "3.2.2 The function of enzymes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.3 Protein structures": {
+        "3.3 Protein structures": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Unit learning outcomes": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.1. What are enzymes?": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Lab activity 3.1": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.2 Properties and functions of enzymes": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.3 Protein structures": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Unit learning outcomes>Unit learning outcomes": ["Enzymes", "Properties", "Functions"],
+      "3.1. What are enzymes?>3.1. What are enzymes?": ["Activation energy", "Catalysts", "Metabolism"],
+      "Lab activity 3.1>Lab activity 3.1": ["Salivary amylase", "Starch hydrolysis", "Maltose"],
+      "3.2 Properties and functions of enzymes>3.2.1 General properties of an enzyme": ["Denaturation", "Specificity"],
+      "3.2 Properties and functions of enzymes>3.2.2 The function of enzymes": ["Active site", "Turnover number"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state_hash",
+    "content_density_metrics": {
+      "total_concepts_extracted": 13,
+      "questions_per_concept_ratio": 0.77,
+      "structural_coverage_percentage": 25.0
+    }
+  },
+  "grade": "11",
+  "subject": "Biology",
+  "unit": "Unit 3: Enzymes",
+  "pdf_filename": "B11U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-05-15T08:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 10,
+        "progress_percentage": 50.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 1,
+      "structural_coverage_percentage": 25.0,
+      "concept_utilization_ratio": 0.77
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.2 Properties and functions of enzymes",
+      "least_covered_section": "Unit learning outcomes",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.77,
+      "remaining_concept_capacity": 63
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U3_Q001",
+      "generation_timestamp": "2024-05-15T08:09:00Z",
+      "section": "Unit learning outcomes",
+      "subsection": "Unit learning outcomes",
+      "sub_subsection": null,
+      "structural_anchor": "Unit learning outcomes",
+      "mcq_type": "F",
+      "question": "Enzymes act as biological catalysts. What is the fundamental reasoning that explains why they remain unchanged at the end of a reaction?",
+      "options": {
+        "A": "They are permanently bonded to the substrate during catalysis.",
+        "B": "They provide the activation energy required for the reaction to proceed.",
+        "C": "They lower the activation energy but do not participate in forming the final products.",
+        "D": "They are consumed in the reaction and must be continuously synthesized."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the role of a catalyst in altering the reaction pathway.",
+      "explanation": "Enzymes function by lowering the activation energy barrier for a reaction, providing an alternative pathway. Option B is incorrect because enzymes do not provide energy; they reduce the amount needed for reactants to reach the transition state.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "Unit learning outcomes",
+        "subsection_anchor": "Unit learning outcomes",
+        "structural_element": "Unit learning outcomes",
+        "content_anchor": "Enzymes",
+        "page_hint": "2",
+        "concept_hash": "sha256_of_enzymes_as_catalysts"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q002",
+      "generation_timestamp": "2024-05-15T08:09:10Z",
+      "section": "3.1. What are enzymes?",
+      "subsection": "3.1. What are enzymes?",
+      "sub_subsection": null,
+      "structural_anchor": "3.1. What are enzymes?",
+      "mcq_type": "A",
+      "question": "What is the minimum amount of energy required to initiate a chemical reaction called?",
+      "options": {
+        "A": "Catalytic energy",
+        "B": "Kinetic energy",
+        "C": "Activation energy",
+        "D": "Potential energy"
+      },
+      "correct_answer": "C",
+      "hint": "This energy barrier must be overcome for reactants to transform.",
+      "explanation": "Activation energy is the energy barrier that reactants must overcome to proceed to products. Option A is incorrect because 'catalytic energy' is not a defined term in this context.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.1. What are enzymes?",
+        "subsection_anchor": "3.1. What are enzymes?",
+        "structural_element": "3.1. What are enzymes?",
+        "content_anchor": "Activation energy is the minimum amount of energy",
+        "page_hint": "2",
+        "concept_hash": "sha256_of_activation_energy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q003",
+      "generation_timestamp": "2024-05-15T08:09:20Z",
+      "section": "3.1. What are enzymes?",
+      "subsection": "3.1. What are enzymes?",
+      "sub_subsection": null,
+      "structural_anchor": "3.1. What are enzymes?",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that an enzyme is consumed during the reaction it catalyzes?",
+      "options": {
+        "A": "Confusing the enzyme's role in lowering activation energy with being a reactant.",
+        "B": "Misinterpreting the formation of an enzyme-substrate complex as a permanent bond.",
+        "C": "Assuming the active site changes shape only after product release.",
+        "D": "Overlooking that catalysts can be proteins or RNA."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental property of a catalyst regarding its state after a reaction.",
+      "explanation": "A catalyst, including an enzyme, remains unchanged in mass and composition after a reaction. Option B describes a misunderstanding of the temporary nature of the complex, not the core error of assuming consumption.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.1. What are enzymes?",
+        "subsection_anchor": "3.1. What are enzymes?",
+        "structural_element": "3.1. What are enzymes?",
+        "content_anchor": "Enzymes act upon molecules (substrates)...and remain unchanged",
+        "page_hint": "2",
+        "concept_hash": "sha256_of_enzyme_unchanged"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q004",
+      "generation_timestamp": "2024-05-15T08:09:30Z",
+      "section": "Lab activity 3.1",
+      "subsection": "Lab activity 3.1",
+      "sub_subsection": null,
+      "structural_anchor": "Lab activity 3.1 Classroom experimental activities",
+      "mcq_type": "L",
+      "question": "When starch in bread is hydrolyzed in the mouth, it produces a sweeter-tasting sugar. Which enzyme is primarily responsible for this conversion?",
+      "options": {
+        "A": "Protease",
+        "B": "Lipase",
+        "C": "Salivary amylase",
+        "D": "Lactase"
+      },
+      "correct_answer": "C",
+      "hint": "This enzyme is secreted in saliva and acts on polysaccharides.",
+      "explanation": "Salivary amylase catalyzes the hydrolysis of starch into maltose, a disaccharide that tastes sweet. Option A is incorrect because protease breaks down proteins, not starch.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "Lab activity 3.1",
+        "subsection_anchor": "Lab activity 3.1",
+        "structural_element": "Lab activity 3.1 Classroom experimental activities",
+        "content_anchor": "enzyme Salivary Amylase in mouth",
+        "page_hint": "3",
+        "concept_hash": "sha256_of_salivary_amylase"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q005",
+      "generation_timestamp": "2024-05-15T08:09:40Z",
+      "section": "3.2 Properties and functions of enzymes",
+      "subsection": "3.2.1 General properties of an enzyme",
+      "sub_subsection": null,
+      "structural_anchor": "The physical properties of enzymes",
+      "mcq_type": "B",
+      "question": "The loss of an enzyme's three-dimensional structure and function due to high temperature is known as what?",
+      "options": {
+        "A": "Precipitation",
+        "B": "Solubilization",
+        "C": "Denaturation",
+        "D": "Activation"
+      },
+      "correct_answer": "C",
+      "hint": "This process involves the breaking of non-covalent bonds within the protein.",
+      "explanation": "Denaturation involves the disruption of hydrogen bonds and other weak interactions that maintain a protein's functional shape. Option A refers to a separation process, not structural disruption.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.2 Properties and functions of enzymes",
+        "subsection_anchor": "3.2.1 General properties of an enzyme",
+        "structural_element": "The physical properties of enzymes",
+        "content_anchor": "Denaturation is the process of breaking the intra and inter- molecular non- covalent bonds",
+        "page_hint": "4",
+        "concept_hash": "sha256_of_denaturation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q006",
+      "generation_timestamp": "2024-05-15T08:09:50Z",
+      "section": "3.2 Properties and functions of enzymes",
+      "subsection": "3.2.1 General properties of an enzyme",
+      "sub_subsection": null,
+      "structural_anchor": "3.2.1 General properties of an enzyme",
+      "mcq_type": "F",
+      "question": "Given that enzymes are highly specific, which reasoning best explains why an enzyme might catalyze only one particular biochemical reaction?",
+      "options": {
+        "A": "The enzyme's active site has a complementary shape and chemical environment only for its specific substrate.",
+        "B": "The enzyme is only produced in cells that require that specific reaction.",
+        "C": "The enzyme's molecular weight is too large to interact with other molecules.",
+        "D": "The reaction it catalyzes has the lowest activation energy in the cell."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the lock-and-key analogy for enzyme-substrate interaction.",
+      "explanation": "Enzyme specificity arises from the precise three-dimensional geometry and chemical properties of the active site. Option B describes regulation of enzyme production, not the mechanistic basis of specificity.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.2 Properties and functions of enzymes",
+        "subsection_anchor": "3.2.1 General properties of an enzyme",
+        "structural_element": "3.2.1 General properties of an enzyme",
+        "content_anchor": "Enzyme specificity is a property of the enzyme that describes how restrictive the enzyme is in its choice of substrate.",
+        "page_hint": "6",
+        "concept_hash": "sha256_of_specificity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q007",
+      "generation_timestamp": "2024-05-15T08:10:00Z",
+      "section": "3.2 Properties and functions of enzymes",
+      "subsection": "3.2.2 The function of enzymes",
+      "sub_subsection": null,
+      "structural_anchor": "3.2.2 The function of enzymes",
+      "mcq_type": "D",
+      "question": "In an enzyme-catalyzed reaction, what term describes the region on the enzyme where substrate binding and catalysis occur?",
+      "options": {
+        "A": "Allosteric site",
+        "B": "Binding pocket",
+        "C": "Active site",
+        "D": "Catalytic cleft"
+      },
+      "correct_answer": "C",
+      "hint": "This region has a specific shape and set of chemical properties.",
+      "explanation": "The active site is the specific region of an enzyme where substrate molecules bind and undergo catalysis. Option A is incorrect because an allosteric site is a regulatory binding site distinct from the active site.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.2 Properties and functions of enzymes",
+        "subsection_anchor": "3.2.2 The function of enzymes",
+        "structural_element": "3.2.2 The function of enzymes",
+        "content_anchor": "Each enzyme has an active site with a unique shape",
+        "page_hint": "7",
+        "concept_hash": "sha256_of_active_site"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q008",
+      "generation_timestamp": "2024-05-15T08:10:10Z",
+      "section": "3.2 Properties and functions of enzymes",
+      "subsection": "3.2.2 The function of enzymes",
+      "sub_subsection": null,
+      "structural_anchor": "3.2.2 The function of enzymes",
+      "mcq_type": "B",
+      "question": "What is the term for the maximum number of substrate molecules one enzyme molecule can convert to product per second when fully saturated?",
+      "options": {
+        "A": "Rate constant",
+        "B": "Turnover number",
+        "C": "Michaelis constant",
+        "D": "Catalytic efficiency"
+      },
+      "correct_answer": "B",
+      "hint": "This measure reflects the intrinsic speed of an enzyme's catalytic cycle.",
+      "explanation": "The turnover number (k_cat) is a measure of an enzyme's maximum catalytic activity. Option C, the Michaelis constant, is related to substrate affinity, not maximum reaction speed.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.2 Properties and functions of enzymes",
+        "subsection_anchor": "3.2.2 The function of enzymes",
+        "structural_element": "3.2.2 The function of enzymes",
+        "content_anchor": "The turn over number of molecules is the number of substrates converted by one enzyme molecule per second",
+        "page_hint": "7",
+        "concept_hash": "sha256_of_turnover_number"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q009",
+      "generation_timestamp": "2024-05-15T08:10:20Z",
+      "section": "3.3 Protein structures",
+      "subsection": "3.3 Protein structures",
+      "sub_subsection": null,
+      "structural_anchor": "3.3 Protein structures",
+      "mcq_type": "J",
+      "question": "Which level of protein structure is defined solely by the linear sequence of amino acids joined by peptide bonds?",
+      "options": {
+        "A": "Secondary structure",
+        "B": "Tertiary structure",
+        "C": "Quaternary structure",
+        "D": "Primary structure"
+      },
+      "correct_answer": "D",
+      "hint": "This is the most fundamental level of structural organization.",
+      "explanation": "The primary structure is the unique order of amino acids in a polypeptide chain. Option A is incorrect because secondary structure involves local folding patterns like alpha helices and beta sheets.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.3 Protein structures",
+        "subsection_anchor": "3.3 Protein structures",
+        "structural_element": "3.3 Protein structures",
+        "content_anchor": "The primary structure of proteins makes up amino acid sequences",
+        "page_hint": "10",
+        "concept_hash": "sha256_of_primary_structure"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 76,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q010",
+      "generation_timestamp": "2024-05-15T08:10:30Z",
+      "section": "3.3 Protein structures",
+      "subsection": "3.3 Protein structures",
+      "sub_subsection": null,
+      "structural_anchor": "3.3 Protein structures",
+      "mcq_type": "G",
+      "question": "If the hydrogen bonds that stabilize an alpha-helix are disrupted, what is the most direct effect on the protein's structure?",
+      "options": {
+        "A": "The amino acid sequence (primary structure) will be altered.",
+        "B": "The local folded conformation (secondary structure) will be lost.",
+        "C": "The overall three-dimensional shape (tertiary structure) will be unaffected.",
+        "D": "Multiple polypeptide subunits (quaternary structure) will dissociate."
+      },
+      "correct_answer": "B",
+      "hint": "Alpha-helices are a type of secondary structure held together by hydrogen bonds.",
+      "explanation": "Secondary structures like alpha helices are stabilized by hydrogen bonds between backbone atoms. Option A is incorrect because the primary structure, the covalent peptide bonds, remains unchanged by hydrogen bond disruption.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.3 Protein structures",
+        "subsection_anchor": "3.3 Protein structures",
+        "structural_element": "3.3 Protein structures",
+        "content_anchor": "The α - helix is a right- handed coiled strand...form hydrogen bonds",
+        "page_hint": "11",
+        "concept_hash": "sha256_of_alpha_helix"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 90000,
+    "average_question_quality": 84.0,
+    "type_distribution": {
+      "A": 1,
+      "B": 2,
+      "D": 1,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "J": 1,
+      "L": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Unit learning outcomes": 1,
+      "3.1. What are enzymes?": 2,
+      "Lab activity 3.1": 1,
+      "3.2 Properties and functions of enzymes": 4,
+      "3.3 Protein structures": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

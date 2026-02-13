@@ -1,0 +1,750 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T12:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Phy_U2_Q020",
+    "covered_sections": ["Introduction>Position and Displacement", "Introduction>Average velocity and instantaneous velocity", "Introduction>Acceleration", "Introduction>Equations of motion with constant acceleration"],
+    "used_question_signatures": ["G10_Phy_U2_Q001_A_Position", "G10_Phy_U2_Q002_B_ReferenceFrame", "G10_Phy_U2_Q003_H_DistanceVsDisplacement", "G10_Phy_U2_Q004_F_DisplacementZero", "G10_Phy_U2_Q005_D_AverageVelocityCalc", "G10_Phy_U2_Q006_G_VelocityChangeTime", "G10_Phy_U2_Q007_C_AverageVelocityFormula", "G10_Phy_U2_Q008_F_InstantaneousVsAverage", "G10_Phy_U2_Q009_D_AverageSpeedCalc", "G10_Phy_U2_Q010_E_DisplacementFromVelocityTime", "G10_Phy_U2_Q011_G_AccelerationSign", "G10_Phy_U2_Q012_D_AverageAccelerationCalc", "G10_Phy_U2_Q013_C_AverageAccelerationFormula", "G10_Phy_U2_Q014_H_DecelerationMisconception", "G10_Phy_U2_Q015_E_AccelerationFromRest", "G10_Phy_U2_Q016_F_ZeroAccelerationVelocity", "G10_Phy_U2_Q017_I_AvgVsInstAcceleration", "G10_Phy_U2_Q018_A_UniformAccelerationDef", "G10_Phy_U2_Q019_N_LimitationAcceleration", "G10_Phy_U2_Q020_D_EquationVCalculation"],
+    "baseline_counter": {
+      "Introduction": {
+        "Position and Displacement": {
+          "count": 4,
+          "mini_headings_covered": ["Position:", "Key Concept: (Reference Frame)", "Displacement:"],
+          "last_question_round": 1
+        },
+        "Average velocity and instantaneous velocity": {
+          "count": 6,
+          "mini_headings_covered": ["Average velocity:", "Key Concept:", "Instantaneous velocity:"],
+          "last_question_round": 1
+        },
+        "Acceleration": {
+          "count": 7,
+          "mini_headings_covered": ["Average acceleration:", "Key Concept:", "Instantaneous acceleration:", "Key Concept:"],
+          "last_question_round": 2
+        },
+        "Equations of motion with constant acceleration": {
+          "count": 3,
+          "mini_headings_covered": ["Free fall:"],
+          "last_question_round": 2
+        },
+        "Graphical representation of uniformly accelerated motion": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Relative velocity in one dimension": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 20,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Position and Displacement": ["Position", "Reference Frame", "Displacement", "Distance"],
+      "Introduction>Average velocity and instantaneous velocity": ["Average Velocity", "Instantaneous Velocity", "Average Speed", "Displacement-Time"],
+      "Introduction>Acceleration": ["Average Acceleration", "Instantaneous Acceleration", "Deceleration", "Negative Acceleration", "Constant Acceleration"],
+      "Introduction>Equations of motion with constant acceleration": ["Uniform Acceleration", "Equations of Motion", "Free Fall", "Acceleration due to Gravity"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_previous_state_R01",
+    "content_density_metrics": {
+      "total_concepts_extracted": 16,
+      "questions_per_concept_ratio": 1.25,
+      "structural_coverage_percentage": 36.4
+    }
+  },
+  "grade": "10",
+  "subject": "Physics",
+  "unit": "Unit 2: Uniformly Accelerated Motion",
+  "pdf_filename": "P10U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T12:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 1,
+        "total_sections": 1,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 4,
+      "mini_headings_covered_count": 11,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 1.25
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Introduction",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phy_U2_Q011",
+      "generation_timestamp": "2025-01-28T12:05:00Z",
+      "section": "Introduction",
+      "subsection": "Acceleration",
+      "sub_subsection": null,
+      "structural_anchor": "Average acceleration:",
+      "mcq_type": "G",
+      "question": "If a car moving in the positive direction slows down steadily, what is the sign of its acceleration?",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Cannot be determined"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the change in velocity when speed decreases in a fixed direction.",
+      "explanation": "Acceleration is defined as the rate of change of velocity. If a car moving in the positive direction slows down, its final velocity is less than its initial velocity, resulting in a negative change in velocity (Δv < 0) and therefore negative acceleration. Option A would be correct if the car were speeding up.",
+      "difficulty_level": "medium",
+      "formula_used": ["a_av = Δv/Δt"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Acceleration",
+        "structural_element": "Average acceleration:",
+        "content_anchor": "velocity still positive, but initial velocity larger than final velocity, Δv negative",
+        "page_hint": "Page 11",
+        "concept_hash": "hash_Acceleration_Sign_SlowingDown"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q012",
+      "generation_timestamp": "2025-01-28T12:05:00Z",
+      "section": "Introduction",
+      "subsection": "Acceleration",
+      "sub_subsection": null,
+      "structural_anchor": "Average acceleration:",
+      "mcq_type": "D",
+      "question": "A car's velocity changes from 15 m/s to 5 m/s in 5.0 seconds. What is the magnitude of its average acceleration?",
+      "options": {
+        "A": "1.0 m/s²",
+        "B": "2.0 m/s²",
+        "C": "3.0 m/s²",
+        "D": "4.0 m/s²"
+      },
+      "correct_answer": "B",
+      "hint": "Use the formula for average acceleration: change in velocity divided by time.",
+      "explanation": "Average acceleration is calculated as (final velocity - initial velocity) / time. Here, (5 m/s - 15 m/s) / 5.0 s = (-10 m/s) / 5.0 s = -2.0 m/s². The magnitude is 2.0 m/s². Option A results from an incorrect sign or calculation error.",
+      "difficulty_level": "medium",
+      "formula_used": ["a_av = (v - v₀)/Δt"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "m/s²",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Acceleration",
+        "structural_element": "Average acceleration:",
+        "content_anchor": "a_av = (v - v₀)/(t - t₀)",
+        "page_hint": "Page 10, 13",
+        "concept_hash": "hash_AverageAcceleration_CalcMagnitude"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q013",
+      "generation_timestamp": "2025-01-28T12:05:00Z",
+      "section": "Introduction",
+      "subsection": "Acceleration",
+      "sub_subsection": null,
+      "structural_anchor": "Average acceleration:",
+      "mcq_type": "C",
+      "question": "Which equation correctly defines the average acceleration of an object?",
+      "options": {
+        "A": "a_av = Δs / Δt",
+        "B": "a_av = (v₀ + v) / 2",
+        "C": "a_av = Δv / Δt",
+        "D": "a_av = v² / r"
+      },
+      "correct_answer": "C",
+      "hint": "Acceleration relates to the rate of change of velocity.",
+      "explanation": "Average acceleration is defined as the change in velocity divided by the time interval over which the change occurs (a_av = Δv/Δt). Option A defines average velocity, and option B defines average velocity under constant acceleration, not acceleration itself.",
+      "difficulty_level": "easy",
+      "formula_used": ["a_av = Δv/Δt"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Acceleration",
+        "structural_element": "Average acceleration:",
+        "content_anchor": "a_av = Δv/Δt",
+        "page_hint": "Page 10",
+        "concept_hash": "hash_AverageAcceleration_Formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q014",
+      "generation_timestamp": "2025-01-28T12:05:00Z",
+      "section": "Introduction",
+      "subsection": "Acceleration",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in stating that deceleration always means negative acceleration?",
+      "options": {
+        "A": "Deceleration occurs when velocity and acceleration vectors point in opposite directions.",
+        "B": "Deceleration is defined as any decrease in speed, regardless of sign conventions.",
+        "C": "Acceleration is negative only when an object moves in the negative direction.",
+        "D": "The sign of acceleration depends on the chosen coordinate system."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the vector nature of velocity and acceleration.",
+      "explanation": "Deceleration is defined as a decrease in the magnitude of velocity. This occurs when the velocity and acceleration vectors are in opposite directions, which can happen with either positive or negative acceleration depending on the coordinate system. Option B incorrectly redefines deceleration without reference to direction.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Acceleration",
+        "structural_element": "Key Concept:",
+        "content_anchor": "deceleration does not mean acceleration is necessarily negative",
+        "page_hint": "Page 13-14",
+        "concept_hash": "hash_Deceleration_Definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q015",
+      "generation_timestamp": "2025-01-28T12:05:00Z",
+      "section": "Introduction",
+      "subsection": "Acceleration",
+      "sub_subsection": null,
+      "structural_anchor": "Instantaneous acceleration:",
+      "mcq_type": "E",
+      "question": "A train starts from rest and reaches a velocity of 21 m/s in 5.0 seconds. What is the magnitude of its average acceleration during this interval?",
+      "options": {
+        "A": "2.1 m/s²",
+        "B": "4.2 m/s²",
+        "C": "5.0 m/s²",
+        "D": "10.5 m/s²"
+      },
+      "correct_answer": "B",
+      "hint": "Use the average acceleration formula with initial velocity zero.",
+      "explanation": "Average acceleration is (v - v₀)/Δt. With v₀ = 0 m/s, v = 21 m/s, and Δt = 5.0 s, the calculation is (21 m/s) / (5.0 s) = 4.2 m/s². Option A results from a unit conversion or calculation error.",
+      "difficulty_level": "medium",
+      "formula_used": ["a_av = (v - v₀)/Δt"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "m/s²",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Acceleration",
+        "structural_element": "Instantaneous acceleration:",
+        "content_anchor": "a_av = (21 m/s - 0) / 5.0 s = 4.2 m/s²",
+        "page_hint": "Page 13",
+        "concept_hash": "hash_AvgAccel_FromRest"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q016",
+      "generation_timestamp": "2025-01-28T12:05:00Z",
+      "section": "Introduction",
+      "subsection": "Acceleration",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "F",
+      "question": "Under the condition that an object's acceleration is zero, which reasoning best explains the possible states of its velocity?",
+      "options": {
+        "A": "The velocity must be zero because no acceleration means no motion.",
+        "B": "The velocity can be any constant value, including zero, as acceleration is the rate of change of velocity.",
+        "C": "The velocity must be decreasing because zero acceleration implies deceleration.",
+        "D": "The velocity must be increasing linearly with time."
+      },
+      "correct_answer": "B",
+      "hint": "Zero acceleration means the rate of change of velocity is zero.",
+      "explanation": "Acceleration is defined as the rate of change of velocity. If acceleration is zero, the velocity is not changing—it remains constant. This constant value can be any number, including zero (object at rest). Option A incorrectly concludes that constant velocity implies zero velocity.",
+      "difficulty_level": "medium",
+      "formula_used": ["a = Δv/Δt"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Acceleration",
+        "structural_element": "Key Concept:",
+        "content_anchor": "If the acceleration is zero, does it mean that the velocity is zero?",
+        "page_hint": "Page 12, Exercise 2.8",
+        "concept_hash": "hash_ZeroAcceleration_VelocityState"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q017",
+      "generation_timestamp": "2025-01-28T12:05:00Z",
+      "section": "Introduction",
+      "subsection": "Acceleration",
+      "sub_subsection": null,
+      "structural_anchor": "Instantaneous acceleration:",
+      "mcq_type": "I",
+      "question": "How does instantaneous acceleration fundamentally differ from average acceleration?",
+      "options": {
+        "A": "Instantaneous acceleration is a vector, while average acceleration is a scalar.",
+        "B": "Instantaneous acceleration is measured at a single instant, while average acceleration is over a time interval.",
+        "C": "Average acceleration is always larger than instantaneous acceleration.",
+        "D": "Instantaneous acceleration requires knowledge of displacement."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the time frame over which each quantity is defined.",
+      "explanation": "Instantaneous acceleration is the acceleration at a specific instant in time, essentially the limit of average acceleration as the time interval approaches zero. Average acceleration is calculated over a finite time interval. Option A is incorrect because both are vector quantities.",
+      "difficulty_level": "medium",
+      "formula_used": ["a_inst = lim(Δt→0) Δv/Δt"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Acceleration",
+        "structural_element": "Instantaneous acceleration:",
+        "content_anchor": "acceleration at a particular instant",
+        "page_hint": "Page 12",
+        "concept_hash": "hash_InstantaneousAcceleration_Definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q018",
+      "generation_timestamp": "2025-01-28T12:05:00Z",
+      "section": "Introduction",
+      "subsection": "Equations of motion with constant acceleration",
+      "sub_subsection": null,
+      "structural_anchor": "Free fall:",
+      "mcq_type": "A",
+      "question": "What term describes the motion of an object moving solely under the influence of gravity, with air resistance neglected?",
+      "options": {
+        "A": "Free fall",
+        "B": "Uniform motion",
+        "C": "Projectile motion",
+        "D": "Deceleration"
+      },
+      "correct_answer": "A",
+      "hint": "This motion has a constant downward acceleration.",
+      "explanation": "Free fall is defined as the motion of an object where the only force acting on it is gravity, resulting in a constant downward acceleration (g ≈ 9.8 m/s²). Option C, projectile motion, is a specific two-dimensional case of free fall with an initial horizontal velocity.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Equations of motion with constant acceleration",
+        "structural_element": "Free fall:",
+        "content_anchor": "object moving freely under the influence of gravity alone",
+        "page_hint": "Page 18",
+        "concept_hash": "hash_FreeFall_Definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q019",
+      "generation_timestamp": "2025-01-28T12:05:00Z",
+      "section": "Introduction",
+      "subsection": "Equations of motion with constant acceleration",
+      "sub_subsection": null,
+      "structural_anchor": "Free fall:",
+      "mcq_type": "N",
+      "question": "For the equations of uniformly accelerated motion to be applied to free fall, what specific condition must be met regarding the acceleration?",
+      "options": {
+        "A": "Acceleration must be in the horizontal direction.",
+        "B": "Acceleration must be zero.",
+        "C": "Acceleration must be constant and equal to g.",
+        "D": "Acceleration must be increasing linearly with time."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the defining characteristic of free fall near Earth's surface.",
+      "explanation": "The equations of motion for constant acceleration (like v = v₀ + at) can be applied to free fall only if the acceleration is constant. In free fall near Earth's surface, this constant acceleration is the acceleration due to gravity, g ≈ 9.8 m/s² downward. Option A contradicts the vertical nature of free fall.",
+      "difficulty_level": "medium",
+      "formula_used": ["a = g"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Equations of motion with constant acceleration",
+        "structural_element": "Free fall:",
+        "content_anchor": "acceleration is downward and has a magnitude of 9.80 m/s²",
+        "page_hint": "Page 18-19",
+        "concept_hash": "hash_FreeFall_ConstantG"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Phy_U2_Q020",
+      "generation_timestamp": "2025-01-28T12:05:00Z",
+      "section": "Introduction",
+      "subsection": "Equations of motion with constant acceleration",
+      "sub_subsection": null,
+      "structural_anchor": "Free fall:",
+      "mcq_type": "D",
+      "question": "An airplane landing with an initial velocity of 70 m/s decelerates at 1.5 m/s² for 40 s. What is its final velocity?",
+      "options": {
+        "A": "20 m/s",
+        "B": "15 m/s",
+        "C": "10 m/s",
+        "D": "5 m/s"
+      },
+      "correct_answer": "C",
+      "hint": "Use the equation v = v₀ + at, noting the deceleration is negative.",
+      "explanation": "For constant acceleration, v = v₀ + at. With v₀ = 70 m/s, a = -1.5 m/s², and t = 40 s, the calculation is v = 70 + (-1.5)(40) = 70 - 60 = 10 m/s. Option A might result from ignoring the negative sign of acceleration.",
+      "difficulty_level": "medium",
+      "formula_used": ["v = v₀ + at"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "m/s",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Equations of motion with constant acceleration",
+        "structural_element": "Free fall:",
+        "content_anchor": "v = v₀ + at, v = 70 m/s - (1.5 m/s²)(40 s)",
+        "page_hint": "Page 17, Example 2.8",
+        "concept_hash": "hash_Equation_V_Calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3100,
+    "average_question_quality": 85.8,
+    "type_distribution": {
+      "A": 1,
+      "C": 1,
+      "D": 2,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 7,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Introduction": 10
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

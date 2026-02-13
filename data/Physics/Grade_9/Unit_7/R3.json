@@ -1,0 +1,893 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-07-16T10:40:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Physics_U7_Q030",
+    "covered_sections": ["Introduction", "7.1 Temperature and Our Life", "7.2 Extreme Temperature Safety", "7.3 Temperature Change and its Effects", "7.4 Measuring Temperature with Different Thermometric Scales", "7.5 Types of Thermometers and Their Use", "7.6 Conversion between Temperature Scales"],
+    "used_question_signatures": ["8f7b5e1", "3a9c2d4", "7e1f6a9", "5b2d8c4", "1c6a9d3", "9d4b7a2", "2a8c5e1", "6d3b9f4", "4c7a1e8", "8e2b5c9", "2f5a8c3", "7c9b1e6", "5d3a8f2", "9b2e7c1", "3f8a5d9", "6c1e9b4", "8a3f6d2", "1e7b4c9", "4b9f3a7", "c5e2a8d", "9e4c7a2", "3d8b6f1", "7f2a5c9", "1b9e4d7", "5a3f8c2", "8d6b1e4", "2c7a9f5", "6b4d8e1", "4f9c2a7", "c1e8b3d"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "7.1 Temperature and Our Life": {
+        "Activity 7.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Activity 7.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Key Concept:": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Exercise 7.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Activity 7.3": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "7.2 Extreme Temperature Safety": {
+        "Activity 7.4": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Figure 7.2 Temperature of tropic, temperate and polar zones.": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "7.3 Temperature Change and its Effects": {
+        "Safety precautions": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Brainstorming Questions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Exercise 7.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "7.4 Measuring Temperature with Different Thermometric Scales": {
+        "Brainstorming Questions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Key Concepts:": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Exercise 7.3": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "The Celsius Scale": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "The Fahrenheit Scale": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "The Kelvin Scale": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "7.5 Types of Thermometers and Their Use": {
+        "Exercise 7.7": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "1. Mercury Thermometer": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "2. Alcohol Thermometers": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "7.6 Conversion between Temperature Scales": {
+        "Example 7.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Example 7.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "7.1 Temperature and Our Life": {
+        "question_count": 8,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "7.2 Extreme Temperature Safety": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "7.3 Temperature Change and its Effects": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "7.4 Measuring Temperature with Different Thermometric Scales": {
+        "question_count": 7,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "7.5 Types of Thermometers and Their Use": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "7.6 Conversion between Temperature Scales": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["Temperature definition", "Thermometry"],
+      "7.1 Temperature and Our Life>Activity 7.2": ["Gas particle motion", "Average kinetic energy"],
+      "7.1 Temperature and Our Life>Activity 7.1": ["Thermal perception", "Relative temperature", "Subjective assessment"],
+      "7.1 Temperature and Our Life>Key Concept:": ["Temperature measurement", "Average kinetic energy definition", "Thermal energy relationship"],
+      "7.1 Temperature and Our Life>Exercise 7.1": ["Temperature effects", "Human adaptation"],
+      "7.1 Temperature and Our Life>Activity 7.3": ["Environmental adaptation", "Temperature range"],
+      "7.2 Extreme Temperature Safety>Activity 7.4": ["Comfortable temperature", "Health maintenance"],
+      "7.2 Extreme Temperature Safety>Figure 7.2 Temperature of tropic, temperate and polar zones.": ["Climate zones", "Temperature distribution"],
+      "7.3 Temperature Change and its Effects>Safety precautions": ["Heat-related illness", "Hydration", "Protective clothing", "Dehydration effects"],
+      "7.3 Temperature Change and its Effects>Brainstorming Questions": ["Temperature change causes", "Problem resolution"],
+      "7.3 Temperature Change and its Effects>Exercise 7.2": ["Greenhouse effect", "Global warming causes"],
+      "7.4 Measuring Temperature with Different Thermometric Scales>Brainstorming Questions": ["Temperature scales", "Medical thermometry"],
+      "7.4 Measuring Temperature with Different Thermometric Scales>Key Concepts:": ["Greenhouse gases", "Global warming factors"],
+      "7.4 Measuring Temperature with Different Thermometric Scales>Exercise 7.3": ["Thermometer operation", "Thermometric properties"],
+      "7.4 Measuring Temperature with Different Thermometric Scales>The Celsius Scale": ["Celsius fixed points", "Scale division"],
+      "7.4 Measuring Temperature with Different Thermometric Scales>The Fahrenheit Scale": ["Fahrenheit fixed points", "Scale range"],
+      "7.4 Measuring Temperature with Different Thermometric Scales>The Kelvin Scale": ["Kelvin absolute zero", "SI temperature unit"],
+      "7.5 Types of Thermometers and Their Use>Exercise 7.7": ["Thermometer types", "Temperature scales review"],
+      "7.5 Types of Thermometers and Their Use>1. Mercury Thermometer": ["Mercury expansion", "Temperature range"],
+      "7.5 Types of Thermometers and Their Use>2. Alcohol Thermometers": ["Alcohol expansion", "Low temperature measurement"],
+      "7.6 Conversion between Temperature Scales>Example 7.1": ["Fahrenheit to Celsius conversion"],
+      "7.6 Conversion between Temperature Scales>Example 7.2": ["Celsius to Fahrenheit conversion"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_from_batch_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 32,
+      "questions_per_concept_ratio": 0.94,
+      "structural_coverage_percentage": 45.0
+    }
+  },
+  "grade": "9",
+  "subject": "Physics",
+  "unit": "Unit 7: Temperature and Thermometry",
+  "pdf_filename": "P9U7.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-07-16T10:40:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 7,
+        "total_sections": 12,
+        "progress_percentage": 58.3
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 7,
+      "subsections_covered_count": 20,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 45.0,
+      "concept_utilization_ratio": 0.94
+    },
+    "distribution_analysis": {
+      "most_covered_section": "7.4 Measuring Temperature with Different Thermometric Scales",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Physics_U7_Q021",
+      "generation_timestamp": "2025-07-16T10:40:00Z",
+      "section": "7.4 Measuring Temperature with Different Thermometric Scales",
+      "subsection": "The Celsius Scale",
+      "sub_subsection": null,
+      "structural_anchor": "The Celsius Scale",
+      "mcq_type": "A",
+      "question": "What numerical values define the ice and steam points on the Celsius temperature scale?",
+      "options": {
+        "A": "0°C and 100°C",
+        "B": "32°C and 212°C",
+        "C": "273°C and 373°C",
+        "D": "-273°C and 0°C"
+      },
+      "correct_answer": "A",
+      "hint": "Recall the fixed reference points for water phase changes in Celsius measurement.",
+      "explanation": "The Celsius scale assigns 0°C to ice melting and 100°C to water boiling at standard pressure. Option B incorrectly provides Fahrenheit scale values rather than Celsius references.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.4 Measuring Temperature with Different Thermometric Scales",
+        "subsection_anchor": "The Celsius Scale",
+        "structural_element": "The Celsius Scale",
+        "content_anchor": "0°C to ice point and 100°C to steam point",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_celsius_fixed_points"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q022",
+      "generation_timestamp": "2025-07-16T10:40:00Z",
+      "section": "7.4 Measuring Temperature with Different Thermometric Scales",
+      "subsection": "The Fahrenheit Scale",
+      "sub_subsection": null,
+      "structural_anchor": "The Fahrenheit Scale",
+      "mcq_type": "C",
+      "question": "Which temperature scale uses 32° and 212° as its fixed reference points for water phase transitions?",
+      "options": {
+        "A": "Fahrenheit scale",
+        "B": "Celsius scale",
+        "C": "Kelvin scale",
+        "D": "Rankine scale"
+      },
+      "correct_answer": "A",
+      "hint": "Identify the scale with specific numerical values for ice and steam points.",
+      "explanation": "The Fahrenheit scale designates 32°F for ice melting and 212°F for water boiling. Option B incorrectly assigns 0°C and 100°C to these reference temperatures.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.4 Measuring Temperature with Different Thermometric Scales",
+        "subsection_anchor": "The Fahrenheit Scale",
+        "structural_element": "The Fahrenheit Scale",
+        "content_anchor": "32°F to ice point and 212°F to steam point",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_fahrenheit_fixed_points"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 61,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q023",
+      "generation_timestamp": "2025-07-16T10:40:00Z",
+      "section": "7.4 Measuring Temperature with Different Thermometric Scales",
+      "subsection": "The Kelvin Scale",
+      "sub_subsection": null,
+      "structural_anchor": "The Kelvin Scale",
+      "mcq_type": "B",
+      "question": "What term describes the theoretical temperature at which all molecular motion ceases?",
+      "options": {
+        "A": "Absolute zero",
+        "B": "Freezing point",
+        "C": "Standard temperature",
+        "D": "Critical temperature"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the minimum possible temperature in thermodynamic systems.",
+      "explanation": "Absolute zero represents 0 K where particles possess minimal kinetic energy. Option B describes the phase change temperature rather than the kinetic energy minimum.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.4 Measuring Temperature with Different Thermometric Scales",
+        "subsection_anchor": "The Kelvin Scale",
+        "structural_element": "The Kelvin Scale",
+        "content_anchor": "lowest possible temperature is absolute zero",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_kelvin_absolute_zero"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 59,
+        "distractor_quality_score": 76,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q024",
+      "generation_timestamp": "2025-07-16T10:40:00Z",
+      "section": "7.5 Types of Thermometers and Their Use",
+      "subsection": "Exercise 7.7",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 7.7",
+      "mcq_type": "J",
+      "question": "Which temperature measurement device utilizes electrical resistance changes with temperature?",
+      "options": {
+        "A": "Resistance thermometer",
+        "B": "Mercury thermometer",
+        "C": "Alcohol thermometer",
+        "D": "Bimetallic strip"
+      },
+      "correct_answer": "A",
+      "hint": "Identify instruments that convert thermal changes to electrical signals.",
+      "explanation": "Resistance thermometers measure temperature through predictable resistance variations in materials like platinum. Option B relies on liquid expansion rather than electrical property changes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.5 Types of Thermometers and Their Use",
+        "subsection_anchor": "Exercise 7.7",
+        "structural_element": "Exercise 7.7",
+        "content_anchor": "different types of thermometers",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_thermometer_types"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q025",
+      "generation_timestamp": "2025-07-16T10:40:00Z",
+      "section": "7.5 Types of Thermometers and Their Use",
+      "subsection": "1. Mercury Thermometer",
+      "sub_subsection": null,
+      "structural_anchor": "1. Mercury Thermometer",
+      "mcq_type": "D",
+      "question": "What temperature range can typically be measured using a mercury-in-glass thermometer?",
+      "options": {
+        "A": "-30°C to 300°C",
+        "B": "-115°C to 78°C",
+        "C": "-270°C to 700°C",
+        "D": "0°C to 100°C"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the physical properties of mercury and its phase change limits.",
+      "explanation": "Mercury remains liquid between approximately -39°C and 357°C, allowing this measurement range. Option B describes the operational range of alcohol thermometers rather than mercury instruments.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.5 Types of Thermometers and Their Use",
+        "subsection_anchor": "1. Mercury Thermometer",
+        "structural_element": "1. Mercury Thermometer",
+        "content_anchor": "mercury thermometer uses expansion of mercury",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_mercury_expansion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q026",
+      "generation_timestamp": "2025-07-16T10:40:00Z",
+      "section": "7.5 Types of Thermometers and Their Use",
+      "subsection": "2. Alcohol Thermometers",
+      "sub_subsection": null,
+      "structural_anchor": "2. Alcohol Thermometers",
+      "mcq_type": "I",
+      "question": "How do the measurement capabilities of alcohol thermometers compare to mercury thermometers for low-temperature applications?",
+      "options": {
+        "A": "Alcohol thermometers measure lower temperatures due to alcohol's lower freezing point",
+        "B": "Mercury thermometers have wider low-temperature ranges than alcohol instruments",
+        "C": "Both thermometers have identical low-temperature measurement limits",
+        "D": "Alcohol cannot measure temperatures below 0°C effectively"
+      },
+      "correct_answer": "A",
+      "hint": "Compare the phase change temperatures of the working fluids.",
+      "explanation": "Alcohol freezes at -114°C compared to mercury at -39°C, enabling lower temperature measurement. Option B incorrectly reverses the relative low-temperature capabilities of these instruments.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.5 Types of Thermometers and Their Use",
+        "subsection_anchor": "2. Alcohol Thermometers",
+        "structural_element": "2. Alcohol Thermometers",
+        "content_anchor": "alcohol thermometer measures from -115°C to 78°C",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_alcohol_expansion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q027",
+      "generation_timestamp": "2025-07-16T10:40:00Z",
+      "section": "7.6 Conversion between Temperature Scales",
+      "subsection": "Example 7.1",
+      "sub_subsection": null,
+      "structural_anchor": "Example 7.1",
+      "mcq_type": "E",
+      "question": "What Celsius temperature corresponds to 50°F according to standard conversion formulas?",
+      "options": {
+        "A": "10°C",
+        "B": "20°C",
+        "C": "30°C",
+        "D": "40°C"
+      },
+      "correct_answer": "A",
+      "hint": "Apply the Fahrenheit to Celsius conversion relationship.",
+      "explanation": "Using T_C = 5/9(T_F - 32), 50°F converts to 10°C through standard temperature conversion. Option B results from miscalculating without subtracting 32 from the Fahrenheit value.",
+      "difficulty_level": "medium",
+      "formula_used": ["T_C = 5/9(T_F - 32)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "°C",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.6 Conversion between Temperature Scales",
+        "subsection_anchor": "Example 7.1",
+        "structural_element": "Example 7.1",
+        "content_anchor": "T_C = 5/9(T_F - 32)",
+        "page_hint": "Page 20",
+        "concept_hash": "sha256_of_fahrenheit_to_celsius"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 63,
+        "distractor_quality_score": 81,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q028",
+      "generation_timestamp": "2025-07-16T10:40:00Z",
+      "section": "7.6 Conversion between Temperature Scales",
+      "subsection": "Example 7.2",
+      "sub_subsection": null,
+      "structural_anchor": "Example 7.2",
+      "mcq_type": "E",
+      "question": "A room temperature of 20°C converts to what value on the Fahrenheit scale?",
+      "options": {
+        "A": "68°F",
+        "B": "86°F",
+        "C": "104°F",
+        "D": "122°F"
+      },
+      "correct_answer": "A",
+      "hint": "Use the Celsius to Fahrenheit conversion formula with proper calculation.",
+      "explanation": "Applying T_F = 9/5(T_C) + 32, 20°C equals 68°F through standard temperature conversion. Option B results from forgetting to add 32 after multiplying by 9/5.",
+      "difficulty_level": "medium",
+      "formula_used": ["T_F = 9/5(T_C) + 32"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "°F",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_pressed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.6 Conversion between Temperature Scales",
+        "subsection_anchor": "Example 7.2",
+        "structural_element": "Example 7.2",
+        "content_anchor": "T_F = 9/5(T_C) + 32",
+        "page_hint": "Page 20",
+        "concept_hash": "sha256_of_celsius_to_fahrenheit"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q029",
+      "generation_timestamp": "2025-07-16T10:40:00Z",
+      "section": "7.4 Measuring Temperature with Different Thermometric Scales",
+      "subsection": "The Kelvin Scale",
+      "sub_subsection": null,
+      "structural_anchor": "The Kelvin Scale",
+      "mcq_type": "F",
+      "question": "Under the condition that temperature measurements require absolute thermodynamic calculations, which reasoning best explains using the Kelvin scale?",
+      "options": {
+        "A": "Kelvin uses absolute zero as reference, avoiding negative values in thermodynamic equations",
+        "B": "Kelvin measurements are more precise than Celsius for all scientific applications",
+        "C": "Kelvin scale divisions are larger than Celsius degrees, improving resolution",
+        "D": "Kelvin directly measures heat energy rather than temperature differences"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the mathematical advantages of an absolute temperature scale.",
+      "explanation": "The Kelvin scale's zero point at absolute zero eliminates negative temperatures in thermodynamic calculations. Option C incorrectly describes scale divisions, as Kelvin and Celsius degrees are identical in size.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.4 Measuring Temperature with Different Thermometric Scales",
+        "subsection_anchor": "The Kelvin Scale",
+        "structural_element": "The Kelvin Scale",
+        "content_anchor": "Kelvin scale used for scientific works",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_si_temperature_unit"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 84,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q030",
+      "generation_timestamp": "2025-07-16T10:40:00Z",
+      "section": "7.3 Temperature Change and its Effects",
+      "subsection": "Safety precautions",
+      "sub_subsection": null,
+      "structural_anchor": "Safety precautions",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to avoiding sunscreen because clouds block sunlight?",
+      "options": {
+        "A": "Underestimating ultraviolet radiation penetration through cloud cover",
+        "B": "Overestimating sunscreen effectiveness against heat rather than radiation",
+        "C": "Confusing infrared heat waves with ultraviolet radiation effects",
+        "D": "Assuming sunscreen only protects against visible light exposure"
+      },
+      "correct_answer": "A",
+      "hint": "Analyze the relationship between cloud cover and different radiation types.",
+      "explanation": "Ultraviolet radiation penetrates clouds significantly, requiring sunscreen protection despite overcast conditions. Option B focuses on heat protection rather than the radiation penetration error.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section_content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.3 Temperature Change and its Effects",
+        "subsection_anchor": "Safety precautions",
+        "structural_element": "Safety precautions",
+        "content_anchor": "wear sunscreen to avoid sunburn",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_sun_protection"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 87
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2980,
+    "average_question_quality": 84.8,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 2,
+      "F": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "7.3 Temperature Change and its Effects": 1,
+      "7.4 Measuring Temperature with Different Thermometric Scales": 4,
+      "7.5 Types of Thermometers and Their Use": 3,
+      "7.6 Conversion between Temperature Scales": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

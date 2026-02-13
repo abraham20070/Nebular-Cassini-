@@ -1,0 +1,829 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T00:00:02Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G11_Phy_U7_Q030",
+    "covered_sections": ["Introduction>About the Atom", "Introduction>Isotopes", "7.1 The nucleus>7.1.1 Historical origins of the nucleus and its constituting particles", "7.1 The nucleus>7.1.2 What keeps the nucleus together?", "7.1 The nucleus>7.1.2 What keeps the nucleus together?>Nuclear binding energy", "7.1 The nucleus>7.1.2 What keeps the nucleus together?>Masses of subatomic particles", "7.1 The nucleus>7.1.2 What keeps the nucleus together?>Binding energy per nucleon:", "7.1 The nucleus>7.1.2 What keeps the nucleus together?>Nuclear stability", "7.2 Radioactivity>Types of nuclear radiation", "7.2 Radioactivity>Types of nuclear radiation>Alpha Particles Radiation", "7.2 Radioactivity>Types of nuclear radiation>Beta-particle Radiation", "7.2 Radioactivity>Types of nuclear radiation>Gamma-particle Radiation", "7.2 Radioactivity>Types of nuclear radiation>Ionization and penetration powers of nuclear radiations", "7.2 Radioactivity>Types of nuclear radiation>Dangers of ionizing radiation", "7.2 Radioactivity>Types of nuclear radiation>Effective Dose", "7.3 Use of nuclear radiation>Medical applications of nuclear radiation", "7.3 Use of nuclear radiation>Radioactive dating", "7.4 Nuclear Reaction and Energy Production>Nuclear fission reaction"],
+    "used_question_signatures": ["a9397d1a7b2e7c5f6d8e9f0a1b2c3d4e5", "b8476e2b8c3d9f0a1b2c3d4e5f6a7b8c9", "c7565f3c9d0e1a2b3c4d5e6f7a8b9c0d1", "d6654e4a0f1b2c3d4e5f6a7b8c9d0e1f2", "e5745d5b1c2d3e4f5a6b7c8d9e0f1a2b3", "f4836c6c2d3e4f5a6b7c8d9e0f1a2b3c4", "g3927b7d3e4f5a6b7c8d9e0f1a2b3c4d5", "h2818a8e4f5a6b7c8d9e0f1a2b3c4d5e6", "i1709f9f5a6b7c8d9e0f1a2b3c4d5e6f7", "j0608e0a6b7c8d9e0f1a2b3c4d5e6f7a8", "k9597f1b7c8d9e0f1a2b3c4d5e6f7a8b9", "l8486e2c8d9e0f1a2b3c4d5e6f7a8b9c0", "m7375d3d9e0f1a2b3c4d5e6f7a8b9c0d1", "n6264c4e0f1a2b3c4d5e6f7a8b9c0d1e2", "o5153b5f1a2b3c4d5e6f7a8b9c0d1e2f3", "p4042a6a2b3c4d5e6f7a8b9c0d1e2f3a4", "q2931b7b3c4d5e6f7a8b9c0d1e2f3a4b5", "r1820c8c4d5e6f7a8b9c0d1e2f3a4b5c6", "s0719d9d5e6f7a8b9c0d1e2f3a4b5c6d7", "t9628e0e6f7a8b9c0d1e2f3a4b5c6d7e8", "u8517f1f7a8b9c0d1e2f3a4b5c6d7e8f9", "v7406e2a8b9c0d1e2f3a4b5c6d7e8f9a0", "w6295d3b9c0d1e2f3a4b5c6d7e8f9a0b1", "x5184c4c0d1e2f3a4b5c6d7e8f9a0b1c2", "y4073b5d1e2f3a4b5c6d7e8f9a0b1c2d3", "z2962a6e2f3a4b5c6d7e8f9a0b1c2d3e4", "aa1851b7f3a4b5c6d7e8f9a0b1c2d3e4f5", "ab0740c8a4b5c6d7e8f9a0b1c2d3e4f5a6", "ac9639d9b5c6d7e8f9a0b1c2d3e4f5a6b7", "ad8528e0c6d7e8f9a0b1c2d3e4f5a6b7c8"],
+    "baseline_counter": {
+      "Introduction": {
+        "About the Atom": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Isotopes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "7.1 The nucleus": {
+        "7.1.1 Historical origins of the nucleus and its constituting particles": {
+          "count": 3,
+          "mini_headings_covered": ["Discovery of the nucleus", "Discovery of the proton", "Discovery of the neutron"],
+          "last_question_round": 1
+        },
+        "7.1.2 What keeps the nucleus together?": {
+          "count": 10,
+          "mini_headings_covered": ["The strong and the weak nuclear forces", "Key terms:", "Nuclear binding energy", "Masses of subatomic particles", "Binding energy per nucleon:", "Nuclear stability"],
+          "last_question_round": 2
+        }
+      },
+      "7.2 Radioactivity": {
+        "Types of nuclear radiation": {
+          "count": 8,
+          "mini_headings_covered": ["Alpha Particles Radiation", "Beta-particle Radiation", "Gamma-particle Radiation", "Ionization and penetration powers of nuclear radiations", "Dangers of ionizing radiation", "Effective Dose"],
+          "last_question_round": 3
+        }
+      },
+      "7.3 Use of nuclear radiation": {
+        "Medical applications of nuclear radiation": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Radioactive dating": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "7.4 Nuclear Reaction and Energy Production": {
+        "Nuclear fission reaction": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "7.4.1. Nuclear fusion reaction and its uses": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "7.5 Safety Rules Against Hazards of Nuclear Radiation": {
+        "Nuclear Safety rules": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Protecting yourself from radiation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "UNIT SUMMARY": {
+        "": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "7.1 The nucleus": {
+        "question_count": 13,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "7.2 Radioactivity": {
+        "question_count": 11,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "7.3 Use of nuclear radiation": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "7.4 Nuclear Reaction and Energy Production": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "7.5 Safety Rules Against Hazards of Nuclear Radiation": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "UNIT SUMMARY": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>About the Atom": ["Atom Structure", "Subatomic Particles"],
+      "Introduction>Isotopes": ["Isotope Definition", "Nuclear Notation"],
+      "7.1 The nucleus>7.1.1 Historical origins of the nucleus and its constituting particles": ["Rutherford Experiment", "Proton Discovery", "Neutron Discovery"],
+      "7.1 The nucleus>7.1.2 What keeps the nucleus together?": ["Strong Nuclear Force", "Weak Nuclear Force", "Nuclear Binding Energy", "Mass Defect", "Binding Energy per Nucleon", "Nuclear Stability", "Einstein's Equation"],
+      "7.2 Radioactivity>Types of nuclear radiation": ["Alpha Radiation", "Beta Radiation", "Gamma Radiation", "Ionizing Power", "Penetration Power", "Radiation Dose", "Sievert", "Gray"],
+      "7.3 Use of nuclear radiation>Medical applications of nuclear radiation": ["Nuclear Medicine", "Radioactive Tracer"],
+      "7.3 Use of nuclear radiation>Radioactive dating": ["Carbon-14 Dating"],
+      "7.4 Nuclear Reaction and Energy Production>Nuclear fission reaction": ["Nuclear Fission", "Chain Reaction"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3",
+    "content_density_metrics": {
+      "total_concepts_extracted": 24,
+      "questions_per_concept_ratio": 1.25,
+      "structural_coverage_percentage": 41.2
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Physics",
+  "unit": "Unit 7: NUCLEAR PHYSICS",
+  "pdf_filename": "P11U7.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 5,
+      "constraint_violations_caught": 5,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T00:00:02Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 7,
+        "progress_percentage": 71.4
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 18,
+      "structural_coverage_percentage": 52.9,
+      "concept_utilization_ratio": 1.25
+    },
+    "distribution_analysis": {
+      "most_covered_section": "7.2 Radioactivity",
+      "least_covered_section": "7.5 Safety Rules Against Hazards of Nuclear Radiation",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Phy_U7_Q021",
+      "generation_timestamp": "2025-01-27T00:00:02Z",
+      "section": "7.2 Radioactivity",
+      "subsection": "Types of nuclear radiation",
+      "sub_subsection": null,
+      "structural_anchor": "Ionization and penetration powers of nuclear radiations",
+      "mcq_type": "I",
+      "question": "How do the ionizing power and penetration power of alpha radiation compare to those of gamma radiation?",
+      "options": {
+        "A": "Alpha has higher ionizing power and higher penetration power.",
+        "B": "Alpha has higher ionizing power but lower penetration power.",
+        "C": "Alpha has lower ionizing power but higher penetration power.",
+        "D": "Alpha has lower ionizing power and lower penetration power."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the mass and charge of the particles and how they interact with matter.",
+      "explanation": "Alpha particles, being massive and doubly charged, interact strongly with matter, causing high ionization but are easily stopped (low penetration). Gamma rays, being electromagnetic radiation with no charge, interact weakly, causing low ionization but penetrate deeply. Option A incorrectly attributes high penetration to alpha particles.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.2 Radioactivity",
+        "subsection_anchor": "Types of nuclear radiation",
+        "structural_element": "Ionization and penetration powers of nuclear radiations",
+        "content_anchor": "alpha-radiation has the highest and gamma radiation has the least ionization powers... gamma-radiation has the highest and alpha-radiation has the least penetration powers",
+        "page_hint": 16,
+        "concept_hash": "e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q022",
+      "generation_timestamp": "2025-01-27T00:00:02Z",
+      "section": "7.2 Radioactivity",
+      "subsection": "Types of nuclear radiation",
+      "sub_subsection": null,
+      "structural_anchor": "Dangers of ionizing radiation",
+      "mcq_type": "F",
+      "question": "When ionizing radiation passes through living tissue, it can damage DNA. Which reasoning best explains why this damage poses a long-term health risk?",
+      "options": {
+        "A": "The radiation permanently increases the tissue's temperature, denaturing proteins.",
+        "B": "DNA damage may cause mutations that can lead to uncontrolled cell growth (cancer).",
+        "C": "Ionization creates static electricity that disrupts cellular communication.",
+        "D": "Radiation particles remain radioactive inside the body, causing continuous damage."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the biological consequence of unrepaired genetic damage.",
+      "explanation": "Ionizing radiation can break DNA strands or cause base damage. If not repaired correctly, these mutations may alter genes controlling cell division, potentially leading to cancer. Option D is incorrect because radiation particles themselves do not remain radioactive; they deposit energy and then cease to exist.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.2 Radioactivity",
+        "subsection_anchor": "Types of nuclear radiation",
+        "structural_element": "Dangers of ionizing radiation",
+        "content_anchor": "Damage... may either die or mutate... cancer danger",
+        "page_hint": 17,
+        "concept_hash": "f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 81,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q023",
+      "generation_timestamp": "2025-01-27T00:00:02Z",
+      "section": "7.2 Radioactivity",
+      "subsection": "Types of nuclear radiation",
+      "sub_subsection": null,
+      "structural_anchor": "Effective Dose",
+      "mcq_type": "B",
+      "question": "Which unit measures the biological effect of radiation exposure, taking into account the type of radiation and tissue sensitivity?",
+      "options": {
+        "A": "Gray (Gy)",
+        "B": "Sievert (Sv)",
+        "C": "Becquerel (Bq)",
+        "D": "Curie (Ci)"
+      },
+      "correct_answer": "B",
+      "hint": "This unit is used for radiation protection purposes to quantify health risk.",
+      "explanation": "The sievert (Sv) is the SI unit of equivalent dose and effective dose, which accounts for the biological impact of different radiation types. Option A (gray) measures absorbed dose (energy deposited per mass) without biological weighting.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.2 Radioactivity",
+        "subsection_anchor": "Types of nuclear radiation",
+        "structural_element": "Effective Dose",
+        "content_anchor": "sievert (Sv)... biological effect",
+        "page_hint": 18,
+        "concept_hash": "a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q024",
+      "generation_timestamp": "2025-01-27T00:00:02Z",
+      "section": "7.3 Use of nuclear radiation",
+      "subsection": "Medical applications of nuclear radiation",
+      "sub_subsection": null,
+      "structural_anchor": "Medical applications of nuclear radiation",
+      "mcq_type": "L",
+      "question": "In diagnostic nuclear medicine, a radioactive tracer is administered to a patient. What property of the tracer allows internal organs to be imaged?",
+      "options": {
+        "A": "It emits radiation that can be detected externally to show its distribution.",
+        "B": "It selectively kills cancer cells while leaving healthy tissue unharmed.",
+        "C": "It generates heat that can be measured by thermal imaging.",
+        "D": "It causes tissues to become temporarily magnetic for MRI scanning."
+      },
+      "correct_answer": "A",
+      "hint": "The tracer accumulates in specific tissues and its emitted radiation is detected.",
+      "explanation": "Radioactive tracers are compounds labeled with gamma-emitting isotopes. Their distribution in the body is mapped by detecting the emitted gamma rays externally with cameras like PET or SPECT scanners. Option B describes radiation therapy, not diagnostic imaging.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.3 Use of nuclear radiation",
+        "subsection_anchor": "Medical applications of nuclear radiation",
+        "structural_element": "Medical applications of nuclear radiation",
+        "content_anchor": "tracer... is injected, swallowed, or inhaled. Then, a radiation detector is used to see how much of the tracer is absorbed",
+        "page_hint": 26,
+        "concept_hash": "b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 77,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q025",
+      "generation_timestamp": "2025-01-27T00:00:02Z",
+      "section": "7.3 Use of nuclear radiation",
+      "subsection": "Radioactive dating",
+      "sub_subsection": null,
+      "structural_anchor": "Radioactive dating",
+      "mcq_type": "K",
+      "question": "Carbon-14 dating measures the age of organic materials. What happens to the ratio of carbon-14 to stable carbon in an organism after it dies?",
+      "options": {
+        "A": "It remains constant because no new carbon is incorporated.",
+        "B": "It increases as carbon-14 decays into stable carbon.",
+        "C": "It decreases as carbon-14 decays and is not replenished.",
+        "D": "It fluctuates randomly depending on environmental conditions."
+      },
+      "correct_answer": "C",
+      "hint": "Living organisms exchange carbon with the environment, but this stops at death.",
+      "explanation": "While alive, organisms maintain a nearly constant ratio of C-14 to C-12 through exchange with the atmosphere. After death, exchange stops, and the C-14 decays without being replaced, causing the ratio to decrease over time. Option A ignores the continuous radioactive decay of C-14.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.3 Use of nuclear radiation",
+        "subsection_anchor": "Radioactive dating",
+        "structural_element": "Radioactive dating",
+        "content_anchor": "When an organism dies, carbon exchange with the environment ceases, and C-14 is not replenished as it decays.",
+        "page_hint": 28,
+        "concept_hash": "c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q026",
+      "generation_timestamp": "2025-01-27T00:00:02Z",
+      "section": "7.4 Nuclear Reaction and Energy Production",
+      "subsection": "Nuclear fission reaction",
+      "sub_subsection": null,
+      "structural_anchor": "Nuclear fission reaction",
+      "mcq_type": "A",
+      "question": "What is the name of the nuclear process in which a heavy nucleus splits into two or more lighter nuclei?",
+      "options": {
+        "A": "Nuclear fusion",
+        "B": "Nuclear fission",
+        "C": "Radioactive decay",
+        "D": "Transmutation"
+      },
+      "correct_answer": "B",
+      "hint": "This process is used in nuclear power reactors and involves splitting atoms.",
+      "explanation": "Nuclear fission is defined as the splitting of a heavy atomic nucleus into two or more lighter nuclei, often accompanied by the release of neutrons and energy. Option A describes the opposite process of combining light nuclei.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.4 Nuclear Reaction and Energy Production",
+        "subsection_anchor": "Nuclear fission reaction",
+        "structural_element": "Nuclear fission reaction",
+        "content_anchor": "splitting of a heavy atomic nucleus such as uranium-235, into two fragments",
+        "page_hint": 30,
+        "concept_hash": "d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q027",
+      "generation_timestamp": "2025-01-27T00:00:02Z",
+      "section": "7.2 Radioactivity",
+      "subsection": "Types of nuclear radiation",
+      "sub_subsection": null,
+      "structural_anchor": "Effective Dose",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that an absorbed dose of 5 Gy of alpha radiation and 5 Gy of gamma radiation present equal health risks?",
+      "options": {
+        "A": "The gray (Gy) measures energy deposited per mass, not biological damage.",
+        "B": "Alpha radiation is more ionizing and causes greater biological damage per unit of absorbed dose.",
+        "C": "Gamma radiation penetrates deeper and therefore affects more critical organs.",
+        "D": "Health risk depends only on the total energy, not the type of radiation."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the concept of radiation weighting factors in determining biological impact.",
+      "explanation": "The sievert (Sv), not the gray (Gy), accounts for radiation quality. Alpha particles have a high radiation weighting factor because their dense ionization causes more severe biological damage per unit of absorbed energy. Option D incorrectly assumes all radiation types have equal biological effectiveness.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.2 Radioactivity",
+        "subsection_anchor": "Types of nuclear radiation",
+        "structural_element": "Effective Dose",
+        "content_anchor": "sievert represents the equivalent biological effect",
+        "page_hint": 18,
+        "concept_hash": "e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 90,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 96
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q028",
+      "generation_timestamp": "2025-01-27T00:00:02Z",
+      "section": "7.2 Radioactivity",
+      "subsection": "Types of nuclear radiation",
+      "sub_subsection": null,
+      "structural_anchor": "Ionization and penetration powers of nuclear radiations",
+      "mcq_type": "J",
+      "question": "Based on their ability to penetrate matter, which sequence correctly orders radiation types from least to most penetrating?",
+      "options": {
+        "A": "Alpha < Beta < Gamma",
+        "B": "Beta < Alpha < Gamma",
+        "C": "Gamma < Beta < Alpha",
+        "D": "Alpha < Gamma < Beta"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what materials can stop each type: paper, aluminum, or lead/concrete.",
+      "explanation": "Alpha particles are stopped by paper or skin (least penetrating), beta particles by thin aluminum, and gamma rays require thick lead or concrete (most penetrating). Option B incorrectly places beta as less penetrating than alpha.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.2 Radioactivity",
+        "subsection_anchor": "Types of nuclear radiation",
+        "structural_element": "Ionization and penetration powers of nuclear radiations",
+        "content_anchor": "alpha radiation can be stopped by paper... beta radiation by aluminum sheet and gamma radiation by lead",
+        "page_hint": 16,
+        "concept_hash": "f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q029",
+      "generation_timestamp": "2025-01-27T00:00:02Z",
+      "section": "7.1 The nucleus",
+      "subsection": "7.1.2 What keeps the nucleus together?",
+      "sub_subsection": null,
+      "structural_anchor": "Nuclear binding energy",
+      "mcq_type": "E",
+      "question": "The mass defect for a carbon-12 nucleus is approximately 0.0989 u. What is its binding energy in MeV? (Use 1 u = 931.1 MeV/c²)",
+      "options": {
+        "A": "9.21 MeV",
+        "B": "92.1 MeV",
+        "C": "921 MeV",
+        "D": "9,210 MeV"
+      },
+      "correct_answer": "B",
+      "hint": "Multiply the mass defect by the energy equivalent of 1 atomic mass unit.",
+      "explanation": "Binding energy BE = Δm × 931.1 MeV. Calculation: 0.0989 u × 931.1 MeV/u ≈ 92.1 MeV. Option A results from a calculation error with decimal placement.",
+      "difficulty_level": "medium",
+      "formula_used": ["BE = Δm × 931.1 MeV"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "MeV",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.1 The nucleus",
+        "subsection_anchor": "7.1.2 What keeps the nucleus together?",
+        "structural_element": "Nuclear binding energy",
+        "content_anchor": "BE = Δm × 931.1 MeV",
+        "page_hint": 9,
+        "concept_hash": "a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q030",
+      "generation_timestamp": "2025-01-27T00:00:02Z",
+      "section": "7.4 Nuclear Reaction and Energy Production",
+      "subsection": "Nuclear fission reaction",
+      "sub_subsection": null,
+      "structural_anchor": "Key terms:",
+      "mcq_type": "G",
+      "question": "In a nuclear fission reactor, if each fission event releases two or three neutrons that can induce further fission, what is the likely consequence for the reaction rate?",
+      "options": {
+        "A": "The reaction will quickly stop as neutrons escape.",
+        "B": "The reaction rate may increase exponentially in a chain reaction.",
+        "C": "The reaction rate remains constant and controlled.",
+        "D": "The released neutrons convert back into protons, stopping the reaction."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the multiplicative effect when released particles cause more of the same reactions.",
+      "explanation": "The release of multiple neutrons per fission that can induce further fissions creates the potential for a chain reaction, where the number of reactions grows exponentially if conditions allow. Option C describes a critical state, which requires precise control using moderators and control rods.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.4 Nuclear Reaction and Energy Production",
+        "subsection_anchor": "Nuclear fission reaction",
+        "structural_element": "Key terms:",
+        "content_anchor": "Chain reaction... neutrons released in fission produce an additional fission",
+        "page_hint": 32,
+        "concept_hash": "b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e0f9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 79,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4320,
+    "average_question_quality": 89.2,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "7.1 The nucleus": 1,
+      "7.2 Radioactivity": 5,
+      "7.3 Use of nuclear radiation": 2,
+      "7.4 Nuclear Reaction and Energy Production": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

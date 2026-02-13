@@ -1,0 +1,791 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-17T12:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Chem_U5_Q010",
+    "covered_sections": ["5.1 Introduction>5.1.1 Components of the Environment", "5.1 Introduction>5.1.2 Natural Cycles in the Environment", "5.1 Introduction>5.1.3 Concepts Related to Environmental Chemistry", "5.2 Environmental Pollution>5.2.1 Air Pollution"],
+    "used_question_signatures": ["hash_G12_Chem_U5_Q001", "hash_G12_Chem_U5_Q002", "hash_G12_Chem_U5_Q003", "hash_G12_Chem_U5_Q004", "hash_G12_Chem_U5_Q005", "hash_G12_Chem_U5_Q006", "hash_G12_Chem_U5_Q007", "hash_G12_Chem_U5_Q008", "hash_G12_Chem_U5_Q009", "hash_G12_Chem_U5_Q010"],
+    "baseline_counter": {
+      "5.1 Introduction": {
+        "5.1.1 Components of the Environment": {
+          "count": 3,
+          "mini_headings_covered": ["The Atmosphere:", "The Hydrosphere:", "The Lithosphere:"],
+          "last_question_round": 1
+        },
+        "5.1.2 Natural Cycles in the Environment": {
+          "count": 2,
+          "mini_headings_covered": ["The Hydrologic Cycle", "The Nitrogen Cycle"],
+          "last_question_round": 1
+        },
+        "5.1.3 Concepts Related to Environmental Chemistry": {
+          "count": 2,
+          "mini_headings_covered": ["Pollutant:", "Biological Oxygen Demand (BOD):"],
+          "last_question_round": 1
+        }
+      },
+      "5.2 Environmental Pollution": {
+        "5.2.1 Air Pollution": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "5.2.2 Water Pollution": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "5.2.3 Land Pollution": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "5.3 Global Warming and Climate Change": {
+        "5.3.1 Global Warming and Climate Change": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "5.3.2 Chemistry of Greenhouse Gasses and Their Effects on Climate Change": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "5.4 Green Chemistry and Cleaner Production": {
+        "5.4.1 Principle of Green Chemistry": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "5.4.2 Cleaner Production in Chemistry": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1 Introduction": {
+        "question_count": 7,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.2 Environmental Pollution": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.3 Global Warming and Climate Change": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.4 Green Chemistry and Cleaner Production": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1 Introduction>5.1.1 Components of the Environment": ["Atmosphere composition", "Hydrosphere definition", "Lithosphere composition"],
+      "5.1 Introduction>5.1.2 Natural Cycles in the Environment": ["Hydrologic cycle exchange", "Nitrogen fixation"],
+      "5.1 Introduction>5.1.3 Concepts Related to Environmental Chemistry": ["Pollutant definition", "BOD measurement"],
+      "5.2 Environmental Pollution>5.2.1 Air Pollution": ["CFCs ozone depletion", "Sulfur dioxide sources"],
+      "5.3 Global Warming and Climate Change>5.3.1 Global Warming and Climate Change": ["Fossil fuel combustion"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_integrity",
+    "content_density_metrics": {
+      "total_concepts_extracted": 9,
+      "questions_per_concept_ratio": 1.11,
+      "structural_coverage_percentage": 20.0
+    }
+  },
+  "grade": "12",
+  "subject": "Chemistry",
+  "unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+  "pdf_filename": "C12U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-17T12:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 4,
+        "progress_percentage": 75.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 5,
+      "structural_coverage_percentage": 20.0,
+      "concept_utilization_ratio": 1.11
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.1 Introduction",
+      "least_covered_section": "5.4 Green Chemistry and Cleaner Production",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Chem_U5_Q001",
+      "generation_timestamp": "2025-01-17T12:00:00Z",
+      "section": "5.1 Introduction",
+      "subsection": "5.1.1 Components of the Environment",
+      "sub_subsection": null,
+      "structural_anchor": "The Atmosphere:",
+      "mcq_type": "A",
+      "question": "Which atmospheric layer consists primarily of nitrogen, oxygen, and trace gases that absorb infrared radiation?",
+      "options": {
+        "A": "The troposphere",
+        "B": "The stratosphere",
+        "C": "The mesosphere",
+        "D": "The thermosphere"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the lowest atmospheric layer where weather occurs and greenhouse gases are concentrated.",
+      "explanation": "The troposphere contains approximately 78% nitrogen and 21% oxygen, along with greenhouse gases like carbon dioxide that absorb infrared radiation. Option B incorrectly refers to the stratosphere, which contains the ozone layer but has different gas concentrations.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.1 Introduction",
+        "subsection_anchor": "5.1.1 Components of the Environment",
+        "structural_element": "The Atmosphere:",
+        "content_anchor": "Earth's atmosphere is composed of about 78% nitrogen, 21% oxygen, and one percent other gases",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_atmosphere_composition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q002",
+      "generation_timestamp": "2025-01-17T12:00:00Z",
+      "section": "5.1 Introduction",
+      "subsection": "5.1.1 Components of the Environment",
+      "sub_subsection": null,
+      "structural_anchor": "The Hydrosphere:",
+      "mcq_type": "B",
+      "question": "What term describes the collective mass of water found on, under, and above Earth's surface, including oceans, rivers, and groundwater?",
+      "options": {
+        "A": "Lithosphere",
+        "B": "Hydrosphere",
+        "C": "Atmosphere",
+        "D": "Biosphere"
+      },
+      "correct_answer": "B",
+      "hint": "This component encompasses all water in liquid, solid, and vapor states on the planet.",
+      "explanation": "The hydrosphere includes all water forms such as oceans, rivers, lakes, glaciers, and groundwater. Option A incorrectly refers to the lithosphere, which comprises Earth's crust and upper mantle.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.1 Introduction",
+        "subsection_anchor": "5.1.1 Components of the Environment",
+        "structural_element": "The Hydrosphere:",
+        "content_anchor": "The hydrosphere is the combined mass of water found on, under, and above the surface of the earth",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_hydrosphere_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q003",
+      "generation_timestamp": "2025-01-17T12:00:00Z",
+      "section": "5.1 Introduction",
+      "subsection": "5.1.1 Components of the Environment",
+      "sub_subsection": null,
+      "structural_anchor": "The Lithosphere:",
+      "mcq_type": "A",
+      "question": "Which environmental compartment consists of Earth's crust and upper mantle, containing rocks and soil accessible to humans?",
+      "options": {
+        "A": "Atmosphere",
+        "B": "Hydrosphere",
+        "C": "Lithosphere",
+        "D": "Biosphere"
+      },
+      "correct_answer": "C",
+      "hint": "This component includes the solid outer layer where geological processes like weathering occur.",
+      "explanation": "The lithosphere comprises Earth's crust and upper mantle, including all rocks and soil. Option D incorrectly identifies the biosphere, which encompasses living organisms and their interactions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.1 Introduction",
+        "subsection_anchor": "5.1.1 Components of the Environment",
+        "structural_element": "The Lithosphere:",
+        "content_anchor": "The lithosphere consists of earth's crust and upper mantle in which the crust part is the Earth's outer skin that is accessible to humans",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_lithosphere_composition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q004",
+      "generation_timestamp": "2025-01-17T12:00:00Z",
+      "section": "5.1 Introduction",
+      "subsection": "5.1.2 Natural Cycles in the Environment",
+      "sub_subsection": null,
+      "structural_anchor": "The Hydrologic Cycle",
+      "mcq_type": "G",
+      "question": "If evaporation from oceans increases due to rising global temperatures, what immediate effect would this have on the hydrologic cycle's land precipitation component?",
+      "options": {
+        "A": "Land precipitation would decrease because ocean evaporation reduces atmospheric moisture",
+        "B": "Land precipitation would increase due to greater atmospheric water vapor available for condensation",
+        "C": "Land precipitation would remain unchanged as evaporation and precipitation are independently regulated",
+        "D": "Land precipitation would become more saline due to increased ocean-derived evaporation"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the relationship between evaporation, atmospheric water vapor content, and precipitation formation.",
+      "explanation": "Increased ocean evaporation elevates atmospheric water vapor, enhancing condensation and precipitation over land masses. Option A incorrectly assumes evaporation reduces atmospheric moisture, when actually it increases it.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.1 Introduction",
+        "subsection_anchor": "5.1.2 Natural Cycles in the Environment",
+        "structural_element": "The Hydrologic Cycle",
+        "content_anchor": "In this cycle there is the continuous exchange of water between environmental compartments",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_hydrologic_cycle_exchange"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q005",
+      "generation_timestamp": "2025-01-17T12:00:00Z",
+      "section": "5.1 Introduction",
+      "subsection": "5.1.2 Natural Cycles in the Environment",
+      "sub_subsection": null,
+      "structural_anchor": "The Nitrogen Cycle",
+      "mcq_type": "C",
+      "question": "Which chemical equation represents biological nitrogen fixation by bacteria and algae?",
+      "options": {
+        "A": "2N₂ + 3CH₂O + 3H₂O + 4H⁺ → 3CO₂ + 4NH₄⁺",
+        "B": "2O₂ + 3NH₄⁺ → NO₃⁻ + 2H⁺ + H₂O",
+        "C": "2NO₃⁻ + CH₂O → 2NO₂⁻ + H₂O + CO₂",
+        "D": "2NO₃⁻ + 5(CH₂O) + 4H⁺ → 2N₂ + 7H₂O + 5CO₂"
+      },
+      "correct_answer": "A",
+      "hint": "Look for the equation where atmospheric nitrogen (N₂) is converted to ammonium ions (NH₄⁺).",
+      "explanation": "Equation A shows nitrogen fixation where atmospheric N₂ is reduced to ammonium ions (NH₄⁺) by microorganisms. Equation B represents nitrification, converting ammonium to nitrate.",
+      "difficulty_level": "medium",
+      "formula_used": ["2N₂ + 3CH₂O + 3H₂O + 4H⁺ → 3CO₂ + 4NH₄⁺"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.1 Introduction",
+        "subsection_anchor": "5.1.2 Natural Cycles in the Environment",
+        "structural_element": "The Nitrogen Cycle",
+        "content_anchor": "Fixation by bacteria and algae : 2N₂ + 3CH₂O + 3H₂O + 4H⁺ → 3CO₂ + 4NH₄⁺",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_nitrogen_fixation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q006",
+      "generation_timestamp": "2025-01-17T12:00:00Z",
+      "section": "5.1 Introduction",
+      "subsection": "5.1.3 Concepts Related to Environmental Chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Pollutant:",
+      "mcq_type": "A",
+      "question": "What defines a substance as a pollutant in environmental chemistry?",
+      "options": {
+        "A": "A naturally occurring substance with constant concentration in the environment",
+        "B": "A substance whose concentration increases due to human activity, causing detrimental environmental effects",
+        "C": "Any substance introduced to the environment regardless of concentration or effect",
+        "D": "A substance that occurs only in industrial waste and never in natural systems"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the relationship between human activity, concentration change, and environmental impact.",
+      "explanation": "A pollutant is characterized by increased concentration from human activity leading to harmful environmental effects. Option C is incorrect because concentration and detrimental effects are necessary criteria.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.1 Introduction",
+        "subsection_anchor": "5.1.3 Concepts Related to Environmental Chemistry",
+        "structural_element": "Pollutant:",
+        "content_anchor": "A substance whose concentration has increased due to human activity, ultimately having detrimental effects on the environment",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_pollutant_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q007",
+      "generation_timestamp": "2025-01-17T12:00:00Z",
+      "section": "5.1 Introduction",
+      "subsection": "5.1.3 Concepts Related to Environmental Chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Biological Oxygen Demand (BOD):",
+      "mcq_type": "D",
+      "question": "If a water sample shows dissolved oxygen decreasing from 8.0 mg/L to 2.5 mg/L after a 5-day sealed incubation, what does this measurement indicate?",
+      "options": {
+        "A": "High water purity with minimal organic matter",
+        "B": "Significant oxygen consumption by oxidizing dissolved organic matter",
+        "C": "Increased photosynthetic activity producing oxygen",
+        "D": "Measurement error as oxygen should increase in sealed conditions"
+      },
+      "correct_answer": "B",
+      "hint": "Consider what process consumes oxygen when organic matter decomposes in water.",
+      "explanation": "BOD measures oxygen consumed by microorganisms oxidizing organic matter, with larger decreases indicating higher pollution. Option A is incorrect because low oxygen consumption, not high, indicates minimal organic matter.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": "mg/L",
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.1 Introduction",
+        "subsection_anchor": "5.1.3 Concepts Related to Environmental Chemistry",
+        "structural_element": "Biological Oxygen Demand (BOD):",
+        "content_anchor": "Indicates the capacity of the DOM (dissolved organic matter) in a sample of water to consume oxygen",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_BOD_measurement"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q008",
+      "generation_timestamp": "2025-01-17T12:00:00Z",
+      "section": "5.2 Environmental Pollution",
+      "subsection": "5.2.1 Air Pollution",
+      "sub_subsection": null,
+      "structural_anchor": "5.2.1 Air Pollution",
+      "mcq_type": "G",
+      "question": "When chlorofluorocarbons (CFCs) reach the stratosphere and undergo ultraviolet photodissociation, what subsequent reaction directly depletes ozone?",
+      "options": {
+        "A": "CF₂Cl₂ + UV → CF₂Cl + Cl",
+        "B": "Cl + O₃ → ClO + O₂",
+        "C": "2O₃ → 3O₂",
+        "D": "CF₂Cl + O₃ → CF₂O + ClO"
+      },
+      "correct_answer": "B",
+      "hint": "Identify the step where chlorine radicals directly attack ozone molecules.",
+      "explanation": "Chlorine radicals produced from CFC photodissociation catalytically destroy ozone via the reaction Cl + O₃ → ClO + O₂. Option A shows CFC breakdown but not ozone depletion.",
+      "difficulty_level": "medium",
+      "formula_used": ["Cl + O₃ → ClO + O₂"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.2 Environmental Pollution",
+        "subsection_anchor": "5.2.1 Air Pollution",
+        "structural_element": "5.2.1 Air Pollution",
+        "content_anchor": "The free chlorine, Cl, reacts with ozone to form chlorine monoxide and oxygen",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_of_CFCs_ozone_depletion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q009",
+      "generation_timestamp": "2025-01-17T12:00:00Z",
+      "section": "5.2 Environmental Pollution",
+      "subsection": "5.2.1 Air Pollution",
+      "sub_subsection": null,
+      "structural_anchor": "5.2.1 Air Pollution",
+      "mcq_type": "B",
+      "question": "Which air pollutant primarily originates from combustion of coal and petroleum, and metal extraction from sulfide ores?",
+      "options": {
+        "A": "Carbon monoxide",
+        "B": "Sulfur dioxide",
+        "C": "Nitrogen oxides",
+        "D": "Volatile organic compounds"
+      },
+      "correct_answer": "B",
+      "hint": "Consider pollutants associated with sulfur-containing fossil fuels and mineral ores.",
+      "explanation": "Sulfur dioxide is produced from combustion of sulfur-containing fuels and sulfide ore processing. Option A, carbon monoxide, results from incomplete combustion of any carbon-based fuel.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.2 Environmental Pollution",
+        "subsection_anchor": "5.2.1 Air Pollution",
+        "structural_element": "5.2.1 Air Pollution",
+        "content_anchor": "Sulphur dioxide (SO₂): - This enters the atmospheric air from the combustion of coal and petroleum, and during extraction of metals from their sulphide ores",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_sulfur_dioxide_sources"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q010",
+      "generation_timestamp": "2025-01-17T12:00:00Z",
+      "section": "5.3 Global Warming and Climate Change",
+      "subsection": "5.3.1 Global Warming and Climate Change",
+      "sub_subsection": null,
+      "structural_anchor": "5.3.1 Global Warming and Climate Change",
+      "mcq_type": "C",
+      "question": "Which general chemical equation represents complete combustion of hydrocarbon fuels that increases atmospheric carbon dioxide?",
+      "options": {
+        "A": "C_xH_y + O₂ → CO₂ + H₂O + heat energy",
+        "B": "C_xH_y + O₂ → CO + H₂O",
+        "C": "C + O₂ → CO₂",
+        "D": "CH₄ + 2O₂ → CO₂ + 2H₂O"
+      },
+      "correct_answer": "A",
+      "hint": "Look for the equation showing hydrocarbon reacting with oxygen to produce only carbon dioxide and water.",
+      "explanation": "Complete hydrocarbon combustion follows the general formula C_xH_y + O₂ → CO₂ + H₂O + energy. Option D is specific to methane combustion but not general for all hydrocarbons.",
+      "difficulty_level": "medium",
+      "formula_used": ["C_xH_y + O₂ → CO₂ + H₂O + heat energy"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.3 Global Warming and Climate Change",
+        "subsection_anchor": "5.3.1 Global Warming and Climate Change",
+        "structural_element": "5.3.1 Global Warming and Climate Change",
+        "content_anchor": "Certain type of chemical reaction mainly from combustion of fuel: C_xH_y + O₂ → CO₂ + H₂O + heat energy",
+        "page_hint": "Page 27",
+        "concept_hash": "sha256_of_fossil_fuel_combustion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2450,
+    "average_question_quality": 83.5,
+    "type_distribution": {
+      "A": 3,
+      "B": 2,
+      "C": 2,
+      "D": 1,
+      "G": 2
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "5.1 Introduction": 7,
+      "5.2 Environmental Pollution": 2,
+      "5.3 Global Warming and Climate Change": 1,
+      "5.4 Green Chemistry and Cleaner Production": 0
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,879 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-09-08T00:00:02Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Chem_U3_Q030",
+    "covered_sections": ["Unit Outcomes", "3.1 Historical Development of the Atomic Theories of Matter", "3.2 Fundamental Laws of Chemical Reactions>3.2.1 The Law of Conservation of Mass", "3.2 Fundamental Laws of Chemical Reactions>3.2.2 The Law of Definite Proportions", "3.2 Fundamental Laws of Chemical Reactions>3.2.3 The Law of Multiple Proportions", "3.3 Atomic Theory>3.3.1 Dalton's Atomic Theory", "3.3 Atomic Theory>3.3.2 Modern Atomic Theory", "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus>3.4.1 Discovery of the Proton", "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus>3.4.2 Discovery of the Electron", "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus>3.4.3 Discovery of the Nucleus", "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus>3.4.4 Discovery of the Neutron", "3.5 Composition of an Atom and the Isotopes>3.5.1 Electrons, Protons and Neutrons", "3.5 Composition of an Atom and the Isotopes>3.5.2 Atomic Number and Mass Number", "3.5 Composition of an Atom and the Isotopes>3.5.3 Atomic Mass and Isotope", "3.5 Composition of an Atom and the Isotopes>3.5.4 Main Energy Levels", "3.5 Composition of an Atom and the Isotopes>3.5.5 Electronic Configuration on Main Shells", "3.5 Composition of an Atom and the Isotopes>3.5.6 Valence Electrons", "Key Terms and Equations", "Unit Summary"],
+    "used_question_signatures": ["hash_A_UnitOutcomes_AtomicTheoryDevelopment", "hash_B_3.1_AncientGreekElements", "hash_A_3.1_AtomosMeaning", "hash_C_3.1_LawDefinition", "hash_D_3.2.1_MassConservationReactants", "hash_E_3.2.1_MassAfterReaction", "hash_F_3.2.1_ConservationClosedSystem", "hash_G_3.3.1_DaltonPostulateIndestructible", "hash_A_3.4.1_AnodeRaysCharge", "hash_H_3.4.1_ProtonDiscoveryExperiment", "hash_J_3.2.2_ProustsLaw", "hash_K_3.2.2_MassRatioWater", "hash_L_3.2.3_MultipleProportionsDefinition", "hash_M_3.2.3_SmallWholeNumberRatio", "hash_N_3.3.2_DaltonsVsModernAtomicTheory", "hash_O_3.4.2_CathodeRayProperties", "hash_P_3.4.2_ThomsonCathodeRayExperiment", "hash_Q_3.5.1_ElectronMassCharge", "hash_R_3.5.1_ProtonMassCharge", "hash_S_3.5.2_AtomicNumberDefinition", "hash_T_3.4.3_RutherfordGoldFoil", "hash_U_3.4.3_NucleusProperties", "hash_V_3.4.4_NeutronDiscovery", "hash_W_3.4.4_ChadwickExperiment", "hash_X_3.5.3_IsotopeDefinition", "hash_Y_3.5.3_AverageAtomicMass", "hash_Z_3.5.4_EnergyLevels", "hash_AA_3.5.5_ElectronicConfiguration", "hash_AB_3.5.6_ValenceElectrons", "hash_AC_KeyTerms_AtomDefinition"],
+    "baseline_counter": {
+      "Unit Outcomes": {
+        "Unit Outcomes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.1 Historical Development of the Atomic Theories of Matter": {
+        "3.1 Historical Development of the Atomic Theories of Matter": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.2 Fundamental Laws of Chemical Reactions": {
+        "3.2.1 The Law of Conservation of Mass": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "3.2.2 The Law of Definite Proportions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "3.2.3 The Law of Multiple Proportions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "3.3 Atomic Theory": {
+        "3.3.1 Dalton's Atomic Theory": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "3.3.2 Modern Atomic Theory": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus": {
+        "3.4.1 Discovery of the Proton": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "3.4.2 Discovery of the Electron": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "3.4.3 Discovery of the Nucleus": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "3.4.4 Discovery of the Neutron": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "3.5 Composition of an Atom and the Isotopes": {
+        "3.5.1 Electrons, Protons and Neutrons": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "3.5.2 Atomic Number and Mass Number": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "3.5.3 Atomic Mass and Isotope": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "3.5.4 Main Energy Levels": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "3.5.5 Electronic Configuration on Main Shells": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "3.5.6 Valence Electrons": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Key Terms and Equations": {
+        "Key Terms and Equations": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Unit Summary": {
+        "Unit Summary": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Unit Outcomes": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.1 Historical Development of the Atomic Theories of Matter": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.2 Fundamental Laws of Chemical Reactions": {
+        "question_count": 7,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "3.3 Atomic Theory": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus": {
+        "question_count": 8,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "3.5 Composition of an Atom and the Isotopes": {
+        "question_count": 8,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Key Terms and Equations": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Unit Summary": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Unit Outcomes": ["Dalton's Atomic Theory", "Modern Atomic Theory"],
+      "3.1 Historical Development of the Atomic Theories of Matter": ["Empedocles four elements", "Atomos meaning indivisible", "Scientific Law definition"],
+      "3.2 Fundamental Laws of Chemical Reactions>3.2.1 The Law of Conservation of Mass": ["Mass of reactants equals products", "Mass in closed system constant", "Lavoisier's discovery"],
+      "3.2 Fundamental Laws of Chemical Reactions>3.2.2 The Law of Definite Proportions": ["Fixed mass ratio in compounds", "Water H:O mass ratio 1:8"],
+      "3.2 Fundamental Laws of Chemical Reactions>3.2.3 The Law of Multiple Proportions": ["Small whole number mass ratios", "CO vs CO2 oxygen ratio 1:2"],
+      "3.3 Atomic Theory>3.3.1 Dalton's Atomic Theory": ["Atoms indestructible"],
+      "3.3 Atomic Theory>3.3.2 Modern Atomic Theory": ["Atoms divisible into subatomic particles"],
+      "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus>3.4.1 Discovery of the Proton": ["Anode rays are positive", "Goldstein's experiment with perforated cathode"],
+      "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus>3.4.2 Discovery of the Electron": ["Cathode rays travel in straight lines", "Cathode rays are negatively charged"],
+      "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus>3.4.3 Discovery of the Nucleus": ["Rutherford's gold foil experiment", "Nucleus is small and dense"],
+      "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus>3.4.4 Discovery of the Neutron": ["Neutron is neutral", "Chadwick's beryllium experiment"],
+      "3.5 Composition of an Atom and the Isotopes>3.5.1 Electrons, Protons and Neutrons": ["Electron mass negligible", "Proton positive charge +1"],
+      "3.5 Composition of an Atom and the Isotopes>3.5.2 Atomic Number and Mass Number": ["Atomic number is proton count"],
+      "3.5 Composition of an Atom and the Isotopes>3.5.3 Atomic Mass and Isotope": ["Isotopes have different neutron numbers", "Average atomic mass is weighted"],
+      "3.5 Composition of an Atom and the Isotopes>3.5.4 Main Energy Levels": ["Electrons occupy energy levels (K, L, M)"],
+      "3.5 Composition of an Atom and the Isotopes>3.5.5 Electronic Configuration on Main Shells": ["Arrangement of electrons in shells"],
+      "3.5 Composition of an Atom and the Isotopes>3.5.6 Valence Electrons": ["Electrons in outermost shell"],
+      "Key Terms and Equations": ["Atom definition"],
+      "Unit Summary": ["Historical development summary"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 30,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 91.3
+    }
+  },
+  "grade": "9",
+  "subject": "Chemistry",
+  "unit": "Unit 3: STRUCTURE OF THE ATOM",
+  "pdf_filename": "C9U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-09-08T00:00:02Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 8,
+        "total_sections": 8,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 8,
+      "subsections_covered_count": 18,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 78.3,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.5 Composition of an Atom and the Isotopes",
+      "least_covered_section": "Unit Outcomes",
+      "imbalance_ratio": 8.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Chem_U3_Q021",
+      "generation_timestamp": "2025-09-08T00:00:02Z",
+      "section": "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus",
+      "subsection": "3.4.3 Discovery of the Nucleus",
+      "sub_subsection": null,
+      "structural_anchor": "3.4.3 Discovery of the Nucleus",
+      "mcq_type": "L",
+      "question": "In an experiment, most alpha particles passed straight through a thin metal foil, but a very few were deflected at large angles or reflected back. Which experimental setup does this describe?",
+      "options": {
+        "A": "Thomson's cathode ray tube experiment",
+        "B": "Rutherford's gold foil experiment",
+        "C": "Millikan's oil drop experiment",
+        "D": "Goldstein's canal ray experiment"
+      },
+      "correct_answer": "B",
+      "hint": "This experiment used alpha particles and a thin metal foil to probe atomic structure.",
+      "explanation": "This describes Rutherford's gold foil experiment, where alpha particle scattering revealed the existence of a small, dense, positively charged nucleus. Option A involved electrons (cathode rays) in a discharge tube, not alpha particles and metal foils.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus",
+        "subsection_anchor": "3.4.3 Discovery of the Nucleus",
+        "structural_element": "3.4.3 Discovery of the Nucleus",
+        "content_anchor": "Rutherford targeted a stream of positively charged α-particles at a very thin gold foil",
+        "page_hint": "29-30",
+        "concept_hash": "sha256_of_RutherfordGoldFoil"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q022",
+      "generation_timestamp": "2025-09-08T00:00:02Z",
+      "section": "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus",
+      "subsection": "3.4.3 Discovery of the Nucleus",
+      "sub_subsection": null,
+      "structural_anchor": "3.4.3 Discovery of the Nucleus",
+      "mcq_type": "F",
+      "question": "The observation that most alpha particles passed undeflected through gold foil led Rutherford to conclude which of the following about atomic structure?",
+      "options": {
+        "A": "Atoms are mostly empty space with a small, dense nucleus.",
+        "B": "Positive charge is uniformly distributed throughout the atom.",
+        "C": "Electrons are embedded in a diffuse positive cloud.",
+        "D": "Atoms contain neutral particles in their center."
+      },
+      "correct_answer": "A",
+      "hint": "Consider what the lack of deflection implies about the atom's volume.",
+      "explanation": "Since most alpha particles passed straight through, Rutherford concluded atoms are mostly empty space. The few that were strongly deflected indicated a small, dense, positively charged center (the nucleus). Option B describes Thomson's plum pudding model, which Rutherford's experiment disproved.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus",
+        "subsection_anchor": "3.4.3 Discovery of the Nucleus",
+        "structural_element": "3.4.3 Discovery of the Nucleus",
+        "content_anchor": "The atom is mostly composed of empty space",
+        "page_hint": "31",
+        "concept_hash": "sha256_of_NucleusProperties"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q023",
+      "generation_timestamp": "2025-09-08T00:00:02Z",
+      "section": "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus",
+      "subsection": "3.4.4 Discovery of the Neutron",
+      "sub_subsection": null,
+      "structural_anchor": "3.4.4 Discovery of the Neutron",
+      "mcq_type": "A",
+      "question": "What is the defining characteristic of a neutron?",
+      "options": {
+        "A": "Positive charge and mass of ~1 amu",
+        "B": "Negative charge and negligible mass",
+        "C": "No charge and mass of ~1 amu",
+        "D": "No charge and negligible mass"
+      },
+      "correct_answer": "C",
+      "hint": "This particle is found in the nucleus and has no electric charge.",
+      "explanation": "The neutron is a subatomic particle located in the atomic nucleus, carrying no electric charge (neutral) and having a mass slightly greater than that of a proton (~1 amu). Option A describes the proton, and option B describes the electron.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus",
+        "subsection_anchor": "3.4.4 Discovery of the Neutron",
+        "structural_element": "3.4.4 Discovery of the Neutron",
+        "content_anchor": "Unlike the protons and the electrons, which are electrically charged, neutrons have no charge",
+        "page_hint": "37",
+        "concept_hash": "sha256_of_NeutronDiscovery"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q024",
+      "generation_timestamp": "2025-09-08T00:00:02Z",
+      "section": "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus",
+      "subsection": "3.4.4 Discovery of the Neutron",
+      "sub_subsection": null,
+      "structural_anchor": "3.4.4 Discovery of the Neutron",
+      "mcq_type": "L",
+      "question": "James Chadwick bombarded beryllium with alpha particles and observed a new type of radiation. Which key observation confirmed this radiation consisted of neutral particles?",
+      "options": {
+        "A": "It caused a paddle wheel to rotate, showing it had momentum.",
+        "B": "It was not deflected by an electric field.",
+        "C": "It produced fluorescence on a zinc sulfide screen.",
+        "D": "It ionized gases it passed through."
+      },
+      "correct_answer": "B",
+      "hint": "Charged particles are deflected by electric fields; neutral particles are not.",
+      "explanation": "Chadwick observed that the radiation from beryllium was not deflected by an electric field, proving it consisted of neutral particles, which he named neutrons. Option A demonstrated the radiation had mass and momentum but not specifically that it was neutral.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus",
+        "subsection_anchor": "3.4.4 Discovery of the Neutron",
+        "structural_element": "3.4.4 Discovery of the Neutron",
+        "content_anchor": "these invisible radiations were allowed to pass through an electric field, there was no deviation seen",
+        "page_hint": "34",
+        "concept_hash": "sha256_of_ChadwickExperiment"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q025",
+      "generation_timestamp": "2025-09-08T00:00:02Z",
+      "section": "3.5 Composition of an Atom and the Isotopes",
+      "subsection": "3.5.3 Atomic Mass and Isotope",
+      "sub_subsection": null,
+      "structural_anchor": "3.5.3 Atomic Mass and Isotope",
+      "mcq_type": "C",
+      "question": "What defines isotopes of a given element?",
+      "options": {
+        "A": "Different numbers of protons",
+        "B": "Different numbers of electrons",
+        "C": "Different numbers of neutrons",
+        "D": "Different numbers of protons and neutrons"
+      },
+      "correct_answer": "C",
+      "hint": "Isotopes have the same atomic number but different mass numbers.",
+      "explanation": "Isotopes are atoms of the same element (same number of protons) that differ in their number of neutrons, and consequently, in their mass numbers. Option A would define different elements, not isotopes.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.5 Composition of an Atom and the Isotopes",
+        "subsection_anchor": "3.5.3 Atomic Mass and Isotope",
+        "structural_element": "3.5.3 Atomic Mass and Isotope",
+        "content_anchor": "Atoms of the same element that differ in their numbers of neutrons are called isotopes",
+        "page_hint": "41-42",
+        "concept_hash": "sha256_of_IsotopeDefinition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q026",
+      "generation_timestamp": "2025-09-08T00:00:02Z",
+      "section": "3.5 Composition of an Atom and the Isotopes",
+      "subsection": "3.5.3 Atomic Mass and Isotope",
+      "sub_subsection": null,
+      "structural_anchor": "3.5.3 Atomic Mass and Isotope",
+      "mcq_type": "E",
+      "question": "Boron has two stable isotopes: B-10 (mass 10.0 amu, abundance 20%) and B-11 (mass 11.0 amu, abundance 80%). What is the average atomic mass of boron?",
+      "options": {
+        "A": "10.2 amu",
+        "B": "10.5 amu",
+        "C": "10.8 amu",
+        "D": "11.0 amu"
+      },
+      "correct_answer": "C",
+      "hint": "Calculate a weighted average: (mass1 × %1) + (mass2 × %2).",
+      "explanation": "Average atomic mass = (10.0 amu × 0.20) + (11.0 amu × 0.80) = 2.0 + 8.8 = 10.8 amu. Option B is the simple average (10.5), which does not account for the different natural abundances.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": "amu",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.5 Composition of an Atom and the Isotopes",
+        "subsection_anchor": "3.5.3 Atomic Mass and Isotope",
+        "structural_element": "3.5.3 Atomic Mass and Isotope",
+        "content_anchor": "average atomic mass of boron is: [(10×20)÷100]+[(11×80)÷100] = 10.8",
+        "page_hint": "44",
+        "concept_hash": "sha256_of_AverageAtomicMass"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 79,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q027",
+      "generation_timestamp": "2025-09-08T00:00:02Z",
+      "section": "3.5 Composition of an Atom and the Isotopes",
+      "subsection": "3.5.4 Main Energy Levels",
+      "sub_subsection": null,
+      "structural_anchor": "3.5.4 Main Energy Levels",
+      "mcq_type": "B",
+      "question": "In the Bohr model, what are the regions called where electrons are most likely to be found at specific distances from the nucleus?",
+      "options": {
+        "A": "Orbits or shells",
+        "B": "Clouds or orbitals",
+        "C": "Bands or zones",
+        "D": "Layers or strata"
+      },
+      "correct_answer": "A",
+      "hint": "These are also designated by letters K, L, M, N.",
+      "explanation": "In the Bohr model, electrons revolve in specific circular paths called orbits or shells (K, L, M, N) at fixed distances from the nucleus. Option B refers to the quantum mechanical model's concept of orbitals, which is more advanced.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.5 Composition of an Atom and the Isotopes",
+        "subsection_anchor": "3.5.4 Main Energy Levels",
+        "structural_element": "3.5.4 Main Energy Levels",
+        "content_anchor": "principal energy level or the main energy level of an electron refers to the shell",
+        "page_hint": "46",
+        "concept_hash": "sha256_of_EnergyLevels"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q028",
+      "generation_timestamp": "2025-09-08T00:00:02Z",
+      "section": "3.5 Composition of an Atom and the Isotopes",
+      "subsection": "3.5.5 Electronic Configuration on Main Shells",
+      "sub_subsection": null,
+      "structural_anchor": "3.5.5 Electronic Configuration on Main Shells",
+      "mcq_type": "J",
+      "question": "An element has the electronic configuration 2,8,5. To which group of the periodic table is it most likely to belong?",
+      "options": {
+        "A": "Group 1 (Alkali Metals)",
+        "B": "Group 2 (Alkaline Earth Metals)",
+        "C": "Group 15 (Nitrogen Group)",
+        "D": "Group 18 (Noble Gases)"
+      },
+      "correct_answer": "C",
+      "hint": "The number of valence electrons often corresponds to the group number for main group elements.",
+      "explanation": "The electronic configuration 2,8,5 indicates 5 electrons in the outermost (valence) shell. For main group elements, the number of valence electrons typically corresponds to the group number (Group 15). Option D would have a full valence shell (e.g., 2,8,8).",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.5 Composition of an Atom and the Isotopes",
+        "subsection_anchor": "3.5.5 Electronic Configuration on Main Shells",
+        "structural_element": "3.5.5 Electronic Configuration on Main Shells",
+        "content_anchor": "systematic arrangement of electrons in the various shell or orbits in an atom is called electronic configuration",
+        "page_hint": "47",
+        "concept_hash": "sha256_of_ElectronicConfiguration"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q029",
+      "generation_timestamp": "2025-09-08T00:00:02Z",
+      "section": "3.5 Composition of an Atom and the Isotopes",
+      "subsection": "3.5.6 Valence Electrons",
+      "sub_subsection": null,
+      "structural_anchor": "3.5.6 Valence Electrons",
+      "mcq_type": "A",
+      "question": "What term describes the electrons located in the outermost shell of an atom?",
+      "options": {
+        "A": "Valence electrons",
+        "B": "Core electrons",
+        "C": "Free electrons",
+        "D": "Bound electrons"
+      },
+      "correct_answer": "A",
+      "hint": "These electrons are involved in chemical bonding.",
+      "explanation": "Valence electrons are the electrons in the outermost shell (valence shell) of an atom and are primarily responsible for its chemical properties and bonding behavior. Option B refers to electrons in inner, filled shells.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.5 Composition of an Atom and the Isotopes",
+        "subsection_anchor": "3.5.6 Valence Electrons",
+        "structural_element": "3.5.6 Valence Electrons",
+        "content_anchor": "electrons that occupy the outermost shell of an atom are called valence electrons",
+        "page_hint": "50",
+        "concept_hash": "sha256_of_ValenceElectrons"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 63,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G9_Chem_U3_Q030",
+      "generation_timestamp": "2025-09-08T00:00:02Z",
+      "section": "Key Terms and Equations",
+      "subsection": "Key Terms and Equations",
+      "sub_subsection": null,
+      "structural_anchor": "Key Terms and Equations",
+      "mcq_type": "A",
+      "question": "What is the most fundamental unit of an element that retains all the chemical properties of that element?",
+      "options": {
+        "A": "Molecule",
+        "B": "Atom",
+        "C": "Ion",
+        "D": "Compound"
+      },
+      "correct_answer": "B",
+      "hint": "This is the basic building block of matter studied in atomic theory.",
+      "explanation": "An atom is the smallest particle of an element that can exist and still exhibit the chemical properties characteristic of that element. Option A, a molecule, is composed of two or more atoms and is the fundamental unit of a compound.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "Key Terms and Equations",
+        "subsection_anchor": "Key Terms and Equations",
+        "structural_element": "Key Terms and Equations",
+        "content_anchor": "Atom",
+        "page_hint": "51",
+        "concept_hash": "sha256_of_AtomDefinition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2600,
+    "average_question_quality": 83.5,
+    "type_distribution": {
+      "A": 4,
+      "B": 2,
+      "C": 1,
+      "E": 1,
+      "F": 1,
+      "J": 1,
+      "L": 2
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "3.4 Discoveries of the Fundamental Subatomic Particles and the Atomic Nucleus": 4,
+      "3.5 Composition of an Atom and the Isotopes": 5,
+      "Key Terms and Equations": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

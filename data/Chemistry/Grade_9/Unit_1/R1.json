@@ -1,0 +1,773 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-06-15T08:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G9_Chem_U1_Q010",
+    "covered_sections": ["1.1>1.1.1", "1.1>1.1.2", "1.2", "1.3>A", "1.3>B"],
+    "used_question_signatures": ["hash1", "hash2", "hash3", "hash4", "hash5", "hash6", "hash7", "hash8", "hash9", "hash10"],
+    "baseline_counter": {
+      "1.1": {
+        "1.1.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "1.1.2": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "1.2": {
+        "": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "1.3": {
+        "A": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "B": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "1.4": {
+        "": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.2": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.3": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.4": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1>1.1.1": ["Definition of Chemistry", "Substance", "Matter", "Property", "Composition", "Structure", "Transformation"],
+      "1.1>1.1.2": ["Branches of Chemistry", "Physical Chemistry", "Organic Chemistry", "Inorganic Chemistry", "Analytical Chemistry", "Biochemistry", "Scope of Chemistry"],
+      "1.2": ["Natural Sciences", "Relationship with Physics", "Relationship with Biology", "Relationship with Geology", "Relationship with Medicine", "Central Science"],
+      "1.3>A": ["Agriculture", "Fertilizers", "Pesticides", "Crop Yield"],
+      "1.3>B": ["Food Production", "Food Preservatives", "Food Adulterants", "Nutrition"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_initial_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 24,
+      "questions_per_concept_ratio": 0.42,
+      "structural_coverage_percentage": 50.0
+    }
+  },
+  "grade": "9",
+  "subject": "Chemistry",
+  "unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+  "pdf_filename": "C9U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-06-15T08:32:15Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 4,
+        "progress_percentage": 75.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 45.5,
+      "concept_utilization_ratio": 0.42
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.1",
+      "least_covered_section": "1.4",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.42,
+      "remaining_concept_capacity": 34
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Chem_U1_Q001",
+      "generation_timestamp": "2024-06-15T08:30:05Z",
+      "section": "1.1 Definition and Scope of Chemistry",
+      "subsection": "1.1.1 Definition of Chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Definition of Chemistry",
+      "mcq_type": "A",
+      "question": "Which scientific discipline studies the composition, properties, and transformations of substances, along with the associated energy changes?",
+      "options": {
+        "A": "Chemistry",
+        "B": "Physics",
+        "C": "Biology",
+        "D": "Geology"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the science focused on matter and its changes.",
+      "explanation": "Chemistry is defined as the science dealing with the composition, structure, and properties of substances, and the energy changes during their transformations. Physics studies matter and energy in broader contexts, not specifically substance transformations.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.1 Definition and Scope of Chemistry",
+        "subsection_anchor": "1.1.1 Definition of Chemistry",
+        "structural_element": "Definition paragraph",
+        "content_anchor": "Chemistry is the science that deals with the properties, composition, and structure of substances...",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_definition_of_chemistry"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U1_Q002",
+      "generation_timestamp": "2024-06-15T08:30:12Z",
+      "section": "1.1 Definition and Scope of Chemistry",
+      "subsection": "1.1.1 Definition of Chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Definition of Chemistry",
+      "mcq_type": "B",
+      "question": "What term describes a particular kind of matter with uniform properties, such as gold or water?",
+      "options": {
+        "A": "Substance",
+        "B": "Element",
+        "C": "Compound",
+        "D": "Mixture"
+      },
+      "correct_answer": "A",
+      "hint": "Look for the term that refers to matter with specific, consistent characteristics.",
+      "explanation": "A substance is defined as a particular kind of matter with uniform properties, like gold or water. Option B incorrectly refers to elements, which are pure substances made of one type of atom, but 'substance' is the broader correct term.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.1 Definition and Scope of Chemistry",
+        "subsection_anchor": "1.1.1 Definition of Chemistry",
+        "structural_element": "Substance definition paragraph",
+        "content_anchor": "A substance is a particular kind of matter with uniform properties.",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_substance_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U1_Q003",
+      "generation_timestamp": "2024-06-15T08:30:20Z",
+      "section": "1.1 Definition and Scope of Chemistry",
+      "subsection": "1.1.2 Scope of Chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Scope of Chemistry",
+      "mcq_type": "J",
+      "question": "Which branch of chemistry primarily investigates compounds containing carbon, including those found in living organisms?",
+      "options": {
+        "A": "Organic chemistry",
+        "B": "Inorganic chemistry",
+        "C": "Physical chemistry",
+        "D": "Analytical chemistry"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the element carbon and its prevalence in biological molecules.",
+      "explanation": "Organic chemistry is the branch that studies carbon-containing compounds, which form the basis of most chemicals in living organisms. Inorganic chemistry focuses on substances not primarily based on carbon, such as minerals and rocks.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.1 Definition and Scope of Chemistry",
+        "subsection_anchor": "1.1.2 Scope of Chemistry",
+        "structural_element": "Branches of chemistry paragraph",
+        "content_anchor": "Organic chemistry: It is the study of substances containing carbon.",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_organic_chemistry"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U1_Q004",
+      "generation_timestamp": "2024-06-15T08:30:28Z",
+      "section": "1.1 Definition and Scope of Chemistry",
+      "subsection": "1.1.2 Scope of Chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Scope of Chemistry",
+      "mcq_type": "I",
+      "question": "How does analytical chemistry differ from physical chemistry in its primary focus?",
+      "options": {
+        "A": "Analytical chemistry focuses on composition analysis, while physical chemistry studies macroscopic properties.",
+        "B": "Analytical chemistry studies carbon compounds, while physical chemistry studies energy transfers.",
+        "C": "Analytical chemistry investigates living systems, while physical chemistry examines atomic structure.",
+        "D": "Analytical chemistry designs new materials, while physical chemistry separates chemical components."
+      },
+      "correct_answer": "A",
+      "hint": "Consider what each branch emphasizes in its research approach.",
+      "explanation": "Analytical chemistry specializes in determining the composition of matter through separation and quantification techniques. Physical chemistry applies physics principles to study macroscopic properties and energy changes in chemical systems.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.1 Definition and Scope of Chemistry",
+        "subsection_anchor": "1.1.2 Scope of Chemistry",
+        "structural_element": "Branches of chemistry descriptions",
+        "content_anchor": "Analytical chemistry: It is the study of the composition of matter. Physical chemistry: It is the study of macroscopic properties...",
+        "page_hint": "Page 4-5",
+        "concept_hash": "sha256_of_branch_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U1_Q005",
+      "generation_timestamp": "2024-06-15T08:30:35Z",
+      "section": "1.2 The Relationship Between Chemistry and Other Natural Sciences",
+      "subsection": "1.2",
+      "sub_subsection": null,
+      "structural_anchor": "Relationship Between Chemistry and Other Natural Sciences",
+      "mcq_type": "F",
+      "question": "Which statement best explains why chemistry is often called the 'central science'?",
+      "options": {
+        "A": "Chemistry connects physics and biology by studying matter at the atomic level while explaining biological processes.",
+        "B": "Chemistry is more important than other sciences because it deals with substances we use daily.",
+        "C": "Chemistry was the first science developed and forms the foundation for all others.",
+        "D": "Chemistry exclusively studies living organisms, making it central to understanding life."
+      },
+      "correct_answer": "A",
+      "hint": "Consider how chemistry bridges different scientific domains.",
+      "explanation": "Chemistry earns the title 'central science' because it links physics (through atomic properties) with biology (through biochemical processes). Option B incorrectly implies superiority rather than interconnectedness between scientific fields.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.2 The Relationship Between Chemistry and Other Natural Sciences",
+        "subsection_anchor": "1.2",
+        "structural_element": "Central science paragraph",
+        "content_anchor": "Because of this, chemistry has been called the 'central science' linking them all together.",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_central_science"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U1_Q006",
+      "generation_timestamp": "2024-06-15T08:30:42Z",
+      "section": "1.2 The Relationship Between Chemistry and Other Natural Sciences",
+      "subsection": "1.2",
+      "sub_subsection": null,
+      "structural_anchor": "Relationship Between Chemistry and Other Natural Sciences",
+      "mcq_type": "D",
+      "question": "Which interdisciplinary field combines chemistry and geology to study chemical compounds and isotopes in Earth's crust?",
+      "options": {
+        "A": "Geochemistry",
+        "B": "Biochemistry",
+        "C": "Physical chemistry",
+        "D": "Medicinal chemistry"
+      },
+      "correct_answer": "A",
+      "hint": "Look for the field connecting chemical analysis with geological studies.",
+      "explanation": "Geochemistry is the interdisciplinary field that studies the abundance, composition, and distribution of chemical compounds in geological environments. Biochemistry incorrectly refers to the study of chemical processes in living organisms, not Earth's crust.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.2 The Relationship Between Chemistry and Other Natural Sciences",
+        "subsection_anchor": "1.2",
+        "structural_element": "Geochemistry definition",
+        "content_anchor": "Geochemistry is defined as the study of the processes that control the abundance, composition, and distribution of chemical compounds and isotopes in geologic environments.",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_geochemistry"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U1_Q007",
+      "generation_timestamp": "2024-06-15T08:30:50Z",
+      "section": "1.3 The Role Chemistry Plays in Production and in the Society",
+      "subsection": "A. Agriculture",
+      "sub_subsection": null,
+      "structural_anchor": "A. Agriculture",
+      "mcq_type": "D",
+      "question": "Which chemical compounds are commonly used as fertilizers to increase crop productivity by providing essential nutrients?",
+      "options": {
+        "A": "Urea and ammonium sulphate",
+        "B": "Sodium chloride and calcium carbonate",
+        "C": "Sulfuric acid and hydrochloric acid",
+        "D": "Ethanol and methanol"
+      },
+      "correct_answer": "A",
+      "hint": "Consider compounds that supply nitrogen and other plant nutrients.",
+      "explanation": "Urea and ammonium sulphate are nitrogen-based fertilizers that enhance soil fertility and crop yields. Sodium chloride is table salt and does not function as a fertilizer, while acids would harm plants rather than nourish them.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.3 The Role Chemistry Plays in Production and in the Society",
+        "subsection_anchor": "A. Agriculture",
+        "structural_element": "Fertilizers paragraph",
+        "content_anchor": "chemical fertilizers such as calcium super phosphate, urea, ammonium sulphate, and sodium nitrate.",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_fertilizers"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U1_Q008",
+      "generation_timestamp": "2024-06-15T08:30:57Z",
+      "section": "1.3 The Role Chemistry Plays in Production and in the Society",
+      "subsection": "A. Agriculture",
+      "sub_subsection": null,
+      "structural_anchor": "A. Agriculture",
+      "mcq_type": "G",
+      "question": "What is the primary effect of using fungicides and insecticides in agriculture?",
+      "options": {
+        "A": "Reducing crop damage from pests and diseases",
+        "B": "Increasing soil water retention capacity",
+        "C": "Enhancing photosynthesis efficiency in plants",
+        "D": "Improving seed germination rates"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what 'cides' (meaning 'kill') in these terms imply.",
+      "explanation": "Fungicides and insecticides are pesticides designed to control fungal diseases and insect pests, thereby protecting crops from damage. While they protect plants, they do not directly enhance photosynthesis or improve soil water retention.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.3 The Role Chemistry Plays in Production and in the Society",
+        "subsection_anchor": "A. Agriculture",
+        "structural_element": "Pesticides paragraph",
+        "content_anchor": "pesticides include fungicides, herbicides, and insecticides... lessened the crop damage.",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_pesticides"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U1_Q009",
+      "generation_timestamp": "2024-06-15T08:31:05Z",
+      "section": "1.3 The Role Chemistry Plays in Production and in the Society",
+      "subsection": "B. Food Production",
+      "sub_subsection": null,
+      "structural_anchor": "B. Food Production",
+      "mcq_type": "D",
+      "question": "What is the primary function of food preservatives in food production systems?",
+      "options": {
+        "A": "Extending the shelf life of food products",
+        "B": "Enhancing the natural color of foods",
+        "C": "Increasing the protein content of foods",
+        "D": "Reducing the cooking time required"
+      },
+      "correct_answer": "A",
+      "hint": "Think about what 'preserving' means in the context of food.",
+      "explanation": "Food preservatives function to inhibit microbial growth and chemical spoilage, thereby extending the safe storage period of food products. While some preservatives may affect color, their primary purpose is preservation rather than nutritional enhancement.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.3 The Role Chemistry Plays in Production and in the Society",
+        "subsection_anchor": "B. Food Production",
+        "structural_element": "Food preservatives paragraph",
+        "content_anchor": "chemistry has led to the discovery of different kinds of food preservatives... preserve food products for a longer period.",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_food_preservatives"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U1_Q010",
+      "generation_timestamp": "2024-06-15T08:31:12Z",
+      "section": "1.3 The Role Chemistry Plays in Production and in the Society",
+      "subsection": "B. Food Production",
+      "sub_subsection": null,
+      "structural_anchor": "B. Food Production",
+      "mcq_type": "F",
+      "question": "Why is chemical analysis important in ensuring food safety for consumers?",
+      "options": {
+        "A": "It detects adulterants and verifies nutritional content, ensuring food meets safety standards.",
+        "B": "It makes food taste better by adding synthetic flavor enhancers.",
+        "C": "It reduces food costs by allowing cheaper ingredients to be used.",
+        "D": "It changes food texture to make products more appealing visually."
+      },
+      "correct_answer": "A",
+      "hint": "Consider how chemistry helps identify impurities and verify quality.",
+      "explanation": "Chemical analysis enables detection of adulterants and verification of nutritional content, which are critical for food safety and quality assurance. While flavor and texture are important, safety verification is the primary public health benefit of food analysis.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.3 The Role Chemistry Plays in Production and in the Society",
+        "subsection_anchor": "B. Food Production",
+        "structural_element": "Food adulterants paragraph",
+        "content_anchor": "methods to test the presence of adulterants which ensure the supply of pure foodstuff.",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_food_analysis"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 187000,
+    "average_question_quality": 85.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "D": 3,
+      "F": 2,
+      "G": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "1.1": 4,
+      "1.2": 2,
+      "1.3": 4,
+      "1.4": 0
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

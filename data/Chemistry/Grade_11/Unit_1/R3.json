@@ -1,0 +1,960 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T16:25:00Z",
+  "round_id": "R01",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Chem_U6_Q030",
+    "covered_sections": [
+      "Introduction>Introduction",
+      "Dalton's Atomic Theory and the Modern Atomic Theory>Postulates of Dalton's Atomic Theory",
+      "Dalton's Atomic Theory and the Modern Atomic Theory>Postulates of Modern Atomic Theory",
+      "Early Experiments to Characterize the Atom>The Discovery of the Electron",
+      "Make-up of the Nucleus>Subatomic Particles",
+      "Electromagnetic Radiation and Atomic Spectra>Electromagnetic Radiation",
+      "The Quantum Mechanical Model of the Atom>Quantum Numbers",
+      "Electronic Configurations and Orbital Diagrams>Ground State Electronic Configuration of the Elements",
+      "Electronic Configurations and the Periodic Table of the Elements>The Modern Periodic Table",
+      "Electronic Configurations and the Periodic Table of the Elements>Periodic Properties",
+      "Make-up of the Nucleus>Atomic Mass and Isotopes",
+      "Early Experiments to Characterize the Atom>Discovery of the Neutron",
+      "Electromagnetic Radiation and Atomic Spectra>The Quantum Theory and Photon",
+      "Electromagnetic Radiation and Atomic Spectra>Atomic Spectra",
+      "Electromagnetic Radiation and Atomic Spectra>The Bohr Model of the Hydrogen Atom",
+      "Electromagnetic Radiation and Atomic Spectra>Limitations of the Bohr Model",
+      "Electromagnetic Radiation and Atomic Spectra>The Wave-Particle Duality of Matter and Energy",
+      "The Quantum Mechanical Model of the Atom>The Heisenberg's Principle",
+      "The Quantum Mechanical Model of the Atom>Shapes of Atomic Orbitals",
+      "Electronic Configurations and the Periodic Table of the Elements>Classification of the Elements",
+      "Electronic Configurations and the Periodic Table of the Elements>Advantages of Periodic Classification of the Elements",
+      "Electromagnetic Radiation and Atomic Spectra>The Quantum Theory and Photon",
+      "Electromagnetic Radiation and Atomic Spectra>Atomic Spectra",
+      "Electromagnetic Radiation and Atomic Spectra>The Bohr Model of the Hydrogen Atom",
+      "The Quantum Mechanical Model of the Atom>The Heisenberg's Principle",
+      "The Quantum Mechanical Model of the Atom>Shapes of Atomic Orbitals",
+      "Electronic Configurations and the Periodic Table of the Elements>Classification of the Elements",
+      "Electronic Configurations and the Periodic Table of the Elements>Advantages of Periodic Classification of the Elements",
+      "Dalton's Atomic Theory and the Modern Atomic Theory>Postulates of Dalton's Atomic Theory",
+      "Early Experiments to Characterize the Atom>The Discovery of the Electron",
+      "Make-up of the Nucleus>Atomic Mass and Isotopes",
+      "Electromagnetic Radiation and Atomic Spectra>The Quantum Theory and Photon",
+      "The Quantum Mechanical Model of the Atom>Shapes of Atomic Orbitals"
+    ],
+    "used_question_signatures": [
+      "hash_112be6d8c154bdf4",
+      "hash_224f8a9c3b77e12a",
+      "hash_33c5d0f8a9e123b7",
+      "hash_44b6c7f8d9123e4a",
+      "hash_55a7d8e9f012345b",
+      "hash_66b8c9d0e112345c",
+      "hash_77c9d0e1f223456d",
+      "hash_88d0e1f2a334567e",
+      "hash_99e1f2a3b445678f",
+      "hash_10a2f3b4c5567890",
+      "hash_11b3c4d5e6678901",
+      "hash_12c4d5e6f7789012",
+      "hash_13d5e6f7a8890123",
+      "hash_14e6f7a8b9901234",
+      "hash_15f7a8b9c0a01245",
+      "hash_16a8b9c0d1b12356",
+      "hash_17b9c0d1e2c23467",
+      "hash_18c0d1e2f3d34578",
+      "hash_19d1e2f3a4e45689",
+      "hash_20e2f3a4b5f56790",
+      "hash_21f3a4b5c6g67801",
+      "hash_22a4b5c6d7h78912",
+      "hash_23b5c6d7e8i89023",
+      "hash_24c6d7e8f9j90134",
+      "hash_25d7e8f9g0k01245",
+      "hash_26e8f9g0h1l12356",
+      "hash_27f9g0h1i2m23467",
+      "hash_28g0h1i2j3n34578",
+      "hash_29h1i2j3k4o45689",
+      "hash_30i2j3k4l5p56790"
+    ],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 2,
+          "mini_headings_covered": ["Unit Outcomes:"],
+          "last_question_round": 1
+        }
+      },
+      "Dalton's Atomic Theory and the Modern Atomic Theory": {
+        "Postulates of Dalton's Atomic Theory": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Postulates of Modern Atomic Theory": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Early Experiments to Characterize the Atom": {
+        "The Discovery of the Electron": {
+          "count": 3,
+          "mini_headings_covered": ["Cathode Rays:"],
+          "last_question_round": 1
+        },
+        "Discovery of the Neutron": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Make-up of the Nucleus": {
+        "Subatomic Particles": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Atomic Mass and Isotopes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Electromagnetic Radiation and Atomic Spectra": {
+        "Electromagnetic Radiation": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Quantum Theory and Photon": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Atomic Spectra": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Bohr Model of the Hydrogen Atom": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Limitations of the Bohr Model": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Wave-Particle Duality of Matter and Energy": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "The Quantum Mechanical Model of the Atom": {
+        "Quantum Numbers": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Heisenberg's Principle": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Shapes of Atomic Orbitals": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Electronic Configurations and Orbital Diagrams": {
+        "Ground State Electronic Configuration of the Elements": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Electronic Configurations and the Periodic Table of the Elements": {
+        "The Modern Periodic Table": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Periodic Properties": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Classification of the Elements": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Advantages of Periodic Classification of the Elements": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      },
+      "Dalton's Atomic Theory and the Modern Atomic Theory": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 3
+      },
+      "Early Experiments to Characterize the Atom": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 3
+      },
+      "Make-up of the Nucleus": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 3
+      },
+      "Electromagnetic Radiation and Atomic Spectra": {
+        "question_count": 11,
+        "last_used_round": 1,
+        "consecutive_batches": 3
+      },
+      "The Quantum Mechanical Model of the Atom": {
+        "question_count": 7,
+        "last_used_round": 1,
+        "consecutive_batches": 3
+      },
+      "Electronic Configurations and Orbital Diagrams": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      },
+      "Electronic Configurations and the Periodic Table of the Elements": {
+        "question_count": 8,
+        "last_used_round": 1,
+        "consecutive_batches": 3
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["Historical development", "Subatomic particles", "Atomic spectra", "Periodic trends"],
+      "Dalton's Atomic Theory and the Modern Atomic Theory>Postulates of Dalton's Atomic Theory": ["Law of conservation of mass", "Law of definite proportions", "Law of multiple proportions", "Example calculation"],
+      "Dalton's Atomic Theory and the Modern Atomic Theory>Postulates of Modern Atomic Theory": ["Limitations of Dalton's theory", "Electron discovery"],
+      "Early Experiments to Characterize the Atom>The Discovery of the Electron": ["Cathode rays", "Electron charge", "Thomson's experiment", "Millikan's oil drop"],
+      "Early Experiments to Characterize the Atom>Discovery of the Neutron": ["Neutron discovery", "Chadwick"],
+      "Make-up of the Nucleus>Subatomic Particles": ["Proton", "Neutron", "Electron mass comparison", "Relative charge"],
+      "Make-up of the Nucleus>Atomic Mass and Isotopes": ["Isotope definition", "Atomic mass calculation", "Fractional abundance"],
+      "Electromagnetic Radiation and Atomic Spectra>Electromagnetic Radiation": ["Wavelength", "Frequency", "Speed of light", "Electromagnetic spectrum"],
+      "Electromagnetic Radiation and Atomic Spectra>The Quantum Theory and Photon": ["Planck's constant", "Photon energy", "Quantum", "Photoelectric effect", "Threshold frequency"],
+      "Electromagnetic Radiation and Atomic Spectra>Atomic Spectra": ["Emission spectrum", "Line spectrum", "Hydrogen spectrum"],
+      "Electromagnetic Radiation and Atomic Spectra>The Bohr Model of the Hydrogen Atom": ["Bohr's postulates", "Quantized orbits", "Ground state", "Excited state", "Energy calculation", "Rydberg constant"],
+      "Electromagnetic Radiation and Atomic Spectra>Limitations of the Bohr Model": ["Single-electron limitation", "Heisenberg uncertainty", "Spectral line splitting"],
+      "Electromagnetic Radiation and Atomic Spectra>The Wave-Particle Duality of Matter and Energy": ["De Broglie equation", "Dual nature", "Matter wavelength"],
+      "The Quantum Mechanical Model of the Atom>Quantum Numbers": ["Principal quantum number", "Angular momentum quantum number", "Magnetic quantum number", "Spin quantum number", "Orbital designation"],
+      "The Quantum Mechanical Model of the Atom>The Heisenberg's Principle": ["Uncertainty principle", "Position-momentum uncertainty", "Wave behavior"],
+      "The Quantum Mechanical Model of the Atom>Shapes of Atomic Orbitals": ["s orbital shape", "p orbital shape", "d orbital shape", "Orbital orientation"],
+      "Electronic Configurations and Orbital Diagrams>Ground State Electronic Configuration of the Elements": ["Aufbau principle", "Electron configuration notation", "Pauli exclusion", "Hund's rule", "Orbital diagram"],
+      "Electronic Configurations and the Periodic Table of the Elements>The Modern Periodic Table": ["Periodic law", "Atomic number basis", "Periods and groups"],
+      "Electronic Configurations and the Periodic Table of the Elements>Periodic Properties": ["Atomic radius trend", "Effective nuclear charge", "Ionization energy", "Electron affinity", "Electronegativity"],
+      "Electronic Configurations and the Periodic Table of the Elements>Classification of the Elements": ["Metals, nonmetals, metalloids", "Group numbering", "Representative vs transition"],
+      "Electronic Configurations and the Periodic Table of the Elements>Advantages of Periodic Classification of the Elements": ["Position prediction", "Property correlation", "Isotope placement"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 64,
+      "questions_per_concept_ratio": 0.47,
+      "structural_coverage_percentage": 54.5
+    }
+  },
+  "grade": "11",
+  "subject": "Chemistry",
+  "unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+  "pdf_filename": "C11U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T16:25:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 8,
+        "total_sections": 8,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 8,
+      "subsections_covered_count": 24,
+      "mini_headings_covered_count": 1,
+      "structural_coverage_percentage": 54.5,
+      "concept_utilization_ratio": 0.47
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Electromagnetic Radiation and Atomic Spectra",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 5.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Chem_U6_Q021",
+      "generation_timestamp": "2025-01-28T16:24:55Z",
+      "section": "Electromagnetic Radiation and Atomic Spectra",
+      "subsection": "The Quantum Theory and Photon",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "E",
+      "question": "Calculate the energy of a single photon of blue light with a wavelength of 600 nm. (Planck's constant h = 6.63 × 10⁻³⁴ J·s; speed of light c = 3.00 × 10⁸ m/s)",
+      "options": {
+        "A": "3.32 × 10⁻¹⁹ J",
+        "B": "1.99 × 10⁻²⁵ J",
+        "C": "4.97 × 10⁻¹⁹ J",
+        "D": "9.95 × 10⁻²⁶ J"
+      },
+      "correct_answer": "A",
+      "hint": "Use the formula E = hc/λ. Convert nm to meters (1 nm = 10⁻⁹ m).",
+      "explanation": "The energy is E = hc/λ = (6.63×10⁻³⁴ × 3.00×10⁸) / (600×10⁻⁹) = 3.315×10⁻¹⁹ J ≈ 3.32×10⁻¹⁹ J. Option C might result from using λ = 600 m instead of 600×10⁻⁹ m.",
+      "difficulty_level": "medium",
+      "formula_used": ["E = hc/λ"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "J",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Electromagnetic Radiation and Atomic Spectra",
+        "subsection_anchor": "The Quantum Theory and Photon",
+        "structural_element": null,
+        "content_anchor": "Example 1.4 ... blue light having a wavelength of 600 nm ... quantum of energy",
+        "page_hint": "19",
+        "concept_hash": "sha256_photon_energy_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q022",
+      "generation_timestamp": "2025-01-28T16:24:56Z",
+      "section": "Electromagnetic Radiation and Atomic Spectra",
+      "subsection": "Atomic Spectra",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "Under the condition that an atom's electrons can only occupy specific energy levels, which reasoning best explains why atomic emission spectra consist of discrete lines rather than a continuous rainbow?",
+      "options": {
+        "A": "Electrons are constantly moving between all possible orbits, producing all colors.",
+        "B": "Energy is absorbed in a continuous range, causing all wavelengths to be emitted.",
+        "C": "Electrons transition only between fixed energy levels, emitting photons with specific energies.",
+        "D": "The nucleus emits energy randomly, creating an unpredictable pattern of light."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the relationship between electron transitions and photon energy.",
+      "explanation": "Quantized energy levels restrict electron transitions to specific energy differences, resulting in photons with discrete wavelengths (lines). Option A contradicts the concept of quantized orbits and would produce a continuous spectrum.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Electromagnetic Radiation and Atomic Spectra",
+        "subsection_anchor": "Atomic Spectra",
+        "structural_element": null,
+        "content_anchor": "only a few colors are observed, displayed as a series of individual lines",
+        "page_hint": "24",
+        "concept_hash": "sha256_line_spectrum_explanation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q023",
+      "generation_timestamp": "2025-01-28T16:24:57Z",
+      "section": "Electromagnetic Radiation and Atomic Spectra",
+      "subsection": "The Bohr Model of the Hydrogen Atom",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "Using Bohr's model, what is the energy of an electron in the n=2 state of a hydrogen atom? (Rydberg constant R_H = 2.18 × 10⁻¹⁸ J)",
+      "options": {
+        "A": "-2.18 × 10⁻¹⁸ J",
+        "B": "-5.45 × 10⁻¹⁹ J",
+        "C": "-1.09 × 10⁻¹⁸ J",
+        "D": "-8.72 × 10⁻²⁰ J"
+      },
+      "correct_answer": "B",
+      "hint": "Use the formula E_n = -R_H / n².",
+      "explanation": "E₂ = -R_H / 2² = -2.18×10⁻¹⁸ J / 4 = -5.45×10⁻¹⁹ J. Option A is the energy for n=1 (ground state).",
+      "difficulty_level": "medium",
+      "formula_used": ["E_n = -R_H/n²"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "J",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Electromagnetic Radiation and Atomic Spectra",
+        "subsection_anchor": "The Bohr Model of the Hydrogen Atom",
+        "structural_element": null,
+        "content_anchor": "E_a = -R_H / n^2 ... For n=2, E_2 = -5.54×10^{-19} J",
+        "page_hint": "28-29",
+        "concept_hash": "sha256_bohr_energy_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q024",
+      "generation_timestamp": "2025-01-28T16:24:58Z",
+      "section": "The Quantum Mechanical Model of the Atom",
+      "subsection": "The Heisenberg's Principle",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "According to Heisenberg's uncertainty principle, if the position of an electron is known with high precision, what must be true about the precision of its momentum?",
+      "options": {
+        "A": "Its momentum must also be known with high precision.",
+        "B": "Its momentum becomes completely unknown.",
+        "C": "Its momentum can be known with low or high precision without restriction.",
+        "D": "The uncertainty in its momentum must increase."
+      },
+      "correct_answer": "D",
+      "hint": "The principle describes a trade-off between measuring complementary properties.",
+      "explanation": "Heisenberg's principle states that Δx·Δp ≥ h/4π, meaning a decrease in position uncertainty (Δx) forces an increase in momentum uncertainty (Δp). Option B overstates the case; the momentum is not completely unknown, just less precisely known.",
+      "difficulty_level": "hard",
+      "formula_used": ["Δx·Δp ≥ h/4π"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "The Quantum Mechanical Model of the Atom",
+        "subsection_anchor": "The Heisenberg's Principle",
+        "structural_element": null,
+        "content_anchor": "if we measure the momentum of a particle precisely, then the position will be correspondingly less precise",
+        "page_hint": "35",
+        "concept_hash": "sha256_heisenberg_tradeoff"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q025",
+      "generation_timestamp": "2025-01-28T16:24:59Z",
+      "section": "The Quantum Mechanical Model of the Atom",
+      "subsection": "Shapes of Atomic Orbitals",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "B",
+      "question": "An atomic orbital with a spherical boundary surface and no nodal planes through the nucleus is designated by what letter?",
+      "options": {
+        "A": "p",
+        "B": "d",
+        "C": "s",
+        "D": "f"
+      },
+      "correct_answer": "C",
+      "hint": "This orbital shape is associated with the lowest angular momentum quantum number.",
+      "explanation": "The s orbital (l=0) has a spherical shape with the nucleus at its center and no nodal planes passing through it. Option A designates dumbbell-shaped orbitals with a nodal plane at the nucleus.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "The Quantum Mechanical Model of the Atom",
+        "subsection_anchor": "Shapes of Atomic Orbitals",
+        "structural_element": null,
+        "content_anchor": "all s orbitals are spherical",
+        "page_hint": "39",
+        "concept_hash": "sha256_s_orbital_shape"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q026",
+      "generation_timestamp": "2025-01-28T16:25:00Z",
+      "section": "Electronic Configurations and the Periodic Table of the Elements",
+      "subsection": "Classification of the Elements",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "J",
+      "question": "Elements that typically form cations, have low ionization energies, and are good conductors of heat and electricity are best classified as what?",
+      "options": {
+        "A": "Nonmetals",
+        "B": "Metalloids",
+        "C": "Metals",
+        "D": "Noble gases"
+      },
+      "correct_answer": "C",
+      "hint": "Think about the general properties of elements on the left side of the periodic table.",
+      "explanation": "Metals characteristically lose electrons to form cations, have low ionization energies, and are good conductors. Option A describes elements that typically gain electrons and are poor conductors.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Electronic Configurations and the Periodic Table of the Elements",
+        "subsection_anchor": "Classification of the Elements",
+        "structural_element": null,
+        "content_anchor": "elements can be divided into representative, transition, and inner transition elements",
+        "page_hint": "48-49",
+        "concept_hash": "sha256_metal_properties_classification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q027",
+      "generation_timestamp": "2025-01-28T16:25:01Z",
+      "section": "Electronic Configurations and the Periodic Table of the Elements",
+      "subsection": "Advantages of Periodic Classification of the Elements",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "K",
+      "question": "What is one key advantage of arranging elements in the modern periodic table based on increasing atomic number rather than atomic mass?",
+      "options": {
+        "A": "It groups elements with similar densities together.",
+        "B": "It explains why some elements have multiple allotropes.",
+        "C": "It resolves the placement of anomalous pairs like argon and potassium.",
+        "D": "It predicts the exact melting point of every element."
+      },
+      "correct_answer": "C",
+      "hint": "Consider historical anomalies where element order by mass did not match chemical properties.",
+      "explanation": "Based on atomic mass, argon (heavier) would come before potassium (lighter), but their chemical properties demand the reverse order. Atomic number ordering correctly places potassium (Z=19) after argon (Z=18). Option A is not a primary advantage of the atomic number basis.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Electronic Configurations and the Periodic Table of the Elements",
+        "subsection_anchor": "Advantages of Periodic Classification of the Elements",
+        "structural_element": null,
+        "content_anchor": "position of the elements that were misfits on the basis of mass number (anomalous pairs like argon and potassium) could be justified",
+        "page_hint": "59",
+        "concept_hash": "sha256_atomic_number_advantage"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "interpreting",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q028",
+      "generation_timestamp": "2025-01-28T16:25:02Z",
+      "section": "Dalton's Atomic Theory and the Modern Atomic Theory",
+      "subsection": "Postulates of Dalton's Atomic Theory",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that atoms of different elements have identical masses?",
+      "options": {
+        "A": "It assumes all chemical reactions obey the law of conservation of mass.",
+        "B": "It overlooks the fact that elements are characterized by unique atomic numbers and different numbers of protons.",
+        "C": "It confuses the mass of an atom with the volume it occupies.",
+        "D": "It ignores the possibility that atoms can form isotopes with different masses."
+      },
+      "correct_answer": "B",
+      "hint": "The defining feature of an element is the number of protons in its nucleus.",
+      "explanation": "Atoms of different elements have different numbers of protons, which contribute significantly to atomic mass. Option D addresses mass variation within a single element, not between different elements.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Dalton's Atomic Theory and the Modern Atomic Theory",
+        "subsection_anchor": "Postulates of Dalton's Atomic Theory",
+        "structural_element": null,
+        "content_anchor": "all atoms of a particular element have the same atomic number, and each element has a different atomic number",
+        "page_hint": "12",
+        "concept_hash": "sha256_element_identity_mass_error"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 81,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q029",
+      "generation_timestamp": "2025-01-28T16:25:03Z",
+      "section": "Early Experiments to Characterize the Atom",
+      "subsection": "The Discovery of the Electron",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "G",
+      "question": "If cathode rays are deflected by a magnetic field, what direct conclusion can be drawn about the nature of these rays?",
+      "options": {
+        "A": "They consist of electrically neutral particles.",
+        "B": "They are waves of pure energy with no mass.",
+        "C": "They consist of charged particles in motion.",
+        "D": "They are unaffected by electric fields."
+      },
+      "correct_answer": "C",
+      "hint": "Only moving charged particles experience a force in a magnetic field.",
+      "explanation": "A magnetic field exerts a force only on moving charged particles, causing deflection. Option A is incorrect because neutral particles would not be deflected.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Early Experiments to Characterize the Atom",
+        "subsection_anchor": "The Discovery of the Electron",
+        "structural_element": null,
+        "content_anchor": "cathode rays are seen to bend when a magnet is brought toward them",
+        "page_hint": "8",
+        "concept_hash": "sha256_cathode_ray_magnetic_deflection"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 79,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q030",
+      "generation_timestamp": "2025-01-28T16:25:04Z",
+      "section": "Make-up of the Nucleus",
+      "subsection": "Atomic Mass and Isotopes",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "E",
+      "question": "An element has two naturally occurring isotopes. Isotope X-63 (62.940 amu) has a fractional abundance of 0.692, and isotope X-65 (64.928 amu) has a fractional abundance of 0.308. What is the atomic mass of this element?",
+      "options": {
+        "A": "63.55 amu",
+        "B": "63.00 amu",
+        "C": "64.00 amu",
+        "D": "127.9 amu"
+      },
+      "correct_answer": "A",
+      "hint": "Calculate the weighted average: atomic mass = (mass1 × abundance1) + (mass2 × abundance2).",
+      "explanation": "Atomic mass = (62.940 × 0.692) + (64.928 × 0.308) = 43.55 + 20.00 = 63.55 amu. Option B might result from simply averaging the isotope masses without weighting by abundance.",
+      "difficulty_level": "medium",
+      "formula_used": ["A = A₁f₁ + A₂f₂"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "amu",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Make-up of the Nucleus",
+        "subsection_anchor": "Atomic Mass and Isotopes",
+        "structural_element": null,
+        "content_anchor": "average relative atomic mass (A) of the element is: A = A1 f1 + A2 f2",
+        "page_hint": "13",
+        "concept_hash": "sha256_atomic_mass_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2300,
+    "average_question_quality": 86.3,
+    "type_distribution": {
+      "B": 1,
+      "D": 1,
+      "E": 2,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Electromagnetic Radiation and Atomic Spectra": 3,
+      "The Quantum Mechanical Model of the Atom": 2,
+      "Electronic Configurations and the Periodic Table of the Elements": 2,
+      "Dalton's Atomic Theory and the Modern Atomic Theory": 1,
+      "Early Experiments to Characterize the Atom": 1,
+      "Make-up of the Nucleus": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

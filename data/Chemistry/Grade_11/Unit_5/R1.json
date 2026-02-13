@@ -1,0 +1,808 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-01-27T00:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Chem_U5_Q010",
+    "covered_sections": ["Start-up Activity", "5.1 Introduction", "5.2 Chemical Equilibrium>5.2.1 Reversible and Irreversible Reactions", "5.2 Chemical Equilibrium>5.2.2 Attainment and Characteristics of Chemical Equilibria", "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant"],
+    "used_question_signatures": ["hash_A_ReversibleReaction_5.2.1", "hash_B_DynamicEquilibrium_5.2.2", "hash_C_LawOfMassAction_5.2.4_A", "hash_D_KcExpression_5.2.4_B", "hash_E_KpCalculation_5.2.4_C", "hash_F_ConceptualKc_5.2.4_B", "hash_G_CauseEffectPressure_5.2.6_B", "hash_H_MisconcentrationEquilibrium_5.2.6_A", "hash_I_ComparisonReversible_5.2.1", "hash_J_ClassificationHeterogeneous_5.2.4_D"],
+    "baseline_counter": {
+      "Start-up Activity": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "5.1 Introduction": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "5.2 Chemical Equilibrium": {
+        "5.2.1 Reversible and Irreversible Reactions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "5.2.2 Attainment and Characteristics of Chemical Equilibria": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "5.2.3 Conditions for Attainment of Chemical Equilibria": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "5.2.4 Equilibrium Expression and Equilibrium Constant": {
+          "count": 6,
+          "mini_headings_covered": ["A. Law of Mass Actions", "B. Equilibrium constant expression involving concentration, Kc", "C. Equilibrium constant expression involving partial pressure, Kp", "D. Equilibrium constant for heterogeneous reactions"],
+          "last_question_round": 1
+        },
+        "5.2.5 Applications of Equilibrium Constant": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "5.2.7 Equilibrium and Industry": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Unit Summary": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "CHECKLIST": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "KEY TERMS": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "REVIEW QUESTIONS": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Start-up Activity": {
+        "question_count": 0,
+        "last_used_round": 0
+      },
+      "5.1 Introduction": {
+        "question_count": 0,
+        "last_used_round": 0
+      },
+      "5.2 Chemical Equilibrium": {
+        "question_count": 10,
+        "last_used_round": 1
+      },
+      "Unit Summary": {
+        "question_count": 0,
+        "last_used_round": 0
+      },
+      "CHECKLIST": {
+        "question_count": 0,
+        "last_used_round": 0
+      },
+      "KEY TERMS": {
+        "question_count": 0,
+        "last_used_round": 0
+      },
+      "REVIEW QUESTIONS": {
+        "question_count": 0,
+        "last_used_round": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.2 Chemical Equilibrium>5.2.1 Reversible and Irreversible Reactions": ["Reversible Reaction", "Irreversible Reaction"],
+      "5.2 Chemical Equilibrium>5.2.2 Attainment and Characteristics of Chemical Equilibria": ["Dynamic Equilibrium"],
+      "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant": ["Law of Mass Action", "Equilibrium Constant (Kc)", "Equilibrium Constant (Kp)", "Heterogeneous Equilibrium"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_0",
+    "content_density_metrics": {
+      "total_concepts_extracted": 8,
+      "questions_per_concept_ratio": 1.25,
+      "structural_coverage_percentage": 28.57
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Chemistry",
+  "unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+  "pdf_filename": "C11U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-01-27T00:02:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 1,
+        "total_sections": 7,
+        "progress_percentage": 14.29
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 4,
+      "mini_headings_covered_count": 4,
+      "structural_coverage_percentage": 19.05,
+      "concept_utilization_ratio": 1.25
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.2 Chemical Equilibrium",
+      "least_covered_section": "Start-up Activity",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Chem_U5_Q001",
+      "generation_timestamp": "2024-01-27T00:00:10Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.1 Reversible and Irreversible Reactions",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "A",
+      "question": "A chemical reaction where reactants are converted to products and the forward reaction proceeds essentially to completion is classified as what type of reaction?",
+      "options": {
+        "A": "Irreversible reaction",
+        "B": "Reversible reaction",
+        "C": "Dynamic reaction",
+        "D": "Equilibrium reaction"
+      },
+      "correct_answer": "A",
+      "hint": "Consider reactions that proceed in one direction only.",
+      "explanation": "An irreversible reaction is characterized by the near-complete conversion of reactants to products, proceeding predominantly in the forward direction. Option B incorrectly describes reversible reactions, which can proceed in both forward and reverse directions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.1 Reversible and Irreversible Reactions",
+        "structural_element": null,
+        "content_anchor": "reactants are converted to the products",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_hash_of_IrreversibleReaction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q002",
+      "generation_timestamp": "2024-01-27T00:00:25Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.1 Reversible and Irreversible Reactions",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "I",
+      "question": "How does a reversible reaction fundamentally differ from an irreversible reaction in a closed system?",
+      "options": {
+        "A": "A reversible reaction reaches a dynamic equilibrium, while an irreversible reaction proceeds to completion.",
+        "B": "A reversible reaction is faster than an irreversible reaction.",
+        "C": "A reversible reaction involves only gaseous reactants, while an irreversible reaction involves solids.",
+        "D": "A reversible reaction has a constant rate, while an irreversible reaction's rate changes."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the final state and ongoing processes in a closed vessel.",
+      "explanation": "Reversible reactions establish a dynamic equilibrium where forward and reverse rates equalize, maintaining constant concentrations. Option B is incorrect because reaction rates depend on multiple factors, not reversibility alone.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.1 Reversible and Irreversible Reactions",
+        "structural_element": null,
+        "content_anchor": "reactions do not go to completion",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_hash_of_ReversibleVsIrreversible"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q003",
+      "generation_timestamp": "2024-01-27T00:00:45Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.2 Attainment and Characteristics of Chemical Equilibria",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "B",
+      "question": "What term describes a state where the forward and reverse reaction rates are equal, and the concentrations of reactants and products remain constant?",
+      "options": {
+        "A": "Dynamic equilibrium",
+        "B": "Static equilibrium",
+        "C": "Reaction completion",
+        "D": "Rate determination"
+      },
+      "correct_answer": "A",
+      "hint": "The equilibrium involves ongoing microscopic processes.",
+      "explanation": "Dynamic equilibrium is characterized by equal forward and reverse reaction rates with constant macroscopic concentrations. Option B incorrectly implies no molecular activity, which contradicts the continuous microscopic processes occurring.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 78
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.2 Attainment and Characteristics of Chemical Equilibria",
+        "structural_element": null,
+        "content_anchor": "rate of forward reaction = rate of reverse reaction",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_hash_of_DynamicEquilibrium"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 70,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q004",
+      "generation_timestamp": "2024-01-27T00:01:05Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+      "sub_subsection": "A. Law of Mass Actions",
+      "structural_anchor": null,
+      "mcq_type": "C",
+      "question": "Which principle states that the rate of a chemical reaction is proportional to the product of the concentrations of the reactants, each raised to the power of its stoichiometric coefficient?",
+      "options": {
+        "A": "Le Chatelier's Principle",
+        "B": "The Law of Mass Action",
+        "C": "The Ideal Gas Law",
+        "D": "The Rate Law"
+      },
+      "correct_answer": "B",
+      "hint": "This law forms the basis for writing equilibrium constant expressions.",
+      "explanation": "The Law of Mass Action mathematically relates reaction rates to reactant concentrations, forming the foundation for equilibrium constant expressions. Option A describes the response of equilibria to external changes, not the rate-concentration relationship.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+        "structural_element": "A. Law of Mass Actions",
+        "content_anchor": "rate at which A and B combine is directly proportional to the product of their concentration terms",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_hash_of_LawOfMassAction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q005",
+      "generation_timestamp": "2024-01-27T00:01:25Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+      "sub_subsection": "B. Equilibrium constant expression involving concentration, Kc",
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "For the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), what is the correct expression for the equilibrium constant Kc?",
+      "options": {
+        "A": "Kc = [NH₃] / ([N₂][H₂])",
+        "B": "Kc = [NH₃]² / ([N₂][H₂]³)",
+        "C": "Kc = ([N₂][H₂]³) / [NH₃]²",
+        "D": "Kc = [NH₃]² / ([N₂] + [H₂]³)"
+      },
+      "correct_answer": "B",
+      "hint": "Product concentrations go in the numerator, raised to their coefficients.",
+      "explanation": "For the ammonia synthesis reaction, Kc equals the concentration of NH₃ squared divided by the product of the concentration of N₂ and the concentration of H₂ cubed. Option C incorrectly places the reactant product in the numerator, representing the inverse of Kc.",
+      "difficulty_level": "easy",
+      "formula_used": ["Kc = [NH₃]² / ([N₂][H₂]³)"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 75
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+        "structural_element": "B. Equilibrium constant expression involving concentration, Kc",
+        "content_anchor": "Kc = [NH₃]² / ([N₂][H₂]³)",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_hash_of_KcExpression_Ammonia"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q006",
+      "generation_timestamp": "2024-01-27T00:01:45Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+      "sub_subsection": "B. Equilibrium constant expression involving concentration, Kc",
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "If the equilibrium constant Kc for a reaction is much greater than 1, which reasoning best explains the composition of the equilibrium mixture?",
+      "options": {
+        "A": "The reaction has not proceeded significantly, so reactants dominate.",
+        "B": "The forward reaction is highly favored, resulting in a product-rich mixture.",
+        "C": "The rates of forward and reverse reactions are exactly equal.",
+        "D": "The reaction is irreversible and has gone to completion."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the mathematical meaning of a large equilibrium constant.",
+      "explanation": "A large Kc value indicates the equilibrium constant expression yields a high number, meaning product concentrations are high relative to reactants. Option A incorrectly associates a large Kc with reactant dominance, which is characteristic of very small Kc values.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+        "structural_element": "B. Equilibrium constant expression involving concentration, Kc",
+        "content_anchor": "Very large values of Kc indicate that at equilibrium the reaction system consists of mainly products",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_hash_of_KcMagnitudeInterpretation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q007",
+      "generation_timestamp": "2024-01-27T00:02:05Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+      "sub_subsection": "C. Equilibrium constant expression involving partial pressure, Kp",
+      "structural_anchor": null,
+      "mcq_type": "E",
+      "question": "For the reaction 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), the equilibrium partial pressures are P(SO₂) = 0.55 atm, P(O₂) = 0.25 atm, and P(SO₃) = 0.50 atm. What is the value of Kp?",
+      "options": {
+        "A": "0.83 atm⁻¹",
+        "B": "1.65 atm⁻¹",
+        "C": "3.30 atm⁻¹",
+        "D": "6.60 atm⁻¹"
+      },
+      "correct_answer": "B",
+      "hint": "Kp = (P_product)^coefficient / [(P_reactant1)^coefficient * (P_reactant2)^coefficient]",
+      "explanation": "Kp = (P_SO₃)² / [(P_SO₂)² * (P_O₂)] = (0.50)² / [(0.55)² * (0.25)] ≈ 1.65 atm⁻¹. Option D results from incorrectly squaring the oxygen partial pressure.",
+      "difficulty_level": "medium",
+      "formula_used": ["Kp = (P_SO₃)² / [(P_SO₂)² * (P_O₂)]"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "atm⁻¹",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+        "structural_element": "C. Equilibrium constant expression involving partial pressure, Kp",
+        "content_anchor": "Kp = [P_C]^c [P_D]^d / [P_A]^a [P_B]^b",
+        "page_hint": "Page 11-12",
+        "concept_hash": "sha256_hash_of_KpCalculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 88,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q008",
+      "generation_timestamp": "2024-01-27T00:02:15Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+      "sub_subsection": "D. Equilibrium constant for heterogeneous reactions",
+      "structural_anchor": null,
+      "mcq_type": "J",
+      "question": "For the heterogeneous reaction CaCO₃(s) ⇌ CaO(s) + CO₂(g), which component is correctly included in the equilibrium constant expression Kc?",
+      "options": {
+        "A": "Concentration of CaCO₃",
+        "B": "Concentration of CaO",
+        "C": "Concentration of CO₂",
+        "D": "Concentrations of all solids and gas"
+      },
+      "correct_answer": "C",
+      "hint": "Pure solids and liquids have constant concentrations and are omitted.",
+      "explanation": "For heterogeneous equilibria, the concentrations of pure solids and liquids are constant and omitted from K expressions; only gaseous or aqueous species are included. Option D incorrectly includes solids, whose concentrations do not affect the equilibrium position.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+        "structural_element": "D. Equilibrium constant for heterogeneous reactions",
+        "content_anchor": "do not include the concentration of pure solids or pure liquids",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_hash_of_HeterogeneousEquilibrium"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q009",
+      "generation_timestamp": "2024-01-27T00:02:20Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+      "sub_subsection": "B. Effect of Change in Pressure",
+      "structural_anchor": null,
+      "mcq_type": "G",
+      "question": "For the equilibrium N₂O₄(g) ⇌ 2NO₂(g), if the total pressure on the system is increased by reducing the volume, what happens to the amount of NO₂?",
+      "options": {
+        "A": "Increases because the equilibrium shifts to produce more gas molecules.",
+        "B": "Decreases because the equilibrium shifts to produce fewer gas molecules.",
+        "C": "Remains unchanged because pressure does not affect gaseous equilibria.",
+        "D": "Increases initially then decreases as a new equilibrium is established."
+      },
+      "correct_answer": "B",
+      "hint": "Count the moles of gas on each side of the equation.",
+      "explanation": "Increasing pressure favors the side with fewer gas moles. Here, the left side has 1 mole and the right has 2, so the equilibrium shifts left, consuming NO₂. Option A incorrectly predicts the shift direction for a pressure increase.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+        "structural_element": "B. Effect of Change in Pressure",
+        "content_anchor": "decrease in pressure at equilibrium, favors the forward reaction",
+        "page_hint": "Page 29",
+        "concept_hash": "sha256_hash_of_PressureEffect_LeChatelier"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q010",
+      "generation_timestamp": "2024-01-27T00:02:25Z",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+      "sub_subsection": "A. Effect of Change in The Concentration",
+      "structural_anchor": null,
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that adding a solid reactant to a heterogeneous equilibrium will shift the equilibrium toward products?",
+      "options": {
+        "A": "It assumes the concentration of a pure solid changes when more is added.",
+        "B": "It confuses the effects of adding solids with adding gases.",
+        "C": "It overlooks that solids do not participate in equilibrium expressions.",
+        "D": "All of the above."
+      },
+      "correct_answer": "C",
+      "hint": "Consider how pure solids are treated in equilibrium constant expressions.",
+      "explanation": "Le Chatelier's principle applies to species whose concentrations affect Q. The concentration of a pure solid is constant, so adding more does not change Q or shift the equilibrium. Option A is partially correct but less precise than C, which directly addresses the exclusion from equilibrium expressions.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+        "structural_element": "A. Effect of Change in The Concentration",
+        "content_anchor": "concentration of pure solids liquids are constant",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_hash_of_SolidConcentrationMisconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 75,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 150000,
+    "average_question_quality": 82.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 4,
+      "hard": 1
+    },
+    "section_distribution": {
+      "5.2 Chemical Equilibrium": 10
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

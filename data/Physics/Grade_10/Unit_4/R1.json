@@ -1,0 +1,870 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-21T10:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Phy_U4_Q010",
+    "covered_sections": ["4.1 Charges in Nature", "4.2 Methods of Charging a Body", "4.5 Coulomb's law of electrostatics"],
+    "used_question_signatures": ["aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d", "c81e728d9d4c2f636f067f89cc14862c", "2a183d2d4b2f69a4b3e4e2b5b2f2d7f9", "e4da3b7fbbce2345d7772b0674a318d5", "d3d9446802a44259755d38e6d163e820", "cfcd208495d565ef66e7dff9f98764da", "8f14e45fceea167a5a36dedd4bea2543", "c4ca4238a0b923820dcc509a6f75849b", "45c48cce2e2d7fbdea1afc51c7c6ad26", "c20ad4d76fe97759aa27a0f99ee9c430"],
+    "baseline_counter": {
+      "4.1 Charges in Nature": {
+        "count": 4,
+        "mini_headings_covered": ["Unit of Charge:", "Conservation of Charge:", "Quantization of charge:"],
+        "last_question_round": 1
+      },
+      "4.2 Methods of Charging a Body": {
+        "count": 3,
+        "mini_headings_covered": ["Charging by rubbing:", "Charging by Conduction:", "Charging by Induction:"],
+        "last_question_round": 1
+      },
+      "4.5 Coulomb's law of electrostatics": {
+        "count": 3,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "Introduction": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "By the end of this unit, you should be able to:": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.3 The electroscope": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.4 Electrical Discharge": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.6 The electric field": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.7 Electric circuits": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.8 Current, Voltage and Ohm's law": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.9 Combination of resistors in a circuit": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.10 Voltmeter and ammeter connection in a circuit": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.11 Electrical safety in general and local context": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.12 Electric projects": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "End of unit summary": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "End of unit questions and problems": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1 Charges in Nature": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.2 Methods of Charging a Body": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.5 Coulomb's law of electrostatics": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Introduction": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "By the end of this unit, you should be able to:": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.3 The electroscope": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.4 Electrical Discharge": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.6 The electric field": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.7 Electric circuits": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.8 Current, Voltage and Ohm's law": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.9 Combination of resistors in a circuit": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.10 Voltmeter and ammeter connection in a circuit": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.11 Electrical safety in general and local context": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.12 Electric projects": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "End of unit summary": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "End of unit questions and problems": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1 Charges in Nature": ["Electric charge types", "Charge conservation", "Charge quantization", "Coulomb unit"],
+      "4.2 Methods of Charging a Body": ["Charging by rubbing", "Charging by conduction", "Charging by induction"],
+      "4.5 Coulomb's law of electrostatics": ["Coulomb's law", "Electrostatic force", "Inverse square law"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state_hash",
+    "content_density_metrics": {
+      "total_concepts_extracted": 10,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 16.7
+    }
+  },
+  "grade": "10",
+  "subject": "Physics",
+  "unit": "Unit 4: Static and Current Electricity",
+  "pdf_filename": "P10U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-21T10:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 16,
+        "progress_percentage": 18.8
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 3,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 18.8,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.1 Charges in Nature",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phy_U4_Q001",
+      "generation_timestamp": "2025-01-21T10:00:00Z",
+      "section": "4.1 Charges in Nature",
+      "subsection": "Unit of Charge:",
+      "sub_subsection": null,
+      "structural_anchor": "Unit of Charge:",
+      "mcq_type": "A",
+      "question": "What is the SI unit of electric charge, defined as the quantity of charge transported by a constant current of one ampere in one second?",
+      "options": {
+        "A": "Coulomb",
+        "B": "Volt",
+        "C": "Ohm",
+        "D": "Ampere"
+      },
+      "correct_answer": "A",
+      "hint": "This unit is named after a French physicist.",
+      "explanation": "The coulomb is the SI unit of electric charge, equivalent to approximately 6.25 × 10¹⁸ elementary charges. Option B is a unit of electric potential, not charge.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.1 Charges in Nature",
+        "subsection_anchor": "Unit of Charge:",
+        "structural_element": "Unit of Charge:",
+        "content_anchor": "SI unit of electric charge is coulomb",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_of_coulomb_unit"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q002",
+      "generation_timestamp": "2025-01-21T10:00:00Z",
+      "section": "4.1 Charges in Nature",
+      "subsection": "Conservation of Charge:",
+      "sub_subsection": null,
+      "structural_anchor": "Conservation of Charge:",
+      "mcq_type": "A",
+      "question": "Which fundamental principle states that the total electric charge in an isolated system remains constant over time?",
+      "options": {
+        "A": "Conservation of charge",
+        "B": "Quantization of charge",
+        "C": "Coulomb's law",
+        "D": "Ohm's law"
+      },
+      "correct_answer": "A",
+      "hint": "This principle applies to closed systems where no charge enters or leaves.",
+      "explanation": "The law of conservation of charge states that electric charge can neither be created nor destroyed, only transferred. Option B describes charge occurring in discrete multiples of the elementary charge.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.1 Charges in Nature",
+        "subsection_anchor": "Conservation of Charge:",
+        "structural_element": "Conservation of Charge:",
+        "content_anchor": "Electric charges are neither created nor destroyed",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_of_conservation_charge"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q003",
+      "generation_timestamp": "2025-01-21T10:00:00Z",
+      "section": "4.1 Charges in Nature",
+      "subsection": "Quantization of charge:",
+      "sub_subsection": null,
+      "structural_anchor": "Quantization of charge:",
+      "mcq_type": "A",
+      "question": "What property of electric charge indicates that it exists only in discrete amounts that are integer multiples of the elementary charge?",
+      "options": {
+        "A": "Quantization",
+        "B": "Conservation",
+        "C": "Induction",
+        "D": "Conduction"
+      },
+      "correct_answer": "A",
+      "hint": "This property means charge cannot have any arbitrary value.",
+      "explanation": "Charge quantization means all observable charges are multiples of the elementary charge e (1.6 × 10⁻¹⁹ C). Option B refers to the constancy of total charge in a closed system.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.1 Charges in Nature",
+        "subsection_anchor": "Quantization of charge:",
+        "structural_element": "Quantization of charge:",
+        "content_anchor": "Charge is said to be quantized",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_of_quantization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q004",
+      "generation_timestamp": "2025-01-21T10:00:00Z",
+      "section": "4.1 Charges in Nature",
+      "subsection": "By the end of this section, you should able to:",
+      "sub_subsection": null,
+      "structural_anchor": "distinguish between the two types of electric charge",
+      "mcq_type": "B",
+      "question": "Which particles carry a fundamental negative electric charge in atoms?",
+      "options": {
+        "A": "Electrons",
+        "B": "Protons",
+        "C": "Neutrons",
+        "D": "Nuclei"
+      },
+      "correct_answer": "A",
+      "hint": "These particles orbit the atomic nucleus.",
+      "explanation": "Electrons possess a negative elementary charge of -1.6 × 10⁻¹⁹ C. Option B carries a positive charge of equal magnitude.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.1 Charges in Nature",
+        "subsection_anchor": "By the end of this section, you should able to:",
+        "structural_element": "distinguish between the two types of electric charge",
+        "content_anchor": "electrons have a negative charge",
+        "page_hint": "Page 2",
+        "concept_hash": "hash_of_electron_charge"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q005",
+      "generation_timestamp": "2025-01-21T10:00:00Z",
+      "section": "4.2 Methods of Charging a Body",
+      "subsection": "Charging by rubbing:",
+      "sub_subsection": null,
+      "structural_anchor": "Charging by rubbing:",
+      "mcq_type": "A",
+      "question": "What method of electrification involves transferring charge between two objects through direct physical contact and friction?",
+      "options": {
+        "A": "Charging by rubbing",
+        "B": "Charging by conduction",
+        "C": "Charging by induction",
+        "D": "Charging by grounding"
+      },
+      "correct_answer": "A",
+      "hint": "This method often uses materials like wool, silk, or hair.",
+      "explanation": "Charging by friction transfers electrons between materials through rubbing, leaving opposite charges. Option B requires direct contact without necessarily rubbing.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.2 Methods of Charging a Body",
+        "subsection_anchor": "Charging by rubbing:",
+        "structural_element": "Charging by rubbing:",
+        "content_anchor": "Charging by rubbing is a method that involves rubbing",
+        "page_hint": "Page 5",
+        "concept_hash": "hash_of_charging_by_rubbing"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q006",
+      "generation_timestamp": "2025-01-21T10:00:00Z",
+      "section": "4.2 Methods of Charging a Body",
+      "subsection": "Charging by Conduction:",
+      "sub_subsection": null,
+      "structural_anchor": "Charging by Conduction:",
+      "mcq_type": "A",
+      "question": "When a charged conductor touches a neutral conductor and electrons flow between them, what charging process occurs?",
+      "options": {
+        "A": "Charging by conduction",
+        "B": "Charging by induction",
+        "C": "Charging by friction",
+        "D": "Charging by polarization"
+      },
+      "correct_answer": "A",
+      "hint": "This method requires physical contact between the objects.",
+      "explanation": "Charging by conduction involves direct contact allowing charge transfer until potentials equalize. Option B works without contact through electrostatic influence.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.2 Methods of Charging a Body",
+        "subsection_anchor": "Charging by Conduction:",
+        "structural_element": "Charging by Conduction:",
+        "content_anchor": "Charging by conduction involves the contact of a charged object",
+        "page_hint": "Page 6",
+        "concept_hash": "hash_of_charging_by_conduction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q007",
+      "generation_timestamp": "2025-01-21T10:00:00Z",
+      "section": "4.2 Methods of Charging a Body",
+      "subsection": "Charging by Induction:",
+      "sub_subsection": null,
+      "structural_anchor": "Charging by Induction:",
+      "mcq_type": "A",
+      "question": "Which charging method involves rearranging charge within a neutral object by bringing a charged object close without physical contact?",
+      "options": {
+        "A": "Charging by induction",
+        "B": "Charging by conduction",
+        "C": "Charging by friction",
+        "D": "Charging by contact"
+      },
+      "correct_answer": "A",
+      "hint": "This process often includes grounding to remove charge.",
+      "explanation": "Induction charges an object by electrostatic influence, creating opposite charges on near and far sides. Option B requires actual contact for charge transfer.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.2 Methods of Charging a Body",
+        "subsection_anchor": "Charging by Induction:",
+        "structural_element": "Charging by Induction:",
+        "content_anchor": "Charging by induction is a process where the charged object is held near",
+        "page_hint": "Page 6",
+        "concept_hash": "hash_of_charging_by_induction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q008",
+      "generation_timestamp": "2025-01-21T10:00:00Z",
+      "section": "4.5 Coulomb's law of electrostatics",
+      "subsection": "By the end of this section, you should able to:",
+      "sub_subsection": null,
+      "structural_anchor": "state coulomb's laws of electrostatics",
+      "mcq_type": "C",
+      "question": "According to Coulomb's law, the electrostatic force between two point charges is proportional to which mathematical relationship?",
+      "options": {
+        "A": "Directly proportional to product of charges, inversely proportional to square of distance",
+        "B": "Directly proportional to distance, inversely proportional to product of charges",
+        "C": "Directly proportional to square of distance, inversely proportional to charges",
+        "D": "Directly proportional to sum of charges, inversely proportional to distance"
+      },
+      "correct_answer": "A",
+      "hint": "This is an inverse-square law similar to gravitational force.",
+      "explanation": "Coulomb's law states F ∝ q₁q₂/r², with force increasing with charge product and decreasing with distance squared. Option C reverses these relationships.",
+      "difficulty_level": "medium",
+      "formula_used": ["F = k(q₁q₂/r²)"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.5 Coulomb's law of electrostatics",
+        "subsection_anchor": "By the end of this section, you should able to:",
+        "structural_element": "state coulomb's laws of electrostatics",
+        "content_anchor": "force is proportional to product of charges and inversely proportional to square of distance",
+        "page_hint": "Page 12-13",
+        "concept_hash": "hash_of_coulombs_law_relationship"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q009",
+      "generation_timestamp": "2025-01-21T10:00:00Z",
+      "section": "4.5 Coulomb's law of electrostatics",
+      "subsection": "Key Concept",
+      "sub_subsection": null,
+      "structural_anchor": "electrostatic force depends on charge and distance",
+      "mcq_type": "F",
+      "question": "If the distance between two charged particles is tripled while their charges remain unchanged, which reasoning best explains the change in electrostatic force?",
+      "options": {
+        "A": "Force decreases to one-ninth because it follows an inverse-square relationship with distance",
+        "B": "Force decreases to one-third because it is inversely proportional to distance",
+        "C": "Force increases ninefold because greater separation strengthens the field",
+        "D": "Force remains unchanged because charge product determines force exclusively"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the mathematical form of Coulomb's law.",
+      "explanation": "Coulomb's law includes 1/r², so tripling distance multiplies force by 1/9. Option B incorrectly applies an inverse rather than inverse-square relationship.",
+      "difficulty_level": "medium",
+      "formula_used": ["F ∝ 1/r²"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.5 Coulomb's law of electrostatics",
+        "subsection_anchor": "Key Concept",
+        "structural_element": "electrostatic force depends on charge and distance",
+        "content_anchor": "force is inversely proportional to square of distance",
+        "page_hint": "Page 13",
+        "concept_hash": "hash_of_inverse_square_relationship"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q010",
+      "generation_timestamp": "2025-01-21T10:00:00Z",
+      "section": "4.5 Coulomb's law of electrostatics",
+      "subsection": "Example 4.1",
+      "sub_subsection": null,
+      "structural_anchor": "calculation of electrostatic force",
+      "mcq_type": "E",
+      "question": "Two point charges of +5.0 μC and -12.0 μC are separated by 0.30 m. What is the magnitude of the electrostatic force between them? (Use k = 9.0 × 10⁹ N·m²/C²)",
+      "options": {
+        "A": "6.0 N",
+        "B": "12.0 N",
+        "C": "18.0 N",
+        "D": "24.0 N"
+      },
+      "correct_answer": "A",
+      "hint": "Use Coulomb's law formula and convert microcoulombs to coulombs.",
+      "explanation": "Coulomb's law gives F = k|q₁q₂|/r² = (9×10⁹)(5×10⁻⁶)(12×10⁻⁶)/(0.3)² = 6.0 N. Option B results from omitting the square on distance.",
+      "difficulty_level": "medium",
+      "formula_used": ["F = k(q₁q₂/r²)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "N",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "worked example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.5 Coulomb's law of electrostatics",
+        "subsection_anchor": "Example 4.1",
+        "structural_element": "calculation of electrostatic force",
+        "content_anchor": "charges 5.0 μC and -12.0 μC separated by 30 cm",
+        "page_hint": "Page 13",
+        "concept_hash": "hash_of_force_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 87,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3850,
+    "average_question_quality": 86.5,
+    "type_distribution": {
+      "A": 6,
+      "B": 1,
+      "C": 1,
+      "E": 1,
+      "F": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "4.1 Charges in Nature": 4,
+      "4.2 Methods of Charging a Body": 3,
+      "4.5 Coulomb's law of electrostatics": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

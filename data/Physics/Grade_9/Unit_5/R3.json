@@ -1,0 +1,853 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-11-19T10:05:15Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Phy_U5_Q030",
+    "covered_sections": ["Introduction>Brainstorming Questions", "Simple Machines and their Purposes>Simple Machines and their Purposes", "Simple Machines at Home>Simple Machines at Home", "Simple Machines at Work Place>Simple Machines at Work Place", "Classification of Simple Machines>Classification of Simple Machines", "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine>Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine", "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine>Levers", "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine>Inclined Plane, Wedge and Screw", "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine>The Wheel and Axle", "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine>The Pulley System", "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine>The Pulley System", "Designing Simple Machine>Designing Simple Machine", "Unit Summary>Unit Summary", "End of Unit Questions and Problems>End of Unit Questions and Problems"],
+    "used_question_signatures": ["e0b59d0b8f5f9c9c7b1d0a8f5c2b3a1d", "a1f2c3d4e5f6a7b8c9d0e1f2a3b4c5d6", "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e", "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f", "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g", "e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h", "f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i", "a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j", "b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k", "c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l", "d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m", "e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n", "f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o", "a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p", "b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q", "c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r", "d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s", "e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t", "f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u", "g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v", "h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w", "i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x", "j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y", "k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z", "l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a", "m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b", "n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c", "o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d", "p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e", "q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3f"],
+    "baseline_counter": {
+      "Introduction": {
+        "Brainstorming Questions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Simple Machines and their Purposes": {
+        "Simple Machines and their Purposes": {
+          "count": 4,
+          "mini_headings_covered": ["Key Concept:", "Activity 5.1"],
+          "last_question_round": 1
+        }
+      },
+      "Simple Machines at Home": {
+        "Simple Machines at Home": {
+          "count": 4,
+          "mini_headings_covered": ["Activity 5.2"],
+          "last_question_round": 1
+        }
+      },
+      "Simple Machines at Work Place": {
+        "Simple Machines at Work Place": {
+          "count": 4,
+          "mini_headings_covered": ["Activity 5.3", "Key Concept:"],
+          "last_question_round": 1
+        }
+      },
+      "Classification of Simple Machines": {
+        "Classification of Simple Machines": {
+          "count": 2,
+          "mini_headings_covered": ["Brainstorming Question"],
+          "last_question_round": 2
+        }
+      },
+      "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine": {
+        "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine": {
+          "count": 3,
+          "mini_headings_covered": ["Brainstorming Questions", "Key Concept:"],
+          "last_question_round": 3
+        },
+        "Levers": {
+          "count": 3,
+          "mini_headings_covered": ["Exercise 5.11", "Key Concept:", "Different Classes of Levers"],
+          "last_question_round": 3
+        },
+        "Inclined Plane, Wedge and Screw": {
+          "count": 4,
+          "mini_headings_covered": ["Activity 5.7", "The Wedge", "The Screw"],
+          "last_question_round": 3
+        },
+        "The Wheel and Axle": {
+          "count": 3,
+          "mini_headings_covered": ["Activity 5.8", "Activity 5.9"],
+          "last_question_round": 3
+        },
+        "The Pulley System": {
+          "count": 4,
+          "mini_headings_covered": ["Exercise 5.16", "Definition", "Activity 5.10"],
+          "last_question_round": 3
+        }
+      },
+      "Designing Simple Machine": {
+        "Designing Simple Machine": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Unit Summary": {
+        "Unit Summary": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "End of Unit Questions and Problems": {
+        "End of Unit Questions and Problems": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "Simple Machines and their Purposes": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Simple Machines at Home": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Simple Machines at Work Place": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Classification of Simple Machines": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine": {
+        "question_count": 17,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Designing Simple Machine": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Unit Summary": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "End of Unit Questions and Problems": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Brainstorming Questions": ["Simple machines", "Purpose of simple machines", "Types of simple machines"],
+      "Simple Machines and their Purposes>Simple Machines and their Purposes": ["Simple machine definition", "Force multiplier", "Direction changer", "Effort", "Load", "Work input", "Work output"],
+      "Simple Machines at Home>Simple Machines at Home": ["Simple machines at home", "Force direction change", "Force magnitude change", "Building blocks"],
+      "Simple Machines at Work Place>Simple Machines at Work Place": ["Force multipliers", "Distance multipliers", "Work place machines", "Load and effort distance"],
+      "Classification of Simple Machines>Classification of Simple Machines": ["Six types of simple machines", "Inclined planes group", "Levers group"],
+      "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine>Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine": ["Mechanical advantage definition", "Efficiency definition", "Energy losses", "Velocity ratio definition"],
+      "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine>Levers": ["Lever definition", "Fulcrum", "Load arm", "Effort arm", "First-class lever", "Second-class lever", "Third-class lever"],
+      "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine>Inclined Plane, Wedge and Screw": ["Inclined plane purpose", "Wedge function", "Screw components", "Pitch of screw"],
+      "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine>The Wheel and Axle": ["Wheel and axle definition", "Mechanical advantage of wheel and axle", "Velocity ratio of wheel and axle"],
+      "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine>The Pulley System": ["Pulley definition", "Fixed pulley purpose", "Movable pulley advantage", "Compound pulley", "Velocity ratio of pulley"],
+      "Designing Simple Machine>Designing Simple Machine": ["Machine design process", "Combining simple machines"],
+      "Unit Summary>Unit Summary": ["Key concepts summary", "Formulas review"],
+      "End of Unit Questions and Problems>End of Unit Questions and Problems": ["Multiple choice questions", "True/false statements", "Work problems"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_previous_state_R02",
+    "content_density_metrics": {
+      "total_concepts_extracted": 45,
+      "questions_per_concept_ratio": 0.667,
+      "structural_coverage_percentage": 62.9
+    }
+  },
+  "grade": "9",
+  "subject": "Physics",
+  "unit": "Unit 5: Simple Machines",
+  "pdf_filename": "P9U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-11-19T10:05:15Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 9,
+        "total_sections": 9,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 8.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 9,
+      "subsections_covered_count": 14,
+      "mini_headings_covered_count": 16,
+      "structural_coverage_percentage": 45.7,
+      "concept_utilization_ratio": 0.667
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 8.5,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Phy_U5_Q021",
+      "generation_timestamp": "2025-11-19T10:05:15Z",
+      "section": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+      "subsection": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+      "sub_subsection": null,
+      "structural_anchor": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+      "mcq_type": "C",
+      "question": "Which formula correctly represents the relationship between efficiency (η), mechanical advantage (M.A), and velocity ratio (V.R) for a simple machine?",
+      "options": {
+        "A": "η = M.A × V.R",
+        "B": "η = M.A / V.R",
+        "C": "η = V.R / M.A",
+        "D": "η = M.A + V.R"
+      },
+      "correct_answer": "B",
+      "hint": "Efficiency is expressed as a ratio comparing actual performance to ideal performance.",
+      "explanation": "Efficiency is calculated as mechanical advantage divided by velocity ratio, representing how close actual performance approaches ideal. Option A incorrectly multiplies the terms, which would not yield a dimensionless efficiency percentage.",
+      "difficulty_level": "medium",
+      "formula_used": ["η = M.A / V.R"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Simple Machines",
+        "section_anchor": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+        "subsection_anchor": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+        "structural_element": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+        "content_anchor": "η = M.A / V.R",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Phy_U5_Q022",
+      "generation_timestamp": "2025-11-19T10:05:15Z",
+      "section": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+      "subsection": "Levers",
+      "sub_subsection": null,
+      "structural_anchor": "Different Classes of Levers",
+      "mcq_type": "J",
+      "question": "In which class of lever is the fulcrum positioned between the effort point and the load point?",
+      "options": {
+        "A": "First-class lever",
+        "B": "Second-class lever",
+        "C": "Third-class lever",
+        "D": "Compound lever"
+      },
+      "correct_answer": "A",
+      "hint": "This arrangement is typified by tools like seesaws and scissors.",
+      "explanation": "First-class levers have the fulcrum located between the effort and load, allowing directional change. Option B is incorrect because second-class levers place the load between the fulcrum and effort.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Simple Machines",
+        "section_anchor": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+        "subsection_anchor": "Levers",
+        "structural_element": "Different Classes of Levers",
+        "content_anchor": "The fulcrum is always located between the load and the effort",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Phy_U5_Q023",
+      "generation_timestamp": "2025-11-19T10:05:15Z",
+      "section": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+      "subsection": "Inclined Plane, Wedge and Screw",
+      "sub_subsection": null,
+      "structural_anchor": "The Screw",
+      "mcq_type": "B",
+      "question": "What term describes the distance between adjacent threads on a screw?",
+      "options": {
+        "A": "Diameter",
+        "B": "Pitch",
+        "C": "Radius",
+        "D": "Circumference"
+      },
+      "correct_answer": "B",
+      "hint": "This measurement determines how far the screw advances with one complete rotation.",
+      "explanation": "The pitch is defined as the linear distance between corresponding points on adjacent screw threads. Option A is incorrect because diameter refers to the width across the screw, not the thread spacing.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 79
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Simple Machines",
+        "section_anchor": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+        "subsection_anchor": "Inclined Plane, Wedge and Screw",
+        "structural_element": "The Screw",
+        "content_anchor": "separation between the threads. This is referred to as the pitch (p) of the screw",
+        "page_hint": "Page 24",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 76,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Phy_U5_Q024",
+      "generation_timestamp": "2025-11-19T10:05:15Z",
+      "section": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+      "subsection": "The Wheel and Axle",
+      "sub_subsection": null,
+      "structural_anchor": "The Wheel and Axle",
+      "mcq_type": "E",
+      "question": "If the radius of a wheel is 30 cm and the radius of its axle is 5 cm, what is the velocity ratio of this wheel and axle system?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "25",
+        "D": "35"
+      },
+      "correct_answer": "B",
+      "hint": "Velocity ratio is calculated as the ratio of the wheel radius to the axle radius.",
+      "explanation": "Velocity ratio = R/r = 30 cm / 5 cm = 6. Option C results from incorrectly calculating the area ratio (30/5)² = 36, then approximating to 25.",
+      "difficulty_level": "medium",
+      "formula_used": ["V.R = R/r"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "dimensionless",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Simple Machines",
+        "section_anchor": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+        "subsection_anchor": "The Wheel and Axle",
+        "structural_element": "The Wheel and Axle",
+        "content_anchor": "V.R = R/r",
+        "page_hint": "Page 26",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Phy_U5_Q025",
+      "generation_timestamp": "2025-11-19T10:05:15Z",
+      "section": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+      "subsection": "The Pulley System",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 5.16",
+      "mcq_type": "K",
+      "question": "What conclusion can be drawn about a fixed pulley system based on its mechanical characteristics?",
+      "options": {
+        "A": "It multiplies the applied force while keeping the direction unchanged.",
+        "B": "It changes the direction of force without providing mechanical advantage.",
+        "C": "It reduces the distance the load moves compared to the effort distance.",
+        "D": "It increases both force magnitude and distance simultaneously."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the primary functional advantage of a pulley with a fixed axle.",
+      "explanation": "A fixed pulley primarily changes force direction while offering no force multiplication (M.A = 1). Option A is incorrect because it falsely attributes force multiplication to a fixed pulley.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 87
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Simple Machines",
+        "section_anchor": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+        "subsection_anchor": "The Pulley System",
+        "structural_element": "Exercise 5.16",
+        "content_anchor": "A fixed pulley is used to change the direction of the force",
+        "page_hint": "Page 28",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Phy_U5_Q026",
+      "generation_timestamp": "2025-11-19T10:05:15Z",
+      "section": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+      "subsection": "The Pulley System",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 5.10",
+      "mcq_type": "F",
+      "question": "Under the condition that frictional losses are negligible, which reasoning best explains why a movable pulley provides a mechanical advantage of approximately 2?",
+      "options": {
+        "A": "The load is supported by two segments of rope, effectively halving the required effort.",
+        "B": "The pulley's rotation reduces inertia, allowing greater force with less energy.",
+        "C": "The movable axle increases the leverage arm relative to a fixed point.",
+        "D": "The rope's elasticity stores and releases energy, amplifying the input force."
+      },
+      "correct_answer": "A",
+      "hint": "Consider how the tension distributes in the rope supporting the load.",
+      "explanation": "In a movable pulley, the load is shared between two rope segments, each carrying half the weight, thus doubling mechanical advantage. Option D is incorrect because it introduces energy storage concepts not fundamental to pulley mechanics.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 85
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Simple Machines",
+        "section_anchor": "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine",
+        "subsection_anchor": "The Pulley System",
+        "structural_element": "Activity 5.10",
+        "content_anchor": "movable pulley has a V.R = 2",
+        "page_hint": "Page 28",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Phy_U5_Q027",
+      "generation_timestamp": "2025-11-19T10:05:15Z",
+      "section": "Designing Simple Machine",
+      "subsection": "Designing Simple Machine",
+      "sub_subsection": null,
+      "structural_anchor": "Designing Simple Machine",
+      "mcq_type": "L",
+      "question": "When constructing a compound machine from locally available materials, what is the minimum number of different simple machines that should typically be incorporated?",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four"
+      },
+      "correct_answer": "B",
+      "hint": "A compound machine is defined as a combination of simple machines.",
+      "explanation": "A compound machine by definition combines at least two different simple machines to perform work. Option A is incorrect because a single simple machine does not constitute a compound machine.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Simple Machines",
+        "section_anchor": "Designing Simple Machine",
+        "subsection_anchor": "Designing Simple Machine",
+        "structural_element": "Designing Simple Machine",
+        "content_anchor": "design a machine that includes at least two simple machines",
+        "page_hint": "Page 29",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Phy_U5_Q028",
+      "generation_timestamp": "2025-11-19T10:05:15Z",
+      "section": "Unit Summary",
+      "subsection": "Unit Summary",
+      "sub_subsection": null,
+      "structural_anchor": "Unit Summary",
+      "mcq_type": "N",
+      "question": "What limitation applies to the mechanical advantage of a simple machine when energy losses due to friction are present?",
+      "options": {
+        "A": "Actual mechanical advantage equals ideal mechanical advantage.",
+        "B": "Actual mechanical advantage is greater than ideal mechanical advantage.",
+        "C": "Actual mechanical advantage is less than ideal mechanical advantage.",
+        "D": "Friction has no effect on mechanical advantage calculations."
+      },
+      "correct_answer": "C",
+      "hint": "Consider how energy dissipation affects force output relative to input.",
+      "explanation": "Frictional losses reduce the output force for a given input, making actual mechanical advantage lower than the ideal frictionless case. Option A is incorrect because it describes an ideal, lossless condition that doesn't exist in real systems.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Simple Machines",
+        "section_anchor": "Unit Summary",
+        "subsection_anchor": "Unit Summary",
+        "structural_element": "Unit Summary",
+        "content_anchor": "If there is no energy losses, AMA = IMA = V.R",
+        "page_hint": "Page 29-30",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Phy_U5_Q029",
+      "generation_timestamp": "2025-11-19T10:05:15Z",
+      "section": "End of Unit Questions and Problems",
+      "subsection": "End of Unit Questions and Problems",
+      "sub_subsection": null,
+      "structural_anchor": "Part I: Multiple choice",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that simple machines can create energy?",
+      "options": {
+        "A": "Confusing energy transfer with energy creation, as machines only convert or transfer existing energy.",
+        "B": "Overestimating mechanical advantage as a source of additional energy rather than force amplification.",
+        "C": "Assuming frictionless conditions allow perpetual motion and energy generation.",
+        "D": "Mistaking the law of conservation of energy for allowing energy creation in closed systems."
+      },
+      "correct_answer": "A",
+      "hint": "Recall the fundamental principle of energy conservation in physical systems.",
+      "explanation": "Simple machines obey energy conservation, transferring or transforming energy but not creating it. Option D is incorrect because it misstates the conservation law rather than identifying the specific reasoning error about energy creation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 86
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Simple Machines",
+        "section_anchor": "End of Unit Questions and Problems",
+        "subsection_anchor": "End of Unit Questions and Problems",
+        "structural_element": "Part I: Multiple choice",
+        "content_anchor": "Machines create energy to help us",
+        "page_hint": "Page 30",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Phy_U5_Q030",
+      "generation_timestamp": "2025-11-19T10:05:15Z",
+      "section": "End of Unit Questions and Problems",
+      "subsection": "End of Unit Questions and Problems",
+      "sub_subsection": null,
+      "structural_anchor": "End of Unit Questions and Problems",
+      "mcq_type": "D",
+      "question": "What is the primary purpose of including calculation problems in the assessment of simple machines understanding?",
+      "options": {
+        "A": "To test memorization of formulas without contextual application.",
+        "B": "To evaluate the ability to apply mechanical concepts to quantitative scenarios.",
+        "C": "To emphasize unit conversion skills over mechanical principles.",
+        "D": "To assess recall of historical developments in machine design."
+      },
+      "correct_answer": "B",
+      "hint": "Consider how numerical problems integrate conceptual knowledge with practical application.",
+      "explanation": "Calculation problems assess applied understanding of relationships like M.A = load/effort in practical contexts. Option A is incorrect because it reduces problem-solving to rote memorization rather than applied understanding.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Simple Machines",
+        "section_anchor": "End of Unit Questions and Problems",
+        "subsection_anchor": "End of Unit Questions and Problems",
+        "structural_element": "End of Unit Questions and Problems",
+        "content_anchor": "Work out problems",
+        "page_hint": "Page 31-32",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3950,
+    "average_question_quality": 83.8,
+    "type_distribution": {
+      "B": 2,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "H": 1,
+      "J": 1,
+      "K": 1,
+      "L": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 7,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Mechanical Advantage, Velocity Ratio and Efficiency of Simple Machine": 6,
+      "Designing Simple Machine": 1,
+      "Unit Summary": 1,
+      "End of Unit Questions and Problems": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,925 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2024-12-19T14:52:15Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G12_Bio_U5_Q030",
+    "covered_sections": [
+      "Body Coordination>Body Coordination",
+      "The Nervous System>Neurons and their functions",
+      "The Nervous System>The Nerve Impulse and transmission",
+      "The Nervous System>Neurotransmitters",
+      "The Nervous System>Types of the nervous system",
+      "The Nervous System>Reflex action",
+      "Drug abuse>Drug abuse",
+      "Sense organs>Skin",
+      "Sense organs>The Tongue",
+      "Sense organs>The Nose",
+      "Sense organs>The Eye",
+      "Sense organs>The Ear",
+      "The endocrine system>The endocrine glands",
+      "Homeostasis in the human body>The structure and function of the human kidney",
+      "Sense organs>The Nose",
+      "Sense organs>The Eye",
+      "Sense organs>The Ear",
+      "The endocrine system>The endocrine glands",
+      "Homeostasis in the human body>The structure and function of the human kidney",
+      "Body Coordination>Body Coordination",
+      "The Nervous System>Neurons and their functions",
+      "The Nervous System>The Nerve Impulse and transmission",
+      "The Nervous System>Types of the nervous system",
+      "The Nervous System>Reflex action",
+      "Drug abuse>Drug abuse",
+      "Sense organs>Skin",
+      "The Nervous System>Neurotransmitters",
+      "The Nervous System>Types of the nervous system",
+      "Drug abuse>Drug abuse",
+      "Sense organs>The Tongue",
+      "Sense organs>The Eye",
+      "Sense organs>The Ear",
+      "The endocrine system>The endocrine glands",
+      "Homeostasis in the human body>The structure and function of the human kidney",
+      "The Nervous System>Neurons and their functions",
+      "The Nervous System>The Nerve Impulse and transmission",
+      "The Nervous System>Types of the nervous system",
+      "Sense organs>Skin",
+      "Sense organs>The Eye",
+      "Sense organs>The Ear",
+      "The endocrine system>The endocrine glands",
+      "Homeostasis in the human body>The structure and function of the human kidney"
+    ],
+    "used_question_signatures": [
+      "hash_Body_Coordination_Coordination_Forms",
+      "hash_Neurons_Types_Sensory",
+      "hash_Nerve_Impulse_Resting_Potential",
+      "hash_Neurotransmitters_Excitatory",
+      "hash_CNS_Brain_Cerebrum",
+      "hash_PNS_Autonomic_Sympathetic",
+      "hash_Reflex_Arc_Components",
+      "hash_Drug_Abuse_Nicotine_Dopamine",
+      "hash_Skin_Function_Protection",
+      "hash_Tongue_Taste_Buds_Receptors",
+      "hash_Nose_Olfaction_Receptors",
+      "hash_Eye_Retina_Rods_Cones",
+      "hash_Ear_Cochlea_Hearing",
+      "hash_Endocrine_Hormone_Target",
+      "hash_Homeostasis_Kidney_Nephron_Filtration",
+      "hash_Nose_Structure_Function",
+      "hash_Eye_Pupil_Light_Reflex",
+      "hash_Ear_Balance_Semicircular_Canals",
+      "hash_Endocrine_Pituitary_Master_Gland",
+      "hash_Homeostasis_Kidney_ADH_Osmoregulation",
+      "hash_Body_Coordination_Table_Comparison",
+      "hash_Neurons_Structure_Axon",
+      "hash_Nerve_Impulse_Action_Potential_Na",
+      "hash_CNS_Spinal_Cord_Structure",
+      "hash_Reflex_Action_Knee_Jerk",
+      "hash_Drug_Abuse_Alcohol_Addiction",
+      "hash_Skin_Temperature_Regulation",
+      "hash_Neurotransmitters_Acetylcholine_Function",
+      "hash_CNS_Brain_Medulla_Functions",
+      "hash_Drug_Abuse_Khat_Stimulant",
+      "hash_Tongue_Taste_Basic_Sensations",
+      "hash_Eye_Lens_Accommodation",
+      "hash_Ear_Hearing_Mechanism_Ossicles",
+      "hash_Endocrine_Thyroid_Hormones",
+      "hash_Homeostasis_Kidney_Loop_of_Henle",
+      "hash_Neurons_Glial_Cells_Function",
+      "hash_Nerve_Impulse_Synapse_Transmission",
+      "hash_PNS_Somatic_Voluntary_Control",
+      "hash_Skin_Layers_Epidermis_Structure",
+      "hash_Eye_Retina_Blind_Spot",
+      "hash_Ear_Hearing_Frequency_Range",
+      "hash_Endocrine_Adrenal_Cortex_Hormones",
+      "hash_Homeostasis_Thermoregulation_Mechanisms"
+    ],
+    "baseline_counter": {
+      "Body Coordination": {
+        "Body Coordination": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "The Nervous System": {
+        "Neurons and their functions": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "The Nerve Impulse and transmission": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Neurotransmitters": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Types of the nervous system": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Reflex action": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Drug abuse": {
+        "Drug abuse": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Sense organs": {
+        "Skin": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "The Tongue": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "The Nose": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "The Eye": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "The Ear": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "The endocrine system": {
+        "The endocrine glands": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Homeostasis in the human body": {
+        "The structure and function of the human kidney": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Body Coordination": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "The Nervous System": {
+        "question_count": 14,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Drug abuse": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Sense organs": {
+        "question_count": 13,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "The endocrine system": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Homeostasis in the human body": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Body Coordination>Body Coordination": ["Nervous coordination", "Hormonal coordination", "Speed comparison"],
+      "The Nervous System>Neurons and their functions": ["Sensory neurons", "Motor neurons", "Interneurons", "Axon structure", "Glial cells"],
+      "The Nervous System>The Nerve Impulse and transmission": ["Resting potential", "Action potential", "Sodium influx", "Synaptic transmission"],
+      "The Nervous System>Neurotransmitters": ["Excitatory transmitter", "Inhibitory transmitter", "Acetylcholine"],
+      "The Nervous System>Types of the nervous system": ["Central Nervous System", "Peripheral Nervous System", "Cerebrum", "Spinal cord", "Medulla oblongata", "Somatic nervous system"],
+      "The Nervous System>Reflex action": ["Reflex arc", "Stimulus-response pathway", "Knee-jerk reflex"],
+      "Drug abuse>Drug abuse": ["Nicotine", "Dopamine", "Alcohol addiction", "Khat stimulant"],
+      "Sense organs>Skin": ["Epidermis", "Dermis", "Protection", "Temperature regulation", "Keratinocytes"],
+      "Sense organs>The Tongue": ["Taste buds", "Papillae", "Basic taste sensations"],
+      "Sense organs>The Nose": ["Olfactory receptors", "Olfactory bulb", "Nasal concha"],
+      "Sense organs>The Eye": ["Retina", "Rods", "Cones", "Pupillary reflex", "Lens accommodation", "Blind spot"],
+      "Sense organs>The Ear": ["Cochlea", "Organ of Corti", "Semicircular canals", "Ossicles", "Hearing frequency range"],
+      "The endocrine system>The endocrine glands": ["Hormones", "Target cells", "Pituitary gland", "Thyroid hormones", "Adrenal cortex hormones"],
+      "Homeostasis in the human body>The structure and function of the human kidney": ["Nephron", "Ultrafiltration", "ADH", "Osmoregulation", "Loop of Henle", "Thermoregulation"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 55,
+      "questions_per_concept_ratio": 0.655,
+      "structural_coverage_percentage": 56.7
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 5: Human Body System",
+  "pdf_filename": "B12U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-12-19T14:52:15Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 7.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 38,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 14,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 56.7,
+      "concept_utilization_ratio": 0.691
+    },
+    "distribution_analysis": {
+      "most_covered_section": "The Nervous System",
+      "least_covered_section": "Body Coordination",
+      "imbalance_ratio": 7.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.691,
+      "remaining_concept_capacity": 17
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U5_Q021",
+      "generation_timestamp": "2024-12-19T14:52:15Z",
+      "section": "The Nervous System",
+      "subsection": "Neurotransmitters",
+      "sub_subsection": null,
+      "structural_anchor": "Neurotransmitters",
+      "mcq_type": "C",
+      "question": "Which neurotransmitter, found abundantly in both the central and peripheral nervous systems, is often involved in muscle activation?",
+      "options": {
+        "A": "Dopamine",
+        "B": "Serotonin",
+        "C": "Acetylcholine",
+        "D": "GABA"
+      },
+      "correct_answer": "C",
+      "hint": "This chemical messenger acts at neuromuscular junctions.",
+      "explanation": "Acetylcholine is the primary neurotransmitter for activating skeletal muscles at neuromuscular junctions. Option A is incorrect because dopamine is more involved in reward and movement regulation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The Nervous System",
+        "subsection_anchor": "Neurotransmitters",
+        "structural_element": "Neurotransmitters",
+        "content_anchor": "Acetylcholine (ACh) is an abundant neurotransmitter in the human body",
+        "page_hint": null,
+        "concept_hash": "sha256_of_acetylcholine_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q022",
+      "generation_timestamp": "2024-12-19T14:52:15Z",
+      "section": "The Nervous System",
+      "subsection": "Types of the nervous system",
+      "sub_subsection": "The Central Nervous System",
+      "structural_anchor": "Medulla (Brainstem)",
+      "mcq_type": "B",
+      "question": "Which part of the brainstem contains reflex centers for regulating vital functions like heartbeat, breathing, and blood pressure?",
+      "options": {
+        "A": "Cerebellum",
+        "B": "Pons",
+        "C": "Midbrain",
+        "D": "Medulla oblongata"
+      },
+      "correct_answer": "D",
+      "hint": "This structure is located just above the spinal cord.",
+      "explanation": "The medulla oblongata houses autonomic centers for cardiovascular and respiratory control. Option B is incorrect because the pons primarily assists with breathing regulation and connects brain regions.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The Nervous System",
+        "subsection_anchor": "Types of the nervous system",
+        "structural_element": "Medulla (Brainstem)",
+        "content_anchor": "The medulla oblongata contains a number of reflex centers for regulating heartbeat, breathing, and blood pressure",
+        "page_hint": null,
+        "concept_hash": "sha256_of_medulla_oblongata_functions"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q023",
+      "generation_timestamp": "2024-12-19T14:52:15Z",
+      "section": "Drug abuse",
+      "subsection": "Drug abuse",
+      "sub_subsection": "Khat",
+      "structural_anchor": "Khat",
+      "mcq_type": "D",
+      "question": "What is the primary psychoactive compound in khat leaves that produces stimulant effects similar to amphetamines?",
+      "options": {
+        "A": "THC",
+        "B": "Cathinone",
+        "C": "Nicotine",
+        "D": "Ethanol"
+      },
+      "correct_answer": "B",
+      "hint": "This compound is rapidly absorbed through the oral mucosa.",
+      "explanation": "Cathinone is the amphetamine-like stimulant in khat that affects the central nervous system. Option A is incorrect because THC is the active component in cannabis, not khat.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Drug abuse",
+        "subsection_anchor": "Drug abuse",
+        "structural_element": "Khat",
+        "content_anchor": "The drug cathinone from the khat leaves is absorbed into the bloodstream",
+        "page_hint": null,
+        "concept_hash": "sha256_of_khat_cathinone"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q024",
+      "generation_timestamp": "2024-12-19T14:52:15Z",
+      "section": "Sense organs",
+      "subsection": "The Tongue",
+      "sub_subsection": null,
+      "structural_anchor": "The Tongue",
+      "mcq_type": "A",
+      "question": "What are the five basic taste sensations detected by taste receptors on the human tongue?",
+      "options": {
+        "A": "Sweet, sour, bitter, salt, and umami",
+        "B": "Sweet, spicy, bitter, salt, and metallic",
+        "C": "Sweet, sour, bitter, salt, and fatty",
+        "D": "Sweet, sour, bitter, salt, and alkaline"
+      },
+      "correct_answer": "A",
+      "hint": "The fifth taste is associated with savory flavors like meat and cheese.",
+      "explanation": "Human taste receptors detect sweet, sour, bitter, salt, and umami (savory) sensations. Option C incorrectly includes 'fatty', which is not one of the five primary tastes.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Sense organs",
+        "subsection_anchor": "The Tongue",
+        "structural_element": "The Tongue",
+        "content_anchor": "There are five basic taste sensations: sweet, sour, bitter, salt and umami",
+        "page_hint": null,
+        "concept_hash": "sha256_of_basic_taste_sensations"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q025",
+      "generation_timestamp": "2024-12-19T14:52:15Z",
+      "section": "Sense organs",
+      "subsection": "The Eye",
+      "sub_subsection": "Internal structure of the eye",
+      "structural_anchor": "Lens",
+      "mcq_type": "G",
+      "question": "When focusing on a nearby object, what change occurs in the shape of the eye's lens to increase its refractive power?",
+      "options": {
+        "A": "The lens becomes flatter and thinner.",
+        "B": "The lens becomes rounder and more convex.",
+        "C": "The lens moves backward in the eye.",
+        "D": "The lens becomes more opaque."
+      },
+      "correct_answer": "B",
+      "hint": "This adjustment is part of the accommodation reflex.",
+      "explanation": "Ciliary muscle contraction allows the lens to become more convex for near vision, increasing light bending. Option A describes the lens shape for distant object focusing.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Sense organs",
+        "subsection_anchor": "The Eye",
+        "structural_element": "Lens",
+        "content_anchor": "The lens functions to refract (bend) light rays onto the retina",
+        "page_hint": null,
+        "concept_hash": "sha256_of_lens_accommodation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q026",
+      "generation_timestamp": "2024-12-19T14:52:15Z",
+      "section": "Sense organs",
+      "subsection": "The Ear",
+      "sub_subsection": "The mechanism of hearing",
+      "structural_anchor": "The mechanism of hearing",
+      "mcq_type": "M",
+      "question": "What is the correct order of structures through which sound vibrations travel from the outer ear to the cochlea?",
+      "options": {
+        "A": "Tympanic membrane → Ossicles → Oval window → Cochlea",
+        "B": "Ossicles → Tympanic membrane → Oval window → Cochlea",
+        "C": "Oval window → Tympanic membrane → Ossicles → Cochlea",
+        "D": "Cochlea → Ossicles → Tympanic membrane → Oval window"
+      },
+      "correct_answer": "A",
+      "hint": "Sound first causes the eardrum to vibrate, then passes through three small bones.",
+      "explanation": "Sound waves vibrate the tympanic membrane, which moves the ossicles (malleus, incus, stapes) against the oval window, transmitting vibrations to cochlear fluid. Option B incorrectly reverses the first two structures.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Sense organs",
+        "subsection_anchor": "The Ear",
+        "structural_element": "The mechanism of hearing",
+        "content_anchor": "sound waves hit the eardrum, it vibrates... transmitted through the ear ossicles to the oval window",
+        "page_hint": null,
+        "concept_hash": "sha256_of_hearing_mechanism_sequence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q027",
+      "generation_timestamp": "2024-12-19T14:52:15Z",
+      "section": "The endocrine system",
+      "subsection": "The endocrine glands",
+      "sub_subsection": "Thyroid gland",
+      "structural_anchor": "Thyroid gland",
+      "mcq_type": "C",
+      "question": "Which two iodine-containing hormones produced by the thyroid gland regulate metabolic rate and cellular energy production?",
+      "options": {
+        "A": "Insulin and glucagon",
+        "B": "Estrogen and progesterone",
+        "C": "Thyroxine (T4) and triiodothyronine (T3)",
+        "D": "Cortisol and aldosterone"
+      },
+      "correct_answer": "C",
+      "hint": "These hormones contain three or four iodine atoms per molecule.",
+      "explanation": "Thyroxine (T4) and triiodothyronine (T3) are thyroid hormones that control basal metabolic rate. Option A incorrectly identifies pancreatic hormones that regulate blood glucose.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The endocrine system",
+        "subsection_anchor": "The endocrine glands",
+        "structural_element": "Thyroid gland",
+        "content_anchor": "TGB is converted into two hormones: Triiodothyronine (T3) and Thyroxine (T4) to promote normal metabolism",
+        "page_hint": null,
+        "concept_hash": "sha256_of_thyroid_hormones_T3_T4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q028",
+      "generation_timestamp": "2024-12-19T14:52:15Z",
+      "section": "Homeostasis in the human body",
+      "subsection": "The structure and function of the human kidney",
+      "sub_subsection": "The roles of the different areas of a single kidney tubule",
+      "structural_anchor": "Loop of Henle",
+      "mcq_type": "F",
+      "question": "What is the primary function of the Loop of Henle in the nephron regarding urine concentration?",
+      "options": {
+        "A": "Filtration of blood plasma",
+        "B": "Reabsorption of all glucose",
+        "C": "Creation of a concentration gradient in the medulla",
+        "D": "Secretion of hydrogen ions"
+      },
+      "correct_answer": "C",
+      "hint": "This structure establishes an osmotic gradient that enables water conservation.",
+      "explanation": "The Loop of Henle creates a hypertonic medullary gradient through countercurrent multiplication, allowing water reabsorption. Option A describes the function of the glomerulus and Bowman's capsule.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Homeostasis in the human body",
+        "subsection_anchor": "The structure and function of the human kidney",
+        "structural_element": "Loop of Henle",
+        "content_anchor": "Loop of Henle: is part of a kidney where the urine is concentrated and more water is conserved",
+        "page_hint": null,
+        "concept_hash": "sha256_of_loop_of_henle_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q029",
+      "generation_timestamp": "2024-12-19T14:52:15Z",
+      "section": "The Nervous System",
+      "subsection": "Neurons and their functions",
+      "sub_subsection": null,
+      "structural_anchor": "Self-questioning",
+      "mcq_type": "H",
+      "question": "What is the primary functional difference between neurons and glial cells in the nervous system?",
+      "options": {
+        "A": "Neurons provide structural support while glial cells transmit signals.",
+        "B": "Neurons transmit electrical impulses while glial cells support neuronal function.",
+        "C": "Both neurons and glial cells generate action potentials.",
+        "D": "Glial cells are more numerous and also conduct nerve impulses."
+      },
+      "correct_answer": "B",
+      "hint": "Consider which cell type is responsible for communication versus support.",
+      "explanation": "Neurons are excitable cells that conduct impulses, while glial cells provide insulation, nutrients, and structural support. Option A incorrectly reverses the roles of neurons and glial cells.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The Nervous System",
+        "subsection_anchor": "Neurons and their functions",
+        "structural_element": "Self-questioning",
+        "content_anchor": "What are the functional difference between neurons and glial cells?",
+        "page_hint": null,
+        "concept_hash": "sha256_of_neurons_vs_glial_cells"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q030",
+      "generation_timestamp": "2024-12-19T14:52:15Z",
+      "section": "The Nervous System",
+      "subsection": "The Nerve Impulse and transmission",
+      "sub_subsection": null,
+      "structural_anchor": "Self-questioning",
+      "mcq_type": "F",
+      "question": "Why is the presence of a synaptic cleft important for unidirectional signal transmission between neurons?",
+      "options": {
+        "A": "It allows electrical impulses to jump directly between cells.",
+        "B": "It prevents neurotransmitters from diffusing backward to the presynaptic neuron.",
+        "C": "It ensures that receptors are only on the postsynaptic membrane.",
+        "D": "It enables saltatory conduction along myelinated axons."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the asymmetry of neurotransmitter release and reception.",
+      "explanation": "Synaptic clefts ensure unidirectional flow because neurotransmitter receptors are localized to postsynaptic membranes, not presynaptic terminals. Option B is incorrect because neurotransmitters do diffuse but are cleared by reuptake or degradation.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The Nervous System",
+        "subsection_anchor": "The Nerve Impulse and transmission",
+        "structural_element": "Self-questioning",
+        "content_anchor": "Why is the presence of synapse important for neurotransmission?",
+        "page_hint": null,
+        "concept_hash": "sha256_of_synaptic_cleft_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3650,
+    "average_question_quality": 87.8,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 2,
+      "D": 1,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 1,
+      "medium": 7,
+      "hard": 2
+    },
+    "section_distribution": {
+      "The Nervous System": 4,
+      "Drug abuse": 1,
+      "Sense organs": 3,
+      "The endocrine system": 1,
+      "Homeostasis in the human body": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

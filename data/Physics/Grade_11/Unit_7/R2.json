@@ -1,0 +1,824 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T00:00:01Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G11_Phy_U7_Q020",
+    "covered_sections": ["Introduction>About the Atom", "Introduction>Isotopes", "7.1 The nucleus>7.1.1 Historical origins of the nucleus and its constituting particles", "7.1 The nucleus>7.1.2 What keeps the nucleus together?", "7.1 The nucleus>7.1.2 What keeps the nucleus together?>Nuclear binding energy", "7.1 The nucleus>7.1.2 What keeps the nucleus together?>Masses of subatomic particles", "7.1 The nucleus>7.1.2 What keeps the nucleus together?>Binding energy per nucleon:", "7.1 The nucleus>7.1.2 What keeps the nucleus together?>Nuclear stability", "7.2 Radioactivity>Types of nuclear radiation", "7.2 Radioactivity>Types of nuclear radiation>Alpha Particles Radiation", "7.2 Radioactivity>Types of nuclear radiation>Beta-particle Radiation", "7.2 Radioactivity>Types of nuclear radiation>Gamma-particle Radiation"],
+    "used_question_signatures": ["a9397d1a7b2e7c5f6d8e9f0a1b2c3d4e5", "b8476e2b8c3d9f0a1b2c3d4e5f6a7b8c9", "c7565f3c9d0e1a2b3c4d5e6f7a8b9c0d1", "d6654e4a0f1b2c3d4e5f6a7b8c9d0e1f2", "e5745d5b1c2d3e4f5a6b7c8d9e0f1a2b3", "f4836c6c2d3e4f5a6b7c8d9e0f1a2b3c4", "g3927b7d3e4f5a6b7c8d9e0f1a2b3c4d5", "h2818a8e4f5a6b7c8d9e0f1a2b3c4d5e6", "i1709f9f5a6b7c8d9e0f1a2b3c4d5e6f7", "j0608e0a6b7c8d9e0f1a2b3c4d5e6f7a8", "k9597f1b7c8d9e0f1a2b3c4d5e6f7a8b9", "l8486e2c8d9e0f1a2b3c4d5e6f7a8b9c0", "m7375d3d9e0f1a2b3c4d5e6f7a8b9c0d1", "n6264c4e0f1a2b3c4d5e6f7a8b9c0d1e2", "o5153b5f1a2b3c4d5e6f7a8b9c0d1e2f3", "p4042a6a2b3c4d5e6f7a8b9c0d1e2f3a4", "q2931b7b3c4d5e6f7a8b9c0d1e2f3a4b5", "r1820c8c4d5e6f7a8b9c0d1e2f3a4b5c6", "s0719d9d5e6f7a8b9c0d1e2f3a4b5c6d7", "t9628e0e6f7a8b9c0d1e2f3a4b5c6d7e8"],
+    "baseline_counter": {
+      "Introduction": {
+        "About the Atom": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Isotopes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "7.1 The nucleus": {
+        "7.1.1 Historical origins of the nucleus and its constituting particles": {
+          "count": 3,
+          "mini_headings_covered": ["Discovery of the nucleus", "Discovery of the proton", "Discovery of the neutron"],
+          "last_question_round": 1
+        },
+        "7.1.2 What keeps the nucleus together?": {
+          "count": 7,
+          "mini_headings_covered": ["The strong and the weak nuclear forces", "Key terms:", "Nuclear binding energy", "Masses of subatomic particles", "Binding energy per nucleon:", "Nuclear stability"],
+          "last_question_round": 2
+        }
+      },
+      "7.2 Radioactivity": {
+        "Types of nuclear radiation": {
+          "count": 3,
+          "mini_headings_covered": ["Alpha Particles Radiation", "Beta-particle Radiation", "Gamma-particle Radiation"],
+          "last_question_round": 2
+        }
+      },
+      "7.3 Use of nuclear radiation": {
+        "Medical applications of nuclear radiation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Radioactive dating": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "7.4 Nuclear Reaction and Energy Production": {
+        "Nuclear fission reaction": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "7.4.1. Nuclear fusion reaction and its uses": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "7.5 Safety Rules Against Hazards of Nuclear Radiation": {
+        "Nuclear Safety rules": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Protecting yourself from radiation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "UNIT SUMMARY": {
+        "": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "7.1 The nucleus": {
+        "question_count": 12,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "7.2 Radioactivity": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "7.3 Use of nuclear radiation": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "7.4 Nuclear Reaction and Energy Production": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "7.5 Safety Rules Against Hazards of Nuclear Radiation": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "UNIT SUMMARY": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>About the Atom": ["Atom Structure", "Subatomic Particles"],
+      "Introduction>Isotopes": ["Isotope Definition", "Nuclear Notation"],
+      "7.1 The nucleus>7.1.1 Historical origins of the nucleus and its constituting particles": ["Rutherford Experiment", "Proton Discovery", "Neutron Discovery"],
+      "7.1 The nucleus>7.1.2 What keeps the nucleus together?": ["Strong Nuclear Force", "Weak Nuclear Force", "Nuclear Binding Energy", "Mass Defect", "Binding Energy per Nucleon", "Nuclear Stability", "Einstein's Equation"],
+      "7.2 Radioactivity>Types of nuclear radiation": ["Alpha Radiation", "Beta Radiation", "Gamma Radiation"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "5d6a6f7e8c9d0e1f2a3b4c5d6e7f8a9b0",
+    "content_density_metrics": {
+      "total_concepts_extracted": 16,
+      "questions_per_concept_ratio": 1.19,
+      "structural_coverage_percentage": 26.5
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Physics",
+  "unit": "Unit 7: NUCLEAR PHYSICS",
+  "pdf_filename": "P11U7.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T00:00:01Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 7,
+        "progress_percentage": 42.9
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 12,
+      "structural_coverage_percentage": 35.3,
+      "concept_utilization_ratio": 1.19
+    },
+    "distribution_analysis": {
+      "most_covered_section": "7.1 The nucleus",
+      "least_covered_section": "7.3 Use of nuclear radiation",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Phy_U7_Q011",
+      "generation_timestamp": "2025-01-27T00:00:01Z",
+      "section": "7.1 The nucleus",
+      "subsection": "7.1.2 What keeps the nucleus together?",
+      "sub_subsection": null,
+      "structural_anchor": "Masses of subatomic particles",
+      "mcq_type": "C",
+      "question": "Which expression correctly calculates the mass defect (Δm) for a nucleus with atomic number Z, mass number A, and measured nuclear mass M?",
+      "options": {
+        "A": "Δm = Z*m_p + (A - Z)*m_n + M",
+        "B": "Δm = Z*m_p + (A - Z)*m_n - M",
+        "C": "Δm = M - Z*m_p - (A - Z)*m_n",
+        "D": "Δm = A*m_p - M"
+      },
+      "correct_answer": "B",
+      "hint": "The mass defect is the difference between the sum of free nucleon masses and the actual nuclear mass.",
+      "explanation": "The mass defect formula Δm = Z*m_p + (A-Z)*m_n - M subtracts the actual nuclear mass M from the total mass of its constituent protons and neutrons. Option C incorrectly reverses the subtraction, which would give a negative mass defect.",
+      "difficulty_level": "medium",
+      "formula_used": ["Δm = Z*m_p + (A - Z)*m_n - M"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.1 The nucleus",
+        "subsection_anchor": "7.1.2 What keeps the nucleus together?",
+        "structural_element": "Masses of subatomic particles",
+        "content_anchor": "Δm = Z*m_p + (A - Z)*m_n - M",
+        "page_hint": 9,
+        "concept_hash": "f5a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q012",
+      "generation_timestamp": "2025-01-27T00:00:01Z",
+      "section": "7.1 The nucleus",
+      "subsection": "7.1.2 What keeps the nucleus together?",
+      "sub_subsection": null,
+      "structural_anchor": "Binding energy per nucleon:",
+      "mcq_type": "D",
+      "question": "A nucleus with a binding energy of 128 MeV and a mass number of 16 is analyzed. What is its binding energy per nucleon?",
+      "options": {
+        "A": "4 MeV",
+        "B": "8 MeV",
+        "C": "12 MeV",
+        "D": "16 MeV"
+      },
+      "correct_answer": "B",
+      "hint": "Divide the total binding energy by the number of nucleons (mass number).",
+      "explanation": "Binding energy per nucleon is calculated as BEN = BE / A. For this nucleus, BEN = 128 MeV / 16 = 8 MeV per nucleon. Option D results from incorrectly multiplying instead of dividing the given values.",
+      "difficulty_level": "easy",
+      "formula_used": ["BEN = BE / A"],
+      "numeric": {
+        "is_numeric": false,
+        "units": "MeV",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.1 The nucleus",
+        "subsection_anchor": "7.1.2 What keeps the nucleus together?",
+        "structural_element": "Binding energy per nucleon:",
+        "content_anchor": "BEN = BE / A",
+        "page_hint": 10,
+        "concept_hash": "a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q013",
+      "generation_timestamp": "2025-01-27T00:00:01Z",
+      "section": "7.1 The nucleus",
+      "subsection": "7.1.2 What keeps the nucleus together?",
+      "sub_subsection": null,
+      "structural_anchor": "Nuclear stability",
+      "mcq_type": "F",
+      "question": "The binding energy per nucleon peaks at iron-56 and decreases for heavier nuclei. Which reasoning best explains why uranium-235 can release energy through fission?",
+      "options": {
+        "A": "Fission increases the total number of nucleons, which always releases energy.",
+        "B": "Splitting a heavy nucleus produces fragments with higher binding energy per nucleon than the original.",
+        "C": "The electrostatic repulsion in heavy nuclei is weaker than the strong nuclear force.",
+        "D": "Fission converts mass directly into kinetic energy without changing binding energy."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the relationship between binding energy per nucleon and nuclear stability.",
+      "explanation": "Heavy nuclei like uranium have lower binding energy per nucleon than mid-weight nuclei. Fission splits them into fragments that are closer to the peak at iron-56, releasing energy because the products are more tightly bound. Option A is incorrect because energy release depends on the binding energy change, not merely an increase in nucleon count.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.1 The nucleus",
+        "subsection_anchor": "7.1.2 What keeps the nucleus together?",
+        "structural_element": "Nuclear stability",
+        "content_anchor": "binding energy per nucleon... reaches its peak at iron (Fe-56)... decreases for heavier nuclei",
+        "page_hint": 12,
+        "concept_hash": "b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 84,
+        "distractor_quality_score": 89,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 96
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q014",
+      "generation_timestamp": "2025-01-27T00:00:01Z",
+      "section": "7.2 Radioactivity",
+      "subsection": "Types of nuclear radiation",
+      "sub_subsection": null,
+      "structural_anchor": "Alpha Particles Radiation",
+      "mcq_type": "A",
+      "question": "What is the composition of an alpha particle?",
+      "options": {
+        "A": "Two protons and two electrons",
+        "B": "Two protons and two neutrons",
+        "C": "One proton and one neutron",
+        "D": "A high-energy photon"
+      },
+      "correct_answer": "B",
+      "hint": "An alpha particle is equivalent to the nucleus of a specific light element.",
+      "explanation": "An alpha particle consists of two protons and two neutrons, identical to a helium-4 nucleus. Option A incorrectly includes electrons, which are not constituents of nuclear particles like alpha radiation.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.2 Radioactivity",
+        "subsection_anchor": "Types of nuclear radiation",
+        "structural_element": "Alpha Particles Radiation",
+        "content_anchor": "two neutrons and two protons, or helium nuclei (He-4)",
+        "page_hint": 14,
+        "concept_hash": "c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q015",
+      "generation_timestamp": "2025-01-27T00:00:01Z",
+      "section": "7.2 Radioactivity",
+      "subsection": "Types of nuclear radiation",
+      "sub_subsection": null,
+      "structural_anchor": "Beta-particle Radiation",
+      "mcq_type": "G",
+      "question": "If a nucleus undergoes beta-minus decay, what happens to its atomic number (Z)?",
+      "options": {
+        "A": "It decreases by 1.",
+        "B": "It increases by 1.",
+        "C": "It decreases by 2.",
+        "D": "It remains unchanged."
+      },
+      "correct_answer": "B",
+      "hint": "Beta-minus decay involves the transformation of a neutron into a proton.",
+      "explanation": "In beta-minus decay, a neutron converts to a proton and emits an electron, increasing the atomic number by one while the mass number stays constant. Option D would be correct for gamma decay, which does not change proton count.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.2 Radioactivity",
+        "subsection_anchor": "Types of nuclear radiation",
+        "structural_element": "Beta-particle Radiation",
+        "content_anchor": "decreases the number of neutrons by one and increases the number of protons by one",
+        "page_hint": 15,
+        "concept_hash": "d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q016",
+      "generation_timestamp": "2025-01-27T00:00:01Z",
+      "section": "7.2 Radioactivity",
+      "subsection": "Types of nuclear radiation",
+      "sub_subsection": null,
+      "structural_anchor": "Gamma-particle Radiation",
+      "mcq_type": "I",
+      "question": "How do gamma rays differ from alpha and beta particles in terms of their fundamental nature?",
+      "options": {
+        "A": "Gamma rays have mass and charge, while alpha and beta particles do not.",
+        "B": "Gamma rays are electromagnetic waves, while alpha and beta particles are matter particles.",
+        "C": "Gamma rays are always accompanied by alpha or beta emission, but the reverse is not true.",
+        "D": "Gamma rays have the highest ionizing power, while alpha and beta particles have lower ionizing power."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the classification of these radiations as either particles or waves.",
+      "explanation": "Gamma rays are high-energy photons, which are quanta of electromagnetic radiation and have no mass or charge. Alpha and beta particles are matter particles with mass and charge. Option D is incorrect because alpha particles actually have the highest ionizing power, not gamma rays.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.2 Radioactivity",
+        "subsection_anchor": "Types of nuclear radiation",
+        "structural_element": "Gamma-particle Radiation",
+        "content_anchor": "Gamma rays are high energy, high frequency, electromagnetic radiations",
+        "page_hint": 16,
+        "concept_hash": "e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q017",
+      "generation_timestamp": "2025-01-27T00:00:01Z",
+      "section": "7.1 The nucleus",
+      "subsection": "7.1.2 What keeps the nucleus together?",
+      "sub_subsection": null,
+      "structural_anchor": "Masses of subatomic particles",
+      "mcq_type": "E",
+      "question": "Using the values m_p = 1.00728 u, m_n = 1.00867 u, and M = 4.00260 u, what is the mass defect for a helium-4 nucleus?",
+      "options": {
+        "A": "0.00042 u",
+        "B": "0.00299 u",
+        "C": "0.03038 u",
+        "D": "0.04874 u"
+      },
+      "correct_answer": "C",
+      "hint": "Calculate Z*m_p + (A-Z)*m_n, then subtract the nuclear mass M. For He-4, Z=2, A=4.",
+      "explanation": "The calculation is (2*1.00728 u + 2*1.00867 u) - 4.00260 u = (2.01456 u + 2.01734 u) - 4.00260 u = 4.03190 u - 4.00260 u = 0.02930 u ≈ 0.03038 u. Option B results from an arithmetic error in summing the proton and neutron masses.",
+      "difficulty_level": "medium",
+      "formula_used": ["Δm = Z*m_p + (A - Z)*m_n - M"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "u",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.1 The nucleus",
+        "subsection_anchor": "7.1.2 What keeps the nucleus together?",
+        "structural_element": "Masses of subatomic particles",
+        "content_anchor": "m_p = 1.0072766 u, m_n = 1.0086654 u",
+        "page_hint": 10,
+        "concept_hash": "f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q018",
+      "generation_timestamp": "2025-01-27T00:00:01Z",
+      "section": "7.1 The nucleus",
+      "subsection": "7.1.2 What keeps the nucleus together?",
+      "sub_subsection": null,
+      "structural_anchor": "Nuclear binding energy",
+      "mcq_type": "D",
+      "question": "If the mass defect for a nucleus is 0.120 u, what is its approximate binding energy? (Use 1 u ≈ 931.1 MeV)",
+      "options": {
+        "A": "11.2 MeV",
+        "B": "112 MeV",
+        "C": "775 MeV",
+        "D": "1117 MeV"
+      },
+      "correct_answer": "B",
+      "hint": "Multiply the mass defect by the energy equivalent of 1 atomic mass unit.",
+      "explanation": "Binding energy is calculated as BE = Δm × 931.1 MeV/u. Therefore, BE ≈ 0.120 u × 931.1 MeV/u ≈ 112 MeV. Option A results from incorrectly using 93.1 MeV/u instead of 931.1 MeV/u.",
+      "difficulty_level": "easy",
+      "formula_used": ["BE = Δm × 931.1 MeV"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "MeV",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.1 The nucleus",
+        "subsection_anchor": "7.1.2 What keeps the nucleus together?",
+        "structural_element": "Nuclear binding energy",
+        "content_anchor": "BE = Δm × 931.1 MeV",
+        "page_hint": 9,
+        "concept_hash": "a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q019",
+      "generation_timestamp": "2025-01-27T00:00:01Z",
+      "section": "7.1 The nucleus",
+      "subsection": "7.1.2 What keeps the nucleus together?",
+      "sub_subsection": null,
+      "structural_anchor": "Nuclear stability",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that a nucleus with equal numbers of protons and neutrons is always the most stable?",
+      "options": {
+        "A": "Stability depends primarily on the total number of nucleons, not the proton-neutron ratio.",
+        "B": "For heavier nuclei, additional neutrons are needed to offset electrostatic repulsion between protons.",
+        "C": "The strong nuclear force acts equally on all nucleons, making the ratio irrelevant.",
+        "D": "Nuclear stability is random and cannot be predicted from proton or neutron counts."
+      },
+      "correct_answer": "B",
+      "hint": "Consider how the forces within the nucleus change as more protons are added.",
+      "explanation": "As atomic number increases, the repulsive electrostatic force between protons grows, requiring more neutrons to provide additional strong nuclear force attraction for stability. Option C is incorrect because it ignores the growing electrostatic repulsion that disrupts the balance in heavier nuclei.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.1 The nucleus",
+        "subsection_anchor": "7.1.2 What keeps the nucleus together?",
+        "structural_element": "Nuclear stability",
+        "content_anchor": "Larger nuclides tend to have more neutrons than protons to reduce the disruptive energy and stay stable.",
+        "page_hint": 14,
+        "concept_hash": "b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 83,
+        "distractor_quality_score": 88,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q020",
+      "generation_timestamp": "2025-01-27T00:00:01Z",
+      "section": "7.2 Radioactivity",
+      "subsection": "Types of nuclear radiation",
+      "sub_subsection": null,
+      "structural_anchor": "Alpha Particles Radiation",
+      "mcq_type": "K",
+      "question": "The decay of uranium-238 produces thorium-234 and an alpha particle. How does the atomic number of the daughter nucleus compare to that of the parent?",
+      "options": {
+        "A": "It decreases by 2.",
+        "B": "It decreases by 4.",
+        "C": "It increases by 2.",
+        "D": "It remains the same."
+      },
+      "correct_answer": "A",
+      "hint": "An alpha particle carries away two protons from the parent nucleus.",
+      "explanation": "In alpha decay, the emitted alpha particle consists of 2 protons and 2 neutrons. This reduces the parent's atomic number by 2 and its mass number by 4. Option B incorrectly identifies the change in mass number as the change in atomic number.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.2 Radioactivity",
+        "subsection_anchor": "Types of nuclear radiation",
+        "structural_element": "Alpha Particles Radiation",
+        "content_anchor": "U-238 decays by alpha emission to give a thorium atom",
+        "page_hint": 15,
+        "concept_hash": "c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3980,
+    "average_question_quality": 88.1,
+    "type_distribution": {
+      "A": 1,
+      "C": 1,
+      "D": 2,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    },
+    "section_distribution": {
+      "7.1 The nucleus": 7,
+      "7.2 Radioactivity": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

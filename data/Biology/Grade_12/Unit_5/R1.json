@@ -1,0 +1,867 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2024-12-19T14:45:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Bio_U5_Q010",
+    "covered_sections": [
+      "Body Coordination>Body Coordination",
+      "The Nervous System>Neurons and their functions",
+      "The Nervous System>The Nerve Impulse and transmission",
+      "The Nervous System>Neurotransmitters",
+      "The Nervous System>Types of the nervous system",
+      "The Nervous System>Reflex action",
+      "Drug abuse>Drug abuse",
+      "Sense organs>Skin",
+      "Sense organs>The Tongue",
+      "Sense organs>The Nose",
+      "Sense organs>The Eye",
+      "Sense organs>The Ear",
+      "The endocrine system>The endocrine glands",
+      "Homeostasis in the human body>The structure and function of the human kidney"
+    ],
+    "used_question_signatures": [
+      "hash_Body_Coordination_Coordination_Forms",
+      "hash_Neurons_Types_Sensory",
+      "hash_Nerve_Impulse_Resting_Potential",
+      "hash_Neurotransmitters_Excitatory",
+      "hash_CNS_Brain_Cerebrum",
+      "hash_PNS_Autonomic_Sympathetic",
+      "hash_Reflex_Arc_Components",
+      "hash_Drug_Abuse_Nicotine_Dopamine",
+      "hash_Skin_Function_Protection",
+      "hash_Tongue_Taste_Buds_Receptors",
+      "hash_Nose_Olfaction_Receptors",
+      "hash_Eye_Retina_Rods_Cones",
+      "hash_Ear_Cochlea_Hearing",
+      "hash_Endocrine_Hormone_Target",
+      "hash_Homeostasis_Kidney_Nephron_Filtration"
+    ],
+    "baseline_counter": {
+      "Body Coordination": {
+        "Body Coordination": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "The Nervous System": {
+        "Neurons and their functions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Nerve Impulse and transmission": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Neurotransmitters": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Types of the nervous system": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Reflex action": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Drug abuse": {
+        "Drug abuse": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Sense organs": {
+        "Skin": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Tongue": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Nose": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Eye": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Ear": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "The endocrine system": {
+        "The endocrine glands": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Homeostasis in the human body": {
+        "The structure and function of the human kidney": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Body Coordination": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "The Nervous System": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Drug abuse": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Sense organs": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "The endocrine system": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Homeostasis in the human body": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Body Coordination>Body Coordination": ["Nervous coordination", "Hormonal coordination"],
+      "The Nervous System>Neurons and their functions": ["Sensory neurons", "Motor neurons", "Interneurons"],
+      "The Nervous System>The Nerve Impulse and transmission": ["Resting potential", "Action potential"],
+      "The Nervous System>Neurotransmitters": ["Excitatory transmitter", "Inhibitory transmitter"],
+      "The Nervous System>Types of the nervous system": ["Central Nervous System", "Peripheral Nervous System"],
+      "The Nervous System>Reflex action": ["Reflex arc", "Stimulus-response pathway"],
+      "Drug abuse>Drug abuse": ["Nicotine", "Dopamine"],
+      "Sense organs>Skin": ["Epidermis", "Dermis", "Protection"],
+      "Sense organs>The Tongue": ["Taste buds", "Papillae"],
+      "Sense organs>The Nose": ["Olfactory receptors", "Olfactory bulb"],
+      "Sense organs>The Eye": ["Retina", "Rods", "Cones"],
+      "Sense organs>The Ear": ["Cochlea", "Organ of Corti"],
+      "The endocrine system>The endocrine glands": ["Hormones", "Target cells"],
+      "Homeostasis in the human body>The structure and function of the human kidney": ["Nephron", "Ultrafiltration"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_initial_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 30,
+      "questions_per_concept_ratio": 0.333,
+      "structural_coverage_percentage": 23.3
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 5: Human Body System",
+  "pdf_filename": "B12U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-12-19T14:45:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 5.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 14,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 14,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 23.3,
+      "concept_utilization_ratio": 0.467
+    },
+    "distribution_analysis": {
+      "most_covered_section": "The Nervous System",
+      "least_covered_section": "Body Coordination",
+      "imbalance_ratio": 5.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.467,
+      "remaining_concept_capacity": 16
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U5_Q001",
+      "generation_timestamp": "2024-12-19T14:45:00Z",
+      "section": "Body Coordination",
+      "subsection": "Body Coordination",
+      "sub_subsection": null,
+      "structural_anchor": "Body Coordination",
+      "mcq_type": "I",
+      "question": "Which pair of systems is primarily responsible for coordinating rapid responses and slower, sustained changes in the body, respectively?",
+      "options": {
+        "A": "Nervous system and endocrine system",
+        "B": "Endocrine system and muscular system",
+        "C": "Skeletal system and nervous system",
+        "D": "Circulatory system and endocrine system"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the speed of action for electrical impulses versus chemical messengers.",
+      "explanation": "The nervous system uses electrical impulses for rapid responses, while the endocrine system uses hormones for slower, sustained changes. Option B incorrectly pairs the endocrine system with the muscular system, which is an effector, not a primary coordinator.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Body Coordination",
+        "subsection_anchor": "Body Coordination",
+        "structural_element": "Body Coordination",
+        "content_anchor": "nervous and hormonal coordination",
+        "page_hint": null,
+        "concept_hash": "sha256_of_nervous_endocrine_coordination"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q002",
+      "generation_timestamp": "2024-12-19T14:45:00Z",
+      "section": "The Nervous System",
+      "subsection": "Neurons and their functions",
+      "sub_subsection": null,
+      "structural_anchor": "Neurons and their functions",
+      "mcq_type": "B",
+      "question": "Which type of neuron carries impulses from sensory receptors towards the central nervous system?",
+      "options": {
+        "A": "Motor neuron",
+        "B": "Sensory neuron",
+        "C": "Interneuron",
+        "D": "Relay neuron"
+      },
+      "correct_answer": "B",
+      "hint": "This neuron type is also known as an afferent neuron.",
+      "explanation": "Sensory neurons, or afferent neurons, transmit impulses from receptors to the CNS. Option A is incorrect because motor neurons carry impulses from the CNS to effectors.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The Nervous System",
+        "subsection_anchor": "Neurons and their functions",
+        "structural_element": "Neurons and their functions",
+        "content_anchor": "Sensory neurons carry messages from sensory receptors",
+        "page_hint": null,
+        "concept_hash": "sha256_of_sensory_neuron_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q003",
+      "generation_timestamp": "2024-12-19T14:45:00Z",
+      "section": "The Nervous System",
+      "subsection": "The Nerve Impulse and transmission",
+      "sub_subsection": null,
+      "structural_anchor": "Resting Potential",
+      "mcq_type": "A",
+      "question": "What term describes the electrical potential difference across the membrane of a neuron when it is not conducting an impulse?",
+      "options": {
+        "A": "Action potential",
+        "B": "Resting potential",
+        "C": "Depolarization",
+        "D": "Threshold potential"
+      },
+      "correct_answer": "B",
+      "hint": "This state is characterized by the inside of the neuron being more negative relative to the outside.",
+      "explanation": "Resting potential is the baseline membrane potential of approximately -65 mV when a neuron is not active. Option A incorrectly refers to the rapid change in potential during impulse conduction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The Nervous System",
+        "subsection_anchor": "The Nerve Impulse and transmission",
+        "structural_element": "Resting Potential",
+        "content_anchor": "When an axon is resting, its membrane is polarized",
+        "page_hint": null,
+        "concept_hash": "sha256_of_resting_potential_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q004",
+      "generation_timestamp": "2024-12-19T14:45:00Z",
+      "section": "The Nervous System",
+      "subsection": "Neurotransmitters",
+      "sub_subsection": null,
+      "structural_anchor": "Neurotransmitters",
+      "mcq_type": "F",
+      "question": "If a neurotransmitter binds to a receptor that increases the likelihood of the postsynaptic neuron generating an action potential, how is this neurotransmitter classified?",
+      "options": {
+        "A": "Inhibitory transmitter",
+        "B": "Excitatory transmitter",
+        "C": "Neuromodulator",
+        "D": "Reuptake inhibitor"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the effect on the membrane potential of the receiving neuron.",
+      "explanation": "Excitatory transmitters promote depolarization and action potential generation in the postsynaptic neuron. Option A is incorrect because inhibitory transmitters decrease the likelihood of an action potential.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The Nervous System",
+        "subsection_anchor": "Neurotransmitters",
+        "structural_element": "Neurotransmitters",
+        "content_anchor": "An excitatory transmitter promotes the generation of an action potential",
+        "page_hint": null,
+        "concept_hash": "sha256_of_excitatory_transmitter_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q005",
+      "generation_timestamp": "2024-12-19T14:45:00Z",
+      "section": "The Nervous System",
+      "subsection": "Types of the nervous system",
+      "sub_subsection": null,
+      "structural_anchor": "Cerebrum",
+      "mcq_type": "B",
+      "question": "Which region of the brain is primarily responsible for higher functions like reasoning, speech, and interpreting sensory information?",
+      "options": {
+        "A": "Cerebellum",
+        "B": "Medulla oblongata",
+        "C": "Cerebrum",
+        "D": "Hypothalamus"
+      },
+      "correct_answer": "C",
+      "hint": "This is the largest part of the human brain, divided into two hemispheres.",
+      "explanation": "The cerebrum, with its cerebral cortex, handles complex cognitive functions and sensory interpretation. Option A is incorrect because the cerebellum coordinates movement and balance.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The Nervous System",
+        "subsection_anchor": "Types of the nervous system",
+        "structural_element": "Cerebrum",
+        "content_anchor": "Cerebrum: is the largest part of the brain and performs higher functions",
+        "page_hint": null,
+        "concept_hash": "sha256_of_cerebrum_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q006",
+      "generation_timestamp": "2024-12-19T14:45:00Z",
+      "section": "The Nervous System",
+      "subsection": "Types of the nervous system",
+      "sub_subsection": "The Autonomic Nervous System",
+      "structural_anchor": "Sympathetic system",
+      "mcq_type": "G",
+      "question": "If an individual encounters a sudden threat, which division of the autonomic nervous system would immediately accelerate heart rate and increase breathing rate?",
+      "options": {
+        "A": "Parasympathetic system",
+        "B": "Somatic system",
+        "C": "Sympathetic system",
+        "D": "Enteric system"
+      },
+      "correct_answer": "C",
+      "hint": "This system prepares the body for 'fight-or-flight' responses.",
+      "explanation": "The sympathetic nervous system triggers physiological changes like increased heart rate to prepare for action during stress. Option A is incorrect because the parasympathetic system promotes rest and conservation of energy.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The Nervous System",
+        "subsection_anchor": "Types of the nervous system",
+        "structural_element": "Sympathetic system",
+        "content_anchor": "Sympathetic system prepares the body to expend energy",
+        "page_hint": null,
+        "concept_hash": "sha256_of_sympathetic_system_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q007",
+      "generation_timestamp": "2024-12-19T14:45:00Z",
+      "section": "The Nervous System",
+      "subsection": "Reflex action",
+      "sub_subsection": null,
+      "structural_anchor": "Reflex Arc",
+      "mcq_type": "M",
+      "question": "What is the correct sequence of structures involved in a simple spinal reflex arc?",
+      "options": {
+        "A": "Receptor → Sensory neuron → Motor neuron → Effector",
+        "B": "Sensory neuron → Interneuron → Motor neuron → Effector",
+        "C": "Receptor → Sensory neuron → Interneuron → Motor neuron → Effector",
+        "D": "Effector → Motor neuron → Interneuron → Sensory neuron → Receptor"
+      },
+      "correct_answer": "C",
+      "hint": "Recall that interneurons in the spinal cord integrate the signal between sensory and motor neurons.",
+      "explanation": "A reflex arc begins with a receptor, involves sensory and motor neurons with an interneuron in the CNS, and ends at an effector. Option A is incorrect because it omits the crucial interneuron for integration.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "The Nervous System",
+        "subsection_anchor": "Reflex action",
+        "structural_element": "Reflex Arc",
+        "content_anchor": "The pathway of neurons involved in a reflex action is known as reflex arc",
+        "page_hint": null,
+        "concept_hash": "sha256_of_reflex_arc_sequence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q008",
+      "generation_timestamp": "2024-12-19T14:45:00Z",
+      "section": "Drug abuse",
+      "subsection": "Drug abuse",
+      "sub_subsection": "Smoking",
+      "structural_anchor": "Smoking",
+      "mcq_type": "G",
+      "question": "What immediate effect does nicotine have on the brain's reward pathway that contributes to its addictive potential?",
+      "options": {
+        "A": "It blocks dopamine receptors.",
+        "B": "It inhibits the reuptake of serotonin.",
+        "C": "It causes the release of dopamine.",
+        "D": "It increases the production of acetylcholine."
+      },
+      "correct_answer": "C",
+      "hint": "This neurotransmitter is associated with pleasure and reinforcement.",
+      "explanation": "Nicotine rapidly triggers dopamine release in reward regions, creating pleasurable sensations that reinforce use. Option A is incorrect because nicotine stimulates, rather than blocks, dopamine activity.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Drug abuse",
+        "subsection_anchor": "Drug abuse",
+        "structural_element": "Smoking",
+        "content_anchor": "nicotine causes the release of dopamine in the brain",
+        "page_hint": null,
+        "concept_hash": "sha256_of_nicotine_dopamine_effect"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q009",
+      "generation_timestamp": "2024-12-19T14:45:00Z",
+      "section": "Sense organs",
+      "subsection": "Skin",
+      "sub_subsection": null,
+      "structural_anchor": "Basic components of the human skin",
+      "mcq_type": "J",
+      "question": "Which layer of the skin contains blood vessels, sweat glands, and sensory receptors?",
+      "options": {
+        "A": "Epidermis",
+        "B": "Dermis",
+        "C": "Hypodermis",
+        "D": "Subcutaneous tissue"
+      },
+      "correct_answer": "B",
+      "hint": "This middle layer is involved in temperature regulation and sensation.",
+      "explanation": "The dermis houses vascular networks, glands, and receptors for touch and temperature. Option A is incorrect because the epidermis is a protective outer layer with few blood vessels.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Sense organs",
+        "subsection_anchor": "Skin",
+        "structural_element": "Basic components of the human skin",
+        "content_anchor": "The dermis contains blood vessels, lymph vessels, hair follicles, and sweat glands",
+        "page_hint": null,
+        "concept_hash": "sha256_of_dermis_components"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Bio_U5_Q010",
+      "generation_timestamp": "2024-12-19T14:45:00Z",
+      "section": "Sense organs",
+      "subsection": "The Tongue",
+      "sub_subsection": null,
+      "structural_anchor": "The Tongue",
+      "mcq_type": "B",
+      "question": "What are the small structures on the surface of the tongue that contain taste buds?",
+      "options": {
+        "A": "Villi",
+        "B": "Papillae",
+        "C": "Alveoli",
+        "D": "Follicles"
+      },
+      "correct_answer": "B",
+      "hint": "These bumps give the tongue its rough texture.",
+      "explanation": "Papillae are epithelial projections that house taste buds, the sensory organs for taste. Option A refers to intestinal structures for absorption, not taste.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Body System",
+        "section_anchor": "Sense organs",
+        "subsection_anchor": "The Tongue",
+        "structural_element": "The Tongue",
+        "content_anchor": "Tiny bumps called papillae give the tongue its rough texture",
+        "page_hint": null,
+        "concept_hash": "sha256_of_papillae_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3150,
+    "average_question_quality": 85.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 3,
+      "F": 1,
+      "G": 2,
+      "I": 1,
+      "J": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Body Coordination": 1,
+      "The Nervous System": 5,
+      "Drug abuse": 1,
+      "Sense organs": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

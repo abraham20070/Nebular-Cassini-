@@ -1,0 +1,978 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:17:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Bio_U4_Q030",
+    "covered_sections": ["4.1 What is a cell cycle?>Objectives", "4.2 Cell division>Objectives", "4.2 Cell division>4.2.1 Mitosis>Objectives", "4.2 Cell division>4.2.2 Meiosis>Objectives", "4.3 Renowned Geneticist in Ethiopia>Objectives", "Unit Summary", "Learning objectives", "ACTIVITY 4.1 MODELING", "ACTIVITY 4.2 CRITICAL THINKING", "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS", "ACTIVITY 4.4: PEER DISCUSSION", "Key terms", "Description of the different stages of Meiosis I and Meiosis II", "Attention (Cancer can start...)", "The Cell division (unnumbered heading)", "Figure 4.2 Illustration of cell division by mitosis", "Attention (The term mitosis was first coined...)", "Figure 4.3 Sister chromatids: Mitotic spindle emerging from the centrosomes", "Figure 4.4 Illustration of meiosis I and Meiosis II", "ACTIVITY 4.5 GROUP WORK", "Short answers (end of unit)"],
+    "used_question_signatures": ["hash_7d83a1b2", "hash_9c4e5f6a", "hash_2b8c3d9e", "hash_5f1a7c3b", "hash_8d2e4f6c", "hash_3b9a5c1d", "hash_6e2f8d4a", "hash_1c5d9a3b", "hash_4f7c2e8d", "hash_9a3b6d1c", "hash_2e7f5c8a", "hash_8c3a6d9f", "hash_5d9b2e7c", "hash_1f8c4a6d", "hash_7b3d9e2c", "hash_9e2c5f8a", "hash_4a6d1f8c", "hash_3c8f2b5d", "hash_6a9d4c2f", "hash_2f5c8d3a", "hash_8e5c2a9f", "hash_3d7f9a2c", "hash_5a9c1f8d", "hash_1c8f3d6a", "hash_7f2d5c9a", "hash_9c1a8f3d", "hash_4f8c2d7a", "hash_2a9d6c1f", "hash_6c3f9a8d", "hash_3a8f1d6c"],
+    "baseline_counter": {
+      "4.1 What is a cell cycle?": {
+        "Objectives": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.2 Cell division": {
+        "Objectives": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "4.2.1 Mitosis": {
+          "Objectives": {
+            "count": 3,
+            "mini_headings_covered": [],
+            "last_question_round": 2
+          }
+        },
+        "4.2.2 Meiosis": {
+          "Objectives": {
+            "count": 2,
+            "mini_headings_covered": [],
+            "last_question_round": 2
+          }
+        }
+      },
+      "4.3 Renowned Geneticist in Ethiopia": {
+        "Objectives": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Unit Summary": {
+        "Unit Summary": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Learning objectives": {
+        "Learning objectives": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "ACTIVITY 4.1 MODELING": {
+        "ACTIVITY 4.1 MODELING": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "ACTIVITY 4.2 CRITICAL THINKING": {
+        "ACTIVITY 4.2 CRITICAL THINKING": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS": {
+        "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "ACTIVITY 4.4: PEER DISCUSSION": {
+        "ACTIVITY 4.4: PEER DISCUSSION": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Key terms": {
+        "Key terms": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Description of the different stages of Meiosis I and Meiosis II": {
+        "Description of the different stages of Meiosis I and Meiosis II": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Attention (Cancer can start...)": {
+        "Attention (Cancer can start...)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "The Cell division (unnumbered heading)": {
+        "The Cell division (unnumbered heading)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Figure 4.2 Illustration of cell division by mitosis": {
+        "Figure 4.2 Illustration of cell division by mitosis": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Attention (The term mitosis was first coined...)": {
+        "Attention (The term mitosis was first coined...)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Figure 4.3 Sister chromatids: Mitotic spindle emerging from the centrosomes": {
+        "Figure 4.3 Sister chromatids: Mitotic spindle emerging from the centrosomes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Figure 4.4 Illustration of meiosis I and Meiosis II": {
+        "Figure 4.4 Illustration of meiosis I and Meiosis II": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "ACTIVITY 4.5 GROUP WORK": {
+        "ACTIVITY 4.5 GROUP WORK": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Short answers (end of unit)": {
+        "Short answers (end of unit)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1 What is a cell cycle?": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "4.2 Cell division": {
+        "question_count": 7,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "4.3 Renowned Geneticist in Ethiopia": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Unit Summary": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Learning objectives": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "ACTIVITY 4.1 MODELING": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "ACTIVITY 4.2 CRITICAL THINKING": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "ACTIVITY 4.4: PEER DISCUSSION": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "Key terms": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "Description of the different stages of Meiosis I and Meiosis II": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "Attention (Cancer can start...)": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "The Cell division (unnumbered heading)": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Figure 4.2 Illustration of cell division by mitosis": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Attention (The term mitosis was first coined...)": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Figure 4.3 Sister chromatids: Mitotic spindle emerging from the centrosomes": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Figure 4.4 Illustration of meiosis I and Meiosis II": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "ACTIVITY 4.5 GROUP WORK": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Short answers (end of unit)": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1 What is a cell cycle?>Objectives": ["cell cycle definition", "interphase phases", "G1 phase function", "S phase DNA replication", "G2 phase preparation"],
+      "4.2 Cell division>Objectives": ["cell division purpose", "karyokinesis vs cytokinesis", "surface area to volume ratio", "unicellular reproduction", "multicellular growth"],
+      "4.2 Cell division>4.2.1 Mitosis>Objectives": ["mitosis definition", "identical daughter cells", "growth and repair", "mitosis phases order", "prophase characteristics"],
+      "4.2 Cell division>4.2.2 Meiosis>Objectives": ["meiosis definition", "haploid gametes", "reduction division", "meiosis vs mitosis difference", "genetic variation"],
+      "4.3 Renowned Geneticist in Ethiopia>Objectives": ["Dr. Melaku Worede", "seed conservation", "Right Livelihood Award", "Plant Genetic Resource centre", "native seed enhancement"],
+      "Unit Summary": ["cell cycle sequence", "mitosis vs meiosis differences", "interphase preparation", "karyokinesis and cytokinesis"],
+      "Learning objectives": ["cancer cell characteristics", "cell cycle control", "mitosis vs meiosis comparison", "cancer recognition", "geneticist appreciation"],
+      "ACTIVITY 4.1 MODELING": ["cell model construction", "nucleus importance", "organelle arrangement"],
+      "ACTIVITY 4.2 CRITICAL THINKING": ["cell cycle timing", "interphase proportion", "cell cycle control failure"],
+      "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS": ["cancer definition", "cancer prevention", "cancer treatment"],
+      "ACTIVITY 4.4: PEER DISCUSSION": ["tissue renewal", "cell replacement", "adult vs child cell division"],
+      "Key terms": ["spindle fiber", "homologous chromosomes", "sister chromatids"],
+      "Description of the different stages of Meiosis I and Meiosis II": ["prophase I", "anaphase I", "telophase II", "meiosis I vs II", "chromosome separation"],
+      "Attention (Cancer can start...)": ["cancer causes", "growth factor failure", "cell communication problems"],
+      "The Cell division (unnumbered heading)": ["cell theory", "Rudolf Virchow", "cell doctrine"],
+      "Figure 4.2 Illustration of cell division by mitosis": ["mitosis visualization", "chromosome distribution", "daughter cell formation"],
+      "Attention (The term mitosis was first coined...)": ["Walther Flemming", "mitosis discovery", "chromosome splitting"],
+      "Figure 4.3 Sister chromatids: Mitotic spindle emerging from the centrosomes": ["sister chromatids", "centrosomes", "spindle formation"],
+      "Figure 4.4 Illustration of meiosis I and Meiosis II": ["meiosis stages", "chromosome reduction", "gamete formation"],
+      "ACTIVITY 4.5 GROUP WORK": ["onion cell mitosis", "phase identification", "microscopic observation"],
+      "Short answers (end of unit)": ["meiosis importance", "cancer features", "cytokinesis absence"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_round2_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 54,
+      "questions_per_concept_ratio": 0.56,
+      "structural_coverage_percentage": 66.7
+    }
+  },
+  "grade": "10",
+  "subject": "Biology",
+  "unit": "Unit 4: Cell Cycle",
+  "pdf_filename": "B10U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:17:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 20,
+        "total_sections": 18,
+        "progress_percentage": 111.1
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 7.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 20,
+      "subsections_covered_count": 20,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 66.7,
+      "concept_utilization_ratio": 0.56
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.2 Cell division",
+      "least_covered_section": "4.1 What is a cell cycle?",
+      "imbalance_ratio": 3.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.56,
+      "remaining_concept_capacity": 24
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U4_Q021",
+      "generation_timestamp": "2025-01-28T10:17:05Z",
+      "section": "4.3 Renowned Geneticist in Ethiopia",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "appreciate the work of a renowned geneticist",
+      "mcq_type": "K",
+      "question": "What agricultural achievement is associated with Dr. Melaku Worede's work on native Ethiopian crops?",
+      "options": {
+        "A": "Developing locally adapted seed varieties without commercial fertilizers",
+        "B": "Introducing genetically modified drought-resistant maize",
+        "C": "Creating synthetic fertilizers for high-yield agriculture",
+        "D": "Establishing large-scale irrigation systems for wheat farming"
+      },
+      "correct_answer": "A",
+      "hint": "Consider conservation-based agricultural approaches using indigenous resources.",
+      "explanation": "Dr. Melaku Worede developed native seed varieties adapted to local conditions without chemical inputs. Option C contradicts his approach of avoiding commercial fertilizers in favor of natural adaptation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "4.3 Renowned Geneticist in Ethiopia",
+        "subsection_anchor": "Objectives",
+        "structural_element": "appreciate the work of a renowned geneticist",
+        "content_anchor": "He was able to develop and grow locally adapted native seeds (e.g durum wheat) without commercial fertilizers or other chemicals",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_melaku_agriculture"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q022",
+      "generation_timestamp": "2025-01-28T10:17:07Z",
+      "section": "Learning objectives",
+      "subsection": "Learning objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Appreciate the works of renowned Ethiopian Geneticist",
+      "mcq_type": "K",
+      "question": "Which recognition did Dr. Melaku Worede receive in 1989 for his contributions to genetic conservation in Ethiopia?",
+      "options": {
+        "A": "Right Livelihood Award",
+        "B": "Nobel Prize in Agriculture",
+        "C": "World Food Prize",
+        "D": "UNESCO Science Award"
+      },
+      "correct_answer": "A",
+      "hint": "Consider awards specifically honoring grassroots environmental and development work.",
+      "explanation": "Dr. Melaku Worede received the 1989 Right Livelihood Award for preserving Ethiopia's genetic diversity. Option C is incorrect as the World Food Prize recognizes different achievements in food security.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "Learning objectives",
+        "subsection_anchor": "Learning objectives",
+        "structural_element": "Appreciate the works of renowned Ethiopian Geneticist",
+        "content_anchor": "He was awarded the 'Right livelihood Award' in 1989",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_right_livelihood_award"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q023",
+      "generation_timestamp": "2025-01-28T10:17:09Z",
+      "section": "Attention (Cancer can start...)",
+      "subsection": "Attention (Cancer can start...)",
+      "sub_subsection": null,
+      "structural_anchor": "Cancer can start when the controlling factors over cell division and cell growth fail",
+      "mcq_type": "G",
+      "question": "What cellular malfunction allows cancer cells to divide continuously without normal growth factor regulation?",
+      "options": {
+        "A": "Failure of cell cycle control mechanisms",
+        "B": "Enhanced DNA repair capacity",
+        "C": "Improved cell communication signals",
+        "D": "Strengthened cell adhesion properties"
+      },
+      "correct_answer": "A",
+      "hint": "Consider regulatory systems that normally limit cell proliferation.",
+      "explanation": "Cancer arises from failure of cell cycle checkpoint controls that normally regulate division. Option D is incorrect because cancer cells typically have weakened adhesion, facilitating metastasis.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "Attention (Cancer can start...)",
+        "subsection_anchor": "Attention (Cancer can start...)",
+        "structural_element": "Cancer can start when the controlling factors over cell division and cell growth fail",
+        "content_anchor": "Cancer can start when the controlling factors over cell division and cell growth fail",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_cancer_initiation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q024",
+      "generation_timestamp": "2025-01-28T10:17:11Z",
+      "section": "The Cell division (unnumbered heading)",
+      "subsection": "The Cell division (unnumbered heading)",
+      "sub_subsection": null,
+      "structural_anchor": "As it is stated in cell theory, new cells arise from pre-existing cells by cell division",
+      "mcq_type": "A",
+      "question": "Which fundamental biological principle states that all cells originate from previously existing cells through division?",
+      "options": {
+        "A": "Cell theory",
+        "B": "Theory of evolution",
+        "C": "Germ theory",
+        "D": "Gene theory"
+      },
+      "correct_answer": "A",
+      "hint": "Consider theories about cellular origin and continuity.",
+      "explanation": "Cell theory establishes that cells arise only from pre-existing cells through division. Option C incorrectly describes disease causation by microorganisms rather than cellular reproduction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "The Cell division (unnumbered heading)",
+        "subsection_anchor": "The Cell division (unnumbered heading)",
+        "structural_element": "As it is stated in cell theory, new cells arise from pre-existing cells by cell division",
+        "content_anchor": "As it is stated in cell theory, new cells arise from pre-existing cells by cell division",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_cell_theory"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q025",
+      "generation_timestamp": "2025-01-28T10:17:13Z",
+      "section": "Figure 4.2 Illustration of cell division by mitosis",
+      "subsection": "Figure 4.2 Illustration of cell division by mitosis",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 4.2 Illustration of cell division by mitosis",
+      "mcq_type": "L",
+      "question": "In a microscopic image showing chromosomes aligned at the cell's equator before separation, which mitotic phase is being observed?",
+      "options": {
+        "A": "Metaphase",
+        "B": "Prophase",
+        "C": "Anaphase",
+        "D": "Telophase"
+      },
+      "correct_answer": "A",
+      "hint": "Consider chromosome positioning during different division stages.",
+      "explanation": "Metaphase features chromosomes aligned at the equatorial plate before separation. Option C incorrectly describes anaphase, where chromosomes move toward poles.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "figure"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "Figure 4.2 Illustration of cell division by mitosis",
+        "subsection_anchor": "Figure 4.2 Illustration of cell division by mitosis",
+        "structural_element": "Figure 4.2 Illustration of cell division by mitosis",
+        "content_anchor": "chromosomes line up (arrange themselves) end-to-end along the centre or metaphase plate",
+        "page_hint": "Page 6-7",
+        "concept_hash": "sha256_of_metaphase_visual"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 81,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q026",
+      "generation_timestamp": "2025-01-28T10:17:15Z",
+      "section": "Attention (The term mitosis was first coined...)",
+      "subsection": "Attention (The term mitosis was first coined...)",
+      "sub_subsection": null,
+      "structural_anchor": "The term mitosis was first coined by Walther Flemming in 1882",
+      "mcq_type": "B",
+      "question": "Which scientist introduced the term 'mitosis' in 1882 after observing chromosome behavior during cell division?",
+      "options": {
+        "A": "Walther Flemming",
+        "B": "Gregor Mendel",
+        "C": "Robert Hooke",
+        "D": "Louis Pasteur"
+      },
+      "correct_answer": "A",
+      "hint": "Consider early microscopists who studied cellular processes.",
+      "explanation": "Walther Flemming coined 'mitosis' while studying chromosome division in cells. Option B is incorrect as Mendel established genetics principles rather than cell division terminology.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "Attention (The term mitosis was first coined...)",
+        "subsection_anchor": "Attention (The term mitosis was first coined...)",
+        "structural_element": "The term mitosis was first coined by Walther Flemming in 1882",
+        "content_anchor": "The term mitosis was first coined by Walther Flemming in 1882",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_flemming_mitosis"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q027",
+      "generation_timestamp": "2025-01-28T10:17:17Z",
+      "section": "Figure 4.3 Sister chromatids: Mitotic spindle emerging from the centrosomes",
+      "subsection": "Figure 4.3 Sister chromatids: Mitotic spindle emerging from the centrosomes",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 4.3 Sister chromatids: Mitotic spindle emerging from the centrosomes",
+      "mcq_type": "B",
+      "question": "What structures are formed by microtubules extending from centrosomes to attach to chromosomes during cell division?",
+      "options": {
+        "A": "Spindle fibers",
+        "B": "Nuclear membranes",
+        "C": "Cell plates",
+        "D": "Cytoplasmic strands"
+      },
+      "correct_answer": "A",
+      "hint": "Consider apparatus responsible for chromosome movement during division.",
+      "explanation": "Spindle fibers are microtubule structures that attach to chromosomes for separation. Option C incorrectly describes plant cell division structures formed during cytokinesis.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "figure"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "Figure 4.3 Sister chromatids: Mitotic spindle emerging from the centrosomes",
+        "subsection_anchor": "Figure 4.3 Sister chromatids: Mitotic spindle emerging from the centrosomes",
+        "structural_element": "Figure 4.3 Sister chromatids: Mitotic spindle emerging from the centrosomes",
+        "content_anchor": "spindle fibres emerge from the centrosomes",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_spindle_fibers"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q028",
+      "generation_timestamp": "2025-01-28T10:17:19Z",
+      "section": "Figure 4.4 Illustration of meiosis I and Meiosis II",
+      "subsection": "Figure 4.4 Illustration of meiosis I and Meiosis II",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 4.4 Illustration of meiosis I and Meiosis II",
+      "mcq_type": "K",
+      "question": "Which visual characteristic distinguishes meiosis I from meiosis II in diagrams of cell division?",
+      "options": {
+        "A": "Homologous chromosomes separate in meiosis I; sister chromatids separate in meiosis II",
+        "B": "Sister chromatids separate in both divisions but at different rates",
+        "C": "Chromosome number doubles in meiosis I and halves in meiosis II",
+        "D": "Nuclear envelope disappears only in meiosis II"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what happens to chromosome pairs versus duplicated chromosomes.",
+      "explanation": "Meiosis I separates homologous chromosome pairs, while meiosis II separates sister chromatids. Option B incorrectly suggests similar separation events in both meiotic divisions.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "figure"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "Figure 4.4 Illustration of meiosis I and Meiosis II",
+        "subsection_anchor": "Figure 4.4 Illustration of meiosis I and Meiosis II",
+        "structural_element": "Figure 4.4 Illustration of meiosis I and Meiosis II",
+        "content_anchor": "In meiosis I, homologous chromosomes separate and move to opposite cells",
+        "page_hint": "Page 9-10",
+        "concept_hash": "sha256_of_meiosis_diagram"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q029",
+      "generation_timestamp": "2025-01-28T10:17:21Z",
+      "section": "ACTIVITY 4.5 GROUP WORK",
+      "subsection": "ACTIVITY 4.5 GROUP WORK",
+      "sub_subsection": null,
+      "structural_anchor": "The figure below shows different phases of mitosis in onion cells as seen under the microscope",
+      "mcq_type": "L",
+      "question": "When observing onion root tip cells under a microscope, which mitotic phase would show chromosomes grouped at opposite poles with new nuclear membranes forming?",
+      "options": {
+        "A": "Telophase",
+        "B": "Metaphase",
+        "C": "Anaphase",
+        "D": "Prophase"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the final stage of nuclear division before cytokinesis.",
+      "explanation": "Telophase features chromosome decondensation and nuclear envelope reformation at poles. Option C incorrectly describes anaphase, where chromosomes are moving toward poles but not yet regrouped.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "ACTIVITY 4.5 GROUP WORK",
+        "subsection_anchor": "ACTIVITY 4.5 GROUP WORK",
+        "structural_element": "The figure below shows different phases of mitosis in onion cells as seen under the microscope",
+        "content_anchor": "The figure below shows different phases of mitosis in onion cells as seen under the microscope",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_onion_mitosis"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q030",
+      "generation_timestamp": "2025-01-28T10:17:23Z",
+      "section": "Short answers (end of unit)",
+      "subsection": "Short answers (end of unit)",
+      "sub_subsection": null,
+      "structural_anchor": "What is the importance of meiosis to sexually reproducing organisms?",
+      "mcq_type": "F",
+      "question": "Why is chromosome number reduction during meiosis essential for maintaining consistent chromosome numbers across generations in sexual reproduction?",
+      "options": {
+        "A": "It allows gametes to be haploid so fertilization restores diploid number",
+        "B": "It increases genetic material for enhanced offspring characteristics",
+        "C": "It prevents chromosome duplication during embryonic development",
+        "D": "It ensures all body cells receive identical genetic information"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what happens when haploid gametes fuse during fertilization.",
+      "explanation": "Meiosis produces haploid gametes so fertilization can restore diploid chromosome number. Option B incorrectly suggests meiosis increases genetic material rather than reducing it for reproductive purposes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "review"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "Short answers (end of unit)",
+        "subsection_anchor": "Short answers (end of unit)",
+        "structural_element": "What is the importance of meiosis to sexually reproducing organisms?",
+        "content_anchor": "What is the importance of meiosis to sexually reproducing organisms?",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_meiosis_importance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 79,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 18000,
+    "average_question_quality": 86.3,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "F": 1,
+      "G": 1,
+      "K": 2,
+      "L": 2
+    },
+    "difficulty_distribution": {
+      "easy": 1,
+      "medium": 8,
+      "hard": 1
+    },
+    "section_distribution": {
+      "4.3 Renowned Geneticist in Ethiopia": 1,
+      "Learning objectives": 1,
+      "Attention (Cancer can start...)": 1,
+      "The Cell division (unnumbered heading)": 1,
+      "Figure 4.2 Illustration of cell division by mitosis": 1,
+      "Attention (The term mitosis was first coined...)": 1,
+      "Figure 4.3 Sister chromatids: Mitotic spindle emerging from the centrosomes": 1,
+      "Figure 4.4 Illustration of meiosis I and Meiosis II": 1,
+      "ACTIVITY 4.5 GROUP WORK": 1,
+      "Short answers (end of unit)": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

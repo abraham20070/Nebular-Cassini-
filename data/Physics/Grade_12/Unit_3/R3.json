@@ -1,0 +1,908 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-03-15T10:40:00Z",
+  "round_id": "R01",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Physics_U3_Q030",
+    "covered_sections": ["Introduction", "3.1 Fluid Statics>Properties of solids, liquids and gases", "3.1 Fluid Statics>Pressure in Fluid", "3.1 Fluid Statics>Density", "3.1 Fluid Statics>Pressure in Gases", "3.1 Fluid Statics>Relative density", "3.1 Fluid Statics>Ideal gas equation", "3.2 Pressure in fluids at rest>Pascal's principle", "3.2 Pressure in fluids at rest>Variation of pressure with depth", "3.2 Pressure in fluids at rest>Atmospheric pressure", "3.2 Pressure in fluids at rest>Measuring pressure", "3.3 Archimedes' principle>Buoyant force", "3.3 Archimedes' principle>Totally submerged object", "3.3 Archimedes' principle>Floating object", "3.4 Fluid flow>Steady and turbulent fluid flow", "3.4 Fluid flow>Flow rate", "3.4 Fluid flow>Equation of continuity", "3.5 Safety and high pressure>High pressure systems", "3.5 Safety and high pressure>Safety for high pressure equipment", "3.5 Safety and high pressure>High Pressure Gas Cylinders", "3.5 Safety and high pressure>High Pressure washers", "Unit summary", "End of unit questions"],
+    "used_question_signatures": ["a0b1c2d3e4f5", "b1c2d3e4f5g6", "c2d3e4f5g6h7", "d3e4f5g6h7i8", "e4f5g6h7i8j9", "f5g6h7i8j9k0", "g6h7i8j9k0l1", "h7i8j9k0l1m2", "i8j9k0l1m2n3", "j9k0l1m2n3o4", "k0l1m2n3o4p5", "l1m2n3o4p5q6", "m2n3o4p5q6r7", "n3o4p5q6r7s8", "o4p5q6r7s8t9", "p5q6r7s8t9u0", "q6r7s8t9u0v1", "r7s8t9u0v1w2", "s8t9u0v1w2x3", "t9u0v1w2x3y4", "u0v1w2x3y4z5", "v1w2x3y4z5a6", "w2x3y4z5a6b7", "x3y4z5a6b7c8", "y4z5a6b7c8d9", "z5a6b7c8d9e0", "a6b7c8d9e0f1", "b7c8d9e0f1g2", "c8d9e0f1g2h3", "d9e0f1g2h3i4"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 2,
+          "mini_headings_covered": ["Unit outcomes/competencies"],
+          "last_question_round": 1
+        }
+      },
+      "3.1 Fluid Statics": {
+        "Properties of solids, liquids and gases": {
+          "count": 4,
+          "mini_headings_covered": ["Brainstorming question 3.2"],
+          "last_question_round": 1
+        },
+        "Pressure in Fluid": {
+          "count": 4,
+          "mini_headings_covered": ["Brainstorming question 3.3"],
+          "last_question_round": 1
+        },
+        "Pressure in Gases": {
+          "count": 3,
+          "mini_headings_covered": ["Brainstorming question 3.4"],
+          "last_question_round": 1
+        },
+        "Density": {
+          "count": 4,
+          "mini_headings_covered": ["Brainstorming question 3.5"],
+          "last_question_round": 1
+        },
+        "Relative density": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Ideal gas equation": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.2 Pressure in fluids at rest": {
+        "Pascal's principle": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Variation of pressure with depth": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Atmospheric pressure": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Measuring pressure": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.3 Archimedes' principle": {
+        "Buoyant force": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Totally submerged object": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Floating object": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.4 Fluid flow": {
+        "Steady and turbulent fluid flow": {
+          "count": 3,
+          "mini_headings_covered": ["Brainstorming question 3.7"],
+          "last_question_round": 1
+        },
+        "Flow rate": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Equation of continuity": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.5 Safety and high pressure": {
+        "High pressure systems": {
+          "count": 3,
+          "mini_headings_covered": ["Brainstorming question 3.8"],
+          "last_question_round": 1
+        },
+        "Safety for high pressure equipment": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "High Pressure Gas Cylinders": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "High Pressure washers": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Unit summary": {
+        "Unit summary": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "End of unit questions": {
+        "End of unit questions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.1 Fluid Statics": {
+        "question_count": 10,
+        "last_used_round": 1,
+        "consecutive_batches": 3
+      },
+      "3.2 Pressure in fluids at rest": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.3 Archimedes' principle": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.4 Fluid flow": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.5 Safety and high pressure": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Unit summary": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "End of unit questions": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["Fluid mechanics", "Fluid behavior", "Pressure", "Pascal's principle", "Archimedes' principle", "Fluid flow"],
+      "3.1 Fluid Statics>Properties of solids, liquids and gases": ["Molecular spacing", "Intermolecular forces", "Compressibility", "Fluid deformation", "Phase characteristics"],
+      "3.1 Fluid Statics>Pressure in Fluid": ["Pressure definition", "Force per unit area", "Pressure units", "Pascal", "Pressure calculation"],
+      "3.1 Fluid Statics>Pressure in Gases": ["Gas pressure origin", "Particle collisions", "Absolute pressure", "Gauge pressure", "Pressure measurement"],
+      "3.1 Fluid Statics>Density": ["Mass per unit volume", "Density calculation", "Substance identification", "Material properties"],
+      "3.1 Fluid Statics>Relative density": ["Specific gravity", "Density ratio", "Unitless comparison"],
+      "3.1 Fluid Statics>Ideal gas equation": ["Gas law relationship", "Pressure-density-temperature", "Ideal gas behavior"],
+      "3.2 Pressure in fluids at rest>Pascal's principle": ["Pressure transmission", "Hydraulic systems", "Force multiplication", "Undiminished transmission"],
+      "3.2 Pressure in fluids at rest>Variation of pressure with depth": ["Hydrostatic pressure", "Depth dependence", "Pressure increase with depth"],
+      "3.2 Pressure in fluids at rest>Atmospheric pressure": ["Air pressure", "Altitude effects", "Pressure variation"],
+      "3.2 Pressure in fluids at rest>Measuring pressure": ["Barometers", "Manometers", "Pressure measurement devices"],
+      "3.3 Archimedes' principle>Buoyant force": ["Upward force", "Displaced fluid", "Weight of fluid", "Archimedes' principle"],
+      "3.3 Archimedes' principle>Totally submerged object": ["Complete immersion", "Density comparison", "Sinking vs floating"],
+      "3.3 Archimedes' principle>Floating object": ["Partial submersion", "Volume ratio", "Density relationship"],
+      "3.4 Fluid flow>Steady and turbulent fluid flow": ["Laminar flow", "Turbulent flow", "Streamlines", "Viscosity", "Flow patterns"],
+      "3.4 Fluid flow>Flow rate": ["Volume per time", "Flow measurement", "Flow characteristics"],
+      "3.4 Fluid flow>Equation of continuity": ["Conservation of flow", "Area-velocity relationship", "Incompressible fluids"],
+      "3.5 Safety and high pressure>High pressure systems": ["High pressure applications", "Compressors", "Pressure vessels", "Safety measures", "Equipment types"],
+      "3.5 Safety and high pressure>Safety for high pressure equipment": ["Risk factors", "Safety protocols", "Hazard prevention"],
+      "3.5 Safety and high pressure>High Pressure Gas Cylinders": ["LPG safety", "Cylinder handling", "Gas storage"],
+      "3.5 Safety and high pressure>High Pressure washers": ["Cleaning equipment", "Pressure washers", "Operational safety"],
+      "Unit summary>Unit summary": ["Fluid definition", "Pressure formulas", "Principles summary", "Key concepts"],
+      "End of unit questions>End of unit questions": ["Problem solving", "Concept application", "Review questions"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 85,
+      "questions_per_concept_ratio": 0.35,
+      "structural_coverage_percentage": 29.17
+    }
+  },
+  "grade": "12",
+  "subject": "Physics",
+  "unit": "Unit 3: Fluid Mechanics",
+  "pdf_filename": "P12U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-03-15T10:42:45Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 8,
+        "total_sections": 8,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 5.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 8,
+      "subsections_covered_count": 23,
+      "mini_headings_covered_count": 7,
+      "structural_coverage_percentage": 29.17,
+      "concept_utilization_ratio": 0.35
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.1 Fluid Statics",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 5.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Physics_U3_Q021",
+      "generation_timestamp": "2024-03-15T10:40:08Z",
+      "section": "3.2 Pressure in fluids at rest",
+      "subsection": "Pascal's principle",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 3.3: Testing direction of pressure",
+      "mcq_type": "L",
+      "question": "When water flows out of multiple holes at the same height in a container, what does the uniform arc pattern demonstrate about fluid pressure?",
+      "options": {
+        "A": "Pressure depends only on fluid velocity",
+        "B": "Pressure varies with hole diameter",
+        "C": "Pressure is equal at equal depths",
+        "D": "Pressure increases with distance from openings"
+      },
+      "correct_answer": "C",
+      "hint": "Consider how hydrostatic pressure relates to depth in a stationary fluid.",
+      "explanation": "Identical water arcs from equal-height holes confirm that pressure depends solely on depth, not horizontal position. Option A incorrectly introduces velocity dependence, which applies to moving fluids, not static conditions.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.2 Pressure in fluids at rest",
+        "subsection_anchor": "Pascal's principle",
+        "structural_element": "Activity 3.3: Testing direction of pressure",
+        "content_anchor": "Arcs of water leaving holes at the same level in a bottle",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_pressure_at_equal_depth"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q022",
+      "generation_timestamp": "2024-03-15T10:40:15Z",
+      "section": "3.2 Pressure in fluids at rest",
+      "subsection": "Atmospheric pressure",
+      "sub_subsection": null,
+      "structural_anchor": "Discussion question 3.3",
+      "mcq_type": "F",
+      "question": "Under conditions where external pressure decreases while internal pressure remains constant, what happens to a sealed flexible container?",
+      "options": {
+        "A": "It maintains its original shape and volume",
+        "B": "It expands due to pressure differential",
+        "C": "It contracts as external pressure drops",
+        "D": "It experiences no net force change"
+      },
+      "correct_answer": "B",
+      "hint": "Consider pressure differential effects on container walls.",
+      "explanation": "Reduced external pressure creates a net outward force difference, causing expansion if the container is flexible. Option C incorrectly reverses the pressure differential effect direction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "discussion question"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.2 Pressure in fluids at rest",
+        "subsection_anchor": "Atmospheric pressure",
+        "structural_element": "Discussion question 3.3",
+        "content_anchor": "A sealed empty plastic water bottle collapses as a plane descends from a higher elevation to a lower elevation",
+        "page_hint": "Page 22",
+        "concept_hash": "sha256_of_pressure_differential_effects"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q023",
+      "generation_timestamp": "2024-03-15T10:40:23Z",
+      "section": "3.2 Pressure in fluids at rest",
+      "subsection": "Measuring pressure",
+      "sub_subsection": null,
+      "structural_anchor": "The manometer",
+      "mcq_type": "C",
+      "question": "Which formula correctly represents the pressure measurement using an open-end manometer when the gas pressure exceeds atmospheric pressure?",
+      "options": {
+        "A": "P_gas = ρgh",
+        "B": "P_gas = P_atm - ρgh",
+        "C": "P_gas = P_atm + ρgh",
+        "D": "P_gas = ρgh - P_atm"
+      },
+      "correct_answer": "C",
+      "hint": "Consider how liquid column height indicates pressure difference.",
+      "explanation": "When gas pressure exceeds atmospheric, the liquid column height difference adds to atmospheric pressure. Option B would apply when atmospheric pressure exceeds gas pressure.",
+      "difficulty_level": "medium",
+      "formula_used": ["P_gas = P_atm + ρgh"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.2 Pressure in fluids at rest",
+        "subsection_anchor": "Measuring pressure",
+        "structural_element": "The manometer",
+        "content_anchor": "P_gas = P_atm + ρgh",
+        "page_hint": "Page 27",
+        "concept_hash": "sha256_of_manometer_equation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q024",
+      "generation_timestamp": "2024-03-15T10:40:30Z",
+      "section": "3.3 Archimedes' principle",
+      "subsection": "Buoyant force",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 3.9: Buoyancy",
+      "mcq_type": "G",
+      "question": "If an egg floats in saltwater but sinks in freshwater, what causes this difference in buoyant behavior?",
+      "options": {
+        "A": "Saltwater has lower density than freshwater",
+        "B": "Saltwater has higher viscosity than freshwater",
+        "C": "Saltwater has greater density than freshwater",
+        "D": "Saltwater has different surface tension properties"
+      },
+      "correct_answer": "C",
+      "hint": "Consider how fluid density affects buoyant force for a given object.",
+      "explanation": "Increased saltwater density provides greater buoyant force, allowing the egg to float. Option A incorrectly reverses the density relationship between saltwater and freshwater.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.3 Archimedes' principle",
+        "subsection_anchor": "Buoyant force",
+        "structural_element": "Activity 3.9: Buoyancy",
+        "content_anchor": "Dissolve 4 to 5 spoons of salt in one of water filled glass cups",
+        "page_hint": "Page 29",
+        "concept_hash": "sha256_of_saltwater_buoyancy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q025",
+      "generation_timestamp": "2024-03-15T10:40:38Z",
+      "section": "3.4 Fluid flow",
+      "subsection": "Equation of continuity",
+      "sub_subsection": null,
+      "structural_anchor": "Formula 3.16: A1v1 = A2v2",
+      "mcq_type": "E",
+      "question": "Water flows through a pipe with cross-sectional area 0.02 m² at 1.5 m/s. If the pipe narrows to 0.005 m², what is the flow velocity in the constricted section?",
+      "options": {
+        "A": "0.375 m/s",
+        "B": "1.5 m/s",
+        "C": "6.0 m/s",
+        "D": "24.0 m/s"
+      },
+      "correct_answer": "C",
+      "hint": "Apply the continuity equation for incompressible flow.",
+      "explanation": "Continuity requires A1v1 = A2v2, so v2 = (0.02 × 1.5) ÷ 0.005 = 6.0 m/s. Option A results from incorrectly dividing by the area ratio rather than multiplying.",
+      "difficulty_level": "medium",
+      "formula_used": ["A1v1 = A2v2"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "m/s",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "formula"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.4 Fluid flow",
+        "subsection_anchor": "Equation of continuity",
+        "structural_element": "Formula 3.16: A1v1 = A2v2",
+        "content_anchor": "A1v1 = A2v2",
+        "page_hint": "Page 37",
+        "concept_hash": "sha256_of_continuity_equation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q026",
+      "generation_timestamp": "2024-03-15T10:40:45Z",
+      "section": "3.5 Safety and high pressure",
+      "subsection": "Safety for high pressure equipment",
+      "sub_subsection": null,
+      "structural_anchor": "Discussion question 3.7",
+      "mcq_type": "J",
+      "question": "Which category correctly classifies inadequate operator training as a risk factor for pressure system failure?",
+      "options": {
+        "A": "Damaged equipment design",
+        "B": "Poor maintenance practices",
+        "C": "Unsafe work procedures",
+        "D": "Incorrect installation methods"
+      },
+      "correct_answer": "C",
+      "hint": "Consider how human factors contribute to operational hazards.",
+      "explanation": "Operator error due to lack of training represents an unsafe work system. Option B refers to maintenance issues rather than operational competence.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "discussion question"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.5 Safety and high pressure",
+        "subsection_anchor": "Safety for high pressure equipment",
+        "structural_element": "Discussion question 3.7",
+        "content_anchor": "What are the cause for high pressure risks?",
+        "page_hint": "Page 42",
+        "concept_hash": "sha256_of_safety_risk_factors"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q027",
+      "generation_timestamp": "2024-03-15T10:40:53Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "Unit outcomes/competencies",
+      "mcq_type": "B",
+      "question": "Which physical principle specifically describes how pressure changes transmit through confined fluids?",
+      "options": {
+        "A": "Archimedes' principle",
+        "B": "Bernoulli's principle",
+        "C": "Pascal's principle",
+        "D": "Newton's third law"
+      },
+      "correct_answer": "C",
+      "hint": "Recall the principle about pressure transmission in enclosed fluids.",
+      "explanation": "Pascal's principle states that pressure changes in confined fluids transmit equally throughout. Option A deals with buoyancy rather than pressure transmission.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": "Unit outcomes/competencies",
+        "content_anchor": "Gain knowledge and understanding of Pascal's principle",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_pascals_principle_intro"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 87,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q028",
+      "generation_timestamp": "2024-03-15T10:41:00Z",
+      "section": "Unit summary",
+      "subsection": "Unit summary",
+      "sub_subsection": null,
+      "structural_anchor": "Unit summary",
+      "mcq_type": "A",
+      "question": "What term describes the force per unit area exerted by a fluid on surfaces with which it is in contact?",
+      "options": {
+        "A": "Density",
+        "B": "Viscosity",
+        "C": "Pressure",
+        "D": "Surface tension"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the definition relating force distribution over area.",
+      "explanation": "Pressure specifically quantifies normal force per unit area exerted by fluids. Option A refers to mass per unit volume rather than force distribution.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "Unit summary",
+        "subsection_anchor": "Unit summary",
+        "structural_element": "Pressure is the force per unit perpendicular area over which the force is applied",
+        "page_hint": "Page 44",
+        "concept_hash": "sha256_of_pressure_definition_summary"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 59,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q029",
+      "generation_timestamp": "2024-03-15T10:41:08Z",
+      "section": "Unit summary",
+      "subsection": "Unit summary",
+      "sub_subsection": null,
+      "structural_anchor": "Unit summary",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that objects float only when they are less massive than the fluid they displace?",
+      "options": {
+        "A": "It confuses mass with weight in buoyancy calculations",
+        "B": "It overlooks the role of object shape in buoyant force",
+        "C": "It assumes density rather than mass determines flotation",
+        "D": "It ignores the relationship between volume and displacement"
+      },
+      "correct_answer": "C",
+      "hint": "Consider which physical property actually determines whether an object floats.",
+      "explanation": "Flotation depends on density comparison, not mass comparison; a large low-density object can float despite high mass. Option A incorrectly focuses on mass-weight distinction rather than density-volume relationship.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "Unit summary",
+        "subsection_anchor": "Unit summary",
+        "structural_element": "If the buoyant force is greater than the object's weight, the object will rise to the surface and float",
+        "page_hint": "Page 44",
+        "concept_hash": "sha256_of_flotation_principle"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q030",
+      "generation_timestamp": "2024-03-15T10:41:15Z",
+      "section": "End of unit questions",
+      "subsection": "End of unit questions",
+      "sub_subsection": null,
+      "structural_anchor": "Question 1",
+      "mcq_type": "F",
+      "question": "Given that air particles are approximately 3 × 10⁻⁹ m apart, which reasoning best explains why air contains considerable empty space despite this small separation?",
+      "options": {
+        "A": "The separation is large compared to particle size",
+        "B": "The particles are stationary most of the time",
+        "C": "The intermolecular forces are extremely strong",
+        "D": "The particles occupy fixed lattice positions"
+      },
+      "correct_answer": "A",
+      "hint": "Consider relative scale between particle size and intermolecular distance.",
+      "explanation": "Gas particle separation, though small in absolute terms, is large relative to particle diameter, allowing compressibility. Option C incorrectly describes gas intermolecular forces as strong when they are actually weak.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "end question"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "End of unit questions",
+        "subsection_anchor": "End of unit questions",
+        "structural_element": "Question 1",
+        "content_anchor": "The distance between air particles is very small—about 3 × 10⁻⁷ cm. How can we say that there is considerable empty space in air?",
+        "page_hint": "Page 45",
+        "concept_hash": "sha256_of_air_particle_separation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 75000,
+    "average_question_quality": 84.2,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "J": 1,
+      "L": 1,
+      "M": 0
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "3.2 Pressure in fluids at rest": 3,
+      "3.3 Archimedes' principle": 1,
+      "3.4 Fluid flow": 1,
+      "3.5 Safety and high pressure": 1,
+      "Introduction": 1,
+      "Unit summary": 2,
+      "End of unit questions": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,848 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T10:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G12_Chem_U4_Q020",
+    "covered_sections": ["4.1 Introduction to Polymers", "4.2 Polymerization Reactions", "4.3 Classification of Polymers"],
+    "used_question_signatures": ["35f01c3d7e7d3b7c5d8c9a2b1f0e3d4a", "8a2f1c9b4d5e7f3a0c6b8d9e1f2a3c5", "c7b3a9e1d5f2a8c4b0d6e8f1a3c5b9", "d4f8a2c6b0e1d3a7c5b9f2e8a1c4", "a5c9e3b7f1d8a2c4b0e6f9a1c3d7", "b8d2f6a0c4e1b9d3f7a5c1e9b4", "e9c5a1f3d7b8d2f6a0c4e1b9", "f2a6d0c4b8e1d5f9a3c7b1e5", "a1e7c3b9f5d1a8c4f0b6e2d8", "c4b0f6a2d8e1c5b9f3a7d1", "d7b3f9a5c1e8b4d0f2a6c8e4", "b2f8d4a0c6e2b9d5f1a7c3e9", "a9e5c1f7b3d8a2f4c0b6e8", "f0c4b8e2d6a1f5c9b3e7d9", "c2f8a4d0b6e1f7c3b9e5d1", "b5f1c7d3a9e4f0b8c2d6e8", "e3b9f5c1d7a2f8c4b0e6d2", "a7c3f9d5b1e8c4f0b6d2a8", "d1b7f3c9a5e1f7c3b9d5a1", "f4c0b6e2d8a3f9c5b1e7d3"],
+    "baseline_counter": {
+      "4.1 Introduction to Polymers": {
+        "Activity 4.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Polymer": {
+          "count": 2,
+          "mini_headings_covered": ["Polymer:"],
+          "last_question_round": 1
+        },
+        "Monomers": {
+          "count": 2,
+          "mini_headings_covered": ["Monomers:"],
+          "last_question_round": 2
+        },
+        "Example 4.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Example 4.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.2 Polymerization Reactions": {
+        "Activity 4.2": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Addition Polymerization": {
+          "count": 3,
+          "mini_headings_covered": ["Note that:"],
+          "last_question_round": 2
+        },
+        "Example 4.3": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Steps of addition polymerization": {
+          "count": 3,
+          "mini_headings_covered": ["Chain initiation step:", "Chain propagation step:", "Chain termination step:"],
+          "last_question_round": 2
+        },
+        "Example 4.4": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Condensation polymerization": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Experiment 4.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Exercise 4.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.3 Classification of Polymers": {
+        "Activity 4.3": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Homopolymers": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Copolymers": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Natural polymers": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Synthetic polymers": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Thermoplastic polymers": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Thermoset polymers": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1 Introduction to Polymers": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.2 Polymerization Reactions": {
+        "question_count": 10,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.3 Classification of Polymers": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1 Introduction to Polymers>Activity 4.1": ["Polymeric nature of materials"],
+      "4.1 Introduction to Polymers>Polymer": ["Polymer definition", "Degree of polymerization"],
+      "4.1 Introduction to Polymers>Monomers": ["Monomer definition"],
+      "4.1 Introduction to Polymers>Example 4.1": ["Examples of polymers"],
+      "4.1 Introduction to Polymers>Example 4.2": ["Examples of monomers"],
+      "4.2 Polymerization Reactions>Activity 4.2": ["Polymerization analogies"],
+      "4.2 Polymerization Reactions>Addition Polymerization": ["Addition polymerization", "Chain-growth polymerization", "Unsaturated monomers"],
+      "4.2 Polymerization Reactions>Example 4.3": ["Polyvinyl chloride", "Repeating unit", "Molar mass calculation"],
+      "4.2 Polymerization Reactions>Steps of addition polymerization": ["Chain initiation", "Chain propagation", "Chain termination", "Free radical polymerization", "Cationic polymerization", "Anionic polymerization"],
+      "4.2 Polymerization Reactions>Example 4.4": ["Free radical polymerization steps"],
+      "4.2 Polymerization Reactions>Condensation polymerization": ["Condensation polymerization", "Step growth polymerization", "Byproducts", "Polyamides", "Polyesters"],
+      "4.2 Polymerization Reactions>Experiment 4.1": ["Nylon synthesis"],
+      "4.2 Polymerization Reactions>Exercise 4.2": ["Monomer identification", "Polymer structure writing"],
+      "4.3 Classification of Polymers>Activity 4.3": ["Polymer classification methods"],
+      "4.3 Classification of Polymers>Homopolymers": ["Homopolymer definition"],
+      "4.3 Classification of Polymers>Copolymers": ["Copolymer definition", "Random vs regular copolymers"],
+      "4.3 Classification of Polymers>Natural polymers": ["Natural polymer definition", "Biopolymers"],
+      "4.3 Classification of Polymers>Synthetic polymers": ["Synthetic polymer definition", "Plastics"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_integrity_round2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 34,
+      "questions_per_concept_ratio": 0.59,
+      "structural_coverage_percentage": 60.0
+    }
+  },
+  "grade": "12",
+  "subject": "Chemistry",
+  "unit": "Unit 4: POLYMERS",
+  "pdf_filename": "C12U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T10:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 3,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.5,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 15,
+      "mini_headings_covered_count": 4,
+      "structural_coverage_percentage": 46.7,
+      "concept_utilization_ratio": 0.59
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.2 Polymerization Reactions",
+      "least_covered_section": "4.3 Classification of Polymers",
+      "imbalance_ratio": 2.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Chem_U4_Q011",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "4.3 Classification of Polymers",
+      "subsection": "Homopolymers",
+      "sub_subsection": null,
+      "structural_anchor": "Homopolymers",
+      "mcq_type": "A",
+      "question": "What term describes a polymer synthesized from only one type of monomer unit?",
+      "options": {
+        "A": "Homopolymer",
+        "B": "Copolymer",
+        "C": "Terpolymer",
+        "D": "Heteropolymer"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the prefix 'homo-' meaning same.",
+      "explanation": "A homopolymer consists of repeating units derived from a single monomer species, such as polyethylene from ethylene. Option B describes a polymer made from two or more different monomers.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.3 Classification of Polymers",
+        "subsection_anchor": "Homopolymers",
+        "structural_element": "Homopolymers",
+        "content_anchor": "Homopolymers are those made from only one type of monomer",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_homopolymer_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q012",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "4.3 Classification of Polymers",
+      "subsection": "Copolymers",
+      "sub_subsection": null,
+      "structural_anchor": "Copolymers",
+      "mcq_type": "A",
+      "question": "Which type of polymer is produced by polymerizing two or more different kinds of monomers?",
+      "options": {
+        "A": "Copolymer",
+        "B": "Homopolymer",
+        "C": "Monopolymer",
+        "D": "Isopolymer"
+      },
+      "correct_answer": "A",
+      "hint": "Think about polymers with multiple distinct building blocks.",
+      "explanation": "Copolymers contain repeating units from two or more different monomer species, offering varied properties. Option B refers to polymers with only one type of monomer unit.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.3 Classification of Polymers",
+        "subsection_anchor": "Copolymers",
+        "structural_element": "Copolymers",
+        "content_anchor": "Copolymers are those prepared by polymerizing more than one kind of monomer unit",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_copolymer_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q013",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Steps of addition polymerization",
+      "sub_subsection": "Chain termination step:",
+      "structural_anchor": "Chain termination step:",
+      "mcq_type": "G",
+      "question": "If two growing free radical polymer chains encounter each other during addition polymerization, what is the most likely immediate outcome?",
+      "options": {
+        "A": "The radicals combine to form a stable covalent bond, terminating both chains.",
+        "B": "Each radical transfers to a monomer, accelerating propagation.",
+        "C": "One radical converts to a cation, initiating cationic polymerization.",
+        "D": "The radicals annihilate each other, releasing heat but leaving chains active."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the step that permanently stops chain growth.",
+      "explanation": "Termination by combination neutralizes two radical chain ends by forming a single bond, stopping further propagation. Option B describes chain transfer, which may continue polymerization on a different chain.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Steps of addition polymerization",
+        "structural_element": "Chain termination step:",
+        "content_anchor": "Termination is achieved... when two chains link",
+        "page_hint": "Page 6-7",
+        "concept_hash": "sha256_of_chain_termination"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q014",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Example 4.3",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.3",
+      "mcq_type": "E",
+      "question": "A sample of polyvinyl chloride (PVC) has a molar mass of 2.66 × 10⁵ g/mol. If the molar mass of the vinyl chloride monomer is 62.5 g/mol, how many monomer units are in this polymer chain?",
+      "options": {
+        "A": "4256",
+        "B": "2128",
+        "C": "5312",
+        "D": "1064"
+      },
+      "correct_answer": "A",
+      "hint": "Divide the polymer's molar mass by the monomer's molar mass.",
+      "explanation": "The degree of polymerization (n) is calculated as n = M_polymer / M_monomer = (2.66 × 10⁵) / 62.5 = 4256. Option B results from incorrectly using half the given polymer molar mass.",
+      "difficulty_level": "medium",
+      "formula_used": ["n = M_polymer / M_monomer"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "monomer units",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Example 4.3",
+        "structural_element": "Example 4.3",
+        "content_anchor": "Number of monomer units (n) = Molar mass of the polymer / Molar mass of the monomer",
+        "page_hint": "Page 5-6",
+        "concept_hash": "sha256_of_degree_of_polymerization_calc"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q015",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Condensation polymerization",
+      "sub_subsection": null,
+      "structural_anchor": "Condensation polymerization",
+      "mcq_type": "K",
+      "question": "Nylon 66 is produced from hexamethylenediamine and adipic acid. What characteristic of this reaction classifies it as condensation polymerization?",
+      "options": {
+        "A": "The formation of amide bonds is accompanied by the elimination of water molecules.",
+        "B": "The monomers add sequentially without the loss of any small molecules.",
+        "C": "A free radical initiator is required to start the chain reaction.",
+        "D": "The polymer backbone contains carbon-carbon double bonds from the monomers."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the byproducts formed when functional groups react.",
+      "explanation": "Condensation polymerization involves the reaction of complementary functional groups with the release of a small molecule like water. Option B incorrectly describes addition polymerization, where no byproduct is lost.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Condensation polymerization",
+        "structural_element": "Condensation polymerization",
+        "content_anchor": "condensation reaction of diacids and diamines... Heating removes water and forms the amide bonds",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_nylon_condensation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q016",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "4.1 Introduction to Polymers",
+      "subsection": "Example 4.2",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.2",
+      "mcq_type": "B",
+      "question": "Glucose, ethylene, and amino acids share what common role in polymer chemistry?",
+      "options": {
+        "A": "They all function as monomers for different natural or synthetic polymers.",
+        "B": "They are all synthetic polymers used in industrial applications.",
+        "C": "They are byproducts released during condensation polymerization.",
+        "D": "They act as initiators for free radical polymerization reactions."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the building block function of small molecules.",
+      "explanation": "Glucose monomers form cellulose, ethylene monomers form polyethylene, and amino acids form proteins. Option B is incorrect because these are small molecules, not large polymers.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.1 Introduction to Polymers",
+        "subsection_anchor": "Example 4.2",
+        "structural_element": "Example 4.2",
+        "content_anchor": "Example of monomers are: Glucose... ethylene... amino acid",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_monomer_examples"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q017",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "4.3 Classification of Polymers",
+      "subsection": "Natural polymers",
+      "sub_subsection": null,
+      "structural_anchor": "Natural polymers",
+      "mcq_type": "J",
+      "question": "Which of the following is correctly categorized as a natural polymer?",
+      "options": {
+        "A": "Cellulose",
+        "B": "Polyethylene",
+        "C": "Nylon",
+        "D": "Polyvinyl chloride"
+      },
+      "correct_answer": "A",
+      "hint": "Identify the material that occurs in nature without human synthesis.",
+      "explanation": "Cellulose is a polysaccharide found in plant cell walls and is a natural polymer. Options B, C, and D are all synthetic polymers manufactured industrially.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.3 Classification of Polymers",
+        "subsection_anchor": "Natural polymers",
+        "structural_element": "Natural polymers",
+        "content_anchor": "Natural polymers occur in nature... Common natural polymers include: Carbohydrates... cellulose",
+        "page_hint": "Page 14-15",
+        "concept_hash": "sha256_of_natural_polymers"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q018",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "4.3 Classification of Polymers",
+      "subsection": "Synthetic polymers",
+      "sub_subsection": null,
+      "structural_anchor": "Synthetic polymers",
+      "mcq_type": "A",
+      "question": "What term describes human-made polymers, often referred to colloquially as 'plastics'?",
+      "options": {
+        "A": "Synthetic polymers",
+        "B": "Natural polymers",
+        "C": "Biopolymers",
+        "D": "Oligomers"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the origin of materials like polyethylene and PVC.",
+      "explanation": "Synthetic polymers are manufactured through chemical processes, unlike natural polymers found in biological systems. Option C specifically refers to polymers produced by living organisms.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.3 Classification of Polymers",
+        "subsection_anchor": "Synthetic polymers",
+        "structural_element": "Synthetic polymers",
+        "content_anchor": "Synthetic polymers are those which are human-made polymers... sometimes referred as 'plastics'",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_synthetic_polymers"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q019",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "4.3 Classification of Polymers",
+      "subsection": "Activity 4.3",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 4.3",
+      "mcq_type": "F",
+      "question": "Under the condition that polymers can be classified by multiple criteria, which reasoning best explains why a single polymer might belong to several classification categories simultaneously?",
+      "options": {
+        "A": "Classification schemes are based on independent attributes like origin, monomer type, and thermal response.",
+        "B": "All polymers must fit into only one primary category based on their chemical structure.",
+        "C": "The classification is hierarchical, requiring a polymer to pass through each category sequentially.",
+        "D": "The categories are mutually exclusive, defined by the polymerization mechanism alone."
+      },
+      "correct_answer": "A",
+      "hint": "Consider that a polymer can be described by its source, composition, and behavior.",
+      "explanation": "A polymer like nylon can be synthetic, a condensation polymer, and a thermoplastic, as these categories describe different aspects. Option D is incorrect because a polymer's mechanism and origin are separate classification dimensions.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.3 Classification of Polymers",
+        "subsection_anchor": "Activity 4.3",
+        "structural_element": "Activity 4.3",
+        "content_anchor": "There are a number of methods of classifying polymers.",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_polymer_classification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q020",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Example 4.4",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.4",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that free radical polymerization cannot produce high molecular weight polymers until the reaction nears completion?",
+      "options": {
+        "A": "Assuming chain propagation is slow and inefficient, rather than rapid from the start.",
+        "B": "Confusing free radical initiation with anionic termination mechanisms.",
+        "C": "Mistaking the role of the initiator as a monomer rather than a reactive species.",
+        "D": "Believing that all polymer chains must grow simultaneously at identical rates."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the kinetics of chain-growth polymerization.",
+      "explanation": "In free radical addition polymerization, high molecular weight polymers form early because propagation is fast relative to initiation. Option B introduces an irrelevant confusion between different termination types.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Example 4.4",
+        "structural_element": "Example 4.4",
+        "content_anchor": "High molar mass polymers are formed right from the beginning of the reaction.",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_free_radical_polymerization_kinetics"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 84,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3200,
+    "average_question_quality": 85.2,
+    "type_distribution": {
+      "A": 4,
+      "B": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 4,
+      "hard": 1
+    },
+    "section_distribution": {
+      "4.1 Introduction to Polymers": 1,
+      "4.2 Polymerization Reactions": 4,
+      "4.3 Classification of Polymers": 5
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

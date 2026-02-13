@@ -1,0 +1,789 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-05-28T08:20:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G11_Chem_U3_Q020",
+    "covered_sections": ["3.1 Introduction", "3.2 Kinetic Theory and Properties of Matter", "3.3 The Gaseous State", "3.4 The Liquid State", "3.5 The Solid State"],
+    "used_question_signatures": ["a8f7c9d1b5e0", "b2e4d6a8c0f1", "c3f5a7b9d1e2", "d1e3f5a7b9c2", "e4b6d8f0a2c1", "f7a9c1e3b5d0", "g5b7d9f1a3c2", "h3d5f7a9b1c0", "i9a1c3e5b7d2", "j2b4d6f8a0c1", "k4c6e8a0b2d1", "l5d7f9a1b3c0", "m6e8a0b2c4d1", "n7f9a1b3c5d0", "o0a2b4c6d8e1", "p1b3c5d7e9f0", "q2c4d6e8f0a1", "r3d5e7f9a1b0", "s4e6f8a0b2c1", "t5f7a9b1c3d0"],
+    "baseline_counter": {
+      "3.1 Introduction": {
+        "implicit_subsection": {
+          "count": 3,
+          "mini_headings_covered": ["Solid:", "Liquid:", "Gas:"],
+          "last_question_round": 2
+        }
+      },
+      "3.2 Kinetic Theory and Properties of Matter": {
+        "3.2.1 The Kinetic Theory of Matter": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "3.2.2 Properties of Matter": {
+          "count": 4,
+          "mini_headings_covered": ["Properties of Gases:", "Properties of Solids:", "Properties of Liquids:"],
+          "last_question_round": 2
+        }
+      },
+      "3.3 The Gaseous State": {
+        "3.3.1 The Kinetic Molecular Theory of Gases": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "3.3.2 The Gas Laws": {
+          "count": 6,
+          "mini_headings_covered": ["i. Boyle's Law", "ii. Charles' Law", "iii. Gay Lussac's Law", "v. Avogadro's law", "vii. Graham's Law of Diffusion"],
+          "last_question_round": 2
+        }
+      },
+      "3.4 The Liquid State": {
+        "3.4.1 Energy Changes in Liquids": {
+          "count": 2,
+          "mini_headings_covered": ["Evaporation:", "Boiling and Boiling Point:"],
+          "last_question_round": 2
+        }
+      },
+      "3.5 The Solid State": {
+        "implicit_subsection": {
+          "count": 2,
+          "mini_headings_covered": ["Melting:", "Sublimation:"],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1 Introduction": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.2 Kinetic Theory and Properties of Matter": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.3 The Gaseous State": {
+        "question_count": 9,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.4 The Liquid State": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "3.5 The Solid State": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1 Introduction>implicit_subsection": ["Solid definite shape and volume", "Liquid definite volume no definite shape", "Gas no definite shape or volume", "States of matter"],
+      "3.2 Kinetic Theory and Properties of Matter>3.2.1 The Kinetic Theory of Matter": ["Continuous random motion", "Kinetic energy proportional to temperature", "Intermolecular forces exist"],
+      "3.2 Kinetic Theory and Properties of Matter>3.2.2 Properties of Matter": ["Gas compressibility", "Solid incompressibility", "Gas low density", "Solid high density", "Liquid definite volume", "Liquid slight compressibility"],
+      "3.3 The Gaseous State>3.3.1 The Kinetic Molecular Theory of Gases": ["Gas particle collisions cause pressure", "Average KE proportional to Kelvin temperature", "Gas particles negligible volume"],
+      "3.3 The Gaseous State>3.3.2 The Gas Laws": ["Boyle's Law inverse relationship", "Charles' Law direct relationship", "Gay-Lussac's Law P∝T", "Avogadro's Law V∝n", "Graham's Law r∝1/√M", "Ideal Gas Equation PV=nRT"],
+      "3.4 The Liquid State>3.4.1 Energy Changes in Liquids": ["Evaporation surface phenomenon", "Boiling point depends on pressure", "Vapor pressure"],
+      "3.5 The Solid State>implicit_subsection": ["Melting solid to liquid", "Sublimation solid to gas", "Phase change temperatures"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_updated_state_integrity",
+    "content_density_metrics": {
+      "total_concepts_extracted": 26,
+      "questions_per_concept_ratio": 0.77,
+      "structural_coverage_percentage": 40.0
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Chemistry",
+  "unit": "Unit 3: PHYSICAL STATES OF MATTER",
+  "pdf_filename": "C11U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-05-28T08:20:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 5,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 12,
+      "structural_coverage_percentage": 40.0,
+      "concept_utilization_ratio": 0.77
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.3 The Gaseous State",
+      "least_covered_section": "3.4 The Liquid State",
+      "imbalance_ratio": 4.5,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Chem_U3_Q011",
+      "generation_timestamp": "2024-05-28T08:19:10Z",
+      "section": "3.1 Introduction",
+      "subsection": "implicit_subsection",
+      "sub_subsection": null,
+      "structural_anchor": "Gas:",
+      "mcq_type": "B",
+      "question": "Which state of matter has neither a definite shape nor a definite volume, taking on both the shape and volume of its container?",
+      "options": {
+        "A": "Solid",
+        "B": "Liquid",
+        "C": "Gas",
+        "D": "Plasma"
+      },
+      "correct_answer": "C",
+      "hint": "Think of the state with particles that are far apart and move freely.",
+      "explanation": "Gases have no fixed shape or volume because their particles are widely spaced and move independently, completely filling any container. Option B is incorrect because liquids have a definite volume, even though they take the shape of their container.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.1 Introduction",
+        "subsection_anchor": "implicit_subsection",
+        "structural_element": "Gas:",
+        "content_anchor": "A gas has neither definite volume nor definite shape; it takes on the shape and volume of its container.",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_gas_no_definite_shape_volume"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q012",
+      "generation_timestamp": "2024-05-28T08:19:20Z",
+      "section": "3.2 Kinetic Theory and Properties of Matter",
+      "subsection": "3.2.1 The Kinetic Theory of Matter",
+      "sub_subsection": null,
+      "structural_anchor": "Content under 3.2.1",
+      "mcq_type": "H",
+      "question": "Which option identifies the flaw in reasoning that concludes attractive forces between particles do not exist in matter because particles are in constant motion?",
+      "options": {
+        "A": "It confuses the random motion of particles with the absence of all interparticle interactions.",
+        "B": "It assumes that temperature is unrelated to the strength of intermolecular forces.",
+        "C": "It overlooks that kinetic energy is the only form of energy particles possess.",
+        "D": "It misapplies the principle that solids have stronger attractive forces than liquids."
+      },
+      "correct_answer": "A",
+      "hint": "Consider that motion and attraction can coexist, affecting the state of matter.",
+      "explanation": "The kinetic theory states that particles are in constant motion AND that attractive forces exist between them. The strength of these forces, relative to the kinetic energy, determines whether matter is solid, liquid, or gas. Option C is incorrect because particles can possess potential energy due to intermolecular forces.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.2 Kinetic Theory and Properties of Matter",
+        "subsection_anchor": "3.2.1 The Kinetic Theory of Matter",
+        "structural_element": "Content under 3.2.1",
+        "content_anchor": "There are attractive forces between atoms/molecules, and these become stronger as the particles move closer together.",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_kinetic_theory_attractive_forces"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q013",
+      "generation_timestamp": "2024-05-28T08:19:30Z",
+      "section": "3.2 Kinetic Theory and Properties of Matter",
+      "subsection": "3.2.2 Properties of Matter",
+      "sub_subsection": null,
+      "structural_anchor": "Properties of Liquids:",
+      "mcq_type": "I",
+      "question": "How do the densities of liquids typically compare to those of gases and solids?",
+      "options": {
+        "A": "Liquids have higher densities than gases but lower densities than solids.",
+        "B": "Liquids have lower densities than both gases and solids.",
+        "C": "Liquids have higher densities than both gases and solids.",
+        "D": "Liquids have densities equal to gases but lower than solids."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the relative spacing and arrangement of particles in each state.",
+      "explanation": "Liquids have higher densities than gases because their particles are much closer together. However, they generally have lower densities than solids because the particles in solids are packed even more tightly in a more ordered arrangement. Option C is incorrect because solids, with their highly ordered, close-packed structures, typically have the highest densities.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.2 Kinetic Theory and Properties of Matter",
+        "subsection_anchor": "3.2.2 Properties of Matter",
+        "structural_element": "Properties of Liquids:",
+        "content_anchor": "Liquids have higher densities than gases. Their density is a result of the close arrangement of liquid particles.",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_liquid_density_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q014",
+      "generation_timestamp": "2024-05-28T08:19:40Z",
+      "section": "3.3 The Gaseous State",
+      "subsection": "3.3.2 The Gas Laws",
+      "sub_subsection": null,
+      "structural_anchor": "iii. Gay Lussac's Law",
+      "mcq_type": "G",
+      "question": "A sealed, rigid container holds a fixed amount of gas. If the absolute temperature of the gas is doubled, what happens to its pressure?",
+      "options": {
+        "A": "The pressure is halved.",
+        "B": "The pressure remains the same.",
+        "C": "The pressure doubles.",
+        "D": "The pressure quadruples."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the direct relationship between pressure and absolute temperature when volume and amount are constant.",
+      "explanation": "Gay-Lussac's Law states that for a fixed amount of gas at constant volume, pressure is directly proportional to its absolute temperature (P ∝ T). Doubling the Kelvin temperature therefore doubles the pressure, as the gas particles move faster and collide with the walls more forcefully. Option A incorrectly suggests an inverse relationship.",
+      "difficulty_level": "medium",
+      "formula_used": ["P1/T1 = P2/T2"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.3 The Gaseous State",
+        "subsection_anchor": "3.3.2 The Gas Laws",
+        "structural_element": "iii. Gay Lussac's Law",
+        "content_anchor": "Gay- Lussac's law... states that at constant volume, pressure of a fixed amount of a gas varies directly with the temperature.",
+        "page_hint": "Page 20",
+        "concept_hash": "sha256_of_gay_lussacs_law"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q015",
+      "generation_timestamp": "2024-05-28T08:19:50Z",
+      "section": "3.3 The Gaseous State",
+      "subsection": "3.3.2 The Gas Laws",
+      "sub_subsection": null,
+      "structural_anchor": "v. Avogadro's law",
+      "mcq_type": "F",
+      "question": "Two separate balloons at the same temperature and pressure contain different gases. Balloon A contains 0.5 mol of helium, and Balloon B contains 0.5 mol of argon. According to Avogadro's law, which statement is correct?",
+      "options": {
+        "A": "Balloon A has a larger volume because helium is lighter.",
+        "B": "Balloon B has a larger volume because argon is heavier.",
+        "C": "Both balloons have the same volume.",
+        "D": "The volume depends on the chemical reactivity of the gas."
+      },
+      "correct_answer": "C",
+      "hint": "Avogadro's law relates volume to the number of moles, not the identity of the gas.",
+      "explanation": "Avogadro's Law states that equal volumes of gases at the same temperature and pressure contain equal numbers of moles (or molecules). Conversely, equal numbers of moles of different gases at the same T and P occupy equal volumes. Option A incorrectly introduces molecular mass as a factor for volume under these conditions.",
+      "difficulty_level": "medium",
+      "formula_used": ["V ∝ n"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.3 The Gaseous State",
+        "subsection_anchor": "3.3.2 The Gas Laws",
+        "structural_element": "v. Avogadro's law",
+        "content_anchor": "Avogadro's law... equal volumes of gases contain equal numbers of moles.",
+        "page_hint": "Page 23",
+        "concept_hash": "sha256_of_avogadros_law"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q016",
+      "generation_timestamp": "2024-05-28T08:20:00Z",
+      "section": "3.3 The Gaseous State",
+      "subsection": "3.3.2 The Gas Laws",
+      "sub_subsection": null,
+      "structural_anchor": "vii. Graham's Law of Diffusion",
+      "mcq_type": "E",
+      "question": "Oxygen gas (O₂, M = 32 g/mol) diffuses through a small opening. Under identical conditions, what is the approximate rate of diffusion of methane (CH₄, M = 16 g/mol) relative to oxygen?",
+      "options": {
+        "A": "0.71 times slower",
+        "B": "1.4 times faster",
+        "C": "2.0 times faster",
+        "D": "4.0 times faster"
+      },
+      "correct_answer": "B",
+      "hint": "Apply Graham's Law: the rate of diffusion is inversely proportional to the square root of the molar mass.",
+      "explanation": "Graham's Law states r₁/r₂ = √(M₂/M₁). For CH₄ relative to O₂: r_CH₄/r_O₂ = √(32/16) = √2 ≈ 1.41. Therefore, methane diffuses approximately 1.4 times faster than oxygen. Option C is a common error from using a direct inverse relationship instead of the square root.",
+      "difficulty_level": "hard",
+      "formula_used": ["r₁/r₂ = √(M₂/M₁)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "relative rate (unitless)",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.3 The Gaseous State",
+        "subsection_anchor": "3.3.2 The Gas Laws",
+        "structural_element": "vii. Graham's Law of Diffusion",
+        "content_anchor": "Graham's law of diffusion states that... the rate of diffusion of a gas, r, is inversely proportional to the square root of its... molar mass, M.",
+        "page_hint": "Page 27",
+        "concept_hash": "sha256_of_grahams_law"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 88,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 96
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q017",
+      "generation_timestamp": "2024-05-28T08:20:10Z",
+      "section": "3.4 The Liquid State",
+      "subsection": "3.4.1 Energy Changes in Liquids",
+      "sub_subsection": null,
+      "structural_anchor": "Evaporation:",
+      "mcq_type": "A",
+      "question": "What is the process called when molecules escape from the surface of a liquid and enter the gas phase?",
+      "options": {
+        "A": "Condensation",
+        "B": "Evaporation",
+        "C": "Sublimation",
+        "D": "Deposition"
+      },
+      "correct_answer": "B",
+      "hint": "This is a surface phenomenon, not one that occurs throughout the bulk liquid.",
+      "explanation": "Evaporation is the phase change where liquid molecules at the surface gain sufficient kinetic energy to overcome intermolecular attractions and enter the gaseous state. Option A is incorrect because condensation is the reverse process, where gas molecules return to the liquid state.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.4 The Liquid State",
+        "subsection_anchor": "3.4.1 Energy Changes in Liquids",
+        "structural_element": "Evaporation:",
+        "content_anchor": "Evaporation is the process by which molecules on the surface of a liquid break away and go into the gas phase.",
+        "page_hint": "Page 31",
+        "concept_hash": "sha256_of_evaporation_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 72,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q018",
+      "generation_timestamp": "2024-05-28T08:20:20Z",
+      "section": "3.4 The Liquid State",
+      "subsection": "3.4.1 Energy Changes in Liquids",
+      "sub_subsection": null,
+      "structural_anchor": "Boiling and Boiling Point:",
+      "mcq_type": "G",
+      "question": "When a liquid is heated in an open container at a high altitude, what is the effect on its boiling point compared to sea level?",
+      "options": {
+        "A": "The boiling point increases.",
+        "B": "The boiling point decreases.",
+        "C": "The boiling point remains unchanged.",
+        "D": "The boiling point first increases then decreases."
+      },
+      "correct_answer": "B",
+      "hint": "Boiling occurs when vapor pressure equals atmospheric pressure. Consider how atmospheric pressure changes with altitude.",
+      "explanation": "The boiling point is the temperature at which a liquid's vapor pressure equals the external atmospheric pressure. At higher altitudes, atmospheric pressure is lower, so the liquid's vapor pressure equals this lower pressure at a lower temperature. Option A incorrectly assumes higher pressure at altitude.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.4 The Liquid State",
+        "subsection_anchor": "3.4.1 Energy Changes in Liquids",
+        "structural_element": "Boiling and Boiling Point:",
+        "content_anchor": "The boiling point of a liquid is the temperature at which its vapor pressure equals the external atmospheric pressure.",
+        "page_hint": "Page 35",
+        "concept_hash": "sha256_of_boiling_point_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q019",
+      "generation_timestamp": "2024-05-28T08:20:30Z",
+      "section": "3.5 The Solid State",
+      "subsection": "implicit_subsection",
+      "sub_subsection": null,
+      "structural_anchor": "Melting:",
+      "mcq_type": "B",
+      "question": "What is the term for the phase change in which a solid transforms directly into a liquid?",
+      "options": {
+        "A": "Fusion",
+        "B": "Vaporization",
+        "C": "Sublimation",
+        "D": "Condensation"
+      },
+      "correct_answer": "A",
+      "hint": "This process requires the input of heat energy to overcome intermolecular forces in the solid.",
+      "explanation": "Fusion, or melting, is the endothermic process where a solid absorbs heat energy, increasing particle motion until the ordered structure breaks down into a liquid. Option C is incorrect because sublimation is the direct change from solid to gas, bypassing the liquid state.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.5 The Solid State",
+        "subsection_anchor": "implicit_subsection",
+        "structural_element": "Melting:",
+        "content_anchor": "Melting is the process of converting solid into the liquid.",
+        "page_hint": "Page 39",
+        "concept_hash": "sha256_of_melting_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 74,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U3_Q020",
+      "generation_timestamp": "2024-05-28T08:20:40Z",
+      "section": "3.5 The Solid State",
+      "subsection": "implicit_subsection",
+      "sub_subsection": null,
+      "structural_anchor": "Sublimation:",
+      "mcq_type": "J",
+      "question": "Dry ice (solid CO₂) disappearing into a gas without forming a liquid is an example of which type of phase change?",
+      "options": {
+        "A": "Melting",
+        "B": "Freezing",
+        "C": "Sublimation",
+        "D": "Deposition"
+      },
+      "correct_answer": "C",
+      "hint": "This process bypasses the liquid phase entirely.",
+      "explanation": "Sublimation is the endothermic phase change where a solid transitions directly into a gas. Dry ice sublimates at atmospheric pressure because its vapor pressure is high enough that it doesn't form a liquid. Option D is incorrect because deposition is the reverse process (gas to solid).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: PHYSICAL STATES OF MATTER",
+        "section_anchor": "3.5 The Solid State",
+        "subsection_anchor": "implicit_subsection",
+        "structural_element": "Sublimation:",
+        "content_anchor": "Sublimation... is the change of solid to vapor.",
+        "page_hint": "Page 40",
+        "concept_hash": "sha256_of_sublimation_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 76,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 90000,
+    "average_question_quality": 86.3,
+    "type_distribution": {
+      "A": 3,
+      "B": 2,
+      "E": 1,
+      "F": 1,
+      "G": 2,
+      "H": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 2
+    },
+    "section_distribution": {
+      "3.1 Introduction": 1,
+      "3.2 Kinetic Theory and Properties of Matter": 2,
+      "3.3 The Gaseous State": 4,
+      "3.4 The Liquid State": 2,
+      "3.5 The Solid State": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

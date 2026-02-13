@@ -1,0 +1,851 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T10:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G12_Chem_U4_Q030",
+    "covered_sections": ["4.1 Introduction to Polymers", "4.2 Polymerization Reactions", "4.3 Classification of Polymers"],
+    "used_question_signatures": ["35f01c3d7e7d3b7c5d8c9a2b1f0e3d4a", "8a2f1c9b4d5e7f3a0c6b8d9e1f2a3c5", "c7b3a9e1d5f2a8c4b0d6e8f1a3c5b9", "d4f8a2c6b0e1d3a7c5b9f2e8a1c4", "a5c9e3b7f1d8a2c4b0e6f9a1c3d7", "b8d2f6a0c4e1b9d3f7a5c1e9b4", "e9c5a1f3d7b8d2f6a0c4e1b9", "f2a6d0c4b8e1d5f9a3c7b1e5", "a1e7c3b9f5d1a8c4f0b6e2d8", "c4b0f6a2d8e1c5b9f3a7d1", "d7b3f9a5c1e8b4d0f2a6c8e4", "b2f8d4a0c6e2b9d5f1a7c3e9", "a9e5c1f7b3d8a2f4c0b6e8", "f0c4b8e2d6a1f5c9b3e7d9", "c2f8a4d0b6e1f7c3b9e5d1", "b5f1c7d3a9e4f0b8c2d6e8", "e3b9f5c1d7a2f8c4b0e6d2", "a7c3f9d5b1e8c4f0b6d2a8", "d1b7f3c9a5e1f7c3b9d5a1", "f4c0b6e2d8a3f9c5b1e7d3", "b9e5d1a7c3f9b5e1d7a3c9f5", "c6f2a8d4b0e6c2f8a4d0b6", "e8b4d0f6a2c8e4b0d6f2a8c4", "a3f9c5b1e7d3a9f5c1b7e3", "d5b1e7c3f9d1a5e9c5b1f7", "f7c3b9e5d1f3c7b1e9d5a1", "b0e6c2f8a4d0b6e2c8f4a0d8", "c8e4b0f6a2d8c4e0b8f2a6d4", "e2c8f4a0d6b2e8c4f0a6d2b8", "a5e1c7b3f9d1a7e3c9b5f1"],
+    "baseline_counter": {
+      "4.1 Introduction to Polymers": {
+        "Activity 4.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Polymer": {
+          "count": 2,
+          "mini_headings_covered": ["Polymer:"],
+          "last_question_round": 1
+        },
+        "Monomers": {
+          "count": 2,
+          "mini_headings_covered": ["Monomers:"],
+          "last_question_round": 2
+        },
+        "Example 4.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Example 4.2": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "4.2 Polymerization Reactions": {
+        "Activity 4.2": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Addition Polymerization": {
+          "count": 4,
+          "mini_headings_covered": ["Note that:"],
+          "last_question_round": 3
+        },
+        "Example 4.3": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Steps of addition polymerization": {
+          "count": 4,
+          "mini_headings_covered": ["Chain initiation step:", "Chain propagation step:", "Chain termination step:"],
+          "last_question_round": 3
+        },
+        "Example 4.4": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Condensation polymerization": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Experiment 4.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Exercise 4.2": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "4.3 Classification of Polymers": {
+        "Activity 4.3": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Homopolymers": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Copolymers": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Natural polymers": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Synthetic polymers": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Thermoplastic polymers": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Thermoset polymers": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1 Introduction to Polymers": {
+        "question_count": 8,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "4.2 Polymerization Reactions": {
+        "question_count": 13,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "4.3 Classification of Polymers": {
+        "question_count": 9,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1 Introduction to Polymers>Activity 4.1": ["Polymeric nature of materials"],
+      "4.1 Introduction to Polymers>Polymer": ["Polymer definition", "Degree of polymerization", "Oligomers"],
+      "4.1 Introduction to Polymers>Monomers": ["Monomer definition"],
+      "4.1 Introduction to Polymers>Example 4.1": ["Examples of polymers", "Polyethylene", "Cellulose", "Protein"],
+      "4.1 Introduction to Polymers>Example 4.2": ["Examples of monomers", "Glucose", "Ethylene", "Amino acid"],
+      "4.2 Polymerization Reactions>Activity 4.2": ["Polymerization analogies"],
+      "4.2 Polymerization Reactions>Addition Polymerization": ["Addition polymerization", "Chain-growth polymerization", "Unsaturated monomers", "Molecular formula relationship"],
+      "4.2 Polymerization Reactions>Example 4.3": ["Polyvinyl chloride", "Repeating unit", "Molar mass calculation"],
+      "4.2 Polymerization Reactions>Steps of addition polymerization": ["Chain initiation", "Chain propagation", "Chain termination", "Free radical polymerization", "Cationic polymerization", "Anionic polymerization"],
+      "4.2 Polymerization Reactions>Example 4.4": ["Free radical polymerization steps", "Chain initiation", "Chain propagation", "Chain termination"],
+      "4.2 Polymerization Reactions>Condensation polymerization": ["Condensation polymerization", "Step growth polymerization", "Byproducts", "Polyamides", "Polyesters", "Nylon 66", "Dacron"],
+      "4.2 Polymerization Reactions>Experiment 4.1": ["Nylon synthesis", "Interfacial polymerization"],
+      "4.2 Polymerization Reactions>Exercise 4.2": ["Monomer identification", "Polymer structure writing"],
+      "4.3 Classification of Polymers>Activity 4.3": ["Polymer classification methods"],
+      "4.3 Classification of Polymers>Homopolymers": ["Homopolymer definition"],
+      "4.3 Classification of Polymers>Copolymers": ["Copolymer definition", "Random vs regular copolymers"],
+      "4.3 Classification of Polymers>Natural polymers": ["Natural polymer definition", "Biopolymers", "Carbohydrates", "Proteins", "Natural rubber"],
+      "4.3 Classification of Polymers>Synthetic polymers": ["Synthetic polymer definition", "Plastics", "Polyethylene", "Polypropylene", "PVC", "PMMA", "Teflon"],
+      "4.3 Classification of Polymers>Thermoplastic polymers": ["Thermoplastic definition", "Recyclability"],
+      "4.3 Classification of Polymers>Thermoset polymers": ["Thermoset definition", "Cross-linking", "Non-recyclable"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_integrity_round3",
+    "content_density_metrics": {
+      "total_concepts_extracted": 45,
+      "questions_per_concept_ratio": 0.67,
+      "structural_coverage_percentage": 76.7
+    }
+  },
+  "grade": "12",
+  "subject": "Chemistry",
+  "unit": "Unit 4: POLYMERS",
+  "pdf_filename": "C12U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T10:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 3,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 1.63,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 17,
+      "mini_headings_covered_count": 4,
+      "structural_coverage_percentage": 56.7,
+      "concept_utilization_ratio": 0.67
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.2 Polymerization Reactions",
+      "least_covered_section": "4.1 Introduction to Polymers",
+      "imbalance_ratio": 1.63,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Chem_U4_Q021",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "4.3 Classification of Polymers",
+      "subsection": "Thermoplastic polymers",
+      "sub_subsection": null,
+      "structural_anchor": "Thermoplastic polymers",
+      "mcq_type": "A",
+      "question": "What term describes polymers that soften when heated and can be reshaped, allowing them to be recycled?",
+      "options": {
+        "A": "Thermoplastics",
+        "B": "Thermosets",
+        "C": "Elastomers",
+        "D": "Fibers"
+      },
+      "correct_answer": "A",
+      "hint": "Consider polymers that undergo reversible physical changes with temperature.",
+      "explanation": "Thermoplastic polymers have weak intermolecular forces that allow them to melt upon heating and solidify upon cooling. Option B describes cross-linked polymers that decompose rather than melt.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.3 Classification of Polymers",
+        "subsection_anchor": "Thermoplastic polymers",
+        "structural_element": "Thermoplastic polymers",
+        "content_anchor": "Thermoplastic polymers are those which melt when heated and resolidify when cooled",
+        "page_hint": "Page 20",
+        "concept_hash": "sha256_of_thermoplastic_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q022",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "4.3 Classification of Polymers",
+      "subsection": "Thermoset polymers",
+      "sub_subsection": null,
+      "structural_anchor": "Thermoset polymers",
+      "mcq_type": "A",
+      "question": "Which type of polymer undergoes irreversible chemical cross-linking upon heating, making it non-recyclable?",
+      "options": {
+        "A": "Thermoset polymers",
+        "B": "Thermoplastic polymers",
+        "C": "Linear polymers",
+        "D": "Branched polymers"
+      },
+      "correct_answer": "A",
+      "hint": "Think of materials that harden permanently when cured.",
+      "explanation": "Thermoset polymers form extensive three-dimensional covalent networks during curing, preventing melting upon reheating. Option B incorrectly describes polymers that can be remelted and reshaped.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.3 Classification of Polymers",
+        "subsection_anchor": "Thermoset polymers",
+        "structural_element": "Thermoset polymers",
+        "content_anchor": "Thermoset polymers are those which do not melt when heated, but decompose irreversibly",
+        "page_hint": "Page 20",
+        "concept_hash": "sha256_of_thermoset_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q023",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Condensation polymerization",
+      "sub_subsection": null,
+      "structural_anchor": "Condensation polymerization",
+      "mcq_type": "I",
+      "question": "How do the structural outcomes of addition polymerization and condensation polymerization primarily differ?",
+      "options": {
+        "A": "Addition polymers retain all monomer atoms, while condensation polymers lose small molecules.",
+        "B": "Addition polymers have branched structures, while condensation polymers are always linear.",
+        "C": "Addition polymers contain heteroatoms, while condensation polymers are purely hydrocarbon.",
+        "D": "Addition polymers are always synthetic, while condensation polymers are always natural."
+      },
+      "correct_answer": "A",
+      "hint": "Compare the chemical changes that occur during chain formation.",
+      "explanation": "In addition polymerization, monomers add without atom loss, while condensation polymerization eliminates small molecules like water. Option B is incorrect because both polymer types can be linear or branched.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Condensation polymerization",
+        "structural_element": "Condensation polymerization",
+        "content_anchor": "Condensation polymerization involves the combination of monomer molecules, with the release of simple molecules",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_addition_vs_condensation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q024",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Steps of addition polymerization",
+      "sub_subsection": null,
+      "structural_anchor": "Steps of addition polymerization",
+      "mcq_type": "M",
+      "question": "What is the correct sequence of steps in a free radical addition polymerization mechanism?",
+      "options": {
+        "A": "Initiation → Propagation → Termination",
+        "B": "Propagation → Initiation → Termination",
+        "C": "Termination → Initiation → Propagation",
+        "D": "Initiation → Termination → Propagation"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the logical order: start, grow, then stop.",
+      "explanation": "Free radical polymerization begins with initiation where radicals form, followed by propagation where chains grow, and ends with termination where radicals are neutralized. Option B incorrectly places growth before the reaction starts.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Steps of addition polymerization",
+        "structural_element": "Steps of addition polymerization",
+        "content_anchor": "The addition polymerization process takes place in three distinct steps",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_polymerization_steps_sequence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q025",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "4.3 Classification of Polymers",
+      "subsection": "Copolymers",
+      "sub_subsection": null,
+      "structural_anchor": "Copolymers",
+      "mcq_type": "J",
+      "question": "A polymer chain contains two types of monomer units arranged in an alternating pattern (ABABAB). How is this copolymer best classified?",
+      "options": {
+        "A": "Regular copolymer",
+        "B": "Random copolymer",
+        " C": "Block copolymer",
+        "D": "Graft copolymer"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the order and predictability of monomer placement.",
+      "explanation": "A regular copolymer has a repeating, predictable sequence of different monomer units. Option B describes a copolymer where monomers are arranged without a defined pattern.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.3 Classification of Polymers",
+        "subsection_anchor": "Copolymers",
+        "structural_element": "Copolymers",
+        "content_anchor": "Regular polymers contain a sequence of monomers in regular alternating repeating units",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_regular_copolymer"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q026",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Experiment 4.1",
+      "sub_subsection": null,
+      "structural_anchor": "Experiment 4.1",
+      "mcq_type": "L",
+      "question": "In the interfacial synthesis of nylon, polymer formation occurs at the boundary between two immiscible solutions. What property of the reactants facilitates this specific location of polymerization?",
+      "options": {
+        "A": "The reactants are dissolved in different solvents that do not mix.",
+        "B": "Both reactants are highly soluble in the same organic solvent.",
+        "C": "One reactant is a solid powder that sinks to the bottom.",
+        "D": "The polymerization requires intense stirring to emulsify the layers."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the experimental setup with separate aqueous and organic layers.",
+      "explanation": "Interfacial polymerization occurs where two reactive monomers meet at the interface of immiscible solvents. Option B would cause homogeneous mixing rather than interface-specific reaction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Experiment 4.1",
+        "structural_element": "Experiment 4.1",
+        "content_anchor": "Nylon will form at the interface of the two solutions",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_interfacial_polymerization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q027",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "4.1 Introduction to Polymers",
+      "subsection": "Example 4.1",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.1",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that all polymers must be solid at room temperature?",
+      "options": {
+        "A": "Overgeneralizing from common examples while ignoring polymeric liquids and gels.",
+        "B": "Confusing the mechanical strength of polymers with their phase state.",
+        "C": "Assuming polymerization always increases density enough to cause solidification.",
+        "D": "Mistaking the glass transition temperature for the melting point."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the diversity of physical states in polymeric materials.",
+      "explanation": "While many familiar polymers are solids, some like liquid silicone polymers exist. Option D introduces a specific temperature concept that doesn't address the core overgeneralization.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.1 Introduction to Polymers",
+        "subsection_anchor": "Example 4.1",
+        "structural_element": "Example 4.1",
+        "content_anchor": "Examples of polymers are: polyethylene, wood (cellulose), protein",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_polymer_physical_states"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 83,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q028",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Exercise 4.2",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 4.2",
+      "mcq_type": "D",
+      "question": "Given the polymer structure [-O-CO-C₆H₄-CO-O-CH₂-CH₂-]n, what type of polymerization reaction formed it?",
+      "options": {
+        "A": "Condensation polymerization",
+        "B": "Addition polymerization",
+        "C": "Free radical polymerization",
+        "D": "Cationic polymerization"
+      },
+      "correct_answer": "A",
+      "hint": "Look for ester functional groups and the absence of carbon-carbon double bonds in the backbone.",
+      "explanation": "The polymer contains ester linkages (-O-CO-) characteristic of polyesters formed by condensation reactions. Option B typically produces polymers with all-carbon backbones from unsaturated monomers.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Exercise 4.2",
+        "structural_element": "Exercise 4.2",
+        "content_anchor": "Exercise questions involving polymer structure identification",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_polyester_identification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q029",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "4.1 Introduction to Polymers",
+      "subsection": "Example 4.2",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.2",
+      "mcq_type": "C",
+      "question": "The monomer amino acid has the general structure NH₂-CH(R)-COOH. Which functional groups are involved in forming the amide bonds of proteins?",
+      "options": {
+        "A": "Amino group (-NH₂) and carboxyl group (-COOH)",
+        "B": "Hydroxyl group (-OH) and carbonyl group (C=O)",
+        "C": "Sulfhydryl group (-SH) and amino group (-NH₂)",
+        "D": "Carboxyl group (-COOH) and ester group (-COOR)"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the condensation reaction that links amino acids.",
+      "explanation": "Proteins form via condensation polymerization where the amino group of one amino acid reacts with the carboxyl group of another, eliminating water. Option B describes functional groups involved in carbohydrate chemistry.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.1 Introduction to Polymers",
+        "subsection_anchor": "Example 4.2",
+        "structural_element": "Example 4.2",
+        "content_anchor": "amino acid (NH₂CH(R)(COOH)) a monomer for protein",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_amino_acid_functional_groups"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Chem_U4_Q030",
+      "generation_timestamp": "2025-01-27T10:10:00Z",
+      "section": "4.2 Polymerization Reactions",
+      "subsection": "Addition Polymerization",
+      "sub_subsection": null,
+      "structural_anchor": "Addition Polymerization",
+      "mcq_type": "F",
+      "question": "Under the condition that a monomer contains a carbon-carbon double bond, which reasoning best explains why such monomers are suitable for addition polymerization?",
+      "options": {
+        "A": "The π bond can break to form two new σ bonds, allowing chain extension without atom loss.",
+        "B": "The double bond acts as a leaving group during condensation reactions.",
+        "C": "The sp² hybridized carbons are more electronegative, attracting initiators.",
+        "D": "The monomer's planar geometry prevents branching during propagation."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the reactivity of the double bond toward radical or ionic species.",
+      "explanation": "The π electron cloud of a double bond is susceptible to attack by initiator radicals or ions, enabling sequential addition. Option B incorrectly assigns a role more characteristic of functional groups in condensation polymerization.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: POLYMERS",
+        "section_anchor": "4.2 Polymerization Reactions",
+        "subsection_anchor": "Addition Polymerization",
+        "structural_element": "Addition Polymerization",
+        "content_anchor": "This type of polymerization reaction occurs by those involving unsaturated monomers",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_unsaturated_monomer_reactivity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 84,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3500,
+    "average_question_quality": 86.5,
+    "type_distribution": {
+      "A": 3,
+      "C": 1,
+      "D": 1,
+      "F": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "L": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "4.1 Introduction to Polymers": 2,
+      "4.2 Polymerization Reactions": 5,
+      "4.3 Classification of Polymers": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

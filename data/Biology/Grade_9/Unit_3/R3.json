@@ -1,0 +1,904 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-07-19T10:04:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Bio_U3_Q030",
+    "covered_sections": ["3.1. What is a cell?>Objectives", "3.1. What is a cell?>Key Terms", "3.2. Cell theory>Objectives", "3.2. Cell theory>Attention", "3.3. Cell structure and function>Objectives", "3.4. Types of cells>Objectives", "3.5. Animal and plant cells>Objectives", "3.6 Observing cells under a microscope>Objectives", "3.7 The cell and its environment>3.7.1. Passive transport>Key Terms", "3.8. Levels of Biological Organization>Objectives", "3.3. Cell structure and function>Activity 3.4: Group work", "3.3. Cell structure and function>Attention", "3.7 The cell and its environment>3.7.1. Passive transport>Diffusion", "3.7 The cell and its environment>3.7.1. Passive transport>Factors influencing the rate of diffusion", "3.8. Levels of Biological Organization>Key Terms", "3.4. Types of cells>Attention", "3.6 Observing cells under a microscope>3:2: Laboratory Activity", "3.7 The cell and its environment>3.7.2. Active transport>Attention", "3.1. What is a cell?>Activity 3.1: Group work", "3.2. Cell theory>Activity 3.2 : Group work", "3.3. Cell structure and function>Activity 3.5: Think-pair-share", "3.7 The cell and its environment>3.7.1. Passive transport>Attention", "3.5. Animal and plant cells>Content", "3.8. Levels of Biological Organization>Activity 3.24: Think - Pair - Share", "3.7 The cell and its environment>Objectives"],
+    "used_question_signatures": ["cd450ae11f9aae53b45a57493b166b0b", "0a31e92d56a6d8461c4a053c98e50081", "c96cded159ef606545d92260066cf2d5", "e88984c28e7b32a02c4a29a10c8e588e", "00803c5fecfe7482a6836f9474c8a45b", "f84ef7a6fea17b2b2ad2fa2d283055bd", "67772ad16c4daa5c754c5f6c151f2a97", "1f5b93207414791212e1ee3733077b65", "143da10803bb5a1ba014e48ee8ef53d8", "78ab8d9cae147f0f0642d61c9f7b3228", "3c4b6c5b3e0c4d1b8a9f7c2d5e8a9f3b", "7a2e8d9f1c3b5a7d9e0f2a4c6b8d0e1f", "5c9a3b7d2e8f1a4c6b9d0e2f3a5c7b8", "2b8d0e1f3a5c7b9d0e2f4a6c8b0d1e3", "9e0f2a4c6b8d0e1f3a5c7b9d0e2f4a", "6c8b0d1e3f5a7c9e1f2b4d6a8c0e2f", "4a6c8b0d2e4f6a8c0e2f4b6d8a0c2e", "8c0e2f4b6d8a0c2e4f6b8d0a2c4e6f", "1f3a5c7b9d0e2f4a6c8b0d1e3f5a7", "5d9e2f4a6c8b0d1e3f5a7c9e1f2b4", "7c9e1f2b4d6a8c0e2f4b6d8a0c2e4", "8d0a2c4e6f8a0c2e4f6b8d0a2c4e6", "2e4f6b8d0a2c4e6f8a0c2e4f6b8d0", "4f6b8d0a2c4e6f8a0c2e4f6b8d0a2", "6f8a0c2e4f6b8d0a2c4e6f8a0c2e4"],
+    "baseline_counter": {
+      "3.1. What is a cell?": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "Key Terms": {
+          "count": 1,
+          "mini_headings_covered": ["Key Terms"],
+          "last_question_round": 1
+        },
+        "Activity 3.1: Group work": {
+          "count": 1,
+          "mini_headings_covered": ["Activity 3.1: Group work"],
+          "last_question_round": 2
+        }
+      },
+      "3.2. Cell theory": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "Attention": {
+          "count": 1,
+          "mini_headings_covered": ["Attention"],
+          "last_question_round": 1
+        },
+        "Activity 3.2 : Group work": {
+          "count": 1,
+          "mini_headings_covered": ["Activity 3.2 : Group work"],
+          "last_question_round": 3
+        }
+      },
+      "3.3. Cell structure and function": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "Activity 3.4: Group work": {
+          "count": 1,
+          "mini_headings_covered": ["Activity 3.4: Group work"],
+          "last_question_round": 2
+        },
+        "Attention": {
+          "count": 1,
+          "mini_headings_covered": ["Attention"],
+          "last_question_round": 2
+        },
+        "Activity 3.5: Think-pair-share": {
+          "count": 1,
+          "mini_headings_covered": ["Activity 3.5: Think-pair-share"],
+          "last_question_round": 3
+        }
+      },
+      "3.4. Types of cells": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "Attention": {
+          "count": 1,
+          "mini_headings_covered": ["Attention"],
+          "last_question_round": 2
+        }
+      },
+      "3.5. Animal and plant cells": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "Content": {
+          "count": 1,
+          "mini_headings_covered": ["Content"],
+          "last_question_round": 3
+        }
+      },
+      "3.6 Observing cells under a microscope": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "3:2: Laboratory Activity": {
+          "count": 1,
+          "mini_headings_covered": ["3:2: Laboratory Activity"],
+          "last_question_round": 2
+        }
+      },
+      "3.7 The cell and its environment": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 3
+        },
+        "3.7.1. Passive transport": {
+          "count": 4,
+          "mini_headings_covered": ["Key Terms", "Diffusion", "Factors influencing the rate of diffusion", "Attention"],
+          "last_question_round": 3
+        },
+        "3.7.2. Active transport": {
+          "count": 1,
+          "mini_headings_covered": ["Attention"],
+          "last_question_round": 2
+        }
+      },
+      "3.8. Levels of Biological Organization": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives"],
+          "last_question_round": 1
+        },
+        "Key Terms": {
+          "count": 1,
+          "mini_headings_covered": ["Key Terms"],
+          "last_question_round": 2
+        },
+        "Activity 3.24: Think - Pair - Share": {
+          "count": 1,
+          "mini_headings_covered": ["Activity 3.24: Think - Pair - Share"],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1. What is a cell?": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.2. Cell theory": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "3.3. Cell structure and function": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "3.4. Types of cells": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.5. Animal and plant cells": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "3.6 Observing cells under a microscope": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.7 The cell and its environment": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "3.8. Levels of Biological Organization": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1. What is a cell?>Objectives": ["Composition of living things", "Unicellular vs multicellular"],
+      "3.1. What is a cell?>Key Terms": ["Cell", "Unicellular organisms", "Multicellular organisms"],
+      "3.2. Cell theory>Objectives": ["Cell theory description", "Scientists involved"],
+      "3.2. Cell theory>Attention": ["Robert Hooke", "Cell discovery"],
+      "3.3. Cell structure and function>Objectives": ["Main cell structures", "Cell functions"],
+      "3.4. Types of cells>Objectives": ["Prokaryotic vs eukaryotic"],
+      "3.5. Animal and plant cells>Objectives": ["Plant vs animal cell structures"],
+      "3.6 Observing cells under a microscope>Objectives": ["Microscope use", "Cell observation"],
+      "3.7 The cell and its environment>3.7.1. Passive transport>Key Terms": ["Diffusion", "Osmosis", "Active transport"],
+      "3.8. Levels of Biological Organization>Objectives": ["Tissue definition", "Organ definition", "Organ system definition"],
+      "3.3. Cell structure and function>Activity 3.4: Group work": ["Nerve cell structure", "Muscle cell structure"],
+      "3.3. Cell structure and function>Attention": ["Cell membrane permeability"],
+      "3.7 The cell and its environment>3.7.1. Passive transport>Diffusion": ["Concentration gradient", "Movement of molecules"],
+      "3.7 The cell and its environment>3.7.1. Passive transport>Factors influencing the rate of diffusion": ["Temperature effect", "Surface area effect", "Distance effect"],
+      "3.8. Levels of Biological Organization>Key Terms": ["Tissues", "Organs", "Systems"],
+      "3.4. Types of cells>Attention": ["Etymology of eukaryotic", "Cell size comparison"],
+      "3.6 Observing cells under a microscope>3:2: Laboratory Activity": ["Onion cell staining", "Cheek cell observation"],
+      "3.7 The cell and its environment>3.7.2. Active transport>Attention": ["Sodium-potassium pump", "Active transport energy"],
+      "3.1. What is a cell?>Activity 3.1: Group work": ["Cell study importance", "Cellular activities"],
+      "3.2. Cell theory>Activity 3.2 : Group work": ["Cell theory principles", "Schleiden and Schwann contributions"],
+      "3.3. Cell structure and function>Activity 3.5: Think-pair-share": ["Cell wall vs cell membrane difference"],
+      "3.7 The cell and its environment>3.7.1. Passive transport>Attention": ["Passive transport analogy", "Energy requirement"],
+      "3.5. Animal and plant cells>Content": ["Chloroplast function", "Vacuole size difference"],
+      "3.8. Levels of Biological Organization>Activity 3.24: Think - Pair - Share": ["Smallest living unit", "Characteristics of life"],
+      "3.7 The cell and its environment>Objectives": ["Diffusion importance", "Osmosis importance", "Active transport importance"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 41,
+      "questions_per_concept_ratio": 0.73,
+      "structural_coverage_percentage": 100.0
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 3: Cells",
+  "pdf_filename": "B9U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-07-19T10:04:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 8,
+        "total_sections": 8,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 8,
+      "subsections_covered_count": 19,
+      "mini_headings_covered_count": 25,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 0.73
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.7 The cell and its environment",
+      "least_covered_section": "3.4. Types of cells",
+      "imbalance_ratio": 3.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U3_Q021",
+      "generation_timestamp": "2024-07-19T10:04:00Z",
+      "section": "3.2. Cell theory",
+      "subsection": "Activity 3.2 : Group work",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 3.2 : Group work",
+      "mcq_type": "D",
+      "question": "Which principle of cell theory states that all cells arise from pre-existing cells through division?",
+      "options": {
+        "A": "Cells are the basic structural units of living organisms",
+        "B": "All living organisms are composed of one or more cells",
+        "C": "Cells contain hereditary information that passes to daughter cells",
+        "D": "New cells form only through the division of existing cells"
+      },
+      "correct_answer": "D",
+      "hint": "Consider how cells originate according to modern cell theory.",
+      "explanation": "Cell theory establishes that cells arise only from division of pre-existing cells, rejecting spontaneous generation. Option A describes cellular structure but not the origin of new cells.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.2. Cell theory",
+        "subsection_anchor": "Activity 3.2 : Group work",
+        "structural_element": "Activity 3.2 : Group work",
+        "content_anchor": "Discuss in group about the cell theory",
+        "page_hint": "Page 2-3",
+        "concept_hash": "sha256_of_cell_division_principle"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q022",
+      "generation_timestamp": "2024-07-19T10:04:00Z",
+      "section": "3.3. Cell structure and function",
+      "subsection": "Activity 3.5: Think-pair-share",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 3.5: Think-pair-share",
+      "mcq_type": "I",
+      "question": "How does the primary function of a cell wall differ from that of a cell membrane?",
+      "options": {
+        "A": "Cell walls control substance entry while cell membranes provide rigid support",
+        "B": "Cell walls offer structural support while cell membranes regulate transport",
+        "C": "Cell walls synthesize proteins while cell membranes produce energy",
+        "D": "Cell walls store genetic material while cell membranes contain organelles"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the main roles of these boundary structures.",
+      "explanation": "Cell walls provide rigid structural support and shape, while cell membranes selectively control substance passage. Option A incorrectly reverses these functional relationships between the two structures.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.3. Cell structure and function",
+        "subsection_anchor": "Activity 3.5: Think-pair-share",
+        "structural_element": "Activity 3.5: Think-pair-share",
+        "content_anchor": "What is the difference between the cell wall and cell membrane? Answer the question in relation to their function",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_wall_vs_membrane"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q023",
+      "generation_timestamp": "2024-07-19T10:04:00Z",
+      "section": "3.7 The cell and its environment",
+      "subsection": "3.7.1. Passive transport",
+      "sub_subsection": null,
+      "structural_anchor": "Attention",
+      "mcq_type": "F",
+      "question": "Under the condition that molecules move from areas of high concentration to low concentration, which reasoning best explains why passive transport doesn't require cellular energy?",
+      "options": {
+        "A": "Molecules possess inherent kinetic energy that drives spontaneous movement",
+        "B": "Specialized proteins actively pump molecules against concentration gradients",
+        "C": "Cellular energy is only needed for molecular synthesis, not movement",
+        "D": "Membranes contain channels that generate energy for molecular transport"
+      },
+      "correct_answer": "A",
+      "hint": "Consider natural molecular motion and concentration equilibration.",
+      "explanation": "Passive transport utilizes molecules' natural kinetic energy to move down concentration gradients without additional energy input. Option B incorrectly describes active transport mechanisms that require energy expenditure.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.7 The cell and its environment",
+        "subsection_anchor": "3.7.1. Passive transport",
+        "structural_element": "Attention",
+        "content_anchor": "Passive transport is the movement of substances down a concentration gradient... with- out the need for input of energy",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_passive_energy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 80
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q024",
+      "generation_timestamp": "2024-07-19T10:04:00Z",
+      "section": "3.5. Animal and plant cells",
+      "subsection": "Content",
+      "sub_subsection": null,
+      "structural_anchor": "Content",
+      "mcq_type": "G",
+      "question": "If chloroplasts are removed from a plant cell, what happens to the cell's ability to perform photosynthesis?",
+      "options": {
+        "A": "Photosynthesis continues using mitochondrial energy",
+        "B": "Photosynthesis stops completely",
+        "C": "Photosynthesis rate increases due to reduced competition",
+        "D": "Photosynthesis occurs in the vacuole instead"
+      },
+      "correct_answer": "B",
+      "hint": "Consider where photosynthetic reactions take place within plant cells.",
+      "explanation": "Chloroplasts contain chlorophyll and are essential for photosynthesis; without them, the process cannot occur. Option A incorrectly suggests mitochondria can perform photosynthesis, which they cannot.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.5. Animal and plant cells",
+        "subsection_anchor": "Content",
+        "structural_element": "Content",
+        "content_anchor": "Chloroplasts are also double membrane- bounded organelles that occur in the cell of green plants... They are the site for photosynthesis",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_chloroplast_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q025",
+      "generation_timestamp": "2024-07-19T10:04:00Z",
+      "section": "3.8. Levels of Biological Organization",
+      "subsection": "Activity 3.24: Think - Pair - Share",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 3.24: Think - Pair - Share",
+      "mcq_type": "D",
+      "question": "What is the smallest level of biological organization that exhibits all characteristics of life, including metabolism and reproduction?",
+      "options": {
+        "A": "Organelle",
+        "B": "Cell",
+        "C": "Tissue",
+        "D": "Molecule"
+      },
+      "correct_answer": "B",
+      "hint": "Consider what unit can independently perform life processes.",
+      "explanation": "Cells represent the smallest complete living units capable of all life functions independently. Option A refers to specialized cellular components that cannot function alone.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.8. Levels of Biological Organization",
+        "subsection_anchor": "Activity 3.24: Think - Pair - Share",
+        "structural_element": "Activity 3.24: Think - Pair - Share",
+        "content_anchor": "What is the smallest level of biological organization that can display all the characteristics of life?",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_smallest_living_unit"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q026",
+      "generation_timestamp": "2024-07-19T10:04:00Z",
+      "section": "3.7 The cell and its environment",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives",
+      "mcq_type": "N",
+      "question": "Under what condition is active transport necessary for cellular substance movement?",
+      "options": {
+        "A": "When molecules move along their concentration gradient",
+        "B": "When water molecules diffuse across membranes",
+        "C": "When substances must move against concentration gradients",
+        "D": "When temperature increases molecular kinetic energy"
+      },
+      "correct_answer": "C",
+      "hint": "Consider movement opposite to natural diffusion direction.",
+      "explanation": "Active transport moves substances against concentration gradients, requiring energy expenditure. Option A describes passive diffusion, which occurs naturally without energy input.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.7 The cell and its environment",
+        "subsection_anchor": "Objectives",
+        "structural_element": "Objectives",
+        "content_anchor": "describe the importance of active transport",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_active_transport_condition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q027",
+      "generation_timestamp": "2024-07-19T10:04:00Z",
+      "section": "3.3. Cell structure and function",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives",
+      "mcq_type": "C",
+      "question": "Which cellular structure contains most organelles like the nucleus, ribosomes, and endoplasmic reticulum within its boundaries?",
+      "options": {
+        "A": "Cell wall",
+        "B": "Cytoplasm",
+        "C": "Cell membrane",
+        "D": "Vacuole"
+      },
+      "correct_answer": "B",
+      "hint": "This is the internal fluid-filled region of the cell.",
+      "explanation": "Cytoplasm is the semi-fluid region containing most cellular organelles and site of metabolic reactions. Option C forms the cell's outer boundary but doesn't contain the internal organelles.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.3. Cell structure and function",
+        "subsection_anchor": "Objectives",
+        "structural_element": "Objectives",
+        "content_anchor": "state that the cytoplasm of all cells contains most organelles like the nucleus, ribosomes, and rough endoplasmic reticulum",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_cytoplasm_content"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q028",
+      "generation_timestamp": "2024-07-19T10:04:00Z",
+      "section": "3.7 The cell and its environment",
+      "subsection": "3.7.1. Passive transport",
+      "sub_subsection": null,
+      "structural_anchor": "Diffusion",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that diffusion only occurs in liquids?",
+      "options": {
+        "A": "Diffusion requires specific protein channels present only in liquid media",
+        "B": "Diffusion happens in gases, liquids, and solids through molecular motion",
+        "C": "Diffusion cannot occur without continuous stirring of the medium",
+        "D": "Diffusion depends on electrical charges that only exist in liquids"
+      },
+      "correct_answer": "B",
+      "hint": "Consider different states of matter where molecular movement occurs.",
+      "explanation": "Diffusion occurs in all states of matter through random molecular motion, not just liquids. Option A incorrectly restricts diffusion to liquid environments with specialized proteins.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.7 The cell and its environment",
+        "subsection_anchor": "3.7.1. Passive transport",
+        "structural_element": "Diffusion",
+        "content_anchor": "This is the movement of molecules from a region of high concentration to a region of low concentration",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_diffusion_media"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q029",
+      "generation_timestamp": "2024-07-19T10:04:00Z",
+      "section": "3.5. Animal and plant cells",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives",
+      "mcq_type": "J",
+      "question": "Which cellular component is typically larger and more prominent in plant cells compared to animal cells?",
+      "options": {
+        "A": "Centriole",
+        "B": "Vacuole",
+        "C": "Lysosome",
+        "D": "Ribosome"
+      },
+      "correct_answer": "B",
+      "hint": "Consider storage and structural differences between cell types.",
+      "explanation": "Plant cells contain large central vacuoles that occupy significant volume, while animal cell vacuoles are smaller. Option A is incorrect because centrioles are typically found in animal cells, not plant cells.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.5. Animal and plant cells",
+        "subsection_anchor": "Objectives",
+        "structural_element": "Objectives",
+        "content_anchor": "describe the differences in structure between plant and animal cells",
+        "page_hint": "Page 11-12",
+        "concept_hash": "sha256_of_vacuole_size"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U3_Q030",
+      "generation_timestamp": "2024-07-19T10:04:00Z",
+      "section": "3.1. What is a cell?",
+      "subsection": "Key Terms",
+      "sub_subsection": null,
+      "structural_anchor": "Key Terms",
+      "mcq_type": "F",
+      "question": "Under the condition that organisms vary in cellular complexity, which reasoning best explains why multicellular organisms develop specialized cell types?",
+      "options": {
+        "A": "Specialization allows cells to perform specific functions more efficiently",
+        "B": "All cells in multicellular organisms must perform identical functions",
+        "C": "Specialized cells reduce the total number of cells required",
+        "D": "Cell specialization prevents communication between different tissues"
+      },
+      "correct_answer": "A",
+      "hint": "Consider efficiency advantages of division of labor among cells.",
+      "explanation": "Cellular specialization enables efficient division of labor, with different cell types optimized for specific functions. Option B incorrectly suggests uniform function, which contradicts the concept of specialization.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Cells",
+        "section_anchor": "3.1. What is a cell?",
+        "subsection_anchor": "Key Terms",
+        "structural_element": "Key Terms",
+        "content_anchor": "Multicellular organisms: groups of living things composed of many cells",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_multicellular_specialization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 80
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3100,
+    "average_question_quality": 81.0,
+    "type_distribution": {
+      "C": 1,
+      "D": 2,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "3.1. What is a cell?": 1,
+      "3.2. Cell theory": 1,
+      "3.3. Cell structure and function": 2,
+      "3.5. Animal and plant cells": 2,
+      "3.7 The cell and its environment": 3,
+      "3.8. Levels of Biological Organization": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

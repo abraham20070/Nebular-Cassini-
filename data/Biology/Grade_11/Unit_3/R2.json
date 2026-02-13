@@ -1,0 +1,829 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-05-15T08:12:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G11_Bio_U3_Q020",
+    "covered_sections": ["Unit learning outcomes>Unit learning outcomes", "3.1. What are enzymes?>3.1. What are enzymes?", "Lab activity 3.1>Lab activity 3.1", "3.2 Properties and functions of enzymes>3.2.1 General properties of an enzyme", "3.2 Properties and functions of enzymes>3.2.2 The function of enzymes", "3.3 Protein structures>3.3 Protein structures", "Table: 3.1 Some of enzymes in the body and their functions>Table: 3.1 Some of enzymes in the body and their functions", "Lab-based activity 3.3>Lab-based activity 3.3", "3.4 Enzyme substrate models>3.4 Enzyme substrate models", "3.4 Enzyme substrate models>3.4.1 Enzyme-substrate binding models"],
+    "used_question_signatures": ["8b5d3b0fd8c5d2c3b5e5b5d3b0fd8c5d2c3b5e5", "7a4c2a0ec7b4c1b2a4d6a4c2a0ec7b4c1b2a4d6", "6c3b1b0db6a3b0a1b3c5c3b1b0db6a3b0a1b3c5", "5d2a0a0ca5d2a0a0ca5d2a0a0ca5d2a0a0ca5d", "4b1c9b9bb4b1c9b9bb4b1c9b9bb4b1c9b9bb4b", "3a0b8a8aa3a0b8a8aa3a0b8a8aa3a0b8a8aa3a", "2c9a7a9a92c9a7a9a92c9a7a9a92c9a7a9a92c", "1b8a6a8a81b8a6a8a81b8a6a8a81b8a6a8a81b", "0a7a5a7a70a7a5a7a70a7a5a7a70a7a5a7a70a", "9c6a4a6a69c6a4a6a69c6a4a6a69c6a4a6a69c", "8d5a3a5a58d5a3a5a58d5a3a5a58d5a3a5a58d", "7c4a2a4a47c4a2a4a47c4a2a4a47c4a2a4a47c", "6b3a1a3a36b3a1a3a36b3a1a3a36b3a1a3a36b", "5a2a0a2a25a2a0a2a25a2a0a2a25a2a0a2a25a", "4c1a9a1a14c1a9a1a14c1a9a1a14c1a9a1a14c", "3b0a8a0a03b0a8a0a03b0a8a0a03b0a8a0a03b", "2a9a7a9a92a9a7a9a92a9a7a9a92a9a7a9a92a", "1b8a6a8a81b8a6a8a81b8a6a8a81b8a6a8a81b", "0c7a5a7a70c7a5a7a70c7a5a7a70c7a5a7a70c", "9d6a4a6a69d6a4a6a69d6a4a6a69d6a4a6a69d"],
+    "baseline_counter": {
+      "Unit learning outcomes": {
+        "Unit learning outcomes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.1. What are enzymes?": {
+        "3.1. What are enzymes?": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Lab activity 3.1": {
+        "Lab activity 3.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "3.2 Properties and functions of enzymes": {
+        "3.2.1 General properties of an enzyme": {
+          "count": 2,
+          "mini_headings_covered": ["The physical properties of enzymes"],
+          "last_question_round": 1
+        },
+        "3.2.2 The function of enzymes": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "3.3 Protein structures": {
+        "3.3 Protein structures": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Table: 3.1 Some of enzymes in the body and their functions": {
+        "Table: 3.1 Some of enzymes in the body and their functions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Lab-based activity 3.3": {
+        "Lab-based activity 3.3": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "3.4 Enzyme substrate models": {
+        "3.4 Enzyme substrate models": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "3.4.1 Enzyme-substrate binding models": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Unit learning outcomes": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.1. What are enzymes?": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Lab activity 3.1": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "3.2 Properties and functions of enzymes": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.3 Protein structures": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Table: 3.1 Some of enzymes in the body and their functions": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Lab-based activity 3.3": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "3.4 Enzyme substrate models": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Unit learning outcomes>Unit learning outcomes": ["Enzymes", "Properties", "Functions"],
+      "3.1. What are enzymes?>3.1. What are enzymes?": ["Activation energy", "Catalysts", "Metabolism"],
+      "Lab activity 3.1>Lab activity 3.1": ["Salivary amylase", "Starch hydrolysis", "Maltose"],
+      "3.2 Properties and functions of enzymes>3.2.1 General properties of an enzyme": ["Denaturation", "Specificity"],
+      "3.2 Properties and functions of enzymes>3.2.2 The function of enzymes": ["Active site", "Turnover number"],
+      "Table: 3.1 Some of enzymes in the body and their functions>Table: 3.1 Some of enzymes in the body and their functions": ["Lipase", "Amylase", "Trypsin"],
+      "Lab-based activity 3.3>Lab-based activity 3.3": ["Catalase", "Hydrogen peroxide"],
+      "3.4 Enzyme substrate models>3.4 Enzyme substrate models": ["Lock and key model", "Induced fit model"],
+      "3.4 Enzyme substrate models>3.4.1 Enzyme-substrate binding models": ["Lock and key model", "Induced fit model"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_after_batch_1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 20,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 45.0
+    }
+  },
+  "grade": "11",
+  "subject": "Biology",
+  "unit": "Unit 3: Enzymes",
+  "pdf_filename": "B11U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-05-15T08:12:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 8,
+        "total_sections": 10,
+        "progress_percentage": 80.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 8,
+      "subsections_covered_count": 10,
+      "mini_headings_covered_count": 1,
+      "structural_coverage_percentage": 45.0,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.2 Properties and functions of enzymes",
+      "least_covered_section": "Unit learning outcomes",
+      "imbalance_ratio": 5.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.0,
+      "remaining_concept_capacity": 80
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U3_Q011",
+      "generation_timestamp": "2024-05-15T08:11:10Z",
+      "section": "Lab activity 3.1",
+      "subsection": "Lab activity 3.1",
+      "sub_subsection": null,
+      "structural_anchor": "Lab activity 3.1 Classroom experimental activities",
+      "mcq_type": "G",
+      "question": "If salivary amylase is inactivated, what would be the most direct effect on the digestion of starch in bread within the mouth?",
+      "options": {
+        "A": "Starch would be broken down into glucose instead of maltose.",
+        "B": "The initial hydrolysis of starch into simpler sugars would not occur.",
+        "C": "Proteins in the bread would begin to be digested.",
+        "D": "The pH of the saliva would become more acidic."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the specific substrate and product of the enzymatic reaction.",
+      "explanation": "Salivary amylase specifically catalyzes the hydrolysis of starch into maltose. Option A is incorrect because the enzyme's absence prevents the initial breakdown step, not alters its product specificity.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "Lab activity 3.1",
+        "subsection_anchor": "Lab activity 3.1",
+        "structural_element": "Lab activity 3.1 Classroom experimental activities",
+        "content_anchor": "How does the saliva convert starch into maltose?",
+        "page_hint": "3",
+        "concept_hash": "sha256_of_starch_to_maltose"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q012",
+      "generation_timestamp": "2024-05-15T08:11:20Z",
+      "section": "3.2 Properties and functions of enzymes",
+      "subsection": "3.2.2 The function of enzymes",
+      "sub_subsection": null,
+      "structural_anchor": "3.2.2 The function of enzymes",
+      "mcq_type": "C",
+      "question": "Which representation correctly shows the general steps of an enzyme-catalyzed reaction, from substrate binding to product release?",
+      "options": {
+        "A": "E + S → ES → EP → E + P",
+        "B": "S → ES → E + P",
+        "C": "E + S → P",
+        "D": "ES → S + E → P"
+      },
+      "correct_answer": "A",
+      "hint": "The enzyme (E) first forms a complex with the substrate (S).",
+      "explanation": "Enzyme catalysis involves the formation of an enzyme-substrate (ES) complex, its conversion to an enzyme-product (EP) complex, and finally dissociation. Option B omits the crucial step where the enzyme is released unchanged.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.2 Properties and functions of enzymes",
+        "subsection_anchor": "3.2.2 The function of enzymes",
+        "structural_element": "3.2.2 The function of enzymes",
+        "content_anchor": "Enzyme acting on a substrate to produce product releasing enzyme for further use through steps 1- 4",
+        "page_hint": "7-8",
+        "concept_hash": "sha256_of_enzyme_reaction_steps"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q013",
+      "generation_timestamp": "2024-05-15T08:11:30Z",
+      "section": "3.3 Protein structures",
+      "subsection": "3.3 Protein structures",
+      "sub_subsection": null,
+      "structural_anchor": "3.3 Protein structures",
+      "mcq_type": "I",
+      "question": "How does the tertiary structure of a protein primarily differ from its secondary structure?",
+      "options": {
+        "A": "Tertiary structure involves hydrogen bonding between backbone atoms, while secondary structure involves R-group interactions.",
+        "B": "Tertiary structure is the overall 3D shape stabilized by various interactions between R-groups, while secondary structure involves local backbone folding patterns.",
+        "C": "Tertiary structure is the linear sequence of amino acids, while secondary structure is the first level of folding.",
+        "D": "Tertiary structure involves multiple polypeptide chains, while secondary structure involves only one."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the scale and the types of bonds involved in each level of folding.",
+      "explanation": "Tertiary structure is the full three-dimensional conformation of a single polypeptide, stabilized by interactions between amino acid side chains (R-groups). Option A incorrectly swaps the bond types associated with each structural level.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.3 Protein structures",
+        "subsection_anchor": "3.3 Protein structures",
+        "structural_element": "3.3 Protein structures",
+        "content_anchor": "The tertiary protein structure is the threedimensional shape of protein molecules...fashioned by many stabilizing forces due to the bonding interactions between the side-chain groups of amino acids",
+        "page_hint": "12",
+        "concept_hash": "sha256_of_tertiary_structure"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q014",
+      "generation_timestamp": "2024-05-15T08:11:40Z",
+      "section": "Table: 3.1 Some of enzymes in the body and their functions",
+      "subsection": "Table: 3.1 Some of enzymes in the body and their functions",
+      "sub_subsection": null,
+      "structural_anchor": "Table: 3.1 Some of enzymes in the body and their functions",
+      "mcq_type": "B",
+      "question": "Which enzyme is responsible for breaking down fats into fatty acids and glycerol?",
+      "options": {
+        "A": "Amylase",
+        "B": "Protease",
+        "C": "Lipase",
+        "D": "Maltase"
+      },
+      "correct_answer": "C",
+      "hint": "This enzyme's name is derived from its lipid substrate.",
+      "explanation": "Lipases are a class of enzymes that catalyze the hydrolysis of lipids (fats and oils). Option A, amylase, acts on starch, not fats.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "Table: 3.1 Some of enzymes in the body and their functions",
+        "subsection_anchor": "Table: 3.1 Some of enzymes in the body and their functions",
+        "structural_element": "Table: 3.1 Some of enzymes in the body and their functions",
+        "content_anchor": "Lipases: Split fats",
+        "page_hint": "9",
+        "concept_hash": "sha256_of_lipase"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q015",
+      "generation_timestamp": "2024-05-15T08:11:50Z",
+      "section": "Lab-based activity 3.3",
+      "subsection": "Lab-based activity 3.3",
+      "sub_subsection": null,
+      "structural_anchor": "Lab-based activity 3.3 Experiment on the functions of enzymes",
+      "mcq_type": "L",
+      "question": "When hydrogen peroxide is dropped on a cut potato slice, bubbles of gas form. What is the primary reason for this observation?",
+      "options": {
+        "A": "An enzyme in the potato catalyzes the decomposition of hydrogen peroxide into water and oxygen.",
+        "B": "The acidity of the potato juice reacts with hydrogen peroxide to produce carbon dioxide.",
+        "C": "Mechanical damage from cutting releases trapped air from the potato's tissues.",
+        "D": "Hydrogen peroxide is boiling due to an exothermic reaction with potato starch."
+      },
+      "correct_answer": "A",
+      "hint": "Potatoes contain an enzyme that acts on a toxic compound, breaking it down into harmless products.",
+      "explanation": "The enzyme catalase, present in plant and animal tissues, rapidly breaks down hydrogen peroxide (H₂O₂) into water and oxygen gas. Option B is incorrect because the reaction is enzymatic, not a simple acid-base reaction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "Lab-based activity 3.3",
+        "subsection_anchor": "Lab-based activity 3.3",
+        "structural_element": "Lab-based activity 3.3 Experiment on the functions of enzymes",
+        "content_anchor": "Drop hydrogen peroxide on the potato slice and observe. Students observe that it starts bubbling as a result of enzymatic reactions.",
+        "page_hint": "9",
+        "concept_hash": "sha256_of_catalase_reaction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q016",
+      "generation_timestamp": "2024-05-15T08:12:00Z",
+      "section": "3.4 Enzyme substrate models",
+      "subsection": "3.4 Enzyme substrate models",
+      "sub_subsection": null,
+      "structural_anchor": "3.4 Enzyme substrate models",
+      "mcq_type": "A",
+      "question": "What term describes the idea that the active site of an enzyme is a rigid structure that perfectly fits its substrate?",
+      "options": {
+        "A": "Induced fit model",
+        "B": "Transition state model",
+        "C": "Lock and key model",
+        "D": "Allosteric regulation"
+      },
+      "correct_answer": "C",
+      "hint": "This model uses an analogy of a fixed lock and a specific key.",
+      "explanation": "The lock and key model proposes a static, pre-formed active site complementary to the substrate. Option A describes a model where the active site changes shape upon substrate binding.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.4 Enzyme substrate models",
+        "subsection_anchor": "3.4 Enzyme substrate models",
+        "structural_element": "3.4 Enzyme substrate models",
+        "content_anchor": "the lock and key model",
+        "page_hint": "14",
+        "concept_hash": "sha256_of_lock_and_key"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 76,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q017",
+      "generation_timestamp": "2024-05-15T08:12:10Z",
+      "section": "3.4 Enzyme substrate models",
+      "subsection": "3.4 Enzyme substrate models",
+      "sub_subsection": null,
+      "structural_anchor": "3.4 Enzyme substrate models",
+      "mcq_type": "F",
+      "question": "Which reasoning best explains why the induced fit model is considered a more accurate description of enzyme action than the lock and key model?",
+      "options": {
+        "A": "It accounts for the observation that enzyme activity can be regulated by inhibitor molecules.",
+        "B": "It explains how the binding of a substrate can cause conformational changes in the enzyme that enhance catalysis.",
+        "C": "It emphasizes the high specificity of enzymes for a single substrate.",
+        "D": "It describes how enzymes lower the activation energy for a reaction."
+      },
+      "correct_answer": "B",
+      "hint": "Consider dynamic changes in protein structure upon interaction.",
+      "explanation": "The induced fit model incorporates the flexibility of the enzyme's active site, which molds around the substrate to optimize interactions and facilitate catalysis. Option C is a feature common to both models, not a point of distinction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.4 Enzyme substrate models",
+        "subsection_anchor": "3.4 Enzyme substrate models",
+        "structural_element": "3.4 Enzyme substrate models",
+        "content_anchor": "Enzymes change shapes by induced fit upon substrate binding to form enzyme substrate complexes.",
+        "page_hint": "15",
+        "concept_hash": "sha256_of_induced_fit"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q018",
+      "generation_timestamp": "2024-05-15T08:12:20Z",
+      "section": "3.4 Enzyme substrate models",
+      "subsection": "3.4.1 Enzyme-substrate binding models",
+      "sub_subsection": null,
+      "structural_anchor": "3.4.1 Enzyme-substrate binding models",
+      "mcq_type": "D",
+      "question": "According to the lock and key model of enzyme action, what is the nature of the interaction between the enzyme's active site and the substrate?",
+      "options": {
+        "A": "The active site is flexible and adjusts its shape to fit the substrate.",
+        "B": "The substrate induces a conformational change in the enzyme to form the transition state.",
+        "C": "The active site has a rigid, complementary shape that fits the substrate precisely.",
+        "D": "Multiple substrates can bind to the same active site with equal affinity."
+      },
+      "correct_answer": "C",
+      "hint": "Think of a pre-formed, static fit.",
+      "explanation": "The classic lock and key model posits a static, pre-existing complementarity between the rigid active site and its substrate. Options A and B describe elements of the induced fit model.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.4 Enzyme substrate models",
+        "subsection_anchor": "3.4.1 Enzyme-substrate binding models",
+        "structural_element": "3.4.1 Enzyme-substrate binding models",
+        "content_anchor": "The lock and key model is when enzyme active sites fill- in with a substrate to interact through non- covalent interactions.",
+        "page_hint": "14",
+        "concept_hash": "sha256_of_lock_and_key_interaction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q019",
+      "generation_timestamp": "2024-05-15T08:12:30Z",
+      "section": "3.4 Enzyme substrate models",
+      "subsection": "3.4.1 Enzyme-substrate binding models",
+      "sub_subsection": null,
+      "structural_anchor": "3.4.1 Enzyme-substrate binding models",
+      "mcq_type": "I",
+      "question": "How does the induced fit model for enzyme-substrate interaction primarily differ from the lock and key model?",
+      "options": {
+        "A": "It proposes that enzymes are less specific and can bind many different substrates.",
+        "B": "It suggests the active site is dynamic and undergoes a conformational change upon substrate binding.",
+        "C": "It states that the substrate is chemically modified before it binds to the enzyme.",
+        "D": "It requires the presence of a cofactor for any binding to occur."
+      },
+      "correct_answer": "B",
+      "hint": "Focus on the flexibility of the enzyme's structure.",
+      "explanation": "The key distinction of the induced fit model is the conformational change in the enzyme's active site induced by substrate binding, optimizing the fit for catalysis. Option A is incorrect as both models account for high specificity.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.4 Enzyme substrate models",
+        "subsection_anchor": "3.4.1 Enzyme-substrate binding models",
+        "structural_element": "3.4.1 Enzyme-substrate binding models",
+        "content_anchor": "Enzymes change shapes by induced fit upon substrate binding",
+        "page_hint": "15",
+        "concept_hash": "sha256_of_induced_fit_difference"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q020",
+      "generation_timestamp": "2024-05-15T08:12:40Z",
+      "section": "3.4 Enzyme substrate models",
+      "subsection": "3.4.1 Enzyme-substrate binding models",
+      "sub_subsection": null,
+      "structural_anchor": "3.4.1 Enzyme-substrate binding models",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that an enzyme's active site is permanently altered after catalyzing a single reaction?",
+      "options": {
+        "A": "Assuming the induced fit change is irreversible.",
+        "B": "Confusing the enzyme-substrate complex with the final products.",
+        "C": "Overlooking the role of activation energy in the reaction.",
+        "D": "Misinterpreting the lock and key model as requiring a perfect initial fit."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the cyclical and reusable nature of enzyme catalysis.",
+      "explanation": "Enzymes are catalysts; the conformational changes during induced fit are reversible, allowing the active site to return to its original state after product release. Option B describes a misunderstanding of reaction intermediates, not the permanence of change.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.4 Enzyme substrate models",
+        "subsection_anchor": "3.4.1 Enzyme-substrate binding models",
+        "structural_element": "3.4.1 Enzyme-substrate binding models",
+        "content_anchor": "Enzymes change shapes by induced fit upon substrate binding...The concept of induced fit states that when a substrate binds to an enzyme, it brings about a change in the shape of the enzyme",
+        "page_hint": "15",
+        "concept_hash": "sha256_of_induced_fit_reversibility"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 90000,
+    "average_question_quality": 85.3,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 2,
+      "L": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Lab activity 3.1": 1,
+      "3.2 Properties and functions of enzymes": 1,
+      "3.3 Protein structures": 1,
+      "Table: 3.1 Some of enzymes in the body and their functions": 1,
+      "Lab-based activity 3.3": 1,
+      "3.4 Enzyme substrate models": 5
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,789 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-08-07T00:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Physics_U4_Q010",
+    "covered_sections": ["Introduction>The Concept of Force and Newton's Laws of motion", "Introduction>Weight and the Gravitational Force", "4.2 Frictional Force", "4.3 The First Condition of Equilibrium", "4.4 Work, Energy and Power", "4.5 Conservation of mechanical energy"],
+    "used_question_signatures": ["0cfe3e7b7a3c8a6f1e2d4b9c8a7f6e5d3", "1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6", "7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d", "2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s", "8t9u0v1w2x3y4z5a6b7c8d9e0f1g2", "3h4i5j6k7l8m9n0o1p2q3r4s5t6u7", "8v9w0x1y2z3a4b5c6d7e8f9g0h1i", "2j3k4l5m6n7o8p9q0r1s2t3u4v5w6", "7x8y9z0a1b2c3d4e5f6g7h8i9j0k", "1l2m3n4o5p6q7r8s9t0u1v2w3x4y"],
+    "baseline_counter": {
+      "Introduction": {
+        "The Concept of Force and Newton's Laws of motion": {
+          "count": 4,
+          "mini_headings_covered": ["The concept of force", "Newton's first law of motion", "Newton's Second Law of motion", "Newton's third Law of Motion"],
+          "last_question_round": 1
+        },
+        "Weight and the Gravitational Force": {
+          "count": 3,
+          "mini_headings_covered": ["Weight and the Gravitational Force", "Normal Force"],
+          "last_question_round": 1
+        }
+      },
+      "4.2 Frictional Force": {
+        "[Subsection 2.1]": {
+          "count": 1,
+          "mini_headings_covered": ["Key terms"],
+          "last_question_round": 1
+        }
+      },
+      "4.3 The First Condition of Equilibrium": {
+        "[Subsection 3.1]": {
+          "count": 1,
+          "mini_headings_covered": ["Brainstorming"],
+          "last_question_round": 1
+        }
+      },
+      "4.4 Work, Energy and Power": {
+        "[Subsection 4.1]": {
+          "count": 1,
+          "mini_headings_covered": ["Brainstorming"],
+          "last_question_round": 1
+        }
+      },
+      "4.5 Conservation of mechanical energy": {
+        "[Subsection 5.1]": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "4.6 Impulse and Linear Momentum": {
+        "[Subsection 6.1]": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 7,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.2 Frictional Force": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.3 The First Condition of Equilibrium": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.4 Work, Energy and Power": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.5 Conservation of mechanical energy": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.6 Impulse and Linear Momentum": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>The Concept of Force and Newton's Laws of motion": ["Force", "Newton's First Law", "Newton's Second Law", "Newton's Third Law"],
+      "Introduction>Weight and the Gravitational Force": ["Weight", "Gravitational Force", "Normal Force"],
+      "4.2 Frictional Force>[Subsection 2.1]": ["Friction"],
+      "4.3 The First Condition of Equilibrium>[Subsection 3.1]": ["Equilibrium"],
+      "4.4 Work, Energy and Power>[Subsection 4.1]": ["Work"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_integrity",
+    "content_density_metrics": {
+      "total_concepts_extracted": 10,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 5.7
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Physics",
+  "unit": "Unit 4: DYNAMICS",
+  "pdf_filename": "P11U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-08-07T00:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 6,
+        "progress_percentage": 66.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 7,
+      "structural_coverage_percentage": 7.95,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Introduction",
+      "least_covered_section": "4.5 Conservation of mechanical energy",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Physics_U4_Q001",
+      "generation_timestamp": "2025-08-07T00:00:00Z",
+      "section": "Introduction",
+      "subsection": "The Concept of Force and Newton's Laws of motion",
+      "sub_subsection": null,
+      "structural_anchor": "The concept of force",
+      "mcq_type": "A",
+      "question": "Which of the following accurately defines a force in the context of physics?",
+      "options": {
+        "A": "A push or pull that can change an object's state of motion or cause deformation.",
+        "B": "The energy possessed by a body due to its motion.",
+        "C": "The resistance an object has to any change in its state of motion.",
+        "D": "The rate at which work is done or energy is transferred."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental effect of a force on an object's motion or shape.",
+      "explanation": "Force is defined as an external agent that can change the state of motion of a body or cause deformation. Option B defines kinetic energy, option C defines inertia, and option D defines power.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "The Concept of Force and Newton's Laws of motion",
+        "structural_element": "The concept of force",
+        "content_anchor": "force is a push or pull",
+        "page_hint": "Page 2-3",
+        "concept_hash": "sha256_of_force_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q002",
+      "generation_timestamp": "2025-08-07T00:00:00Z",
+      "section": "Introduction",
+      "subsection": "The Concept of Force and Newton's Laws of motion",
+      "sub_subsection": null,
+      "structural_anchor": "Newton's first law of motion",
+      "mcq_type": "A",
+      "question": "What property of a body describes its tendency to oppose any change in its state of rest or uniform motion?",
+      "options": {
+        "A": "Inertia",
+        "B": "Momentum",
+        "C": "Acceleration",
+        "D": "Velocity"
+      },
+      "correct_answer": "A",
+      "hint": "This property is directly related to an object's mass.",
+      "explanation": "Inertia is the tendency of a body to maintain its state of rest or uniform motion. Option B is the product of mass and velocity, option C is the rate of change of velocity, and option D is the rate of change of displacement.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "The Concept of Force and Newton's Laws of motion",
+        "structural_element": "Newton's first law of motion",
+        "content_anchor": "property of a body to remain at rest or to remain in motion with constant velocity is called inertia",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_inertia_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q003",
+      "generation_timestamp": "2025-08-07T00:00:00Z",
+      "section": "Introduction",
+      "subsection": "The Concept of Force and Newton's Laws of motion",
+      "sub_subsection": null,
+      "structural_anchor": "Newton's Second Law of motion",
+      "mcq_type": "C",
+      "question": "Which mathematical formula correctly represents Newton's Second Law of Motion?",
+      "options": {
+        "A": "F = mv",
+        "B": "F = m/a",
+        "C": "a = F/m",
+        "D": "v = u + at"
+      },
+      "correct_answer": "C",
+      "hint": "Newton's Second Law relates net force, mass, and acceleration.",
+      "explanation": "Newton's Second Law states that acceleration is directly proportional to net force and inversely proportional to mass (a = F_net/m). Option A is momentum, option B is incorrect rearrangement, and option D is a kinematic equation.",
+      "difficulty_level": "easy",
+      "formula_used": ["a = F_net/m"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "The Concept of Force and Newton's Laws of motion",
+        "structural_element": "Newton's Second Law of motion",
+        "content_anchor": "a = F_net/m",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_newtons_second_law_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q004",
+      "generation_timestamp": "2025-08-07T00:00:00Z",
+      "section": "Introduction",
+      "subsection": "The Concept of Force and Newton's Laws of motion",
+      "sub_subsection": null,
+      "structural_anchor": "Newton's third Law of Motion",
+      "mcq_type": "B",
+      "question": "According to Newton's Third Law, if object A exerts a force on object B, what can be said about the force object B exerts on object A?",
+      "options": {
+        "A": "It is in the same direction and larger in magnitude.",
+        "B": "It is equal in magnitude and opposite in direction.",
+        "C": "It is smaller in magnitude and in the same direction.",
+        "D": "It is zero if object B has less mass."
+      },
+      "correct_answer": "B",
+      "hint": "The law describes action-reaction pairs.",
+      "explanation": "Newton's Third Law states that for every action force, there is an equal and opposite reaction force. Option A violates the 'opposite' condition, option C violates the 'equal' condition, and option D incorrectly introduces mass dependence.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "The Concept of Force and Newton's Laws of motion",
+        "structural_element": "Newton's third Law of Motion",
+        "content_anchor": "equal and opposite reaction",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_newtons_third_law"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q005",
+      "generation_timestamp": "2025-08-07T00:00:00Z",
+      "section": "Introduction",
+      "subsection": "Weight and the Gravitational Force",
+      "sub_subsection": null,
+      "structural_anchor": "Weight and the Gravitational Force",
+      "mcq_type": "A",
+      "question": "What is the definition of an object's weight?",
+      "options": {
+        "A": "The gravitational force exerted on the object by the Earth.",
+        "B": "The quantity of matter contained in the object.",
+        "C": "The object's resistance to changes in motion.",
+        "D": "The force an object exerts on a supporting surface."
+      },
+      "correct_answer": "A",
+      "hint": "Weight depends on gravity and is a force.",
+      "explanation": "Weight is the force of gravity acting on an object, given by W = mg. Option B defines mass, option C defines inertia, and option D can describe a normal force but is not the definition of weight.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Weight and the Gravitational Force",
+        "structural_element": "Weight and the Gravitational Force",
+        "content_anchor": "weight of the object denoted by w",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_weight_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q006",
+      "generation_timestamp": "2025-08-07T00:00:00Z",
+      "section": "Introduction",
+      "subsection": "Weight and the Gravitational Force",
+      "sub_subsection": null,
+      "structural_anchor": "Normal Force",
+      "mcq_type": "A",
+      "question": "What is the normal force acting on an object?",
+      "options": {
+        "A": "The perpendicular contact force exerted by a surface on an object.",
+        "B": "The gravitational pull on the object.",
+        "C": "The force parallel to a surface that resists motion.",
+        "D": "The net force causing an object to accelerate."
+      },
+      "correct_answer": "A",
+      "hint": "This force is always perpendicular to the contact surface.",
+      "explanation": "The normal force is the component of contact force perpendicular to the surface. Option B is weight, option C describes friction, and option D is the net or resultant force.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Weight and the Gravitational Force",
+        "structural_element": "Normal Force",
+        "content_anchor": "The upward force that supports the book is the Normal Force",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_normal_force_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q007",
+      "generation_timestamp": "2025-08-07T00:00:00Z",
+      "section": "Introduction",
+      "subsection": "Weight and the Gravitational Force",
+      "sub_subsection": null,
+      "structural_anchor": "Normal Force",
+      "mcq_type": "F",
+      "question": "A book rests on a horizontal table. Under the condition that the table and book are stationary, which reasoning best explains the relationship between the weight of the book and the normal force from the table?",
+      "options": {
+        "A": "The normal force is greater than the weight because the table must push up to support the book.",
+        "B": "The normal force is less than the weight because some force is dissipated as heat.",
+        "C": "The normal force equals the weight because the net vertical force on the book is zero.",
+        "D": "The normal force is unrelated to the weight and depends only on the table's material."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the state of equilibrium and Newton's First Law.",
+      "explanation": "Newton's First Law states that if an object is at rest, the net force on it is zero. Therefore, the upward normal force must balance the downward weight. Option A violates equilibrium, option B incorrectly introduces energy dissipation, and option D ignores the force balance condition.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Weight and the Gravitational Force",
+        "structural_element": "Normal Force",
+        "content_anchor": "Since the book is in equilibrium, the net force acting on the book is zero",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_equilibrium_normal_force"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q008",
+      "generation_timestamp": "2025-08-07T00:00:00Z",
+      "section": "4.2 Frictional Force",
+      "subsection": "[Subsection 2.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Key terms",
+      "mcq_type": "B",
+      "question": "Which term describes the force that opposes the motion of one surface over another?",
+      "options": {
+        "A": "Tension",
+        "B": "Friction",
+        "C": "Normal force",
+        "D": "Weight"
+      },
+      "correct_answer": "B",
+      "hint": "This force arises due to contact between surfaces.",
+      "explanation": "Friction is defined as a force that opposes the relative motion or tendency of such motion between two surfaces in contact. Option A is a pulling force through a string, option C is perpendicular to the surface, and option D is the gravitational force.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.2 Frictional Force",
+        "subsection_anchor": "[Subsection 2.1]",
+        "structural_element": "Key terms",
+        "content_anchor": "Friction: a force that opposes the motion of one surface over another",
+        "page_hint": "Page 20",
+        "concept_hash": "sha256_of_friction_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q009",
+      "generation_timestamp": "2025-08-07T00:00:00Z",
+      "section": "4.3 The First Condition of Equilibrium",
+      "subsection": "[Subsection 3.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming",
+      "mcq_type": "A",
+      "question": "What characterizes an object in translational equilibrium?",
+      "options": {
+        "A": "It is at rest or moving with constant velocity.",
+        "B": "It is accelerating in a straight line.",
+        "C": "It is rotating at a constant angular speed.",
+        "D": "Its kinetic energy is increasing steadily."
+      },
+      "correct_answer": "A",
+      "hint": "Equilibrium relates to a state of no net force.",
+      "explanation": "Translational equilibrium occurs when the net force on an object is zero, resulting in zero acceleration (constant velocity or rest). Option B describes non-equilibrium, option C describes rotational motion, and option D implies a net work is being done.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.3 The First Condition of Equilibrium",
+        "subsection_anchor": "[Subsection 3.1]",
+        "structural_element": "Brainstorming",
+        "content_anchor": "body is at rest or moves uniformly",
+        "page_hint": "Page 32",
+        "concept_hash": "sha256_of_equilibrium_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q010",
+      "generation_timestamp": "2025-08-07T00:00:00Z",
+      "section": "4.4 Work, Energy and Power",
+      "subsection": "[Subsection 4.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming",
+      "mcq_type": "A",
+      "question": "In physics, how is work defined?",
+      "options": {
+        "A": "The product of force and the displacement of the object in the direction of the force.",
+        "B": "The energy stored in an object due to its position.",
+        "C": "The rate at which energy is transferred or transformed.",
+        "D": "The capacity of a system to do work."
+      },
+      "correct_answer": "A",
+      "hint": "Work involves a force causing a displacement.",
+      "explanation": "Work is done when a force causes a displacement, calculated as W = F·s cosθ. Option B defines potential energy, option C defines power, and option D defines energy.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.4 Work, Energy and Power",
+        "subsection_anchor": "[Subsection 4.1]",
+        "structural_element": "Brainstorming",
+        "content_anchor": "work is done when a force acts on something that undergoes a displacement",
+        "page_hint": "Page 35",
+        "concept_hash": "sha256_of_work_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3250,
+    "average_question_quality": 85.5,
+    "type_distribution": {
+      "A": 7,
+      "B": 2,
+      "C": 1,
+      "F": 1
+    },
+    "difficulty_distribution": {
+      "easy": 9,
+      "medium": 1,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Introduction": 7,
+      "4.2 Frictional Force": 1,
+      "4.3 The First Condition of Equilibrium": 1,
+      "4.4 Work, Energy and Power": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

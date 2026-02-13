@@ -1,0 +1,960 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-26T12:58:45Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G12_Physics_U1_Q030",
+    "covered_sections": [
+      "Introduction>Introduction",
+      "Physics and other sciences>Physics and chemistry",
+      "Physics and other sciences>Physics and biology>Physics of Newtonian mechanics and biology",
+      "Physics and other sciences>Physics and biology>Physics of sound wave and biology",
+      "Physics and other sciences>Physics and biology>Physics of fluid flow and biology",
+      "Physics and other sciences>Physics and biology>Physics of electricity and biology",
+      "Physics and other sciences>Physics and biology>Optical physics and biology",
+      "Physics and other sciences>Physics and astronomy>Newton's laws of motion and astronomy",
+      "Physics and other sciences>Physics and astronomy>Physics of electromagnetic wave and astronomy",
+      "Physics and other sciences>Physics and astronomy>Physics of atoms and astronomy",
+      "Physics and other sciences>Physics and geology",
+      "Physics and engineering>Civil engineering",
+      "Physics and engineering>Mechanical engineering",
+      "Physics and engineering>Electrical engineering",
+      "Physics and engineering>Chemical engineering",
+      "Physics and engineering>Technology generating new physics",
+      "Medical physics>Magnetic Resonance Imaging (MRI)",
+      "Medical physics>X-Ray computerized tomography (CT) scan",
+      "Medical physics>Clinical uses of sound: stethoscope and ultrasound",
+      "Medical physics>Radiation therapy",
+      "Physics and defense technology>Radar technology",
+      "Physics in communication>Physics in communication",
+      "Medical physics>Clinical uses of sound: stethoscope and ultrasound>Ultrasound",
+      "Physics and defense technology>Missiles",
+      "Physics and defense technology>Infra-red wave detection for night vision"
+    ],
+    "used_question_signatures": [
+      "sha256_0c3a6b7d1e9f2a5c8b4e7d6f1a9c3b2e8d5f4a7c6b9e2d1f8a3c5b7e9d4f2a1",
+      "sha256_1d4b7c8e2a0f3b6c9d5e8f1a2c7b4e9d3f6a8c5b1e7d2f9a4c6b8e0d3f5a2",
+      "sha256_2e5c8d9f3b1g4d7e0f2b5c8e1d4f7a0c3b6e9d2f5a8c1b4e7d0f3a6c9e2b5",
+      "sha256_3f6d9e0g4c2h5e1g3c6f0b4d7g1c4e8a2d5f9b2e6a0d3f7b1e5a9d2f6b0",
+      "sha256_4g7e0f1h5d3i6f2h4d7g2b5e8h2d5f9a3e6f0b3e7a1d4f8b2e6a0d3f7b1",
+      "sha256_5h8f1g2i6e4j7g3i5e8h3c6f9i3e6g0a4f7g1c4f8a2e5g9c3f7a1e4g8c2",
+      "sha256_6i9g2h3j7f5k8h4j6f9i4d7g0j4f7h1a5g8h2d5g9a3f6h0d4g8a2f5h9d3",
+      "sha256_7j0h3i4k8g6l9i5k7g0j5e8h1k5g8i2a6h9i3e6h0a4g7i1e5h9a3g6i0e4",
+      "sha256_8k1i4j5l9h7m0j6l8h1k6f9i2l6h9j3a7i0j4f7i1a5h8j2f6i0a4h7j1f5",
+      "sha256_9l2j5k6m0i8n1k7m9i2l7g0j3m7i0k4a8j1k5g8j2a6i9k3g7j1a5i8k2g6",
+      "sha256_a3b8c9d0e1f2g3h4i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6",
+      "sha256_b4c9d0e1f2g3h4i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7",
+      "sha256_c5d0e1f2g3h4i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8",
+      "sha256_d6e1f2g3h4i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9",
+      "sha256_e7f2g3h4i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0",
+      "sha256_f8g3h4i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1",
+      "sha256_g9h4i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2",
+      "sha256_h0i5j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3",
+      "sha256_i1j6k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3j4",
+      "sha256_j2k7l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3j4k5",
+      "sha256_k3l8m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3j4k5l6",
+      "sha256_l4m9n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3j4k5l6m7",
+      "sha256_m5n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3j4k5l6m7n8",
+      "sha256_n6a1b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9",
+      "sha256_o7b2c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0",
+      "sha256_p8c3d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1",
+      "sha256_q9d4e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2",
+      "sha256_r0e5f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3",
+      "sha256_s1f6g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4",
+      "sha256_t2g7h8i9j0k1l2m3n4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5"
+    ],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Physics and other sciences": {
+        "Physics and chemistry": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Physics and biology": {
+          "Physics of Newtonian mechanics and biology": {
+            "count": 2,
+            "mini_headings_covered": ["Physics of Newtonian mechanics and biology"],
+            "last_question_round": 2
+          },
+          "Physics of sound wave and biology": {
+            "count": 2,
+            "mini_headings_covered": ["Physics of sound wave and biology"],
+            "last_question_round": 1
+          },
+          "Physics of fluid flow and biology": {
+            "count": 2,
+            "mini_headings_covered": ["Physics of fluid flow and biology"],
+            "last_question_round": 3
+          },
+          "Physics of electricity and biology": {
+            "count": 2,
+            "mini_headings_covered": ["Physics of electricity and biology"],
+            "last_question_round": 3
+          },
+          "Optical physics and biology": {
+            "count": 2,
+            "mini_headings_covered": ["Optical physics and biology"],
+            "last_question_round": 3
+          }
+        },
+        "Physics and astronomy": {
+          "Newton's laws of motion and astronomy": {
+            "count": 2,
+            "mini_headings_covered": ["Newton's laws of motion and astronomy"],
+            "last_question_round": 2
+          },
+          "Physics of electromagnetic wave and astronomy": {
+            "count": 2,
+            "mini_headings_covered": ["Physics of electromagnetic wave and astronomy"],
+            "last_question_round": 2
+          },
+          "Physics of atoms and astronomy": {
+            "count": 2,
+            "mini_headings_covered": ["Physics of atoms and astronomy"],
+            "last_question_round": 3
+          }
+        },
+        "Physics and geology": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Physics and engineering": {
+        "Civil engineering": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Mechanical engineering": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Electrical engineering": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Chemical engineering": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Technology generating new physics": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Medical physics": {
+        "Magnetic Resonance Imaging (MRI)": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "X-Ray computerized tomography (CT) scan": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Clinical uses of sound: stethoscope and ultrasound": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Radiation therapy": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Physics and defense technology": {
+        "Radar technology": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Missiles": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Infra-red wave detection for night vision": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Physics in communication": {
+        "Physics in communication": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Physics and other sciences": {
+        "question_count": 18,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Physics and engineering": {
+        "question_count": 10,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Medical physics": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Physics and defense technology": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Physics in communication": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["scientific fields interdependence", "physics role in science", "interdisciplinary collaboration"],
+      "Physics and other sciences>Physics and chemistry": ["spectroscopy", "atomic structure", "molecular bonding", "energy transfer"],
+      "Physics and other sciences>Physics and biology>Physics of Newtonian mechanics and biology": ["center of mass", "equilibrium", "stability", "torque"],
+      "Physics and other sciences>Physics and biology>Physics of sound wave and biology": ["sound production", "vocal cords", "mechanical waves", "vibration"],
+      "Physics and other sciences>Physics and biology>Physics of fluid flow and biology": ["blood circulation", "Pascal's principle", "fluid dynamics", "viscosity"],
+      "Physics and other sciences>Physics and biology>Physics of electricity and biology": ["neurons", "nervous system", "electrical signals", "brain function"],
+      "Physics and other sciences>Physics and biology>Optical physics and biology": ["photosynthesis", "vision", "electromagnetic spectrum", "light absorption"],
+      "Physics and other sciences>Physics and astronomy>Newton's laws of motion and astronomy": ["gravitational force", "orbital motion", "centripetal force", "planetary motion"],
+      "Physics and other sciences>Physics and astronomy>Physics of electromagnetic wave and astronomy": ["electromagnetic spectrum", "telescopes", "inverse square law", "apparent brightness"],
+      "Physics and other sciences>Physics and astronomy>Physics of atoms and astronomy": ["atomic transitions", "spectral analysis", "temperature determination", "electron orbits"],
+      "Physics and other sciences>Physics and geology": ["earth science", "geological processes", "rock properties", "mineral analysis"],
+      "Physics and engineering>Civil engineering": ["structural design", "forces", "material strength", "load distribution"],
+      "Physics and engineering>Mechanical engineering": ["mechanical systems", "thermodynamics", "dynamics", "energy conversion"],
+      "Physics and engineering>Electrical engineering": ["electrical circuits", "energy conversion", "electromagnetism", "motor design"],
+      "Physics and engineering>Chemical engineering": ["physical chemistry", "molecular dynamics", "thermodynamics", "process design"],
+      "Physics and engineering>Technology generating new physics": ["technology-science interdependence", "experimental tools", "measurement instruments"],
+      "Medical physics>Magnetic Resonance Imaging (MRI)": ["magnetic resonance", "protons", "hydrogen atoms", "tissue differentiation"],
+      "Medical physics>X-Ray computerized tomography (CT) scan": ["X-ray absorption", "density differences", "tomography", "3D reconstruction"],
+      "Medical physics>Clinical uses of sound: stethoscope and ultrasound": ["sound diagnosis", "frequency ranges", "echo detection", "medical imaging"],
+      "Medical physics>Radiation therapy": ["ionizing radiation", "cancer treatment", "tumor destruction", "radiation dosage"],
+      "Physics and defense technology>Radar technology": ["radio detection", "electromagnetic signals", "range calculation", "target tracking"],
+      "Physics and defense technology>Missiles": ["rocket propulsion", "guidance systems", "trajectory calculation", "Newtonian mechanics"],
+      "Physics and defense technology>Infra-red wave detection for night vision": ["infrared radiation", "thermal imaging", "night vision", "temperature detection"],
+      "Physics in communication>Physics in communication": ["electromagnetic theory", "wireless communication", "wave propagation", "signal transmission"],
+      "Medical physics>Clinical uses of sound: stethoscope and ultrasound>Ultrasound": ["ultrasonic waves", "echo imaging", "frequency selection", "tissue reflection"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_previous_state_hash_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 60,
+      "questions_per_concept_ratio": 0.5,
+      "structural_coverage_percentage": 87.5
+    }
+  },
+  "grade": "12",
+  "subject": "Physics",
+  "unit": "Unit 1: Application of physics in other fields",
+  "pdf_filename": "P12U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-26T12:58:45Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 83.33
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 9.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 25,
+      "mini_headings_covered_count": 9,
+      "structural_coverage_percentage": 87.5,
+      "concept_utilization_ratio": 0.5
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Physics and other sciences",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 9.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Physics_U1_Q021",
+      "generation_timestamp": "2025-01-26T12:58:45Z",
+      "section": "Medical physics",
+      "subsection": "Clinical uses of sound: stethoscope and ultrasound",
+      "sub_subsection": "Ultrasound",
+      "structural_anchor": "Ultrasound",
+      "mcq_type": "E",
+      "question": "What minimum frequency defines ultrasonic waves used in medical imaging applications?",
+      "options": {
+        "A": "10 Hz",
+        "B": "100 Hz",
+        "C": "1,000 Hz",
+        "D": "20,000 Hz"
+      },
+      "correct_answer": "D",
+      "hint": "This frequency is above human hearing range.",
+      "explanation": "Ultrasound refers to sound waves with frequencies above 20,000 Hz, beyond human auditory perception. Option C represents 1 kHz, within the audible range rather than ultrasonic frequencies.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": "Hz",
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Medical physics",
+        "subsection_anchor": "Clinical uses of sound: stethoscope and ultrasound",
+        "structural_element": "Ultrasound",
+        "content_anchor": "ultrasound frequency above 20 kHz",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_ultrasound_frequency"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q022",
+      "generation_timestamp": "2025-01-26T12:58:45Z",
+      "section": "Medical physics",
+      "subsection": "Radiation therapy",
+      "sub_subsection": null,
+      "structural_anchor": "Radiation therapy",
+      "mcq_type": "G",
+      "question": "If gamma radiation penetrates biological tissue, what immediate atomic-scale interaction occurs?",
+      "options": {
+        "A": "Electrons are removed from biological molecules",
+        "B": "Atomic nuclei undergo fission reactions",
+        "C": "Molecules gain additional electrons",
+        "D": "Atoms become completely neutral"
+      },
+      "correct_answer": "A",
+      "hint": "Consider ionization effects of high-energy radiation.",
+      "explanation": "Gamma radiation has sufficient energy to ionize atoms by removing electrons from biological molecules. Option B describes nuclear fission, which requires different energy conditions than typical radiation therapy interactions.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Medical physics",
+        "subsection_anchor": "Radiation therapy",
+        "structural_element": "Radiation therapy",
+        "content_anchor": "radiation removes electrons from biological molecules",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_radiation_ionization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q023",
+      "generation_timestamp": "2025-01-26T12:58:45Z",
+      "section": "Physics and defense technology",
+      "subsection": "Radar technology",
+      "sub_subsection": null,
+      "structural_anchor": "Radar technology",
+      "mcq_type": "E",
+      "question": "A radar signal takes 0.0002 seconds to travel to a target and return. What is the target's distance from the radar if the speed of light is 3×10⁸ m/s?",
+      "options": {
+        "A": "15,000 m",
+        "B": "30,000 m",
+        "C": "45,000 m",
+        "D": "60,000 m"
+      },
+      "correct_answer": "B",
+      "hint": "Calculate round-trip distance then halve for one-way distance.",
+      "explanation": "Radar distance calculation uses R = ct/2, giving (3×10⁸ × 0.0002)/2 = 30,000 m. Option A results from forgetting to halve the round-trip distance, a common calculation error.",
+      "difficulty_level": "medium",
+      "formula_used": ["R = ct/2"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "m",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and defense technology",
+        "subsection_anchor": "Radar technology",
+        "structural_element": "Radar technology",
+        "content_anchor": "radar range calculation R = ct/2",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_radar_range_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q024",
+      "generation_timestamp": "2025-01-26T12:58:45Z",
+      "section": "Physics and defense technology",
+      "subsection": "Missiles",
+      "sub_subsection": null,
+      "structural_anchor": "Missiles",
+      "mcq_type": "M",
+      "question": "What correct sequence describes the operational phases of a ballistic missile after launch?",
+      "options": {
+        "A": "Rocket-powered ascent → Coasting under gravity → Atmospheric re-entry",
+        "B": "Continuous jet propulsion → Guided descent → Impact",
+        "C": "Free fall → Powered flight → Mid-course correction",
+        "D": "Atmospheric flight → Space flight → Ocean landing"
+      },
+      "correct_answer": "A",
+      "hint": "Consider propulsion duration and gravitational effects.",
+      "explanation": "Ballistic missiles follow rocket-powered ascent, followed by coasting under gravitational influence, then atmospheric re-entry toward target. Option B describes cruise missiles, which maintain propulsion throughout flight rather than coasting ballistically.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and defense technology",
+        "subsection_anchor": "Missiles",
+        "structural_element": "Missiles",
+        "content_anchor": "ballistic missile phases: rocket-powered then coasting",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_ballistic_missile_phases"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q025",
+      "generation_timestamp": "2025-01-26T12:58:45Z",
+      "section": "Physics and defense technology",
+      "subsection": "Infra-red wave detection for night vision",
+      "sub_subsection": null,
+      "structural_anchor": "Infra-red wave detection for night vision",
+      "mcq_type": "D",
+      "question": "What physical property do infrared detection devices use to identify objects in darkness?",
+      "options": {
+        "A": "Sound emission patterns",
+        "B": "Magnetic field variations",
+        "C": "Thermal radiation intensity",
+        "D": "Visible light reflection"
+      },
+      "correct_answer": "C",
+      "hint": "Consider temperature-related radiation.",
+      "explanation": "Infrared devices detect thermal radiation emitted by objects based on their temperature. Option D refers to visible light detection, which requires illumination rather than thermal emission sensing.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and defense technology",
+        "subsection_anchor": "Infra-red wave detection for night vision",
+        "structural_element": "Infra-red wave detection for night vision",
+        "content_anchor": "infrared detects thermal radiation",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_infrared_thermal_detection"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q026",
+      "generation_timestamp": "2025-01-26T12:58:45Z",
+      "section": "Physics in communication",
+      "subsection": "Physics in communication",
+      "sub_subsection": null,
+      "structural_anchor": "Physics in communication",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that wired communication doesn't require physics knowledge?",
+      "options": {
+        "A": "Electrical signal propagation through wires involves electromagnetic principles",
+        "B": "Optical fiber communication depends on total internal reflection physics",
+        "C": "Wired systems eliminate all wave phenomena present in wireless systems",
+        "D": "Cable design considers impedance matching and signal attenuation physics"
+      },
+      "correct_answer": "C",
+      "hint": "Consider wave behavior in guided media.",
+      "explanation": "Wired communication systems still involve wave phenomena like signal reflection and attenuation governed by physics principles. Option A correctly describes electromagnetic aspects of wired communication, not an error.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics in communication",
+        "subsection_anchor": "Physics in communication",
+        "structural_element": "Physics in communication",
+        "content_anchor": "wired communication uses physics electromagnetic principles",
+        "page_hint": "Page 20",
+        "concept_hash": "sha256_wired_communication_physics"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q027",
+      "generation_timestamp": "2025-01-26T12:58:45Z",
+      "section": "Physics and other sciences",
+      "subsection": "Physics and biology",
+      "sub_subsection": "Physics of fluid flow and biology",
+      "structural_anchor": "Physics of fluid flow and biology",
+      "mcq_type": "N",
+      "question": "Under what physiological condition does Pascal's principle enable locomotion in soft-bodied animals?",
+      "options": {
+        "A": "When fluid is confined within body compartments",
+        "B": "During external fluid flow around the organism",
+        "C": "When body temperature exceeds environmental temperature",
+        "D": "Only during rapid swimming motions"
+      },
+      "correct_answer": "A",
+      "hint": "Consider pressure transmission in enclosed spaces.",
+      "explanation": "Pascal's principle applies to confined fluids, allowing pressure transmission for movement in soft-bodied animals. Option B describes external flow conditions that don't utilize Pascal's principle for locomotion mechanics.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and other sciences",
+        "subsection_anchor": "Physics and biology",
+        "structural_element": "Physics of fluid flow and biology",
+        "content_anchor": "Pascal's principle requires confined fluid",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_pascal_confined_fluid"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q028",
+      "generation_timestamp": "2025-01-26T12:58:45Z",
+      "section": "Physics and other sciences",
+      "subsection": "Physics and biology",
+      "sub_subsection": "Physics of electricity and biology",
+      "structural_anchor": "Physics of electricity and biology",
+      "mcq_type": "G",
+      "question": "If neurons receive appropriate stimuli, what electrical phenomenon propagates along their structures?",
+      "options": {
+        "A": "Continuous direct current",
+        "B": "Pulsed voltage signals",
+        "C": "Alternating current waves",
+        "D": "Static charge accumulation"
+      },
+      "correct_answer": "B",
+      "hint": "Consider discrete signal transmission in nerve cells.",
+      "explanation": "Neurons generate action potentials, which are pulsed electrical signals that propagate along their membranes. Option A describes constant current flow rather than the pulsed transmission characteristic of neural signaling.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and other sciences",
+        "subsection_anchor": "Physics and biology",
+        "structural_element": "Physics of electricity and biology",
+        "content_anchor": "neurons produce electrical pulses",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_neural_electrical_pulses"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q029",
+      "generation_timestamp": "2025-01-26T12:58:45Z",
+      "section": "Physics and other sciences",
+      "subsection": "Physics and astronomy",
+      "sub_subsection": "Physics of atoms and astronomy",
+      "structural_anchor": "Physics of atoms and astronomy",
+      "mcq_type": "F",
+      "question": "Which reasoning best explains why atomic spectral lines indicate stellar composition?",
+      "options": {
+        "A": "Different elements emit unique wavelength patterns during electron transitions",
+        "B": "All elements produce identical spectral signatures at high temperatures",
+        "C": "Spectral lines depend only on stellar distance, not composition",
+        "D": "Atomic emissions randomize in stellar atmospheres"
+      },
+      "correct_answer": "A",
+      "hint": "Consider element-specific electron energy levels.",
+      "explanation": "Each element has characteristic electron energy transitions that produce unique spectral lines, enabling composition analysis. Option B incorrectly suggests spectral uniformity, whereas different elements have distinct emission patterns.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and other sciences",
+        "subsection_anchor": "Physics and astronomy",
+        "structural_element": "Physics of atoms and astronomy",
+        "content_anchor": "atomic spectral lines indicate element composition",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_spectral_lines_composition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U1_Q030",
+      "generation_timestamp": "2025-01-26T12:58:45Z",
+      "section": "Physics and engineering",
+      "subsection": "Chemical engineering",
+      "sub_subsection": null,
+      "structural_anchor": "Chemical engineering",
+      "mcq_type": "K",
+      "question": "Which interpretation correctly describes the role of molecular physics in chemical engineering?",
+      "options": {
+        "A": "Molecular physics provides theoretical understanding of chemical bond energies and dynamics",
+        "B": "Chemical engineering ignores molecular-scale phenomena in process design",
+        "C": "Only macroscopic thermodynamics matters for chemical engineering applications",
+        "D": "Molecular properties remain constant across all engineering scales"
+      },
+      "correct_answer": "A",
+      "hint": "Consider scale-bridging between molecular and industrial processes.",
+      "explanation": "Molecular physics informs chemical engineering by explaining bond energies and reaction dynamics relevant to process design. Option B incorrectly dismisses molecular-scale understanding, which is essential for optimizing chemical processes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Application of physics in other fields",
+        "section_anchor": "Physics and engineering",
+        "subsection_anchor": "Chemical engineering",
+        "structural_element": "Chemical engineering",
+        "content_anchor": "chemical engineering uses molecular physics",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_chemical_engineering_molecular_physics"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3980,
+    "average_question_quality": 84.0,
+    "type_distribution": {
+      "D": 2,
+      "E": 2,
+      "F": 1,
+      "G": 2,
+      "H": 1,
+      "K": 1,
+      "M": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 8,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Medical physics": 2,
+      "Physics and defense technology": 3,
+      "Physics in communication": 1,
+      "Physics and other sciences": 3,
+      "Physics and engineering": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

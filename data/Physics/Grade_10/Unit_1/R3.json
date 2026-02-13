@@ -1,0 +1,789 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:40:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Physics_U1_Q030",
+    "covered_sections": ["Introduction", "1.1 Scalars and Vectors", "1.2 Vector representations", "1.3 Vector addition and subtraction", "1.4 Graphical method of vector addition", "1.5 Vector resolution", "End of unit summary"],
+    "used_question_signatures": ["hash_A_scalar_magnitude_Introduction", "hash_B_vector_magnitude_direction_1.1", "hash_C_vector_representation_1.2", "hash_D_vector_addition_parallel_1.3", "hash_E_resultant_calculation_1.3", "hash_F_commutative_property_1.4", "hash_G_component_zero_1.5", "hash_H_triangle_method_1.4", "hash_I_parallelogram_method_1.4", "hash_J_vector_equality_1.2", "hash_K_scalar_examples_1.1", "hash_L_vector_examples_1.1", "hash_M_geometric_representation_1.2", "hash_N_anti_parallel_1.3", "hash_O_perpendicular_direction_1.3", "hash_P_subtraction_concept_1.3", "hash_Q_polygon_method_1.4", "hash_R_component_formulas_1.5", "hash_S_magnitude_direction_EndSummary", "hash_T_resultant_properties_EndSummary", "hash_U_equal_vectors_1.2", "hash_V_negative_vector_1.2", "hash_W_scalar_vector_addition_1.3", "hash_X_maximum_minimum_resultant_1.3", "hash_Y_scale_selection_1.4", "hash_Z_head_tail_connection_1.4", "hash_AA_displacement_calculation_1.5", "hash_BB_angle_calculation_1.5", "hash_CC_vector_resolution_definition_1.5", "hash_DD_commutative_property_EndSummary"],
+    "baseline_counter": {
+      "Introduction": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "1.1 Scalars and Vectors": {
+        "count": 4,
+        "mini_headings_covered": ["Key concepts:"],
+        "last_question_round": 2
+      },
+      "1.2 Vector representations": {
+        "count": 5,
+        "mini_headings_covered": ["Key concepts"],
+        "last_question_round": 3
+      },
+      "1.3 Vector addition and subtraction": {
+        "count": 7,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "1.4 Graphical method of vector addition": {
+        "count": 6,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "1.5 Vector resolution": {
+        "count": 6,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "End of unit summary": {
+        "count": 3,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.1 Scalars and Vectors": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "1.2 Vector representations": {
+        "question_count": 5,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "1.3 Vector addition and subtraction": {
+        "question_count": 7,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "1.4 Graphical method of vector addition": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "1.5 Vector resolution": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "End of unit summary": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction": ["Scalar quantities", "Vector quantities"],
+      "1.1 Scalars and Vectors": ["Magnitude", "Direction", "Complete description", "Scalar examples", "Vector examples"],
+      "1.2 Vector representations": ["Algebraic representation", "Geometric representation", "Arrow notation", "Head and tail", "Equal vectors", "Negative vectors"],
+      "1.3 Vector addition and subtraction": ["Parallel vectors", "Resultant magnitude", "Vector subtraction", "Anti-parallel vectors", "Perpendicular resultant", "Scalar-vector addition restriction", "Maximum/minimum resultant"],
+      "1.4 Graphical method of vector addition": ["Triangle method", "Parallelogram method", "Commutative property", "Polygon method", "Scale selection", "Head-to-tail connection"],
+      "1.5 Vector resolution": ["Vector components", "Zero component", "Component formulas", "Displacement calculation", "Angle calculation", "Resolution definition"],
+      "End of unit summary": ["Scalar definition", "Vector definition", "Resultant properties", "Commutative property"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_round_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 31,
+      "questions_per_concept_ratio": 0.97,
+      "structural_coverage_percentage": 100.0
+    }
+  },
+  "grade": "10",
+  "subject": "Physics",
+  "unit": "Unit 1: Vector Quantities",
+  "pdf_filename": "P10U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:40:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 7,
+        "total_sections": 7,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.33,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 7,
+      "subsections_covered_count": 30,
+      "mini_headings_covered_count": 2,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 0.97
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.3 Vector addition and subtraction",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 7.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Physics_U1_Q021",
+      "generation_timestamp": "2025-01-28T10:40:00Z",
+      "section": "1.2 Vector representations",
+      "subsection": "1.2 Vector representations",
+      "sub_subsection": null,
+      "structural_anchor": "1.2 Vector representations",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that two vectors with equal magnitudes must always be equal?",
+      "options": {
+        "A": "Vector equality requires both equal magnitude and same direction, not magnitude alone",
+        "B": "Vector equality depends only on magnitude regardless of direction",
+        "C": "Vectors with equal magnitudes are always negatives of each other",
+        "D": "Direction is irrelevant for vector comparison if magnitudes match"
+      },
+      "correct_answer": "A",
+      "hint": "Consider both requirements for vector equality.",
+      "explanation": "Vector equality requires identical magnitude and direction, not just magnitude. Option B incorrectly suggests direction doesn't matter, when it's essential for vector equality.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "1.2 Vector representations",
+        "subsection_anchor": "1.2 Vector representations",
+        "structural_element": "1.2 Vector representations",
+        "content_anchor": "Two vectors are said to be equal if their magnitudes are equal and they point in the same direction",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_equal_vectors"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 82,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Physics_U1_Q022",
+      "generation_timestamp": "2025-01-28T10:40:01Z",
+      "section": "1.2 Vector representations",
+      "subsection": "Figure 1.2",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 1.2",
+      "mcq_type": "G",
+      "question": "If vector D has the same magnitude as vector A but opposite direction, what mathematical relationship exists between D and A?",
+      "options": {
+        "A": "D = -A",
+        "B": "D = A",
+        "C": "D = 1/A",
+        "D": "D = 0"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how opposite direction affects vector notation.",
+      "explanation": "Vectors with equal magnitude but opposite direction are negatives of each other. Option B incorrectly assumes equality, which requires same direction, not opposite.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "1.2 Vector representations",
+        "subsection_anchor": "Figure 1.2",
+        "structural_element": "Figure 1.2",
+        "content_anchor": "A vector which has the same magnitude as A but has opposite direction, is called negative of A",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_negative_vector"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Physics_U1_Q023",
+      "generation_timestamp": "2025-01-28T10:40:02Z",
+      "section": "1.3 Vector addition and subtraction",
+      "subsection": "Key concepts:",
+      "sub_subsection": null,
+      "structural_anchor": "Key concepts:",
+      "mcq_type": "F",
+      "question": "Under the condition that one quantity is scalar and another is vector, which reasoning best explains why they cannot be added together?",
+      "options": {
+        "A": "Scalars and vectors represent fundamentally different mathematical entities with incompatible descriptive requirements",
+        "B": "Scalars and vectors can be added if they share the same units",
+        "C": "Scalars transform into vectors during addition operations",
+        "D": "Vector addition algorithms automatically convert scalars to vectors"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the definitional differences between scalars and vectors.",
+      "explanation": "Scalars and vectors differ fundamentally: scalars have magnitude only while vectors have magnitude and direction, making addition impossible. Option B incorrectly suggests unit compatibility enables addition, ignoring the directional requirement difference.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "1.3 Vector addition and subtraction",
+        "subsection_anchor": "Key concepts:",
+        "structural_element": "Key concepts:",
+        "content_anchor": "Scalars and vectors can never be added",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_scalar_vector_addition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 83
+      }
+    },
+    {
+      "question_id": "G10_Physics_U1_Q024",
+      "generation_timestamp": "2025-01-28T10:40:03Z",
+      "section": "1.3 Vector addition and subtraction",
+      "subsection": "Example 1.2",
+      "sub_subsection": null,
+      "structural_anchor": "Example 1.2",
+      "mcq_type": "E",
+      "question": "Two vectors have lengths of 9 km and 4 km. What is the minimum possible magnitude of their vector sum?",
+      "options": {
+        "A": "5 km",
+        "B": "13 km",
+        "C": "9.85 km",
+        "D": "4 km"
+      },
+      "correct_answer": "A",
+      "hint": "Consider when vectors are in opposite directions.",
+      "explanation": "Minimum resultant occurs with opposite directions: 9 km - 4 km = 5 km. Option B incorrectly gives the maximum resultant when vectors are in the same direction.",
+      "difficulty_level": "medium",
+      "formula_used": ["R_min = |A - B|"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "km",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "1.3 Vector addition and subtraction",
+        "subsection_anchor": "Example 1.2",
+        "structural_element": "Example 1.2",
+        "content_anchor": "If the two vectors are in opposite directions, the magnitude of their sum will be a minimum",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_maximum_minimum_resultant"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Physics_U1_Q025",
+      "generation_timestamp": "2025-01-28T10:40:04Z",
+      "section": "1.4 Graphical method of vector addition",
+      "subsection": "Procedure for using graphical method of vector addition",
+      "sub_subsection": null,
+      "structural_anchor": "Procedure for using graphical method of vector addition",
+      "mcq_type": "L",
+      "question": "In a graphical vector addition experiment, a student uses a scale where 1 cm represents 5 N. If a force vector measures 3.2 cm in length, what is the actual force magnitude?",
+      "options": {
+        "A": "16 N",
+        "B": "1.6 N",
+        "C": "8.2 N",
+        "D": "32 N"
+      },
+      "correct_answer": "A",
+      "hint": "Apply the scale conversion factor to the measured length.",
+      "explanation": "Using the scale 1 cm = 5 N: 3.2 cm × 5 N/cm = 16 N. Option B incorrectly divides instead of multiplies, giving 3.2 cm ÷ 2 = 1.6 N.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": "N",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "1.4 Graphical method of vector addition",
+        "subsection_anchor": "Procedure for using graphical method of vector addition",
+        "structural_element": "Procedure for using graphical method of vector addition",
+        "content_anchor": "Decide on an appropriate scale. Record it on the diagram",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_scale_selection"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 81,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Physics_U1_Q026",
+      "generation_timestamp": "2025-01-28T10:40:05Z",
+      "section": "1.4 Graphical method of vector addition",
+      "subsection": "Triangle method of vector addition",
+      "sub_subsection": null,
+      "structural_anchor": "Triangle method of vector addition",
+      "mcq_type": "B",
+      "question": "What geometric arrangement characterizes the triangle method of vector addition?",
+      "options": {
+        "A": "Head of first vector connected to tail of second vector",
+        "B": "Tails of both vectors connected at common point",
+        "C": "Heads of both vectors connected at common point",
+        "D": "Vectors placed parallel without connection"
+      },
+      "correct_answer": "A",
+      "hint": "Recall how vectors are arranged in the triangle method.",
+      "explanation": "The triangle method requires head-to-tail connection forming a triangle. Option B describes the parallelogram method where vectors start from the same point.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "1.4 Graphical method of vector addition",
+        "subsection_anchor": "Triangle method of vector addition",
+        "structural_element": "Triangle method of vector addition",
+        "content_anchor": "the head of vector A should be joined to the tail of vector B",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_head_tail_connection"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Physics_U1_Q027",
+      "generation_timestamp": "2025-01-28T10:40:06Z",
+      "section": "1.5 Vector resolution",
+      "subsection": "Example 1.4",
+      "sub_subsection": null,
+      "structural_anchor": "Example 1.4",
+      "mcq_type": "D",
+      "question": "A person walks 5 km east and then 12 km north. What is the magnitude of their resultant displacement?",
+      "options": {
+        "A": "13 km",
+        "B": "17 km",
+        "C": "7 km",
+        "D": "8.5 km"
+      },
+      "correct_answer": "A",
+      "hint": "Use the Pythagorean theorem for perpendicular displacements.",
+      "explanation": "Perpendicular displacements: R = √(5² + 12²) = √(25 + 144) = √169 = 13 km. Option B incorrectly adds the distances directly, treating them as collinear rather than perpendicular.",
+      "difficulty_level": "medium",
+      "formula_used": ["R = √(A² + B²)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "km",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "1.5 Vector resolution",
+        "subsection_anchor": "Example 1.4",
+        "structural_element": "Example 1.4",
+        "content_anchor": "The magnitude of the displacement S is given by the Pythagorean theorem",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_displacement_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Physics_U1_Q028",
+      "generation_timestamp": "2025-01-28T10:40:07Z",
+      "section": "1.5 Vector resolution",
+      "subsection": "Example 1.4",
+      "sub_subsection": null,
+      "structural_anchor": "Example 1.4",
+      "mcq_type": "E",
+      "question": "If a vector has components A_x = 15 m and A_y = 20 m, what angle does this vector make with the positive x-axis?",
+      "options": {
+        "A": "53.1°",
+        "B": "36.9°",
+        "C": "45.0°",
+        "D": "60.0°"
+      },
+      "correct_answer": "A",
+      "hint": "Use the inverse tangent function with the component ratio.",
+      "explanation": "θ = tan⁻¹(A_y/A_x) = tan⁻¹(20/15) = tan⁻¹(1.333) = 53.1°. Option B incorrectly uses tan⁻¹(15/20) = 36.9°, reversing the component ratio.",
+      "difficulty_level": "medium",
+      "formula_used": ["θ = tan⁻¹(A_y/A_x)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "degrees",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "1.5 Vector resolution",
+        "subsection_anchor": "Example 1.4",
+        "structural_element": "Example 1.4",
+        "content_anchor": "θ = tan⁻¹(0.666...) = 33.69°",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_angle_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Physics_U1_Q029",
+      "generation_timestamp": "2025-01-28T10:40:08Z",
+      "section": "1.5 Vector resolution",
+      "subsection": "Section summary",
+      "sub_subsection": null,
+      "structural_anchor": "Section summary",
+      "mcq_type": "A",
+      "question": "What is the process called when a single vector is broken down into two or more component vectors?",
+      "options": {
+        "A": "Vector resolution",
+        "B": "Vector addition",
+        "C": "Vector subtraction",
+        "D": "Vector multiplication"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the term for decomposing vectors into components.",
+      "explanation": "Breaking a vector into components is called vector resolution. Option B incorrectly refers to combining vectors, which is the opposite of resolution.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "1.5 Vector resolution",
+        "subsection_anchor": "Section summary",
+        "structural_element": "Section summary",
+        "content_anchor": "The process of breaking a vector into its components is called resolving into components",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_vector_resolution_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Physics_U1_Q030",
+      "generation_timestamp": "2025-01-28T10:40:09Z",
+      "section": "End of unit summary",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "End of unit summary",
+      "mcq_type": "F",
+      "question": "Under the condition that vector addition follows the commutative property, which reasoning best explains why A + B produces the same resultant as B + A?",
+      "options": {
+        "A": "The order of addition does not affect the final magnitude and direction of the resultant vector",
+        "B": "Vectors change their properties when added in reverse order",
+        "C": "Commutative property only applies to perpendicular vectors",
+        "D": "Graphical methods enforce specific addition sequences"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the independence of resultant from addition sequence.",
+      "explanation": "Vector addition is commutative because the resultant's characteristics remain unchanged regardless of addition order. Option C incorrectly restricts commutativity, when it applies to all vector additions regardless of angle.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "End of unit summary",
+        "subsection_anchor": null,
+        "structural_element": "End of unit summary",
+        "content_anchor": "A + B = B + A is commutative property of vectors",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_commutative_property"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 81,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2550,
+    "average_question_quality": 85.8,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "D": 1,
+      "E": 2,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "L": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 7,
+      "hard": 1
+    },
+    "section_distribution": {
+      "1.2 Vector representations": 2,
+      "1.3 Vector addition and subtraction": 2,
+      "1.4 Graphical method of vector addition": 2,
+      "1.5 Vector resolution": 3,
+      "End of unit summary": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

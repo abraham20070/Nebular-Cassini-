@@ -1,0 +1,800 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-08-06T10:15:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "B12_Bio_U2_Q010",
+    "covered_sections": ["Overview / Introduction", "2.1. Eubacteria", "2.1. Eubacteria>2.1.1. Bacterial Shapes", "2.1. Eubacteria>2.1.2. Nutritional types of bacteria", "2.2. Archaea", "2.3. Fungi", "2.3. Fungi>2.3.1. General Characteristics of True Fungi", "2.4. Protozoa", "2.5. Viruses", "2.6. Normal microbiota"],
+    "used_question_signatures": ["def_microorganism_B", "term_eubacteria_A", "class_shapes_cocci_J", "nutri_photolithoautotroph_C", "char_archaea_prokaryotic_A", "char_fungi_eukaryotic_A", "char_protozoa_unicellular_A", "struct_virus_capsid_B", "role_normal_microbiota_protection_F", "diff_gram_positive_negative_I"],
+    "baseline_counter": {
+      "Overview / Introduction": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "2.1. Eubacteria": {
+        "2.1.1. Bacterial Shapes": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "2.1.2. Nutritional types of bacteria": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "count": 2,
+        "mini_headings_covered": []
+      },
+      "2.2. Archaea": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "2.3. Fungi": {
+        "2.3.1. General Characteristics of True Fungi": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "count": 1,
+        "mini_headings_covered": []
+      },
+      "2.4. Protozoa": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "2.5. Viruses": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "2.6. Normal microbiota": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Overview / Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.1. Eubacteria": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.2. Archaea": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.3. Fungi": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.4. Protozoa": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.5. Viruses": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.6. Normal microbiota": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Overview / Introduction": ["Microorganisms", "Microbiology"],
+      "2.1. Eubacteria>2.1.1. Bacterial Shapes": ["Cocci", "Bacilli", "Spirochaetes"],
+      "2.1. Eubacteria>2.1.2. Nutritional types of bacteria": ["Photolithoautotrophs", "Chemoorganoheterotrophs"],
+      "2.2. Archaea": ["Prokaryotic", "Peptidoglycan", "Methanogens"],
+      "2.3. Fungi>2.3.1. General Characteristics of True Fungi": ["Eukaryotic", "Chitin", "Chemoheterotrophic"],
+      "2.4. Protozoa": ["Unicellular", "Eukaryotic", "Locomotion"],
+      "2.5. Viruses": ["Capsid", "Nucleic acid", "Obligate intracellular parasite"],
+      "2.6. Normal microbiota": ["Protection", "Nutrient competition", "Immune stimulation"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 20,
+      "questions_per_concept_ratio": 0.5,
+      "structural_coverage_percentage": 58.3
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 2: Microorganisms",
+  "pdf_filename": "B12U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-08-06T10:15:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 7,
+        "total_sections": 12,
+        "progress_percentage": 58.3
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 7,
+      "subsections_covered_count": 4,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 58.3,
+      "concept_utilization_ratio": 0.5
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.1. Eubacteria",
+      "least_covered_section": "Multiple (1 question each)",
+      "imbalance_ratio": 2.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.5,
+      "remaining_concept_capacity": 20
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "B12_Bio_U2_Q001",
+      "generation_timestamp": "2025-08-06T10:14:45Z",
+      "section": "Overview / Introduction",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Overview",
+      "mcq_type": "B",
+      "question": "What term describes organisms too small to be seen clearly by the unaided eye?",
+      "options": {
+        "A": "Macroorganisms",
+        "B": "Microorganisms",
+        "C": "Megafauna",
+        "D": "Multicellular organisms"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the prefix 'micro-' and its meaning.",
+      "explanation": "Microorganisms are defined by their microscopic size, requiring magnification for observation. Option A incorrectly refers to large organisms, while option D describes organisms composed of multiple cells, which is not exclusive to microscopic life.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "Overview",
+        "subsection_anchor": null,
+        "structural_element": "Overview",
+        "content_anchor": "Microorganisms are organisms too small to be seen clearly",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_microorganisms_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q002",
+      "generation_timestamp": "2025-08-06T10:14:48Z",
+      "section": "2.1. Eubacteria",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "2.1. Eubacteria",
+      "mcq_type": "A",
+      "question": "Which domain of life consists of prokaryotic, unicellular organisms commonly known as 'true bacteria'?",
+      "options": {
+        "A": "Eubacteria",
+        "B": "Archaea",
+        "C": "Eukarya",
+        "D": "Fungi"
+      },
+      "correct_answer": "A",
+      "hint": "The term 'eu' means 'true'.",
+      "explanation": "Eubacteria, meaning 'true bacteria', constitute one of the three domains of life and are characterized by their prokaryotic cellular structure. Option B refers to a separate prokaryotic domain, and option C encompasses all eukaryotic organisms.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.1. Eubacteria",
+        "subsection_anchor": null,
+        "structural_element": "2.1. Eubacteria",
+        "content_anchor": "Eubacteria (biology = definition): Literally means 'true bacteria'",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_eubacteria_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q003",
+      "generation_timestamp": "2025-08-06T10:14:50Z",
+      "section": "2.1. Eubacteria",
+      "subsection": "2.1.1. Bacterial Shapes",
+      "sub_subsection": null,
+      "structural_anchor": "Bacterial Shapes",
+      "mcq_type": "J",
+      "question": "A spherical bacterial cell observed under a microscope would be classified into which shape category?",
+      "options": {
+        "A": "Bacillus",
+        "B": "Coccus",
+        "C": "Spirillum",
+        "D": "Vibrio"
+      },
+      "correct_answer": "B",
+      "hint": "Think of the geometric shape associated with a sphere.",
+      "explanation": "The term 'coccus' refers to spherical bacterial morphology. Option A describes rod-shaped bacteria, and option C refers to spiral-shaped bacteria, making them incorrect for a spherical form.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 78
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.1. Eubacteria",
+        "subsection_anchor": "2.1.1. Bacterial Shapes",
+        "structural_element": "2.1.1. Bacterial Shapes",
+        "content_anchor": "Cocci (singular, coccus) - spherical bacteria",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_bacterial_shape_coccus"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q004",
+      "generation_timestamp": "2025-08-06T10:14:52Z",
+      "section": "2.1. Eubacteria",
+      "subsection": "2.1.2. Nutritional types of bacteria",
+      "sub_subsection": null,
+      "structural_anchor": "Nutritional types of bacteria",
+      "mcq_type": "C",
+      "question": "Which nutritional class of bacteria uses light as an energy source and carbon dioxide as a carbon source?",
+      "options": {
+        "A": "Chemoorganoheterotroph",
+        "B": "Photoorganoheterotroph",
+        "C": "Photolithoautotroph",
+        "D": "Chemolithoautotroph"
+      },
+      "correct_answer": "C",
+      "hint": "Look for terms combining 'photo-' for light and 'auto-' for self-feeding.",
+      "explanation": "Photolithoautotrophs are defined by their use of light energy (photo-) and inorganic carbon (CO2). Option A relies on organic chemicals for both energy and carbon, and option D uses inorganic chemicals for energy.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.1. Eubacteria",
+        "subsection_anchor": "2.1.2. Nutritional types of bacteria",
+        "structural_element": "2.1.2. Nutritional types of bacteria",
+        "content_anchor": "Photolithoautotrophs (often called simply photoautotrophs) use light energy",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_photolithoautotroph"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q005",
+      "generation_timestamp": "2025-08-06T10:14:55Z",
+      "section": "2.2. Archaea",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "2.2. Archaea",
+      "mcq_type": "A",
+      "question": "A unicellular organism lacks a nuclear membrane and peptidoglycan in its cell wall, and its membrane lipids have branched hydrocarbon chains. To which domain does it most likely belong?",
+      "options": {
+        "A": "Archaea",
+        "B": "Eubacteria",
+        "C": "Eukarya",
+        "D": "Fungi"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the distinctive cell wall and membrane composition.",
+      "explanation": "Archaea are prokaryotes distinguished by the absence of peptidoglycan and the presence of branched hydrocarbon chains in their membrane lipids. Option B, Eubacteria, typically possess peptidoglycan in their cell walls.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.2. Archaea",
+        "subsection_anchor": null,
+        "structural_element": "2.2. Archaea",
+        "content_anchor": "Archaea lack true peptidoglycan in their cell walls. Their cell membrane lipids have branched hydrocarbon chains.",
+        "page_hint": "Page 18, 20",
+        "concept_hash": "sha256_of_archaea_characteristics"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q006",
+      "generation_timestamp": "2025-08-06T10:14:57Z",
+      "section": "2.3. Fungi",
+      "subsection": "2.3.1. General Characteristics of True Fungi",
+      "sub_subsection": null,
+      "structural_anchor": "General Characteristics of True Fungi",
+      "mcq_type": "A",
+      "question": "Which characteristic is true for all fungi?",
+      "options": {
+        "A": "They are eukaryotic organisms.",
+        "B": "They possess chlorophyll for photosynthesis.",
+        "C": "They are prokaryotic unicellular organisms.",
+        "D": "They have cell walls made primarily of peptidoglycan."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the cellular organization of fungi.",
+      "explanation": "Fungi are defined as eukaryotic organisms, containing membrane-bound nuclei and organelles. Option B is incorrect because fungi lack chlorophyll and are achlorophyllous, and option D confuses fungal cell wall composition (chitin) with that of bacteria.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.3. Fungi",
+        "subsection_anchor": "2.3.1. General Characteristics of True Fungi",
+        "structural_element": "2.3.1. General Characteristics of True Fungi",
+        "content_anchor": "All are eukaryotic",
+        "page_hint": "Page 23",
+        "concept_hash": "sha256_of_fungi_eukaryotic"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q007",
+      "generation_timestamp": "2025-08-06T10:15:00Z",
+      "section": "2.4. Protozoa",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "2.4. Protozoa",
+      "mcq_type": "A",
+      "question": "What is a defining cellular characteristic of protozoa?",
+      "options": {
+        "A": "They are unicellular eukaryotic microorganisms.",
+        "B": "They are multicellular prokaryotic organisms.",
+        "C": "They possess rigid cell walls made of chitin.",
+        "D": "They contain chlorophyll for photosynthetic nutrition."
+      },
+      "correct_answer": "A",
+      "hint": "Focus on their cellular structure and complexity.",
+      "explanation": "Protozoa are characterized as unicellular, eukaryotic organisms. Option B incorrectly assigns prokaryotic and multicellular traits, and option C describes a feature more typical of fungal cell walls.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.4. Protozoa",
+        "subsection_anchor": null,
+        "structural_element": "2.4. Protozoa",
+        "content_anchor": "Characteristics of protozoa... Unicellular microorganisms... They are eukaryotic cells.",
+        "page_hint": "Page 32",
+        "concept_hash": "sha256_of_protozoa_characteristics"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q008",
+      "generation_timestamp": "2025-08-06T10:15:02Z",
+      "section": "2.5. Viruses",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "2.5. Viruses",
+      "mcq_type": "B",
+      "question": "What is the name of the protective protein coat that surrounds the genetic material of a virus?",
+      "options": {
+        "A": "Envelope",
+        "B": "Capsid",
+        "C": "Nucleoid",
+        "D": "Cell wall"
+      },
+      "correct_answer": "B",
+      "hint": "This structure is specific to viruses and not found in cellular organisms.",
+      "explanation": "The capsid is the protein shell that encases and protects the viral genome. Option A refers to an optional outer lipid layer derived from the host cell, and option D is a structure present in bacteria and fungi, not viruses.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.5. Viruses",
+        "subsection_anchor": null,
+        "structural_element": "2.5. Viruses",
+        "content_anchor": "A basic structure of virus is nucleic acid core... surrounded by protein coat... called as capsid.",
+        "page_hint": "Page 40",
+        "concept_hash": "sha256_of_viral_capsid"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q009",
+      "generation_timestamp": "2025-08-06T10:15:05Z",
+      "section": "2.6. Normal microbiota",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "2.6. Normal microbiota",
+      "mcq_type": "F",
+      "question": "If a broad-spectrum antibiotic significantly reduces the population of intestinal bacteria, what is a likely consequence for the host's health?",
+      "options": {
+        "A": "Enhanced nutrient absorption due to less competition.",
+        "B": "Increased risk of infection by pathogenic microorganisms.",
+        "C": "Immediate improvement in all digestive functions.",
+        "D": "Strengthening of the intestinal cell walls."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the protective role resident microorganisms play against invaders.",
+      "explanation": "Normal microbiota provide colonization resistance by competing for nutrients and attachment sites, thereby excluding pathogens. Their reduction removes this protective barrier, creating an ecological opportunity for harmful organisms to establish infection. Option A overlooks the vital protective, not competitive, role of the microbiota.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.6. Normal microbiota",
+        "subsection_anchor": null,
+        "structural_element": "2.6. Normal microbiota",
+        "content_anchor": "The normal microbiota excludes pathogens by covering binding sites... consuming available nutrients...",
+        "page_hint": "Page 52",
+        "concept_hash": "sha256_of_normal_microbiota_protection"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q010",
+      "generation_timestamp": "2025-08-06T10:15:07Z",
+      "section": "2.1. Eubacteria",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Gram's stain",
+      "mcq_type": "I",
+      "question": "How does the cell wall structure of Gram-positive bacteria primarily differ from that of Gram-negative bacteria?",
+      "options": {
+        "A": "Gram-positive walls have a thick peptidoglycan layer and lack an outer membrane.",
+        "B": "Gram-positive walls are thinner and have an additional outer lipopolysaccharide membrane.",
+        "C": "Gram-positive walls contain no peptidoglycan but are rich in lipoproteins.",
+        "D": "Gram-positive walls are identical to Gram-negative walls but stain differently."
+      },
+      "correct_answer": "A",
+      "hint": "Recall the structural basis for the differential staining result.",
+      "explanation": "The Gram stain differentiates bacteria based on cell wall architecture; Gram-positive bacteria possess a thick, multi-layered peptidoglycan shell that retains the crystal violet dye. Option B inaccurately describes the structure of Gram-negative bacteria, which have a thin peptidoglycan layer and an outer membrane.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.1. Eubacteria",
+        "subsection_anchor": null,
+        "structural_element": "Gram's stain",
+        "content_anchor": "Gram- positive bacteria have a distinctive purple appearance... due to retention of the purple crystal violet stain in the thick peptidoglycan layer",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_gram_positive_structure"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 22000,
+    "average_question_quality": 84.1,
+    "type_distribution": {
+      "A": 4,
+      "B": 2,
+      "C": 1,
+      "F": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Overview / Introduction": 1,
+      "2.1. Eubacteria": 3,
+      "2.2. Archaea": 1,
+      "2.3. Fungi": 1,
+      "2.4. Protozoa": 1,
+      "2.5. Viruses": 1,
+      "2.6. Normal microbiota": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

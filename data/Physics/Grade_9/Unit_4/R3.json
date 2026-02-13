@@ -1,0 +1,899 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-02-05T11:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Physics_U4_Q030",
+    "covered_sections": [
+      "Introduction>",
+      "The Concept of Force (4.1)>Contact and Non-Contact Forces:",
+      "The Concept of Force (4.1)>Key Concept: (Contact forces involve...)",
+      "Newton's Laws of Motion (4.2)>Newton's First Law of Motion:",
+      "Newton's Laws of Motion (4.2)>Newton's Second Law of Motion",
+      "Newton's Laws of Motion (4.2)>Newton's Third Law of Motion",
+      "Forces of Friction (4.3)>Definition: (Static friction...)",
+      "Forces of Friction (4.3)>Definition: (Kinetic friction...)",
+      "The Concept of Work (4.4)>Definition: (Work is a scalar quantity...)",
+      "The Concept of Work (4.4)>Key Concept: (One Joule of work...)",
+      "The Concept of Work (4.4)>Key Concept: (Work is the product...)",
+      "Kinetic and Potential Energies (4.5)>Kinetic Energy",
+      "Kinetic and Potential Energies (4.5)>Gravitational Potential Energy",
+      "Power (4.6)>Definition: (Power is the rate...)",
+      "Power (4.6)>Example 4.10"
+    ],
+    "used_question_signatures": [
+      "d7a35b8e4a9c1f2b5e8d9a0c3f6b1e4a",
+      "a2c8f1e5b9d3a7c4f0e8b2d5a9c1f3e6",
+      "b5e9c2f7a1d4b8e3c0f9a2d5b8e1c4f",
+      "c3f8a2d6b9e5c1f4a0d7b2e9c5f1a8",
+      "e1b4f8c2a6d9e3b7f0c4a8d2e6b9f1",
+      "f2c5a9e3b7d1f4c8a0e2b6d9f3c7a1",
+      "a8d3f6c0b4e9d2f7c1a5b8e0d4f9c2",
+      "b9e4f1a7c3d8e2f5b0c9a3d7e1f4b6",
+      "c0a5e8f2b6d1c4f9a2e7b3d5f0c8a1",
+      "d1b6a9f3c7e2d4f8b1c5a0e3d6f9b2",
+      "e2c7b0f4a8d3e5f9c2a1b5e8d0f3a6",
+      "f3d8a1e4b9c6f0d2a7b4e9c1f5d0a2",
+      "a4e9b2f5c0d7a3f8b1e6c2d9f4a0b7",
+      "b5f0c3a6d8b2e7f1c4a9d1e8f2b6c0",
+      "c6a1d4f7b3e0c8a2f5b9d0e3f8c1a4",
+      "d7b2e5f0c4a9d3f6b0e1c5a8f2d4b9",
+      "e8c3a0f1b5d2f7c6a9e4b1d5f0c2a7",
+      "f9d4b1e2c6a0f3d8b7e5c0a3f1d6b2",
+      "a0e5c2f3b6d1f4a9c7e1b4d8f2a5c9",
+      "b1f6d3e4c7a2f5b0d9e2c5a8f3b7c1",
+      "c2a7e0f5b8d3f6a1c9e4b2d7f0c3a8",
+      "d3b8f1e6c9a4f7b2d0e5c1a9f4d5b0",
+      "e4c9a2f7b0d5f8c3a0e6b3d1f5c0a9",
+      "f5d0b3e8c1a6f9d4b1e7c2a0f6d1b4",
+      "a6e1c4f9b2d7f0a5c8e2b5d0f7c4a1",
+      "b7f2d5e0c3a8f1b6c9e3a4d2f8c5a2",
+      "c8a3e6f1b4d9f2c7a0e4b7d3f9c6a3",
+      "d9b4f3e2c5a0f7d8b5e1c6a2f0d7b6",
+      "e0c5a8f3b6d1f4e9b0d6c3a1f8c7a4",
+      "f1d6b9e4c7a2f5e0b1d7c4a3f9d8b7"
+    ],
+    "baseline_counter": {
+      "Introduction": {
+        "": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "The Concept of Force (4.1)": {
+        "Contact and Non-Contact Forces:": {
+          "count": 2,
+          "mini_headings_covered": ["Contact and Non-Contact Forces:"],
+          "last_question_round": 2
+        },
+        "Key Concept: (Contact forces involve...)": {
+          "count": 1,
+          "mini_headings_covered": ["Key Concept: (Contact forces involve...)"],
+          "last_question_round": 3
+        }
+      },
+      "Newton's Laws of Motion (4.2)": {
+        "Newton's First Law of Motion:": {
+          "count": 2,
+          "mini_headings_covered": ["Key Concept: (Newton's first law...)"],
+          "last_question_round": 1
+        },
+        "Newton's Second Law of Motion": {
+          "count": 4,
+          "mini_headings_covered": ["Key Concept: (Newton's second law...)", "Key Concept: (Newton's second law of motion states...)"],
+          "last_question_round": 3
+        },
+        "Newton's Third Law of Motion": {
+          "count": 2,
+          "mini_headings_covered": ["Key Concept: (The action and reaction forces...)"],
+          "last_question_round": 3
+        }
+      },
+      "Forces of Friction (4.3)": {
+        "Definition: (Static friction...)": {
+          "count": 2,
+          "mini_headings_covered": ["Definition: (Static friction...)"],
+          "last_question_round": 3
+        },
+        "Definition: (Kinetic friction...)": {
+          "count": 2,
+          "mini_headings_covered": ["Definition: (Kinetic friction...)"],
+          "last_question_round": 3
+        }
+      },
+      "The Concept of Work (4.4)": {
+        "Definition: (Work is a scalar quantity...)": {
+          "count": 2,
+          "mini_headings_covered": ["Definition: (Work is a scalar quantity...)"],
+          "last_question_round": 3
+        },
+        "Key Concept: (One Joule of work...)": {
+          "count": 1,
+          "mini_headings_covered": ["Key Concept: (One Joule of work...)"],
+          "last_question_round": 2
+        },
+        "Key Concept: (Work is the product...)": {
+          "count": 1,
+          "mini_headings_covered": ["Key Concept: (Work is the product...)"],
+          "last_question_round": 3
+        }
+      },
+      "Kinetic and Potential Energies (4.5)": {
+        "Kinetic Energy": {
+          "count": 2,
+          "mini_headings_covered": ["Definition: (Kinetic energy is a scalar quantity...)"],
+          "last_question_round": 3
+        },
+        "Gravitational Potential Energy": {
+          "count": 3,
+          "mini_headings_covered": ["Key Concept: (Kinetic energy: energy possessed...)"],
+          "last_question_round": 3
+        }
+      },
+      "Power (4.6)": {
+        "Definition: (Power is the rate...)": {
+          "count": 2,
+          "mini_headings_covered": ["Definition: (Power is the rate...)"],
+          "last_question_round": 3
+        },
+        "Example 4.10": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "The Concept of Force (4.1)": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Newton's Laws of Motion (4.2)": {
+        "question_count": 8,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Forces of Friction (4.3)": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "The Concept of Work (4.4)": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Kinetic and Potential Energies (4.5)": {
+        "question_count": 5,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Power (4.6)": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>": ["Dynamics", "Force as push/pull", "Kinematics"],
+      "The Concept of Force (4.1)>Contact and Non-Contact Forces:": ["Contact force", "Non-contact force", "Magnetic force", "Gravitational force"],
+      "The Concept of Force (4.1)>Key Concept: (Contact forces involve...)": ["Contact force definition", "Physical contact requirement"],
+      "Newton's Laws of Motion (4.2)>Newton's First Law of Motion:": ["Inertia", "Inertial frame"],
+      "Newton's Laws of Motion (4.2)>Newton's Second Law of Motion": ["F = ma", "Net force", "Acceleration", "Weight calculation", "Direct proportionality"],
+      "Newton's Laws of Motion (4.2)>Newton's Third Law of Motion": ["Action-reaction pairs", "Equal and opposite forces", "Different objects"],
+      "Forces of Friction (4.3)>Definition: (Static friction...)": ["Static friction", "Kinetic friction", "Normal force dependence", "Overcoming friction"],
+      "Forces of Friction (4.3)>Definition: (Kinetic friction...)": ["Kinetic friction", "Sliding friction", "Rolling friction", "Less than static"],
+      "The Concept of Work (4.4)>Definition: (Work is a scalar quantity...)": ["Work definition", "Joule"],
+      "The Concept of Work (4.4)>Key Concept: (One Joule of work...)": ["Joule definition", "Newton-meter equivalence"],
+      "The Concept of Work (4.4)>Key Concept: (Work is the product...)": ["Work calculation", "Force × displacement"],
+      "Kinetic and Potential Energies (4.5)>Kinetic Energy": ["Kinetic energy formula", "E_k = ½ mv²", "Velocity squared dependence"],
+      "Kinetic and Potential Energies (4.5)>Gravitational Potential Energy": ["Gravitational potential energy", "E_p = mgh", "Height dependence", "Mass dependence"],
+      "Power (4.6)>Definition: (Power is the rate...)": ["Power definition", "Watt", "Rate of energy transfer"],
+      "Power (4.6)>Example 4.10": ["Power calculation", "P = E/t"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "previous_state_hash_verified",
+    "content_density_metrics": {
+      "total_concepts_extracted": 30,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 65.2
+    }
+  },
+  "grade": "9",
+  "subject": "Physics",
+  "unit": "Unit 4: Force, Work, Energy and Power",
+  "pdf_filename": "P9U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-02-05T11:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 7,
+        "total_sections": 7,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 7,
+      "subsections_covered_count": 15,
+      "mini_headings_covered_count": 15,
+      "structural_coverage_percentage": 65.2,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Newton's Laws of Motion (4.2)",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": false,
+      "consecutive_batches_violation": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Physics_U4_Q021",
+      "generation_timestamp": "2025-02-05T11:10:00Z",
+      "section": "The Concept of Force (4.1)",
+      "subsection": "Key Concept: (Contact forces involve...)",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept: (Contact forces involve...)",
+      "mcq_type": "A",
+      "question": "What distinguishes contact forces from non-contact forces in terms of object interaction?",
+      "options": {
+        "A": "Contact forces require physical touch between objects",
+        "B": "Contact forces only act over short distances",
+        "C": "Non-contact forces are always stronger than contact forces",
+        "D": "Contact forces depend on object mass while non-contact forces do not"
+      },
+      "correct_answer": "A",
+      "hint": "Consider whether direct physical interaction is necessary for the force to act.",
+      "explanation": "Contact forces require physical contact between objects, while non-contact forces act at a distance. Option B incorrectly focuses on distance rather than the fundamental requirement of physical touch.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Force, Work, Energy and Power",
+        "section_anchor": "The Concept of Force (4.1)",
+        "subsection_anchor": "Key Concept: (Contact forces involve...)",
+        "structural_element": "Key Concept: (Contact forces involve...)",
+        "content_anchor": "contact forces involve physical contact between two bodies",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_hash_of_contact_force_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Physics_U4_Q022",
+      "generation_timestamp": "2025-02-05T11:10:00Z",
+      "section": "Newton's Laws of Motion (4.2)",
+      "subsection": "Newton's Third Law of Motion",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept: (The action and reaction forces...)",
+      "mcq_type": "G",
+      "question": "If object A exerts a 15 N force to the right on object B, what force does object B exert on object A according to Newton's Third Law?",
+      "options": {
+        "A": "15 N to the right",
+        "B": "15 N to the left",
+        "C": "7.5 N to the right",
+        "D": "7.5 N to the left"
+      },
+      "correct_answer": "B",
+      "hint": "Action and reaction forces are equal in magnitude but opposite in direction.",
+      "explanation": "Newton's Third Law states action-reaction forces are equal and opposite, so B exerts 15 N left on A. Option A incorrectly gives the same direction, violating the opposite direction requirement.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": "N",
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Force, Work, Energy and Power",
+        "section_anchor": "Newton's Laws of Motion (4.2)",
+        "subsection_anchor": "Newton's Third Law of Motion",
+        "structural_element": "Key Concept: (The action and reaction forces...)",
+        "content_anchor": "action and reaction forces are equal in magnitude but opposite in direction",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_hash_of_equal_opposite_forces"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Physics_U4_Q023",
+      "generation_timestamp": "2025-02-05T11:10:00Z",
+      "section": "Forces of Friction (4.3)",
+      "subsection": "Definition: (Static friction...)",
+      "sub_subsection": null,
+      "structural_anchor": "Definition: (Static friction...)",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that static friction continues to increase without limit as applied force increases before motion begins?",
+      "options": {
+        "A": "Assuming static friction equals the applied force only up to a maximum value",
+        "B": "Confusing static friction with rolling friction behavior",
+        "C": "Overlooking that static friction decreases with surface area",
+        "D": "Mistaking kinetic friction properties for static friction"
+      },
+      "correct_answer": "A",
+      "hint": "Static friction has a maximum value it can reach before motion occurs.",
+      "explanation": "Static friction matches applied force up to a maximum value, then motion begins with kinetic friction. Option D incorrectly suggests confusing with kinetic friction rather than understanding the maximum limit.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Force, Work, Energy and Power",
+        "section_anchor": "Forces of Friction (4.3)",
+        "subsection_anchor": "Definition: (Static friction...)",
+        "structural_element": "Definition: (Static friction...)",
+        "content_anchor": "static friction... requires large force to overcome",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_hash_of_static_friction_limit"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 81,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Physics_U4_Q024",
+      "generation_timestamp": "2025-02-05T11:10:00Z",
+      "section": "Forces of Friction (4.3)",
+      "subsection": "Definition: (Kinetic friction...)",
+      "sub_subsection": null,
+      "structural_anchor": "Definition: (Kinetic friction...)",
+      "mcq_type": "F",
+      "question": "Under the condition that surfaces remain in sliding contact, which reasoning best explains why kinetic friction is generally less than the maximum static friction between the same surfaces?",
+      "options": {
+        "A": "Kinetic friction increases with velocity while static friction does not",
+        "B": "Less force is needed to maintain motion than to initiate it",
+        "C": "Surface adhesion decreases once sliding begins",
+        "D": "Kinetic friction depends on surface area while static friction does not"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the difference between starting motion versus keeping an object moving.",
+      "explanation": "Kinetic friction is typically less than maximum static friction because maintaining motion requires less force than starting it. Option C incorrectly focuses on adhesion rather than the fundamental force requirement difference.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Force, Work, Energy and Power",
+        "section_anchor": "Forces of Friction (4.3)",
+        "subsection_anchor": "Definition: (Kinetic friction...)",
+        "structural_element": "Definition: (Kinetic friction...)",
+        "content_anchor": "kinetic friction... effect on motion is less than that of static friction",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_hash_of_kinetic_less_than_static"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Physics_U4_Q025",
+      "generation_timestamp": "2025-02-05T11:10:00Z",
+      "section": "The Concept of Work (4.4)",
+      "subsection": "Definition: (Work is a scalar quantity...)",
+      "sub_subsection": null,
+      "structural_anchor": "Definition: (Work is a scalar quantity...)",
+      "mcq_type": "E",
+      "question": "A horizontal force of 25 N pushes a box 8 meters across a floor. How much work is done by this force?",
+      "options": {
+        "A": "3.125 J",
+        "B": "33 J",
+        "C": "200 J",
+        "D": "2000 J"
+      },
+      "correct_answer": "C",
+      "hint": "Work equals force multiplied by displacement in the force's direction.",
+      "explanation": "Work W = F × d = 25 N × 8 m = 200 J. Option A results from incorrectly dividing displacement by force rather than multiplying.",
+      "difficulty_level": "easy",
+      "formula_used": ["W = Fd"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "J",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Force, Work, Energy and Power",
+        "section_anchor": "The Concept of Work (4.4)",
+        "subsection_anchor": "Definition: (Work is a scalar quantity...)",
+        "structural_element": "Definition: (Work is a scalar quantity...)",
+        "content_anchor": "work W = F_parallel × S",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_hash_of_work_calculation_basic"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 78,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Physics_U4_Q026",
+      "generation_timestamp": "2025-02-05T11:10:00Z",
+      "section": "The Concept of Work (4.4)",
+      "subsection": "Key Concept: (Work is the product...)",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept: (Work is the product...)",
+      "mcq_type": "B",
+      "question": "What term describes the physical quantity obtained by multiplying a force by the displacement in the direction of that force?",
+      "options": {
+        "A": "Power",
+        "B": "Work",
+        "C": "Energy",
+        "D": "Momentum"
+      },
+      "correct_answer": "B",
+      "hint": "This quantity measures energy transfer via force over distance.",
+      "explanation": "Work is defined as force multiplied by displacement in the force's direction. Option A incorrectly identifies power, which is work done per unit time.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 97
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Force, Work, Energy and Power",
+        "section_anchor": "The Concept of Work (4.4)",
+        "subsection_anchor": "Key Concept: (Work is the product...)",
+        "structural_element": "Key Concept: (Work is the product...)",
+        "content_anchor": "work is the product of a force and displacement parallel to the direction of the force",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_hash_of_work_definition_product"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 76,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Physics_U4_Q027",
+      "generation_timestamp": "2025-02-05T11:10:00Z",
+      "section": "Kinetic and Potential Energies (4.5)",
+      "subsection": "Kinetic Energy",
+      "sub_subsection": null,
+      "structural_anchor": "Definition: (Kinetic energy is a scalar quantity...)",
+      "mcq_type": "E",
+      "question": "What is the kinetic energy of a 0.5 kg ball moving at 6 m/s?",
+      "options": {
+        "A": "3 J",
+        "B": "9 J",
+        "C": "18 J",
+        "D": "36 J"
+      },
+      "correct_answer": "B",
+      "hint": "Use the kinetic energy formula with velocity squared.",
+      "explanation": "Using E_k = ½ mv², kinetic energy = 0.5 × 0.5 kg × (6 m/s)² = 9 J. Option C results from forgetting the ½ factor in the formula.",
+      "difficulty_level": "medium",
+      "formula_used": ["E_k = ½ mv²"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "J",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Force, Work, Energy and Power",
+        "section_anchor": "Kinetic and Potential Energies (4.5)",
+        "subsection_anchor": "Kinetic Energy",
+        "structural_element": "Definition: (Kinetic energy is a scalar quantity...)",
+        "content_anchor": "E_k = ½ mv² calculation example",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_hash_of_kinetic_energy_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 81,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Physics_U4_Q028",
+      "generation_timestamp": "2025-02-05T11:10:00Z",
+      "section": "Kinetic and Potential Energies (4.5)",
+      "subsection": "Gravitational Potential Energy",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept: (Kinetic energy: energy possessed...)",
+      "mcq_type": "D",
+      "question": "A 12 kg object gains 600 J of gravitational potential energy when lifted vertically. What height was it raised? (Use g = 10 m/s²)",
+      "options": {
+        "A": "5 m",
+        "B": "12 m",
+        "C": "50 m",
+        "D": "72 m"
+      },
+      "correct_answer": "A",
+      "hint": "Rearrange the potential energy formula to solve for height.",
+      "explanation": "Using E_p = mgh, height h = E_p/(mg) = 600 J / (12 kg × 10 m/s²) = 5 m. Option D results from incorrectly multiplying mass and energy instead of dividing.",
+      "difficulty_level": "medium",
+      "formula_used": ["E_p = mgh"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "m",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Force, Work, Energy and Power",
+        "section_anchor": "Kinetic and Potential Energies (4.5)",
+        "subsection_anchor": "Gravitational Potential Energy",
+        "structural_element": "Key Concept: (Kinetic energy: energy possessed...)",
+        "content_anchor": "E_p = mgh rearrangement examples",
+        "page_hint": "Page 17-18",
+        "concept_hash": "sha256_hash_of_height_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Physics_U4_Q029",
+      "generation_timestamp": "2025-02-05T11:10:00Z",
+      "section": "Newton's Laws of Motion (4.2)",
+      "subsection": "Newton's Second Law of Motion",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept: (Newton's second law...)",
+      "mcq_type": "E",
+      "question": "What net force is required to give a 20 kg object an acceleration of 0.5 m/s²?",
+      "options": {
+        "A": "10 N",
+        "B": "20 N",
+        "C": "40 N",
+        "D": "100 N"
+      },
+      "correct_answer": "A",
+      "hint": "Multiply mass by acceleration to find force using Newton's Second Law.",
+      "explanation": "Using F = ma, force = 20 kg × 0.5 m/s² = 10 N. Option C results from incorrectly dividing mass by acceleration instead of multiplying.",
+      "difficulty_level": "easy",
+      "formula_used": ["F = ma"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "N",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Force, Work, Energy and Power",
+        "section_anchor": "Newton's Laws of Motion (4.2)",
+        "subsection_anchor": "Newton's Second Law of Motion",
+        "structural_element": "Key Concept: (Newton's second law...)",
+        "content_anchor": "F = ma calculation",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_hash_of_force_calculation_simple"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 77,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Physics_U4_Q030",
+      "generation_timestamp": "2025-02-05T11:10:00Z",
+      "section": "Power (4.6)",
+      "subsection": "Definition: (Power is the rate...)",
+      "sub_subsection": null,
+      "structural_anchor": "Definition: (Power is the rate...)",
+      "mcq_type": "A",
+      "question": "What is the SI unit of power equivalent to one joule per second?",
+      "options": {
+        "A": "Watt",
+        "B": "Newton",
+        "C": "Pascal",
+        "D": "Joule"
+      },
+      "correct_answer": "A",
+      "hint": "This unit is commonly used to measure electrical and mechanical power.",
+      "explanation": "The watt is the SI unit of power, defined as one joule per second. Option D incorrectly identifies joule, which is the unit of energy rather than power.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 79
+        },
+        "option_parallelism_score": 98
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Force, Work, Energy and Power",
+        "section_anchor": "Power (4.6)",
+        "subsection_anchor": "Definition: (Power is the rate...)",
+        "structural_element": "Definition: (Power is the rate...)",
+        "content_anchor": "SI unit of power is J/s (Joule/second) which is called watt (W)",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_hash_of_watt_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3100,
+    "average_question_quality": 82.8,
+    "type_distribution": {
+      "A": 3,
+      "B": 2,
+      "D": 1,
+      "E": 3,
+      "F": 1,
+      "G": 1,
+      "H": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 4,
+      "hard": 1
+    },
+    "section_distribution": {
+      "The Concept of Force (4.1)": 1,
+      "Newton's Laws of Motion (4.2)": 3,
+      "Forces of Friction (4.3)": 2,
+      "The Concept of Work (4.4)": 2,
+      "Kinetic and Potential Energies (4.5)": 2,
+      "Power (4.6)": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

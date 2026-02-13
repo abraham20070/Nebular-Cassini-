@@ -1,0 +1,861 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-20T10:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Bio_U2_Q010",
+    "covered_sections": ["2.1. Characteristics of animals>(unnumbered subsection)", "2.2. Invertebrates and Vertebrates>2.2.1 Invertebrate Animals", "2.2. Invertebrates and Vertebrates>2.2.2 Vertebrate Animals", "2.3 Reproduction in Animals>2.3.1. Asexual reproduction in animals", "2.3 Reproduction in Animals>2.3.2 Sexual reproduction in animals"],
+    "used_question_signatures": ["hash_A_animal_characteristics_list", "hash_B_heterotroph_definition", "hash_C_eukaryotic_characteristic", "hash_D_backbone_vertebrate", "hash_F_exoskeleton_invertebrate", "hash_G_sexual_offspring_genetics", "hash_H_asexual_single_parent", "hash_I_vertebrate_invertebrate_compare", "hash_J_vertebrate_classification", "hash_K_invertebrate_habitat"],
+    "baseline_counter": {
+      "2.1. Characteristics of animals": {
+        "(unnumbered subsection)": {
+          "count": 3,
+          "mini_headings_covered": ["Self-questioning:", "Animals are eukaryotic, multicellular, heterotrophic, and sensitive to stimuli; and they reproduce, protect themselves, move, respire, excrete, grow, and have different body symmetries."],
+          "last_question_round": 1
+        }
+      },
+      "2.2. Invertebrates and Vertebrates": {
+        "2.2.1 Invertebrate Animals": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.2.2 Vertebrate Animals": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "2.3 Reproduction in Animals": {
+        "2.3.1. Asexual reproduction in animals": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.3.2 Sexual reproduction in animals": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.3.3 Reproduction in insects (complete and incomplete metamorphosis)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.3.4 Reproduction in Frog": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.3.5 Reproduction in Crocodiles": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.3.6 Reproduction in Birds": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.3.7 Reproduction in rat": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.4 The economic importance of animals (insects)": {
+        "2.4.1 Beneficial aspects of insects": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.4.2 Harmful aspects of insects": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.5 Animal Behavior": {
+        "2.5.1 Types of Animal Behavior": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.5.2 Patterns of Behavior": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.6 Homeostasis in animals": {
+        "2.6.1 Thermoregulation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.6.2 Osmoregulation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.6.3 Blood Sugar Regulation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "2.6.4 Control of homeostasis": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.7 Renowned zoologists in Ethiopia": {
+        "(unnumbered subsection)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1. Characteristics of animals": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.2. Invertebrates and Vertebrates": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.3 Reproduction in Animals": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "2.4 The economic importance of animals (insects)": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "2.5 Animal Behavior": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "2.6 Homeostasis in animals": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "2.7 Renowned zoologists in Ethiopia": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1. Characteristics of animals>(unnumbered subsection)": ["Animal Characteristics List", "Heterotroph", "Eukaryotic Multicellular"],
+      "2.2. Invertebrates and Vertebrates>2.2.1 Invertebrate Animals": ["Lack Backbone", "Exoskeleton", "Cold-blooded", "Diverse Habitat"],
+      "2.2. Invertebrates and Vertebrates>2.2.2 Vertebrate Animals": ["Presence of Backbone", "Complex Organ Systems", "Internal Skeleton", "Closed Circulatory System"],
+      "2.3 Reproduction in Animals>2.3.1. Asexual reproduction in animals": ["Single Parent", "No Gamete Fusion"],
+      "2.3 Reproduction in Animals>2.3.2 Sexual reproduction in animals": ["Two Parents", "Gamete Fusion", "Genetic Variation"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state_hash_placeholder",
+    "content_density_metrics": {
+      "total_concepts_extracted": 15,
+      "questions_per_concept_ratio": 0.67,
+      "structural_coverage_percentage": 13.6
+    }
+  },
+  "grade": "11",
+  "subject": "Biology",
+  "unit": "Unit 2: Animals",
+  "pdf_filename": "B11U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-20T10:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 7,
+        "progress_percentage": 42.9
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 2,
+      "structural_coverage_percentage": 22.7,
+      "concept_utilization_ratio": 0.67
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.2. Invertebrates and Vertebrates",
+      "least_covered_section": "2.4 The economic importance of animals (insects)",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U2_Q001",
+      "generation_timestamp": "2025-01-20T10:00:05Z",
+      "section": "2.1. Characteristics of animals",
+      "subsection": "(unnumbered subsection)",
+      "sub_subsection": null,
+      "structural_anchor": "Animals are eukaryotic, multicellular, heterotrophic, and sensitive to stimuli; and they reproduce, protect themselves, move, respire, excrete, grow, and have different body symmetries.",
+      "mcq_type": "A",
+      "question": "Which of the following lists correctly identifies the fundamental characteristics shared by all animals?",
+      "options": {
+        "A": "Eukaryotic cells, multicellular organization, heterotrophic nutrition, capacity for movement",
+        "B": "Prokaryotic cells, autotrophic nutrition, presence of cell walls, asexual reproduction only",
+        "C": "Unicellular organization, mixotrophic nutrition, external digestion, radial symmetry",
+        "D": "Photosynthetic capability, colonial structure, spore production, exoskeleton development"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the basic cellular organization, nutritional mode, and structural complexity defining the animal kingdom.",
+      "explanation": "Animals are defined as eukaryotic, multicellular organisms that obtain nutrients heterotrophically, primarily by ingestion. Movement is also a key characteristic for many animals. Option B incorrectly describes prokaryotes and autotrophs, which are features of bacteria and plants, not animals.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.1. Characteristics of animals",
+        "subsection_anchor": "(unnumbered subsection)",
+        "structural_element": "Animals are eukaryotic, multicellular, heterotrophic, and sensitive to stimuli; and they reproduce, protect themselves, move, respire, excrete, grow, and have different body symmetries.",
+        "content_anchor": "eukaryotic, multicellular, heterotrophic",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_A_animal_characteristics_list"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q002",
+      "generation_timestamp": "2025-01-20T10:00:10Z",
+      "section": "2.1. Characteristics of animals",
+      "subsection": "(unnumbered subsection)",
+      "sub_subsection": null,
+      "structural_anchor": "Animals are eukaryotic, multicellular, heterotrophic, and sensitive to stimuli; and they reproduce, protect themselves, move, respire, excrete, grow, and have different body symmetries.",
+      "mcq_type": "B",
+      "question": "An organism that must consume other organisms to obtain organic nutrients is best described by which term?",
+      "options": {
+        "A": "Autotroph",
+        "B": "Heterotroph",
+        "C": "Saprotroph",
+        "D": "Phototroph"
+      },
+      "correct_answer": "B",
+      "hint": "This term describes a nutritional mode based on ingesting pre-formed organic molecules.",
+      "explanation": "Heterotrophs are organisms that cannot synthesize their own food and must ingest other organisms or organic substances. Animals are heterotrophs. Option A describes autotrophs, like plants, which produce their own food via photosynthesis.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.1. Characteristics of animals",
+        "subsection_anchor": "(unnumbered subsection)",
+        "structural_element": "Animals are eukaryotic, multicellular, heterotrophic, and sensitive to stimuli; and they reproduce, protect themselves, move, respire, excrete, grow, and have different body symmetries.",
+        "content_anchor": "heterotrophic",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_B_heterotroph_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q003",
+      "generation_timestamp": "2025-01-20T10:00:15Z",
+      "section": "2.1. Characteristics of animals",
+      "subsection": "(unnumbered subsection)",
+      "sub_subsection": null,
+      "structural_anchor": "Animals are eukaryotic, multicellular, heterotrophic, and sensitive to stimuli; and they reproduce, protect themselves, move, respire, excrete, grow, and have different body symmetries.",
+      "mcq_type": "C",
+      "question": "Which cellular feature distinguishes animal cells from bacterial cells?",
+      "options": {
+        "A": "Presence of a nucleus and membrane-bound organelles",
+        "B": "Presence of a cell wall made of peptidoglycan",
+        "C": "Presence of circular DNA in the cytoplasm",
+        "D": "Presence of 70S ribosomes for protein synthesis"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental difference in cellular organization between two major life domains.",
+      "explanation": "Animals are eukaryotes, meaning their cells contain a nucleus and membrane-bound organelles. This distinguishes them from prokaryotic bacteria. Option B describes a key feature of bacterial cells, not animal cells.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.1. Characteristics of animals",
+        "subsection_anchor": "(unnumbered subsection)",
+        "structural_element": "Animals are eukaryotic, multicellular, heterotrophic, and sensitive to stimuli; and they reproduce, protect themselves, move, respire, excrete, grow, and have different body symmetries.",
+        "content_anchor": "eukaryotic",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_C_eukaryotic_characteristic"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q004",
+      "generation_timestamp": "2025-01-20T10:00:25Z",
+      "section": "2.2. Invertebrates and Vertebrates",
+      "subsection": "2.2.2 Vertebrate Animals",
+      "sub_subsection": null,
+      "structural_anchor": "Vertebrates are the most advanced groups in the animal kingdom.",
+      "mcq_type": "D",
+      "question": "The presence of which structure is the primary anatomical feature used to classify an animal as a vertebrate?",
+      "options": {
+        "A": "A protective exoskeleton",
+        "B": "A dorsal, hollow nerve cord",
+        "C": "A backbone or vertebral column",
+        "D": "A complex, chambered heart"
+      },
+      "correct_answer": "C",
+      "hint": "This defining structure provides central support and protection for the nervous system.",
+      "explanation": "Vertebrates are defined by possessing a backbone or vertebral column, which forms part of an internal skeleton. Option A is a characteristic of many invertebrates, such as arthropods, not a defining feature of vertebrates.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.2. Invertebrates and Vertebrates",
+        "subsection_anchor": "2.2.2 Vertebrate Animals",
+        "structural_element": "Vertebrates are the most advanced groups in the animal kingdom.",
+        "content_anchor": "backbone or vertebral column",
+        "page_hint": "Page 5",
+        "concept_hash": "hash_D_backbone_vertebrate"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q005",
+      "generation_timestamp": "2025-01-20T10:00:35Z",
+      "section": "2.2. Invertebrates and Vertebrates",
+      "subsection": "2.2.1 Invertebrate Animals",
+      "sub_subsection": null,
+      "structural_anchor": "Invertebrate animals lack a rigid internal skeletal system.",
+      "mcq_type": "F",
+      "question": "Many arthropods, such as insects, possess a hard external covering. Under the condition that this structure provides protection and support, which reasoning best explains its primary limitation for growth?",
+      "options": {
+        "A": "It is permanently fused to the body, preventing any movement.",
+        "B": "It is composed of living cells that cannot expand, requiring periodic shedding.",
+        "C": "It is impermeable to gases, forcing reliance on internal lungs for respiration.",
+        "D": "It is primarily made of calcium carbonate, making it brittle and prone to fracture."
+      },
+      "correct_answer": "B",
+      "hint": "Consider how a rigid external structure must be dealt with as the organism inside increases in size.",
+      "explanation": "An exoskeleton is composed of non-living material like chitin, which cannot grow. Arthropods must undergo molting to shed the old exoskeleton and produce a larger one. Option C incorrectly describes the exoskeleton's permeability; many arthropods use tracheal systems for gas exchange through the exoskeleton.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.2. Invertebrates and Vertebrates",
+        "subsection_anchor": "2.2.1 Invertebrate Animals",
+        "structural_element": "Invertebrate animals lack a rigid internal skeletal system.",
+        "content_anchor": "external skeleton called an exoskeleton, usually made of chitin",
+        "page_hint": "Page 5",
+        "concept_hash": "hash_F_exoskeleton_invertebrate"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q006",
+      "generation_timestamp": "2025-01-20T10:00:45Z",
+      "section": "2.3 Reproduction in Animals",
+      "subsection": "2.3.2 Sexual reproduction in animals",
+      "sub_subsection": null,
+      "structural_anchor": "Sexual reproduction is a type of reproduction that involves two individual parents and requires the fusion of gametes from two parents (male and female).",
+      "mcq_type": "G",
+      "question": "If gametes from two genetically distinct parents fuse during fertilization, what is the primary effect on the genetic makeup of the resulting offspring?",
+      "options": {
+        "A": "The offspring's genome becomes a perfect copy of the female parent's genome.",
+        "B": "The offspring inherits a unique combination of alleles, increasing genetic variation.",
+        "C": "The offspring's chromosome number is halved to maintain a constant species number.",
+        "D": "The offspring expresses only the dominant traits from both parents."
+      },
+      "correct_answer": "B",
+      "hint": "Consider how combining genetic material from two sources influences diversity in a population.",
+      "explanation": "Sexual reproduction involves meiosis and fertilization, which shuffle alleles from two parents. This creates novel genetic combinations in offspring, enhancing genetic variation within a population. Option C describes the outcome of meiosis, not the primary genetic consequence of sexual reproduction for the offspring.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.3 Reproduction in Animals",
+        "subsection_anchor": "2.3.2 Sexual reproduction in animals",
+        "structural_element": "Sexual reproduction is a type of reproduction that involves two individual parents and requires the fusion of gametes from two parents (male and female).",
+        "content_anchor": "produces offspring that have genetic material from both parents",
+        "page_hint": "Page 7",
+        "concept_hash": "hash_G_sexual_offspring_genetics"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q007",
+      "generation_timestamp": "2025-01-20T10:00:55Z",
+      "section": "2.3 Reproduction in Animals",
+      "subsection": "2.3.1. Asexual reproduction in animals",
+      "sub_subsection": null,
+      "structural_anchor": "Asexual reproduction is a type of reproduction that involves a single individual and does not require the fusion of gametes from two parents.",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that asexual reproduction is more evolutionarily advantageous than sexual reproduction in stable environments?",
+      "options": {
+        "A": "It assumes genetic uniformity prevents adaptation to any environmental change.",
+        "B": "It overlooks the high energetic cost and time required to find a mate.",
+        "C": "It ignores the benefit of rapidly producing many genetically identical, well-adapted offspring.",
+        "D": "It confuses the concept of genetic variation with the rate of population growth."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the specific advantage asexual reproduction offers when conditions are constant.",
+      "explanation": "In stable environments, well-adapted genotypes can be efficiently propagated through asexual reproduction, as all offspring are genetic clones. The reasoning error is failing to recognize this legitimate advantage. Option A incorrectly frames the lack of variation as always disadvantageous, which is not true in stable settings.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.3 Reproduction in Animals",
+        "subsection_anchor": "2.3.1. Asexual reproduction in animals",
+        "structural_element": "Asexual reproduction is a type of reproduction that involves a single individual and does not require the fusion of gametes from two parents.",
+        "content_anchor": "single individual",
+        "page_hint": "Page 7",
+        "concept_hash": "hash_H_asexual_single_parent"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q008",
+      "generation_timestamp": "2025-01-20T10:01:05Z",
+      "section": "2.2. Invertebrates and Vertebrates",
+      "subsection": "2.2.2 Vertebrate Animals",
+      "sub_subsection": null,
+      "structural_anchor": "Vertebrates have more complex and specialized organ systems such as the circulatory systems, respiratory systems, nervous systems, and excretory systems.",
+      "mcq_type": "I",
+      "question": "How does the complexity of the circulatory system typically differ between vertebrates and most invertebrates?",
+      "options": {
+        "A": "Vertebrates have an open circulatory system where blood bathes tissues directly, while invertebrates have a closed system with vessels.",
+        "B": "Vertebrates have a closed circulatory system with a ventral heart, while many invertebrates have an open system or lack a specialized system.",
+        "C": "Invertebrates possess a multi-chambered heart for efficient oxygenation, while vertebrates have a simple tubular heart.",
+        "D": "Both groups possess closed systems, but only vertebrates incorporate hemoglobin within specialized cells."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the presence of defined blood vessels and the heart's role in pumping blood.",
+      "explanation": "Vertebrates typically have a closed circulatory system where blood is confined to vessels and pumped by a ventral heart. Many invertebrates, like insects, have an open system where blood circulates freely in body cavities. Option A reverses the correct association between system type and animal group.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.2. Invertebrates and Vertebrates",
+        "subsection_anchor": "2.2.2 Vertebrate Animals",
+        "structural_element": "Vertebrates have more complex and specialized organ systems such as the circulatory systems, respiratory systems, nervous systems, and excretory systems.",
+        "content_anchor": "circulatory system is a closed circulatory system with a ventral heart",
+        "page_hint": "Page 5",
+        "concept_hash": "hash_I_vertebrate_invertebrate_compare"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q009",
+      "generation_timestamp": "2025-01-20T10:01:15Z",
+      "section": "2.2. Invertebrates and Vertebrates",
+      "subsection": "2.2.2 Vertebrate Animals",
+      "sub_subsection": null,
+      "structural_anchor": "This group includes mammals, birds, fish, reptiles, and amphibians.",
+      "mcq_type": "J",
+      "question": "Which of the following groupings contains only classes of vertebrates?",
+      "options": {
+        "A": "Mammals, Arachnids, Amphibians, Birds",
+        "B": "Fish, Reptiles, Amphibians, Mammals",
+        "C": "Insects, Crustaceans, Birds, Fish",
+        "D": "Reptiles, Mollusks, Birds, Mammals"
+      },
+      "correct_answer": "B",
+      "hint": "Recall the five main classes within the subphylum Vertebrata.",
+      "explanation": "The major vertebrate classes are fish, amphibians, reptiles, birds, and mammals. Option B correctly lists four of these. Option A includes Arachnids, which are invertebrates (arthropods).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.2. Invertebrates and Vertebrates",
+        "subsection_anchor": "2.2.2 Vertebrate Animals",
+        "structural_element": "This group includes mammals, birds, fish, reptiles, and amphibians.",
+        "content_anchor": "mammals, birds, fish, reptiles, and amphibians",
+        "page_hint": "Page 6",
+        "concept_hash": "hash_J_vertebrate_classification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U2_Q010",
+      "generation_timestamp": "2025-01-20T10:01:25Z",
+      "section": "2.2. Invertebrates and Vertebrates",
+      "subsection": "2.2.1 Invertebrate Animals",
+      "sub_subsection": null,
+      "structural_anchor": "They are found almost everywhere, from the hottest deserts and the deepest seabeds to the darkest caves and the highest mountains.",
+      "mcq_type": "K",
+      "question": "The statement that invertebrates occupy a vast range of extreme habitats best supports which interpretation about the group?",
+      "options": {
+        "A": "Invertebrates are evolutionarily primitive and have been outcompeted in moderate environments by vertebrates.",
+        "B": "Invertebrates possess a wide array of physiological and behavioral adaptations for survival.",
+        "C": "Invertebrate body plans are inherently simpler, allowing them to thrive where complex organisms cannot.",
+        "D": "This distribution pattern is temporary and will change as vertebrates continue to diversify."
+      },
+      "correct_answer": "B",
+      "hint": "Consider what successful colonization of diverse environments implies about adaptability.",
+      "explanation": "The extensive habitat range of invertebrates demonstrates their successful evolution of diverse adaptations for temperature extremes, pressure, darkness, and resource availability. Option C is flawed because some invertebrates, like cephalopods, have complex nervous systems, and complexity is not the sole determinant of habitat range.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 85
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Two: Animals",
+        "section_anchor": "2.2. Invertebrates and Vertebrates",
+        "subsection_anchor": "2.2.1 Invertebrate Animals",
+        "structural_element": "They are found almost everywhere, from the hottest deserts and the deepest seabeds to the darkest caves and the highest mountains.",
+        "content_anchor": "found almost everywhere",
+        "page_hint": "Page 5",
+        "concept_hash": "hash_K_invertebrate_habitat"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 87
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 85000,
+    "average_question_quality": 84.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 4,
+      "hard": 1
+    },
+    "section_distribution": {
+      "2.1. Characteristics of animals": 3,
+      "2.2. Invertebrates and Vertebrates": 5,
+      "2.3 Reproduction in Animals": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

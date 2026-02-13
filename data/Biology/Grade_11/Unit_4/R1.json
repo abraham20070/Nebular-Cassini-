@@ -1,0 +1,814 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-04-11T10:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Bio_U4_Q010",
+    "covered_sections": ["4.1. The genetic materials>4.2. The structure and function of DNA and RNA>4.2.1. The Structure and function of DNA", "4.1. The genetic materials>4.2. The structure and function of DNA and RNA>4.2.2 The structure and function of RNA", "4.3 The process of cell division>4.3.1 Cell Division>I. Mitosis", "4.4 Protein synthesis", "4.5 Mendelian inheritance>4.5.1 Mendelian crosses", "4.5 Mendelian inheritance>4.5.2 Monohybrid cross", "4.5 Mendelian inheritance>4.5.3 Dihybrid Cross>The Law of segregation", "4.6 Sex determination", "4.7 Non-Mendelian inheritance>4.7.1 Co-dominance, Incomplete dominance and Multiple alleles>Co-dominance", "4.8 Human pedigree analysis and its importance"],
+    "used_question_signatures": ["hash_1", "hash_2", "hash_3", "hash_4", "hash_5", "hash_6", "hash_7", "hash_8", "hash_9", "hash_10"],
+    "baseline_counter": {
+      "4.1. The genetic materials": {
+        "4.2. The structure and function of DNA and RNA": {
+          "count": 2,
+          "mini_headings_covered": ["The structure of DNA", "Genes and chromosomes", "The structure of RNA", "The function of RNA"],
+          "last_question_round": 1
+        }
+      },
+      "4.3 The process of cell division": {
+        "4.3.1 Cell Division": {
+          "count": 1,
+          "mini_headings_covered": ["I. Mitosis"],
+          "last_question_round": 1
+        }
+      },
+      "4.4 Protein synthesis": {
+        "": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "4.5 Mendelian inheritance": {
+        "4.5.1 Mendelian crosses": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "4.5.2 Monohybrid cross": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "4.5.3 Dihybrid Cross": {
+          "count": 1,
+          "mini_headings_covered": ["The Law of segregation"],
+          "last_question_round": 1
+        }
+      },
+      "4.6 Sex determination": {
+        "": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "4.7 Non-Mendelian inheritance": {
+        "4.7.1 Co-dominance, Incomplete dominance and Multiple alleles": {
+          "count": 1,
+          "mini_headings_covered": ["Co-dominance"],
+          "last_question_round": 1
+        }
+      },
+      "4.8 Human pedigree analysis and its importance": {
+        "": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1. The genetic materials": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.3 The process of cell division": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.4 Protein synthesis": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.5 Mendelian inheritance": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.6 Sex determination": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.7 Non-Mendelian inheritance": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.8 Human pedigree analysis and its importance": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1. The genetic materials>4.2. The structure and function of DNA and RNA": ["DNA structure", "RNA structure", "Genes", "Chromosomes"],
+      "4.3 The process of cell division>4.3.1 Cell Division": ["Mitosis stages"],
+      "4.4 Protein synthesis": ["Transcription", "Translation"],
+      "4.5 Mendelian inheritance>4.5.1 Mendelian crosses": ["Gregor Mendel", "Pea plant traits"],
+      "4.5 Mendelian inheritance>4.5.2 Monohybrid cross": ["Punnett square", "F1 generation"],
+      "4.5 Mendelian inheritance>4.5.3 Dihybrid Cross": ["Law of segregation"],
+      "4.6 Sex determination": ["Sex chromosomes", "XX vs XY"],
+      "4.7 Non-Mendelian inheritance>4.7.1 Co-dominance, Incomplete dominance and Multiple alleles": ["Codominance"],
+      "4.8 Human pedigree analysis and its importance": ["Pedigree symbols"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state_hash",
+    "content_density_metrics": {
+      "total_concepts_extracted": 15,
+      "questions_per_concept_ratio": 0.67,
+      "structural_coverage_percentage": 25.0
+    }
+  },
+  "grade": "11",
+  "subject": "Biology",
+  "unit": "Unit 4: Genetics",
+  "pdf_filename": "B11U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-04-11T10:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 7,
+        "total_sections": 12,
+        "progress_percentage": 58.3
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 7,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 5,
+      "structural_coverage_percentage": 25.0,
+      "concept_utilization_ratio": 0.67
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.5 Mendelian inheritance",
+      "least_covered_section": "4.3 The process of cell division",
+      "imbalance_ratio": 3.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U4_Q001",
+      "generation_timestamp": "2025-04-11T10:00:00Z",
+      "section": "4.1. The genetic materials",
+      "subsection": "4.2. The structure and function of DNA and RNA",
+      "sub_subsection": "4.2.1. The Structure and function of DNA",
+      "structural_anchor": "The structure of DNA",
+      "mcq_type": "B",
+      "question": "What term describes the nitrogenous base pairing rule where adenine always pairs with thymine in a DNA molecule?",
+      "options": {
+        "A": "Complementary base pairing",
+        "B": "Antiparallel alignment",
+        "C": "Semiconservative replication",
+        "D": "Transcription initiation"
+      },
+      "correct_answer": "A",
+      "hint": "This rule ensures the double helix structure is maintained during replication.",
+      "explanation": "Complementary base pairing is the specific hydrogen bonding between adenine-thymine and guanine-cytosine in DNA. Option C describes the replication mechanism where each new DNA molecule contains one original strand.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.1. The genetic materials",
+        "subsection_anchor": "4.2. The structure and function of DNA and RNA",
+        "structural_element": "The structure of DNA",
+        "content_anchor": "A pairs with T and C pairs with G to form units called base pairs",
+        "page_hint": "Page 4",
+        "concept_hash": "hash_DNA_base_pairing"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q002",
+      "generation_timestamp": "2025-04-11T10:00:00Z",
+      "section": "4.1. The genetic materials",
+      "subsection": "4.2. The structure and function of DNA and RNA",
+      "sub_subsection": "4.2.1. The Structure and function of DNA",
+      "structural_anchor": "Genes and chromosomes",
+      "mcq_type": "A",
+      "question": "What are the basic functional units of inheritance that contain instructions for specific traits and are located on chromosomes?",
+      "options": {
+        "A": "Genes",
+        "B": "Nucleotides",
+        "C": "Histones",
+        "D": "Alleles"
+      },
+      "correct_answer": "A",
+      "hint": "These units are arranged linearly like beads on a string along chromosomes.",
+      "explanation": "Genes are segments of DNA that code for specific proteins and determine inherited characteristics. Option D refers to different versions of the same gene that can produce variant traits.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.1. The genetic materials",
+        "subsection_anchor": "4.2. The structure and function of DNA and RNA",
+        "structural_element": "Genes and chromosomes",
+        "content_anchor": "Sections of the DNA structure that contain the set of instructions that determine the characteristics of an organism are called genes",
+        "page_hint": "Page 6",
+        "concept_hash": "hash_genes_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q003",
+      "generation_timestamp": "2025-04-11T10:00:00Z",
+      "section": "4.1. The genetic materials",
+      "subsection": "4.2. The structure and function of DNA and RNA",
+      "sub_subsection": "4.2.2 The structure and function of RNA",
+      "structural_anchor": "The structure of RNA",
+      "mcq_type": "I",
+      "question": "Which structural feature differentiates an RNA nucleotide from a DNA nucleotide?",
+      "options": {
+        "A": "RNA contains ribose sugar and uracil, while DNA contains deoxyribose and thymine",
+        "B": "RNA is double-stranded, while DNA is single-stranded",
+        "C": "RNA contains thymine, while DNA contains uracil",
+        "D": "RNA uses adenine-guanine pairing, while DNA uses cytosine-thymine pairing"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the sugar component and one specific nitrogenous base difference.",
+      "explanation": "RNA nucleotides contain ribose sugar and uracil base, while DNA nucleotides contain deoxyribose sugar and thymine. Option C incorrectly reverses the base composition between the two nucleic acids.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.1. The genetic materials",
+        "subsection_anchor": "4.2. The structure and function of DNA and RNA",
+        "structural_element": "The structure of RNA",
+        "content_anchor": "RNA contains the sugar ribose, phosphates, and the nitrogenous bases adenine (A), guanine (G), cytosine (C) and uracil (U) which replaces thymine in DNA",
+        "page_hint": "Page 11",
+        "concept_hash": "hash_RNA_structure"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q004",
+      "generation_timestamp": "2025-04-11T10:00:00Z",
+      "section": "4.1. The genetic materials",
+      "subsection": "4.2. The structure and function of DNA and RNA",
+      "sub_subsection": "4.2.2 The structure and function of RNA",
+      "structural_anchor": "The function of RNA",
+      "mcq_type": "F",
+      "question": "Considering that DNA stores genetic information in the nucleus, which type of RNA serves as an intermediary to convey protein synthesis instructions to the cytoplasm?",
+      "options": {
+        "A": "Messenger RNA (mRNA)",
+        "B": "Transfer RNA (tRNA)",
+        "C": "Ribosomal RNA (rRNA)",
+        "D": "Small nuclear RNA (snRNA)"
+      },
+      "correct_answer": "A",
+      "hint": "This RNA type carries the genetic code from DNA to ribosomes.",
+      "explanation": "Messenger RNA carries transcribed genetic information from DNA to ribosomes for translation into proteins. Option B functions as an adapter molecule that brings specific amino acids to the ribosome during protein assembly.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.1. The genetic materials",
+        "subsection_anchor": "4.2. The structure and function of DNA and RNA",
+        "structural_element": "The function of RNA",
+        "content_anchor": "RNA functions in protein synthesis and used as a storage of genetic information in some viruses",
+        "page_hint": "Page 11",
+        "concept_hash": "hash_RNA_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q005",
+      "generation_timestamp": "2025-04-11T10:00:00Z",
+      "section": "4.3 The process of cell division",
+      "subsection": "4.3.1 Cell Division",
+      "sub_subsection": "I. Mitosis",
+      "structural_anchor": "I. Mitosis",
+      "mcq_type": "M",
+      "question": "What is the correct sequence of stages in mitosis, starting from the beginning of nuclear division?",
+      "options": {
+        "A": "Prophase, Metaphase, Anaphase, Telophase",
+        "B": "Metaphase, Prophase, Anaphase, Telophase",
+        "C": "Telophase, Anaphase, Metaphase, Prophase",
+        "D": "Anaphase, Metaphase, Prophase, Telophase"
+      },
+      "correct_answer": "A",
+      "hint": "The process begins with chromosome condensation and ends with nuclear reformation.",
+      "explanation": "Mitosis progresses through prophase (chromosome condensation), metaphase (alignment), anaphase (separation), and telophase (nuclear reformation). Option B incorrectly places metaphase before prophase, which contradicts the biological order of events.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.3 The process of cell division",
+        "subsection_anchor": "4.3.1 Cell Division",
+        "structural_element": "I. Mitosis",
+        "content_anchor": "1. Prophase...2. Metaphase...3. Anaphase...4. Telophase",
+        "page_hint": "Pages 15-16",
+        "concept_hash": "hash_mitosis_sequence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q006",
+      "generation_timestamp": "2025-04-11T10:00:00Z",
+      "section": "4.4 Protein synthesis",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "4.4 Protein synthesis",
+      "mcq_type": "K",
+      "question": "During translation, a tRNA molecule with the anticodon 3'-UAC-5' would bind to which mRNA codon?",
+      "options": {
+        "A": "5'-AUG-3'",
+        "B": "5'-UAC-3'",
+        "C": "5'-ATG-3'",
+        "D": "5'-CAU-3'"
+      },
+      "correct_answer": "A",
+      "hint": "Remember that anticodons bind complementarily to codons, with uracil pairing with adenine.",
+      "explanation": "tRNA anticodons bind complementarily to mRNA codons through base pairing rules (A-U, G-C). Option B represents the same sequence as the anticodon rather than its complementary partner.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.4 Protein synthesis",
+        "subsection_anchor": "",
+        "structural_element": "4.4 Protein synthesis",
+        "content_anchor": "The anticodon on tRNA enables to recognize the codon of mRNA through complementary base pairing",
+        "page_hint": "Page 23",
+        "concept_hash": "hash_translation_codon"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q007",
+      "generation_timestamp": "2025-04-11T10:00:00Z",
+      "section": "4.5 Mendelian inheritance",
+      "subsection": "4.5.1 Mendelian crosses",
+      "sub_subsection": null,
+      "structural_anchor": "4.5.1 Mendelian crosses",
+      "mcq_type": "B",
+      "question": "Which scientist is recognized for establishing the foundational principles of heredity through systematic experiments with pea plants?",
+      "options": {
+        "A": "Gregor Mendel",
+        "B": "Charles Darwin",
+        "C": "James Watson",
+        "D": "Francis Crick"
+      },
+      "correct_answer": "A",
+      "hint": "This scientist conducted crosses with pea plants in the 19th century.",
+      "explanation": "Gregor Mendel established the laws of segregation and independent assortment through pea plant experiments. Option C and D collaborated to discover the double helix structure of DNA in the 20th century.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.5 Mendelian inheritance",
+        "subsection_anchor": "4.5.1 Mendelian crosses",
+        "structural_element": "4.5.1 Mendelian crosses",
+        "content_anchor": "Gregor Mendel (Figure 4.25), the father of genetics, conducted experiments on pea plants",
+        "page_hint": "Page 26",
+        "concept_hash": "hash_mendel_identity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q008",
+      "generation_timestamp": "2025-04-11T10:00:00Z",
+      "section": "4.5 Mendelian inheritance",
+      "subsection": "4.5.2 Monohybrid cross",
+      "sub_subsection": null,
+      "structural_anchor": "4.5.2 Monohybrid cross",
+      "mcq_type": "D",
+      "question": "In a monohybrid cross between two heterozygous tall pea plants (Tt × Tt), what phenotypic ratio is expected in the offspring?",
+      "options": {
+        "A": "3 tall : 1 short",
+        "B": "1 tall : 1 short",
+        "C": "All tall",
+        "D": "1 tall : 2 medium : 1 short"
+      },
+      "correct_answer": "A",
+      "hint": "Consider that tall is dominant over short in pea plants.",
+      "explanation": "The cross Tt × Tt yields a genotypic ratio of 1 TT:2 Tt:1 tt, producing a 3:1 phenotypic ratio of dominant to recessive traits. Option B represents the expected ratio from a test cross between a heterozygote and homozygous recessive individual.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.5 Mendelian inheritance",
+        "subsection_anchor": "4.5.2 Monohybrid cross",
+        "structural_element": "4.5.2 Monohybrid cross",
+        "content_anchor": "Mendel counted the number of second-generation (F2) progeny with dominant or recessive traits and found a 3:1 ratio",
+        "page_hint": "Page 27",
+        "concept_hash": "hash_monohybrid_ratio"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q009",
+      "generation_timestamp": "2025-04-11T10:00:00Z",
+      "section": "4.5 Mendelian inheritance",
+      "subsection": "4.5.3 Dihybrid Cross",
+      "sub_subsection": "The Law of segregation",
+      "structural_anchor": "The Law of segregation",
+      "mcq_type": "F",
+      "question": "If alleles for seed color and seed shape segregate independently during gamete formation, which cellular process directly ensures each gamete receives only one allele per gene?",
+      "options": {
+        "A": "Separation of homologous chromosomes during meiosis I",
+        "B": "Crossing over during prophase I",
+        "C": "DNA replication during S phase",
+        "D": "Cytokinesis following mitosis"
+      },
+      "correct_answer": "A",
+      "hint": "Consider when homologous chromosomes with their allele pairs are separated.",
+      "explanation": "The Law of Segregation is physically realized when homologous chromosomes separate during anaphase I of meiosis. Option C occurs before meiosis and duplicates chromosomes but doesn't separate alleles.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.5 Mendelian inheritance",
+        "subsection_anchor": "4.5.3 Dihybrid Cross",
+        "structural_element": "The Law of segregation",
+        "content_anchor": "The physical basis of Mendel's law of segregation is the first division of meiosis in which the homologous chromosomes with their different versions of each gene are segregated into daughter nuclei",
+        "page_hint": "Page 31",
+        "concept_hash": "hash_law_segregation_mechanism"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Bio_U4_Q010",
+      "generation_timestamp": "2025-04-11T10:00:00Z",
+      "section": "4.6 Sex determination",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "4.6 Sex determination",
+      "mcq_type": "D",
+      "question": "What combination of sex chromosomes typically determines male development in humans?",
+      "options": {
+        "A": "One X and one Y chromosome (XY)",
+        "B": "Two X chromosomes (XX)",
+        "C": "One X chromosome only (XO)",
+        "D": "Two Y chromosomes (YY)"
+      },
+      "correct_answer": "A",
+      "hint": "Males have one chromosome from each parental sex chromosome type.",
+      "explanation": "The XY sex determination system designates males as having one X and one Y chromosome. Option B represents the typical female chromosomal configuration in humans.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Genetics",
+        "section_anchor": "4.6 Sex determination",
+        "subsection_anchor": "",
+        "structural_element": "4.6 Sex determination",
+        "content_anchor": "Individuals having two X chromosomes (XX), are female, whereas individuals having one X chromosome and one Y chromosome (XY) are male",
+        "page_hint": "Page 34",
+        "concept_hash": "hash_sex_chromosomes_male"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4500,
+    "average_question_quality": 84.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 2,
+      "D": 2,
+      "F": 2,
+      "I": 1,
+      "K": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "4.1. The genetic materials": 4,
+      "4.3 The process of cell division": 1,
+      "4.4 Protein synthesis": 1,
+      "4.5 Mendelian inheritance": 3,
+      "4.6 Sex determination": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

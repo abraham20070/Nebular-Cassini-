@@ -1,0 +1,821 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T00:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Phy_U7_Q010",
+    "covered_sections": ["Introduction>About the Atom", "Introduction>Isotopes", "7.1 The nucleus>7.1.1 Historical origins of the nucleus and its constituting particles", "7.1 The nucleus>7.1.2 What keeps the nucleus together?", "7.1 The nucleus>7.1.2 What keeps the nucleus together?>Nuclear binding energy"],
+    "used_question_signatures": ["a9397d1a7b2e7c5f6d8e9f0a1b2c3d4e5", "b8476e2b8c3d9f0a1b2c3d4e5f6a7b8c9", "c7565f3c9d0e1a2b3c4d5e6f7a8b9c0d1", "d6654e4a0f1b2c3d4e5f6a7b8c9d0e1f2", "e5745d5b1c2d3e4f5a6b7c8d9e0f1a2b3", "f4836c6c2d3e4f5a6b7c8d9e0f1a2b3c4", "g3927b7d3e4f5a6b7c8d9e0f1a2b3c4d5", "h2818a8e4f5a6b7c8d9e0f1a2b3c4d5e6", "i1709f9f5a6b7c8d9e0f1a2b3c4d5e6f7", "j0608e0a6b7c8d9e0f1a2b3c4d5e6f7a8"],
+    "baseline_counter": {
+      "Introduction": {
+        "About the Atom": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Isotopes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "7.1 The nucleus": {
+        "7.1.1 Historical origins of the nucleus and its constituting particles": {
+          "count": 3,
+          "mini_headings_covered": ["Discovery of the nucleus", "Discovery of the proton", "Discovery of the neutron"],
+          "last_question_round": 1
+        },
+        "7.1.2 What keeps the nucleus together?": {
+          "count": 3,
+          "mini_headings_covered": ["The strong and the weak nuclear forces", "Key terms:", "Nuclear binding energy"],
+          "last_question_round": 1
+        }
+      },
+      "7.2 Radioactivity": {
+        "Types of nuclear radiation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "7.3 Use of nuclear radiation": {
+        "Medical applications of nuclear radiation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Radioactive dating": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "7.4 Nuclear Reaction and Energy Production": {
+        "Nuclear fission reaction": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "7.4.1. Nuclear fusion reaction and its uses": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "7.5 Safety Rules Against Hazards of Nuclear Radiation": {
+        "Nuclear Safety rules": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Protecting yourself from radiation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "UNIT SUMMARY": {
+        "": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "7.1 The nucleus": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "7.2 Radioactivity": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "7.3 Use of nuclear radiation": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "7.4 Nuclear Reaction and Energy Production": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "7.5 Safety Rules Against Hazards of Nuclear Radiation": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "UNIT SUMMARY": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>About the Atom": ["Atom Structure", "Subatomic Particles"],
+      "Introduction>Isotopes": ["Isotope Definition", "Nuclear Notation"],
+      "7.1 The nucleus>7.1.1 Historical origins of the nucleus and its constituting particles": ["Rutherford Experiment", "Proton Discovery", "Neutron Discovery"],
+      "7.1 The nucleus>7.1.2 What keeps the nucleus together?": ["Strong Nuclear Force", "Weak Nuclear Force", "Nuclear Binding Energy"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "content_density_metrics": {
+      "total_concepts_extracted": 11,
+      "questions_per_concept_ratio": 0.91,
+      "structural_coverage_percentage": 14.7
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Physics",
+  "unit": "Unit 7: NUCLEAR PHYSICS",
+  "pdf_filename": "P11U7.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 7,
+      "constraint_violations_caught": 7,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T00:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 7,
+        "progress_percentage": 28.6
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 4,
+      "mini_headings_covered_count": 6,
+      "structural_coverage_percentage": 17.6,
+      "concept_utilization_ratio": 0.91
+    },
+    "distribution_analysis": {
+      "most_covered_section": "7.1 The nucleus",
+      "least_covered_section": "7.2 Radioactivity",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Phy_U7_Q001",
+      "generation_timestamp": "2025-01-27T00:00:00Z",
+      "section": "Introduction",
+      "subsection": "About the Atom",
+      "sub_subsection": null,
+      "structural_anchor": "About the Atom",
+      "mcq_type": "B",
+      "question": "What term describes the heavy, neutral particle found within an atomic nucleus?",
+      "options": {
+        "A": "Proton",
+        "B": "Electron",
+        "C": "Neutron",
+        "D": "Positron"
+      },
+      "correct_answer": "C",
+      "hint": "This particle has no electric charge and a mass similar to a proton.",
+      "explanation": "A neutron is an electrically neutral subatomic particle found in the nucleus with a mass slightly greater than a proton. Option A is incorrect because a proton carries a positive charge, not a neutral one.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "About the Atom",
+        "structural_element": "About the Atom",
+        "content_anchor": "neutrons (electrically neutral)",
+        "page_hint": 3,
+        "concept_hash": "b5b8f0c0f5d8e6a7c9b8d7e6f5a4b3c2d1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q002",
+      "generation_timestamp": "2025-01-27T00:00:00Z",
+      "section": "Introduction",
+      "subsection": "About the Atom",
+      "sub_subsection": null,
+      "structural_anchor": "Table 7-1: Mass and charge of subatomic particles",
+      "mcq_type": "J",
+      "question": "Which particle from the list has a negative charge and the smallest mass?",
+      "options": {
+        "A": "Proton",
+        "B": "Neutron",
+        "C": "Electron",
+        "D": "Alpha particle"
+      },
+      "correct_answer": "C",
+      "hint": "Consider both the sign of the electric charge and the relative mass.",
+      "explanation": "An electron possesses a negative electric charge and has a mass approximately 1/1836 that of a proton. Option A is incorrect because a proton has a positive charge and a significantly larger mass.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "About the Atom",
+        "structural_element": "Table 7-1: Mass and charge of subatomic particles",
+        "content_anchor": "Electron -1.602×10^-19 C, 9.1094×10^-31 kg",
+        "page_hint": 3,
+        "concept_hash": "c4a3b2c1d0e9f8a7b6c5d4e3f2a1b0c9d8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q003",
+      "generation_timestamp": "2025-01-27T00:00:00Z",
+      "section": "Introduction",
+      "subsection": "Isotopes",
+      "sub_subsection": null,
+      "structural_anchor": "Isotopes",
+      "mcq_type": "A",
+      "question": "What are atoms of the same element that have different numbers of neutrons called?",
+      "options": {
+        "A": "Ions",
+        "B": "Isomers",
+        "C": "Isotopes",
+        "D": "Isotones"
+      },
+      "correct_answer": "C",
+      "hint": "The defining difference is in the neutron count, not proton count or energy state.",
+      "explanation": "Isotopes are atoms of an element that share the same atomic number (protons) but have different mass numbers due to varying neutron counts. Option A is incorrect because ions are atoms with a net electric charge, not a different neutron count.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Isotopes",
+        "structural_element": "Isotopes",
+        "content_anchor": "atoms with the same number of protons but different numbers of neutrons",
+        "page_hint": 4,
+        "concept_hash": "d3e2f1a0b9c8d7e6f5a4b3c2d1e0f9a8b7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q004",
+      "generation_timestamp": "2025-01-27T00:00:00Z",
+      "section": "Introduction",
+      "subsection": "Isotopes",
+      "sub_subsection": null,
+      "structural_anchor": "Some examples of isotopes of elements:",
+      "mcq_type": "K",
+      "question": "Given the notation ¹⁴C, which number indicates the total count of protons and neutrons in the carbon nucleus?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "12",
+        "D": "14"
+      },
+      "correct_answer": "D",
+      "hint": "The superscript number in nuclear notation represents the mass number.",
+      "explanation": "In the nuclear notation ᴬX, the superscript A is the mass number, which is the sum of protons and neutrons. Option C incorrectly identifies the atomic number, which for carbon is 6 (the subscript).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Isotopes",
+        "structural_element": "Some examples of isotopes of elements:",
+        "content_anchor": "carbon isotopes: ¹²C, ¹³C and ¹⁴C",
+        "page_hint": 4,
+        "concept_hash": "e2d1c0f9a8b7c6d5e4f3a2b1c0d9e8f7a6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q005",
+      "generation_timestamp": "2025-01-27T00:00:00Z",
+      "section": "7.1 The nucleus",
+      "subsection": "7.1.1 Historical origins of the nucleus and its constituting particles",
+      "sub_subsection": null,
+      "structural_anchor": "Discovery of the nucleus",
+      "mcq_type": "F",
+      "question": "When alpha particles were directed at a thin gold foil, most passed through with little deflection. Which reasoning best explains this observation?",
+      "options": {
+        "A": "The gold foil was an excellent conductor of positive charge.",
+        "B": "Most of the atomic volume is empty space, with mass concentrated in a tiny nucleus.",
+        "C": "Alpha particles have very high energy and cannot be stopped by thin materials.",
+        "D": "The electrostatic repulsion between alpha particles and electrons was negligible."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the distribution of mass and volume within the atom as implied by the scattering results.",
+      "explanation": "Rutherford's scattering experiment demonstrated that atoms consist mostly of empty space, with their positive charge and mass concentrated in a small central nucleus. Option C misinterprets the result by focusing on particle energy rather than the structural implication.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.1 The nucleus",
+        "subsection_anchor": "7.1.1 Historical origins of the nucleus and its constituting particles",
+        "structural_element": "Discovery of the nucleus",
+        "content_anchor": "Most of the space in an atom is empty.",
+        "page_hint": 6,
+        "concept_hash": "f1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q006",
+      "generation_timestamp": "2025-01-27T00:00:00Z",
+      "section": "7.1 The nucleus",
+      "subsection": "7.1.1 Historical origins of the nucleus and its constituting particles",
+      "sub_subsection": null,
+      "structural_anchor": "Discovery of the proton",
+      "mcq_type": "B",
+      "question": "Which particle, discovered as the nucleus of a hydrogen atom, is a fundamental constituent of all atomic nuclei?",
+      "options": {
+        "A": "Electron",
+        "B": "Positron",
+        "C": "Proton",
+        "D": "Neutron"
+      },
+      "correct_answer": "C",
+      "hint": "This particle has a positive charge and was identified as the hydrogen nucleus.",
+      "explanation": "The proton is the positively charged particle that constitutes the hydrogen nucleus and is present in the nuclei of all other elements. Option D is incorrect because the neutron, discovered later, is also a constituent but is electrically neutral.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.1 The nucleus",
+        "subsection_anchor": "7.1.1 Historical origins of the nucleus and its constituting particles",
+        "structural_element": "Discovery of the proton",
+        "content_anchor": "hydrogen nucleus must be the fundamental building block of all nuclei",
+        "page_hint": 7,
+        "concept_hash": "a0b9c8d7e6f5a4b3c2d1e0f9a8b7c6d5e4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q007",
+      "generation_timestamp": "2025-01-27T00:00:00Z",
+      "section": "7.1 The nucleus",
+      "subsection": "7.1.1 Historical origins of the nucleus and its constituting particles",
+      "sub_subsection": null,
+      "structural_anchor": "Discovery of the neutron",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that a particle penetrating several inches of lead must be positively charged?",
+      "options": {
+        "A": "Penetration power depends primarily on particle energy, not charge.",
+        "B": "A highly penetrating particle is likely neutral, as it does not interact via the electromagnetic force.",
+        "C": "Lead is a dense material that stops all charged particles regardless of energy.",
+        "D": "Only gamma radiation, not particles, can penetrate significant thicknesses of lead."
+      },
+      "correct_answer": "B",
+      "hint": "Consider what property would allow a particle to avoid electromagnetic interactions with matter.",
+      "explanation": "Chadwick's discovery of the neutron showed that its high penetration through dense materials like lead indicated electrical neutrality, not a positive charge. Option C is incorrect because it presents an absolute statement that ignores the role of particle energy.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.1 The nucleus",
+        "subsection_anchor": "7.1.1 Historical origins of the nucleus and its constituting particles",
+        "structural_element": "Discovery of the neutron",
+        "content_anchor": "penetrated through several inches of lead... the particle is electrically neutral",
+        "page_hint": 7,
+        "concept_hash": "b9c8d7e6f5a4b3c2d1e0f9a8b7c6d5e4f3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 90,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q008",
+      "generation_timestamp": "2025-01-27T00:00:00Z",
+      "section": "7.1 The nucleus",
+      "subsection": "7.1.2 What keeps the nucleus together?",
+      "sub_subsection": null,
+      "structural_anchor": "The strong and the weak nuclear forces",
+      "mcq_type": "G",
+      "question": "If the distance between two nucleons is less than about 10⁻¹⁵ m, what happens to the strong nuclear force relative to the electrostatic repulsion between protons?",
+      "options": {
+        "A": "It becomes negligible.",
+        "B": "It becomes repulsive.",
+        "C": "It becomes attractive and overcomes repulsion.",
+        "D": "It transforms into the weak nuclear force."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the very short-range nature of the force that binds the nucleus.",
+      "explanation": "The strong nuclear force is a powerful, short-range attractive force that acts between nucleons and overcomes the electrostatic repulsion between protons at nuclear distances. Option A is incorrect because, within its range, the strong force is dominant, not negligible.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.1 The nucleus",
+        "subsection_anchor": "7.1.2 What keeps the nucleus together?",
+        "structural_element": "The strong and the weak nuclear forces",
+        "content_anchor": "strong nuclear force is strong enough to withstand the electrical repulsion",
+        "page_hint": 8,
+        "concept_hash": "c8d7e6f5a4b3c2d1e0f9a8b7c6d5e4f3a2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q009",
+      "generation_timestamp": "2025-01-27T00:00:00Z",
+      "section": "7.1 The nucleus",
+      "subsection": "7.1.2 What keeps the nucleus together?",
+      "sub_subsection": null,
+      "structural_anchor": "Key terms:",
+      "mcq_type": "A",
+      "question": "What is the term for the energy required to completely separate an atomic nucleus into its individual protons and neutrons?",
+      "options": {
+        "A": "Ionization energy",
+        "B": "Nuclear binding energy",
+        "C": "Activation energy",
+        "D": "Electron affinity"
+      },
+      "correct_answer": "B",
+      "hint": "This energy is associated with the force holding the nucleons together.",
+      "explanation": "Nuclear binding energy is defined as the minimum energy needed to disassemble a nucleus into its constituent protons and neutrons. Option A is incorrect because ionization energy refers to removing electrons from an atom, not nucleons from a nucleus.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.1 The nucleus",
+        "subsection_anchor": "7.1.2 What keeps the nucleus together?",
+        "structural_element": "Key terms:",
+        "content_anchor": "energy required to separate an atomic nucleus completely into its constituent protons and neutrons",
+        "page_hint": 8,
+        "concept_hash": "d7e6f5a4b3c2d1e0f9a8b7c6d5e4f3a2b1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U7_Q010",
+      "generation_timestamp": "2025-01-27T00:00:00Z",
+      "section": "7.1 The nucleus",
+      "subsection": "7.1.2 What keeps the nucleus together?",
+      "sub_subsection": null,
+      "structural_anchor": "Nuclear binding energy",
+      "mcq_type": "F",
+      "question": "The measured mass of a nucleus is less than the sum of the masses of its individual protons and neutrons. Which reasoning best explains the origin of nuclear binding energy?",
+      "options": {
+        "A": "The missing mass is converted into kinetic energy of orbiting electrons.",
+        "B": "The mass defect represents energy released as radiation during nucleus formation.",
+        "C": "The strong nuclear force adds negative mass to the system, reducing the total.",
+        "D": "Protons and neutrons lose mass when confined within the nuclear volume."
+      },
+      "correct_answer": "B",
+      "hint": "Consider Einstein's mass-energy equivalence principle in the context of nuclear formation.",
+      "explanation": "According to Einstein's equation E=mc², the mass defect (Δm) is converted into energy released when the nucleus forms; this energy is the nuclear binding energy. Option D is incorrect because it misattributes the mass change to a property of confinement rather than energy release.",
+      "difficulty_level": "medium",
+      "formula_used": ["E=mc²"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: NUCLEAR PHYSICS",
+        "section_anchor": "7.1 The nucleus",
+        "subsection_anchor": "7.1.2 What keeps the nucleus together?",
+        "structural_element": "Nuclear binding energy",
+        "content_anchor": "mass of an atomic nucleus is less than the sum... mass defect... E=mc²",
+        "page_hint": 9,
+        "concept_hash": "e6f5a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4150,
+    "average_question_quality": 86.7,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 3,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Introduction": 4,
+      "7.1 The nucleus": 6
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

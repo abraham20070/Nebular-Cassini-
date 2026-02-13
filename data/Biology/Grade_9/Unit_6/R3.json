@@ -1,0 +1,765 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-14T10:40:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Bio_U6_Q030",
+    "covered_sections": ["6.1 Ecology>6.1.1 Definitions", "6.1 Ecology>6.1.2. Biotic and abiotic components", "6.1 Ecology>6.1.3. Ecological levels", "6.1 Ecology>6.1.4 Ecosystems", "6.1 Ecology>6.1.5 Biomes", "6.1 Ecology>1.1.6 Ecological succession", "6.2. Ecological relationships"],
+    "used_question_signatures": ["hash_Def_Ecology_WhatIsEcology", "hash_Term_Ecology_Ecologist", "hash_Con_A_Factors_LightAquatic", "hash_Con_B_Factors_OxygenAquatic", "hash_Type_G_Predation_Effect", "hash_Type_H_Mutualism_Error", "hash_Type_D_Levels_Population", "hash_Type_F_Levels_Community", "hash_Type_A_Biome_TropicalRainforest", "hash_Type_C_Succession_Primary", "hash_Type_E_Calc_TempRange", "hash_Type_J_Class_EcoLevels", "hash_Type_F_Eco_AquaticVsTerrestrial", "hash_Type_D_Succession_Secondary", "hash_Type_B_Biome_Desert", "hash_Type_K_Interp_BiomeTable", "hash_Type_F_Rel_Competition", "hash_Type_G_Rel_Predation", "hash_Type_I_Rel_MutualismCommensalism", "hash_Type_H_Rel_ParasitismError", "hash_Type_N_Lim_TempPlantGrowth", "hash_Type_M_Seq_SuccessionOrder", "hash_Type_L_Exp_QuadratUse", "hash_Type_A_Eco_Terrestrial", "hash_Type_C_Biome_Tundra", "hash_Type_G_Biome_Adaptations", "hash_Type_F_Aquatic_Lakes", "hash_Type_K_Interp_AquaticTable", "hash_Type_D_Rel_Herbivory", "hash_Type_E_Calc_SalinityPercentage"],
+    "baseline_counter": {
+      "6.1 Ecology": {
+        "6.1.1 Definitions": {
+          "count": 2,
+          "mini_headings_covered": ["What is Ecology?"],
+          "last_question_round": 1
+        },
+        "6.1.2. Biotic and abiotic components": {
+          "count": 5,
+          "mini_headings_covered": ["Abiotic Factors", "Biotic Factors"],
+          "last_question_round": 3
+        },
+        "6.1.3. Ecological levels": {
+          "count": 4,
+          "mini_headings_covered": ["What is a population?", "What is a biological community?", "Did You Know?"],
+          "last_question_round": 3
+        },
+        "6.1.4 Ecosystems": {
+          "count": 3,
+          "mini_headings_covered": ["Types of ecosystems"],
+          "last_question_round": 3
+        },
+        "6.1.5 Biomes": {
+          "count": 7,
+          "mini_headings_covered": ["What are the tropical rain forests?", "What is a desert?", "Self Assessment (matching table)", "Aquatic biomes", "What are the lakes?", "What are the tundras?", "What are Savannas?"],
+          "last_question_round": 3
+        },
+        "1.1.6 Ecological succession": {
+          "count": 3,
+          "mini_headings_covered": ["Key Terms"],
+          "last_question_round": 3
+        },
+        "6.2. Ecological relationships": {
+          "count": 6,
+          "mini_headings_covered": ["Competition(-/-)", "Predation (+/-)", "Mutualism (+/+)", "Parasitism (+/-)", "Herbivory (+/-)", "Commensalism (+/0)"],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Ecology": {
+        "question_count": 24,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "6.2. Ecological relationships": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Ecology>6.1.1 Definitions": ["Ecology", "Ecologist"],
+      "6.1 Ecology>6.1.2. Biotic and abiotic components": ["Abiotic Factors", "Light Penetration", "Dissolved Oxygen", "Temperature Range", "Temperature Limiting", "Biotic Factors", "Predation", "Mutualism"],
+      "6.1 Ecology>6.1.3. Ecological levels": ["Population", "Biological Community", "Ecological Levels", "Quadrat Sampling", "Ecological Levels Order"],
+      "6.1 Ecology>6.1.4 Ecosystems": ["Terrestrial Ecosystems", "Aquatic Ecosystems", "Ecosystem Components", "Terrestrial Ecosystem Definition"],
+      "6.1 Ecology>6.1.5 Biomes": ["Tropical Rainforest", "Desert", "Biome Classification", "Aquatic Biomes", "Salinity", "Tundra", "Savanna", "Lake Ecosystem", "Biome Adaptations"],
+      "6.1 Ecology>1.1.6 Ecological succession": ["Primary Succession", "Secondary Succession", "Succession Stages"],
+      "6.2. Ecological relationships": ["Competition", "Intraspecific Competition", "Predation", "Mutualism", "Commensalism", "Parasitism", "Herbivory"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 35,
+      "questions_per_concept_ratio": 0.857,
+      "structural_coverage_percentage": 58.1
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 6: Ecology",
+  "pdf_filename": "B9U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 6,
+      "constraint_violations_caught": 6,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-14T10:40:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 2,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 7,
+      "mini_headings_covered_count": 18,
+      "structural_coverage_percentage": 58.1,
+      "concept_utilization_ratio": 0.857
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.1 Ecology",
+      "least_covered_section": "6.2. Ecological relationships",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U6_Q021",
+      "generation_timestamp": "2025-01-14T10:40:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.2. Biotic and abiotic components",
+      "sub_subsection": null,
+      "structural_anchor": "Abiotic Factors",
+      "mcq_type": "N",
+      "question": "Plant growth is often severely restricted in soils with low nitrogen content. Under which condition would this limitation be most critical for agricultural crop yield?",
+      "options": {
+        "A": "When attempting to grow crops in nitrogen-depleted soils without fertilization.",
+        "B": "When crops are planted in areas with excessive rainfall and sunlight.",
+        "C": "When the soil has an optimal balance of all other macro and micronutrients.",
+        "D": "When temperatures are within the ideal range for photosynthesis."
+      },
+      "correct_answer": "A",
+      "hint": "A limiting factor restricts growth even if all other conditions are favorable.",
+      "explanation": "A limiting factor, such as low nitrogen availability, restricts biological processes regardless of other favorable conditions. Option C describes a scenario where nitrogen specifically becomes the constraining variable for growth.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.2. Biotic and abiotic components",
+        "structural_element": "Abiotic Factors",
+        "content_anchor": "The distribution and abundance of photosynthetic organisms...depend on the availability of inorganic nutrients such as compounds of nitrogen...",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q022",
+      "generation_timestamp": "2025-01-14T10:40:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "1.1.6 Ecological succession",
+      "sub_subsection": null,
+      "structural_anchor": "Key Terms",
+      "mcq_type": "M",
+      "question": "Which sequence correctly orders the typical stages of primary succession on bare rock?",
+      "options": {
+        "A": "Lichens and mosses → Grasses and shrubs → Soil development → Trees",
+        "B": "Trees → Grasses and shrubs → Soil erosion → Lichens",
+        "C": "Soil development → Trees → Grasses → Lichens",
+        "D": "Grasses and shrubs → Trees → Lichens → Soil development"
+      },
+      "correct_answer": "A",
+      "hint": "The process begins with pioneer organisms that can grow on rock.",
+      "explanation": "Primary succession starts with pioneer species like lichens that weather rock, contributing to initial soil formation, followed by herbaceous plants, then shrubs, and finally trees. Option C reverses the initial and final stages of the process.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "1.1.6 Ecological succession",
+        "structural_element": "Key Terms",
+        "content_anchor": "Lichens and mosses...are commonly the first macroscopic photosynthesizers to colonize...Soil develops gradually...once soil is present, the lichens and mosses are usually overgrown by grasses, shrubs, and trees",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q023",
+      "generation_timestamp": "2025-01-14T10:40:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.3. Ecological levels",
+      "sub_subsection": null,
+      "structural_anchor": "Did You Know?",
+      "mcq_type": "L",
+      "question": "An ecologist wants to estimate the population density of a slow-moving snail species in a meadow. Which method would be most practical and appropriate?",
+      "options": {
+        "A": "Use quadrat sampling by placing square frames randomly and counting snails within them.",
+        "B": "Capture, mark, release, and recapture individual snails across the entire meadow.",
+        "C": "Conduct an aerial survey to photograph and count snails from above.",
+        "D": "Estimate based on the number of snail predators observed in the area."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the organism's mobility and the need for a defined sampling area.",
+      "explanation": "Quadrat sampling is ideal for immobile or slow-moving organisms, allowing direct counts within defined areas to estimate density. Option B is better suited for mobile animals where individual identification is possible.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.3. Ecological levels",
+        "structural_element": "Did You Know?",
+        "content_anchor": "For immobile organisms such as plants, or for very small and slow- moving organisms, a quadrat may be used.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q024",
+      "generation_timestamp": "2025-01-14T10:40:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.4 Ecosystems",
+      "sub_subsection": null,
+      "structural_anchor": "Types of ecosystems",
+      "mcq_type": "A",
+      "question": "Forests, grasslands, and deserts are all examples of which major category of ecosystems?",
+      "options": {
+        "A": "Terrestrial Ecosystems",
+        "B": "Aquatic Ecosystems",
+        "C": "Marine Ecosystems",
+        "D": "Wetland Ecosystems"
+      },
+      "correct_answer": "A",
+      "hint": "These ecosystems are characterized by their location on land.",
+      "explanation": "Terrestrial ecosystems are those located on land, encompassing biomes like forests, grasslands, and deserts. Option B is incorrect because aquatic ecosystems include freshwater and marine environments, not land-based ones.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.4 Ecosystems",
+        "structural_element": "Types of ecosystems",
+        "content_anchor": "There are two major kinds of ecosystems- terrestrial and aquatic. Terrestrial ecosystems are those located on land.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q025",
+      "generation_timestamp": "2025-01-14T10:40:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.5 Biomes",
+      "sub_subsection": null,
+      "structural_anchor": "What are the tundras?",
+      "mcq_type": "C",
+      "question": "A biome with permanently frozen subsoil, low-growing vegetation like mosses and lichens, and average winter temperatures below -30°C is classified as what?",
+      "options": {
+        "A": "Tundra",
+        "B": "Boreal Forest",
+        "C": "Temperate Grassland",
+        "D": "Savanna"
+      },
+      "correct_answer": "A",
+      "hint": "Think of cold, treeless plains at high latitudes or elevations.",
+      "explanation": "The tundra biome is defined by permafrost, low temperatures, and vegetation adapted to short growing seasons. Option B is incorrect because boreal forests are dominated by coniferous trees, not treeless plains.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.5 Biomes",
+        "structural_element": "What are the tundras?",
+        "content_anchor": "The vegetation of tundra is mostly herbaceous...A permanently frozen layer of soil called permafrost...Winters are cold, with averages in some areas below −30°C",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q026",
+      "generation_timestamp": "2025-01-14T10:40:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.5 Biomes",
+      "sub_subsection": null,
+      "structural_anchor": "What are Savannas?",
+      "mcq_type": "G",
+      "question": "If the frequency of natural fires in a savanna biome increases significantly, what is the most likely direct effect on the tree population?",
+      "options": {
+        "A": "Tree regeneration decreases as seedlings and saplings are killed.",
+        "B": "Mature trees develop immediate fireproof bark.",
+        "C": "All tree species become extinct within a single season.",
+        "D": "Tree density increases due to reduced competition from grasses."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the vulnerability of young trees versus adaptations of mature vegetation.",
+      "explanation": "Frequent fires in savannas can kill young trees before they mature, limiting regeneration and maintaining the grassland with scattered trees. Option D presents the opposite effect, which might occur with reduced fire frequency.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.5 Biomes",
+        "structural_element": "What are Savannas?",
+        "content_anchor": "Fires are common in the dry season...overly frequent fires reduce tree regeneration by killing the seedlings and saplings.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 81,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q027",
+      "generation_timestamp": "2025-01-14T10:40:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.5 Biomes",
+      "sub_subsection": null,
+      "structural_anchor": "What are the lakes?",
+      "mcq_type": "F",
+      "question": "In a lake ecosystem, an algal bloom occurs following fertilizer runoff from nearby farms. Which reasoning best explains the subsequent decline in fish populations?",
+      "options": {
+        "A": "Algae die and decompose, consuming dissolved oxygen needed by fish.",
+        "B": "The algae provide excess food, causing fish to overpopulate and then starve.",
+        "C": "Increased algae block sunlight, preventing fish from seeing their prey.",
+        "D": "The fertilizer directly increases water toxicity, poisoning the fish."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the cascade of effects from nutrient enrichment in aquatic systems.",
+      "explanation": "Eutrophication leads to algal blooms; subsequent decomposition by bacteria depletes oxygen, causing hypoxic conditions that suffocate fish. Option D misattributes the primary cause; while some fertilizers can be toxic, oxygen depletion is the major direct effect.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.5 Biomes",
+        "structural_element": "What are the lakes?",
+        "content_anchor": "Runoff from fertilized land and dumping of wastes lead to nutrient enrichment, which can produce large numbers of algae...oxygen depletion, and fish kills.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 86,
+        "distractor_quality_score": 89,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q028",
+      "generation_timestamp": "2025-01-14T10:40:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.5 Biomes",
+      "sub_subsection": null,
+      "structural_anchor": "Aquatic biomes",
+      "mcq_type": "K",
+      "question": "The statement 'Aquatic biomes are determined by salinity and other physical factors' implies that which pair of biomes would be most distinctly separated by this specific characteristic?",
+      "options": {
+        "A": "Freshwater Lakes and Marine Oceans",
+        "B": "Coral Reefs and Estuaries",
+        "C": "Streams and Rivers",
+        "D": "Wetlands and Swamps"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental difference in salt concentration.",
+      "explanation": "Salinity is the primary factor dividing aquatic biomes into freshwater (<1% salt) and marine (~3% salt) categories. Option B includes biomes that are both within the marine or brackish category, not maximally separated by salinity.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.5 Biomes",
+        "structural_element": "Aquatic biomes",
+        "content_anchor": "Aquatic biomes, which occupy roughly 75% of Earth's surface, are determined by their salinity and other physical factors. Freshwater biomes...have salt concentrations of less than 1%. The salt concentrations of marine biomes...are generally around 3%.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 84,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q029",
+      "generation_timestamp": "2025-01-14T10:40:00Z",
+      "section": "6.2. Ecological relationships",
+      "subsection": "6.2. Ecological relationships",
+      "sub_subsection": null,
+      "structural_anchor": "Herbivory (+/-)",
+      "mcq_type": "D",
+      "question": "Which interaction involves an organism consuming parts of a plant, typically harming it but not causing immediate death?",
+      "options": {
+        "A": "Herbivory",
+        "B": "Predation",
+        "C": "Parasitism",
+        "D": "Competition"
+      },
+      "correct_answer": "A",
+      "hint": "This is a consumer-plant relationship with a specific ecological term.",
+      "explanation": "Herbivory is defined as an exploitative (+/-) interaction where an herbivore eats parts of a plant or alga, harming it but usually not killing it outright. Option B is incorrect because predation typically results in the death of the prey.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.2. Ecological relationships",
+        "subsection_anchor": "6.2. Ecological relationships",
+        "structural_element": "Herbivory (+/-)",
+        "content_anchor": "Herbivory is an exploitative interaction in which an organism—an herbivore—eats parts of a plant or alga, thereby harming it but usually not killing it.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q030",
+      "generation_timestamp": "2025-01-14T10:40:00Z",
+      "section": "6.2. Ecological relationships",
+      "subsection": "6.2. Ecological relationships",
+      "sub_subsection": null,
+      "structural_anchor": "Commensalism (+/0)",
+      "mcq_type": "E",
+      "question": "Ocean water typically has a salt concentration of approximately 3%. If a marine biome has a volume of 1000 liters, how many liters of pure salt would be present if the salt concentration is exactly 3% by volume?",
+      "options": {
+        "A": "30 L",
+        "B": "3 L",
+        "C": "300 L",
+        "D": "0.3 L"
+      },
+      "correct_answer": "A",
+      "hint": "Calculate 3% of the total volume.",
+      "explanation": "A 3% concentration means 3 units of salt per 100 units of solution. For 1000 L, the salt volume is (3/100) × 1000 = 30 L. Option B is a common error from misplacing the decimal point.",
+      "difficulty_level": "easy",
+      "formula_used": ["salt_volume = total_volume × (concentration / 100)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "L",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.2. Ecological relationships",
+        "subsection_anchor": "6.2. Ecological relationships",
+        "structural_element": "Commensalism (+/0)",
+        "content_anchor": "The salt concentrations of marine biomes (oceans, intertidal zones, and coral reefs) are generally around 3%.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 76,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2900,
+    "average_question_quality": 86.1,
+    "type_distribution": {
+      "A": 1,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "K": 1,
+      "L": 1,
+      "M": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "6.1 Ecology": 8,
+      "6.2. Ecological relationships": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

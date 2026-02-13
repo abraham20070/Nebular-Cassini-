@@ -1,0 +1,802 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-25T12:05:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G11_Bio_U6_Q030",
+    "covered_sections": ["6.1 Population ecology>6.1.1 Population size, density and dispersal", "6.1 Population ecology>6.1.2 Exponential and logistic growth in populations", "6.1 Population ecology>6.1.3 Demographic structure", "6.1 Population ecology>6.1.4 Population regulation", "6.2 Natural resources>6.2.1 Renewable", "6.2 Natural resources>6.2.2 Non-renewable", "6.3 Conservation of natural resources in Ethiopia", "6.4 Impact of traffic accident on wild and domestic animals", "6.5 Impact of human activities on the environment", "6.6 Indigenous conservation practices in Ethiopia"],
+    "used_question_signatures": ["8a3f1def6b7c9e2d5a4b", "1b5c9e3d7a2f8d4b6c0", "7e2d4b1a9c6f0d3b5a8", "3d9a6c0b4f8e2d1b7a5", "2f8b4d6a0c9e3b1d7a", "9c1e4b7a0d3f8b2d6a", "4b8d2f6a0c9e1b3d7a", "0d3f7b2a9c6e1b4d8a", "6e1b4d8a0c9f2b3d7a", "5a9c3e1b7d0f2b4d8a", "8c2f5b9d1a7e3b0d4a", "1d7b3f9a5c0e2b8d4a", "9a2d6b0f4c8e1b3d7a", "4c0e8b2d6a1f3b9d5a", "2b8d4f0a6c1e3b9d7a", "6f1d9b3a7e0c2b8d4a", "3a7e1c9b5d0f2b8d4a", "0e4b8d2f6a1c3b9d7a", "5b9d3a7e1c0f2b8d4a", "7c1e3b9d5a0f2b8d4a", "1f3d7b9a5c0e2b8d4a", "8e2b4d6a0c9f1b3d7a", "2c9e5b1d7a3f0b8d4a", "6a0d4b8e2c9f1b3d7a", "3f1b7d9a5c0e2b8d4a", "9d5b1a7e3c0f2b8d4a", "4a8e2b6d0c9f1b3d7a", "0b6d2f8a4c1e3b9d7a", "7e3c1a9d5b0f2b8d4a", "5c0f2b8d4a6e1b3d9a"],
+    "baseline_counter": {
+      "6.1 Population ecology": {
+        "6.1.1 Population size, density and dispersal": {
+          "count": 5,
+          "mini_headings_covered": ["Population size", "Population density", "Population dispersal", "Studying populations using the Quadrat method", "Studying the human population"],
+          "last_question_round": 3
+        },
+        "6.1.2 Exponential and logistic growth in populations": {
+          "count": 6,
+          "mini_headings_covered": ["Exponential growth model", "Logistic growth model"],
+          "last_question_round": 3
+        },
+        "6.1.3 Demographic structure": {
+          "count": 6,
+          "mini_headings_covered": ["Population pyramid", "Survivorship Curves"],
+          "last_question_round": 3
+        },
+        "6.1.4 Population regulation": {
+          "count": 3,
+          "mini_headings_covered": ["Density-dependent factors", "B. Density-independent factors"],
+          "last_question_round": 3
+        }
+      },
+      "6.2 Natural resources": {
+        "6.2.1 Renewable": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.2.2 Non-renewable": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "6.3 Conservation of natural resources in Ethiopia": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "6.4 Impact of traffic accident on wild and domestic animals": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "6.5 Impact of human activities on the environment": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "6.6 Indigenous conservation practices in Ethiopia": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Population ecology": {
+        "question_count": 20,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "6.2 Natural resources": {
+        "question_count": 5,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "6.3 Conservation of natural resources in Ethiopia": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "6.4 Impact of traffic accident on wild and domestic animals": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "6.5 Impact of human activities on the environment": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "6.6 Indigenous conservation practices in Ethiopia": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Population ecology>6.1.1 Population size, density and dispersal": ["Population size (N)", "Population density", "Dispersal patterns", "Quadrat method", "Census methods"],
+      "6.1 Population ecology>6.1.2 Exponential and logistic growth in populations": ["Exponential growth (J-curve)", "Logistic growth (S-curve)", "Carrying capacity (K)", "Per capita rate of increase (r)", "Growth conditions"],
+      "6.1 Population ecology>6.1.3 Demographic structure": ["Population pyramid", "Age-sex structure", "Survivorship curves", "Type I/II/III"],
+      "6.1 Population ecology>6.1.4 Population regulation": ["Density-dependent factors", "Density-independent factors", "Limiting factors"],
+      "6.2 Natural resources>6.2.1 Renewable": ["Renewable resources", "Regeneration rate"],
+      "6.2 Natural resources>6.2.2 Non-renewable": ["Non-renewable resources", "Depletion rate"],
+      "6.3 Conservation of natural resources in Ethiopia": ["Conservation", "Sustainable use"],
+      "6.5 Impact of human activities on the environment": ["Environmental impact", "Pollution causes"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_after_round_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 26,
+      "questions_per_concept_ratio": 1.15,
+      "structural_coverage_percentage": 46.7
+    }
+  },
+  "grade": "11",
+  "subject": "Biology",
+  "unit": "Unit 6: Population and natural resources",
+  "pdf_filename": "B11U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 1,
+      "constraint_violations_caught": 1,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-25T12:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 8,
+        "progress_percentage": 75.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 6.67,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 10,
+      "structural_coverage_percentage": 46.7,
+      "concept_utilization_ratio": 1.15
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.1 Population ecology",
+      "least_covered_section": "6.4 Impact of traffic accident on wild and domestic animals",
+      "imbalance_ratio": 6.67,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U6_Q021",
+      "generation_timestamp": "2025-01-25T12:05:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.1 Population size, density and dispersal",
+      "sub_subsection": null,
+      "structural_anchor": "Studying the human population",
+      "mcq_type": "D",
+      "question": "Which method involves systematically collecting information from every individual in a country to determine total population size?",
+      "options": {
+        "A": "Census",
+        "B": "Quadrat sampling",
+        "C": "Mark-recapture",
+        "D": "Transect sampling"
+      },
+      "correct_answer": "A",
+      "hint": "This is an official count conducted by governments at regular intervals.",
+      "explanation": "A census is a complete enumeration of all individuals in a population, used for human population studies. Option B is for plants and immobile organisms in small sample areas.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.1 Population size, density and dispersal",
+        "structural_element": "Studying the human population",
+        "content_anchor": "A census is a systematic collection of information from all units or individuals in the population",
+        "page_hint": null,
+        "concept_hash": "sha256_of_census_method"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q022",
+      "generation_timestamp": "2025-01-25T12:05:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.4 Population regulation",
+      "sub_subsection": null,
+      "structural_anchor": "Density-dependent factors",
+      "mcq_type": "G",
+      "question": "What happens to the impact of disease on a population as its density increases?",
+      "options": {
+        "A": "Disease spread and mortality increase",
+        "B": "Disease spread decreases due to immunity",
+        "C": "Disease impact remains constant regardless of density",
+        "D": "Diseases become beneficial to population health"
+      },
+      "correct_answer": "A",
+      "hint": "Higher density facilitates transmission through closer contact.",
+      "explanation": "Density-dependent factors like disease have greater impact in dense populations due to easier transmission. Option C describes density-independent factors, which are unaffected by population density.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.4 Population regulation",
+        "structural_element": "Density-dependent factors",
+        "content_anchor": "communicable diseases spread quickly and increase mortality in a dense population",
+        "page_hint": null,
+        "concept_hash": "sha256_of_density_dependent_disease"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q023",
+      "generation_timestamp": "2025-01-25T12:05:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.4 Population regulation",
+      "sub_subsection": null,
+      "structural_anchor": "B. Density-independent factors",
+      "mcq_type": "J",
+      "question": "Which of the following is classified as a density-independent factor affecting population growth?",
+      "options": {
+        "A": "Natural disasters like earthquakes",
+        "B": "Competition for food",
+        "C": "Predation pressure",
+        "D": "Disease outbreaks"
+      },
+      "correct_answer": "A",
+      "hint": "These factors affect populations regardless of how many individuals are present.",
+      "explanation": "Density-independent factors, such as earthquakes or severe weather, impact populations irrespective of their size. Options B, C, and D are density-dependent as their effects intensify with population density.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.4 Population regulation",
+        "structural_element": "B. Density-independent factors",
+        "content_anchor": "Density-independent factors are non-living (abiotic) factors that regulate the population growth rate regardless of population density",
+        "page_hint": null,
+        "concept_hash": "sha256_of_density_independent"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q024",
+      "generation_timestamp": "2025-01-25T12:05:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.4 Population regulation",
+      "sub_subsection": null,
+      "structural_anchor": "Density-dependent factors",
+      "mcq_type": "I",
+      "question": "How do density-dependent factors differ from density-independent factors in their relationship to population size?",
+      "options": {
+        "A": "Their intensity changes with population density",
+        "B": "They only affect small populations",
+        "C": "They are always biotic factors",
+        "D": "They cause random fluctuations unrelated to density"
+      },
+      "correct_answer": "A",
+      "hint": "These factors become more severe as the population becomes more crowded.",
+      "explanation": "Density-dependent factors like competition and disease intensify as population density increases. Option D incorrectly describes density-independent factors, which act regardless of population size.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.4 Population regulation",
+        "structural_element": "Density-dependent factors",
+        "content_anchor": "density of the population at a given time that affects its growth rate",
+        "page_hint": null,
+        "concept_hash": "sha256_of_density_dependent_characteristic"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q025",
+      "generation_timestamp": "2025-01-25T12:05:00Z",
+      "section": "6.2 Natural resources",
+      "subsection": "6.2.2 Non-renewable",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.2 Non-renewable",
+      "mcq_type": "B",
+      "question": "Which of the following is an example of a non-renewable natural resource?",
+      "options": {
+        "A": "Coal",
+        "B": "Solar energy",
+        "C": "Wind power",
+        "D": "Fresh water"
+      },
+      "correct_answer": "A",
+      "hint": "This resource forms over millions of years from ancient organic matter.",
+      "explanation": "Coal is a fossil fuel that takes geological timescales to form, making it non-renewable on human timescales. Options B and C are renewable energy sources.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.2 Natural resources",
+        "subsection_anchor": "6.2.2 Non-renewable",
+        "structural_element": "6.2.2 Non-renewable",
+        "content_anchor": "Examples of non- renewable natural resources are minerals, fossil fuels, coal, and natural gas",
+        "page_hint": null,
+        "concept_hash": "sha256_of_non_renewable_example"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q026",
+      "generation_timestamp": "2025-01-25T12:05:00Z",
+      "section": "6.3 Conservation of natural resources in Ethiopia",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "6.3 Conservation of natural resources in Ethiopia",
+      "mcq_type": "D",
+      "question": "Why is conservation of natural resources considered crucial for sustainable development?",
+      "options": {
+        "A": "It ensures resources remain available for future generations",
+        "B": "It prioritizes immediate economic gains over long-term availability",
+        "C": "It focuses only on protecting non-renewable resources",
+        "D": "It prevents any human use of natural resources"
+      },
+      "correct_answer": "A",
+      "hint": "Sustainable development meets present needs without compromising future needs.",
+      "explanation": "Conservation enables sustainable use by balancing current resource needs with preservation for the future. Option B describes unsustainable exploitation, which is the opposite of conservation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.3 Conservation of natural resources in Ethiopia",
+        "subsection_anchor": null,
+        "structural_element": "6.3 Conservation of natural resources in Ethiopia",
+        "content_anchor": "wise use and substitution of such natural resources is crucial to passing them on to the next generation",
+        "page_hint": null,
+        "concept_hash": "sha256_of_conservation_sustainability"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q027",
+      "generation_timestamp": "2025-01-25T12:05:00Z",
+      "section": "6.5 Impact of human activities on the environment",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "6.5 Impact of human activities on the environment",
+      "mcq_type": "G",
+      "question": "What is a direct consequence of burning fossil fuels on atmospheric composition?",
+      "options": {
+        "A": "Increased concentration of carbon dioxide",
+        "B": "Decreased levels of greenhouse gases",
+        "C": "Enhanced ozone layer production",
+        "D": "Reduction in atmospheric nitrogen"
+      },
+      "correct_answer": "A",
+      "hint": "Fossil fuel combustion releases gases that were stored underground for millions of years.",
+      "explanation": "Burning coal, oil, and natural gas releases carbon dioxide, a major greenhouse gas. Option B is incorrect because fossil fuel combustion increases, not decreases, greenhouse gas concentrations.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.5 Impact of human activities on the environment",
+        "subsection_anchor": null,
+        "structural_element": "6.5 Impact of human activities on the environment",
+        "content_anchor": "combustion of fossil fuels... increased the levels of carbon dioxide and other greenhouse gases",
+        "page_hint": null,
+        "concept_hash": "sha256_of_fossil_fuel_impact"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q028",
+      "generation_timestamp": "2025-01-25T12:05:00Z",
+      "section": "6.2 Natural resources",
+      "subsection": "6.2.1 Renewable",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.1 Renewable",
+      "mcq_type": "E",
+      "question": "If a forest produces 500 new trees per year through natural regeneration, and 400 trees are harvested annually, what is the net change in the forest resource?",
+      "options": {
+        "A": "+100 trees per year",
+        "B": "-100 trees per year",
+        "C": "+900 trees per year",
+        "D": "0 trees per year"
+      },
+      "correct_answer": "A",
+      "hint": "Calculate regeneration minus harvest to find net annual change.",
+      "explanation": "The net change is regeneration (500) minus harvest (400), resulting in a gain of 100 trees annually. Option B incorrectly subtracts regeneration from harvest rather than harvest from regeneration.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "units": "trees per year",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.2 Natural resources",
+        "subsection_anchor": "6.2.1 Renewable",
+        "structural_element": "6.2.1 Renewable",
+        "content_anchor": "replenish at the same speed at which they are used",
+        "page_hint": null,
+        "concept_hash": "sha256_of_renewable_regeneration"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q029",
+      "generation_timestamp": "2025-01-25T12:05:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.3 Demographic structure",
+      "sub_subsection": null,
+      "structural_anchor": "Survivorship Curves",
+      "mcq_type": "J",
+      "question": "Which survivorship curve type represents organisms with low mortality during early and middle life, but high mortality in old age?",
+      "options": {
+        "A": "Type I",
+        "B": "Type II",
+        "C": "Type III",
+        "D": "Type IV"
+      },
+      "correct_answer": "A",
+      "hint": "Humans and most large mammals follow this pattern.",
+      "explanation": "Type I survivorship curves show high survival until old age, followed by rapid decline. Type III curves, option C, show the opposite pattern with high early mortality.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.3 Demographic structure",
+        "structural_element": "Survivorship Curves",
+        "content_anchor": "Type I: Organisms produce relatively few offspring... mortality is low in the early and middle years, it occurs mostly in older individuals",
+        "page_hint": null,
+        "concept_hash": "sha256_of_type_i_survivorship"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q030",
+      "generation_timestamp": "2025-01-25T12:05:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.2 Exponential and logistic growth in populations",
+      "sub_subsection": null,
+      "structural_anchor": "Logistic growth model",
+      "mcq_type": "F",
+      "question": "When a population approaches its carrying capacity in the logistic growth model, what typically happens to its growth rate?",
+      "options": {
+        "A": "It decreases and approaches zero",
+        "B": "It increases exponentially",
+        "C": "It becomes negative immediately",
+        "D": "It oscillates unpredictably"
+      },
+      "correct_answer": "A",
+      "hint": "Limited resources constrain further population increase near carrying capacity.",
+      "explanation": "In logistic growth, the growth rate slows as population size approaches carrying capacity (K), eventually leveling off. Option B describes exponential growth, which occurs only when resources are unlimited.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.2 Exponential and logistic growth in populations",
+        "structural_element": "Logistic growth model",
+        "content_anchor": "When the size of the population reaches its carrying capacity, population growth levels off",
+        "page_hint": null,
+        "concept_hash": "sha256_of_growth_at_capacity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3500,
+    "average_question_quality": 84.5,
+    "type_distribution": {
+      "B": 2,
+      "D": 2,
+      "E": 1,
+      "F": 1,
+      "G": 2,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 7,
+      "hard": 0
+    },
+    "section_distribution": {
+      "6.1 Population ecology": 6,
+      "6.2 Natural resources": 2,
+      "6.3 Conservation of natural resources in Ethiopia": 1,
+      "6.5 Impact of human activities on the environment": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

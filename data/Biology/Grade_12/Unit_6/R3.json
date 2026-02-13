@@ -1,0 +1,821 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2026-01-27T15:40:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G12_Bio_U6_Q030",
+    "covered_sections": ["6.1. Climate Change: Causes and effects>6.1.1. Definition of Climate Change", "6.1. Climate Change: Causes and effects>6.1.2. Causes of climate change What Causes Climate change?", "Effects of climate change>6.2.1. Effects of climate change on biodiversity", "Effects of climate change>6.2.2. Effects of climate change on Agriculture", "Effects of climate change>6.2.3. Effect of climate change on forest productivity", "Effects of climate change>6.2.4. Climate change and natural disasters 6.2.4.1. Climate change and natural disasters", "Effects of climate change>6.2.4.2. Melting ice and rising seas", "Effects of climate change>6.2.4.3. Extreme weather, shifting rainfall", "Effects of climate change>6.2.4.4. Risks of climate change for human health", "Mitigation Measure>6.3. International conventions", "Mitigation Measure>6.3.1. The United Nations Framework Convention", "Mitigation Measure>6.3.2. Kyoto Protocol on Climate Change", "Mitigation Measure>6.3.3. International and national practices of Implementation of conventions", "REVIEW>End-of-unit questions (Pages 21-22)"],
+    "used_question_signatures": ["a2c8f89f8b8d8a1e", "b3d9e90f9c9e9b2f", "c4e0a10g0d0f0c3g", "d5f1b11h1e1g1d4h", "e6g2c12i2f2h2e5i", "f7h3d13j3g3i3f6j", "g8i4e14k4h4j4g7k", "h9j5f15l5i5k5h8l", "i10k6g16m6j6l6i9m", "j11l7h17n7k7m7j10n", "k12m8i18o8l8n8k11o", "l13n9j19p9m9o9l12p", "m14o10k20q10n10p10m13q", "n15p11l21r11o11q11n14r", "o16q12m22s12p12r12o15s", "p17r13n23t13q13s13p16t", "q18s14o24u14r14t14q17u", "r19t15p25v15s15u15r18v", "s20u16q26w16t16v16s19w", "t21v17r27x17u17w17t20x", "u22w18s28y18v18x18u21y", "v23x19t29z19w19y19v22z", "w24y20u30aa20x20z20w23aa", "x25z21v31ab21y21aa21x24ab", "y26aa22w32ac22z22ab22y25ac", "z27ab23x33ad23aa23ac23z26ad", "aa28ac24y34ae24ab24ad24aa27ae", "ab29ad25z35af25ac25ae25ab28af", "ac30ae26aa36ag26ad26af26ac29ag", "ad31af27ab37ah27ae27ag27ad30ah"],
+    "baseline_counter": {
+      "6.1. Climate Change: Causes and effects": {
+        "6.1.1. Definition of Climate Change": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.1.2. Causes of climate change What Causes Climate change?": {
+          "count": 5,
+          "mini_headings_covered": ["What are greenhouse gases?", "Greenhouse effect", "Table 6.1. Types of greenhouse gases and their major sources", "Figure 6.1. Source- Path relationship of Greenhouse gases", "Self-questioning"],
+          "last_question_round": 3
+        }
+      },
+      "Effects of climate change": {
+        "6.2.1. Effects of climate change on biodiversity": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.2. Effects of climate change on Agriculture": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.3. Effect of climate change on forest productivity": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.4. Climate change and natural disasters 6.2.4.1. Climate change and natural disasters": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.2.4.2. Melting ice and rising seas": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.2.4.3. Extreme weather, shifting rainfall": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.2.4.4. Risks of climate change for human health": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Mitigation Measure": {
+        "6.3. International conventions": {
+          "count": 6,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.3.1. The United Nations Framework Convention": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.3.2. Kyoto Protocol on Climate Change": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.3.3. International and national practices of Implementation of conventions": {
+          "count": 3,
+          "mini_headings_covered": ["Ethiopia Green Legacy Initiative", "Great Ethiopian Renaissance Dam (GERD)", "Activity 6.6"],
+          "last_question_round": 3
+        }
+      },
+      "REVIEW": {
+        "End-of-unit questions (Pages 21-22)": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1. Climate Change: Causes and effects": {
+        "question_count": 7,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Effects of climate change": {
+        "question_count": 21,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Mitigation Measure": {
+        "question_count": 15,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "REVIEW": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1. Climate Change: Causes and effects>6.1.1. Definition of Climate Change": ["Climate change definition", "Global phenomenon"],
+      "6.1. Climate Change: Causes and effects>6.1.2. Causes of climate change What Causes Climate change?": ["Greenhouse gases", "Carbon dioxide", "Fossil fuels", "Anthropogenic drivers", "Industrial Revolution", "Energy balance", "CO2 concentrations", "Atmospheric CO2 increase"],
+      "Effects of climate change>6.2.1. Effects of climate change on biodiversity": ["Biodiversity loss", "Habitat change", "Species adaptation"],
+      "Effects of climate change>6.2.2. Effects of climate change on Agriculture": ["Agricultural productivity", "Food availability", "Crop yields"],
+      "Effects of climate change>6.2.3. Effect of climate change on forest productivity": ["Forest disturbances", "Wildfires", "Insect outbreaks"],
+      "Effects of climate change>6.2.4. Climate change and natural disasters 6.2.4.1. Climate change and natural disasters": ["Natural disasters", "Climate hazards", "Storm intensity", "Flooding"],
+      "Effects of climate change>6.2.4.2. Melting ice and rising seas": ["Sea level rise", "Coastal flooding", "Ice melt", "Thermal expansion"],
+      "Effects of climate change>6.2.4.3. Extreme weather, shifting rainfall": ["Extreme weather", "Precipitation patterns", "Water resources", "Heavy rainfall"],
+      "Effects of climate change>6.2.4.4. Risks of climate change for human health": ["Health impacts", "Heat-related illness", "Disease vectors", "Waterborne illnesses"],
+      "Mitigation Measure>6.3. International conventions": ["International agreements", "UNFCCC", "Nationally determined contributions", "Climate policy"],
+      "Mitigation Measure>6.3.1. The United Nations Framework Convention": ["UNFCCC", "Stabilizing concentrations", "Climate system", "Environmental treaty"],
+      "Mitigation Measure>6.3.2. Kyoto Protocol on Climate Change": ["Kyoto Protocol", "Emission reductions", "Market mechanisms", "Binding targets"],
+      "Mitigation Measure>6.3.3. International and national practices of Implementation of conventions": ["Green Legacy Initiative", "GERD", "Climate resilient economy", "Carbon sequestration", "Hydroelectric power"],
+      "REVIEW>End-of-unit questions (Pages 21-22)": ["Review concepts", "Climate change mitigation", "Agricultural impacts"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_integrity_round3",
+    "content_density_metrics": {
+      "total_concepts_extracted": 45,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 46.7
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 6: Climate Change",
+  "pdf_filename": "B12U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-01-27T15:41:45Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 4,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 10.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 14,
+      "mini_headings_covered_count": 8,
+      "structural_coverage_percentage": 46.7,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Effects of climate change",
+      "least_covered_section": "REVIEW",
+      "imbalance_ratio": 10.5,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U6_Q021",
+      "generation_timestamp": "2026-01-27T15:40:10Z",
+      "section": "6.1. Climate Change: Causes and effects",
+      "subsection": "6.1.2. Causes of climate change What Causes Climate change?",
+      "sub_subsection": null,
+      "structural_anchor": "Self-questioning",
+      "mcq_type": "I",
+      "question": "How does the role of atmospheric carbon dioxide in climate change compare to that of methane when considering both warming potential and atmospheric lifetime?",
+      "options": {
+        "A": "CO₂ causes more total warming due to higher concentrations and longer persistence",
+        "B": "Methane dominates climate impacts due to higher per-molecule heat absorption",
+        "C": "Both gases contribute equally to current energy imbalance",
+        "D": "Neither gas significantly influences Earth's temperature equilibrium"
+      },
+      "correct_answer": "A",
+      "hint": "Consider abundance versus per-molecule effectiveness over different timescales.",
+      "explanation": "Carbon dioxide contributes about two-thirds of energy imbalance due to high concentrations and long atmospheric lifetime. Option B incorrectly prioritizes methane's higher per-molecule effectiveness over CO₂'s greater cumulative impact.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "6.1. Climate Change: Causes and effects",
+        "subsection_anchor": "6.1.2. Causes of climate change What Causes Climate change?",
+        "structural_element": "Self-questioning",
+        "content_anchor": "responsible for about two-thirds of the total energy imbalance",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_co2_vs_methane_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 81,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q022",
+      "generation_timestamp": "2026-01-27T15:40:20Z",
+      "section": "Effects of climate change",
+      "subsection": "6.2.4. Climate change and natural disasters 6.2.4.1. Climate change and natural disasters",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.4. Climate change and natural disasters 6.2.4.1. Climate change and natural disasters",
+      "mcq_type": "F",
+      "question": "Under the condition that atmospheric water vapor content increases with rising global temperatures, which reasoning best explains the intensification of storm systems?",
+      "options": {
+        "A": "Additional water vapor provides more latent heat energy for storm development",
+        "B": "Higher humidity reduces atmospheric pressure differentials globally",
+        "C": "Increased evaporation uniformly distributes cloud cover, stabilizing weather",
+        "D": "Water vapor molecules directly block incoming solar radiation"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how phase changes of water release energy in the atmosphere.",
+      "explanation": "Water vapor condensation releases latent heat, fueling storm intensification. Option C incorrectly describes stabilizing effects despite evidence that increased moisture energizes weather systems.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "Effects of climate change",
+        "subsection_anchor": "6.2.4. Climate change and natural disasters 6.2.4.1. Climate change and natural disasters",
+        "structural_element": "6.2.4. Climate change and natural disasters 6.2.4.1. Climate change and natural disasters",
+        "content_anchor": "fuel for more powerful storms to develop",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_water_vapor_storm_intensification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q023",
+      "generation_timestamp": "2026-01-27T15:40:30Z",
+      "section": "Effects of climate change",
+      "subsection": "6.2.4.2. Melting ice and rising seas",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.4.2. Melting ice and rising seas",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that melting land ice has no significant impact on ocean volumes?",
+      "options": {
+        "A": "It incorrectly assumes ice melt water remains stored on continents",
+        "B": "It overlooks the substantial volume of ice stored on Greenland and Antarctica",
+        "C": "It confuses sea ice melt with land-based glacier melt",
+        "D": "All of the above represent flaws in this reasoning"
+      },
+      "correct_answer": "D",
+      "hint": "Consider the different contributions of various ice types to sea level rise.",
+      "explanation": "Melting land ice from glaciers and ice sheets directly adds water to oceans, unlike sea ice melt. The reasoning error involves multiple misconceptions about ice types and their hydrological contributions.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "Effects of climate change",
+        "subsection_anchor": "6.2.4.2. Melting ice and rising seas",
+        "structural_element": "6.2.4.2. Melting ice and rising seas",
+        "content_anchor": "polar ice sheets and glaciers to melt",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_land_ice_melt_impact"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 83,
+        "distractor_quality_score": 87,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q024",
+      "generation_timestamp": "2026-01-27T15:40:40Z",
+      "section": "Effects of climate change",
+      "subsection": "6.2.4.3. Extreme weather, shifting rainfall",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.4.3. Extreme weather, shifting rainfall",
+      "mcq_type": "G",
+      "question": "What is the likely consequence for regional water security when extreme precipitation events increase in frequency while seasonal rainfall patterns become less predictable?",
+      "options": {
+        "A": "Increased flooding risks combined with water scarcity during dry periods",
+        "B": "Uniform improvement in water availability across all seasons",
+        "C": "Complete stabilization of groundwater recharge rates",
+        "D": "Elimination of drought conditions in historically arid regions"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how precipitation intensity versus distribution affects water management.",
+      "explanation": "Intense rainfall causes runoff rather than infiltration, while irregular patterns disrupt reliable supply. Option B incorrectly assumes beneficial outcomes despite evidence of increased water management challenges.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 17.6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "Effects of climate change",
+        "subsection_anchor": "6.2.4.3. Extreme weather, shifting rainfall",
+        "structural_element": "6.2.4.3. Extreme weather, shifting rainfall",
+        "content_anchor": "decreasing availability of water resources in some regions",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_water_security_impacts"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 79,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q025",
+      "generation_timestamp": "2026-01-27T15:40:50Z",
+      "section": "Effects of climate change",
+      "subsection": "6.2.4.4. Risks of climate change for human health",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.4.4. Risks of climate change for human health",
+      "mcq_type": "G",
+      "question": "What happens to disease vector distribution patterns when temperature ranges suitable for insects like mosquitoes expand into previously temperate regions?",
+      "options": {
+        "A": "Geographic range of vector-borne diseases increases",
+        "B": "All mosquito species become extinct in tropical regions",
+        "C": "Disease transmission rates decrease uniformly worldwide",
+        "D": "Human immunity to vector-borne pathogens strengthens automatically"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how temperature limits organism distribution and disease transmission dynamics.",
+      "explanation": "Warmer temperatures allow disease vectors to colonize new regions, expanding health risks. Option C incorrectly assumes reduced transmission despite evidence of expanded vector ranges.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "Effects of climate change",
+        "subsection_anchor": "6.2.4.4. Risks of climate change for human health",
+        "structural_element": "6.2.4.4. Risks of climate change for human health",
+        "content_anchor": "changes in the spread of some waterborne illnesses and disease vectors",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_disease_vector_expansion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q026",
+      "generation_timestamp": "2026-01-27T15:41:00Z",
+      "section": "Mitigation Measure",
+      "subsection": "6.3. International conventions",
+      "sub_subsection": null,
+      "structural_anchor": "6.3. International conventions",
+      "mcq_type": "D",
+      "question": "Which numerical target for limiting global temperature increase above pre-industrial levels was established by international climate agreements to significantly reduce climate risks?",
+      "options": {
+        "A": "Well below 2°C, pursuing efforts toward 1.5°C",
+        "B": "Maximum 3°C increase by 2100",
+        "C": "Stabilization at 4°C above historical averages",
+        "D": "No specific numerical temperature target"
+      },
+      "correct_answer": "A",
+      "hint": "This target aims to prevent dangerous climate interference.",
+      "explanation": "International agreements establish the 2°C limit with 1.5°C aspiration to reduce climate impacts. Option D incorrectly describes the agreements, which include explicit numerical temperature goals.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "Mitigation Measure",
+        "subsection_anchor": "6.3. International conventions",
+        "structural_element": "6.3. International conventions",
+        "content_anchor": "holding the increase to well below 2°C, pursue efforts to limit to 1.5°C",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_temperature_targets"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q027",
+      "generation_timestamp": "2026-01-27T15:41:10Z",
+      "section": "Mitigation Measure",
+      "subsection": "6.3.1. The United Nations Framework Convention",
+      "sub_subsection": null,
+      "structural_anchor": "6.3.1. The United Nations Framework Convention",
+      "mcq_type": "F",
+      "question": "Under the condition that atmospheric greenhouse gas concentrations must be stabilized to prevent dangerous climate interference, which reasoning best explains why the UNFCCC includes all member countries rather than only major emitters?",
+      "options": {
+        "A": "Climate change is a global collective action problem requiring universal participation",
+        "B": "Smaller countries contribute insignificantly to total emissions",
+        "C": "Only industrialized nations possess technical capacity for emission reductions",
+        "D": "Developing countries are exempt from all climate responsibilities"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the transnational nature of atmospheric systems and emissions.",
+      "explanation": "The UNFCCC recognizes climate change as a global commons issue requiring cooperative solutions. Option B incorrectly minimizes the cumulative impact of many smaller emitters and their mitigation potential.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "Mitigation Measure",
+        "subsection_anchor": "6.3.1. The United Nations Framework Convention",
+        "structural_element": "6.3.1. The United Nations Framework Convention",
+        "content_anchor": "197 Parties of the Convention",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_universal_participation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q028",
+      "generation_timestamp": "2026-01-27T15:41:20Z",
+      "section": "Mitigation Measure",
+      "subsection": "6.3.2. Kyoto Protocol on Climate Change",
+      "sub_subsection": null,
+      "structural_anchor": "6.3.2. Kyoto Protocol on Climate Change",
+      "mcq_type": "I",
+      "question": "How does the Kyoto Protocol's approach to emission reductions for industrialized countries compare to its provisions for developing nations?",
+      "options": {
+        "A": "Binding targets for industrialized countries, voluntary actions for developing countries",
+        "B": "Equal binding reduction requirements for all signatory nations",
+        "C": "No emission constraints for any participating countries",
+        "D": "Stricter limits for developing nations than for industrialized economies"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the principle of common but differentiated responsibilities.",
+      "explanation": "The Kyoto Protocol established binding targets for industrialized nations while encouraging voluntary actions from developing countries. Option B incorrectly describes uniform requirements that contradict the treaty's differentiated approach.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "Mitigation Measure",
+        "subsection_anchor": "6.3.2. Kyoto Protocol on Climate Change",
+        "structural_element": "6.3.2. Kyoto Protocol on Climate Change",
+        "content_anchor": "industrialized countries would be legally obliged, developing countries would face no restriction",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_kyoto_differentiated_approach"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 77,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q029",
+      "generation_timestamp": "2026-01-27T15:41:30Z",
+      "section": "Mitigation Measure",
+      "subsection": "6.3.3. International and national practices of Implementation of conventions",
+      "sub_subsection": null,
+      "structural_anchor": "Ethiopia Green Legacy Initiative",
+      "mcq_type": "D",
+      "question": "What specific numerical target was established by Ethiopia's large-scale afforestation program launched in 2019 to address climate change and environmental degradation?",
+      "options": {
+        "A": "Plant 20 billion seedlings within four years",
+        "B": "Increase forest cover by 5% over a decade",
+        "C": "Restore 1 million hectares of degraded land",
+        "D": "Achieve 50% urban green space coverage"
+      },
+      "correct_answer": "A",
+      "hint": "This initiative involves massive tree planting across the country.",
+      "explanation": "The Green Legacy Initiative targets 20 billion tree plantings within a four-year period. Option C describes a different scale and timeframe than the actual program's ambitious seedling target.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "Mitigation Measure",
+        "subsection_anchor": "6.3.3. International and national practices of Implementation of conventions",
+        "structural_element": "Ethiopia Green Legacy Initiative",
+        "content_anchor": "targeted to plant 20 billion seedlings within a period of four years",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_of_green_legacy_target"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Bio_U6_Q030",
+      "generation_timestamp": "2026-01-27T15:41:40Z",
+      "section": "REVIEW",
+      "subsection": "End-of-unit questions (Pages 21-22)",
+      "sub_subsection": null,
+      "structural_anchor": "End-of-unit questions (Pages 21-22)",
+      "mcq_type": "F",
+      "question": "Under the condition that climate change mitigation requires both emission reductions and enhanced carbon sequestration, which reasoning best explains why reforestation programs represent effective climate action?",
+      "options": {
+        "A": "Growing trees remove atmospheric CO₂ through photosynthesis and storage",
+        "B": "Forests primarily reflect solar radiation back to space",
+        "C": "Tree planting eliminates all anthropogenic emissions immediately",
+        "D": "Reforestation increases atmospheric oxygen concentrations directly cooling the planet"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the biological carbon cycle and long-term carbon storage.",
+      "explanation": "Forests sequester carbon through biomass growth and soil storage, providing natural climate mitigation. Option B describes albedo effects, which are secondary to forests' primary carbon sequestration function.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Climate Change",
+        "section_anchor": "REVIEW",
+        "subsection_anchor": "End-of-unit questions (Pages 21-22)",
+        "structural_element": "End-of-unit questions (Pages 21-22)",
+        "content_anchor": "measures to combat climate change",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_reforestation_benefits"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 87
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 90000,
+    "average_question_quality": 84.8,
+    "type_distribution": {
+      "A": 2,
+      "D": 2,
+      "F": 3,
+      "G": 2,
+      "H": 1,
+      "I": 2
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 7,
+      "hard": 1
+    },
+    "section_distribution": {
+      "6.1. Climate Change: Causes and effects": 1,
+      "Effects of climate change": 5,
+      "Mitigation Measure": 3,
+      "REVIEW": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

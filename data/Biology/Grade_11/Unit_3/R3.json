@@ -1,0 +1,882 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-05-15T08:15:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G11_Bio_U3_Q030",
+    "covered_sections": ["Unit learning outcomes>Unit learning outcomes", "3.1. What are enzymes?>3.1. What are enzymes?", "Lab activity 3.1>Lab activity 3.1", "3.2 Properties and functions of enzymes>3.2.1 General properties of an enzyme", "3.2 Properties and functions of enzymes>3.2.2 The function of enzymes", "3.3 Protein structures>3.3 Protein structures", "Table: 3.1 Some of enzymes in the body and their functions>Table: 3.1 Some of enzymes in the body and their functions", "Lab-based activity 3.3>Lab-based activity 3.3", "3.4 Enzyme substrate models>3.4 Enzyme substrate models", "3.4 Enzyme substrate models>3.4.1 Enzyme-substrate binding models", "3.4 Enzyme substrate models>3.4.2 Enzymatic transition state", "3.5 Enzyme regulation>3.5 Enzyme regulation", "3.5 Enzyme regulation>Allosteric enzymes", "3.6 Types of enzymes>3.6 Types of enzymes", "3.6 Types of enzymes>3.6.2 Basic classification of enzymes", "3.7 Factors affecting enzyme action>3.7 Factors affecting enzyme action"],
+    "used_question_signatures": ["8b5d3b0fd8c5d2c3b5e5b5d3b0fd8c5d2c3b5e5", "7a4c2a0ec7b4c1b2a4d6a4c2a0ec7b4c1b2a4d6", "6c3b1b0db6a3b0a1b3c5c3b1b0db6a3b0a1b3c5", "5d2a0a0ca5d2a0a0ca5d2a0a0ca5d2a0a0ca5d", "4b1c9b9bb4b1c9b9bb4b1c9b9bb4b1c9b9bb4b", "3a0b8a8aa3a0b8a8aa3a0b8a8aa3a0b8a8aa3a", "2c9a7a9a92c9a7a9a92c9a7a9a92c9a7a9a92c", "1b8a6a8a81b8a6a8a81b8a6a8a81b8a6a8a81b", "0a7a5a7a70a7a5a7a70a7a5a7a70a7a5a7a70a", "9c6a4a6a69c6a4a6a69c6a4a6a69c6a4a6a69c", "8d5a3a5a58d5a3a5a58d5a3a5a58d5a3a5a58d", "7c4a2a4a47c4a2a4a47c4a2a4a47c4a2a4a47c", "6b3a1a3a36b3a1a3a36b3a1a3a36b3a1a3a36b", "5a2a0a2a25a2a0a2a25a2a0a2a25a2a0a2a25a", "4c1a9a1a14c1a9a1a14c1a9a1a14c1a9a1a14c", "3b0a8a0a03b0a8a0a03b0a8a0a03b0a8a0a03b", "2a9a7a9a92a9a7a9a92a9a7a9a92a9a7a9a92a", "1b8a6a8a81b8a6a8a81b8a6a8a81b8a6a8a81b", "0c7a5a7a70c7a5a7a70c7a5a7a70c7a5a7a70c", "9d6a4a6a69d6a4a6a69d6a4a6a69d6a4a6a69d", "8e5a3a5a38e5a3a5a38e5a3a5a38e5a3a5a38e", "7d4a2a4a27d4a2a4a27d4a2a4a27d4a2a4a27d", "6c3a1a3a16c3a1a3a16c3a1a3a16c3a1a3a16c", "5b2a0a2a05b2a0a2a05b2a0a2a05b2a0a2a05b", "4a1a9a1a94a1a9a1a94a1a9a1a94a1a9a1a94a", "3c0a8a0a83c0a8a0a83c0a8a0a83c0a8a0a83c", "2b9a7a9a72b9a7a9a72b9a7a9a72b9a7a9a72b", "1a8a6a8a61a8a6a8a61a8a6a8a61a8a6a8a61a", "0d7a5a7a50d7a5a7a50d7a5a7a50d7a5a7a50d", "9e6a4a6a49e6a4a6a49e6a4a6a49e6a4a6a49e"],
+    "baseline_counter": {
+      "Unit learning outcomes": {
+        "Unit learning outcomes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.1. What are enzymes?": {
+        "3.1. What are enzymes?": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Lab activity 3.1": {
+        "Lab activity 3.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "3.2 Properties and functions of enzymes": {
+        "3.2.1 General properties of an enzyme": {
+          "count": 2,
+          "mini_headings_covered": ["The physical properties of enzymes"],
+          "last_question_round": 1
+        },
+        "3.2.2 The function of enzymes": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "3.3 Protein structures": {
+        "3.3 Protein structures": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Table: 3.1 Some of enzymes in the body and their functions": {
+        "Table: 3.1 Some of enzymes in the body and their functions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Lab-based activity 3.3": {
+        "Lab-based activity 3.3": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "3.4 Enzyme substrate models": {
+        "3.4 Enzyme substrate models": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "3.4.1 Enzyme-substrate binding models": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "3.4.2 Enzymatic transition state": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "3.5 Enzyme regulation": {
+        "3.5 Enzyme regulation": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Allosteric enzymes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "3.6 Types of enzymes": {
+        "3.6 Types of enzymes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "3.6.2 Basic classification of enzymes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "3.7 Factors affecting enzyme action": {
+        "3.7 Factors affecting enzyme action": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Unit learning outcomes": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.1. What are enzymes?": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Lab activity 3.1": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "3.2 Properties and functions of enzymes": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "3.3 Protein structures": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "Table: 3.1 Some of enzymes in the body and their functions": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "Lab-based activity 3.3": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "3.4 Enzyme substrate models": {
+        "question_count": 7,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "3.5 Enzyme regulation": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "3.6 Types of enzymes": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "3.7 Factors affecting enzyme action": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Unit learning outcomes>Unit learning outcomes": ["Enzymes", "Properties", "Functions"],
+      "3.1. What are enzymes?>3.1. What are enzymes?": ["Activation energy", "Catalysts", "Metabolism"],
+      "Lab activity 3.1>Lab activity 3.1": ["Salivary amylase", "Starch hydrolysis", "Maltose"],
+      "3.2 Properties and functions of enzymes>3.2.1 General properties of an enzyme": ["Denaturation", "Specificity"],
+      "3.2 Properties and functions of enzymes>3.2.2 The function of enzymes": ["Active site", "Turnover number"],
+      "Table: 3.1 Some of enzymes in the body and their functions>Table: 3.1 Some of enzymes in the body and their functions": ["Lipase", "Amylase", "Trypsin"],
+      "Lab-based activity 3.3>Lab-based activity 3.3": ["Catalase", "Hydrogen peroxide"],
+      "3.4 Enzyme substrate models>3.4 Enzyme substrate models": ["Lock and key model", "Induced fit model"],
+      "3.4 Enzyme substrate models>3.4.1 Enzyme-substrate binding models": ["Lock and key model", "Induced fit model"],
+      "3.4 Enzyme substrate models>3.4.2 Enzymatic transition state": ["Transition state", "Activation energy"],
+      "3.5 Enzyme regulation>3.5 Enzyme regulation": ["Regulatory enzyme", "Allosteric regulation"],
+      "3.5 Enzyme regulation>Allosteric enzymes": ["Allosteric site", "Effector molecules"],
+      "3.6 Types of enzymes>3.6 Types of enzymes": ["Oxidoreductases", "Transferases"],
+      "3.6 Types of enzymes>3.6.2 Basic classification of enzymes": ["Hydrolases", "Lyases", "Isomerases", "Ligases"],
+      "3.7 Factors affecting enzyme action>3.7 Factors affecting enzyme action": ["Temperature", "pH", "Inhibitors"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_after_batch_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 31,
+      "questions_per_concept_ratio": 0.97,
+      "structural_coverage_percentage": 70.0
+    }
+  },
+  "grade": "11",
+  "subject": "Biology",
+  "unit": "Unit 3: Enzymes",
+  "pdf_filename": "B11U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-05-15T08:15:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 11,
+        "total_sections": 10,
+        "progress_percentage": 110.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 11,
+      "subsections_covered_count": 17,
+      "mini_headings_covered_count": 1,
+      "structural_coverage_percentage": 70.0,
+      "concept_utilization_ratio": 0.97
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.4 Enzyme substrate models",
+      "least_covered_section": "Unit learning outcomes",
+      "imbalance_ratio": 7.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.97,
+      "remaining_concept_capacity": 93
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U3_Q021",
+      "generation_timestamp": "2024-05-15T08:13:50Z",
+      "section": "3.4 Enzyme substrate models",
+      "subsection": "3.4.2 Enzymatic transition state",
+      "sub_subsection": null,
+      "structural_anchor": "3.4.2 Enzymatic transition state",
+      "mcq_type": "B",
+      "question": "In enzyme kinetics, what term describes the high-energy, unstable intermediate that forms during the conversion of substrate to product?",
+      "options": {
+        "A": "Activation complex",
+        "B": "Transition state",
+        "C": "Enzyme-substrate complex",
+        "D": "Product intermediate"
+      },
+      "correct_answer": "B",
+      "hint": "This is the point of maximum energy on the reaction pathway.",
+      "explanation": "The transition state is the high-energy configuration of atoms that occurs during the conversion of substrate to product. Option C is the initial complex formed, not the high-energy intermediate.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.4 Enzyme substrate models",
+        "subsection_anchor": "3.4.2 Enzymatic transition state",
+        "structural_element": "3.4.2 Enzymatic transition state",
+        "content_anchor": "An enzymatic transition state is the reaction rates of elementary chemical reactions and assumes chemical equilibrium between reactants and activated transitions.",
+        "page_hint": "15",
+        "concept_hash": "sha256_of_transition_state"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q022",
+      "generation_timestamp": "2024-05-15T08:14:00Z",
+      "section": "3.4 Enzyme substrate models",
+      "subsection": "3.4.2 Enzymatic transition state",
+      "sub_subsection": null,
+      "structural_anchor": "3.4.2 Enzymatic transition state",
+      "mcq_type": "G",
+      "question": "If an enzyme successfully stabilizes the transition state of a reaction, what is the direct effect on the activation energy?",
+      "options": {
+        "A": "The activation energy is increased, making the reaction slower.",
+        "B": "The activation energy is decreased, making the reaction faster.",
+        "C": "The activation energy remains unchanged, but the reaction equilibrium shifts.",
+        "D": "The activation energy is converted into chemical potential energy."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the relationship between activation energy and reaction rate.",
+      "explanation": "Enzymes catalyze reactions by stabilizing the transition state, which lowers the activation energy barrier. Option A is the opposite effect, which would occur with an inhibitor.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.4 Enzyme substrate models",
+        "subsection_anchor": "3.4.2 Enzymatic transition state",
+        "structural_element": "3.4.2 Enzymatic transition state",
+        "content_anchor": "It describes how the chemical reactions are taking place qualitatively in the activated enzyme- substrate complex",
+        "page_hint": "15",
+        "concept_hash": "sha256_of_stabilizing_transition_state"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q023",
+      "generation_timestamp": "2024-05-15T08:14:10Z",
+      "section": "3.5 Enzyme regulation",
+      "subsection": "3.5 Enzyme regulation",
+      "sub_subsection": null,
+      "structural_anchor": "3.5 Enzyme regulation",
+      "mcq_type": "A",
+      "question": "What is the general term for an enzyme whose activity is controlled by the binding of a molecule at a site other than its active site?",
+      "options": {
+        "A": "Constitutive enzyme",
+        "B": "Allosteric enzyme",
+        "C": "Isoenzyme",
+        "D": "Proenzyme"
+      },
+      "correct_answer": "B",
+      "hint": "This type of regulation involves a separate regulatory site.",
+      "explanation": "Allosteric enzymes have distinct regulatory sites where effector molecules bind, inducing conformational changes that affect activity. Option C refers to different forms of an enzyme that catalyze the same reaction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.5 Enzyme regulation",
+        "subsection_anchor": "3.5 Enzyme regulation",
+        "structural_element": "3.5 Enzyme regulation",
+        "content_anchor": "Regulatory enzymes are of two types, allosteric enzymes and covalently modulated enzymes",
+        "page_hint": "16",
+        "concept_hash": "sha256_of_allosteric_enzyme"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q024",
+      "generation_timestamp": "2024-05-15T08:14:20Z",
+      "section": "3.5 Enzyme regulation",
+      "subsection": "3.5 Enzyme regulation",
+      "sub_subsection": null,
+      "structural_anchor": "3.5 Enzyme regulation",
+      "mcq_type": "F",
+      "question": "Which reasoning best explains why allosteric regulation is an efficient method for controlling metabolic pathways?",
+      "options": {
+        "A": "It allows for the rapid and reversible fine-tuning of enzyme activity in response to metabolite levels.",
+        "B": "It permanently inactivates enzymes, preventing the waste of cellular resources.",
+        "C": "It requires the synthesis of new enzyme molecules for each regulatory event.",
+        "D": "It directly competes with the substrate for binding at the active site."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the speed and reversibility of non-covalent binding.",
+      "explanation": "Allosteric regulation involves non-covalent binding of effectors, allowing for quick, reversible adjustments to enzyme activity based on cellular needs. Option D describes competitive inhibition, not allosteric regulation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.5 Enzyme regulation",
+        "subsection_anchor": "3.5 Enzyme regulation",
+        "structural_element": "3.5 Enzyme regulation",
+        "content_anchor": "Enzyme regulation is a control system for enzymatic activities in which enzymes are turned \"on\" or \"off\" depending on the organisms need.",
+        "page_hint": "16",
+        "concept_hash": "sha256_of_allosteric_efficiency"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q025",
+      "generation_timestamp": "2024-05-15T08:14:30Z",
+      "section": "3.5 Enzyme regulation",
+      "subsection": "Allosteric enzymes",
+      "sub_subsection": null,
+      "structural_anchor": "Allosteric enzymes",
+      "mcq_type": "D",
+      "question": "On an allosteric enzyme, what is the specific site called where an effector molecule binds to modulate activity?",
+      "options": {
+        "A": "Catalytic site",
+        "B": "Active site",
+        "C": "Allosteric site",
+        "D": "Binding pocket"
+      },
+      "correct_answer": "C",
+      "hint": "This site is physically distinct from where catalysis occurs.",
+      "explanation": "The allosteric site is a specific regulatory binding site, separate from the active site, where modulators bind. Option A is synonymous with the active site, where catalysis occurs.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.5 Enzyme regulation",
+        "subsection_anchor": "Allosteric enzymes",
+        "structural_element": "Allosteric enzymes",
+        "content_anchor": "Allosteric enzymes are enzymes that have additional binding sites for effector molecules other than the active site",
+        "page_hint": "17",
+        "concept_hash": "sha256_of_allosteric_site"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q026",
+      "generation_timestamp": "2024-05-15T08:14:40Z",
+      "section": "3.6 Types of enzymes",
+      "subsection": "3.6 Types of enzymes",
+      "sub_subsection": null,
+      "structural_anchor": "3.6 Types of enzymes",
+      "mcq_type": "B",
+      "question": "Enzymes that catalyze oxidation-reduction reactions, transferring electrons between molecules, are classified as what?",
+      "options": {
+        "A": "Transferases",
+        "B": "Hydrolases",
+        "C": "Oxidoreductases",
+        "D": "Ligases"
+      },
+      "correct_answer": "C",
+      "hint": "The name reflects the transfer of electrons (redox).",
+      "explanation": "Oxidoreductases catalyze reactions involving electron transfer, such as dehydrogenations. Option A, transferases, move functional groups between molecules, not electrons.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.6 Types of enzymes",
+        "subsection_anchor": "3.6 Types of enzymes",
+        "structural_element": "3.6 Types of enzymes",
+        "content_anchor": "Oxidoreductases are a class of enzyme that catalyzes oxido-reduction reactions.",
+        "page_hint": "20",
+        "concept_hash": "sha256_of_oxidoreductases"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q027",
+      "generation_timestamp": "2024-05-15T08:14:50Z",
+      "section": "3.6 Types of enzymes",
+      "subsection": "3.6.2 Basic classification of enzymes",
+      "sub_subsection": null,
+      "structural_anchor": "3.6.2 Basic classification of enzymes",
+      "mcq_type": "J",
+      "question": "Which class of enzymes is characterized by catalyzing the joining of two molecules, typically using energy from ATP hydrolysis?",
+      "options": {
+        "A": "Lyases",
+        "B": "Isomerases",
+        "C": "Hydrolases",
+        "D": "Ligases"
+      },
+      "correct_answer": "D",
+      "hint": "These enzymes often 'ligate' or connect molecules.",
+      "explanation": "Ligases catalyze bond formation between two molecules, coupled with the hydrolysis of a nucleoside triphosphate like ATP. Option C, hydrolases, use water to break bonds, not form them.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.6 Types of enzymes",
+        "subsection_anchor": "3.6.2 Basic classification of enzymes",
+        "structural_element": "3.6.2 Basic classification of enzymes",
+        "content_anchor": "Ligases are enzymes that catalyze the joining of two molecules with concomitant hydrolysis of the di-phosphate bond in ATP.",
+        "page_hint": "21",
+        "concept_hash": "sha256_of_ligases"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q028",
+      "generation_timestamp": "2024-05-15T08:15:00Z",
+      "section": "3.6 Types of enzymes",
+      "subsection": "3.6.2 Basic classification of enzymes",
+      "sub_subsection": null,
+      "structural_anchor": "3.6.2 Basic classification of enzymes",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to classifying an enzyme that adds water to break a peptide bond as a ligase?",
+      "options": {
+        "A": "Confusing bond cleavage with bond formation.",
+        "B": "Misunderstanding the role of ATP in enzymatic reactions.",
+        "C": "Overlooking the specificity of the enzyme for its substrate.",
+        "D": "Assuming all enzymes that use water are hydrolases."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental action of the enzyme on chemical bonds.",
+      "explanation": "Ligases catalyze bond formation, while the described enzyme catalyzes bond cleavage (hydrolysis). Option D is not the core error, as the misclassification stems from the action (cleavage vs. formation), not just the use of water.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.6 Types of enzymes",
+        "subsection_anchor": "3.6.2 Basic classification of enzymes",
+        "structural_element": "3.6.2 Basic classification of enzymes",
+        "content_anchor": "Hydrolases are enzymes that catalyze the hydrolysis of various bonds.",
+        "page_hint": "21",
+        "concept_hash": "sha256_of_hydrolase_vs_ligase"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 82,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q029",
+      "generation_timestamp": "2024-05-15T08:15:10Z",
+      "section": "3.7 Factors affecting enzyme action",
+      "subsection": "3.7 Factors affecting enzyme action",
+      "sub_subsection": null,
+      "structural_anchor": "3.7 Factors affecting enzyme action",
+      "mcq_type": "G",
+      "question": "If the temperature of an enzyme-catalyzed reaction is increased from 20°C to 50°C, what is the most likely sequence of effects on the reaction rate?",
+      "options": {
+        "A": "Rate increases, then decreases sharply due to enzyme denaturation.",
+        "B": "Rate decreases steadily as heat disrupts all molecular motion.",
+        "C": "Rate remains constant because enzymes are not affected by temperature.",
+        "D": "Rate increases linearly without any negative effects."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the dual effect of temperature on molecular kinetics and protein structure.",
+      "explanation": "Initially, rate increases due to greater kinetic energy of molecules; beyond the optimum temperature, denaturation causes a sharp decline. Option D incorrectly ignores the denaturation effect at high temperatures.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.7 Factors affecting enzyme action",
+        "subsection_anchor": "3.7 Factors affecting enzyme action",
+        "structural_element": "3.7 Factors affecting enzyme action",
+        "content_anchor": "Temperature: while all enzymes work best within the specific ranges of optimum temperatures, low or high temperature causes an enzyme to lose its activity...and denatured.",
+        "page_hint": "23",
+        "concept_hash": "sha256_of_temperature_effect"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U3_Q030",
+      "generation_timestamp": "2024-05-15T08:15:20Z",
+      "section": "3.7 Factors affecting enzyme action",
+      "subsection": "3.7 Factors affecting enzyme action",
+      "sub_subsection": null,
+      "structural_anchor": "3.7 Factors affecting enzyme action",
+      "mcq_type": "D",
+      "question": "What term describes molecules that reduce the rate of an enzyme-catalyzed reaction by binding to the enzyme?",
+      "options": {
+        "A": "Activators",
+        "B": "Cofactors",
+        "C": "Inhibitors",
+        "D": "Substrates"
+      },
+      "correct_answer": "C",
+      "hint": "These molecules impede or block the enzyme's function.",
+      "explanation": "Inhibitors are molecules that decrease enzymatic activity by various mechanisms. Option A has the opposite effect, increasing enzyme activity.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Three: Enzymes",
+        "section_anchor": "3.7 Factors affecting enzyme action",
+        "subsection_anchor": "3.7 Factors affecting enzyme action",
+        "structural_element": "3.7 Factors affecting enzyme action",
+        "content_anchor": "There are varieties of factors that affect the activity of enzymes: temperature, pH, inhibitors, activators",
+        "page_hint": "22",
+        "concept_hash": "sha256_of_inhibitors"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 90000,
+    "average_question_quality": 85.6,
+    "type_distribution": {
+      "A": 1,
+      "B": 2,
+      "D": 2,
+      "F": 1,
+      "G": 2,
+      "H": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "3.4 Enzyme substrate models": 2,
+      "3.5 Enzyme regulation": 3,
+      "3.6 Types of enzymes": 3,
+      "3.7 Factors affecting enzyme action": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

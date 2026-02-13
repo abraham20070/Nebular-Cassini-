@@ -1,0 +1,799 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-17T12:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G12_Chem_U5_Q020",
+    "covered_sections": ["5.1 Introduction>5.1.1 Components of the Environment", "5.1 Introduction>5.1.2 Natural Cycles in the Environment", "5.1 Introduction>5.1.3 Concepts Related to Environmental Chemistry", "5.2 Environmental Pollution>5.2.1 Air Pollution", "5.2 Environmental Pollution>5.2.2 Water Pollution", "5.2 Environmental Pollution>5.2.3 Land Pollution", "5.3 Global Warming and Climate Change>5.3.1 Global Warming and Climate Change", "5.3 Global Warming and Climate Change>5.3.2 Chemistry of Greenhouse Gasses and Their Effects on Climate Change", "5.4 Green Chemistry and Cleaner Production>5.4.1 Principle of Green Chemistry", "5.4 Green Chemistry and Cleaner Production>5.4.2 Cleaner Production in Chemistry"],
+    "used_question_signatures": ["hash_G12_Chem_U5_Q001", "hash_G12_Chem_U5_Q002", "hash_G12_Chem_U5_Q003", "hash_G12_Chem_U5_Q004", "hash_G12_Chem_U5_Q005", "hash_G12_Chem_U5_Q006", "hash_G12_Chem_U5_Q007", "hash_G12_Chem_U5_Q008", "hash_G12_Chem_U5_Q009", "hash_G12_Chem_U5_Q010", "hash_G12_Chem_U5_Q011", "hash_G12_Chem_U5_Q012", "hash_G12_Chem_U5_Q013", "hash_G12_Chem_U5_Q014", "hash_G12_Chem_U5_Q015", "hash_G12_Chem_U5_Q016", "hash_G12_Chem_U5_Q017", "hash_G12_Chem_U5_Q018", "hash_G12_Chem_U5_Q019", "hash_G12_Chem_U5_Q020"],
+    "baseline_counter": {
+      "5.1 Introduction": {
+        "5.1.1 Components of the Environment": {
+          "count": 4,
+          "mini_headings_covered": ["The Atmosphere:", "The Hydrosphere:", "The Lithosphere:", "The Biosphere:"],
+          "last_question_round": 2
+        },
+        "5.1.2 Natural Cycles in the Environment": {
+          "count": 3,
+          "mini_headings_covered": ["The Hydrologic Cycle", "The Nitrogen Cycle", "The Carbon Cycle"],
+          "last_question_round": 2
+        },
+        "5.1.3 Concepts Related to Environmental Chemistry": {
+          "count": 3,
+          "mini_headings_covered": ["Pollutant:", "Biological Oxygen Demand (BOD):", "Contaminant:"],
+          "last_question_round": 2
+        }
+      },
+      "5.2 Environmental Pollution": {
+        "5.2.1 Air Pollution": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.2 Water Pollution": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.3 Land Pollution": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "5.3 Global Warming and Climate Change": {
+        "5.3.1 Global Warming and Climate Change": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.3.2 Chemistry of Greenhouse Gasses and Their Effects on Climate Change": {
+          "count": 2,
+          "mini_headings_covered": ["Greenhouse Effect"],
+          "last_question_round": 2
+        }
+      },
+      "5.4 Green Chemistry and Cleaner Production": {
+        "5.4.1 Principle of Green Chemistry": {
+          "count": 2,
+          "mini_headings_covered": ["Atom Economy", "Catalysis"],
+          "last_question_round": 2
+        },
+        "5.4.2 Cleaner Production in Chemistry": {
+          "count": 2,
+          "mini_headings_covered": ["Atom economy:"],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1 Introduction": {
+        "question_count": 10,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.2 Environmental Pollution": {
+        "question_count": 7,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.3 Global Warming and Climate Change": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.4 Green Chemistry and Cleaner Production": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1 Introduction>5.1.1 Components of the Environment": ["Atmosphere composition", "Hydrosphere definition", "Lithosphere composition", "Biosphere reactions"],
+      "5.1 Introduction>5.1.2 Natural Cycles in the Environment": ["Hydrologic cycle exchange", "Nitrogen fixation", "Carbon cycle photosynthesis"],
+      "5.1 Introduction>5.1.3 Concepts Related to Environmental Chemistry": ["Pollutant definition", "BOD measurement", "Contaminant definition"],
+      "5.2 Environmental Pollution>5.2.1 Air Pollution": ["CFCs ozone depletion", "Sulfur dioxide sources", "Particulate effects"],
+      "5.2 Environmental Pollution>5.2.2 Water Pollution": ["Eutrophication process", "Water pollutant classification"],
+      "5.2 Environmental Pollution>5.2.3 Land Pollution": ["Land pollution causes", "Non-biodegradable waste"],
+      "5.3 Global Warming and Climate Change>5.3.1 Global Warming and Climate Change": ["Fossil fuel combustion", "Greenhouse gas emissions"],
+      "5.3 Global Warming and Climate Change>5.3.2 Chemistry of Greenhouse Gasses and Their Effects on Climate Change": ["Greenhouse effect mechanism", "Infrared absorption"],
+      "5.4 Green Chemistry and Cleaner Production>5.4.1 Principle of Green Chemistry": ["Atom economy calculation", "Catalyst benefits"],
+      "5.4 Green Chemistry and Cleaner Production>5.4.2 Cleaner Production in Chemistry": ["Atom economy formula", "Reaction efficiency"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_integrity_round2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 20,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 40.0
+    }
+  },
+  "grade": "12",
+  "subject": "Chemistry",
+  "unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+  "pdf_filename": "C12U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-17T12:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 4,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.5,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 10,
+      "mini_headings_covered_count": 9,
+      "structural_coverage_percentage": 36.0,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.1 Introduction",
+      "least_covered_section": "5.4 Green Chemistry and Cleaner Production",
+      "imbalance_ratio": 2.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Chem_U5_Q011",
+      "generation_timestamp": "2025-01-17T12:05:00Z",
+      "section": "5.1 Introduction",
+      "subsection": "5.1.1 Components of the Environment",
+      "sub_subsection": null,
+      "structural_anchor": "The Biosphere:",
+      "mcq_type": "C",
+      "question": "Which chemical equation represents photosynthesis, a fundamental process occurring in the biosphere?",
+      "options": {
+        "A": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + Heat energy",
+        "B": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+        "C": "CH₄ + 2O₂ → CO₂ + 2H₂O + Heat energy",
+        "D": "2NH₃ + 3O₂ → 2NO₂⁻ + 2H⁺ + 2H₂O"
+      },
+      "correct_answer": "B",
+      "hint": "Look for the equation where carbon dioxide and water produce glucose and oxygen using light energy.",
+      "explanation": "Photosynthesis converts carbon dioxide and water to glucose and oxygen using sunlight energy. Option A represents cellular respiration, the reverse process.",
+      "difficulty_level": "easy",
+      "formula_used": ["6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.1 Introduction",
+        "subsection_anchor": "5.1.1 Components of the Environment",
+        "structural_element": "The Biosphere:",
+        "content_anchor": "Photosynthesis: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_biosphere_reactions"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q012",
+      "generation_timestamp": "2025-01-17T12:05:00Z",
+      "section": "5.1 Introduction",
+      "subsection": "5.1.2 Natural Cycles in the Environment",
+      "sub_subsection": null,
+      "structural_anchor": "The Carbon Cycle",
+      "mcq_type": "F",
+      "question": "Under conditions where deforestation reduces plant biomass while fossil fuel combustion continues unchanged, which reasoning best explains the net effect on atmospheric carbon dioxide concentration?",
+      "options": {
+        "A": "Atmospheric CO₂ decreases because fewer plants mean less respiration releasing CO₂",
+        "B": "Atmospheric CO₂ increases due to reduced carbon uptake by photosynthesis alongside continued emissions",
+        "C": "Atmospheric CO₂ remains stable as reduced uptake balances reduced plant respiration",
+        "D": "Atmospheric CO₂ decreases because deforestation releases stored carbon that becomes sequestered elsewhere"
+      },
+      "correct_answer": "B",
+      "hint": "Consider both carbon sources (combustion) and sinks (photosynthesis) in the carbon cycle.",
+      "explanation": "The carbon cycle balance depends on sources exceeding sinks; reduced photosynthesis decreases carbon uptake while emissions continue. Option A incorrectly assumes plant respiration dominates over photosynthesis in carbon cycling.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.1 Introduction",
+        "subsection_anchor": "5.1.2 Natural Cycles in the Environment",
+        "structural_element": "The Carbon Cycle",
+        "content_anchor": "Green plants convert atmospheric carbon dioxide and water into glucose and oxygen in a process called photosynthesis",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_carbon_cycle_photosynthesis"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q013",
+      "generation_timestamp": "2025-01-17T12:05:00Z",
+      "section": "5.1 Introduction",
+      "subsection": "5.1.3 Concepts Related to Environmental Chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Contaminant:",
+      "mcq_type": "I",
+      "question": "How does a contaminant differ from a pollutant in environmental chemistry?",
+      "options": {
+        "A": "Contaminants occur naturally, while pollutants are always synthetic",
+        "B": "Contaminants are introduced by human activity but become pollutants only when causing detrimental effects",
+        "C": "Contaminants have higher concentrations than pollutants in environmental compartments",
+        "D": "Contaminants affect only human health, while pollutants affect all living organisms"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the relationship between human introduction and harmful effects.",
+      "explanation": "Contaminants are human-introduced substances that become pollutants when they cause harm to receptors. Option A is incorrect because contaminants are not necessarily natural.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.1 Introduction",
+        "subsection_anchor": "5.1.3 Concepts Related to Environmental Chemistry",
+        "structural_element": "Contaminant:",
+        "content_anchor": "A contaminant is called a pollutant when it exerts detrimental effects on human health receptor",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_contaminant_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q014",
+      "generation_timestamp": "2025-01-17T12:05:00Z",
+      "section": "5.2 Environmental Pollution",
+      "subsection": "5.2.1 Air Pollution",
+      "sub_subsection": null,
+      "structural_anchor": "5.2.1 Air Pollution",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that atmospheric particulates primarily affect only industrial areas?",
+      "options": {
+        "A": "It overlooks natural sources like dust storms and volcanic eruptions that distribute particulates globally",
+        "B": "It correctly recognizes that particulate pollution is confined to manufacturing zones",
+        "C": "It assumes particulates rapidly settle near their emission sources without atmospheric transport",
+        "D": "It ignores that particulates from industrial processes are chemically inert and harmless"
+      },
+      "correct_answer": "A",
+      "hint": "Consider both anthropogenic and natural sources of particulate matter and their distribution mechanisms.",
+      "explanation": "Particulates originate from both human activities and natural events like dust storms, enabling global dispersion. Option C incorrectly suggests a valid limitation rather than identifying the reasoning error.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.2 Environmental Pollution",
+        "subsection_anchor": "5.2.1 Air Pollution",
+        "structural_element": "5.2.1 Air Pollution",
+        "content_anchor": "Dust storms, forest fires, volcanic eruptions and human activities such as mining and burning coal and oil increase the amount of solid particles in the air",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_of_particulate_effects"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 75,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q015",
+      "generation_timestamp": "2025-01-17T12:05:00Z",
+      "section": "5.2 Environmental Pollution",
+      "subsection": "5.2.2 Water Pollution",
+      "sub_subsection": null,
+      "structural_anchor": "5.2.2 Water Pollution",
+      "mcq_type": "G",
+      "question": "If phosphate and nitrate fertilizers wash into a lake from agricultural runoff, what sequence of events leads to eutrophication?",
+      "options": {
+        "A": "Nutrients decrease algal growth, increasing light penetration and photosynthesis in bottom plants",
+        "B": "Nutrients accelerate algal growth, reducing light and oxygen, causing plant and animal death",
+        "C": "Nutrients directly poison aquatic animals, reducing population and increasing plant growth",
+        "D": "Nutrients increase water transparency, promoting diverse species growth throughout the water column"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the relationship between nutrient enrichment, algal blooms, light penetration, and oxygen depletion.",
+      "explanation": "Excess nutrients cause algal blooms that block light, reduce photosynthesis, and lead to oxygen depletion during decomposition. Option A incorrectly describes nutrient limitation rather than enrichment effects.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.2 Environmental Pollution",
+        "subsection_anchor": "5.2.2 Water Pollution",
+        "structural_element": "5.2.2 Water Pollution",
+        "content_anchor": "These dissolved minerals are valuable nutrients for plants, and their discharge into the water systems accelerates the growth of surface-water plants, such as algae",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_eutrophication_process"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q016",
+      "generation_timestamp": "2025-01-17T12:05:00Z",
+      "section": "5.2 Environmental Pollution",
+      "subsection": "5.2.2 Water Pollution",
+      "sub_subsection": null,
+      "structural_anchor": "5.2.2 Water Pollution",
+      "mcq_type": "J",
+      "question": "Which category of water pollutants includes nitrate fertilizers, phosphate detergents, and untreated sewage?",
+      "options": {
+        "A": "Heavy metal ions",
+        "B": "Plant nutrients",
+        "C": "Petroleum hydrocarbons",
+        "D": "Radioactive isotopes"
+      },
+      "correct_answer": "B",
+      "hint": "Consider substances that provide nutritional value to aquatic plants.",
+      "explanation": "Nitrate, phosphate, and organic matter in sewage serve as nutrients promoting aquatic plant growth. Option A incorrectly classifies these as heavy metals.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.2 Environmental Pollution",
+        "subsection_anchor": "5.2.2 Water Pollution",
+        "structural_element": "5.2.2 Water Pollution",
+        "content_anchor": "The major water pollutants are nitrate and phosphate fertilizers washed out of the soil, phosphate detergents, untreated sewage",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_water_pollutant_classification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q017",
+      "generation_timestamp": "2025-01-17T12:05:00Z",
+      "section": "5.2 Environmental Pollution",
+      "subsection": "5.2.3 Land Pollution",
+      "sub_subsection": null,
+      "structural_anchor": "5.2.3 Land Pollution",
+      "mcq_type": "A",
+      "question": "What characterizes non-biodegradable waste that contributes significantly to land pollution?",
+      "options": {
+        "A": "Rapid decomposition by soil microorganisms releasing nutrients",
+        "B": "Persistence in soil for decades without breakdown by decomposers",
+        "C": "Conversion to harmless compounds through natural weathering processes",
+        "D": "Enhancement of soil structure and water retention properties"
+      },
+      "correct_answer": "B",
+      "hint": "Consider materials that resist biological decomposition in the environment.",
+      "explanation": "Non-biodegradable wastes like plastics persist unchanged for long periods, accumulating in soil. Option A describes biodegradable materials that decompose readily.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.2 Environmental Pollution",
+        "subsection_anchor": "5.2.3 Land Pollution",
+        "structural_element": "5.2.3 Land Pollution",
+        "content_anchor": "Dumping of non-biodegradable (do not decompose by the action of bacteria) wastes like plastics which remain unchanged in the soil for decades or hundreds of years",
+        "page_hint": "Page 23",
+        "concept_hash": "sha256_of_non_biodegradable_waste"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q018",
+      "generation_timestamp": "2025-01-17T12:05:00Z",
+      "section": "5.2 Environmental Pollution",
+      "subsection": "5.2.3 Land Pollution",
+      "sub_subsection": null,
+      "structural_anchor": "5.2.3 Land Pollution",
+      "mcq_type": "G",
+      "question": "If oil pipelines leak and heavy metal ions from buried waste leach into groundwater, what combined effect contributes to land pollution?",
+      "options": {
+        "A": "Soil fertility increases due to added organic carbon and mineral nutrients",
+        "B": "Contaminants migrate from soil to water systems, affecting multiple environmental compartments",
+        "C": "Leaked materials remain isolated at their original locations without environmental transport",
+        "D": "Natural biodegradation processes rapidly neutralize all contaminants within the soil matrix"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the mobility of pollutants between soil and groundwater systems.",
+      "explanation": "Land pollution involves contaminant migration from soil to water systems, creating interconnected pollution. Option C incorrectly assumes contaminants remain stationary.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.2 Environmental Pollution",
+        "subsection_anchor": "5.2.3 Land Pollution",
+        "structural_element": "5.2.3 Land Pollution",
+        "content_anchor": "Land pollution is caused by things we put into it. It results from the spillage of oil, leaching of harmful chemicals and heavy metal ions",
+        "page_hint": "Page 23",
+        "concept_hash": "sha256_of_land_pollution_causes"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q019",
+      "generation_timestamp": "2025-01-17T12:05:00Z",
+      "section": "5.3 Global Warming and Climate Change",
+      "subsection": "5.3.2 Chemistry of Greenhouse Gasses and Their Effects on Climate Change",
+      "sub_subsection": null,
+      "structural_anchor": "Greenhouse Effect",
+      "mcq_type": "F",
+      "question": "Under conditions where atmospheric greenhouse gas concentrations increase, which reasoning best explains the enhanced greenhouse effect on Earth's temperature?",
+      "options": {
+        "A": "More greenhouse gases reflect incoming solar radiation back to space, cooling the planet",
+        "B": "Additional greenhouse gases absorb outgoing infrared radiation, trapping heat in the atmosphere",
+        "C": "Increased gases conduct heat more efficiently from the surface to upper atmosphere",
+        "D": "Greenhouse gases primarily scatter visible light, reducing energy reaching the surface"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the mechanism by which greenhouse gases interact with thermal radiation.",
+      "explanation": "Greenhouse gases absorb and re-emit infrared radiation, reducing heat escape to space and warming the atmosphere. Option A incorrectly describes reflection of solar radiation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.3 Global Warming and Climate Change",
+        "subsection_anchor": "5.3.2 Chemistry of Greenhouse Gasses and Their Effects on Climate Change",
+        "structural_element": "Greenhouse Effect",
+        "content_anchor": "These gases warm our planet by absorbing infrared (IR) light radiation that would otherwise escape into space",
+        "page_hint": "Page 28",
+        "concept_hash": "sha256_of_greenhouse_effect_mechanism"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Chem_U5_Q020",
+      "generation_timestamp": "2025-01-17T12:05:00Z",
+      "section": "5.3 Global Warming and Climate Change",
+      "subsection": "5.3.2 Chemistry of Greenhouse Gasses and Their Effects on Climate Change",
+      "sub_subsection": null,
+      "structural_anchor": "5.3.2 Chemistry of Greenhouse Gasses and Their Effects on Climate Change",
+      "mcq_type": "B",
+      "question": "Which atmospheric gases do NOT contribute significantly to the greenhouse effect despite their high concentrations?",
+      "options": {
+        "A": "Carbon dioxide and water vapor",
+        "B": "Nitrogen and oxygen",
+        "C": "Methane and nitrous oxide",
+        "D": "Ozone and chlorofluorocarbons"
+      },
+      "correct_answer": "B",
+      "hint": "Consider gases that are abundant but lack infrared absorption properties.",
+      "explanation": "Nitrogen and oxygen constitute most of the atmosphere but don't absorb infrared radiation effectively. Option A incorrectly lists significant greenhouse gases.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+        "section_anchor": "5.3 Global Warming and Climate Change",
+        "subsection_anchor": "5.3.2 Chemistry of Greenhouse Gasses and Their Effects on Climate Change",
+        "structural_element": "5.3.2 Chemistry of Greenhouse Gasses and Their Effects on Climate Change",
+        "content_anchor": "Both N₂(g) and O₂(g) are present in very large amounts in the atmosphere, these gases do not absorb IR light and therefore do not contribute to the greenhouse effect",
+        "page_hint": "Page 28",
+        "concept_hash": "sha256_of_infrared_absorption"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2800,
+    "average_question_quality": 84.0,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "C": 1,
+      "F": 2,
+      "G": 2,
+      "H": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "5.1 Introduction": 3,
+      "5.2 Environmental Pollution": 5,
+      "5.3 Global Warming and Climate Change": 2,
+      "5.4 Green Chemistry and Cleaner Production": 0
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

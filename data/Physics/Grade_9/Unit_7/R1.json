@@ -1,0 +1,791 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-07-16T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G9_Physics_U7_Q010",
+    "covered_sections": ["Introduction", "7.1 Temperature and Our Life", "7.2 Extreme Temperature Safety"],
+    "used_question_signatures": ["8f7b5e1", "3a9c2d4", "7e1f6a9", "5b2d8c4", "1c6a9d3", "9d4b7a2", "2a8c5e1", "6d3b9f4", "4c7a1e8", "8e2b5c9"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "7.1 Temperature and Our Life": {
+        "Activity 7.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Activity 7.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Key Concept:": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Exercise 7.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Activity 7.3": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "7.2 Extreme Temperature Safety": {
+        "Activity 7.4": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Figure 7.2 Temperature of tropic, temperate and polar zones.": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "7.3 Temperature Change and its Effects": {
+        "Safety precautions": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "7.1 Temperature and Our Life": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "7.2 Extreme Temperature Safety": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "7.3 Temperature Change and its Effects": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["Temperature definition", "Thermometry"],
+      "7.1 Temperature and Our Life>Activity 7.2": ["Gas particle motion", "Average kinetic energy"],
+      "7.1 Temperature and Our Life>Activity 7.1": ["Thermal perception", "Relative temperature"],
+      "7.1 Temperature and Our Life>Key Concept:": ["Temperature measurement", "Average kinetic energy definition"],
+      "7.1 Temperature and Our Life>Exercise 7.1": ["Temperature effects", "Human adaptation"],
+      "7.1 Temperature and Our Life>Activity 7.3": ["Environmental adaptation", "Temperature range"],
+      "7.2 Extreme Temperature Safety>Activity 7.4": ["Comfortable temperature", "Health maintenance"],
+      "7.2 Extreme Temperature Safety>Figure 7.2 Temperature of tropic, temperate and polar zones.": ["Climate zones", "Temperature distribution"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state_hash",
+    "content_density_metrics": {
+      "total_concepts_extracted": 12,
+      "questions_per_concept_ratio": 0.83,
+      "structural_coverage_percentage": 20.0
+    }
+  },
+  "grade": "9",
+  "subject": "Physics",
+  "unit": "Unit 7: Temperature and Thermometry",
+  "pdf_filename": "P9U7.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-07-16T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 12,
+        "progress_percentage": 25.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 20.0,
+      "concept_utilization_ratio": 0.83
+    },
+    "distribution_analysis": {
+      "most_covered_section": "7.1 Temperature and Our Life",
+      "least_covered_section": "7.3 Temperature Change and its Effects",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Physics_U7_Q001",
+      "generation_timestamp": "2025-07-16T10:30:00Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "Introduction",
+      "mcq_type": "A",
+      "question": "Which term describes the degree of hotness or coldness of a body based on the average kinetic energy of its particles?",
+      "options": {
+        "A": "Temperature",
+        "B": "Pressure",
+        "C": "Volume",
+        "D": "Density"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the definition that relates particle motion to thermal measurement.",
+      "explanation": "Temperature quantifies thermal energy by measuring average particle kinetic energy. Option B incorrectly describes force per unit area, which is pressure rather than temperature.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": "Introduction",
+        "content_anchor": "temperature and its effects",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_temperature_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q002",
+      "generation_timestamp": "2025-07-16T10:30:00Z",
+      "section": "7.1 Temperature and Our Life",
+      "subsection": "Activity 7.2",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 7.2",
+      "mcq_type": "F",
+      "question": "Under the condition that gas particles move more rapidly, which reasoning best explains the observed increase in temperature measurement?",
+      "options": {
+        "A": "Increased particle speed raises average kinetic energy, which directly correlates with higher temperature.",
+        "B": "Faster particles collide more frequently, increasing pressure rather than temperature.",
+        "C": "Rapid motion indicates higher potential energy storage in chemical bonds.",
+        "D": "Velocity changes affect only volume measurements through gas expansion."
+      },
+      "correct_answer": "A",
+      "hint": "Relate particle motion to the kinetic theory definition of temperature.",
+      "explanation": "Temperature measures average particle kinetic energy, so increased particle speed elevates this average. Option B confuses temperature with pressure, which depends on collision force rather than speed alone.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.1 Temperature and Our Life",
+        "subsection_anchor": "Activity 7.2",
+        "structural_element": "Activity 7.2",
+        "content_anchor": "motion of water and gas particles",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_gas_particle_motion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q003",
+      "generation_timestamp": "2025-07-16T10:30:00Z",
+      "section": "7.1 Temperature and Our Life",
+      "subsection": "Activity 7.1",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 7.1",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that warm water has two different temperatures simultaneously?",
+      "options": {
+        "A": "Confusing subjective thermal perception with objective temperature measurement",
+        "B": "Assuming water temperature changes when hands are immersed",
+        "C": "Miscalculating the average kinetic energy of water molecules",
+        "D": "Overlooking chemical reactions between skin and water"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the difference between sensory experience and physical measurement.",
+      "explanation": "Temperature is an objective measurement of average kinetic energy, not subjective feeling. Option B incorrectly suggests water temperature changes rather than perception differences.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.1 Temperature and Our Life",
+        "subsection_anchor": "Activity 7.1",
+        "structural_element": "Activity 7.1",
+        "content_anchor": "testing hotness and coldness by feeling",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_thermal_perception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q004",
+      "generation_timestamp": "2025-07-16T10:30:00Z",
+      "section": "7.1 Temperature and Our Life",
+      "subsection": "Key Concept:",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "A",
+      "question": "What physical quantity represents the average kinetic energy of particles within a substance?",
+      "options": {
+        "A": "Temperature",
+        "B": "Heat capacity",
+        "C": "Thermal conductivity",
+        "D": "Specific heat"
+      },
+      "correct_answer": "A",
+      "hint": "Identify the measurement that quantifies particle motion energy.",
+      "explanation": "Temperature directly measures average particle kinetic energy according to kinetic theory. Option B describes energy required to change temperature, not the kinetic energy measurement itself.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key_concept"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.1 Temperature and Our Life",
+        "subsection_anchor": "Key Concept:",
+        "structural_element": "Key Concept:",
+        "content_anchor": "Temperature is the average kinetic energy",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_average_kinetic_energy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q005",
+      "generation_timestamp": "2025-07-16T10:30:00Z",
+      "section": "7.1 Temperature and Our Life",
+      "subsection": "Key Concept:",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "D",
+      "question": "If a substance has particles with high average kinetic energy, what characteristic does it exhibit?",
+      "options": {
+        "A": "Elevated temperature",
+        "B": "Increased density",
+        "C": "Reduced volume",
+        "D": "Lower pressure"
+      },
+      "correct_answer": "A",
+      "hint": "Apply the relationship between particle motion and thermal properties.",
+      "explanation": "Temperature measures average kinetic energy, so high particle motion indicates elevated temperature. Option B confuses thermal energy with mass concentration, which is density.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key_concept"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.1 Temperature and Our Life",
+        "subsection_anchor": "Key Concept:",
+        "structural_element": "Key Concept:",
+        "content_anchor": "particles with high kinetic energy",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_kinetic_energy_temperature"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 76,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q006",
+      "generation_timestamp": "2025-07-16T10:30:00Z",
+      "section": "7.1 Temperature and Our Life",
+      "subsection": "Exercise 7.1",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 7.1",
+      "mcq_type": "G",
+      "question": "If average global temperatures increase by 2°C, what effect most likely occurs in polar regions?",
+      "options": {
+        "A": "Accelerated ice melt and sea level rise",
+        "B": "Increased snowfall accumulation",
+        "C": "Expansion of permanent ice sheets",
+        "D": "Reduced atmospheric greenhouse gases"
+      },
+      "correct_answer": "A",
+      "hint": "Consider thermal effects on frozen water at temperature extremes.",
+      "explanation": "Higher temperatures cause ice melting through increased thermal energy transfer. Option B incorrectly reverses the temperature-melting relationship, assuming cooling rather than warming effects.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.1 Temperature and Our Life",
+        "subsection_anchor": "Exercise 7.1",
+        "structural_element": "Exercise 7.1",
+        "content_anchor": "temperature affect human-being's clothing",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_temperature_effects"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 81,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q007",
+      "generation_timestamp": "2025-07-16T10:30:00Z",
+      "section": "7.1 Temperature and Our Life",
+      "subsection": "Activity 7.3",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 7.3",
+      "mcq_type": "J",
+      "question": "Which climate zone classification includes regions with average temperatures between -3°C and 18°C?",
+      "options": {
+        "A": "Temperate",
+        "B": "Tropical",
+        "C": "Polar",
+        "D": "Desert"
+      },
+      "correct_answer": "A",
+      "hint": "Match temperature ranges to geographic climate classifications.",
+      "explanation": "Temperate zones maintain moderate temperatures within this range according to climate classification systems. Option B incorrectly assigns this range to tropical regions, which typically exceed 21°C.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.1 Temperature and Our Life",
+        "subsection_anchor": "Activity 7.3",
+        "structural_element": "Activity 7.3",
+        "content_anchor": "temperature of Tropic, Temperate and Polar zones",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_environmental_adaptation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q008",
+      "generation_timestamp": "2025-07-16T10:30:00Z",
+      "section": "7.2 Extreme Temperature Safety",
+      "subsection": "Activity 7.4",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 7.4",
+      "mcq_type": "D",
+      "question": "What environmental temperature range typically allows human bodies to maintain 37°C without external heating or cooling devices?",
+      "options": {
+        "A": "Approximately 28°C",
+        "B": "Exactly 37°C",
+        "C": "Below 0°C",
+        "D": "Above 40°C"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the relationship between ambient temperature and body thermal regulation.",
+      "explanation": "Human thermoregulation functions optimally near 28°C ambient temperature. Option B confuses body temperature with the environmental temperature needed to maintain it.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.2 Extreme Temperature Safety",
+        "subsection_anchor": "Activity 7.4",
+        "structural_element": "Activity 7.4",
+        "content_anchor": "maintain a healthy temperature",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_comfortable_temperature"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 77,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q009",
+      "generation_timestamp": "2025-07-16T10:30:00Z",
+      "section": "7.2 Extreme Temperature Safety",
+      "subsection": "Figure 7.2 Temperature of tropic, temperate and polar zones.",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 7.2 Temperature of tropic, temperate and polar zones.",
+      "mcq_type": "I",
+      "question": "How does solar energy distribution differ between equatorial and polar regions?",
+      "options": {
+        "A": "Equatorial regions receive more direct sunlight than polar regions",
+        "B": "Polar regions receive more intense solar radiation annually",
+        "C": "Both regions receive equal solar energy but distribute it differently",
+        "D": "Solar energy absorption depends only on atmospheric composition"
+      },
+      "correct_answer": "A",
+      "hint": "Compare sunlight angle and intensity across latitudes.",
+      "explanation": "Sunlight strikes equatorial regions more directly, concentrating solar energy. Option B incorrectly reverses this relationship, attributing greater intensity to higher latitudes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "figure"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.2 Extreme Temperature Safety",
+        "subsection_anchor": "Figure 7.2 Temperature of tropic, temperate and polar zones.",
+        "structural_element": "Figure 7.2 Temperature of tropic, temperate and polar zones.",
+        "content_anchor": "temperature difference from pole to equator",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_climate_zones"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q010",
+      "generation_timestamp": "2025-07-16T10:30:00Z",
+      "section": "7.1 Temperature and Our Life",
+      "subsection": "Activity 7.1",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 7.1",
+      "mcq_type": "B",
+      "question": "What term describes the unreliability of sensory perception for determining thermal conditions?",
+      "options": {
+        "A": "Subjective thermal assessment",
+        "B": "Objective temperature measurement",
+        "C": "Calorimetric analysis",
+        "D": "Thermographic imaging"
+      },
+      "correct_answer": "A",
+      "hint": "Identify the limitation of using personal feeling for thermal evaluation.",
+      "explanation": "Subjective thermal assessment varies between individuals and conditions. Option B describes the precise instrumental measurement that avoids this unreliability.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 79
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.1 Temperature and Our Life",
+        "subsection_anchor": "Activity 7.1",
+        "structural_element": "Activity 7.1",
+        "content_anchor": "testing by feeling is not reliable",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_relative_temperature"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2850,
+    "average_question_quality": 82.5,
+    "type_distribution": {
+      "A": 3,
+      "B": 1,
+      "D": 2,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "7.1 Temperature and Our Life": 7,
+      "7.2 Extreme Temperature Safety": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

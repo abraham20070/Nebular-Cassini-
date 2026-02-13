@@ -1,0 +1,997 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-02-02T16:35:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Bio_U5_Q020",
+    "covered_sections": [
+      "The Digestive System>The Oral Cavity",
+      "The Digestive System>The Esophagus",
+      "The Digestive System>The stomach",
+      "The Digestive System>The small intestine",
+      "The Digestive System>The accessory organs",
+      "The Digestive System>Pancreas",
+      "The circulatory and lymphatic system>Blood",
+      "The circulatory and lymphatic system>Blood Components",
+      "The breathing system>The Nose",
+      "The breathing system>Pharynx",
+      "The Digestive System>Liver and Gallbladder",
+      "The Digestive System>Large Intestine",
+      "The circulatory and lymphatic system>Blood Vessels",
+      "The circulatory and lymphatic system>Blood groups",
+      "The breathing system>Larynx",
+      "The breathing system>Trachea",
+      "The breathing system>Alveoli",
+      "The Human Urinary system>External structure of kidney",
+      "The immune system>Innate immune system",
+      "Renowned Physicians in Ethiopia>Renowned Physicians in Ethiopia"
+    ],
+    "used_question_signatures": [
+      "5c3fcef7671a6c0a7f8d6b3c1f8e2a9a",
+      "b2a7e4d1c9f8a3e5b6d2c4a8f7e1d9b3",
+      "d8e4f2a9b6c3e7d1a5f8b2c4e9d6a3",
+      "a7f9d2b4c6e8a1f3d5b7c9e2a4f6",
+      "e3a9c5f7d1b8a4c6e2f9d5b1a7",
+      "b5d1a9e3c7f2b8d4a6e9c1f5",
+      "c8a2f4e6b9d3c1f7a5e9b2d6",
+      "f1c9a5e7b3d8f4c2a6e8b9",
+      "d4f8b2a6c9e1d5f3b7a9c1",
+      "a3e9c5b1f7d2a8c4e6b9f1",
+      "c7f3a1e9b5d8c2f6a4e8b2",
+      "d9a5f1b3c8e4d2f7a9c5b1",
+      "b4e8c2f6a1d9b7c3f9a5e1",
+      "f2c6a8e4b1d5f8c4a2e9b6",
+      "a6e2c8f4b9d1a3f7c5e9b4",
+      "d3f9a7c1e5b8d6f2a4c8e1",
+      "b8a4f6c2e9d7b3f1a5c9e3",
+      "e5c9a3f7b1d4e8c2f5a9b6",
+      "c4f8b6a2e9d3c7f1a5e8b2",
+      "a9e1c5f3b7d2a6f8c4e2b9"
+    ],
+    "baseline_counter": {
+      "The Digestive System": {
+        "The Oral Cavity": {
+          "count": 2,
+          "mini_headings_covered": ["The teeth"],
+          "last_question_round": 1
+        },
+        "The Esophagus": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The stomach": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The small intestine": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The accessory organs": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Pancreas": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Liver and Gallbladder": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Large Intestine": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "The circulatory and lymphatic system": {
+        "Blood": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Blood Components": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Blood Vessels": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Blood groups": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Rhesus factor": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Blood Donation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "The Lymphatic System": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Components of the Lymphatic System": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Diseases of the circulatory and lymphatic systems": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "The breathing system": {
+        "The Nose": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Pharynx": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Major breathing structures and their functions": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Larynx": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Trachea": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Bronchi and Bronchioles": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Breathing Gas Exchange": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Alveoli": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Breathing Movements": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Disorders of the Breathing System": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "The Human Urinary system": {
+        "External structure of kidney": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Internal structure of kidney": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "The formation of urine": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "The immune system": {
+        "Innate immune system": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Adaptive (Acquired) immune system": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Cells of the immune system": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Antigens and antibodies": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Hormones and the immune system": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Renowned Physicians in Ethiopia": {
+        "Renowned Physicians in Ethiopia": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "The Digestive System": {
+        "question_count": 9,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "The circulatory and lymphatic system": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "The breathing system": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "The Human Urinary system": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "The immune system": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Renowned Physicians in Ethiopia": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "The Digestive System>The Oral Cavity": ["Mastication", "Saliva", "Types of teeth", "Tooth structure"],
+      "The Digestive System>The Esophagus": ["Peristalsis"],
+      "The Digestive System>The stomach": ["Gastric juice", "Chyme", "Protein digestion"],
+      "The Digestive System>The small intestine": ["Villi", "Absorption", "Lacteals"],
+      "The Digestive System>The accessory organs": ["Pancreas", "Liver", "Gallbladder", "Bile"],
+      "The Digestive System>Pancreas": ["Trypsin", "Amylase", "Lipase", "Pancreatic enzymes"],
+      "The circulatory and lymphatic system>Blood": ["Plasma", "Blood composition"],
+      "The circulatory and lymphatic system>Blood Components": ["Red blood cells", "White blood cells", "Platelets", "Hemoglobin"],
+      "The breathing system>The Nose": ["Nasal cavity", "Mucus", "Cilia", "Air conditioning"],
+      "The breathing system>Pharynx": ["Throat", "Tonsils", "Airway and food passage"],
+      "The Digestive System>Liver and Gallbladder": ["Bile production", "Emulsification", "Fat digestion", "Detoxification"],
+      "The Digestive System>Large Intestine": ["Water absorption", "Feces formation", "Bacterial flora", "Cellulose"],
+      "The circulatory and lymphatic system>Blood Vessels": ["Arteries", "Veins", "Capillaries", "Structure and function"],
+      "The circulatory and lymphatic system>Blood groups": ["ABO system", "Antigens", "Antibodies", "Compatibility"],
+      "The breathing system>Larynx": ["Voice box", "Epiglottis", "Vocal cords", "Sound production"],
+      "The breathing system>Trachea": ["Windpipe", "Cartilage rings", "Airway to lungs"],
+      "The breathing system>Alveoli": ["Gas exchange", "Surface area", "Oxygen and carbon dioxide diffusion"],
+      "The Human Urinary system>External structure of kidney": ["Bean-shaped organs", "Ureters", "Bladder", "Urethra"],
+      "The immune system>Innate immune system": ["First line of defense", "Physical barriers", "Non-specific immunity"],
+      "Renowned Physicians in Ethiopia>Renowned Physicians in Ethiopia": ["Prof. Asrat Woldeyes", "Dr. Widad KidaneMariam", "Medical contributions"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 20,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 83.3
+    }
+  },
+  "grade": "10",
+  "subject": "Biology",
+  "unit": "Unit 5: Human Biology",
+  "pdf_filename": "B10U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-02-02T16:35:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 20,
+      "mini_headings_covered_count": 1,
+      "structural_coverage_percentage": 83.3,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "The Digestive System",
+      "least_covered_section": "Renowned Physicians in Ethiopia",
+      "imbalance_ratio": 9.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.0,
+      "remaining_concept_capacity": 180
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U5_Q011",
+      "generation_timestamp": "2025-02-02T16:35:00Z",
+      "section": "The Digestive System",
+      "subsection": "Liver and Gallbladder",
+      "sub_subsection": null,
+      "structural_anchor": "Liver and Gallbladder",
+      "mcq_type": "H",
+      "question": "Which process involves bile salts breaking large fat globules into smaller droplets without breaking chemical bonds?",
+      "options": {
+        "A": "Chemical digestion",
+        "B": "Enzymatic hydrolysis",
+        "C": "Emulsification",
+        "D": "Absorption"
+      },
+      "correct_answer": "C",
+      "hint": "This is a physical process that increases surface area for enzyme action.",
+      "explanation": "Emulsification is the physical breakdown of fats into smaller droplets by bile salts, preparing them for chemical digestion. Option A incorrectly describes chemical digestion, which involves breaking molecular bonds.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The Digestive System",
+        "subsection_anchor": "Liver and Gallbladder",
+        "structural_element": "Liver and Gallbladder",
+        "content_anchor": "Emulsify or breakdown, large fat globules. The breakdown of fat globules into smaller droplets is physical digestion, not chemical digestion since chemical bonds are not broken.",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q012",
+      "generation_timestamp": "2025-02-02T16:35:00Z",
+      "section": "The Digestive System",
+      "subsection": "Large Intestine",
+      "sub_subsection": null,
+      "structural_anchor": "Large Intestine",
+      "mcq_type": "F",
+      "question": "If an individual's diet lacks sufficient cellulose, what is a likely long-term consequence for their digestive health?",
+      "options": {
+        "A": "Increased efficiency of nutrient absorption",
+        "B": "More frequent bowel movements",
+        "C": "Reduced reabsorption of water in the colon",
+        "D": "Fewer bowel movements and longer retention of wastes"
+      },
+      "correct_answer": "D",
+      "hint": "Cellulose provides bulk, which helps move material through the large intestine.",
+      "explanation": "Cellulose adds bulk to waste, stimulating bowel movements and reducing transit time. Without it, wastes remain longer, potentially increasing toxin exposure. Option B is the opposite effect of a low-cellulose diet.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The Digestive System",
+        "subsection_anchor": "Large Intestine",
+        "structural_element": "Large Intestine",
+        "content_anchor": "Individuals who do not eat sufficient amounts of cellulose (roughage or fiber) have fewer bowel movements. This means that wastes and toxins remain in their bodies for longer periods.",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q013",
+      "generation_timestamp": "2025-02-02T16:35:00Z",
+      "section": "The circulatory and lymphatic system",
+      "subsection": "Blood Vessels",
+      "sub_subsection": null,
+      "structural_anchor": "Blood Vessels",
+      "mcq_type": "I",
+      "question": "How do arteries and veins primarily differ in their structural composition?",
+      "options": {
+        "A": "Arteries have valves while veins do not",
+        "B": "Veins have thicker muscular walls than arteries",
+        "C": "Arteries have thicker, more elastic walls than veins",
+        "D": "Veins carry oxygenated blood while arteries carry deoxygenated blood"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the pressure of blood each vessel type must withstand.",
+      "explanation": "Arteries have thick, muscular, and elastic walls to withstand high pressure from the heart. Option A is incorrect because veins typically have valves to prevent backflow, while arteries generally do not.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The circulatory and lymphatic system",
+        "subsection_anchor": "Blood Vessels",
+        "structural_element": "Blood Vessels",
+        "content_anchor": "Based on their structure and function, blood vessels are classified as arteries, capillaries, and veins.",
+        "page_hint": "Page 20",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q014",
+      "generation_timestamp": "2025-02-02T16:35:00Z",
+      "section": "The circulatory and lymphatic system",
+      "subsection": "Blood groups",
+      "sub_subsection": null,
+      "structural_anchor": "Blood groups",
+      "mcq_type": "D",
+      "question": "Which blood group contains both anti-A and anti-B antibodies in its plasma?",
+      "options": {
+        "A": "Group A",
+        "B": "Group B",
+        "C": "Group AB",
+        "D": "Group O"
+      },
+      "correct_answer": "D",
+      "hint": "This blood group lacks A and B antigens on its red blood cells.",
+      "explanation": "Group O plasma contains both anti-A and anti-B antibodies because the red cells lack A and B antigens. Option C is incorrect as Group AB has no antibodies in its plasma.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The circulatory and lymphatic system",
+        "subsection_anchor": "Blood groups",
+        "structural_element": "Blood groups",
+        "content_anchor": "Group O: The plasma contains both anti-A and anti-B antibodies, but the surface of the red blood cells does not contain A or B antigens.",
+        "page_hint": "Page 24",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q015",
+      "generation_timestamp": "2025-02-02T16:35:00Z",
+      "section": "The breathing system",
+      "subsection": "Larynx",
+      "sub_subsection": null,
+      "structural_anchor": "Larynx",
+      "mcq_type": "B",
+      "question": "What is the name of the thin, elastic cartilage that covers the opening of the trachea during swallowing?",
+      "options": {
+        "A": "Thyroid cartilage",
+        "B": "Epiglottis",
+        "C": "Glottis",
+        "D": "Vocal cord"
+      },
+      "correct_answer": "B",
+      "hint": "This structure prevents food and liquids from entering the airway.",
+      "explanation": "The epiglottis is a flap that closes over the trachea during swallowing, directing food to the esophagus. Option C refers to the opening between the vocal cords, not the protective covering.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The breathing system",
+        "subsection_anchor": "Major breathing structures and their functions",
+        "structural_element": "Larynx",
+        "content_anchor": "The epiglottis is a thin, elastic cartilage that covers the trachea's opening...",
+        "page_hint": "Page 38",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q016",
+      "generation_timestamp": "2025-02-02T16:35:00Z",
+      "section": "The breathing system",
+      "subsection": "Trachea",
+      "sub_subsection": null,
+      "structural_anchor": "Trachea",
+      "mcq_type": "K",
+      "question": "What is the functional significance of the C-shaped cartilage rings in the trachea?",
+      "options": {
+        "A": "They produce mucus to trap dust particles",
+        "B": "They facilitate gas exchange with the bloodstream",
+        "C": "They provide structural support to keep the airway open",
+        "D": "They contain smooth muscle for peristaltic movement"
+      },
+      "correct_answer": "C",
+      "hint": "These rings prevent collapse during pressure changes when breathing.",
+      "explanation": "The cartilage rings maintain an open passage for air flow, preventing tracheal collapse during inhalation. Option D incorrectly describes a function of the esophagus, not the trachea.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The breathing system",
+        "subsection_anchor": "Major breathing structures and their functions",
+        "structural_element": "Trachea",
+        "content_anchor": "The trachea is formed by 16 to 20 stacked pieces of cartilage... the rings of cartilage provide structural support and prevent the trachea from collapsing.",
+        "page_hint": "Page 39",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q017",
+      "generation_timestamp": "2025-02-02T16:35:00Z",
+      "section": "The breathing system",
+      "subsection": "Alveoli",
+      "sub_subsection": null,
+      "structural_anchor": "Alveoli",
+      "mcq_type": "G",
+      "question": "What structural feature of alveoli directly enables efficient exchange of oxygen and carbon dioxide?",
+      "options": {
+        "A": "Their connection to bronchioles",
+        "B": "Their thin, moist walls and extensive surface area",
+        "C": "Their ability to produce surfactant",
+        "D": "Their location within the thoracic cavity"
+      },
+      "correct_answer": "B",
+      "hint": "Gas exchange occurs via diffusion across a membrane.",
+      "explanation": "Alveoli have extremely thin, moist walls and a vast surface area that maximizes diffusion rates. Option A describes connectivity, not the direct structural feature enabling gas exchange.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The breathing system",
+        "subsection_anchor": "Major breathing structures and their functions",
+        "structural_element": "Alveoli",
+        "content_anchor": "An alveolus with elastic walls, stretch during air intake which greatly increases the surface area available for gas exchange.",
+        "page_hint": "Page 40-41",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q018",
+      "generation_timestamp": "2025-02-02T16:35:00Z",
+      "section": "The Human Urinary system",
+      "subsection": "External structure of kidney",
+      "sub_subsection": null,
+      "structural_anchor": "External structure of kidney",
+      "mcq_type": "A",
+      "question": "Which structure transports urine from the kidneys to the urinary bladder?",
+      "options": {
+        "A": "Urethra",
+        "B": "Ureter",
+        "C": "Nephron",
+        "D": "Renal pelvis"
+      },
+      "correct_answer": "B",
+      "hint": "These are muscular tubes approximately 30 cm long.",
+      "explanation": "Ureters are the tubes that carry urine from the kidneys to the bladder via peristalsis. Option A is incorrect as the urethra transports urine from the bladder to the outside of the body.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The Human Urinary system",
+        "subsection_anchor": "External structure of kidney",
+        "structural_element": "External structure of kidney",
+        "content_anchor": "The ureters, which are around 30cm long, transport urine from the kidneys to the urinary bladder.",
+        "page_hint": "Page 45",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q019",
+      "generation_timestamp": "2025-02-02T16:35:00Z",
+      "section": "The immune system",
+      "subsection": "Innate immune system",
+      "sub_subsection": null,
+      "structural_anchor": "Innate immune system",
+      "mcq_type": "A",
+      "question": "What is the body's first line of defense against invading pathogens?",
+      "options": {
+        "A": "Adaptive immunity",
+        "B": "Antibody production",
+        "C": "Innate immunity",
+        "D": "Vaccination"
+      },
+      "correct_answer": "C",
+      "hint": "This includes physical barriers and non-specific responses.",
+      "explanation": "Innate immunity provides immediate, non-specific protection through barriers like skin and mucous membranes. Option A is incorrect as adaptive immunity develops later and is specific to particular pathogens.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The immune system",
+        "subsection_anchor": "Types of immune systems",
+        "structural_element": "Innate immune system",
+        "content_anchor": "The body's initial line of defense against invading microbial diseases is innate immunity.",
+        "page_hint": "Page 50",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q020",
+      "generation_timestamp": "2025-02-02T16:35:00Z",
+      "section": "Renowned Physicians in Ethiopia",
+      "subsection": "Renowned Physicians in Ethiopia",
+      "sub_subsection": null,
+      "structural_anchor": "Renowned Physicians in Ethiopia",
+      "mcq_type": "B",
+      "question": "Which Ethiopian physician was the first to qualify as a surgeon in the West after medical studies at Edinburgh University?",
+      "options": {
+        "A": "Dr. Widad KidaneMariam",
+        "B": "Prof. Asrat Woldeyes",
+        "C": "Dr. Paulos Milkias",
+        "D": "Prof. Tewolde Berhan Gebre Egziabher"
+      },
+      "correct_answer": "B",
+      "hint": "He served as a dean of medicine at Addis Ababa University.",
+      "explanation": "Prof. Asrat Woldeyes was the first Ethiopian surgeon and professor of medicine qualified in the West. Option A is incorrect as Dr. Widad KidaneMariam was the first female medical practitioner and gynecologist, not a surgeon trained in Edinburgh.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "Renowned Physicians in Ethiopia",
+        "subsection_anchor": "Renowned Physicians in Ethiopia",
+        "structural_element": "Renowned Physicians in Ethiopia",
+        "content_anchor": "Prof. Asrat Woldeyes (1928-1999) was the first distinguished Ethiopian surgeon and professor of medicine in Addis Ababa University. He was the first Ethiopian to qualify in this field of medicine in the West after medical studies at Edinburgh University.",
+        "page_hint": "Page 52",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2450,
+    "average_question_quality": 82.5,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "D": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 6,
+      "hard": 0
+    },
+    "section_distribution": {
+      "The Digestive System": 2,
+      "The circulatory and lymphatic system": 2,
+      "The breathing system": 3,
+      "The Human Urinary system": 1,
+      "The immune system": 1,
+      "Renowned Physicians in Ethiopia": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,846 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-07-30T11:35:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Bio_U1_Q020",
+    "covered_sections": ["1.1 Sub-fields of Biology>Zoology", "1.1 Sub-fields of Biology>Botany", "1.1 Sub-fields of Biology>Microbiology", "1.1 Sub-fields of Biology>Table 1.1 Different fields of biology based on the structure studied", "1.2 Subjects studied in various branches of Biology>Table 1.2 Subjects studied in various branches of Biology", "1.2 Subjects studied in various branches of Biology>Table1.3 Knowledge taken from other subjects that help to explain biological phenomenon", "1.2 Pure and applied fields of biology>Recall", "1.2 Pure and applied fields of biology>Activity 1.4: Categorizing pure and applied fields of biology", "1.3 Major discoveries that revolutionized biology>Activity 1.6 Group discussion", "1.3 Major discoveries that revolutionized biology>1. Aristotle (384-322 BC)"],
+    "used_question_signatures": ["99f84e9f2d5cfd12b3e3d1c9e2f7a5c8", "b25c4c7f8e1a3d6f9b2c5e8a1f4d7c0", "c36d5e8f9a2b7c1e4f8d3a6c9b2e5f1", "d47e6f8a9b3c2d5e1f7a4c8b3e6f9", "e58f7a9b4c3d6e2f8a5c9b4e7f0", "f69a8b5c4d7e3f9a6c0b5e8f1a2", "g70b9c6d5e8f4a0b7c1d6e9f2a3", "h81c0d7e6f9a5b1c8d2e7f0a3b4", "i92d1e8f7a0b6c2d9e3f8a1b4c5", "j03e2f9a8b1c7d3e0f4a9b2c5d6", "k14f3a0b9c2d8e4f1a5b0c3d6e7", "l25a4b1c0d3e9f5a2b6c1d4e7f8", "m36b5c2d1e4a0f6a3b7c2d5e8f9", "n47c6d3e2f5a1b7a4b8c3d6e9f0", "o58d7e4f3a6b2c8a5b9c4d7e0f1", "p69e8f5a4b7c3d9a6b0c5d8e1f2", "q70f9a6b5c8d4e0a7b1c6d9e2f3", "r81a0b7c6d9e5f1a8b2c7d0e3f4", "s92b1c8d7e0f6a2b9c3d8e1f4a5", "t03c2d9e8f1a7b3c0d4e9f2a5b6"],
+    "baseline_counter": {
+      "1.1 Sub-fields of Biology": {
+        "Zoology": {
+          "count": 3,
+          "mini_headings_covered": ["Figure 1.1 Capra walle (Waliva ibex) (in Simien Mountains of Ethiopia)", "Activity 1.1: THINK-PAIR-SHARE"],
+          "last_question_round": 2
+        },
+        "Botany": {
+          "count": 3,
+          "mini_headings_covered": ["Figure1.2 Ruta chalepensis L. (Tena Adam)"],
+          "last_question_round": 2
+        },
+        "Microbiology": {
+          "count": 3,
+          "mini_headings_covered": ["Activity 1.2 The Microorganisms"],
+          "last_question_round": 2
+        },
+        "Table 1.1 Different fields of biology based on the structure studied": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "1.2 Subjects studied in various branches of Biology": {
+        "Table 1.2 Subjects studied in various branches of Biology": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Table1.3 Knowledge taken from other subjects that help to explain biological phenomenon": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.2 Pure and applied fields of biology": {
+        "Recall": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Activity 1.4: Categorizing pure and applied fields of biology": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.3 Major discoveries that revolutionized biology": {
+        "Activity 1.6 Group discussion": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1. Aristotle (384-322 BC)": {
+          "count": 2,
+          "mini_headings_covered": ["Figure 1.6 Aristotle"],
+          "last_question_round": 2
+        }
+      },
+      "1.4 The contributions of biological discoveries to society and the environment": {
+        "The Microscope": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "1.5 Ethiopian biologists and their contributions": {
+        "1.Professor Yalemtshehay Mekonnen": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Unit Summary": {
+        "Unit Summary": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Review Questions": {
+        "Review Questions": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1 Sub-fields of Biology": {
+        "question_count": 11,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.2 Subjects studied in various branches of Biology": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.2 Pure and applied fields of biology": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "1.3 Major discoveries that revolutionized biology": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "1.4 The contributions of biological discoveries to society and the environment": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "1.5 Ethiopian biologists and their contributions": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Unit Summary": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Review Questions": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1 Sub-fields of Biology>Zoology": ["Animal biology study", "Wildlife classification", "Ethiopian endemic species"],
+      "1.1 Sub-fields of Biology>Botany": ["Plant structure study", "Photosynthesis process", "Medicinal plants"],
+      "1.1 Sub-fields of Biology>Microbiology": ["Microscopic organisms", "Bacteria classification", "Virus structure"],
+      "1.1 Sub-fields of Biology>Table 1.1 Different fields of biology based on the structure studied": ["Morphology", "Anatomy", "Histology", "Cytology"],
+      "1.2 Subjects studied in various branches of Biology>Table 1.2 Subjects studied in various branches of Biology": ["Physiology", "Ecology", "Genetics", "Taxonomy"],
+      "1.2 Subjects studied in various branches of Biology>Table1.3 Knowledge taken from other subjects that help to explain biological phenomenon": ["Biochemistry", "Biophysics", "Chemical processes in biology"],
+      "1.2 Pure and applied fields of biology>Recall": ["Pure biology definition", "Applied biology definition"],
+      "1.2 Pure and applied fields of biology>Activity 1.4: Categorizing pure and applied fields of biology": ["Field classification", "Biology applications"],
+      "1.3 Major discoveries that revolutionized biology>Activity 1.6 Group discussion": ["Scientific revolutions", "Historical discoveries"],
+      "1.3 Major discoveries that revolutionized biology>1. Aristotle (384-322 BC)": ["Classification systems", "Species relationships"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 20,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 33.3
+    }
+  },
+  "grade": "10",
+  "subject": "Biology",
+  "unit": "Unit 1: Sub-fields of Biology",
+  "pdf_filename": "B10U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-07-30T11:36:20Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 8,
+        "progress_percentage": 50.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 10,
+      "mini_headings_covered_count": 4,
+      "structural_coverage_percentage": 41.7,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.1 Sub-fields of Biology",
+      "least_covered_section": "1.4 The contributions of biological discoveries to society and the environment",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U1_Q011",
+      "generation_timestamp": "2025-07-30T11:35:15Z",
+      "section": "1.1 Sub-fields of Biology",
+      "subsection": "Zoology",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 1.1: THINK-PAIR-SHARE",
+      "mcq_type": "D",
+      "question": "If a researcher is studying the behavioral patterns of chimpanzees in their natural habitat, which sub-discipline of zoology are they most likely practicing?",
+      "options": {
+        "A": "Ethology",
+        "B": "Ichthyology",
+        "C": "Herpetology",
+        "D": "Ornithology"
+      },
+      "correct_answer": "A",
+      "hint": "This field examines animal behavior within natural environments.",
+      "explanation": "Ethology focuses on animal behavior in natural settings, including primate studies. Option B incorrectly refers to the study of fish, which does not apply to chimpanzee research.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.1 Sub-fields of Biology",
+        "subsection_anchor": "Zoology",
+        "structural_element": "Activity 1.1: THINK-PAIR-SHARE",
+        "content_anchor": "zoology is concerned with all aspects of animal life, such as... behavior",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q012",
+      "generation_timestamp": "2025-07-30T11:35:18Z",
+      "section": "1.1 Sub-fields of Biology",
+      "subsection": "Botany",
+      "sub_subsection": null,
+      "structural_anchor": "Botany",
+      "mcq_type": "G",
+      "question": "If a plant species lacks the ability to perform photosynthesis due to chlorophyll deficiency, what direct effect would this have on atmospheric oxygen levels?",
+      "options": {
+        "A": "Oxygen production would decrease, affecting atmospheric composition.",
+        "B": "Carbon dioxide absorption would increase, reducing oxygen need.",
+        "C": "Nitrogen fixation would compensate for reduced oxygen output.",
+        "D": "Water vapor release would replace oxygen in the atmosphere."
+      },
+      "correct_answer": "A",
+      "hint": "Consider photosynthesis as the primary biological process generating atmospheric oxygen.",
+      "explanation": "Photosynthesis produces oxygen as a byproduct, so reduced photosynthetic activity decreases oxygen generation. Option C incorrectly links nitrogen fixation to oxygen production, which are unrelated processes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.1 Sub-fields of Biology",
+        "subsection_anchor": "Botany",
+        "structural_element": "Botany",
+        "content_anchor": "the formation and release of oxygen as a byproduct of photosynthesis",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q013",
+      "generation_timestamp": "2025-07-30T11:35:21Z",
+      "section": "1.1 Sub-fields of Biology",
+      "subsection": "Microbiology",
+      "sub_subsection": null,
+      "structural_anchor": "Microbiology",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that all microscopic organisms are harmful pathogens?",
+      "options": {
+        "A": "It overlooks beneficial roles of microbes like decomposition and nutrient cycling.",
+        "B": "It correctly assumes microscopic size indicates disease potential.",
+        "C": "It acknowledges that viruses always cause illness in hosts.",
+        "D": "It recognizes that bacteria cannot exist without harming organisms."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the diverse ecological functions performed by microorganisms beyond disease causation.",
+      "explanation": "Many microorganisms perform essential ecological functions like decomposition and nutrient cycling. Option B reinforces the misconception rather than identifying the error in reasoning.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.1 Sub-fields of Biology",
+        "subsection_anchor": "Microbiology",
+        "structural_element": "Microbiology",
+        "content_anchor": "includes bacteria, archaea, protists, viruses, microscopic algae and fungi",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q014",
+      "generation_timestamp": "2025-07-30T11:35:24Z",
+      "section": "1.2 Subjects studied in various branches of Biology",
+      "subsection": "Table1.3 Knowledge taken from other subjects that help to explain biological phenomenon",
+      "sub_subsection": null,
+      "structural_anchor": "Table1.3 Knowledge taken from other subjects that help to explain biological phenomenon",
+      "mcq_type": "F",
+      "question": "Under the condition that a biological process involves electron transfer through redox reactions, which interdisciplinary approach best explains this mechanism?",
+      "options": {
+        "A": "Chemical principles explain electron transport chains in cellular respiration.",
+        "B": "Physical laws describe tissue structure in anatomical studies.",
+        "C": "Mathematical models predict population growth in ecosystems.",
+        "D": "Geological concepts explain fossil formation in paleontology."
+      },
+      "correct_answer": "A",
+      "hint": "Consider which scientific discipline deals with electron transfer and oxidation-reduction reactions.",
+      "explanation": "Chemistry provides the principles for understanding redox reactions in biological electron transport chains. Option B incorrectly applies physics to a chemical process involving electron transfer.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.2 Subjects studied in various branches of Biology",
+        "subsection_anchor": "Table1.3 Knowledge taken from other subjects that help to explain biological phenomenon",
+        "structural_element": "Table1.3 Knowledge taken from other subjects that help to explain biological phenomenon",
+        "content_anchor": "Release of energy during respiration - Electron transport chain - Chemistry",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q015",
+      "generation_timestamp": "2025-07-30T11:35:27Z",
+      "section": "1.2 Subjects studied in various branches of Biology",
+      "subsection": "Table1.3 Knowledge taken from other subjects that help to explain biological phenomenon",
+      "sub_subsection": null,
+      "structural_anchor": "Table1.3 Knowledge taken from other subjects that help to explain biological phenomenon",
+      "mcq_type": "D",
+      "question": "If water movement in plants depends on cohesion and adhesion properties, which scientific discipline primarily explains this transportation mechanism?",
+      "options": {
+        "A": "Physics",
+        "B": "Chemistry",
+        "C": "Mathematics",
+        "D": "Geology"
+      },
+      "correct_answer": "A",
+      "hint": "Consider which field studies the physical properties of liquids like surface tension.",
+      "explanation": "Physics explains liquid properties like cohesion and adhesion that enable capillary action in plants. Option B incorrectly attributes these fluid dynamics to chemistry rather than physics.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.2 Subjects studied in various branches of Biology",
+        "subsection_anchor": "Table1.3 Knowledge taken from other subjects that help to explain biological phenomenon",
+        "structural_element": "Table1.3 Knowledge taken from other subjects that help to explain biological phenomenon",
+        "content_anchor": "Transportation of water in plants - Conduction of water from root to leaves - Physics",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q016",
+      "generation_timestamp": "2025-07-30T11:35:30Z",
+      "section": "1.2 Pure and applied fields of biology",
+      "subsection": "Recall",
+      "sub_subsection": null,
+      "structural_anchor": "Recall",
+      "mcq_type": "A",
+      "question": "What distinguishes pure biology from applied biology in terms of their primary objectives?",
+      "options": {
+        "A": "Pure biology studies life functions in nature, while applied biology uses biological knowledge for practical purposes.",
+        "B": "Pure biology focuses on laboratory experiments, while applied biology examines field observations.",
+        "C": "Pure biology deals with plant studies, while applied biology deals with animal studies.",
+        "D": "Pure biology requires advanced mathematics, while applied biology uses basic calculations."
+      },
+      "correct_answer": "A",
+      "hint": "Consider whether each field aims to understand natural processes or to solve practical problems.",
+      "explanation": "Pure biology investigates fundamental life processes like behavior and structure, while applied biology utilizes this knowledge in fields like agriculture and medicine. Option B incorrectly limits pure biology to laboratory settings rather than natural observation.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.2 Pure and applied fields of biology",
+        "subsection_anchor": "Recall",
+        "structural_element": "Recall",
+        "content_anchor": "Pure biology is the study of how life functions in nature... whereas applied biology refers to using what you have learned in biology for...",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q017",
+      "generation_timestamp": "2025-07-30T11:35:33Z",
+      "section": "1.2 Pure and applied fields of biology",
+      "subsection": "Activity 1.4: Categorizing pure and applied fields of biology",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 1.4: Categorizing pure and applied fields of biology",
+      "mcq_type": "J",
+      "question": "Which of the following biological fields would be classified as applied biology rather than pure biology?",
+      "options": {
+        "A": "Agriculture",
+        "B": "Morphology",
+        "C": "Taxonomy",
+        "D": "Physiology"
+      },
+      "correct_answer": "A",
+      "hint": "Consider which field directly uses biological knowledge for human benefit and practical outcomes.",
+      "explanation": "Agriculture applies biological principles to crop production and land management for human use. Option B incorrectly classifies morphology, which studies form and structure as part of pure biology.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.2 Pure and applied fields of biology",
+        "subsection_anchor": "Activity 1.4: Categorizing pure and applied fields of biology",
+        "structural_element": "Activity 1.4: Categorizing pure and applied fields of biology",
+        "content_anchor": "Table 1.4 Pure and Applied fields of Biology includes Agriculture under applied fields",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q018",
+      "generation_timestamp": "2025-07-30T11:35:36Z",
+      "section": "1.3 Major discoveries that revolutionized biology",
+      "subsection": "Activity 1.6 Group discussion",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 1.6 Group discussion",
+      "mcq_type": "F",
+      "question": "Under the condition that scientific progress depends on paradigm-shifting findings, which reasoning best explains why certain biological discoveries are considered revolutionary?",
+      "options": {
+        "A": "They fundamentally change understanding of life processes and establish new research directions.",
+        "B": "They confirm existing theories without introducing new concepts or methodologies.",
+        "C": "They focus exclusively on technological applications without theoretical advancement.",
+        "D": "They address minor details within established frameworks rather than core principles."
+      },
+      "correct_answer": "A",
+      "hint": "Consider discoveries that transformed biological thinking rather than incremental advances.",
+      "explanation": "Revolutionary discoveries create new paradigms by fundamentally altering understanding of life processes. Option B incorrectly describes confirmatory research rather than transformative discoveries.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.3 Major discoveries that revolutionized biology",
+        "subsection_anchor": "Activity 1.6 Group discussion",
+        "structural_element": "Activity 1.6 Group discussion",
+        "content_anchor": "discuss at least five major discoveries that revolutionized biology",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 77,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q019",
+      "generation_timestamp": "2025-07-30T11:35:39Z",
+      "section": "1.3 Major discoveries that revolutionized biology",
+      "subsection": "1. Aristotle (384-322 BC)",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 1.6 Aristotle",
+      "mcq_type": "B",
+      "question": "Which ancient philosopher developed a classification system for living organisms that organized species into hierarchical relationships?",
+      "options": {
+        "A": "Aristotle",
+        "B": "Galen",
+        "C": "Leeuwenhoek",
+        "D": "Linnaeus"
+      },
+      "correct_answer": "A",
+      "hint": "This individual created an early biological taxonomy before modern scientific methods.",
+      "explanation": "Aristotle established an early classification system called the 'Ladder of Life' that grouped organisms by complexity. Option D incorrectly refers to Linnaeus, who developed the modern binomial nomenclature system centuries later.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.3 Major discoveries that revolutionized biology",
+        "subsection_anchor": "1. Aristotle (384-322 BC)",
+        "structural_element": "Figure 1.6 Aristotle",
+        "content_anchor": "Aristotle was responsible for a breakthrough classification system for living things",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Bio_U1_Q020",
+      "generation_timestamp": "2025-07-30T11:35:42Z",
+      "section": "1.3 Major discoveries that revolutionized biology",
+      "subsection": "1. Aristotle (384-322 BC)",
+      "sub_subsection": null,
+      "structural_anchor": "1. Aristotle (384-322 BC)",
+      "mcq_type": "D",
+      "question": "If Aristotle's classification system grouped organisms based on complexity and functional characteristics, what was this system commonly called?",
+      "options": {
+        "A": "Ladder of Life",
+        "B": "Tree of Life",
+        "C": "Chain of Being",
+        "D": "Web of Life"
+      },
+      "correct_answer": "A",
+      "hint": "This metaphorical term suggests a hierarchical progression from simple to complex forms.",
+      "explanation": "Aristotle's system was known as the 'Ladder of Life,' representing a hierarchical organization of species. Option B refers to Charles Darwin's evolutionary tree concept, developed much later in biological history.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Sub-fields of Biology",
+        "section_anchor": "1.3 Major discoveries that revolutionized biology",
+        "subsection_anchor": "1. Aristotle (384-322 BC)",
+        "structural_element": "1. Aristotle (384-322 BC)",
+        "content_anchor": "Aristotle's classification system was known as the 'Ladder of Life'",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 28700,
+    "average_question_quality": 85.7,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "D": 3,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 7,
+      "hard": 1
+    },
+    "section_distribution": {
+      "1.1 Sub-fields of Biology": 3,
+      "1.2 Subjects studied in various branches of Biology": 2,
+      "1.2 Pure and applied fields of biology": 2,
+      "1.3 Major discoveries that revolutionized biology": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

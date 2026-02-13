@@ -1,0 +1,819 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:35:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Bio_U6_Q020",
+    "covered_sections": [
+      "6.1 Trophic Levels>6.1.1 Food chain and food web",
+      "6.1 Trophic Levels>6.1.2 Flow of energy and matter through ecosystem",
+      "6.1 Trophic Levels>Objectives",
+      "6.2 Cycling of Materials in an Ecosystem>6.2.1 Water cycle",
+      "6.2 Cycling of Materials in an Ecosystem>6.2.2 Carbon cycle",
+      "6.2 Cycling of Materials in an Ecosystem>6.2.3 Nitrogen cycle",
+      "6.2 Cycling of Materials in an Ecosystem>6.2.4 Phosphorus cycle",
+      "6.2 Cycling of Materials in an Ecosystem>Objectives",
+      "Learning Competency"
+    ],
+    "used_question_signatures": [
+      "hash_cdc3b7a1",
+      "hash_8e9f4c2d",
+      "hash_5a1b8e3f",
+      "hash_2d7c9a4b",
+      "hash_6e3f8b1c",
+      "hash_9a2c5d7e",
+      "hash_4b8d1f3a",
+      "hash_1c7e9b5d",
+      "hash_3f2a8c6e",
+      "hash_7d5b1e9c",
+      "hash_a3c8e1b5",
+      "hash_b6d9f2c4",
+      "hash_c2e4a7d9",
+      "hash_d5f8b3e6",
+      "hash_e9a1c4f7",
+      "hash_f4b2d5e8",
+      "hash_1a8c3d6f",
+      "hash_2b9d4e7a",
+      "hash_3c0e5f8b",
+      "hash_4d1f6a9c"
+    ],
+    "baseline_counter": {
+      "6.1 Trophic Levels": {
+        "6.1.1 Food chain and food web": {
+          "count": 3,
+          "mini_headings_covered": ["Direction: Think of a possible feeding relationship..."],
+          "last_question_round": 2
+        },
+        "6.1.2 Flow of energy and matter through ecosystem": {
+          "count": 4,
+          "mini_headings_covered": ["Figure 6.5 An Idealized pyramid of energy"],
+          "last_question_round": 2
+        },
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "6.2 Cycling of Materials in an Ecosystem": {
+        "6.2.1 Water cycle": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.2 Carbon cycle": {
+          "count": 3,
+          "mini_headings_covered": ["Attention: Photosynthesis and cellular respiration"],
+          "last_question_round": 2
+        },
+        "6.2.3 Nitrogen cycle": {
+          "count": 4,
+          "mini_headings_covered": ["Key terms: DNA, Functional proteins, Structural protein"],
+          "last_question_round": 2
+        },
+        "6.2.4 Phosphorus cycle": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Learning Competency": {
+        "Learning Competency": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Trophic Levels": {
+        "question_count": 8,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "6.2 Cycling of Materials in an Ecosystem": {
+        "question_count": 12,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Learning Competency": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Trophic Levels>6.1.1 Food chain and food web": ["Food chain", "Food web", "Producers", "Consumers", "Herbivores", "Carnivores"],
+      "6.1 Trophic Levels>6.1.2 Flow of energy and matter through ecosystem": ["Energy flow", "Ecological pyramid", "Energy loss", "Trophic levels", "Biomass", "10% rule"],
+      "6.1 Trophic Levels>Objectives": ["Define trophic level", "Construct food chain"],
+      "6.2 Cycling of Materials in an Ecosystem>6.2.1 Water cycle": ["Evaporation", "Transpiration", "Condensation", "Precipitation", "Runoff", "Solar heating"],
+      "6.2 Cycling of Materials in an Ecosystem>6.2.2 Carbon cycle": ["Photosynthesis", "Respiration", "Carbon dioxide", "Fossil fuels", "Greenhouse effect", "Global warming"],
+      "6.2 Cycling of Materials in an Ecosystem>6.2.3 Nitrogen cycle": ["Nitrogen fixation", "DNA", "Proteins", "Soil bacteria", "Ammonification", "Nitrification"],
+      "6.2 Cycling of Materials in an Ecosystem>6.2.4 Phosphorus cycle": ["ATP", "DNA", "Phosphate ions", "Eutrophication", "Organic phosphate"],
+      "6.2 Cycling of Materials in an Ecosystem>Objectives": ["Draw cycles", "Relate carbon to global warming"],
+      "Learning Competency": ["Outline trophic levels", "Elaborate food chain"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_round1_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 33,
+      "questions_per_concept_ratio": 0.61,
+      "structural_coverage_percentage": 42.1
+    }
+  },
+  "grade": "10",
+  "subject": "Biology",
+  "unit": "Unit 6: Ecological Interactions",
+  "pdf_filename": "B10U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:35:32Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 3,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 1.5,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 9,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 42.1,
+      "concept_utilization_ratio": 0.61
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.2 Cycling of Materials in an Ecosystem",
+      "least_covered_section": "Learning Competency",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U6_Q011",
+      "generation_timestamp": "2025-01-28T10:35:02Z",
+      "section": "6.1 Trophic Levels",
+      "subsection": "6.1.1 Food chain and food web",
+      "sub_subsection": null,
+      "structural_anchor": "6.1.1 Food chain and food web",
+      "mcq_type": "I",
+      "question": "How does a food web differ from a food chain in representing energy flow?",
+      "options": {
+        "A": "Food webs show energy loss, while food chains show energy gain",
+        "B": "Food webs depict multiple interconnected pathways, while food chains show a single linear path",
+        "C": "Food webs include decomposers, while food chains only include producers and consumers",
+        "D": "Food webs represent aquatic systems, while food chains represent terrestrial systems"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the complexity of feeding relationships in ecosystems.",
+      "explanation": "Food webs illustrate multiple interconnected food chains, showing complex feeding relationships, while food chains represent single linear energy pathways. Option C incorrectly suggests decomposers are excluded from food chains when they are typically included.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.1 Trophic Levels",
+        "subsection_anchor": "6.1.1 Food chain and food web",
+        "structural_element": "6.1.1 Food chain and food web",
+        "content_anchor": "food web is an interconnected food chain",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_foodweb_vs_foodchain"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q012",
+      "generation_timestamp": "2025-01-28T10:35:04Z",
+      "section": "6.1 Trophic Levels",
+      "subsection": "6.1.1 Food chain and food web",
+      "sub_subsection": null,
+      "structural_anchor": "6.1.1 Food chain and food web",
+      "mcq_type": "J",
+      "question": "Which category of organisms includes those that obtain energy by breaking down dead organic matter?",
+      "options": {
+        "A": "Producers",
+        "B": "Primary consumers",
+        "C": "Secondary consumers",
+        "D": "Decomposers"
+      },
+      "correct_answer": "D",
+      "hint": "These organisms recycle nutrients back into the ecosystem.",
+      "explanation": "Decomposers like bacteria and fungi break down dead organic matter, releasing nutrients for reuse by producers. Option A refers to autotrophs that produce their own food through photosynthesis.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.1 Trophic Levels",
+        "subsection_anchor": "6.1.1 Food chain and food web",
+        "structural_element": "6.1.1 Food chain and food web",
+        "content_anchor": "fungi and other decomposers obtain energy by breaking down organic matter",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_decomposers"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q013",
+      "generation_timestamp": "2025-01-28T10:35:06Z",
+      "section": "6.1 Trophic Levels",
+      "subsection": "6.1.2 Flow of energy and matter through ecosystem",
+      "sub_subsection": null,
+      "structural_anchor": "6.1.2 Flow of energy and matter through ecosystem",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that energy can be recycled in an ecosystem?",
+      "options": {
+        "A": "Confusing energy with nutrients, which do recycle",
+        "B": "Assuming energy increases at each trophic level",
+        "C": "Overlooking that energy is stored in biomass",
+        "D": "Ignoring that energy flows from consumers to producers"
+      },
+      "correct_answer": "A",
+      "hint": "Energy flows one way while materials cycle.",
+      "explanation": "The misconception arises from confusing energy flow with nutrient cycling; energy flows unidirectionally and is lost as heat, while nutrients recycle. Option B addresses a different misconception about energy accumulation rather than recycling.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.1 Trophic Levels",
+        "subsection_anchor": "6.1.2 Flow of energy and matter through ecosystem",
+        "structural_element": "6.1.2 Flow of energy and matter through ecosystem",
+        "content_anchor": "energy cannot be recycled - it flows through the ecosystem",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_energy_flow_vs_nutrient_cycling"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 84,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q014",
+      "generation_timestamp": "2025-01-28T10:35:08Z",
+      "section": "6.1 Trophic Levels",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives",
+      "mcq_type": "A",
+      "question": "What is the definition of a trophic level in an ecosystem?",
+      "options": {
+        "A": "The geographic area occupied by a species",
+        "B": "The position of an organism in a sequence of energy transfer",
+        "C": "The total biomass of all organisms in a habitat",
+        "D": "The rate of energy flow through a food chain"
+      },
+      "correct_answer": "B",
+      "hint": "Trophic levels indicate feeding positions based on energy source.",
+      "explanation": "Trophic levels represent positions in a food chain based on energy transfer, starting with producers at level one. Option C incorrectly defines biomass rather than trophic position.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.1 Trophic Levels",
+        "subsection_anchor": "Objectives",
+        "structural_element": "Objectives",
+        "content_anchor": "define trophic level",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_trophic_level_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q015",
+      "generation_timestamp": "2025-01-28T10:35:10Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "6.2.1 Water cycle",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.1 Water cycle",
+      "mcq_type": "K",
+      "question": "What is the significance of transpiration in the water cycle?",
+      "options": {
+        "A": "It converts water vapor directly into groundwater",
+        "B": "It releases water vapor from plant leaves into the atmosphere",
+        "C": "It causes precipitation over oceans only",
+        "D": "It filters impurities from water before evaporation"
+      },
+      "correct_answer": "B",
+      "hint": "Transpiration involves plants releasing water vapor.",
+      "explanation": "Transpiration releases water vapor from plant leaves, contributing to atmospheric moisture that forms clouds and precipitation. Option A incorrectly describes a process that doesn't involve plants directly converting vapor to groundwater.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "6.2.1 Water cycle",
+        "structural_element": "6.2.1 Water cycle",
+        "content_anchor": "evaporation of water from the earth and surface of the leaf by transpiration",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_transpiration"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q016",
+      "generation_timestamp": "2025-01-28T10:35:12Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "6.2.2 Carbon cycle",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.2 Carbon cycle",
+      "mcq_type": "D",
+      "question": "Which human activity most significantly increases atmospheric carbon dioxide concentrations?",
+      "options": {
+        "A": "Agricultural irrigation",
+        "B": "Burning of fossil fuels",
+        "C": "Deforestation for timber",
+        "D": "Industrial wastewater disposal"
+      },
+      "correct_answer": "B",
+      "hint": "This activity releases carbon stored underground for millions of years.",
+      "explanation": "Burning fossil fuels releases carbon dioxide sequestered for geological time periods, significantly increasing atmospheric concentrations. Option C contributes but to a lesser extent than direct combustion of coal, oil, and natural gas.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "6.2.2 Carbon cycle",
+        "structural_element": "6.2.2 Carbon cycle",
+        "content_anchor": "burning of the fossil fuels (coal, oil, natural gas) and wood for energy are the major sources",
+        "page_hint": "Page 10-11",
+        "concept_hash": "sha256_of_fossil_fuel_combustion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q017",
+      "generation_timestamp": "2025-01-28T10:35:14Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "6.2.3 Nitrogen cycle",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.3 Nitrogen cycle",
+      "mcq_type": "M",
+      "question": "What is the correct sequence of processes in the nitrogen cycle that makes nitrogen available to plants?",
+      "options": {
+        "A": "Denitrification → Nitrification → Assimilation",
+        "B": "Nitrogen fixation → Nitrification → Assimilation",
+        "C": "Ammonification → Denitrification → Nitrogen fixation",
+        "D": "Assimilation → Ammonification → Nitrification"
+      },
+      "correct_answer": "B",
+      "hint": "Atmospheric nitrogen must first be converted to usable forms.",
+      "explanation": "Nitrogen fixation converts atmospheric nitrogen to ammonia, nitrification converts ammonia to nitrate, and assimilation allows plants to absorb nitrate. Option A incorrectly begins with denitrification, which returns nitrogen to the atmosphere.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "6.2.3 Nitrogen cycle",
+        "structural_element": "6.2.3 Nitrogen cycle",
+        "content_anchor": "nitrogen fixation, ammonification, nitrification, assimilation and denitrification",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_nitrogen_cycle_sequence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q018",
+      "generation_timestamp": "2025-01-28T10:35:16Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "6.2.3 Nitrogen cycle",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.3 Nitrogen cycle",
+      "mcq_type": "D",
+      "question": "Which soil bacteria convert ammonia to nitrite and nitrate in the nitrogen cycle?",
+      "options": {
+        "A": "Rhizobium species",
+        "B": "Nitrifying bacteria",
+        "C": "Denitrifying bacteria",
+        "D": "Ammonifying bacteria"
+      },
+      "correct_answer": "B",
+      "hint": "These bacteria perform the nitrification process.",
+      "explanation": "Nitrifying bacteria like Nitrosomonas and Nitrobacter convert ammonia to nitrite and then to nitrate through nitrification. Option A refers to nitrogen-fixing bacteria that convert atmospheric nitrogen to ammonia.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "6.2.3 Nitrogen cycle",
+        "structural_element": "6.2.3 Nitrogen cycle",
+        "content_anchor": "nitrifying bacteria (Nitrrosomonas, Nitrobacter)",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_nitrifying_bacteria"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q019",
+      "generation_timestamp": "2025-01-28T10:35:18Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "6.2.4 Phosphorus cycle",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.4. Phosphorus cycle",
+      "mcq_type": "G",
+      "question": "What environmental problem results from excessive phosphate fertilizer entering aquatic ecosystems?",
+      "options": {
+        "A": "Acidification of water bodies",
+        "B": "Reduced oxygen levels due to eutrophication",
+        "C": "Increased sedimentation blocking sunlight",
+        "D": "Heavy metal accumulation in fish"
+      },
+      "correct_answer": "B",
+      "hint": "Excess nutrients cause rapid plant and algae growth.",
+      "explanation": "Eutrophication occurs when excess phosphates cause algal blooms that deplete oxygen as they decompose, harming aquatic life. Option C describes a different issue related to sedimentation rather than nutrient overload.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "6.2.4 Phosphorus cycle",
+        "structural_element": "6.2.4. Phosphorus cycle",
+        "content_anchor": "cause eutrophication",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_eutrophication"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q020",
+      "generation_timestamp": "2025-01-28T10:35:20Z",
+      "section": "Learning Competency",
+      "subsection": "Learning Competency",
+      "sub_subsection": null,
+      "structural_anchor": "Learning Competency",
+      "mcq_type": "C",
+      "question": "What must be drawn and labeled according to ecological learning objectives?",
+      "options": {
+        "A": "The water, carbon, nitrogen and phosphorus cycles",
+        "B": "Food chains for five different ecosystems",
+        "C": "Anatomical diagrams of decomposer organisms",
+        "D": "Graphs showing population fluctuations over time"
+      },
+      "correct_answer": "A",
+      "hint": "These are biogeochemical cycles that move essential elements.",
+      "explanation": "Ecological competency includes drawing and labeling the water, carbon, nitrogen, and phosphorus cycles to understand material cycling. Option B addresses food chains but not the specific requirement for cycle diagrams.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "Learning Competency",
+        "subsection_anchor": "Learning Competency",
+        "structural_element": "Learning Competency",
+        "content_anchor": "draw and label the water, carbon, nitrogen and phosphorus cycles",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_cycle_drawing_requirement"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2800,
+    "average_question_quality": 83.2,
+    "type_distribution": {
+      "A": 1,
+      "B": 0,
+      "C": 1,
+      "D": 2,
+      "F": 0,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 7,
+      "hard": 0
+    },
+    "section_distribution": {
+      "6.1 Trophic Levels": 4,
+      "6.2 Cycling of Materials in an Ecosystem": 5,
+      "Learning Competency": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

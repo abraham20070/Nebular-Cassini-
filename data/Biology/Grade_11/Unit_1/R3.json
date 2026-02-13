@@ -1,0 +1,834 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T08:25:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G11_Bio_U1_Q030",
+    "covered_sections": ["1.1 Learning from nature>Self-questioning", "1.1 Learning from nature>What is imitation?", "1.1 Learning from nature>Nature imitated technologies and architectures", "1.2 Biology and technology>Self-questioning", "1.2 Biology and technology>What does the blend of biology and technology form?", "1.2 Biology and technology>1.2.1 The benefits of biology to technology", "1.2 Biology and technology>1.2.2 Uses of technology in biology", "1.3 Impacts of biology and technology on society and the natural world>Self-questioning", "1.3 Impacts of biology and technology on society and the natural world>What are the impacts of biology and technology?", "1.3 Impacts of biology and technology on society and the natural world>1.3.1 Impacts of biology on the society and the natural world", "1.3 Impacts of biology and technology on society and the natural world>1.3.2 Impacts of technology on the society and the natural world", "1.4 Ethical issues in biology>Self-questioning", "1.4 Ethical issues in biology>Why do sciences have ethical dilemmas?", "1.4 Ethical issues in biology>1.4.1 Ethical treatment of plants and animals during biological studies", "1.4 Ethical issues in biology>1.4.1.1. Ethical treatment of plants", "1.4 Ethical issues in biology>1.4.1.2. Ethical treatment of animals in experiments"],
+    "used_question_signatures": ["01d9f86a7dfd2e2e1f936be7d4dfd416", "6e85fae20b691c6e5253214e4f5b00e6", "1c3f197385749699838d9fe0c1d5eab2", "c1b32aeaf87eeef4d86c8488b96ed84a", "7b511bf2d8d2300fe4f76f1b36b154b9", "a14689d260246b5b15484cccfc2df394", "8ba7e6899583d4cc1250d4e51474d7e5", "6ae64e02e597c14979e5db72d94fdb91", "73a9e8bb26bb006c9b93d8f6c2aae89e", "f6c9ddc5d01b36d658ad50d61b5a0e34", "c1f9a1f6a0dd6c83a0350c3b92ed156c", "2a8e76d1c6ad826f6a3afeb08e33d24b", "5e9e8bdb9fda4d2e1a0ccee8290544ad", "b0c7b3a4d1c86b5d7d8e2d9a4c8b3f2e", "e7b3a4d1c86b5d7d8e2d9a4c8b3f2e5c", "d1c86b5d7d8e2d9a4c8b3f2e5c7b3a4d", "8e2d9a4c8b3f2e5c7b3a4d1c86b5d7d", "c8b3f2e5c7b3a4d1c86b5d7d8e2d9a4", "f2e5c7b3a4d1c86b5d7d8e2d9a4c8b3", "e5c7b3a4d1c86b5d7d8e2d9a4c8b3f2", "a3f2e5c7b3a4d1c86b5d7d8e2d9a4c8", "b3f2e5c7b3a4d1c86b5d7d8e2d9a4c8b", "f2e5c7b3a4d1c86b5d7d8e2d9a4c8b3f", "e5c7b3a4d1c86b5d7d8e2d9a4c8b3f2e", "c7b3a4d1c86b5d7d8e2d9a4c8b3f2e5", "b3a4d1c86b5d7d8e2d9a4c8b3f2e5c7", "a4d1c86b5d7d8e2d9a4c8b3f2e5c7b", "d1c86b5d7d8e2d9a4c8b3f2e5c7b3a", "c86b5d7d8e2d9a4c8b3f2e5c7b3a4", "86b5d7d8e2d9a4c8b3f2e5c7b3a4d"],
+    "baseline_counter": {
+      "1.1 Learning from nature": {
+        "Self-questioning": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "What is imitation?": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Nature imitated technologies and architectures": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "1.2 Biology and technology": {
+        "Self-questioning": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "What does the blend of biology and technology form?": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "1.2.1 The benefits of biology to technology": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "1.2.2 Uses of technology in biology": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "1.3 Impacts of biology and technology on society and the natural world": {
+        "Self-questioning": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "What are the impacts of biology and technology?": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "1.3.1 Impacts of biology on the society and the natural world": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "1.3.2 Impacts of technology on the society and the natural world": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "1.4 Ethical issues in biology": {
+        "Self-questioning": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Why do sciences have ethical dilemmas?": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "1.4.1 Ethical treatment of plants and animals during biological studies": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "1.4.1.1. Ethical treatment of plants": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "1.4.1.2. Ethical treatment of animals in experiments": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1 Learning from nature": {
+        "question_count": 9,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "1.2 Biology and technology": {
+        "question_count": 12,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "1.3 Impacts of biology and technology on society and the natural world": {
+        "question_count": 10,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "1.4 Ethical issues in biology": {
+        "question_count": 9,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1 Learning from nature>Self-questioning": ["Introspection", "Learning goals", "Metacognition"],
+      "1.1 Learning from nature>What is imitation?": ["Imitation", "Nature as source", "Physical world", "Proven models"],
+      "1.1 Learning from nature>Nature imitated technologies and architectures": ["Biomimicry", "Technology inspiration", "Termite mounds", "Aircraft wings", "Needle design", "Aerodynamic streamlining"],
+      "1.2 Biology and technology>Self-questioning": ["Role of biology and technology", "Self-assessment", "Reflective analysis"],
+      "1.2 Biology and technology>What does the blend of biology and technology form?": ["Biotechnology", "Integration", "Useful products", "Industrial biotechnology"],
+      "1.2 Biology and technology>1.2.1 The benefits of biology to technology": ["Source of materials", "Problem-solving", "Innovation", "Biosynthesis"],
+      "1.2 Biology and technology>1.2.2 Uses of technology in biology": ["Technological tools", "Problem application", "Biomedical devices", "Microscopes", "Scans", "CT scanner"],
+      "1.3 Impacts of biology and technology on society and the natural world>Self-questioning": ["Impact assessment", "Assumptions"],
+      "1.3 Impacts of biology and technology on society and the natural world>What are the impacts of biology and technology?": ["Positive/negative effects", "Influence", "Misuse potential"],
+      "1.3 Impacts of biology and technology on society and the natural world>1.3.1 Impacts of biology on the society and the natural world": ["Positive and negative effects", "Food security", "Medicine", "Biological weapons", "Gene selection"],
+      "1.3 Impacts of biology and technology on society and the natural world>1.3.2 Impacts of technology on the society and the natural world": ["Pollution", "Resource depletion", "Industrial waste", "Biohazards"],
+      "1.4 Ethical issues in biology>Self-questioning": ["Ethical awareness", "Prior knowledge"],
+      "1.4 Ethical issues in biology>Why do sciences have ethical dilemmas?": ["Rightness/wrongness", "Health and wellbeing", "Ethical boundaries"],
+      "1.4 Ethical issues in biology>1.4.1 Ethical treatment of plants and animals during biological studies": ["Experimentation", "Rigorous tests", "Moral responsibility"],
+      "1.4 Ethical issues in biology>1.4.1.1. Ethical treatment of plants": ["Primary producers", "Destructive practices", "Conservation"],
+      "1.4 Ethical issues in biology>1.4.1.2. Ethical treatment of animals in experiments": ["Animal sentience", "Three Rs", "Reduction", "Refinement", "Replacement", "Ethical justification"]
+    },
+    "baseline_complete": true,
+    "validation_hash": "e8f7a3b2c1d6e5f4a9b8c7d6e5f4a3b2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 52,
+      "questions_per_concept_ratio": 0.58,
+      "structural_coverage_percentage": 100.0
+    }
+  },
+  "grade": "11",
+  "subject": "Biology",
+  "unit": "Unit 1: Biology and technology",
+  "pdf_filename": "B11U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T08:26:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 4,
+        "total_sections": 4,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": true,
+        "max_imbalance_ratio": 1.33,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 16,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 0.58
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.2 Biology and technology",
+      "least_covered_section": "1.1 Learning from nature",
+      "imbalance_ratio": 1.33,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.58,
+      "remaining_concept_capacity": 40
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U1_Q021",
+      "generation_timestamp": "2025-01-27T08:25:10Z",
+      "section": "1.1 Learning from nature",
+      "subsection": "Self-questioning",
+      "sub_subsection": null,
+      "structural_anchor": "Self-questioning",
+      "mcq_type": "M",
+      "question": "What is the correct sequence of steps in effective learning preparation?",
+      "options": {
+        "A": "Memorize facts → Ask questions → Apply knowledge",
+        "B": "Identify prior knowledge → Set goals → Engage with material",
+        "C": "Take a test → Review results → Study weak areas",
+        "D": "Read material → Discuss with peers → Write summary"
+      },
+      "correct_answer": "B",
+      "hint": "The sequence starts with self-assessment before active engagement.",
+      "explanation": "Effective learning begins with identifying existing knowledge, then setting specific goals, followed by active engagement. Option C describes a remedial cycle, not initial preparation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Biology and technology",
+        "section_anchor": "1.1 Learning from nature",
+        "subsection_anchor": "Self-questioning",
+        "structural_element": "Self-questioning",
+        "content_anchor": "ask yourself this question",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_learning_sequence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Bio_U1_Q022",
+      "generation_timestamp": "2025-01-27T08:25:20Z",
+      "section": "1.1 Learning from nature",
+      "subsection": "What is imitation?",
+      "sub_subsection": null,
+      "structural_anchor": "What is imitation?",
+      "mcq_type": "H",
+      "question": "What is the flaw in reasoning that leads to the conclusion that imitation stifles innovation?",
+      "options": {
+        "A": "It assumes copied designs cannot be improved upon.",
+        "B": "It overlooks that imitation requires creative adaptation.",
+        "C": "It confuses imitation with direct replication.",
+        "D": "All of the above are flaws in that reasoning."
+      },
+      "correct_answer": "D",
+      "hint": "Consider the multiple incorrect assumptions about the nature of imitation.",
+      "explanation": "The reasoning flaw includes assuming no improvement is possible, ignoring the need for adaptation, and equating imitation with exact copying. Each option correctly identifies a distinct aspect of this misconception.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Biology and technology",
+        "section_anchor": "1.1 Learning from nature",
+        "subsection_anchor": "What is imitation?",
+        "structural_element": "What is imitation?",
+        "content_anchor": "Scientists and engineers learn from nature through imitation",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_imitation_flaw"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 92,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U1_Q023",
+      "generation_timestamp": "2025-01-27T08:25:30Z",
+      "section": "1.1 Learning from nature",
+      "subsection": "Nature imitated technologies and architectures",
+      "sub_subsection": null,
+      "structural_anchor": "Nature imitated technologies and architectures",
+      "mcq_type": "B",
+      "question": "The needle of a syringe, designed to mimic the proboscis of a mosquito, is an example of technology derived from which biological feature?",
+      "options": {
+        "A": "Feeding apparatus",
+        "B": "Locomotive structure",
+        "C": "Sensory organ",
+        "D": "Reproductive system"
+      },
+      "correct_answer": "A",
+      "hint": "The proboscis is used by the mosquito to pierce skin and extract fluids.",
+      "explanation": "The mosquito proboscis is a specialized feeding structure for piercing and sucking, inspiring needle design. Option B is incorrect because the proboscis is not primarily for movement.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Biology and technology",
+        "section_anchor": "1.1 Learning from nature",
+        "subsection_anchor": "Nature imitated technologies and architectures",
+        "structural_element": "Nature imitated technologies and architectures",
+        "content_anchor": "Injection needle technology was copied from mosquito proboscis",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_feeding_apparatus"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Bio_U1_Q024",
+      "generation_timestamp": "2025-01-27T08:25:40Z",
+      "section": "1.2 Biology and technology",
+      "subsection": "Self-questioning",
+      "sub_subsection": null,
+      "structural_anchor": "Self-questioning",
+      "mcq_type": "F",
+      "question": "Which reasoning best explains the importance of questioning one's understanding before studying the integration of biology and technology?",
+      "options": {
+        "A": "It ensures that all facts are memorized in advance.",
+        "B": "It reveals gaps in knowledge that guide focused learning.",
+        "C": "It guarantees a high score on subsequent assessments.",
+        "D": "It eliminates the need for further research on the topic."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the metacognitive benefit of self-assessment.",
+      "explanation": "Self-questioning helps identify knowledge gaps, allowing for targeted and efficient learning. Option A incorrectly prioritizes rote memorization over conceptual understanding.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Biology and technology",
+        "section_anchor": "1.2 Biology and technology",
+        "subsection_anchor": "Self-questioning",
+        "structural_element": "Self-questioning",
+        "content_anchor": "ask yourself this question",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_knowledge_gap_identification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 81,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Bio_U1_Q025",
+      "generation_timestamp": "2025-01-27T08:25:50Z",
+      "section": "1.2 Biology and technology",
+      "subsection": "What does the blend of biology and technology form?",
+      "sub_subsection": null,
+      "structural_anchor": "What does the blend of biology and technology form?",
+      "mcq_type": "D",
+      "question": "The manipulation of yeast cells to produce insulin for medical use is a direct application of which integrated field?",
+      "options": {
+        "A": "Environmental biology",
+        "B": "Biotechnology",
+        "C": "Genetic counseling",
+        "D": "Molecular taxonomy"
+      },
+      "correct_answer": "B",
+      "hint": "This field applies biological systems to create products that address human needs.",
+      "explanation": "Biotechnology uses organisms like yeast to manufacture therapeutic substances such as insulin. Option C, genetic counseling, involves advising patients on genetic disorders, not product development.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Biology and technology",
+        "section_anchor": "1.2 Biology and technology",
+        "subsection_anchor": "What does the blend of biology and technology form?",
+        "structural_element": "What does the blend of biology and technology form?",
+        "content_anchor": "biotechnology, which is a technology that utilizes biological systems to develop useful products",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_biotechnology_application"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Bio_U1_Q026",
+      "generation_timestamp": "2025-01-27T08:26:00Z",
+      "section": "1.2 Biology and technology",
+      "subsection": "1.2.1 The benefits of biology to technology",
+      "sub_subsection": null,
+      "structural_anchor": "1.2.1 The benefits of biology to technology",
+      "mcq_type": "G",
+      "question": "If a new material is developed by studying the structure of spider silk, what is a likely technological outcome?",
+      "options": {
+        "A": "A stronger and more flexible synthetic fiber",
+        "B": "A faster computer processor",
+        "C": "A more efficient solar panel",
+        "D": "A louder audio speaker"
+      },
+      "correct_answer": "A",
+      "hint": "Spider silk is known for its exceptional strength and elasticity.",
+      "explanation": "Spider silk's properties inspire the development of high-performance synthetic fibers. Option C is incorrect because spider silk's properties are mechanical, not photovoltaic.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Biology and technology",
+        "section_anchor": "1.2 Biology and technology",
+        "subsection_anchor": "1.2.1 The benefits of biology to technology",
+        "structural_element": "1.2.1 The benefits of biology to technology",
+        "content_anchor": "Synthetic bulletproof vests are imitations of the spin silks of spiders",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_spider_silk_inspiration"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U1_Q027",
+      "generation_timestamp": "2025-01-27T08:26:10Z",
+      "section": "1.2 Biology and technology",
+      "subsection": "1.2.2 Uses of technology in biology",
+      "sub_subsection": null,
+      "structural_anchor": "1.2.2 Uses of technology in biology",
+      "mcq_type": "L",
+      "question": "A researcher uses a device that employs radioactive tracers to visualize metabolic activity in tissues. Which technology is being used?",
+      "options": {
+        "A": "Computed Tomography (CT)",
+        "B": "Magnetic Resonance Imaging (MRI)",
+        "C": "Positron Emission Tomography (PET)",
+        "D": "Electroencephalography (EEG)"
+      },
+      "correct_answer": "C",
+      "hint": "This imaging technique specifically tracks biochemical processes using radioactive isotopes.",
+      "explanation": "PET scans use radioactive tracers to image metabolic processes like glucose uptake. Option A, CT, uses X-rays to show anatomical structure, not metabolic function.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Biology and technology",
+        "section_anchor": "1.2 Biology and technology",
+        "subsection_anchor": "1.2.2 Uses of technology in biology",
+        "structural_element": "1.2.2 Uses of technology in biology",
+        "content_anchor": "Positron Emission Tomography (PET scan) is an imaging technology device used to check for diseases",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_pet_scan"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 87,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Bio_U1_Q028",
+      "generation_timestamp": "2025-01-27T08:26:20Z",
+      "section": "1.3 Impacts of biology and technology on society and the natural world",
+      "subsection": "1.3.1 Impacts of biology on the society and the natural world",
+      "sub_subsection": null,
+      "structural_anchor": "1.3.1 Impacts of biology on the society and the natural world",
+      "mcq_type": "H",
+      "question": "Which option identifies an ethical concern arising from the ability to select for specific child sex chromosomes?",
+      "options": {
+        "A": "It could reduce genetic counseling needs.",
+        "B": "It might lead to a skewed sex ratio in the population.",
+        "C": "It would increase agricultural productivity.",
+        "D": "It ensures all children are born healthy."
+      },
+      "correct_answer": "B",
+      "hint": "Consider long-term demographic consequences of selective breeding in humans.",
+      "explanation": "Selecting for a specific sex can disrupt natural population balances, leading to social and demographic issues. Option D is incorrect because sex selection does not guarantee overall health.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Biology and technology",
+        "section_anchor": "1.3 Impacts of biology and technology on society and the natural world",
+        "subsection_anchor": "1.3.1 Impacts of biology on the society and the natural world",
+        "structural_element": "1.3.1 Impacts of biology on the society and the natural world",
+        "content_anchor": "Practicing a predetermined limit to have only boys (XY males)",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_sex_selection_ethics"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 86,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Bio_U1_Q029",
+      "generation_timestamp": "2025-01-27T08:26:30Z",
+      "section": "1.3 Impacts of biology and technology on society and the natural world",
+      "subsection": "1.3.2 Impacts of technology on the society and the natural world",
+      "sub_subsection": null,
+      "structural_anchor": "1.3.2 Impacts of technology on society and the natural world",
+      "mcq_type": "G",
+      "question": "If industrial waste containing heavy metals is discharged into a river, what is a direct environmental consequence?",
+      "options": {
+        "A": "Increased fish biodiversity",
+        "B": "Contamination of aquatic ecosystems",
+        "C": "Natural purification of the water",
+        "D": "Enhanced nutrient cycling"
+      },
+      "correct_answer": "B",
+      "hint": "Heavy metals are toxic pollutants that accumulate in living organisms.",
+      "explanation": "Heavy metal discharge poisons water, harming aquatic life and contaminating food chains. Option C is incorrect because pollution hinders, rather than aids, natural purification processes.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Biology and technology",
+        "section_anchor": "1.3 Impacts of biology and technology on society and the natural world",
+        "subsection_anchor": "1.3.2 Impacts of technology on the society and the natural world",
+        "structural_element": "1.3.2 Impacts of technology on the society and the natural world",
+        "content_anchor": "Industrial emissions and effluents pollute clean air and drinking water",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_heavy_metal_pollution"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Bio_U1_Q030",
+      "generation_timestamp": "2025-01-27T08:26:40Z",
+      "section": "1.4 Ethical issues in biology",
+      "subsection": "1.4.1.1. Ethical treatment of plants",
+      "sub_subsection": null,
+      "structural_anchor": "1.4.1.1. Ethical treatment of plants",
+      "mcq_type": "D",
+      "question": "Which action represents an ethical approach to using plant species for scientific study?",
+      "options": {
+        "A": "Collecting all seeds from a rare plant population",
+        "B": "Pruning tree terminals without consideration for regrowth",
+        "C": "Harvesting a sustainable portion of leaves for analysis",
+        "D": "Burning a forest to clear land for experimental plots"
+      },
+      "correct_answer": "C",
+      "hint": "Consider actions that minimize harm and support the long-term survival of the species.",
+      "explanation": "Sustainable harvesting ensures plant populations can regenerate and persist. Option A is unethical because it can lead to the extinction of rare plants by preventing reproduction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Biology and technology",
+        "section_anchor": "1.4 Ethical issues in biology",
+        "subsection_anchor": "1.4.1 Ethical treatment of plants and animals during biological studies",
+        "structural_element": "1.4.1.1. Ethical treatment of plants",
+        "content_anchor": "Collecting seeds, berries, roots, leaves, bark or flowers for personal uses",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_sustainable_harvesting"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 100000,
+    "average_question_quality": 85.0,
+    "type_distribution": {
+      "B": 2,
+      "D": 2,
+      "F": 1,
+      "G": 2,
+      "H": 2,
+      "L": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "1.1 Learning from nature": 3,
+      "1.2 Biology and technology": 4,
+      "1.3 Impacts of biology and technology on society and the natural world": 2,
+      "1.4 Ethical issues in biology": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

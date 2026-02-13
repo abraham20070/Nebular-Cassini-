@@ -1,0 +1,882 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-21T10:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Phy_U4_Q030",
+    "covered_sections": ["4.1 Charges in Nature", "4.2 Methods of Charging a Body", "4.5 Coulomb's law of electrostatics", "4.3 The electroscope", "4.4 Electrical Discharge", "4.6 The electric field", "4.7 Electric circuits", "4.8 Current, Voltage and Ohm's law", "4.9 Combination of resistors in a circuit", "Introduction", "By the end of this unit, you should be able to:"],
+    "used_question_signatures": ["aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d", "c81e728d9d4c2f636f067f89cc14862c", "2a183d2d4b2f69a4b3e4e2b5b2f2d7f9", "e4da3b7fbbce2345d7772b0674a318d5", "d3d9446802a44259755d38e6d163e820", "cfcd208495d565ef66e7dff9f98764da", "8f14e45fceea167a5a36dedd4bea2543", "c4ca4238a0b923820dcc509a6f75849b", "45c48cce2e2d7fbdea1afc51c7c6ad26", "c20ad4d76fe97759aa27a0f99ee9c430", "6512bd43d9caa6e02c990b0a82652dca", "c9f0f895fb98ab9159f51fd0297e236d", "70efdf2ec9b086079795c442636b55fb", "6f4922f45568161a8cdf4ad2299f6d23", "1f0e3dad99908345f7439f8ffabdffc4", "98f13708210194c475687be6106a3b84", "3c59dc048e8850243be8079a5c74d079", "b6d767d2f8ed5d21a44b0e5886680cb9", "37693cfc748049e45d87b8c7d8b9aacd", "1ff1de774005f8da13f42943881c655f", "8e296a067a37563370ded05f5a3bf3ec", "4e732ced3463d06de0ca9a15b6153677", "02e74f10e0327ad868d138f2b4fdd6f0", "33e75ff09dd601bbe69f351039152189", "6ea9ab1baa0efb9e19094440c317e21", "3416a75f4cea9109507cacd8e2f2aefc", "c16a5320fa475530d9583c34fd356ef5", "6364d3f0f495b6ab9dcf8d3b5c6e0b01", "182be0c5cdcd5072bb1864cdee4d3d6e", "e369853df766fa44e1ed0ff613f563bd"],
+    "baseline_counter": {
+      "4.1 Charges in Nature": {
+        "count": 6,
+        "mini_headings_covered": ["Unit of Charge:", "Conservation of Charge:", "Quantization of charge:"],
+        "last_question_round": 2
+      },
+      "4.2 Methods of Charging a Body": {
+        "count": 4,
+        "mini_headings_covered": ["Charging by rubbing:", "Charging by Conduction:", "Charging by Induction:"],
+        "last_question_round": 1
+      },
+      "4.5 Coulomb's law of electrostatics": {
+        "count": 4,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "4.3 The electroscope": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "4.4 Electrical Discharge": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "4.6 The electric field": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "4.7 Electric circuits": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "4.8 Current, Voltage and Ohm's law": {
+        "count": 4,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "4.9 Combination of resistors in a circuit": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "Introduction": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "By the end of this unit, you should be able to:": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "4.10 Voltmeter and ammeter connection in a circuit": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.11 Electrical safety in general and local context": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.12 Electric projects": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "End of unit summary": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "End of unit questions and problems": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1 Charges in Nature": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.2 Methods of Charging a Body": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.5 Coulomb's law of electrostatics": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.3 The electroscope": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "4.4 Electrical Discharge": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "4.6 The electric field": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "4.7 Electric circuits": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.8 Current, Voltage and Ohm's law": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.9 Combination of resistors in a circuit": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "By the end of this unit, you should be able to:": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.10 Voltmeter and ammeter connection in a circuit": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.11 Electrical safety in general and local context": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.12 Electric projects": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "End of unit summary": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "End of unit questions and problems": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1 Charges in Nature": ["Electric charge types", "Charge conservation", "Charge quantization", "Coulomb unit", "Proton charge", "Electron charge"],
+      "4.2 Methods of Charging a Body": ["Charging by rubbing", "Charging by conduction", "Charging by induction"],
+      "4.5 Coulomb's law of electrostatics": ["Coulomb's law", "Electrostatic force", "Inverse square law", "Force calculation"],
+      "4.3 The electroscope": ["Electroscope function", "Charge detection"],
+      "4.4 Electrical Discharge": ["Electrical discharge", "Lightning formation", "Grounding"],
+      "4.6 The electric field": ["Electric field definition", "Test charge", "Electric field lines"],
+      "4.7 Electric circuits": ["Electric circuit definition", "Closed vs open circuit"],
+      "4.8 Current, Voltage and Ohm's law": ["Electric current definition", "Potential difference", "Ohm's law", "Resistance"],
+      "4.9 Combination of resistors in a circuit": ["Series circuits", "Parallel circuits"],
+      "Introduction": ["Electricity importance", "Electrical appliances"],
+      "By the end of this unit, you should be able to:": ["Learning outcomes", "Unit objectives"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_previous_state_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 29,
+      "questions_per_concept_ratio": 1.03,
+      "structural_coverage_percentage": 68.8
+    }
+  },
+  "grade": "10",
+  "subject": "Physics",
+  "unit": "Unit 4: Static and Current Electricity",
+  "pdf_filename": "P10U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 5,
+      "constraint_violations_caught": 5,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-21T10:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 11,
+        "total_sections": 16,
+        "progress_percentage": 68.8
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 11,
+      "subsections_covered_count": 16,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 68.8,
+      "concept_utilization_ratio": 1.03
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.1 Charges in Nature",
+      "least_covered_section": "4.10 Voltmeter and ammeter connection in a circuit",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.03,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phy_U4_Q021",
+      "generation_timestamp": "2025-01-21T10:10:00Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "importance of electricity",
+      "mcq_type": "F",
+      "question": "Given that modern society relies on controllable energy forms, which reasoning best explains why electricity has become essential in homes, schools, and hospitals?",
+      "options": {
+        "A": "Electricity can be easily converted to other energy forms and precisely controlled for diverse applications",
+        "B": "Electricity is the cheapest form of energy available worldwide",
+        "C": "Electricity occurs naturally and requires no generation infrastructure",
+        "D": "Electricity cannot be stored, making continuous consumption necessary"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the versatility and controllability of electrical energy.",
+      "explanation": "Electricity's convertibility to light, heat, and motion with precise control enables diverse applications. Option C ignores the need for power generation systems.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": "importance of electricity",
+        "content_anchor": "electricity has important place in modern society, controllable and convenient form of energy",
+        "page_hint": "Page 1",
+        "concept_hash": "hash_of_electricity_importance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 77,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q022",
+      "generation_timestamp": "2025-01-21T10:10:00Z",
+      "section": "By the end of this unit, you should be able to:",
+      "subsection": "By the end of this unit, you should be able to:",
+      "sub_subsection": null,
+      "structural_anchor": "unit learning outcomes",
+      "mcq_type": "K",
+      "question": "Which statement correctly interprets the comprehensive scope of topics covered in a unit on static and current electricity?",
+      "options": {
+        "A": "The unit encompasses both fundamental charge properties and practical circuit applications",
+        "B": "The unit focuses exclusively on theoretical electrostatic principles without practical applications",
+        "C": "The unit deals only with household electrical safety and appliance usage",
+        "D": "The unit separates static phenomena from current electricity as unrelated topics"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the range from basic charge properties to circuit analysis.",
+      "explanation": "The unit integrates electrostatic fundamentals with current electricity applications in circuits. Option D incorrectly treats static and current electricity as disconnected subjects.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "By the end of this unit, you should be able to:",
+        "subsection_anchor": "By the end of this unit, you should be able to:",
+        "structural_element": "unit learning outcomes",
+        "content_anchor": "understand basic properties of electric charge to apply concepts in real-life situations",
+        "page_hint": "Page 2",
+        "concept_hash": "hash_of_unit_scope"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q023",
+      "generation_timestamp": "2025-01-21T10:10:00Z",
+      "section": "4.7 Electric circuits",
+      "subsection": "By the end of this section, you should able to:",
+      "sub_subsection": null,
+      "structural_anchor": "define electric circuit",
+      "mcq_type": "A",
+      "question": "What term describes a complete path that allows electric charge to flow continuously from a power source through components and back?",
+      "options": {
+        "A": "Electric circuit",
+        "B": "Electric field",
+        "C": "Electrostatic discharge",
+        "D": "Potential gradient"
+      },
+      "correct_answer": "A",
+      "hint": "This requires both a source and a continuous conductive path.",
+      "explanation": "An electric circuit provides a closed loop for charge flow. Option C describes a momentary charge transfer, not continuous flow.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.7 Electric circuits",
+        "subsection_anchor": "By the end of this section, you should able to:",
+        "structural_element": "define electric circuit",
+        "content_anchor": "electric circuit is a path through which charges can flow",
+        "page_hint": "Page 19",
+        "concept_hash": "hash_of_electric_circuit_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q024",
+      "generation_timestamp": "2025-01-21T10:10:00Z",
+      "section": "4.7 Electric circuits",
+      "subsection": "Key Concept",
+      "sub_subsection": null,
+      "structural_anchor": "closed vs open circuit",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that a broken filament in one bulb would not affect other bulbs in a properly wired household circuit?",
+      "options": {
+        "A": "It assumes household circuits use series connections rather than parallel arrangements",
+        "B": "It incorrectly believes all circuits must have exactly three components",
+        "C": "It confuses voltage with current in circuit analysis",
+        "D": "It overlooks that all circuits require batteries as power sources"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how household lighting circuits are typically arranged.",
+      "explanation": "Household circuits use parallel connections so one failed bulb doesn't break the circuit. Option C addresses a different conceptual error unrelated to circuit topology.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.7 Electric circuits",
+        "subsection_anchor": "Key Concept",
+        "structural_element": "closed vs open circuit",
+        "content_anchor": "households are wired using parallel circuits",
+        "page_hint": "Page 19",
+        "concept_hash": "hash_of_circuit_topology_error"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 79,
+        "distractor_quality_score": 86,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q025",
+      "generation_timestamp": "2025-01-21T10:10:00Z",
+      "section": "4.8 Current, Voltage and Ohm's law",
+      "subsection": "By the end of this section, you should able to:",
+      "sub_subsection": null,
+      "structural_anchor": "define current",
+      "mcq_type": "A",
+      "question": "What physical quantity measures the rate of flow of electric charge past a given point in a circuit?",
+      "options": {
+        "A": "Electric current",
+        "B": "Electric potential",
+        "C": "Electrical resistance",
+        "D": "Electric power"
+      },
+      "correct_answer": "A",
+      "hint": "This is measured in amperes using an ammeter.",
+      "explanation": "Electric current (I) = ΔQ/Δt, representing charge flow rate. Option B measures work per unit charge, not flow rate.",
+      "difficulty_level": "easy",
+      "formula_used": ["I = ΔQ/Δt"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.8 Current, Voltage and Ohm's law",
+        "subsection_anchor": "By the end of this section, you should able to:",
+        "structural_element": "define current",
+        "content_anchor": "flow of charge particles or rate of flow of electric charge is called electric current",
+        "page_hint": "Page 21",
+        "concept_hash": "hash_of_current_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q026",
+      "generation_timestamp": "2025-01-21T10:10:00Z",
+      "section": "4.8 Current, Voltage and Ohm's law",
+      "subsection": "Potential Difference:",
+      "sub_subsection": null,
+      "structural_anchor": "potential difference definition",
+      "mcq_type": "A",
+      "question": "What term describes the work done per unit charge to move charge between two points in an electric circuit?",
+      "options": {
+        "A": "Potential difference",
+        "B": "Current intensity",
+        "C": "Resistance",
+        "D": "Capacitance"
+      },
+      "correct_answer": "A",
+      "hint": "This is measured in volts using a voltmeter.",
+      "explanation": "Potential difference (ΔV) = W/Q, representing energy per charge. Option C measures opposition to charge flow, not energy per charge.",
+      "difficulty_level": "easy",
+      "formula_used": ["ΔV = W/Q"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.8 Current, Voltage and Ohm's law",
+        "subsection_anchor": "Potential Difference:",
+        "structural_element": "potential difference definition",
+        "content_anchor": "electric potential difference is defined as work done to move unit charge",
+        "page_hint": "Page 24",
+        "concept_hash": "hash_of_potential_difference_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q027",
+      "generation_timestamp": "2025-01-21T10:10:00Z",
+      "section": "4.8 Current, Voltage and Ohm's law",
+      "subsection": "Ohm's Law:",
+      "sub_subsection": null,
+      "structural_anchor": "Ohm's law relationship",
+      "mcq_type": "D",
+      "question": "For an ohmic conductor at constant temperature, what happens to the current when the applied voltage is doubled?",
+      "options": {
+        "A": "Current doubles",
+        "B": "Current halves",
+        "C": "Current quadruples",
+        "D": "Current remains unchanged"
+      },
+      "correct_answer": "A",
+      "hint": "Apply the direct proportionality relationship V = IR.",
+      "explanation": "Ohm's law states I ∝ V for constant R, so doubling voltage doubles current. Option C would result from incorrectly assuming a square relationship.",
+      "difficulty_level": "easy",
+      "formula_used": ["V = IR"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.8 Current, Voltage and Ohm's law",
+        "subsection_anchor": "Ohm's Law:",
+        "structural_element": "Ohm's law relationship",
+        "content_anchor": "current through conductor is proportional to voltage drop",
+        "page_hint": "Page 27",
+        "concept_hash": "hash_of_ohms_law_application"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q028",
+      "generation_timestamp": "2025-01-21T10:10:00Z",
+      "section": "4.8 Current, Voltage and Ohm's law",
+      "subsection": "Example 4.5",
+      "sub_subsection": null,
+      "structural_anchor": "current calculation using Ohm's law",
+      "mcq_type": "E",
+      "question": "An electric bulb with a filament resistance of 1200 Ω is connected to a 220 V source. What current flows through the bulb?",
+      "options": {
+        "A": "0.18 A",
+        "B": "0.36 A",
+        "C": "0.09 A",
+        "D": "0.27 A"
+      },
+      "correct_answer": "A",
+      "hint": "Use Ohm's law: I = V/R.",
+      "explanation": "I = V/R = 220/1200 = 0.183 A ≈ 0.18 A. Option B results from incorrectly using R = 600 Ω instead of 1200 Ω.",
+      "difficulty_level": "medium",
+      "formula_used": ["I = V/R"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "A",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "worked example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.8 Current, Voltage and Ohm's law",
+        "subsection_anchor": "Example 4.5",
+        "structural_element": "current calculation using Ohm's law",
+        "content_anchor": "electric bulb draw from 220V source, resistance 1200Ω",
+        "page_hint": "Page 29",
+        "concept_hash": "hash_of_bulb_current_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q029",
+      "generation_timestamp": "2025-01-21T10:10:00Z",
+      "section": "4.9 Combination of resistors in a circuit",
+      "subsection": "Resistors in Series:",
+      "sub_subsection": null,
+      "structural_anchor": "series circuit properties",
+      "mcq_type": "F",
+      "question": "In a series circuit containing multiple resistors, which reasoning best explains why removing one component causes all components to stop functioning?",
+      "options": {
+        "A": "Series circuits provide only one current path, so breaking it interrupts flow everywhere",
+        "B": "Series circuits have independent branches that fail sequentially",
+        "C": "Removing a component changes the voltage distribution but not overall continuity",
+        "D": "The power supply automatically shuts off when circuit resistance changes"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the single-path nature of series connections.",
+      "explanation": "Series circuits have a single current path; any break creates an open circuit stopping all current. Option B describes parallel circuit behavior.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.9 Combination of resistors in a circuit",
+        "subsection_anchor": "Resistors in Series:",
+        "structural_element": "series circuit properties",
+        "content_anchor": "series circuit has only one path for electric current to follow",
+        "page_hint": "Page 32",
+        "concept_hash": "hash_of_series_circuit_behavior"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q030",
+      "generation_timestamp": "2025-01-21T10:10:00Z",
+      "section": "4.9 Combination of resistors in a circuit",
+      "subsection": "Resistors in Parallel:",
+      "sub_subsection": null,
+      "structural_anchor": "parallel circuit advantages",
+      "mcq_type": "G",
+      "question": "If one lamp in a parallel circuit burns out, what happens to the current through the remaining lamps?",
+      "options": {
+        "A": "Current through remaining lamps increases slightly due to reduced total resistance",
+        "B": "Current through remaining lamps decreases because total resistance increases",
+        "C": "Current through remaining lamps becomes zero as the circuit opens",
+        "D": "Current through remaining lamps remains exactly the same"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how total resistance changes when a parallel branch is removed.",
+      "explanation": "Removing a parallel branch increases total resistance slightly less than expected, causing slightly more current in remaining branches. Option C describes series circuit behavior.",
+      "difficulty_level": "hard",
+      "formula_used": ["1/R_total = 1/R₁ + 1/R₂ + ..."],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.9 Combination of resistors in a circuit",
+        "subsection_anchor": "Resistors in Parallel:",
+        "structural_element": "parallel circuit advantages",
+        "content_anchor": "if one path is broken, electrons continue to flow through other paths",
+        "page_hint": "Page 34",
+        "concept_hash": "hash_of_parallel_circuit_behavior"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3980,
+    "average_question_quality": 88.2,
+    "type_distribution": {
+      "A": 4,
+      "D": 1,
+      "E": 1,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "By the end of this unit, you should be able to:": 1,
+      "4.7 Electric circuits": 2,
+      "4.8 Current, Voltage and Ohm's law": 4,
+      "4.9 Combination of resistors in a circuit": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

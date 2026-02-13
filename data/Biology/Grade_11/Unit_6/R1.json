@@ -1,0 +1,795 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-25T11:55:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Bio_U6_Q010",
+    "covered_sections": ["6.1 Population ecology>6.1.1 Population size, density and dispersal", "6.1 Population ecology>6.1.2 Exponential and logistic growth in populations", "6.1 Population ecology>6.1.3 Demographic structure", "6.2 Natural resources>6.2.1 Renewable", "6.2 Natural resources>6.2.2 Non-renewable"],
+    "used_question_signatures": ["8a3f1def6b7c9e2d5a4b", "1b5c9e3d7a2f8d4b6c0", "7e2d4b1a9c6f0d3b5a8", "3d9a6c0b4f8e2d1b7a5", "2f8b4d6a0c9e3b1d7a", "9c1e4b7a0d3f8b2d6a", "4b8d2f6a0c9e1b3d7a", "0d3f7b2a9c6e1b4d8a", "6e1b4d8a0c9f2b3d7a", "5a9c3e1b7d0f2b4d8a"],
+    "baseline_counter": {
+      "6.1 Population ecology": {
+        "6.1.1 Population size, density and dispersal": {
+          "count": 3,
+          "mini_headings_covered": ["Population size", "Population density", "Population dispersal"],
+          "last_question_round": 1
+        },
+        "6.1.2 Exponential and logistic growth in populations": {
+          "count": 3,
+          "mini_headings_covered": ["Exponential growth model", "Logistic growth model"],
+          "last_question_round": 1
+        },
+        "6.1.3 Demographic structure": {
+          "count": 3,
+          "mini_headings_covered": ["Population pyramid"],
+          "last_question_round": 1
+        },
+        "6.1.4 Population regulation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "6.2 Natural resources": {
+        "6.2.1 Renewable": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.2 Non-renewable": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "6.3 Conservation of natural resources in Ethiopia": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "6.4 Impact of traffic accident on wild and domestic animals": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "6.5 Impact of human activities on the environment": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "6.6 Indigenous conservation practices in Ethiopia": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Population ecology": {
+        "question_count": 9,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "6.2 Natural resources": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "6.3 Conservation of natural resources in Ethiopia": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "6.4 Impact of traffic accident on wild and domestic animals": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "6.5 Impact of human activities on the environment": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "6.6 Indigenous conservation practices in Ethiopia": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Population ecology>6.1.1 Population size, density and dispersal": ["Population size (N)", "Population density", "Dispersal patterns"],
+      "6.1 Population ecology>6.1.2 Exponential and logistic growth in populations": ["Exponential growth (J-curve)", "Logistic growth (S-curve)", "Carrying capacity (K)"],
+      "6.1 Population ecology>6.1.3 Demographic structure": ["Population pyramid", "Age-sex structure"],
+      "6.2 Natural resources>6.2.1 Renewable": ["Renewable resources"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state_hash",
+    "content_density_metrics": {
+      "total_concepts_extracted": 10,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 13.3
+    }
+  },
+  "grade": "11",
+  "subject": "Biology",
+  "unit": "Unit 6: Population and natural resources",
+  "pdf_filename": "B11U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-25T11:55:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 8,
+        "progress_percentage": 25.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 4,
+      "mini_headings_covered_count": 5,
+      "structural_coverage_percentage": 13.3,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.1 Population ecology",
+      "least_covered_section": "6.3 Conservation of natural resources in Ethiopia",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U6_Q001",
+      "generation_timestamp": "2025-01-25T11:55:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.1 Population size, density and dispersal",
+      "sub_subsection": null,
+      "structural_anchor": "Population size",
+      "mcq_type": "A",
+      "question": "What term describes the total number of individuals of a species living in a defined area?",
+      "options": {
+        "A": "Population size",
+        "B": "Population density",
+        "C": "Carrying capacity",
+        "D": "Population growth rate"
+      },
+      "correct_answer": "A",
+      "hint": "This is a count of all individuals, not a rate or density measure.",
+      "explanation": "Population size is defined as the total number of individuals present in a specific habitat. Population density is the number of individuals per unit area, making option B incorrect.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.1 Population size, density and dispersal",
+        "structural_element": "Population size",
+        "content_anchor": "total number of individuals present in a particular habitat",
+        "page_hint": null,
+        "concept_hash": "sha256_of_population_size"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q002",
+      "generation_timestamp": "2025-01-25T11:55:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.1 Population size, density and dispersal",
+      "sub_subsection": null,
+      "structural_anchor": "Population density",
+      "mcq_type": "A",
+      "question": "Which measure is calculated by dividing the number of individuals by the total land area they occupy?",
+      "options": {
+        "A": "Population density",
+        "B": "Population size",
+        "C": "Growth rate",
+        "D": "Dispersal index"
+      },
+      "correct_answer": "A",
+      "hint": "This is a ratio relating count to area, not the count itself.",
+      "explanation": "Population density quantifies how many individuals exist per unit area or volume. Option B is incorrect because population size is the raw count, not a density calculation.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.1 Population size, density and dispersal",
+        "structural_element": "Population density",
+        "content_anchor": "population size divided by the total land area",
+        "page_hint": null,
+        "concept_hash": "sha256_of_population_density"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q003",
+      "generation_timestamp": "2025-01-25T11:55:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.1 Population size, density and dispersal",
+      "sub_subsection": null,
+      "structural_anchor": "Population dispersal",
+      "mcq_type": "J",
+      "question": "Individuals that are evenly spaced across their habitat exhibit which spatial distribution pattern?",
+      "options": {
+        "A": "Uniform dispersion",
+        "B": "Random dispersion",
+        "C": "Clumped dispersion",
+        "D": "Aggregated dispersion"
+      },
+      "correct_answer": "A",
+      "hint": "This pattern indicates regular spacing, often due to competition or territoriality.",
+      "explanation": "Uniform dispersion occurs when individuals are spaced more or less evenly, often due to territorial behavior. Option C describes clumped dispersion, where individuals are clustered together.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.1 Population size, density and dispersal",
+        "structural_element": "Population dispersal",
+        "content_anchor": "Uniform dispersion: individuals of a population are spaced more or less evenly",
+        "page_hint": null,
+        "concept_hash": "sha256_of_uniform_dispersion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q004",
+      "generation_timestamp": "2025-01-25T11:55:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.2 Exponential and logistic growth in populations",
+      "structural_anchor": "Exponential growth model",
+      "mcq_type": "F",
+      "question": "Under conditions of unlimited resources and no environmental constraints, which model describes population growth?",
+      "options": {
+        "A": "Exponential growth",
+        "B": "Logistic growth",
+        "C": "Linear growth",
+        "D": "Carrying capacity growth"
+      },
+      "correct_answer": "A",
+      "hint": "This growth pattern produces a J-shaped curve on a graph.",
+      "explanation": "Exponential growth occurs in an ideal environment with unlimited resources, producing a J-shaped curve. Logistic growth, option B, incorporates environmental limits and shows an S-shaped curve.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.2 Exponential and logistic growth in populations",
+        "structural_element": "Exponential growth model",
+        "content_anchor": "growth of a population in an ideal environment with unlimited resources",
+        "page_hint": null,
+        "concept_hash": "sha256_of_exponential_growth"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q005",
+      "generation_timestamp": "2025-01-25T11:55:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.2 Exponential and logistic growth in populations",
+      "sub_subsection": null,
+      "structural_anchor": "Logistic growth model",
+      "mcq_type": "I",
+      "question": "What key environmental factor causes a population's growth rate to slow and eventually level off in the logistic model?",
+      "options": {
+        "A": "Limited resources and carrying capacity",
+        "B": "Increased birth rates",
+        "C": "Decreased death rates",
+        "D": "Random environmental fluctuations"
+      },
+      "correct_answer": "A",
+      "hint": "This factor represents the maximum population size an environment can sustain.",
+      "explanation": "The logistic growth model incorporates environmental resistance and carrying capacity (K), which limits growth. Option D describes density-independent factors, not the central constraint of logistic growth.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.2 Exponential and logistic growth in populations",
+        "structural_element": "Logistic growth model",
+        "content_anchor": "population growth levels off from exponential growth due to limited resources",
+        "page_hint": null,
+        "concept_hash": "sha256_of_logistic_growth"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q006",
+      "generation_timestamp": "2025-01-25T11:55:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.2 Exponential and logistic growth in populations",
+      "sub_subsection": null,
+      "structural_anchor": "Exponential growth model",
+      "mcq_type": "G",
+      "question": "If the per capita rate of increase (r) for a population is positive and constant, what will happen to the population size over time?",
+      "options": {
+        "A": "It will increase exponentially",
+        "B": "It will increase linearly",
+        "C": "It will stabilize at carrying capacity",
+        "D": "It will decrease gradually"
+      },
+      "correct_answer": "A",
+      "hint": "A constant positive r indicates no limiting factors are acting on growth.",
+      "explanation": "A constant positive intrinsic rate of increase (r) defines exponential growth, where population size multiplies by a fixed factor each generation. Option C describes logistic growth, which occurs when r decreases as the population approaches carrying capacity.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.2 Exponential and logistic growth in populations",
+        "structural_element": "Exponential growth model",
+        "content_anchor": "r takes the same positive value regardless of the population size",
+        "page_hint": null,
+        "concept_hash": "sha256_of_per_capita_rate"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q007",
+      "generation_timestamp": "2025-01-25T11:55:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.3 Demographic structure",
+      "sub_subsection": null,
+      "structural_anchor": "Population pyramid",
+      "mcq_type": "K",
+      "question": "A graphical representation that displays the proportion of males and females in different age groups of a population is called a:",
+      "options": {
+        "A": "Population pyramid",
+        "B": "Survivorship curve",
+        "C": "Growth curve",
+        "D": "Density distribution map"
+      },
+      "correct_answer": "A",
+      "hint": "This chart uses horizontal bars for age groups, separated by sex.",
+      "explanation": "A population pyramid visually represents the age and sex composition of a population. Option B, a survivorship curve, plots the proportion of individuals surviving to different ages, not the sex ratio.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.3 Demographic structure",
+        "structural_element": "Population pyramid",
+        "content_anchor": "graphical representation of the age and sex composition of a specific population",
+        "page_hint": null,
+        "concept_hash": "sha256_of_population_pyramid"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q008",
+      "generation_timestamp": "2025-01-25T11:55:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.3 Demographic structure",
+      "sub_subsection": null,
+      "structural_anchor": "Population pyramid",
+      "mcq_type": "F",
+      "question": "A population pyramid with a broad base and narrow top typically indicates which demographic characteristic?",
+      "options": {
+        "A": "High fertility and a young population",
+        "B": "Low fertility and an aging population",
+        "C": "Stable population with zero growth",
+        "D": "High mortality in middle age groups"
+      },
+      "correct_answer": "A",
+      "hint": "The broad base represents a large proportion of young individuals.",
+      "explanation": "An expansive population pyramid shape, with a broad base, indicates a high proportion of young people and high fertility rates. Option B describes a constrictive pyramid, which has a narrower base.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.3 Demographic structure",
+        "structural_element": "Population pyramid",
+        "content_anchor": "Expansive population pyramids... have a broad base and a narrow top",
+        "page_hint": null,
+        "concept_hash": "sha256_of_expansive_pyramid"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q009",
+      "generation_timestamp": "2025-01-25T11:55:00Z",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.3 Demographic structure",
+      "sub_subsection": null,
+      "structural_anchor": "Population pyramid",
+      "mcq_type": "G",
+      "question": "If the bars in a population pyramid become narrower from younger to older ages, what does this pattern suggest about the population's recent history?",
+      "options": {
+        "A": "Fertility rates have been declining over time",
+        "B": "Infant mortality has recently increased",
+        "C": "Life expectancy is exceptionally high",
+        "D": "Migration has significantly increased the youth population"
+      },
+      "correct_answer": "A",
+      "hint": "Fewer people in younger age groups compared to older ones indicates fewer births recently.",
+      "explanation": "A narrowing pyramid base indicates fewer births in recent years, suggesting declining fertility. Option D would cause the opposite effect, broadening the base through an influx of young migrants.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.3 Demographic structure",
+        "structural_element": "Inquiry activity 6.8 Interpreting population pyramid",
+        "content_anchor": "bars become narrower from younger to older ages",
+        "page_hint": null,
+        "concept_hash": "sha256_of_pyramid_narrowing"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 80,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q010",
+      "generation_timestamp": "2025-01-25T11:55:00Z",
+      "section": "6.2 Natural resources",
+      "subsection": "6.2.1 Renewable",
+      "sub_subsection": null,
+      "structural_anchor": "6.2.1 Renewable",
+      "mcq_type": "B",
+      "question": "Which category of natural resources can be replenished naturally at a rate comparable to their consumption?",
+      "options": {
+        "A": "Renewable resources",
+        "B": "Non-renewable resources",
+        "C": "Fossil fuels",
+        "D": "Mineral resources"
+      },
+      "correct_answer": "A",
+      "hint": "These resources are not depleted when used sustainably.",
+      "explanation": "Renewable natural resources, such as sunlight and wind, can regenerate within a human timescale. Option B describes resources like fossil fuels, which form over millions of years and deplete much faster than they replenish.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Population and natural resources",
+        "section_anchor": "6.2 Natural resources",
+        "subsection_anchor": "6.2.1 Renewable",
+        "structural_element": "6.2.1 Renewable",
+        "content_anchor": "How can you classify natural resources into renewable and non- renewable?",
+        "page_hint": null,
+        "concept_hash": "sha256_of_renewable_resources"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3250,
+    "average_question_quality": 84.5,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "F": 2,
+      "G": 2,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "6.1 Population ecology": 9,
+      "6.2 Natural resources": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

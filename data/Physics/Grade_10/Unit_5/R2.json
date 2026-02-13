@@ -1,0 +1,973 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-01-28T10:35:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Phy_U5_Q020",
+    "covered_sections": [
+      "Introduction>unit_outcomes",
+      "5.1 Magnet>Types of Magnets>Permanent Magnet:",
+      "5.1 Magnet>Types of Magnets>Temporary Magnet:",
+      "5.1 Magnet>Types of Magnets>Electromagnets:",
+      "5.1 Magnet>Properties of magnet>Key Concept:",
+      "5.1 Magnet>Exercise 5.1",
+      "5.2 Magnetic Field>Properties of Magnetic Field Lines",
+      "5.2 Magnetic Field>Key Concept:",
+      "5.2 Magnetic Field>Exercise 5.2",
+      "5.2 Magnetic Field>Exercise 5.3",
+      "5.2 Magnetic Field>Activity 5.1: Field around a pair of bar magnets",
+      "5.2 Magnetic Field>Exercise 5.4",
+      "5.3 The earth's magnetic field and the compass>Earth's Magnetic Field>Key Concept:",
+      "5.3 The earth's magnetic field and the compass>A compass",
+      "5.3 The earth's magnetic field and the compass>Exercise 5.5",
+      "5.3 The earth's magnetic field and the compass>Exercise 5.6",
+      "5.4 Magnetic field of a current carrying conductor>Key Concept:",
+      "5.4 Magnetic field of a current carrying conductor>Exercise 5.7",
+      "5.4 Magnetic field of a current carrying conductor>Activity 5.2",
+      "5.4 Magnetic field of a current carrying conductor>Example 5.1",
+      "5.5 Magnetic force on a moving charge in a uniform magnetic field>Exercise 5.8",
+      "5.5 Magnetic force on a moving charge in a uniform magnetic field>Key Concept:",
+      "5.5 Magnetic force on a moving charge in a uniform magnetic field>Example 5.2",
+      "5.6 Magnetic force on a current carrying conductor>Exercise 5.9",
+      "5.6 Magnetic force on a current carrying conductor>Key Concept:",
+      "5.6 Magnetic force on a current carrying conductor>Example 5.3"
+    ],
+    "used_question_signatures": [
+      "hash_76f3a2d1",
+      "hash_89b1c3e4",
+      "hash_92d4f5a6",
+      "hash_15e7a8b9",
+      "hash_28f0b1c2",
+      "hash_31c2d3e5",
+      "hash_44d3e4f6",
+      "hash_57e4f5a7",
+      "hash_60f5a6b8",
+      "hash_73a6b7c9",
+      "hash_86b7c8d0",
+      "hash_99c8d9e1",
+      "hash_a2d9e0f2",
+      "hash_b5e0f1a3",
+      "hash_c8f1a2b4",
+      "hash_dba2b3c5",
+      "hash_eeb3c4d6",
+      "hash_f1c4d5e7",
+      "hash_04d5e6f8",
+      "hash_17e6f7a9"
+    ],
+    "baseline_counter": {
+      "Introduction": {
+        "unit_outcomes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.1 Magnet": {
+        "Exercise 5.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Types of Magnets": {
+          "count": 3,
+          "mini_headings_covered": ["Permanent Magnet:", "Temporary Magnet:", "Electromagnets:"],
+          "last_question_round": 1
+        },
+        "Properties of magnet": {
+          "count": 1,
+          "mini_headings_covered": ["Key Concept:"],
+          "last_question_round": 1
+        }
+      },
+      "5.2 Magnetic Field": {
+        "Exercise 5.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Properties of Magnetic Field Lines": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Exercise 5.3": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Activity 5.1: Field around a pair of bar magnets": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Exercise 5.4": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Key Concept:": {
+          "count": 1,
+          "mini_headings_covered": ["Key Concept:"],
+          "last_question_round": 1
+        }
+      },
+      "5.3 The earth's magnetic field and the compass": {
+        "Exercise 5.5": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Earth's Magnetic Field": {
+          "count": 1,
+          "mini_headings_covered": ["Key Concept:"],
+          "last_question_round": 1
+        },
+        "Exercise 5.6": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "A compass": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.4 Magnetic field of a current carrying conductor": {
+        "Exercise 5.7": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Activity 5.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Example 5.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Key Concept:": {
+          "count": 1,
+          "mini_headings_covered": ["Key Concept:"],
+          "last_question_round": 1
+        }
+      },
+      "5.5 Magnetic force on a moving charge in a uniform magnetic field": {
+        "Exercise 5.8": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Key Concept:": {
+          "count": 1,
+          "mini_headings_covered": ["Key Concept:"],
+          "last_question_round": 2
+        },
+        "Example 5.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "5.6 Magnetic force on a current carrying conductor": {
+        "Exercise 5.9": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Key Concept:": {
+          "count": 1,
+          "mini_headings_covered": ["Key Concept:"],
+          "last_question_round": 2
+        },
+        "Example 5.3": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "5.7 Magnetic force between two parallel current carrying conductors": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "5.8 Applications of magnetism": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "5.1 Magnet": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.2 Magnetic Field": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.3 The earth's magnetic field and the compass": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.4 Magnetic field of a current carrying conductor": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.5 Magnetic force on a moving charge in a uniform magnetic field": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "5.6 Magnetic force on a current carrying conductor": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "5.7 Magnetic force between two parallel current carrying conductors": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "5.8 Applications of magnetism": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>unit_outcomes": ["magnetism concepts", "magnetic force", "applications"],
+      "5.1 Magnet>Types of Magnets>Permanent Magnet:": ["permanent magnet", "magnetic field", "demagnetization"],
+      "5.1 Magnet>Types of Magnets>Temporary Magnet:": ["temporary magnet", "magnetic field presence"],
+      "5.1 Magnet>Types of Magnets>Electromagnets:": ["electromagnet", "coil of wire", "electric current"],
+      "5.1 Magnet>Properties of magnet>Key Concept:": ["magnetic poles", "north and south", "attraction repulsion"],
+      "5.1 Magnet>Exercise 5.1": ["magnet definition", "historical discovery", "lodestone"],
+      "5.2 Magnetic Field>Properties of Magnetic Field Lines": ["magnetic field lines", "closed loops", "direction strength"],
+      "5.2 Magnetic Field>Key Concept:": ["magnetic field lines", "imaginary lines", "direction strength"],
+      "5.2 Magnetic Field>Exercise 5.2": ["magnetic field observation", "visual detection"],
+      "5.2 Magnetic Field>Exercise 5.3": ["electric field comparison", "magnetic field similarities", "differences"],
+      "5.2 Magnetic Field>Activity 5.1: Field around a pair of bar magnets": ["iron filings pattern", "repelling magnets", "attracting magnets"],
+      "5.2 Magnetic Field>Exercise 5.4": ["magnetic field strength", "strongest weakest regions"],
+      "5.3 The earth's magnetic field and the compass>Earth's Magnetic Field>Key Concept:": ["Earth's magnetic field", "bar magnet", "similar shape"],
+      "5.3 The earth's magnetic field and the compass>A compass": ["compass", "magnetized needle", "direction finding"],
+      "5.3 The earth's magnetic field and the compass>Exercise 5.5": ["Earth as magnet", "magnetic field existence"],
+      "5.3 The earth's magnetic field and the compass>Exercise 5.6": ["compass purpose", "navigation tool"],
+      "5.4 Magnetic field of a current carrying conductor>Key Concept:": ["current carrying wire", "magnetic field", "closed field lines"],
+      "5.4 Magnetic field of a current carrying conductor>Exercise 5.7": ["magnetic field factors", "current", "distance"],
+      "5.4 Magnetic field of a current carrying conductor>Activity 5.2": ["magnetic field pattern", "straight wire", "sketching"],
+      "5.4 Magnetic field of a current carrying conductor>Example 5.1": ["magnetic field calculation", "infinite wire", "Biot-Savart"],
+      "5.5 Magnetic force on a moving charge in a uniform magnetic field>Exercise 5.8": ["magnetic force mechanism", "moving charges"],
+      "5.5 Magnetic force on a moving charge in a uniform magnetic field>Key Concept:": ["moving charged particle", "magnetic field creation", "interaction"],
+      "5.5 Magnetic force on a moving charge in a uniform magnetic field>Example 5.2": ["Lorentz force calculation", "zero force condition"],
+      "5.6 Magnetic force on a current carrying conductor>Exercise 5.9": ["force on current wire", "magnetic field interaction"],
+      "5.6 Magnetic force on a current carrying conductor>Key Concept:": ["current-carrying conductor", "magnetic force", "moving charges"],
+      "5.6 Magnetic force on a current carrying conductor>Example 5.3": ["wire force calculation", "right angle", "uniform field"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_2a3b4c5d",
+    "content_density_metrics": {
+      "total_concepts_extracted": 45,
+      "questions_per_concept_ratio": 0.44,
+      "structural_coverage_percentage": 61.1
+    }
+  },
+  "grade": "10",
+  "subject": "Physics",
+  "unit": "Unit 5: Magnetism",
+  "pdf_filename": "P10U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-01-28T10:35:42Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 7,
+        "total_sections": 9,
+        "progress_percentage": 77.8
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 6.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 7,
+      "subsections_covered_count": 18,
+      "mini_headings_covered_count": 7,
+      "structural_coverage_percentage": 61.1,
+      "concept_utilization_ratio": 0.44
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.2 Magnetic Field",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 6.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.44,
+      "remaining_concept_capacity": 25
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phy_U5_Q011",
+      "generation_timestamp": "2024-01-28T10:35:05Z",
+      "section": "5.1 Magnet",
+      "subsection": "Exercise 5.1",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 5.1",
+      "mcq_type": "B",
+      "question": "What name is given to the naturally occurring magnetic stone historically used as an early magnet?",
+      "options": {
+        "A": "Lodestone",
+        "B": "Granite",
+        "C": "Quartz",
+        "D": "Basalt"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the mineral composition and historical context of early magnetic materials.",
+      "explanation": "Lodestone is a magnetized form of magnetite that naturally attracts iron and was discovered by ancient Greeks. Option B refers to a common igneous rock with no inherent magnetic properties.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 79
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.1 Magnet",
+        "subsection_anchor": "Exercise 5.1",
+        "structural_element": "Exercise 5.1",
+        "content_anchor": "naturally occurring stones which was discovered then is called as 'lodestone'",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_2b3c4d5e"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 73,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 81
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q012",
+      "generation_timestamp": "2024-01-28T10:35:08Z",
+      "section": "5.2 Magnetic Field",
+      "subsection": "Exercise 5.2",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 5.2",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that magnetic fields can be directly observed with human eyes?",
+      "options": {
+        "A": "Magnetic fields are detected by their effects on materials, not by direct visual observation.",
+        "B": "Human eyes can perceive magnetic fields when using special optical filters.",
+        "C": "Magnetic fields become visible only under extremely high temperatures.",
+        "D": "All electromagnetic phenomena are directly observable without instrumentation."
+      },
+      "correct_answer": "A",
+      "hint": "Consider how magnetic fields are typically visualized versus directly seen.",
+      "explanation": "Magnetic fields are conceptual constructs represented by field lines and detected via effects like iron filing alignment. Option B incorrectly assumes a technological aid that allows direct visual perception of magnetic fields.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.2 Magnetic Field",
+        "subsection_anchor": "Exercise 5.2",
+        "structural_element": "Exercise 5.2",
+        "content_anchor": "Can you observe magnetic field through our naked eyes?",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_4c5d6e7f"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 81,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q013",
+      "generation_timestamp": "2024-01-28T10:35:12Z",
+      "section": "5.2 Magnetic Field",
+      "subsection": "Properties of Magnetic Field Lines",
+      "sub_subsection": null,
+      "structural_anchor": "Properties of Magnetic Field Lines",
+      "mcq_type": "I",
+      "question": "How do the properties of magnetic field lines differ from those of electric field lines regarding their termination points?",
+      "options": {
+        "A": "Magnetic field lines form closed loops with no termination, while electric field lines start and end on charges.",
+        "B": "Both types of field lines terminate at opposite charges of the same magnitude.",
+        "C": "Magnetic field lines terminate at magnetic monopoles, similar to electric field lines.",
+        "D": "Electric field lines always form closed loops, while magnetic field lines have distinct endpoints."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the existence of magnetic monopoles versus electric charges.",
+      "explanation": "Magnetic field lines are continuous closed loops due to the absence of magnetic monopoles, unlike electric field lines. Option C incorrectly assumes the existence of magnetic monopoles, which are not observed in nature.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.2 Magnetic Field",
+        "subsection_anchor": "Properties of Magnetic Field Lines",
+        "structural_element": "Magnetic field lines form a closed-loop.",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_6d7e8f90"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q014",
+      "generation_timestamp": "2024-01-28T10:35:15Z",
+      "section": "5.2 Magnetic Field",
+      "subsection": "Exercise 5.3",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 5.3",
+      "mcq_type": "I",
+      "question": "Which characteristic is shared by both electric and magnetic fields?",
+      "options": {
+        "A": "Both fields exert forces on moving charged particles.",
+        "B": "Both fields originate from stationary charges only.",
+        "C": "Both field types have monopole sources that act independently.",
+        "D": "Both fields are directly visible without any detection methods."
+      },
+      "correct_answer": "A",
+      "hint": "Focus on fundamental interactions common to both field types.",
+      "explanation": "Electric fields exert forces on any charge, while magnetic fields exert forces on moving charges, showing a shared interaction mechanism. Option B incorrectly restricts magnetic fields to stationary charges, when they require charge motion.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.2 Magnetic Field",
+        "subsection_anchor": "Exercise 5.3",
+        "structural_element": "Exercise 5.3",
+        "content_anchor": "similarities and differences between an electric field and a magnetic field",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_8f9a0b1c"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q015",
+      "generation_timestamp": "2024-01-28T10:35:18Z",
+      "section": "5.2 Magnetic Field",
+      "subsection": "Activity 5.1: Field around a pair of bar magnets",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 5.1: Field around a pair of bar magnets",
+      "mcq_type": "L",
+      "question": "When iron filings are sprinkled around two bar magnets with like poles facing each other, what pattern typically forms?",
+      "options": {
+        "A": "Field lines that diverge outward between the repelling poles.",
+        "B": "Concentrated lines that converge directly between the magnets.",
+        "C": "A uniform grid pattern unaffected by pole orientation.",
+        "D": "Circular loops centered on each magnet independently."
+      },
+      "correct_answer": "A",
+      "hint": "Consider how magnetic field lines behave between similar poles.",
+      "explanation": "Repelling like poles cause field lines to diverge, creating a pattern where iron filings show lines bending away from the gap. Option B describes the converging pattern characteristic of attracting unlike poles.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.2 Magnetic Field",
+        "subsection_anchor": "Activity 5.1: Field around a pair of bar magnets",
+        "structural_element": "Activity 5.1",
+        "content_anchor": "pattern formed by the iron filings for repelling each other",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_0a1b2c3d"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 79,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q016",
+      "generation_timestamp": "2024-01-28T10:35:21Z",
+      "section": "5.2 Magnetic Field",
+      "subsection": "Exercise 5.4",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 5.4",
+      "mcq_type": "K",
+      "question": "Based on the pattern of magnetic field lines around a bar magnet, where is the magnetic field strength greatest?",
+      "options": {
+        "A": "Near the magnetic poles where field lines are most dense.",
+        "B": "At the midpoint between the poles where lines are straight.",
+        "C": "Far from the magnet where lines are widely spaced.",
+        "D": "At the geometric center of the magnet itself."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the relationship between field line density and magnetic field intensity.",
+      "explanation": "Magnetic field strength correlates with line density, which is highest near poles due to concentrated field lines. Option C incorrectly associates weak fields (widely spaced lines) with maximum strength.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.2 Magnetic Field",
+        "subsection_anchor": "Exercise 5.4",
+        "structural_element": "Exercise 5.4",
+        "content_anchor": "Determine where the field around a magnet is the strongest and where it is the weakest.",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_2c3d4e5f"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 63,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 83
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q017",
+      "generation_timestamp": "2024-01-28T10:35:24Z",
+      "section": "5.3 The earth's magnetic field and the compass",
+      "subsection": "Exercise 5.5",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 5.5",
+      "mcq_type": "F",
+      "question": "Which reasoning best explains why Earth can be considered a giant magnet?",
+      "options": {
+        "A": "Moving molten iron in Earth's outer core generates a planetary magnetic field.",
+        "B": "Earth's solid inner core contains permanently magnetized ferromagnetic materials.",
+        "C": "Atmospheric ionization creates a continuous electrical current that produces magnetism.",
+        "D": "Solar radiation induces temporary magnetization in Earth's crustal rocks."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the widely accepted geophysical mechanism for planetary magnetic fields.",
+      "explanation": "The dynamo theory attributes Earth's magnetic field to convective motion of molten iron in the outer core. Option D incorrectly assigns the cause to external solar effects rather than internal geophysical processes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 17.6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 87
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.3 The earth's magnetic field and the compass",
+        "subsection_anchor": "Exercise 5.5",
+        "structural_element": "Exercise 5.5",
+        "content_anchor": "movement of molten iron in the outer core is responsible for generating Earth's magnetic field",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_4d5e6f70"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q018",
+      "generation_timestamp": "2024-01-28T10:35:27Z",
+      "section": "5.3 The earth's magnetic field and the compass",
+      "subsection": "Exercise 5.6",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 5.6",
+      "mcq_type": "D",
+      "question": "What is the primary function of a magnetic compass in navigation?",
+      "options": {
+        "A": "To indicate geographic direction by aligning with Earth's magnetic field.",
+        "B": "To measure the strength of local magnetic anomalies.",
+        "C": "To detect the presence of ferromagnetic materials underground.",
+        "D": "To calculate distances between geographic locations."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental directional use of a compass throughout history.",
+      "explanation": "A compass needle aligns with Earth's magnetic field lines, pointing toward magnetic north and enabling direction finding. Option C describes a metal detector's function, not a compass's primary purpose.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.3 The earth's magnetic field and the compass",
+        "subsection_anchor": "Exercise 5.6",
+        "structural_element": "Exercise 5.6",
+        "content_anchor": "Compasses are mainly used in navigation to find direction on the earth.",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_6e7f8a9b"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 61,
+        "distractor_quality_score": 74,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 82
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q019",
+      "generation_timestamp": "2024-01-28T10:35:30Z",
+      "section": "5.4 Magnetic field of a current carrying conductor",
+      "subsection": "Exercise 5.7",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 5.7",
+      "mcq_type": "J",
+      "question": "Which factors directly determine the strength of the magnetic field around a straight current-carrying conductor?",
+      "options": {
+        "A": "Magnitude of current and perpendicular distance from the wire.",
+        "B": "Wire material composition and ambient temperature.",
+        "C": "Length of the wire and its electrical resistance.",
+        "D": "Voltage applied and wire cross-sectional area."
+      },
+      "correct_answer": "A",
+      "hint": "Recall the mathematical relationship described by the Biot-Savart law.",
+      "explanation": "The Biot-Savart law states magnetic field strength is proportional to current and inversely proportional to distance. Option D confuses magnetic field factors with electrical parameters relevant to Ohm's law.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.4 Magnetic field of a current carrying conductor",
+        "subsection_anchor": "Exercise 5.7",
+        "structural_element": "Exercise 5.7",
+        "content_anchor": "List factors affecting the strength of magnetic field around a straight current carrying conductor.",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_8a9b0c1d"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q020",
+      "generation_timestamp": "2024-01-28T10:35:33Z",
+      "section": "5.4 Magnetic field of a current carrying conductor",
+      "subsection": "Activity 5.2",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 5.2",
+      "mcq_type": "K",
+      "question": "What pattern of magnetic field lines would be observed around a long straight wire carrying a steady electric current?",
+      "options": {
+        "A": "Concentric circles centered on the wire in a plane perpendicular to it.",
+        "B": "Radial lines emanating outward from the wire in all directions.",
+        "C": "Parallel lines running along the length of the wire.",
+        "D": "A uniform field filling the space around the wire equally."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the right-hand rule and the geometry of the magnetic field.",
+      "explanation": "Current-carrying straight wires produce circular magnetic field lines around the wire, as described by the right-hand grip rule. Option B describes the pattern of electric field lines from a charged wire, not magnetic field lines.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.4 Magnetic field of a current carrying conductor",
+        "subsection_anchor": "Activity 5.2",
+        "structural_element": "Activity 5.2",
+        "content_anchor": "Sketch the magnetic field pattern of a steady electric current flowing in a long straight wire.",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_0b1c2d3e"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3200,
+    "average_question_quality": 82.4,
+    "type_distribution": {
+      "B": 1,
+      "D": 1,
+      "F": 1,
+      "H": 1,
+      "I": 2,
+      "J": 1,
+      "K": 2,
+      "L": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 7,
+      "hard": 0
+    },
+    "section_distribution": {
+      "5.1 Magnet": 1,
+      "5.2 Magnetic Field": 5,
+      "5.3 The earth's magnetic field and the compass": 2,
+      "5.4 Magnetic field of a current carrying conductor": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

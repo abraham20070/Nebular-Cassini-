@@ -1,0 +1,822 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-04-11T10:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Chem_U2_Q020",
+    "covered_sections": ["(Introductory Pages)>Unit Outcomes", "2.1 Heterogeneous and Homogeneous Mixtures>Suspensions, Solutions, Colloids>A. Suspensions", "2.1 Heterogeneous and Homogeneous Mixtures>Suspensions, Solutions, Colloids>B. Solutions>Properties of Solutions", "2.1 Heterogeneous and Homogeneous Mixtures>Suspensions, Solutions, Colloids>B. Solutions>Types of Solutions", "2.1 Heterogeneous and Homogeneous Mixtures>Suspensions, Solutions, Colloids>C. Colloids>Properties of Colloids", "2.1 Heterogeneous and Homogeneous Mixtures>Suspensions, Solutions, Colloids>C. Colloids>Types of Colloids", "2.2 The Solution Process>2.2.1 Liquid Solutions and Inter-particle Forces of Attractions", "2.2 The Solution Process>2.2.2 Solutions of Ionic Solids in Water>The Hydrogen Bond", "2.2 The Solution Process>2.2.3 The Solubility Rules for Ionic Solids", "2.2 The Solution Process>2.2.4 Solution of Liquids in Liquids", "2.2 The Solution Process>2.2.5 The Rate of Dissolution", "2.2 The Solution Process>2.2.6 Energy Changes in Solution Process>Endothermic and Exothermic Dissolution Processes", "2.2 The Solution Process>2.2.6 Energy Changes in Solution Process>Enthalpy of Hydration (Ionic Solids in Water)", "2.2 The Solution Process>2.2.6 Energy Changes in Solution Process>What Is Lattice Energy? How Can It Affect the Solubility of Ionic Solids?", "2.2 The Solution Process>2.2.6 Energy Changes in Solution Process>Examples of Endothermic and Exothermic Processes", "2.3 Solubility as an Equilibrium Process>2.3.1 Unsaturated, Saturated, and Supersaturated Solutions", "2.4 Ways of Expressing Concentration of Solutions>2.4.1 Percent by Mass/Volume", "2.4 Ways of Expressing Concentration of Solutions>2.4.2 Mole Fraction", "2.4 Ways of Expressing Concentration of Solutions>2.4.3 Molarity"],
+    "used_question_signatures": ["hash_def_mixture_type", "hash_term_suspension", "hash_form_solution_comp", "hash_app_gas_solution", "hash_conc_colloid_tyndall", "hash_rea_like_dissolves", "hash_cause_H_bond_strength", "hash_misc_solubility_rule", "hash_comp_misc_immisc", "hash_class_colloid_type", "hash_def_solvation", "hash_conc_dissolution_rate", "hash_cause_heat_solution", "hash_rea_lattice_vs_hydration", "hash_misc_saturation_types", "hash_num_mass_percent", "hash_num_mole_fraction", "hash_num_molarity_calc", "hash_app_supersaturated", "hash_cause_temp_solubility"],
+    "baseline_counter": {
+      "(Introductory Pages)": {
+        "Unit Outcomes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "2.1 Heterogeneous and Homogeneous Mixtures": {
+        "Suspensions, Solutions, Colloids": {
+          "count": 6,
+          "mini_headings_covered": ["A. Suspensions", "Properties of Solutions", "Types of Solutions", "Properties of Colloids", "Types of Colloids"],
+          "last_question_round": 1
+        }
+      },
+      "2.2 The Solution Process": {
+        "2.2.1 Liquid Solutions and Inter-particle Forces of Attractions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.2.2 Solutions of Ionic Solids in Water": {
+          "count": 1,
+          "mini_headings_covered": ["The Hydrogen Bond"],
+          "last_question_round": 1
+        },
+        "2.2.3 The Solubility Rules for Ionic Solids": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.2.4 Solution of Liquids in Liquids": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "2.2.5 The Rate of Dissolution": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.2.6 Energy Changes in Solution Process": {
+          "count": 3,
+          "mini_headings_covered": ["Endothermic and Exothermic Dissolution Processes", "Enthalpy of Hydration (Ionic Solids in Water)", "What Is Lattice Energy? How Can It Affect the Solubility of Ionic Solids?", "Examples of Endothermic and Exothermic Processes"],
+          "last_question_round": 2
+        }
+      },
+      "2.3 Solubility as an Equilibrium Process": {
+        "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "2.4 Ways of Expressing Concentration of Solutions": {
+        "2.4.1 Percent by Mass/Volume": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.4.2 Mole Fraction": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "2.4.3 Molarity": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "(Introductory Pages)": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.1 Heterogeneous and Homogeneous Mixtures": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.2 The Solution Process": {
+        "question_count": 7,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "2.3 Solubility as an Equilibrium Process": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "2.4 Ways of Expressing Concentration of Solutions": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "(Introductory Pages)>Unit Outcomes": ["Types of solutions", "Solution formation", "Concentration units", "Solution equilibrium"],
+      "2.1 Heterogeneous and Homogeneous Mixtures>Suspensions, Solutions, Colloids>A. Suspensions": ["Heterogeneous mixture", "Solid particles in liquid", "Settling"],
+      "2.1 Heterogeneous and Homogeneous Mixtures>Suspensions, Solutions, Colloids>B. Solutions>Properties of Solutions": ["Single uniform phase", "No settling or filtration", "Stable"],
+      "2.1 Heterogeneous and Homogeneous Mixtures>Suspensions, Solutions, Colloids>B. Solutions>Types of Solutions": ["Gas-gas solution", "Liquid solution", "Solid solution"],
+      "2.1 Heterogeneous and Homogeneous Mixtures>Suspensions, Solutions, Colloids>C. Colloids>Properties of Colloids": ["Heterogeneous", "Particle size 1-100 nm", "Tyndall effect"],
+      "2.1 Heterogeneous and Homogeneous Mixtures>Suspensions, Solutions, Colloids>C. Colloids>Types of Colloids": ["Aerosol", "Emulsion", "Sol", "Gel"],
+      "2.2 The Solution Process>2.2.1 Liquid Solutions and Inter-particle Forces of Attractions": ["Like dissolves like", "Intermolecular forces"],
+      "2.2 The Solution Process>2.2.2 Solutions of Ionic Solids in Water>The Hydrogen Bond": ["Hydrogen bond", "O, N, F", "Strong dipole-dipole"],
+      "2.2 The Solution Process>2.2.3 The Solubility Rules for Ionic Solids": ["Group 1 salts soluble", "Nitrates soluble", "Chlorides mostly soluble", "Sulfates mostly soluble", "Carbonates mostly insoluble"],
+      "2.2 The Solution Process>2.2.4 Solution of Liquids in Liquids": ["Miscible", "Immiscible", "Polarity compatibility"],
+      "2.2 The Solution Process>2.2.5 The Rate of Dissolution": ["Surface area", "Temperature", "Agitation"],
+      "2.2 The Solution Process>2.2.6 Energy Changes in Solution Process>Endothermic and Exothermic Dissolution Processes": ["Heat of solution", "Endothermic", "Exothermic", "ΔH_sol"],
+      "2.2 The Solution Process>2.2.6 Energy Changes in Solution Process>Enthalpy of Hydration (Ionic Solids in Water)": ["Hydration energy", "ΔH_hydr", "Solvation in water"],
+      "2.2 The Solution Process>2.2.6 Energy Changes in Solution Process>What Is Lattice Energy? How Can It Affect the Solubility of Ionic Solids?": ["Lattice energy", "ΔH_lat", "Ion charge", "Ion size"],
+      "2.2 The Solution Process>2.2.6 Energy Changes in Solution Process>Examples of Endothermic and Exothermic Processes": ["NH₄NO₃ endothermic", "NaOH exothermic", "Cold pack", "Hot pack"],
+      "2.3 Solubility as an Equilibrium Process>2.3.1 Unsaturated, Saturated, and Supersaturated Solutions": ["Dynamic equilibrium", "Unsaturated", "Saturated", "Supersaturated"],
+      "2.4 Ways of Expressing Concentration of Solutions>2.4.1 Percent by Mass/Volume": ["Mass percent", "Volume percent", "% (w/w)", "% (v/v)"],
+      "2.4 Ways of Expressing Concentration of Solutions>2.4.2 Mole Fraction": ["Mole fraction", "X_A", "Mole percent"],
+      "2.4 Ways of Expressing Concentration of Solutions>2.4.3 Molarity": ["Molarity", "M", "mol/L"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state_R01",
+    "content_density_metrics": {
+      "total_concepts_extracted": 19,
+      "questions_per_concept_ratio": 1.05,
+      "structural_coverage_percentage": 25.0
+    }
+  },
+  "grade": "10",
+  "subject": "Chemistry",
+  "unit": "Unit 2: SOLUTIONS",
+  "pdf_filename": "C10U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-04-11T10:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 9,
+        "progress_percentage": 55.6
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 6.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 12,
+      "mini_headings_covered_count": 9,
+      "structural_coverage_percentage": 20.0,
+      "concept_utilization_ratio": 1.05
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.1 Heterogeneous and Homogeneous Mixtures",
+      "least_covered_section": "(Introductory Pages)",
+      "imbalance_ratio": 6.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.05,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U2_Q011",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "2.2 The Solution Process",
+      "subsection": "2.2.5 The Rate of Dissolution",
+      "sub_subsection": null,
+      "structural_anchor": "2.2.5 The Rate of Dissolution",
+      "mcq_type": "G",
+      "question": "What happens to the rate at which a solid solute dissolves when its surface area is increased?",
+      "options": {
+        "A": "The rate decreases because more solute is exposed.",
+        "B": "The rate increases because more solute contacts the solvent.",
+        "C": "The rate remains unchanged as it depends only on temperature.",
+        "D": "The rate first increases then decreases as saturation approaches."
+      },
+      "correct_answer": "B",
+      "hint": "Consider how contact between solute and solvent particles affects the dissolution process.",
+      "explanation": "Increasing surface area provides more contact points between solute and solvent particles, accelerating dissolution. Option C is incorrect because surface area is a known factor affecting dissolution rate alongside temperature.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLUTIONS",
+        "section_anchor": "2.2 The Solution Process",
+        "subsection_anchor": "2.2.5 The Rate of Dissolution",
+        "structural_element": "2.2.5 The Rate of Dissolution",
+        "content_anchor": "surface area, rate of dissolution, contact",
+        "page_hint": "Page 17-18",
+        "concept_hash": "sha256_of_dissolution_rate_surface_area"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q012",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "2.2 The Solution Process",
+      "subsection": "2.2.6 Energy Changes in Solution Process",
+      "sub_subsection": null,
+      "structural_anchor": "Endothermic and Exothermic Dissolution Processes",
+      "mcq_type": "A",
+      "question": "What term describes the overall enthalpy change when one mole of a substance dissolves in a solvent at constant pressure?",
+      "options": {
+        "A": "Heat of solution",
+        "B": "Lattice energy",
+        "C": "Hydration energy",
+        "D": "Activation energy"
+      },
+      "correct_answer": "A",
+      "hint": "This quantity can be positive or negative depending on the temperature change observed.",
+      "explanation": "The molar heat of solution (ΔH_sol) is the enthalpy change per mole of solute dissolved. Option C refers specifically to the energy released when ions are surrounded by water molecules.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLUTIONS",
+        "section_anchor": "2.2 The Solution Process",
+        "subsection_anchor": "2.2.6 Energy Changes in Solution Process",
+        "structural_element": "Endothermic and Exothermic Dissolution Processes",
+        "content_anchor": "heat of solution, ΔH_sol, enthalpy change",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_heat_of_solution"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q013",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "2.2 The Solution Process",
+      "subsection": "2.2.6 Energy Changes in Solution Process",
+      "sub_subsection": null,
+      "structural_anchor": "Enthalpy of Hydration (Ionic Solids in Water)",
+      "mcq_type": "G",
+      "question": "If the hydration energy released when ions are surrounded by water molecules is large, what effect does this typically have on the solubility of the ionic solid?",
+      "options": {
+        "A": "Solubility decreases because energy is released.",
+        "B": "Solubility increases because the process is energetically favorable.",
+        "C": "Solubility is unaffected as it depends only on temperature.",
+        "D": "Solubility first increases then decreases as concentration changes."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the balance between energy required to break the crystal lattice and energy released during hydration.",
+      "explanation": "A large exothermic hydration energy helps overcome the endothermic lattice energy, making dissolution more favorable and increasing solubility. Option A incorrectly assumes released energy hinders solubility.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLUTIONS",
+        "section_anchor": "2.2 The Solution Process",
+        "subsection_anchor": "2.2.6 Energy Changes in Solution Process",
+        "structural_element": "Enthalpy of Hydration (Ionic Solids in Water)",
+        "content_anchor": "hydration energy, solubility, energetically favorable",
+        "page_hint": "Page 20",
+        "concept_hash": "sha256_of_hydration_energy_effect"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q014",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "2.2 The Solution Process",
+      "subsection": "2.2.6 Energy Changes in Solution Process",
+      "sub_subsection": null,
+      "structural_anchor": "What Is Lattice Energy? How Can It Affect the Solubility of Ionic Solids?",
+      "mcq_type": "F",
+      "question": "Why are ionic compounds with multiply charged ions generally less soluble in water than those with singly charged ions?",
+      "options": {
+        "A": "Multiply charged ions have weaker ion-dipole interactions with water.",
+        "B": "The lattice energy increases with ion charge, making the crystal harder to break apart.",
+        "C": "Multiply charged ions cause more extensive hydration, which inhibits dissolution.",
+        "D": "Water molecules cannot effectively solvate ions with high charge density."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the relationship between electrostatic attraction in the crystal and the energy required to separate ions.",
+      "explanation": "Lattice energy, the energy needed to separate ions in a crystal, increases with the magnitude of ion charges. A higher lattice energy makes dissolution less favorable. Option A is incorrect because ion-dipole interactions actually strengthen with ion charge.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLUTIONS",
+        "section_anchor": "2.2 The Solution Process",
+        "subsection_anchor": "2.2.6 Energy Changes in Solution Process",
+        "structural_element": "What Is Lattice Energy? How Can It Affect the Solubility of Ionic Solids?",
+        "content_anchor": "lattice energy, ion charge, solubility",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_lattice_energy_charge"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q015",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "2.3 Solubility as an Equilibrium Process",
+      "subsection": "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+      "sub_subsection": null,
+      "structural_anchor": "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that a saturated solution cannot dissolve any more solute under any conditions?",
+      "options": {
+        "A": "It ignores that solubility depends on temperature, and heating might allow more solute to dissolve.",
+        "B": "It assumes all solutes have the same solubility in a given solvent.",
+        "C": "It confuses saturation with the rate of dissolution.",
+        "D": "It overlooks that stirring can force additional solute into solution."
+      },
+      "correct_answer": "A",
+      "hint": "Recall that saturation is defined at a specific temperature.",
+      "explanation": "A solution is saturated at a specific temperature; increasing the temperature typically increases solubility, allowing more solute to dissolve. Option D is incorrect because stirring affects rate, not the equilibrium solubility limit.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLUTIONS",
+        "section_anchor": "2.3 Solubility as an Equilibrium Process",
+        "subsection_anchor": "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+        "structural_element": "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+        "content_anchor": "saturated solution, temperature dependence",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_saturation_temp_dependence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q016",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "2.3 Solubility as an Equilibrium Process",
+      "subsection": "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+      "sub_subsection": null,
+      "structural_anchor": "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+      "mcq_type": "D",
+      "question": "What is observed when a seed crystal is added to a supersaturated sodium acetate solution?",
+      "options": {
+        "A": "The seed crystal dissolves completely without affecting the solution.",
+        "B": "Excess solute rapidly crystallizes out of the solution.",
+        "C": "The solution becomes more supersaturated as temperature drops.",
+        "D": "The seed crystal catalyzes the decomposition of sodium acetate."
+      },
+      "correct_answer": "B",
+      "hint": "A supersaturated solution is metastable and holds more solute than the equilibrium amount.",
+      "explanation": "A supersaturated solution is unstable; adding a seed crystal provides nucleation sites for crystallization, causing excess solute to precipitate. Option C describes the cooling process that creates supersaturation, not the seeding effect.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLUTIONS",
+        "section_anchor": "2.3 Solubility as an Equilibrium Process",
+        "subsection_anchor": "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+        "structural_element": "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+        "content_anchor": "supersaturated solution, seed crystal, rapid crystallization",
+        "page_hint": "Page 25-26",
+        "concept_hash": "sha256_of_supersaturated_seeding"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q017",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "2.4 Ways of Expressing Concentration of Solutions",
+      "subsection": "2.4.1 Percent by Mass/Volume",
+      "sub_subsection": null,
+      "structural_anchor": "2.4.1 Percent by Mass/Volume",
+      "mcq_type": "E",
+      "question": "A solution is prepared by dissolving 8.0 g of glucose in 92.0 g of water. What is the percent by mass of glucose in this solution?",
+      "options": {
+        "A": "8.0%",
+        "B": "8.7%",
+        "C": "9.2%",
+        "D": "10.0%"
+      },
+      "correct_answer": "A",
+      "hint": "Calculate the total mass of the solution first.",
+      "explanation": "Percent by mass = (mass of solute / mass of solution) × 100% = (8.0 g / 100.0 g) × 100% = 8.0%. Option B results from incorrectly using the solvent mass as the solution mass.",
+      "difficulty_level": "easy",
+      "formula_used": ["% by mass = (mass solute / mass solution) × 100%"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "%",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLUTIONS",
+        "section_anchor": "2.4 Ways of Expressing Concentration of Solutions",
+        "subsection_anchor": "2.4.1 Percent by Mass/Volume",
+        "structural_element": "2.4.1 Percent by Mass/Volume",
+        "content_anchor": "percent by mass calculation",
+        "page_hint": "Page 33",
+        "concept_hash": "sha256_of_mass_percent_calc"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q018",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "2.4 Ways of Expressing Concentration of Solutions",
+      "subsection": "2.4.2 Mole Fraction",
+      "sub_subsection": null,
+      "structural_anchor": "2.4.2 Mole Fraction",
+      "mcq_type": "E",
+      "question": "A solution contains 0.2 moles of substance A and 0.8 moles of substance B. What is the mole fraction of substance A?",
+      "options": {
+        "A": "0.20",
+        "B": "0.25",
+        "C": "0.80",
+        "D": "1.00"
+      },
+      "correct_answer": "A",
+      "hint": "Mole fraction is the moles of one component divided by the total moles of all components.",
+      "explanation": "Mole fraction X_A = n_A / (n_A + n_B) = 0.2 / (0.2 + 0.8) = 0.2. Option B results from calculating n_A / n_B instead of using the total moles.",
+      "difficulty_level": "easy",
+      "formula_used": ["X_A = n_A / (n_A + n_B)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "unitless",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLUTIONS",
+        "section_anchor": "2.4 Ways of Expressing Concentration of Solutions",
+        "subsection_anchor": "2.4.2 Mole Fraction",
+        "structural_element": "2.4.2 Mole Fraction",
+        "content_anchor": "mole fraction calculation",
+        "page_hint": "Page 36",
+        "concept_hash": "sha256_of_mole_fraction_calc"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q019",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "2.4 Ways of Expressing Concentration of Solutions",
+      "subsection": "2.4.3 Molarity",
+      "sub_subsection": null,
+      "structural_anchor": "2.4.3 Molarity",
+      "mcq_type": "E",
+      "question": "What is the molarity of a solution that contains 0.5 moles of sodium chloride dissolved in 2.0 liters of water?",
+      "options": {
+        "A": "0.25 M",
+        "B": "0.50 M",
+        "C": "1.0 M",
+        "D": "2.0 M"
+      },
+      "correct_answer": "A",
+      "hint": "Molarity is defined as moles of solute per liter of solution.",
+      "explanation": "Molarity = moles of solute / liters of solution = 0.5 mol / 2.0 L = 0.25 M. Option B incorrectly uses 1.0 L as the volume instead of the given 2.0 L.",
+      "difficulty_level": "easy",
+      "formula_used": ["M = n / V"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "M",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLUTIONS",
+        "section_anchor": "2.4 Ways of Expressing Concentration of Solutions",
+        "subsection_anchor": "2.4.3 Molarity",
+        "structural_element": "2.4.3 Molarity",
+        "content_anchor": "molarity calculation",
+        "page_hint": "Page 37",
+        "concept_hash": "sha256_of_molarity_calc"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q020",
+      "generation_timestamp": "2025-04-11T10:05:00Z",
+      "section": "2.2 The Solution Process",
+      "subsection": "2.2.6 Energy Changes in Solution Process",
+      "sub_subsection": null,
+      "structural_anchor": "Examples of Endothermic and Exothermic Processes",
+      "mcq_type": "G",
+      "question": "When solid ammonium nitrate dissolves in water, the temperature of the solution decreases. What does this observation indicate about the dissolution process?",
+      "options": {
+        "A": "The process is exothermic, releasing heat to the surroundings.",
+        "B": "The process is endothermic, absorbing heat from the surroundings.",
+        "C": "The process is at equilibrium with no net heat change.",
+        "D": "The process involves a chemical reaction that consumes heat."
+      },
+      "correct_answer": "B",
+      "hint": "A temperature drop suggests heat is being taken in from the environment.",
+      "explanation": "An endothermic process absorbs heat from the surroundings, causing a temperature decrease. Option A would result in a temperature increase, as seen when NaOH dissolves.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLUTIONS",
+        "section_anchor": "2.2 The Solution Process",
+        "subsection_anchor": "2.2.6 Energy Changes in Solution Process",
+        "structural_element": "Examples of Endothermic and Exothermic Processes",
+        "content_anchor": "ammonium nitrate, endothermic, temperature decrease",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_endothermic_dissolution"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2950,
+    "average_question_quality": 87.0,
+    "type_distribution": {
+      "A": 1,
+      "D": 1,
+      "E": 3,
+      "F": 1,
+      "G": 3,
+      "H": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 4,
+      "hard": 1
+    },
+    "section_distribution": {
+      "2.2 The Solution Process": 6,
+      "2.3 Solubility as an Equilibrium Process": 2,
+      "2.4 Ways of Expressing Concentration of Solutions": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

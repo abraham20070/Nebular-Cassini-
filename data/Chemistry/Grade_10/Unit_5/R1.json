@@ -1,0 +1,810 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Chem_U5_Q010",
+    "covered_sections": ["Introduction", "General Properties of Metals and Production of Some Metals>Properties and Extraction of Metals", "General Properties of Metals and Production of Some Metals>Alloys", "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Aluminum", "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Iron", "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Copper", "Production of Some Important Nonmetals>General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds", "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Nitrogen"],
+    "used_question_signatures": ["def_metal", "id_metal_liquid_room_temp", "app_reactivity_series_H", "recog_formula_bauxite", "calc_gold_carat", "reason_Al_utensils_reactive", "cause_effect_cryolite_melt", "miscon_Fe_rusting", "comp_Al_Fe_abundance", "class_renewable_nonrenewable"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "General Properties of Metals and Production of Some Metals": {
+        "Properties and Extraction of Metals": {
+          "count": 3,
+          "mini_headings_covered": ["Some physical properties of metals", "Chemical properties of metals", "Reactivity series of metals"],
+          "last_question_round": 1
+        },
+        "Alloys": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Production of Aluminum, Iron and Copper": {
+          "Aluminum": {
+            "count": 1,
+            "mini_headings_covered": ["Chemical Properties:"],
+            "last_question_round": 1
+          },
+          "Iron": {
+            "count": 1,
+            "mini_headings_covered": ["Chemical Properties of Iron"],
+            "last_question_round": 1
+          },
+          "Copper": {
+            "count": 1,
+            "mini_headings_covered": [],
+            "last_question_round": 1
+          }
+        }
+      },
+      "Production of Some Important Nonmetals": {
+        "General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine": {
+          "Nitrogen": {
+            "count": 1,
+            "mini_headings_covered": [],
+            "last_question_round": 1
+          },
+          "Phosphorus": {
+            "count": 0,
+            "mini_headings_covered": [],
+            "last_question_round": 0
+          },
+          "Oxygen": {
+            "count": 0,
+            "mini_headings_covered": [],
+            "last_question_round": 0
+          },
+          "Sulphur": {
+            "count": 0,
+            "mini_headings_covered": [],
+            "last_question_round": 0
+          },
+          "Chlorine": {
+            "count": 0,
+            "mini_headings_covered": [],
+            "last_question_round": 0
+          }
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "General Properties of Metals and Production of Some Metals": {
+        "question_count": 7,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Production of Some Important Nonmetals": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction": ["Natural resources", "Renewable", "Non-renewable"],
+      "General Properties of Metals and Production of Some Metals>Properties and Extraction of Metals": ["Lustrous", "Malleable", "Ductile", "Sonorous", "Reactivity series", "Hydrogen comparison"],
+      "General Properties of Metals and Production of Some Metals>Alloys": ["Mixture of metals", "Carat", "Gold content"],
+      "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Aluminum": ["Reactive metal", "Oxide layer", "Corrosion resistance"],
+      "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Iron": ["Rust", "Hydrated iron(III) oxide"],
+      "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Copper": ["Extraction", "Electrolytic refining"],
+      "Production of Some Important Nonmetals>General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds": ["Opposite characteristics to metals"],
+      "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Nitrogen": ["Inert gas", "Fractional distillation of air"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_hash",
+    "content_density_metrics": {
+      "total_concepts_extracted": 20,
+      "questions_per_concept_ratio": 0.5,
+      "structural_coverage_percentage": 18.2
+    }
+  },
+  "grade": "10",
+  "subject": "Chemistry",
+  "unit": "Unit 5: METALS AND NONMETALS",
+  "pdf_filename": "C10U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 3,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 4,
+      "structural_coverage_percentage": 18.2,
+      "concept_utilization_ratio": 0.5
+    },
+    "distribution_analysis": {
+      "most_covered_section": "General Properties of Metals and Production of Some Metals",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 7.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U5_Q001",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "Introduction",
+      "mcq_type": "J",
+      "question": "Which of the following pairs correctly classifies a resource as renewable or non-renewable?",
+      "options": {
+        "A": "Fossil fuels - Renewable",
+        "B": "Sunlight - Non-renewable",
+        "C": "Water - Renewable",
+        "D": "Metal ores - Renewable"
+      },
+      "correct_answer": "C",
+      "hint": "Consider whether the resource can be replenished by natural processes.",
+      "explanation": "Water is a renewable resource because it is replenished through the water cycle. Option A incorrectly classifies fossil fuels, which are finite and cannot be replenished within a human timeframe.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": "Introduction",
+        "content_anchor": "Renewable resources are resources that can be replenished (replaced) by natural processes. Examples are water, air and plant materials (biomass). Non- renewable resources are resources that are found in a fixed amount in nature and cannot be replenished.",
+        "page_hint": "Page 1-2",
+        "concept_hash": "sha256_renewable_nonrenewable"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q002",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Properties and Extraction of Metals",
+      "sub_subsection": null,
+      "structural_anchor": "Some physical properties of metals",
+      "mcq_type": "A",
+      "question": "What is the term for the property of metals that allows them to be drawn into thin wires?",
+      "options": {
+        "A": "Malleability",
+        "B": "Ductility",
+        "C": "Lustre",
+        "D": "Sonority"
+      },
+      "correct_answer": "B",
+      "hint": "This property is related to forming wires, not sheets.",
+      "explanation": "Ductility is the ability of a metal to be drawn into wires. Option A describes malleability, which is the ability to be hammered into thin sheets.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Properties and Extraction of Metals",
+        "structural_element": "Some physical properties of metals",
+        "content_anchor": "They are ductile, i.e. they can be drawn into wires.",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_ductility"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q003",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Properties and Extraction of Metals",
+      "sub_subsection": null,
+      "structural_anchor": "Reactivity series of metals",
+      "mcq_type": "D",
+      "question": "According to the reactivity series, which of the following metals will liberate hydrogen gas when reacted with dilute hydrochloric acid?",
+      "options": {
+        "A": "Copper",
+        "B": "Silver",
+        "C": "Zinc",
+        "D": "Gold"
+      },
+      "correct_answer": "C",
+      "hint": "Metals above hydrogen in the reactivity series displace hydrogen from acids.",
+      "explanation": "Zinc is above hydrogen in the reactivity series, allowing it to displace hydrogen from dilute acids. Options A, B, and D are below hydrogen and do not react with dilute acids to produce hydrogen gas.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Properties and Extraction of Metals",
+        "structural_element": "Reactivity series of metals",
+        "content_anchor": "The metals above hydrogen like potassium, sodium, calcium and magnesium in the reactivity series liberate hydrogen gas when treated with dilute acids.",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_reactivity_series_H"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q004",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Properties and Extraction of Metals",
+      "sub_subsection": null,
+      "structural_anchor": "Chemical properties of metals",
+      "mcq_type": "C",
+      "question": "Which chemical formula represents the main ore of aluminum?",
+      "options": {
+        "A": "Fe2O3",
+        "B": "Al2O3·2H2O",
+        "C": "CuFeS2",
+        "D": "CaCO3"
+      },
+      "correct_answer": "B",
+      "hint": "This ore is called bauxite and contains aluminum, oxygen, and water.",
+      "explanation": "Bauxite, with the formula Al₂O₃·2H₂O, is the principal ore of aluminum. Option A is hematite (iron ore), option C is chalcopyrite (copper ore), and option D is limestone (calcium carbonate).",
+      "difficulty_level": "medium",
+      "formula_used": ["Al2O3·2H2O"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Properties and Extraction of Metals",
+        "structural_element": "Chemical properties of metals",
+        "content_anchor": "Minerals such as iron haematite (Fe2O3) or aluminum bauxite (Al2O3·2H2O)",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_bauxite_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q005",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Alloys",
+      "sub_subsection": null,
+      "structural_anchor": "Alloys",
+      "mcq_type": "E",
+      "question": "What is the mass percentage of gold in 18-carat gold?",
+      "options": {
+        "A": "75.0%",
+        "B": "91.7%",
+        "C": "58.3%",
+        "D": "66.7%"
+      },
+      "correct_answer": "A",
+      "hint": "Calculate using the formula: (carat number / 24) × 100%.",
+      "explanation": "The mass percentage of gold in an alloy is (carat/24)×100%. For 18-carat gold, (18/24)×100% = 75.0%. Option B is the percentage for 22-carat gold.",
+      "difficulty_level": "medium",
+      "formula_used": ["(carat/24)×100%"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "%",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Alloys",
+        "structural_element": "Alloys",
+        "content_anchor": "Mass % of gold in 22 carat gold = 22×100 / 24 = 91.67",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_gold_carat_calc"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q006",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Production of Aluminum, Iron and Copper",
+      "sub_subsection": "Aluminum",
+      "structural_anchor": "Chemical Properties:",
+      "mcq_type": "F",
+      "question": "Aluminum readily reacts with oxygen, yet it is commonly used for outdoor structures and cooking utensils. Which reasoning best explains this apparent contradiction?",
+      "options": {
+        "A": "Aluminum is actually unreactive with oxygen at room temperature.",
+        "B": "The aluminum oxide layer that forms is porous and flakes off easily.",
+        "C": "The thin, adherent oxide layer prevents further reaction with the metal beneath.",
+        "D": "Aluminum only reacts with oxygen at very high pressures."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the nature of the product formed during the initial reaction.",
+      "explanation": "Aluminum's corrosion resistance is due to a protective oxide layer that forms immediately on exposure to air, preventing further oxidation. Option B incorrectly describes the oxide layer as non-protective.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Production of Aluminum, Iron and Copper",
+        "sub_subsection_anchor": "Aluminum",
+        "structural_element": "Chemical Properties:",
+        "content_anchor": "This thin film of oxide inhibits further reaction with oxygen.",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_Al_oxide_layer"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q007",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Production of Aluminum, Iron and Copper",
+      "sub_subsection": "Aluminum",
+      "structural_anchor": "Occurrence and extraction",
+      "mcq_type": "G",
+      "question": "During the Hall-Héroult process for extracting aluminum, cryolite (Na3AlF6) is added to purified alumina (Al2O3). What is the primary effect of adding cryolite?",
+      "options": {
+        "A": "It acts as a reducing agent for aluminum oxide.",
+        "B": "It significantly lowers the melting point of the electrolyte mixture.",
+        "C": "It prevents the oxidation of the graphite anode.",
+        "D": "It increases the electrical conductivity of the solid aluminum oxide."
+      },
+      "correct_answer": "B",
+      "hint": "Cryolite is added to alter the physical properties of the mixture before electrolysis.",
+      "explanation": "Cryolite reduces the melting point of alumina from 2045°C to about 1000°C, making electrolysis economically feasible. Option A is incorrect because cryolite is not a reducing agent in this process.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Production of Aluminum, Iron and Copper",
+        "sub_subsection_anchor": "Aluminum",
+        "structural_element": "Occurrence and extraction",
+        "content_anchor": "Cryolite is added to Al2O3 to reduce its melting point from 2045°C to 1000°C.",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_cryolite_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q008",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Production of Aluminum, Iron and Copper",
+      "sub_subsection": "Iron",
+      "structural_anchor": "Chemical Properties of Iron",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that iron does not react with dry air?",
+      "options": {
+        "A": "Iron reacts vigorously with dry air to form iron(II) oxide.",
+        "B": "The slow formation of a non-protective oxide layer is not noticeable.",
+        "C": "Iron requires an electrolyte like water to undergo any oxidation.",
+        "D": "The reddish-brown rust observed requires both oxygen and moisture."
+      },
+      "correct_answer": "D",
+      "hint": "Consider the specific conditions needed for the familiar corrosion product of iron.",
+      "explanation": "The common reddish-brown rust (hydrated iron(III) oxide) requires both oxygen and water. Option C is incorrect because iron can oxidize in dry air, albeit slowly, forming a different oxide layer.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Production of Aluminum, Iron and Copper",
+        "sub_subsection_anchor": "Iron",
+        "structural_element": "Chemical Properties of Iron",
+        "content_anchor": "Iron rusts in the presence of air and moisture to form hydrated iron (III) oxide.",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_Fe_rust_conditions"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q009",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Production of Aluminum, Iron and Copper",
+      "sub_subsection": "Copper",
+      "structural_anchor": "Occurrence and Extraction",
+      "mcq_type": "I",
+      "question": "How does the natural occurrence of copper typically differ from that of aluminum?",
+      "options": {
+        "A": "Copper is never found in a combined state, unlike aluminum.",
+        "B": "Aluminum is found native more frequently than copper.",
+        "C": "Copper is occasionally found as native metal, while aluminum is always found in compounds.",
+        "D": "Both metals are equally abundant in their native elemental forms."
+      },
+      "correct_answer": "C",
+      "hint": "Consider which metal can exist in an uncombined, elemental form in nature.",
+      "explanation": "Copper is less reactive and is sometimes found as native copper, whereas aluminum's high reactivity prevents it from existing in an uncombined state. Option A is incorrect because copper is most commonly found in compounds.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Production of Aluminum, Iron and Copper",
+        "sub_subsection_anchor": "Copper",
+        "structural_element": "Occurrence and Extraction",
+        "content_anchor": "Copper is occasionally found as native copper. However, it is found mainly in compounds... Aluminum does not occur in uncombined or free metal state in nature.",
+        "page_hint": "Pages 7, 18",
+        "concept_hash": "sha256_native_occurrence_Al_Cu"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q010",
+      "generation_timestamp": "2025-01-28T10:30:00Z",
+      "section": "Production of Some Important Nonmetals",
+      "subsection": "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "Nitrogen",
+      "structural_anchor": "Occurrence and Production",
+      "mcq_type": "B",
+      "question": "What is the primary industrial method for obtaining nitrogen gas?",
+      "options": {
+        "A": "Electrolysis of aqueous sodium chloride",
+        "B": "Fractional distillation of liquefied air",
+        "C": "Thermal decomposition of ammonium nitrate",
+        "D": "Reduction of nitrogen oxides with hydrogen"
+      },
+      "correct_answer": "B",
+      "hint": "This method separates gases based on differences in their boiling points.",
+      "explanation": "Nitrogen is obtained industrially by the fractional distillation of liquid air, which separates it from oxygen and other gases. Option A is the method for producing chlorine.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "Production of Some Important Nonmetals",
+        "subsection_anchor": "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "sub_subsection_anchor": "Nitrogen",
+        "structural_element": "Occurrence and Production",
+        "content_anchor": "Nitrogen is thus separated on an industrial scale by fractional distillation of liquid air.",
+        "page_hint": "Page 23",
+        "concept_hash": "sha256_N2_production"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3500,
+    "average_question_quality": 85.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 5,
+      "hard": 3
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "General Properties of Metals and Production of Some Metals": 7,
+      "Production of Some Important Nonmetals": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

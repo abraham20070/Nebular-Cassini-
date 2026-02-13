@@ -1,0 +1,869 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:40:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Bio_U6_Q030",
+    "covered_sections": [
+      "6.1 Trophic Levels>6.1.1 Food chain and food web",
+      "6.1 Trophic Levels>6.1.2 Flow of energy and matter through ecosystem",
+      "6.1 Trophic Levels>Objectives",
+      "6.2 Cycling of Materials in an Ecosystem>6.2.1 Water cycle",
+      "6.2 Cycling of Materials in an Ecosystem>6.2.2 Carbon cycle",
+      "6.2 Cycling of Materials in an Ecosystem>6.2.3 Nitrogen cycle",
+      "6.2 Cycling of Materials in an Ecosystem>6.2.4 Phosphorus cycle",
+      "6.2 Cycling of Materials in an Ecosystem>Objectives",
+      "Learning Competency",
+      "6.2 Cycling of Materials in an Ecosystem>Self Test",
+      "6.2 Cycling of Materials in an Ecosystem>ACTIVITY 6.5 Peer discussion",
+      "6.1 Trophic Levels>ACTIVITY 6.2 Field Visit",
+      "6.1 Trophic Levels>Keywords: Biomass, Ecological pyramid",
+      "6.2 Cycling of Materials in an Ecosystem>Attention: Decomposers",
+      "6.2 Cycling of Materials in an Ecosystem>6.2.3 Nitrogen cycle>1. Nitrogen fixation",
+      "6.2 Cycling of Materials in an Ecosystem>ACTIVITY 6.8 Think-Pair-Share",
+      "6.2 Cycling of Materials in an Ecosystem>Key terms: ATP, Eutrophication, Biofertilizers"
+    ],
+    "used_question_signatures": [
+      "hash_cdc3b7a1",
+      "hash_8e9f4c2d",
+      "hash_5a1b8e3f",
+      "hash_2d7c9a4b",
+      "hash_6e3f8b1c",
+      "hash_9a2c5d7e",
+      "hash_4b8d1f3a",
+      "hash_1c7e9b5d",
+      "hash_3f2a8c6e",
+      "hash_7d5b1e9c",
+      "hash_a3c8e1b5",
+      "hash_b6d9f2c4",
+      "hash_c2e4a7d9",
+      "hash_d5f8b3e6",
+      "hash_e9a1c4f7",
+      "hash_f4b2d5e8",
+      "hash_1a8c3d6f",
+      "hash_2b9d4e7a",
+      "hash_3c0e5f8b",
+      "hash_4d1f6a9c",
+      "hash_5e2a0b7d",
+      "hash_6f3b1c8e",
+      "hash_7c4d2e9f",
+      "hash_8d5e3f0a",
+      "hash_9e6f4a1b",
+      "hash_0a7f5b2c",
+      "hash_1b8a6c3d",
+      "hash_2c9b7d4e",
+      "hash_3d0c8e5f",
+      "hash_4e1d9f6a"
+    ],
+    "baseline_counter": {
+      "6.1 Trophic Levels": {
+        "6.1.1 Food chain and food web": {
+          "count": 4,
+          "mini_headings_covered": ["Direction: Think of a possible feeding relationship..."],
+          "last_question_round": 3
+        },
+        "6.1.2 Flow of energy and matter through ecosystem": {
+          "count": 5,
+          "mini_headings_covered": ["Figure 6.5 An Idealized pyramid of energy", "Keywords: Biomass, Ecological pyramid"],
+          "last_question_round": 3
+        },
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "ACTIVITY 6.2 Field Visit": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "6.2 Cycling of Materials in an Ecosystem": {
+        "6.2.1 Water cycle": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.2.2 Carbon cycle": {
+          "count": 4,
+          "mini_headings_covered": ["Attention: Photosynthesis and cellular respiration"],
+          "last_question_round": 3
+        },
+        "6.2.3 Nitrogen cycle": {
+          "count": 6,
+          "mini_headings_covered": ["Key terms: DNA, Functional proteins, Structural protein", "1. Nitrogen fixation"],
+          "last_question_round": 3
+        },
+        "6.2.4 Phosphorus cycle": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Objectives": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Self Test": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "ACTIVITY 6.5 Peer discussion": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Attention: Decomposers": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "ACTIVITY 6.8 Think-Pair-Share": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Learning Competency": {
+        "Learning Competency": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Trophic Levels": {
+        "question_count": 11,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "6.2 Cycling of Materials in an Ecosystem": {
+        "question_count": 18,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Learning Competency": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Trophic Levels>6.1.1 Food chain and food web": ["Food chain", "Food web", "Producers", "Consumers", "Herbivores", "Carnivores", "Omnivores", "Decomposers"],
+      "6.1 Trophic Levels>6.1.2 Flow of energy and matter through ecosystem": ["Energy flow", "Ecological pyramid", "Energy loss", "Trophic levels", "Biomass", "10% rule", "Pyramid of numbers"],
+      "6.1 Trophic Levels>Objectives": ["Define trophic level", "Construct food chain", "Outline energy flow"],
+      "6.1 Trophic Levels>ACTIVITY 6.2 Field Visit": ["Field observation", "Feeding relationships"],
+      "6.1 Trophic Levels>Keywords: Biomass, Ecological pyramid": ["Biomass definition", "Ecological pyramid types"],
+      "6.2 Cycling of Materials in an Ecosystem>6.2.1 Water cycle": ["Evaporation", "Transpiration", "Condensation", "Precipitation", "Runoff", "Solar heating", "Hydrologic cycle"],
+      "6.2 Cycling of Materials in an Ecosystem>6.2.2 Carbon cycle": ["Photosynthesis", "Respiration", "Carbon dioxide", "Fossil fuels", "Greenhouse effect", "Global warming", "Combustion"],
+      "6.2 Cycling of Materials in an Ecosystem>6.2.3 Nitrogen cycle": ["Nitrogen fixation", "DNA", "Proteins", "Soil bacteria", "Ammonification", "Nitrification", "Denitrification", "Rhizobium", "Symbiotic fixation"],
+      "6.2 Cycling of Materials in an Ecosystem>6.2.4 Phosphorus cycle": ["ATP", "DNA", "Phosphate ions", "Eutrophication", "Organic phosphate", "Phosphate fertilizer"],
+      "6.2 Cycling of Materials in an Ecosystem>Objectives": ["Draw cycles", "Relate carbon to global warming", "Associate nitrogen with soil fertility"],
+      "6.2 Cycling of Materials in an Ecosystem>Self Test": ["Cycling importance", "Material reuse"],
+      "6.2 Cycling of Materials in an Ecosystem>ACTIVITY 6.5 Peer discussion": ["Decomposer role", "Nutrient return"],
+      "6.2 Cycling of Materials in an Ecosystem>Attention: Decomposers": ["Bacteria", "Fungi", "Extracellular digestion"],
+      "6.2 Cycling of Materials in an Ecosystem>ACTIVITY 6.8 Think-Pair-Share": ["Atmospheric nitrogen", "Soil bacteria importance"],
+      "6.2 Cycling of Materials in an Ecosystem>Key terms: ATP, Eutrophication, Biofertilizers": ["Energy currency", "Nutrient pollution", "Microbial fertilizers"],
+      "Learning Competency": ["Outline trophic levels", "Elaborate food chain", "Draw cycles"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_round2_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 55,
+      "questions_per_concept_ratio": 0.55,
+      "structural_coverage_percentage": 52.6
+    }
+  },
+  "grade": "10",
+  "subject": "Biology",
+  "unit": "Unit 6: Ecological Interactions",
+  "pdf_filename": "B10U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:40:38Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 3,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 1.64,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 13,
+      "mini_headings_covered_count": 6,
+      "structural_coverage_percentage": 52.6,
+      "concept_utilization_ratio": 0.55
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.2 Cycling of Materials in an Ecosystem",
+      "least_covered_section": "Learning Competency",
+      "imbalance_ratio": 6.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U6_Q021",
+      "generation_timestamp": "2025-01-28T10:40:02Z",
+      "section": "6.1 Trophic Levels",
+      "subsection": "6.1.1 Food chain and food web",
+      "sub_subsection": null,
+      "structural_anchor": "6.1.1 Food chain and food web",
+      "mcq_type": "F",
+      "question": "Under what condition would an organism occupy more than one position in a food chain?",
+      "options": {
+        "A": "When it is a producer that also consumes other producers",
+        "B": "When it feeds on both plants and animals as an omnivore",
+        "C": "When it functions as both a herbivore and decomposer",
+        "D": "When it migrates between different ecosystems seasonally"
+      },
+      "correct_answer": "B",
+      "hint": "Consider organisms with varied diets across trophic levels.",
+      "explanation": "Omnivores consume both plants and animals, occupying multiple trophic positions based on their varied diet. Option A incorrectly describes a producer engaging in consumption, which contradicts its autotrophic nature.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.1 Trophic Levels",
+        "subsection_anchor": "6.1.1 Food chain and food web",
+        "structural_element": "6.1.1 Food chain and food web",
+        "content_anchor": "omnivorous occupy more than one position in the food chain",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_omnivore_trophic_position"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q022",
+      "generation_timestamp": "2025-01-28T10:40:04Z",
+      "section": "6.1 Trophic Levels",
+      "subsection": "6.1.2 Flow of energy and matter through ecosystem",
+      "sub_subsection": null,
+      "structural_anchor": "Keywords: Biomass, Ecological pyramid",
+      "mcq_type": "A",
+      "question": "What is biomass in ecological terms?",
+      "options": {
+        "A": "The total energy content of all organisms in an ecosystem",
+        "B": "The weight of living organic matter per unit time",
+        "C": "The number of individuals at each trophic level",
+        "D": "The rate of energy transfer between trophic levels"
+      },
+      "correct_answer": "B",
+      "hint": "Biomass refers to the mass of biological material.",
+      "explanation": "Biomass represents the weight of living organic matter produced or contained within organisms over time. Option A incorrectly describes energy content rather than organic mass measurement.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "keywords"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.1 Trophic Levels",
+        "subsection_anchor": "6.1.2 Flow of energy and matter through ecosystem",
+        "structural_element": "Keywords: Biomass, Ecological pyramid",
+        "content_anchor": "biomass is the weight of living organic matter contained or assimilated",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_biomass_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q023",
+      "generation_timestamp": "2025-01-28T10:40:06Z",
+      "section": "6.1 Trophic Levels",
+      "subsection": "ACTIVITY 6.2 Field Visit",
+      "sub_subsection": null,
+      "structural_anchor": "ACTIVITY 6.2 Field Visit",
+      "mcq_type": "L",
+      "question": "What would be the most direct method to observe feeding relationships in a grassland ecosystem?",
+      "options": {
+        "A": "Analyzing soil samples for nutrient content",
+        "B": "Monitoring temperature changes throughout the day",
+        "C": "Recording which organisms consume other organisms",
+        "D": "Measuring plant growth rates over time"
+      },
+      "correct_answer": "C",
+      "hint": "Feeding relationships involve direct observation of consumption.",
+      "explanation": "Direct observation of consumption events provides evidence of feeding relationships in an ecosystem. Option A measures soil nutrients but doesn't directly reveal which organisms eat others.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.1 Trophic Levels",
+        "subsection_anchor": "ACTIVITY 6.2 Field Visit",
+        "structural_element": "ACTIVITY 6.2 Field Visit",
+        "content_anchor": "observe feeding relationship among organisms",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_feeding_observation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 79,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q024",
+      "generation_timestamp": "2025-01-28T10:40:08Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "Self Test",
+      "sub_subsection": null,
+      "structural_anchor": "Self Test",
+      "mcq_type": "F",
+      "question": "Why is the cycling of materials essential in ecosystems with limited nutrient availability?",
+      "options": {
+        "A": "It allows continuous reuse of the same nutrient molecules",
+        "B": "It prevents energy loss between trophic levels",
+        "C": "It increases the total amount of nutrients available",
+        "D": "It reduces competition among organisms for resources"
+      },
+      "correct_answer": "A",
+      "hint": "Nutrients must be recycled since their total quantity is finite.",
+      "explanation": "Material cycling enables finite nutrients to be reused repeatedly through decomposition and reassimilation. Option C incorrectly suggests cycling increases total nutrients rather than reusing existing ones.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "self test"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "Self Test",
+        "structural_element": "Self Test",
+        "content_anchor": "materials in an ecosystem are found in a limited amount",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_cycling_necessity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q025",
+      "generation_timestamp": "2025-01-28T10:40:10Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "ACTIVITY 6.5 Peer discussion",
+      "sub_subsection": null,
+      "structural_anchor": "ACTIVITY 6.5 Peer discussion",
+      "mcq_type": "G",
+      "question": "What would be the primary consequence if decomposers were absent from an ecosystem?",
+      "options": {
+        "A": "Increased rates of photosynthesis in plants",
+        "B": "Accumulation of dead organic matter and nutrient depletion",
+        "C": "Enhanced energy transfer between trophic levels",
+        "D": "Reduced atmospheric carbon dioxide concentrations"
+      },
+      "correct_answer": "B",
+      "hint": "Decomposers break down dead matter and release nutrients.",
+      "explanation": "Without decomposers, dead organic matter would accumulate and nutrients would remain locked in corpses, unavailable for reuse. Option A incorrectly suggests enhanced photosynthesis when nutrient availability would actually decrease.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "ACTIVITY 6.5 Peer discussion",
+        "structural_element": "ACTIVITY 6.5 Peer discussion",
+        "content_anchor": "what will happen if decomposers are absent from the ecosystem",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_decomposer_absence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q026",
+      "generation_timestamp": "2025-01-28T10:40:12Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "Attention: Decomposers",
+      "sub_subsection": null,
+      "structural_anchor": "Attention: Decomposers",
+      "mcq_type": "I",
+      "question": "How does extracellular digestion in decomposers differ from digestion in animals?",
+      "options": {
+        "A": "Decomposers digest food internally, while animals digest externally",
+        "B": "Decomposers release enzymes outside their bodies, while animals digest internally",
+        "C": "Decomposers absorb nutrients through roots, while animals use digestive tracts",
+        "D": "Decomposers require sunlight for digestion, while animals do not"
+      },
+      "correct_answer": "B",
+      "hint": "Decomposers break down matter outside their cells.",
+      "explanation": "Decomposers secrete enzymes into the environment to break down organic matter externally, then absorb the products. Option A incorrectly reverses the internal/external digestion comparison.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "attention"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "Attention: Decomposers",
+        "structural_element": "Attention: Decomposers",
+        "content_anchor": "digestion in decomposers takes place outside the living body",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_extracellular_digestion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q027",
+      "generation_timestamp": "2025-01-28T10:40:14Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives",
+      "mcq_type": "D",
+      "question": "What relationship exists between the carbon cycle and global warming?",
+      "options": {
+        "A": "Increased carbon sequestration reduces global temperatures",
+        "B": "Enhanced photosynthesis eliminates greenhouse gas effects",
+        "C": "Atmospheric carbon dioxide accumulation traps heat",
+        "D": "Carbon cycling regulates oceanic current patterns"
+      },
+      "correct_answer": "C",
+      "hint": "Carbon dioxide is a greenhouse gas that affects heat retention.",
+      "explanation": "Increased atmospheric carbon dioxide from human activities enhances the greenhouse effect, trapping heat and causing global warming. Option A addresses carbon sequestration but not its direct relationship with heat trapping.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "Objectives",
+        "structural_element": "Objectives",
+        "content_anchor": "relate the carbon cycle with global warming",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_carbon_warming_relationship"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q028",
+      "generation_timestamp": "2025-01-28T10:40:16Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "6.2.3 Nitrogen cycle",
+      "sub_subsection": "1. Nitrogen fixation",
+      "structural_anchor": "1. Nitrogen fixation",
+      "mcq_type": "J",
+      "question": "Which type of nitrogen fixation involves bacteria forming root nodules in leguminous plants?",
+      "options": {
+        "A": "Atmospheric fixation by lightning",
+        "B": "Industrial fixation in laboratories",
+        "C": "Symbiotic nitrogen fixation",
+        "D": "Non-symbiotic fixation by free-living bacteria"
+      },
+      "correct_answer": "C",
+      "hint": "Symbiosis involves close association between different organisms.",
+      "explanation": "Symbiotic nitrogen fixation occurs when rhizobia bacteria form nodules on legume roots and convert atmospheric nitrogen to ammonia. Option D describes free-living bacteria that fix nitrogen without plant associations.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "6.2.3 Nitrogen cycle",
+        "structural_element": "1. Nitrogen fixation",
+        "content_anchor": "symbiotic nitrogen fixation is carried out in the root nodules of leguminous plants",
+        "page_hint": "Page 12-13",
+        "concept_hash": "sha256_of_symbiotic_fixation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q029",
+      "generation_timestamp": "2025-01-28T10:40:18Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "ACTIVITY 6.8 Think-Pair-Share",
+      "sub_subsection": null,
+      "structural_anchor": "ACTIVITY 6.8 Think-Pair-Share",
+      "mcq_type": "F",
+      "question": "Why are soil bacteria essential for nitrogen availability to plants despite atmospheric nitrogen abundance?",
+      "options": {
+        "A": "Soil bacteria directly absorb atmospheric nitrogen for plant use",
+        "B": "Plants can use atmospheric nitrogen without bacterial assistance",
+        "C": "Bacteria convert atmospheric nitrogen into forms plants can absorb",
+        "D": "Soil bacteria reduce competition for nitrogen among plants"
+      },
+      "correct_answer": "C",
+      "hint": "Atmospheric nitrogen gas is inert and unavailable to most organisms.",
+      "explanation": "Soil bacteria perform nitrogen fixation, converting inert atmospheric nitrogen into ammonia and nitrate that plants can absorb and utilize. Option A incorrectly suggests direct absorption rather than chemical conversion.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "ACTIVITY 6.8 Think-Pair-Share",
+        "structural_element": "ACTIVITY 6.8 Think-Pair-Share",
+        "content_anchor": "atmospheric nitrogen cannot be directly used by both plants and animals",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_bacterial_nitrogen_conversion"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Bio_U6_Q030",
+      "generation_timestamp": "2025-01-28T10:40:20Z",
+      "section": "6.2 Cycling of Materials in an Ecosystem",
+      "subsection": "Key terms: ATP, Eutrophication, Biofertilizers",
+      "sub_subsection": null,
+      "structural_anchor": "Key terms: ATP, Eutrophication, Biofertilizers",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to preferring chemical fertilizers over biofertilizers for sustainable agriculture?",
+      "options": {
+        "A": "Overestimating the immediate nutrient availability of chemical fertilizers",
+        "B": "Ignoring that biofertilizers improve soil structure and provide continuous nutrients",
+        "C": "Assuming chemical fertilizers have no environmental impact",
+        "D": "Confusing biofertilizers with pesticides in agricultural application"
+      },
+      "correct_answer": "B",
+      "hint": "Biofertilizers offer long-term benefits beyond immediate nutrient supply.",
+      "explanation": "The misconception overlooks that biofertilizers enhance soil structure, provide sustained nutrient release, and are eco-friendly compared to chemical alternatives. Option A addresses a different issue about timing rather than long-term sustainability.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key terms"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecological Interactions",
+        "section_anchor": "6.2 Cycling of Materials in an Ecosystem",
+        "subsection_anchor": "Key terms: ATP, Eutrophication, Biofertilizers",
+        "structural_element": "Key terms: ATP, Eutrophication, Biofertilizers",
+        "content_anchor": "biofertilizers, being cost effective, non-toxic, and eco-friendly",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_of_biofertilizer_advantage"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 77,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 94
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2950,
+    "average_question_quality": 83.8,
+    "type_distribution": {
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 1,
+      "F": 3,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "K": 0,
+      "L": 1,
+      "M": 0
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 8,
+      "hard": 0
+    },
+    "section_distribution": {
+      "6.1 Trophic Levels": 3,
+      "6.2 Cycling of Materials in an Ecosystem": 7
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

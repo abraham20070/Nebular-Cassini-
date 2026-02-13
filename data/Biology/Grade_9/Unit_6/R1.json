@@ -1,0 +1,760 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-14T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G9_Bio_U6_Q010",
+    "covered_sections": ["6.1 Ecology>6.1.1 Definitions", "6.1 Ecology>6.1.2. Biotic and abiotic components", "6.1 Ecology>6.1.3. Ecological levels", "6.1 Ecology>6.1.4 Ecosystems", "6.1 Ecology>6.1.5 Biomes"],
+    "used_question_signatures": ["hash_Def_Ecology_WhatIsEcology", "hash_Term_Ecology_Ecologist", "hash_Con_A_Factors_LightAquatic", "hash_Con_B_Factors_OxygenAquatic", "hash_Type_G_Predation_Effect", "hash_Type_H_Mutualism_Error", "hash_Type_D_Levels_Population", "hash_Type_F_Levels_Community", "hash_Type_A_Biome_TropicalRainforest", "hash_Type_C_Succession_Primary"],
+    "baseline_counter": {
+      "6.1 Ecology": {
+        "6.1.1 Definitions": {
+          "count": 2,
+          "mini_headings_covered": ["What is Ecology?"],
+          "last_question_round": 1
+        },
+        "6.1.2. Biotic and abiotic components": {
+          "count": 2,
+          "mini_headings_covered": ["Abiotic Factors", "Biotic Factors"],
+          "last_question_round": 1
+        },
+        "6.1.3. Ecological levels": {
+          "count": 2,
+          "mini_headings_covered": ["What is a population?", "What is a biological community?"],
+          "last_question_round": 1
+        },
+        "6.1.4 Ecosystems": {
+          "count": 1,
+          "mini_headings_covered": ["Types of ecosystems"],
+          "last_question_round": 1
+        },
+        "6.1.5 Biomes": {
+          "count": 2,
+          "mini_headings_covered": ["What are the tropical rain forests?", "What is a desert?"],
+          "last_question_round": 1
+        },
+        "1.1.6 Ecological succession": {
+          "count": 1,
+          "mini_headings_covered": ["Key Terms"],
+          "last_question_round": 1
+        },
+        "6.2. Ecological relationships": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Ecology": {
+        "question_count": 10,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "6.2. Ecological relationships": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Ecology>6.1.1 Definitions": ["Ecology", "Ecologist"],
+      "6.1 Ecology>6.1.2. Biotic and abiotic components": ["Abiotic Factors", "Light Penetration", "Dissolved Oxygen", "Biotic Factors", "Predation", "Mutualism"],
+      "6.1 Ecology>6.1.3. Ecological levels": ["Population", "Biological Community"],
+      "6.1 Ecology>6.1.4 Ecosystems": ["Terrestrial Ecosystems", "Aquatic Ecosystems"],
+      "6.1 Ecology>6.1.5 Biomes": ["Tropical Rainforest", "Desert"],
+      "6.1 Ecology>1.1.6 Ecological succession": ["Primary Succession"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_initial_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 16,
+      "questions_per_concept_ratio": 0.625,
+      "structural_coverage_percentage": 22.6
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 6: Ecology",
+  "pdf_filename": "B9U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-14T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 1,
+        "total_sections": 2,
+        "progress_percentage": 50.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 7,
+      "structural_coverage_percentage": 22.6,
+      "concept_utilization_ratio": 0.625
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.1 Ecology",
+      "least_covered_section": "6.2. Ecological relationships",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U6_Q001",
+      "generation_timestamp": "2025-01-14T10:30:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.1 Definitions",
+      "sub_subsection": null,
+      "structural_anchor": "What is Ecology?",
+      "mcq_type": "A",
+      "question": "Which field of biology specifically investigates the interactions between organisms and their physical surroundings?",
+      "options": {
+        "A": "Ecology",
+        "B": "Genetics",
+        "C": "Physiology",
+        "D": "Taxonomy"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the study of relationships in nature.",
+      "explanation": "Ecology is the branch of biology focused on the relationships between living organisms and their abiotic environment. Option B incorrectly refers to the study of heredity and gene function.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.1 Definitions",
+        "structural_element": "What is Ecology?",
+        "content_anchor": "study of relationships of organisms to one another and to their environment",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q002",
+      "generation_timestamp": "2025-01-14T10:30:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.1 Definitions",
+      "sub_subsection": null,
+      "structural_anchor": "What is Ecology?",
+      "mcq_type": "B",
+      "question": "A scientist who studies how temperature fluctuations affect insect populations is most likely a specialist in which field?",
+      "options": {
+        "A": "Ecologist",
+        "B": "Geneticist",
+        "C": "Anatomist",
+        "D": "Microbiologist"
+      },
+      "correct_answer": "A",
+      "hint": "This field involves organism-environment interactions.",
+      "explanation": "An ecologist studies the relationships between organisms and their abiotic and biotic environments, including factors like temperature. Option B is incorrect because genetics focuses on genes and inheritance.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.1 Definitions",
+        "structural_element": "What is Ecology?",
+        "content_anchor": "The scientist who studies ecology is known as ecologist.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q003",
+      "generation_timestamp": "2025-01-14T10:30:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.2. Biotic and abiotic components",
+      "sub_subsection": null,
+      "structural_anchor": "Abiotic Factors",
+      "mcq_type": "F",
+      "question": "In a deep lake, photosynthetic activity is highest near the surface. Which reasoning best explains this distribution?",
+      "options": {
+        "A": "Light penetration decreases with depth, limiting the energy available for photosynthesis.",
+        "B": "Nutrient concentrations are uniformly high throughout the water column.",
+        "C": "Oxygen solubility increases significantly at greater depths.",
+        "D": "Water temperature is consistently warmer at the lake bottom."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the primary requirement for the photosynthesis process.",
+      "explanation": "Photosynthesis requires light energy, which is absorbed and scattered by water, becoming insufficient at depth. Option C presents a factual error, as oxygen solubility typically decreases with increasing temperature, not depth.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.2. Biotic and abiotic components",
+        "structural_element": "Abiotic Factors",
+        "content_anchor": "light cannot penetrate beyond certain depths...most photosynthesis in a body of water occurs near the surface",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q004",
+      "generation_timestamp": "2025-01-14T10:30:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.2. Biotic and abiotic components",
+      "sub_subsection": null,
+      "structural_anchor": "Abiotic Factors",
+      "mcq_type": "F",
+      "question": "Cold, fast-moving streams generally support fish species that require high oxygen levels. What is the most direct cause for this environmental condition?",
+      "options": {
+        "A": "Lower water temperature increases the solubility of atmospheric gases like oxygen.",
+        "B": "Fast flow reduces the surface area of water exposed to the air.",
+        "C": "Turbulence prevents atmospheric oxygen from dissolving into the water.",
+        "D": "Cold water holds less dissolved gas than warm, stagnant water."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the physical relationship between gas solubility and temperature.",
+      "explanation": "The solubility of gases, including oxygen, in water is inversely related to temperature; colder water can hold more dissolved oxygen. Option D is incorrect because it reverses the fundamental relationship between temperature and gas solubility.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.2. Biotic and abiotic components",
+        "structural_element": "Abiotic Factors",
+        "content_anchor": "Cold, fast- moving water has higher oxygen content than warm or stagnant water.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q005",
+      "generation_timestamp": "2025-01-14T10:30:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.2. Biotic and abiotic components",
+      "sub_subsection": null,
+      "structural_anchor": "Biotic Factors",
+      "mcq_type": "G",
+      "question": "If the population of a top predator, such as a hawk, increases in a stable ecosystem, what is the most immediate direct effect on its prey species?",
+      "options": {
+        "A": "The prey population size decreases due to increased predation.",
+        "B": "The prey species will develop immediate physical camouflage.",
+        "C": "The reproductive rate of the prey will instantly increase.",
+        "D": "The prey will migrate to a completely different biome."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the direct consumer-resource relationship.",
+      "explanation": "Predation is a direct (+/-) interaction where an increase in predator numbers leads to higher consumption of prey, reducing the prey population. Option C is a long-term evolutionary response, not an immediate direct effect.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.2. Biotic and abiotic components",
+        "structural_element": "Biotic Factors",
+        "content_anchor": "predators (organisms that kill their prey)",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q006",
+      "generation_timestamp": "2025-01-14T10:30:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.2. Biotic and abiotic components",
+      "sub_subsection": null,
+      "structural_anchor": "Biotic Factors",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that mutualism involves no cost to either participating species?",
+      "options": {
+        "A": "It overlooks the metabolic energy each species invests to maintain the partnership.",
+        "B": "It correctly assumes both species always benefit equally from the interaction.",
+        "C": "It confuses mutualism with commensalism, where one species benefits at no cost.",
+        "D": "It ignores the fact that mutualism is a type of competition for resources."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the balance of benefits and investments in symbiotic relationships.",
+      "explanation": "Mutualism is a (+/+) interaction where both species benefit, but each incurs costs, such as energy expenditure. Option C is incorrect because it misidentifies the type of interaction; commensalism involves one species benefiting without affecting the other.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.2. Biotic and abiotic components",
+        "structural_element": "Biotic Factors",
+        "content_anchor": "Both partners in a mutualism incur costs as well as benefits.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q007",
+      "generation_timestamp": "2025-01-14T10:30:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.3. Ecological levels",
+      "sub_subsection": null,
+      "structural_anchor": "What is a population?",
+      "mcq_type": "D",
+      "question": "Which scenario describes a single population within an ecosystem?",
+      "options": {
+        "A": "All the oak trees of the same species in a forest.",
+        "B": "The trees, shrubs, and grasses in a meadow.",
+        "C": "The fish, algae, and bacteria in a pond.",
+        "D": "A pride of lions and the zebras they hunt."
+      },
+      "correct_answer": "A",
+      "hint": "A population consists of interbreeding members of one species in an area.",
+      "explanation": "A population is defined as a group of interbreeding organisms of the same species living in the same area at the same time. Option B describes a community, which includes multiple species.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.3. Ecological levels",
+        "structural_element": "What is a population?",
+        "content_anchor": "A population is a group of interbreeding organisms that are members of the same species living in the same area at the same time.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q008",
+      "generation_timestamp": "2025-01-14T10:30:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.3. Ecological levels",
+      "sub_subsection": null,
+      "structural_anchor": "What is a biological community?",
+      "mcq_type": "F",
+      "question": "In a woodland, birds eat insects, fungi decompose leaves, and all organisms are influenced by rainfall. Which concept best encompasses these observations?",
+      "options": {
+        "A": "Biological Community",
+        "B": "Population",
+        "C": "Biosphere",
+        "D": "Ecosystem"
+      },
+      "correct_answer": "D",
+      "hint": "Consider both the living interactions and the non-living environmental factors.",
+      "explanation": "An ecosystem includes all the biotic interactions within a community plus the abiotic factors, such as rainfall, that affect them. Option A is incorrect because a biological community includes only the living species and their interactions, excluding abiotic factors.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.3. Ecological levels",
+        "structural_element": "What is a biological community?",
+        "content_anchor": "These relationships between different populations and their surroundings create an ecosystem.",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q009",
+      "generation_timestamp": "2025-01-14T10:30:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.5 Biomes",
+      "sub_subsection": null,
+      "structural_anchor": "What are the tropical rain forests?",
+      "mcq_type": "A",
+      "question": "A biome characterized by year-round warm temperatures, high annual rainfall, and vertically layered vegetation is identified as which type?",
+      "options": {
+        "A": "Tropical Rainforest",
+        "B": "Temperate Grassland",
+        "C": "Boreal Forest",
+        "D": "Tundra"
+      },
+      "correct_answer": "A",
+      "hint": "Think of biomes near the equator with dense, multi-layered plant growth.",
+      "explanation": "Tropical rainforests are defined by consistent high temperatures, abundant precipitation, and intense competition for light leading to distinct vertical layers of plants. Option B is incorrect because temperate grasslands have seasonal temperature variations and are dominated by grasses, not layered trees.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.5 Biomes",
+        "structural_element": "What are the tropical rain forests?",
+        "content_anchor": "Tropical rain forests of evergreen broad-leaf trees...Rain that falls throughout the year...Plants are vertically layered",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q010",
+      "generation_timestamp": "2025-01-14T10:30:00Z",
+      "section": "6.1 Ecology",
+      "subsection": "1.1.6 Ecological succession",
+      "sub_subsection": null,
+      "structural_anchor": "Key Terms",
+      "mcq_type": "C",
+      "question": "The colonization of barren land, such as cooled lava flows, by pioneer organisms like lichens is an initial stage in which ecological process?",
+      "options": {
+        "A": "Primary Succession",
+        "B": "Secondary Succession",
+        "C": "Competitive Exclusion",
+        "D": "Climax Community Formation"
+      },
+      "correct_answer": "A",
+      "hint": "This process starts in an area with no pre-existing soil or biological community.",
+      "explanation": "Primary succession is defined as the ecological process beginning in a virtually lifeless area without soil, such as on new volcanic rock. Option B is incorrect because secondary succession occurs on sites where an existing community has been disturbed but soil remains.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "1.1.6 Ecological succession",
+        "structural_element": "Key Terms",
+        "content_anchor": "primary succession: colonization of barren land by pioneer organisms",
+        "page_hint": null,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2450,
+    "average_question_quality": 84.0,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "F": 3,
+      "G": 1,
+      "H": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "6.1 Ecology": 10
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

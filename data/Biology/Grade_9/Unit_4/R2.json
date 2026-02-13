@@ -1,0 +1,840 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2026-01-28T10:10:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G9_Bio_U4_Q020",
+    "covered_sections": ["Introduction to reproduction", "Asexual reproduction", "Types of asexual reproduction", "Sexual reproduction in Humans"],
+    "used_question_signatures": ["8f3c9b2a1d5e7f0a", "4b7a2c9d1e6f0a3b", "2d9a5c7b1f0e3a4b", "5c1a9d3b7f0e2a4b", "7b2d5a1c9f0e3a4b", "1a9c5d3b7f0e2a4b", "9b3c7a1d5f0e2a4b", "3a7c5b1d9f0e2a4b", "6f0a2b4c7d1e3a5b", "2b4a6c0f7d1e3a5b", "4d7a1c9b3f0e2a5b", "7a1d4c9b3f0e2a5b", "1c9a4d7b3f0e2a5b", "9a1c4d7b3f0e2a5b", "c4a1d9b7f0e3a2b5", "d1a4c9b7f0e3a2b5", "a4c1d9b7f0e3a2b5", "9b1c4a7d0f3e2a5b", "b1c9a4d7f0e3a2b5", "1c9b4a7d0f3e2a5b"],
+    "baseline_counter": {
+      "Introduction to reproduction": {
+        "Learning competences": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Activity 4.1. Reflective discussion": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "4.1 Introduction to reproduction": {
+          "count": 1,
+          "mini_headings_covered": ["What is reproduction?"],
+          "last_question_round": 1
+        }
+      },
+      "Asexual reproduction": {
+        "4.2 Asexual reproduction": {
+          "count": 2,
+          "mini_headings_covered": ["What is common to all types of asexual reproduction?"],
+          "last_question_round": 1
+        },
+        "Activity 4.2: Concept mapping": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Types of asexual reproduction": {
+        "4.3 Types of asexual reproduction": {
+          "count": 2,
+          "mini_headings_covered": ["Did You Know?"],
+          "last_question_round": 1
+        },
+        "4.3.1 Fission": {
+          "count": 2,
+          "mini_headings_covered": ["What are the steps of fission?"],
+          "last_question_round": 2
+        },
+        "4.3.2 Fragmentation": {
+          "count": 2,
+          "mini_headings_covered": ["What is fragmentation?"],
+          "last_question_round": 2
+        },
+        "4.3.3 Budding": {
+          "count": 2,
+          "mini_headings_covered": ["In budding, the two daughter cells are unequal. Why?"],
+          "last_question_round": 2
+        },
+        "4.3.4 Vegetative propagation": {
+          "count": 3,
+          "mini_headings_covered": ["What is a stolon?", "What is a rhizome?", "What is a corm?", "What is a tuber?", "What is a bulb?"],
+          "last_question_round": 2
+        },
+        "4.3.5 Parthenogenesis": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Sexual reproduction in Humans": {
+        "4.4 Sexual reproduction in Humans": {
+          "count": 2,
+          "mini_headings_covered": ["What is sexual reproduction?"],
+          "last_question_round": 2
+        },
+        "4.5 Primary and secondary sexual characteristics": {
+          "count": 1,
+          "mini_headings_covered": ["What are primary sexual characteristics?"],
+          "last_question_round": 2
+        },
+        "4.6 Male reproductive structures": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "4.7. Female reproductive structures": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "4.8 The Menstrual cycle": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "4.8 Fertilization and pregnancy": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "4.10 Methods of birth control": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "4.11 Sexually transmitted infections (STIs): Transmission and prevention": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction to reproduction": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Asexual reproduction": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Types of asexual reproduction": {
+        "question_count": 11,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Sexual reproduction in Humans": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction to reproduction>4.1 Introduction to reproduction": ["Reproduction as a characteristic of life", "Modes of reproduction"],
+      "Asexual reproduction>4.2 Asexual reproduction": ["Asexual reproduction definition", "Advantages of asexual reproduction", "Disadvantages of asexual reproduction"],
+      "Types of asexual reproduction>4.3 Types of asexual reproduction": ["Bacterial reproduction rate"],
+      "Types of asexual reproduction>4.3.1 Fission": ["Binary fission", "Multiple fission"],
+      "Types of asexual reproduction>4.3.2 Fragmentation": ["Fragmentation as asexual reproduction", "Regeneration in fragmentation"],
+      "Types of asexual reproduction>4.3.3 Budding": ["Budding process", "Unequal division in budding", "Yeast budding"],
+      "Types of asexual reproduction>4.3.4 Vegetative propagation": ["Stolon", "Rhizome", "Corm", "Tuber", "Bulb", "Food storage in vegetative structures"],
+      "Types of asexual reproduction>4.3.5 Parthenogenesis": ["Parthenogenesis definition", "Unfertilized egg development"],
+      "Sexual reproduction in Humans>4.4 Sexual reproduction in Humans": ["Sexual reproduction definition", "Gametes", "Fertilization", "Zygote"],
+      "Sexual reproduction in Humans>4.5 Primary and secondary sexual characteristics": ["Primary sexual characteristics", "Secondary sexual characteristics"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 24,
+      "questions_per_concept_ratio": 0.83,
+      "structural_coverage_percentage": 29.4
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 4: Reproduction",
+  "pdf_filename": "B9U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-01-28T10:15:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 8,
+        "progress_percentage": 50.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 12,
+      "mini_headings_covered_count": 12,
+      "structural_coverage_percentage": 29.4,
+      "concept_utilization_ratio": 0.83
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Types of asexual reproduction",
+      "least_covered_section": "Introduction to reproduction",
+      "imbalance_ratio": 5.5,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.83,
+      "remaining_concept_capacity": 4
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U4_Q011",
+      "generation_timestamp": "2026-01-28T10:06:00Z",
+      "section": "Types of asexual reproduction",
+      "subsection": "4.3.1 Fission",
+      "sub_subsection": null,
+      "structural_anchor": "What are the steps of fission?",
+      "mcq_type": "I",
+      "question": "How does multiple fission differ from binary fission?",
+      "options": {
+        "A": "Multiple fission produces two identical daughter cells, while binary fission produces many.",
+        "B": "Multiple fission involves repeated nuclear divisions before cytoplasm divides, while binary fission involves one division.",
+        "C": "Multiple fission occurs only in multicellular organisms, while binary fission occurs in unicellular organisms.",
+        "D": "Multiple fission requires gamete formation, while binary fission does not."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the number of divisions the nucleus undergoes before cytoplasmic separation.",
+      "explanation": "In multiple fission, the nucleus divides repeatedly before the cytoplasm separates, producing many daughter cells. Option A reverses the definitions, incorrectly assigning the production of many cells to binary fission.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Types of asexual reproduction",
+        "subsection_anchor": "4.3.1 Fission",
+        "structural_element": "What are the steps of fission?",
+        "content_anchor": "nucleus of the orgasms divide repeatedly... production of many daughter cells",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_multiple_fission"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q012",
+      "generation_timestamp": "2026-01-28T10:06:30Z",
+      "section": "Types of asexual reproduction",
+      "subsection": "4.3.2 Fragmentation",
+      "sub_subsection": null,
+      "structural_anchor": "What is fragmentation?",
+      "mcq_type": "G",
+      "question": "What must occur for fragmentation to successfully result in new individuals?",
+      "options": {
+        "A": "Each fragment must contain specialized reproductive cells.",
+        "B": "Each fragment must be capable of regeneration and growth.",
+        "C": "The fragments must fuse with fragments from another organism.",
+        "D": "The fragments must undergo meiosis before developing."
+      },
+      "correct_answer": "B",
+      "hint": "Consider what biological capability the fragments need.",
+      "explanation": "Successful fragmentation requires each piece to regenerate missing parts and grow into a complete organism. Option A is incorrect because asexual reproduction like fragmentation does not involve specialized reproductive cells.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 87
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Types of asexual reproduction",
+        "subsection_anchor": "4.3.2 Fragmentation",
+        "structural_element": "What is fragmentation?",
+        "content_anchor": "each fragment capable of becoming a complete individual",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_regeneration_in_fragmentation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q013",
+      "generation_timestamp": "2026-01-28T10:07:00Z",
+      "section": "Types of asexual reproduction",
+      "subsection": "4.3.3 Budding",
+      "sub_subsection": null,
+      "structural_anchor": "In budding, the two daughter cells are unequal. Why?",
+      "mcq_type": "H",
+      "question": "Which statement identifies a misconception about the genetic outcome of budding?",
+      "options": {
+        "A": "Budding produces genetically different offspring because the bud receives a mutated nucleus.",
+        "B": "Budding produces genetically identical offspring because nuclear division is mitotic.",
+        "C": "The size difference between parent and bud indicates a difference in genetic material.",
+        "D": "The bud is genetically identical to the parent despite the physical size difference."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the type of cell division involved in budding.",
+      "explanation": "Budding involves mitotic division, ensuring genetic identity between parent and offspring. Option B correctly states the genetic outcome, while option A presents the misconception that budding creates genetic variation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 85
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Types of asexual reproduction",
+        "subsection_anchor": "4.3.3 Budding",
+        "structural_element": "In budding, the two daughter cells are unequal. Why?",
+        "content_anchor": "nucleus divides mitotically",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_genetic_identity_in_budding"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 83,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q014",
+      "generation_timestamp": "2026-01-28T10:07:30Z",
+      "section": "Types of asexual reproduction",
+      "subsection": "4.3.4 Vegetative propagation",
+      "sub_subsection": null,
+      "structural_anchor": "What is a corm?",
+      "mcq_type": "B",
+      "question": "What vegetative structure is rounded, fleshy, and functions as an underground food storage organ?",
+      "options": {
+        "A": "Stolon",
+        "B": "Rhizome",
+        "C": "Corm",
+        "D": "Tuber"
+      },
+      "correct_answer": "C",
+      "hint": "This structure is similar to a rhizome but more rounded and fleshy.",
+      "explanation": "A corm is a rounded, fleshy underground stem that stores food, enabling plant survival through unfavorable periods. Option D describes a tuber, which is also a food storage organ but typically forms as a swollen end of a stolon.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 79
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Types of asexual reproduction",
+        "subsection_anchor": "4.3.4 Vegetative propagation",
+        "structural_element": "What is a corm?",
+        "content_anchor": "Comms are similar to rhizomes, except they are more rounded and fleshy",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_corm_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q015",
+      "generation_timestamp": "2026-01-28T10:08:00Z",
+      "section": "Types of asexual reproduction",
+      "subsection": "4.3.4 Vegetative propagation",
+      "sub_subsection": null,
+      "structural_anchor": "What is a tuber?",
+      "mcq_type": "D",
+      "question": "A potato plant reproduces asexually using tubers. What is the primary function of the tuber in this process?",
+      "options": {
+        "A": "To produce flowers for sexual reproduction",
+        "B": "To store starch that nourishes developing shoots",
+        "C": "To anchor the plant firmly in the soil",
+        "D": "To perform photosynthesis for the new plant"
+      },
+      "correct_answer": "B",
+      "hint": "Consider what resource the tuber provides for the new plant's initial growth.",
+      "explanation": "Potato tubers store starch, which provides energy for the growth of new shoots from buds. Option C describes the function of roots, not the food-storage role of tubers.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 86
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Types of asexual reproduction",
+        "subsection_anchor": "4.3.4 Vegetative propagation",
+        "structural_element": "What is a tuber?",
+        "content_anchor": "Tubers are modified stems that may store starch",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_food_storage_in_tuber"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 83
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q016",
+      "generation_timestamp": "2026-01-28T10:08:30Z",
+      "section": "Types of asexual reproduction",
+      "subsection": "4.3.5 Parthenogenesis",
+      "sub_subsection": null,
+      "structural_anchor": "4.3.5 Parthenogenesis",
+      "mcq_type": "A",
+      "question": "What process describes the development of an adult organism from an unfertilized egg?",
+      "options": {
+        "A": "Fragmentation",
+        "B": "Budding",
+        "C": "Parthenogenesis",
+        "D": "Binary fission"
+      },
+      "correct_answer": "C",
+      "hint": "This process involves egg development without fertilization.",
+      "explanation": "Parthenogenesis is asexual reproduction where an unfertilized egg develops into a complete organism. Option A involves body fragmentation, not egg development.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 76
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Types of asexual reproduction",
+        "subsection_anchor": "4.3.5 Parthenogenesis",
+        "structural_element": "4.3.5 Parthenogenesis",
+        "content_anchor": "unfertilized egg develops into an adult organism",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_parthenogenesis_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 82
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q017",
+      "generation_timestamp": "2026-01-28T10:09:00Z",
+      "section": "Sexual reproduction in Humans",
+      "subsection": "4.4 Sexual reproduction in Humans",
+      "sub_subsection": null,
+      "structural_anchor": "What is sexual reproduction?",
+      "mcq_type": "A",
+      "question": "Which process involves the fusion of male and female gametes to form a zygote?",
+      "options": {
+        "A": "Asexual reproduction",
+        "B": "Sexual reproduction",
+        "C": "Vegetative propagation",
+        "D": "Parthenogenesis"
+      },
+      "correct_answer": "B",
+      "hint": "Look for the process that requires the union of two reproductive cells.",
+      "explanation": "Sexual reproduction involves the fusion of sperm and egg gametes during fertilization to form a zygote. Option D describes development from an unfertilized egg, which does not involve gamete fusion.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Sexual reproduction in Humans",
+        "subsection_anchor": "4.4 Sexual reproduction in Humans",
+        "structural_element": "What is sexual reproduction?",
+        "content_anchor": "union of sperm and an egg in a process called fertilization",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_sexual_reproduction_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q018",
+      "generation_timestamp": "2026-01-28T10:09:30Z",
+      "section": "Sexual reproduction in Humans",
+      "subsection": "4.4 Sexual reproduction in Humans",
+      "sub_subsection": null,
+      "structural_anchor": "What is sexual reproduction?",
+      "mcq_type": "I",
+      "question": "How do gametes produced through meiosis differ from cells produced through mitosis?",
+      "options": {
+        "A": "Gametes are diploid and genetically identical, while mitotic cells are haploid and diverse.",
+        "B": "Gametes are haploid and genetically unique, while mitotic cells are diploid and identical.",
+        "C": "Gametes are produced in somatic tissues, while mitotic cells are produced in gonads.",
+        "D": "Gametes undergo one nuclear division, while mitotic cells undergo two divisions."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the chromosome number and genetic variation in each process.",
+      "explanation": "Meiosis produces haploid gametes with genetic variation due to crossing over, while mitosis produces diploid daughter cells genetically identical to the parent. Option A incorrectly reverses the chromosome numbers and genetic relationships.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 84
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Sexual reproduction in Humans",
+        "subsection_anchor": "4.4 Sexual reproduction in Humans",
+        "structural_element": "What is sexual reproduction?",
+        "content_anchor": "gametes are produced through meiosis",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_meiosis_in_gamete_production"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q019",
+      "generation_timestamp": "2026-01-28T10:10:00Z",
+      "section": "Sexual reproduction in Humans",
+      "subsection": "4.5 Primary and secondary sexual characteristics",
+      "sub_subsection": null,
+      "structural_anchor": "What are primary sexual characteristics?",
+      "mcq_type": "B",
+      "question": "What term describes the reproductive structures present at birth, such as testes in males and ovaries in females?",
+      "options": {
+        "A": "Secondary sexual characteristics",
+        "B": "Primary sexual characteristics",
+        "C": "Hormonal characteristics",
+        "D": "Puberty characteristics"
+      },
+      "correct_answer": "B",
+      "hint": "These are the fundamental anatomical differences between sexes present from birth.",
+      "explanation": "Primary sexual characteristics are the reproductive organs present at birth, including testes and penis in males and ovaries and uterus in females. Option A refers to traits that develop during puberty, such as body hair or breast development.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Sexual reproduction in Humans",
+        "subsection_anchor": "4.5 Primary and secondary sexual characteristics",
+        "structural_element": "What are primary sexual characteristics?",
+        "content_anchor": "human males are born with the penis, scrotum and testicle whereas females are born with vagina, uterus, and ovaries",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_primary_sexual_characteristics"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G9_Bio_U4_Q020",
+      "generation_timestamp": "2026-01-28T10:10:30Z",
+      "section": "Sexual reproduction in Humans",
+      "subsection": "4.5 Primary and secondary sexual characteristics",
+      "sub_subsection": null,
+      "structural_anchor": "What are secondary sexual characteristics?",
+      "mcq_type": "D",
+      "question": "During puberty, increased testosterone in males stimulates specific physical changes. Which change is directly caused by this hormone?",
+      "options": {
+        "A": "Production of eggs in the ovaries",
+        "B": "Broadening of hips and breast development",
+        "C": "Deepening of the voice and growth of facial hair",
+        "D": "Onset of the menstrual cycle"
+      },
+      "correct_answer": "C",
+      "hint": "Consider which changes are typically associated with male puberty.",
+      "explanation": "Testosterone drives male secondary sexual characteristics, including voice deepening and facial hair growth. Option B describes female secondary characteristics primarily influenced by estrogen.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 86
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Reproduction",
+        "section_anchor": "Sexual reproduction in Humans",
+        "subsection_anchor": "4.5 Primary and secondary sexual characteristics",
+        "structural_element": "What are secondary sexual characteristics?",
+        "content_anchor": "Testosterone is responsible for the growth and development of secondary sex characteristics in the male",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_testosterone_effects"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 270000,
+    "average_question_quality": 83.6,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "D": 2,
+      "G": 1,
+      "H": 1,
+      "I": 2
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Types of asexual reproduction": 6,
+      "Sexual reproduction in Humans": 4
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,795 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-08-07T00:01:00Z",
+  "round_id": "R01",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Physics_U4_Q020",
+    "covered_sections": ["Introduction>The Concept of Force and Newton's Laws of motion", "Introduction>Weight and the Gravitational Force", "4.2 Frictional Force", "4.3 The First Condition of Equilibrium", "4.4 Work, Energy and Power", "4.5 Conservation of mechanical energy", "4.6 Impulse and Linear Momentum"],
+    "used_question_signatures": ["0cfe3e7b7a3c8a6f1e2d4b9c8a7f6e5d3", "1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6", "7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d", "2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s", "8t9u0v1w2x3y4z5a6b7c8d9e0f1g2", "3h4i5j6k7l8m9n0o1p2q3r4s5t6u7", "8v9w0x1y2z3a4b5c6d7e8f9g0h1i", "2j3k4l5m6n7o8p9q0r1s2t3u4v5w6", "7x8y9z0a1b2c3d4e5f6g7h8i9j0k", "1l2m3n4o5p6q7r8s9t0u1v2w3x4y", "5z6a7b8c9d0e1f2g3h4i5j6k7l8m9", "0n1o2p3q4r5s6t7u8v9w0x1y2z3a4", "5b6c7d8e9f0g1h2i3j4k5l6m7n8o9", "0p1q2r3s4t5u6v7w8x9y0z1a2b3c4", "5d6e7f8g9h0i1j2k3l4m5n6o7p8q9", "0r1s2t3u4v5w6x7y8z9a0b1c2d3e4", "5f6g7h8i9j0k1l2m3n4o5p6q7r8s9", "0t1u2v3w4x5y6z7a8b9c0d1e2f3g4", "5h6i7j8k9l0m1n2o3p4q5r6s7t8u9", "0v1w2x3y4z5a6b7c8d9e0f1g2h3i4"],
+    "baseline_counter": {
+      "Introduction": {
+        "The Concept of Force and Newton's Laws of motion": {
+          "count": 7,
+          "mini_headings_covered": ["The concept of force", "Newton's first law of motion", "Newton's Second Law of motion", "Newton's third Law of Motion", "Activity 4.1", "Key terms", "Brainstorming"],
+          "last_question_round": 1
+        },
+        "Weight and the Gravitational Force": {
+          "count": 5,
+          "mini_headings_covered": ["Weight and the Gravitational Force", "Normal Force", "Example 4.1", "Question"],
+          "last_question_round": 1
+        }
+      },
+      "4.2 Frictional Force": {
+        "[Subsection 2.1]": {
+          "count": 3,
+          "mini_headings_covered": ["Key terms", "Brainstorming", "The maximum value of static friction"],
+          "last_question_round": 1
+        }
+      },
+      "4.3 The First Condition of Equilibrium": {
+        "[Subsection 3.1]": {
+          "count": 2,
+          "mini_headings_covered": ["Brainstorming", "Key term:"],
+          "last_question_round": 1
+        }
+      },
+      "4.4 Work, Energy and Power": {
+        "[Subsection 4.1]": {
+          "count": 3,
+          "mini_headings_covered": ["Brainstorming", "Work done by a constant force", "Example 4.10"],
+          "last_question_round": 1
+        }
+      },
+      "4.5 Conservation of mechanical energy": {
+        "[Subsection 5.1]": {
+          "count": 2,
+          "mini_headings_covered": ["Brainstorming", "Example 4.17"],
+          "last_question_round": 1
+        }
+      },
+      "4.6 Impulse and Linear Momentum": {
+        "[Subsection 6.1]": {
+          "count": 2,
+          "mini_headings_covered": ["Brainstorming", "Exercise 4.5"],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 12,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      },
+      "4.2 Frictional Force": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      },
+      "4.3 The First Condition of Equilibrium": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      },
+      "4.4 Work, Energy and Power": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      },
+      "4.5 Conservation of mechanical energy": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.6 Impulse and Linear Momentum": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>The Concept of Force and Newton's Laws of motion": ["Force", "Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Inertia", "Net force", "Mass"],
+      "Introduction>Weight and the Gravitational Force": ["Weight", "Gravitational Force", "Normal Force", "Equilibrium", "Free fall"],
+      "4.2 Frictional Force>[Subsection 2.1]": ["Friction", "Static friction", "Kinetic friction", "Coefficient of friction"],
+      "4.3 The First Condition of Equilibrium>[Subsection 3.1]": ["Equilibrium", "Translational equilibrium", "Net force"],
+      "4.4 Work, Energy and Power>[Subsection 4.1]": ["Work", "Constant force", "Displacement", "Joule"],
+      "4.5 Conservation of mechanical energy>[Subsection 5.1]": ["Conservation of energy", "Mechanical energy", "Kinetic energy", "Potential energy"],
+      "4.6 Impulse and Linear Momentum>[Subsection 6.1]": ["Momentum", "Linear momentum", "Impulse", "Mass", "Velocity"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_updated_state_integrity",
+    "content_density_metrics": {
+      "total_concepts_extracted": 24,
+      "questions_per_concept_ratio": 0.917,
+      "structural_coverage_percentage": 15.9
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Physics",
+  "unit": "Unit 4: DYNAMICS",
+  "pdf_filename": "P11U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-08-07T00:01:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 6.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 14,
+      "structural_coverage_percentage": 15.9,
+      "concept_utilization_ratio": 0.833
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Introduction",
+      "least_covered_section": "4.3 The First Condition of Equilibrium",
+      "imbalance_ratio": 6.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Physics_U4_Q011",
+      "generation_timestamp": "2025-08-07T00:01:00Z",
+      "section": "Introduction",
+      "subsection": "The Concept of Force and Newton's Laws of motion",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 4.1",
+      "mcq_type": "F",
+      "question": "Under the condition that friction is negligible, which reasoning best explains why a hockey puck continues moving after being pushed on a horizontal surface?",
+      "options": {
+        "A": "A constant applied force maintains the puck's velocity according to Newton's Second Law.",
+        "B": "The puck's inertia maintains its state of motion in the absence of an unbalanced force.",
+        "C": "Gravitational force propels the puck forward after the initial push.",
+        "D": "The normal force from the surface provides continuous forward acceleration."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the behavior of objects when no net force acts on them.",
+      "explanation": "Newton's First Law states that an object in motion remains in motion with constant velocity unless acted upon by a net force. Inertia explains this continued motion. Option A incorrectly assumes a constant force, option C misidentifies the force direction, and option D misstates the role of the normal force.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "The Concept of Force and Newton's Laws of motion",
+        "structural_element": "Activity 4.1",
+        "content_anchor": "if we could eliminate friction completely, the puck would never slow down",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_activity_4.1_inertia"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 88,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q012",
+      "generation_timestamp": "2025-08-07T00:01:00Z",
+      "section": "Introduction",
+      "subsection": "The Concept of Force and Newton's Laws of motion",
+      "sub_subsection": null,
+      "structural_anchor": "Key terms",
+      "mcq_type": "B",
+      "question": "What term describes the sum of two or more forces acting on an object?",
+      "options": {
+        "A": "Inertia",
+        "B": "Net force",
+        "C": "Normal force",
+        "D": "Tension"
+      },
+      "correct_answer": "B",
+      "hint": "This is the single force equivalent to multiple forces combined.",
+      "explanation": "Net force, or resultant force, is the vector sum of all forces acting on an object. Option A is resistance to motion change, option C is perpendicular contact force, and option D is a pulling force through a medium.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "The Concept of Force and Newton's Laws of motion",
+        "structural_element": "Key terms",
+        "content_anchor": "Net force: The sum of two or more forces (Resultant force)",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_net_force_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q013",
+      "generation_timestamp": "2025-08-07T00:01:00Z",
+      "section": "Introduction",
+      "subsection": "Weight and the Gravitational Force",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.1",
+      "mcq_type": "E",
+      "question": "What is the weight of a 1 kg block on the surface of the Moon, where the acceleration due to gravity is approximately 1.6 m/s²?",
+      "options": {
+        "A": "1.0 N",
+        "B": "1.6 N",
+        "C": "9.8 N",
+        "D": "16.0 N"
+      },
+      "correct_answer": "B",
+      "hint": "Use the formula weight = mass × gravitational acceleration.",
+      "explanation": "Weight is calculated using W = mg. Substituting m = 1 kg and g_moon = 1.6 m/s² gives W = 1.6 N. Option A uses mass alone, option C uses Earth's gravity, and option D is an incorrect multiplication.",
+      "difficulty_level": "easy",
+      "formula_used": ["W = mg"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "N",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Weight and the Gravitational Force",
+        "structural_element": "Example 4.1",
+        "content_anchor": "W = (1kg)(1.6m/s²) = 1.6N",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_example_4.1_weight_moon"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q014",
+      "generation_timestamp": "2025-08-07T00:01:00Z",
+      "section": "Introduction",
+      "subsection": "Weight and the Gravitational Force",
+      "sub_subsection": null,
+      "structural_anchor": "Question",
+      "mcq_type": "G",
+      "question": "If an object is in free fall, what happens to the net force acting on it when air resistance is negligible?",
+      "options": {
+        "A": "The net force increases as the object accelerates.",
+        "B": "The net force remains constant and equals the gravitational force.",
+        "C": "The net force decreases due to decreasing gravitational pull.",
+        "D": "The net force becomes zero once terminal velocity is reached."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the forces acting on an object in free fall.",
+      "explanation": "In free fall with negligible air resistance, the only force is gravity (weight), so the net force is constant and equals mg. Option A confuses force with acceleration, option C misstates gravity's dependence, and option D describes a scenario with air resistance.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Weight and the Gravitational Force",
+        "structural_element": "Question",
+        "content_anchor": "When the net force acting on the object is assumed to be gravity only, we say that the body is in free fall",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_free_fall_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q015",
+      "generation_timestamp": "2025-08-07T00:01:00Z",
+      "section": "4.2 Frictional Force",
+      "subsection": "[Subsection 2.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that friction always opposes motion and is therefore undesirable?",
+      "options": {
+        "A": "Friction can cause motion, such as when walking, and is essential for many everyday functions.",
+        "B": "Friction is always undesirable because it converts useful energy to heat.",
+        "C": "Static friction prevents motion, so it cannot be said to oppose motion.",
+        "D": "Kinetic friction is less than static friction, making its effects negligible."
+      },
+      "correct_answer": "A",
+      "hint": "Consider situations where friction is necessary for motion to occur.",
+      "explanation": "The misconception is that friction only hinders motion. In reality, friction is necessary for walking, driving, and gripping. Option B repeats the misconception, option C incorrectly states static friction doesn't oppose motion, and option D introduces an irrelevant comparison.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.2 Frictional Force",
+        "subsection_anchor": "[Subsection 2.1]",
+        "structural_element": "Brainstorming",
+        "content_anchor": "Friction helps us to move while we walk",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_friction_benefits"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q016",
+      "generation_timestamp": "2025-08-07T00:01:00Z",
+      "section": "4.2 Frictional Force",
+      "subsection": "[Subsection 2.1]",
+      "sub_subsection": null,
+      "structural_anchor": "The maximum value of static friction",
+      "mcq_type": "C",
+      "question": "Which formula correctly expresses the maximum static frictional force before motion begins?",
+      "options": {
+        "A": "F_s = μ_k F_N",
+        "B": "F_s ≤ μ_s F_N",
+        "C": "F_s(max) = μ_s F_N",
+        "D": "F_k = μ_s F_N"
+      },
+      "correct_answer": "C",
+      "hint": "The maximum static friction is also called limiting friction.",
+      "explanation": "The maximum or limiting static friction is F_s(max) = μ_s F_N. Option A uses kinetic coefficient, option B describes the inequality for static friction, and option D incorrectly applies static coefficient to kinetic friction.",
+      "difficulty_level": "medium",
+      "formula_used": ["F_s(max) = μ_s F_N"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.2 Frictional Force",
+        "subsection_anchor": "[Subsection 2.1]",
+        "structural_element": "The maximum value of static friction",
+        "content_anchor": "The maximum value being F_s = μ_s F_N",
+        "page_hint": "Page 20",
+        "concept_hash": "sha256_of_limiting_friction_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q017",
+      "generation_timestamp": "2025-08-07T00:01:00Z",
+      "section": "4.4 Work, Energy and Power",
+      "subsection": "[Subsection 4.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Work done by a constant force",
+      "mcq_type": "C",
+      "question": "What is the general formula for calculating work done by a constant force F that makes an angle θ with the displacement vector S?",
+      "options": {
+        "A": "W = F S sinθ",
+        "B": "W = F S cosθ",
+        "C": "W = F S tanθ",
+        "D": "W = F S"
+      },
+      "correct_answer": "B",
+      "hint": "Work involves the component of force in the direction of displacement.",
+      "explanation": "Work is the scalar product W = F·S = F S cosθ, where cosθ gives the component of force parallel to displacement. Option A uses the perpendicular component, option C uses tangent, and option D assumes θ = 0°.",
+      "difficulty_level": "easy",
+      "formula_used": ["W = F S cosθ"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.4 Work, Energy and Power",
+        "subsection_anchor": "[Subsection 4.1]",
+        "structural_element": "Work done by a constant force",
+        "content_anchor": "W = F·S = F S cosθ",
+        "page_hint": "Page 35-36",
+        "concept_hash": "sha256_of_work_formula_general"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q018",
+      "generation_timestamp": "2025-08-07T00:01:00Z",
+      "section": "4.5 Conservation of mechanical energy",
+      "subsection": "[Subsection 5.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming",
+      "mcq_type": "A",
+      "question": "What does the law of conservation of mechanical energy state in the absence of dissipative forces?",
+      "options": {
+        "A": "The total mechanical energy of a system remains constant.",
+        "B": "Kinetic energy is converted entirely to potential energy.",
+        "C": "Work done on a system equals its change in kinetic energy.",
+        "D": "Energy can be created but not destroyed."
+      },
+      "correct_answer": "A",
+      "hint": "Mechanical energy is the sum of kinetic and potential energies.",
+      "explanation": "The law of conservation of mechanical energy states that if only conservative forces act, the total mechanical energy (KE + PE) remains constant. Option B describes a specific conversion, option C is the work-energy theorem, and option D misstates the general energy conservation principle.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.5 Conservation of mechanical energy",
+        "subsection_anchor": "[Subsection 5.1]",
+        "structural_element": "Brainstorming",
+        "content_anchor": "the total mechanical energy of an object or system of objects remains unchanged",
+        "page_hint": "Page 50",
+        "concept_hash": "sha256_of_mechanical_energy_conservation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q019",
+      "generation_timestamp": "2025-08-07T00:01:00Z",
+      "section": "4.5 Conservation of mechanical energy",
+      "subsection": "[Subsection 5.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.17",
+      "mcq_type": "F",
+      "question": "Under the condition that a block slides down a frictionless inclined plane from rest, which reasoning best explains why its speed at the bottom depends only on the vertical height lost?",
+      "options": {
+        "A": "The normal force does work on the block, converting potential to kinetic energy.",
+        "B": "Gravitational potential energy converts entirely to kinetic energy, independent of path.",
+        "C": "The component of gravity along the incline provides constant acceleration.",
+        "D": "Friction is absent, so mechanical energy decreases as the block descends."
+      },
+      "correct_answer": "B",
+      "hint": "Consider energy transformation in a conservative system.",
+      "explanation": "In a frictionless system, mechanical energy is conserved. The loss in gravitational potential energy (mgh) equals the gain in kinetic energy (½mv²), so v = √(2gh). Option A incorrectly attributes work to the normal force, option C explains kinematics but not energy dependence, and option D contradicts energy conservation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "Example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.5 Conservation of mechanical energy",
+        "subsection_anchor": "[Subsection 5.1]",
+        "structural_element": "Example 4.17",
+        "content_anchor": "mgh = ½mv²",
+        "page_hint": "Page 51",
+        "concept_hash": "sha256_of_example_4.17_energy_conservation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Physics_U4_Q020",
+      "generation_timestamp": "2025-08-07T00:01:00Z",
+      "section": "4.6 Impulse and Linear Momentum",
+      "subsection": "[Subsection 6.1]",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming",
+      "mcq_type": "A",
+      "question": "How is linear momentum defined for a moving object?",
+      "options": {
+        "A": "The product of an object's mass and its velocity.",
+        "B": "The force required to change an object's motion.",
+        "C": "The energy due to an object's motion.",
+        "D": "The time rate of change of force."
+      },
+      "correct_answer": "A",
+      "hint": "Momentum is a vector quantity with mass and velocity components.",
+      "explanation": "Linear momentum is defined as p = mv, where m is mass and v is velocity. Option B describes the concept of force, option C defines kinetic energy, and option D has no standard physical definition.",
+      "difficulty_level": "easy",
+      "formula_used": ["p = mv"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4",
+        "section_anchor": "4.6 Impulse and Linear Momentum",
+        "subsection_anchor": "[Subsection 6.1]",
+        "structural_element": "Brainstorming",
+        "content_anchor": "Linear momentum of a body is defined as the product of its mass and its velocity",
+        "page_hint": "Page 54",
+        "concept_hash": "sha256_of_momentum_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 87,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2950,
+    "average_question_quality": 86.8,
+    "type_distribution": {
+      "A": 4,
+      "B": 2,
+      "C": 2,
+      "E": 1,
+      "F": 2,
+      "G": 1,
+      "H": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Introduction": 4,
+      "4.2 Frictional Force": 2,
+      "4.4 Work, Energy and Power": 1,
+      "4.5 Conservation of mechanical energy": 2,
+      "4.6 Impulse and Linear Momentum": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

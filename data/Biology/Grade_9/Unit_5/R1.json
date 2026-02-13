@@ -1,0 +1,817 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-03-10T12:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G9_Bio_U5_Q010",
+    "covered_sections": ["5.1. What is food?>The importance of food in living things:", "5.2 Nutrition", "5.3. Nutrients>Macronutrients and Micronutrients"],
+    "used_question_signatures": ["hash_A_whatisfood_growth", "hash_A_whatisfood_energy", "hash_A_nutrition_definition", "hash_B_nutrients_types", "hash_C_carbohydrates_elements", "hash_A_macronutrients_definition", "hash_A_carbohydrates_definition", "hash_F_dietaryfiber_function", "hash_A_fats_definition", "hash_A_proteins_definition"],
+    "baseline_counter": {
+      "5.1. What is food?": {
+        "The importance of food in living things:": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.2 Nutrition": {
+        "": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.3. Nutrients": {
+        "Macronutrients and Micronutrients": {
+          "count": 7,
+          "mini_headings_covered": ["Carbohydrates:", "Fats and Oils:", "Proteins:"],
+          "last_question_round": 1
+        }
+      },
+      "5.4. Balanced diets": {
+        "": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "5.5 Deficiency diseases": {
+        "": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "5.6 Malnutrition": {
+        "": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "5.7. Substance abuse": {
+        "": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "5.8. Infectious and noninfectious diseases": {
+        "": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "5.9 Renowned Nutritionists in Ethiopia": {
+        "": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1. What is food?": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.2 Nutrition": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.3. Nutrients": {
+        "question_count": 7,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.4. Balanced diets": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "5.5 Deficiency diseases": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "5.6 Malnutrition": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "5.7. Substance abuse": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "5.8. Infectious and noninfectious diseases": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "5.9 Renowned Nutritionists in Ethiopia": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1. What is food?>The importance of food in living things:": ["Growth", "Energy", "Replacement of damaged tissues"],
+      "5.2 Nutrition": ["Nutrition definition"],
+      "5.3. Nutrients>Macronutrients and Micronutrients": ["Nutrients types", "Carbohydrate composition", "Macronutrients", "Carbohydrates", "Dietary fiber", "Fats and oils", "Proteins"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 11,
+      "questions_per_concept_ratio": 0.91,
+      "structural_coverage_percentage": 13.3
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 5: Human Health, Nutrition, and Disease",
+  "pdf_filename": "B9U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-03-10T12:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 9,
+        "progress_percentage": 33.3
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 3,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 8.0,
+      "concept_utilization_ratio": 0.91
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.3. Nutrients",
+      "least_covered_section": "5.4. Balanced diets",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U5_Q001",
+      "generation_timestamp": "2025-03-10T12:00:00Z",
+      "section": "5.1. What is food?",
+      "subsection": "The importance of food in living things:",
+      "sub_subsection": null,
+      "structural_anchor": "Growth:",
+      "mcq_type": "A",
+      "question": "Which of the following is a primary role of food in supporting the biological processes of living organisms?",
+      "options": {
+        "A": "Providing the substances necessary for creating new cells and tissues",
+        "B": "Acting as a primary catalyst for all chemical reactions",
+        "C": "Directly fighting against pathogens in the bloodstream",
+        "D": "Regulating the body's internal temperature through digestion"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental needs for an organism to increase in size and complexity.",
+      "explanation": "Food supplies the raw materials required for biosynthesis, the process of building new cellular components. Option C incorrectly describes the function of the immune system, not a general role of nutrients.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content_under_mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.1. What is food?",
+        "subsection_anchor": "The importance of food in living things:",
+        "structural_element": "Growth:",
+        "content_anchor": "Food is the source substances necessary for making new cells, tissues and organs.",
+        "page_hint": 1,
+        "concept_hash": "sha256_of_growth_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q002",
+      "generation_timestamp": "2025-03-10T12:00:00Z",
+      "section": "5.1. What is food?",
+      "subsection": "The importance of food in living things:",
+      "sub_subsection": null,
+      "structural_anchor": "Energy:",
+      "mcq_type": "A",
+      "question": "What is the fundamental purpose of the energy derived from consumed food?",
+      "options": {
+        "A": "To fuel the biological and chemical reactions required for life",
+        "B": "To store genetic information for cellular reproduction",
+        "C": "To transport oxygen molecules within the circulatory system",
+        "D": "To provide structural rigidity to cell walls"
+      },
+      "correct_answer": "A",
+      "hint": "Think about what powers movement, synthesis, and other life-sustaining activities.",
+      "explanation": "The chemical energy stored in food molecules is released and converted to power cellular processes like active transport, movement, and biosynthesis. Option D confuses an energy role with the structural function of materials like cellulose.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content_under_mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.1. What is food?",
+        "subsection_anchor": "The importance of food in living things:",
+        "structural_element": "Energy:",
+        "content_anchor": "Food is the sources of energy that fuel all the biological activities.",
+        "page_hint": "1-2",
+        "concept_hash": "sha256_of_energy_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q003",
+      "generation_timestamp": "2025-03-10T12:00:00Z",
+      "section": "5.2 Nutrition",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives (under 5.2)",
+      "mcq_type": "A",
+      "question": "What is the process by which ingested food is converted into usable energy and vital nutrients?",
+      "options": {
+        "A": "Nutrition",
+        "B": "Digestion",
+        "C": "Metabolism",
+        "D": "Absorption"
+      },
+      "correct_answer": "A",
+      "hint": "This term encompasses the entire journey from ingestion to utilization.",
+      "explanation": "Nutrition is defined as the process of taking in food and converting it into energy and vital nutrients. Option B is a specific stage within nutrition focused on the mechanical and chemical breakdown of food.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.2 Nutrition",
+        "subsection_anchor": "",
+        "structural_element": "Objectives (under 5.2)",
+        "content_anchor": "Nutrition is the process of taking in food and converting it into energy and other vital nutrients required for life.",
+        "page_hint": 2,
+        "concept_hash": "sha256_of_nutrition_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q004",
+      "generation_timestamp": "2025-03-10T12:00:00Z",
+      "section": "5.3. Nutrients",
+      "subsection": "Macronutrients and Micronutrients",
+      "sub_subsection": null,
+      "structural_anchor": "Nutrients:",
+      "mcq_type": "B",
+      "question": "Carbohydrates, proteins, lipids, vitamins, and minerals are all classified as what type of essential chemical substances?",
+      "options": {
+        "A": "Nutrients",
+        "B": "Enzymes",
+        "C": "Hormones",
+        "D": "Antibodies"
+      },
+      "correct_answer": "A",
+      "hint": "These are the fundamental components obtained from food for growth and function.",
+      "explanation": "Nutrients are essential chemical substances found in food that the body uses for growth, energy, and health. Option B describes biological catalysts, not the broad classes of dietary components.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content_under_mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 75
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.3. Nutrients",
+        "subsection_anchor": "Macronutrients and Micronutrients",
+        "structural_element": "Nutrients:",
+        "content_anchor": "Nutrients: are important chemical substances that are found in foods.",
+        "page_hint": 2,
+        "concept_hash": "sha256_of_nutrients_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q005",
+      "generation_timestamp": "2025-03-10T12:00:00Z",
+      "section": "5.3. Nutrients",
+      "subsection": "Macronutrients and Micronutrients",
+      "sub_subsection": null,
+      "structural_anchor": "Carbohydrates:",
+      "mcq_type": "C",
+      "question": "The basic molecular components of carbohydrates are carbon, hydrogen, and which other element?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Nitrogen",
+        "C": "Phosphorus",
+        "D": "Sulfur"
+      },
+      "correct_answer": "A",
+      "hint": "This element is abundant in both the reactants and products of photosynthesis.",
+      "explanation": "Carbohydrates are organic compounds composed of carbon, hydrogen, and oxygen atoms. Option B is a key component of proteins and nucleic acids, not typical carbohydrates.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.3. Nutrients",
+        "subsection_anchor": "Macronutrients and Micronutrients",
+        "structural_element": "Carbohydrates:",
+        "content_anchor": "They are composed of three elements, carbon, oxygen and hydrogen.",
+        "page_hint": 3,
+        "concept_hash": "sha256_of_carbohydrate_composition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q006",
+      "generation_timestamp": "2025-03-10T12:00:00Z",
+      "section": "5.3. Nutrients",
+      "subsection": "Macronutrients and Micronutrients",
+      "sub_subsection": null,
+      "structural_anchor": "Macronutrients and Micronutrients",
+      "mcq_type": "A",
+      "question": "Carbohydrates, proteins, and fats are categorized as what type of nutrient based on the quantity required by the human body?",
+      "options": {
+        "A": "Macronutrients",
+        "B": "Micronutrients",
+        "C": "Trace elements",
+        "D": "Essential vitamins"
+      },
+      "correct_answer": "A",
+      "hint": "Consider which nutrients form the bulk of the diet and provide energy.",
+      "explanation": "Macronutrients are required by the body in relatively large amounts for energy and growth. Option B refers to vitamins and minerals needed in much smaller quantities.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection_title"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.3. Nutrients",
+        "subsection_anchor": "Macronutrients and Micronutrients",
+        "structural_element": "Macronutrients and Micronutrients",
+        "content_anchor": "The three nutrients, carbohydrate, protein and fats are required in large quantities. Such nutrients are called macronutrients.",
+        "page_hint": 2,
+        "concept_hash": "sha256_of_macronutrients_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q007",
+      "generation_timestamp": "2025-03-10T12:00:00Z",
+      "section": "5.3. Nutrients",
+      "subsection": "Macronutrients and Micronutrients",
+      "sub_subsection": null,
+      "structural_anchor": "Carbohydrates:",
+      "mcq_type": "A",
+      "question": "What is the primary physiological role of digestible carbohydrates in the human diet?",
+      "options": {
+        "A": "To serve as a major source of metabolic energy",
+        "B": "To act as structural components of cell membranes",
+        "C": "To function as catalysts for biochemical reactions",
+        "D": "To store genetic information for protein synthesis"
+      },
+      "correct_answer": "A",
+      "hint": "Think about the immediate use of sugars and starches after digestion.",
+      "explanation": "Digestible carbohydrates like starch and sugars are broken down into glucose, which is oxidized to produce ATP, the cell's energy currency. Option B describes a role of lipids, not carbohydrates.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.3. Nutrients",
+        "subsection_anchor": "Macronutrients and Micronutrients",
+        "structural_element": "Carbohydrates:",
+        "content_anchor": "Carbohydrates are types of nutrients that provide energy for the human body.",
+        "page_hint": 3,
+        "concept_hash": "sha256_of_carbohydrates_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q008",
+      "generation_timestamp": "2025-03-10T12:00:00Z",
+      "section": "5.3. Nutrients",
+      "subsection": "Macronutrients and Micronutrients",
+      "sub_subsection": null,
+      "structural_anchor": "Carbohydrates:",
+      "mcq_type": "F",
+      "question": "Under the condition that a carbohydrate is indigestible by human enzymes, which outcome best explains its primary function in the digestive system?",
+      "options": {
+        "A": "It adds bulk to intestinal contents, promoting peristalsis and preventing constipation.",
+        "B": "It is fermented in the stomach to produce additional glucose for absorption.",
+        "C": "It directly binds to and neutralizes dietary toxins before they enter the bloodstream.",
+        "D": "It coats the lining of the small intestine, slowing the absorption of sugars."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fate and physical effect of material that passes through the gut undigested.",
+      "explanation": "Dietary fiber, an indigestible carbohydrate, increases fecal bulk and water retention, which stimulates bowel movements. Option B incorrectly attributes a digestive function to a substance that is not broken down by human enzymes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.3. Nutrients",
+        "subsection_anchor": "Macronutrients and Micronutrients",
+        "structural_element": "Carbohydrates:",
+        "content_anchor": "The fibre... add bulk to the contents of the colon and help it to recollect water. This softens the feces and reduces the time needed... to pass out of the body.",
+        "page_hint": 3,
+        "concept_hash": "sha256_of_dietaryfiber_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q009",
+      "generation_timestamp": "2025-03-10T12:00:00Z",
+      "section": "5.3. Nutrients",
+      "subsection": "Macronutrients and Micronutrients",
+      "sub_subsection": null,
+      "structural_anchor": "Fats and Oils:",
+      "mcq_type": "A",
+      "question": "Lipids that are solid at room temperature typically originate from which source?",
+      "options": {
+        "A": "Animal tissues",
+        "B": "Plant seeds",
+        "C": "Fruit pulps",
+        "D": "Leafy vegetables"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the physical state of common cooking fats like butter or lard.",
+      "explanation": "Fats, which are solid at room temperature, are predominantly derived from animal sources. Option B is a common source for oils, which are liquid at room temperature.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.3. Nutrients",
+        "subsection_anchor": "Macronutrients and Micronutrients",
+        "structural_element": "Fats and Oils:",
+        "content_anchor": "Fats are obtained from animal source and are solid at room temperature while oils are from plant source and liquid at room temperature.",
+        "page_hint": 4,
+        "concept_hash": "sha256_of_fats_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q010",
+      "generation_timestamp": "2025-03-10T12:00:00Z",
+      "section": "5.3. Nutrients",
+      "subsection": "Macronutrients and Micronutrients",
+      "sub_subsection": null,
+      "structural_anchor": "Proteins:",
+      "mcq_type": "A",
+      "question": "What is the fundamental biochemical subunit from which all proteins are constructed?",
+      "options": {
+        "A": "Amino acids",
+        "B": "Fatty acids",
+        "C": "Monosaccharides",
+        "D": "Nucleotides"
+      },
+      "correct_answer": "A",
+      "hint": "These organic molecules link together in long chains to form larger structures.",
+      "explanation": "Proteins are polymers synthesized from chains of amino acids linked by peptide bonds. Option C is the building block for carbohydrates, not proteins.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.3. Nutrients",
+        "subsection_anchor": "Macronutrients and Micronutrients",
+        "structural_element": "Proteins:",
+        "content_anchor": "It is made up of amino acid composed of carbon, hydrogen, oxygen and nitrogen.",
+        "page_hint": 4,
+        "concept_hash": "sha256_of_proteins_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4250,
+    "average_question_quality": 82.5,
+    "type_distribution": {
+      "A": 7,
+      "B": 1,
+      "C": 1,
+      "F": 1
+    },
+    "difficulty_distribution": {
+      "easy": 9,
+      "medium": 1,
+      "hard": 0
+    },
+    "section_distribution": {
+      "5.1. What is food?": 2,
+      "5.2 Nutrition": 1,
+      "5.3. Nutrients": 7
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,792 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T10:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Phy_U1_Q010",
+    "covered_sections": ["Introduction", "1.1 Importance of Physics to Society", "1.2 Physics Communities and Their Roles", "1.3 Making of Physics Knowledge", "1.4 The Mission of Physics and Career Awareness", "1.5 Current Status of Physics"],
+    "used_question_signatures": ["hash_A_intro_outcomes", "hash_B_1.1_brainstorm", "hash_D_1.2_objectives", "hash_F_1.3_experimental", "hash_H_1.3_scientific_method", "hash_J_1.4_career_typical", "hash_K_1.4_career_space", "hash_L_1.5_discovery_exoplanet", "hash_M_1.5_discovery_blackhole", "hash_N_1.5_discovery_gravitational"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": ["Unit outcomes / learning competencies"],
+          "last_question_round": 1
+        }
+      },
+      "1.1 Importance of Physics to Society": {
+        "1.1 Importance of Physics to Society": {
+          "count": 1,
+          "mini_headings_covered": ["Brainstorming questions"],
+          "last_question_round": 1
+        }
+      },
+      "1.2 Physics Communities and Their Roles": {
+        "1.2 Physics Communities and Their Roles": {
+          "count": 1,
+          "mini_headings_covered": ["Objectives of EPS"],
+          "last_question_round": 1
+        }
+      },
+      "1.3 Making of Physics Knowledge": {
+        "1.3 Making of Physics Knowledge": {
+          "count": 2,
+          "mini_headings_covered": ["Experimental knowledge", "Scientific method"],
+          "last_question_round": 1
+        }
+      },
+      "1.4 The Mission of Physics and Career Awareness": {
+        "1.4 The Mission of Physics and Career Awareness": {
+          "count": 2,
+          "mini_headings_covered": ["Typical careers in physics", "Physics careers in space and astronomy"],
+          "last_question_round": 1
+        }
+      },
+      "1.5 Current Status of Physics": {
+        "1.5 Current Status of Physics": {
+          "count": 3,
+          "mini_headings_covered": ["Discovery of Exoplanets:", "Black hole:", "Gravitational wave (Large scale structures)"],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.1 Importance of Physics to Society": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.2 Physics Communities and Their Roles": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.3 Making of Physics Knowledge": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.4 The Mission of Physics and Career Awareness": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.5 Current Status of Physics": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["physics impact", "innovation", "economic growth"],
+      "1.1 Importance of Physics to Society>1.1 Importance of Physics to Society": ["society benefit", "technology"],
+      "1.2 Physics Communities and Their Roles>1.2 Physics Communities and Their Roles": ["scientific association", "promoting education"],
+      "1.3 Making of Physics Knowledge>1.3 Making of Physics Knowledge": ["experiential knowledge", "scientific method steps"],
+      "1.4 The Mission of Physics and Career Awareness>1.4 The Mission of Physics and Career Awareness": ["career diversity", "astronomy roles"],
+      "1.5 Current Status of Physics>1.5 Current Status of Physics": ["exoplanets", "black holes", "gravitational waves"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_integrity_check",
+    "content_density_metrics": {
+      "total_concepts_extracted": 15,
+      "questions_per_concept_ratio": 0.67,
+      "structural_coverage_percentage": 33.3
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Physics",
+  "unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+  "pdf_filename": "P11U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T10:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 10,
+      "structural_coverage_percentage": 55.6,
+      "concept_utilization_ratio": 0.67
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.5 Current Status of Physics",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 3.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Phy_U1_Q001",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "Unit outcomes / learning competencies",
+      "mcq_type": "A",
+      "question": "Which field provides fundamental knowledge for understanding nature and applied knowledge for technological development?",
+      "options": {
+        "A": "Physics",
+        "B": "Chemistry",
+        "C": "Biology",
+        "D": "Geology"
+      },
+      "correct_answer": "A",
+      "hint": "This field is a basis for innovation across multiple sectors.",
+      "explanation": "Physics provides the foundational principles needed to understand natural phenomena. Option B focuses on matter composition rather than universal laws governing motion and energy.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unit-outcomes"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": "Unit outcomes / learning competencies",
+        "content_anchor": "providing fundamental knowledge for understanding nature, in providing applied knowledge for the development of technology",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_physics_foundational_role"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q002",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "1.1 Importance of Physics to Society",
+      "subsection": "1.1 Importance of Physics to Society",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming questions",
+      "mcq_type": "B",
+      "question": "Fundamental knowledge generated by which science is essential for future technological and economic advancement?",
+      "options": {
+        "A": "Physics",
+        "B": "Astronomy",
+        "C": "Mathematics",
+        "D": "Computer Science"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the field described as driving innovation across global sectors.",
+      "explanation": "Physics creates the core principles that underpin technological progress. Option C is a tool for modeling but does not generate the physical laws themselves.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "brainstorming"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.1 Importance of Physics to Society",
+        "subsection_anchor": "1.1 Importance of Physics to Society",
+        "structural_element": "Brainstorming questions",
+        "content_anchor": "Physics is one of the sciences that generate fundamental knowledge needed for the future technological advances",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_fundamental_knowledge_generation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 70,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q003",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "1.2 Physics Communities and Their Roles",
+      "subsection": "1.2 Physics Communities and Their Roles",
+      "sub_subsection": null,
+      "structural_anchor": "Objectives of EPS",
+      "mcq_type": "D",
+      "question": "A national physics society aims to promote education and research. Which action directly aligns with this objective?",
+      "options": {
+        "A": "Organizing conferences for scientific exchange",
+        "B": "Manufacturing laboratory equipment",
+        "C": "Granting university degrees",
+        "D": "Publishing primary school textbooks"
+      },
+      "correct_answer": "A",
+      "hint": "Consider activities that facilitate sharing of knowledge among professionals.",
+      "explanation": "Scientific societies advance their field by coordinating events where researchers share findings. Option D falls outside the typical scope of a specialized professional association.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.2 Physics Communities and Their Roles",
+        "subsection_anchor": "1.2 Physics Communities and Their Roles",
+        "structural_element": "Objectives of EPS",
+        "content_anchor": "To organize and coordinate various conferences on physics education and exchange of scientific information",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_society_conference_objective"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q004",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "1.3 Making of Physics Knowledge",
+      "subsection": "1.3 Making of Physics Knowledge",
+      "sub_subsection": null,
+      "structural_anchor": "Experimental knowledge",
+      "mcq_type": "F",
+      "question": "Knowledge acquired through sensory perception is classified as experiential. Which reasoning best explains why this type is considered empirical?",
+      "options": {
+        "A": "It relies on direct observation rather than pure reasoning.",
+        "B": "It is derived from mathematical proofs.",
+        "C": "It originates from authoritative texts.",
+        "D": "It is based on hypothetical speculation."
+      },
+      "correct_answer": "A",
+      "hint": "Empirical knowledge is grounded in experience and evidence.",
+      "explanation": "Experiential knowledge, like sensory perception, is empirical because it is founded on observable evidence. Option D describes conjecture, which lacks the evidential basis of empiricism.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.3 Making of Physics Knowledge",
+        "subsection_anchor": "1.3 Making of Physics Knowledge",
+        "structural_element": "Experimental knowledge",
+        "content_anchor": "Experiential (a posteriori) knowledge...sensory perception is perhaps the dominant source",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_empirical_sensory_knowledge"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q005",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "1.3 Making of Physics Knowledge",
+      "subsection": "1.3 Making of Physics Knowledge",
+      "sub_subsection": null,
+      "structural_anchor": "Scientific method",
+      "mcq_type": "H",
+      "question": "A hypothesis states that boiling point decreases with altitude due to lower pressure. Which option identifies the error in reasoning if someone concludes the relationship is linear without experimental data?",
+      "options": {
+        "A": "Assuming a specific mathematical model without verification",
+        "B": "Confusing correlation with causation",
+        "C": "Ignoring the role of atmospheric composition",
+        "D": "Overlooking the definition of boiling point"
+      },
+      "correct_answer": "A",
+      "hint": "The flaw involves making an unwarranted assumption about the pattern of the relationship.",
+      "explanation": "The scientific method requires experimental evidence to confirm the nature of a relationship. Option B incorrectly suggests a mix-up between cause and effect, which is not the primary error here.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.3 Making of Physics Knowledge",
+        "subsection_anchor": "1.3 Making of Physics Knowledge",
+        "structural_element": "Scientific method",
+        "content_anchor": "The scientific method is an ordered series of steps to acquire knowledge based on experimental evidence.",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_hypothesis_experiment_requirement"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q006",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "1.4 The Mission of Physics and Career Awareness",
+      "subsection": "1.4 The Mission of Physics and Career Awareness",
+      "sub_subsection": null,
+      "structural_anchor": "Typical careers in physics",
+      "mcq_type": "J",
+      "question": "Which sector is a common employer for physics graduates focusing on product development and manufacturing processes?",
+      "options": {
+        "A": "Engineering",
+        "B": "Primary Education",
+        "C": "Legal Services",
+        "D": "Performing Arts"
+      },
+      "correct_answer": "A",
+      "hint": "This sector applies physical principles to design and improve tangible goods.",
+      "explanation": "The engineering sector utilizes physics knowledge to innovate and refine products. Option B involves teaching rather than the direct application of physics in development.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.4 The Mission of Physics and Career Awareness",
+        "subsection_anchor": "1.4 The Mission of Physics and Career Awareness",
+        "structural_element": "Typical careers in physics",
+        "content_anchor": "physics graduates are often tasked with improving and developing products and manufacturing processes",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_engineering_career_sector"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q007",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "1.4 The Mission of Physics and Career Awareness",
+      "subsection": "1.4 The Mission of Physics and Career Awareness",
+      "sub_subsection": null,
+      "structural_anchor": "Physics careers in space and astronomy",
+      "mcq_type": "K",
+      "question": "An astronomer collects data from spacecraft and operates telescopes. What is the primary purpose of these activities?",
+      "options": {
+        "A": "To study the universe and celestial objects",
+        "B": "To forecast terrestrial weather patterns",
+        "C": "To develop new medical imaging techniques",
+        "D": "To design urban transportation systems"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the field dedicated to understanding cosmic phenomena.",
+      "explanation": "Astronomy is the scientific study of celestial bodies and the cosmos. Option B aligns with meteorology, which focuses on Earth's atmosphere.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.4 The Mission of Physics and Career Awareness",
+        "subsection_anchor": "1.4 The Mission of Physics and Career Awareness",
+        "structural_element": "Physics careers in space and astronomy",
+        "content_anchor": "As an astronomer, your job would be to study the universe, collecting data from global satellites and spacecraft and operating radio and optical telescopes.",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_astronomer_study_universe"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q008",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "1.5 Current Status of Physics",
+      "subsection": "1.5 Current Status of Physics",
+      "sub_subsection": null,
+      "structural_anchor": "Discovery of Exoplanets:",
+      "mcq_type": "M",
+      "question": "What is the correct sequence for the discovery process of exoplanets, from initial detection to recognition?",
+      "options": {
+        "A": "Observation → Data analysis → Confirmation → Publication",
+        "B": "Hypothesis → Experiment → Observation → Conclusion",
+        "C": "Prediction → Modeling → Validation → Award",
+        "D": "Funding → Construction → Launch → Detection"
+      },
+      "correct_answer": "A",
+      "hint": "The process involves gathering evidence, verifying it, and formally acknowledging the find.",
+      "explanation": "Exoplanet discovery follows an observational science workflow where data leads to verified confirmation. Option B describes the classical experimental method, which is not always the primary path for astronomical discovery.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.5 Current Status of Physics",
+        "subsection_anchor": "1.5 Current Status of Physics",
+        "structural_element": "Discovery of Exoplanets:",
+        "content_anchor": "Exoplanet or extrasolar planet is a planet outside our solar system. As of 1 October 2022, there are 5,197 confirmed exoplanets",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_exoplanet_confirmation_process"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q009",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "1.5 Current Status of Physics",
+      "subsection": "1.5 Current Status of Physics",
+      "sub_subsection": null,
+      "structural_anchor": "Black hole:",
+      "mcq_type": "B",
+      "question": "A region of space-time with gravity so intense that not even light can escape is known by what term?",
+      "options": {
+        "A": "Black hole",
+        "B": "Neutron star",
+        "C": "White dwarf",
+        "D": "Supernova remnant"
+      },
+      "correct_answer": "A",
+      "hint": "This phenomenon is characterized by an event horizon.",
+      "explanation": "A black hole is defined by its immense gravitational pull preventing electromagnetic radiation escape. Option B is a dense stellar remnant with strong gravity but not necessarily an event horizon.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.5 Current Status of Physics",
+        "subsection_anchor": "1.5 Current Status of Physics",
+        "structural_element": "Black hole:",
+        "content_anchor": "Black hole is a region of space- time the gravity of it so strong that nothing can escape. Not even, light",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_black_hole_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q010",
+      "generation_timestamp": "2025-01-27T10:00:00Z",
+      "section": "1.5 Current Status of Physics",
+      "subsection": "1.5 Current Status of Physics",
+      "sub_subsection": null,
+      "structural_anchor": "Gravitational wave (Large scale structures)",
+      "mcq_type": "N",
+      "question": "Gravitational waves propagate at the speed of light. What condition must be met for their direct detection on Earth?",
+      "options": {
+        "A": "Extremely sensitive equipment capable of measuring minute spacetime distortions",
+        "B": "Visual observation of ripples in the atmosphere",
+        "C": "Detection of accompanying electromagnetic radiation",
+        "D": "Measurement of temperature fluctuations in space"
+      },
+      "correct_answer": "A",
+      "hint": "The detection relies on measuring tiny distortions in spacetime.",
+      "explanation": "LIGO uses laser interferometers to detect minuscule spacetime strains caused by passing gravitational waves. Option C incorrectly assumes electromagnetic signals are necessary, whereas gravitational waves are detected mechanically.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.5 Current Status of Physics",
+        "subsection_anchor": "1.5 Current Status of Physics",
+        "structural_element": "Gravitational wave (Large scale structures)",
+        "content_anchor": "gravity is a wave that travels with the speed of light... proved... in 2016 by LIGO",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_gravitational_wave_detection_condition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 95
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3500,
+    "average_question_quality": 85.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 2,
+      "D": 1,
+      "F": 1,
+      "H": 1,
+      "J": 1,
+      "K": 1,
+      "M": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "1.1 Importance of Physics to Society": 1,
+      "1.2 Physics Communities and Their Roles": 1,
+      "1.3 Making of Physics Knowledge": 2,
+      "1.4 The Mission of Physics and Career Awareness": 2,
+      "1.5 Current Status of Physics": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

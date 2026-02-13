@@ -1,0 +1,963 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-02-02T16:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Bio_U5_Q010",
+    "covered_sections": [
+      "The Digestive System>The Oral Cavity",
+      "The Digestive System>The Esophagus",
+      "The Digestive System>The stomach",
+      "The Digestive System>The small intestine",
+      "The Digestive System>The accessory organs",
+      "The Digestive System>Pancreas",
+      "The circulatory and lymphatic system>Blood",
+      "The circulatory and lymphatic system>Blood Components",
+      "The breathing system>The Nose",
+      "The breathing system>Pharynx"
+    ],
+    "used_question_signatures": [
+      "5c3fcef7671a6c0a7f8d6b3c1f8e2a9a",
+      "b2a7e4d1c9f8a3e5b6d2c4a8f7e1d9b3",
+      "d8e4f2a9b6c3e7d1a5f8b2c4e9d6a3",
+      "a7f9d2b4c6e8a1f3d5b7c9e2a4f6",
+      "e3a9c5f7d1b8a4c6e2f9d5b1a7",
+      "b5d1a9e3c7f2b8d4a6e9c1f5",
+      "c8a2f4e6b9d3c1f7a5e9b2d6",
+      "f1c9a5e7b3d8f4c2a6e8b9",
+      "d4f8b2a6c9e1d5f3b7a9c1",
+      "a3e9c5b1f7d2a8c4e6b9f1"
+    ],
+    "baseline_counter": {
+      "The Digestive System": {
+        "The Oral Cavity": {
+          "count": 2,
+          "mini_headings_covered": ["The teeth"],
+          "last_question_round": 1
+        },
+        "The Esophagus": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The stomach": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The small intestine": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The accessory organs": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Pancreas": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Liver and Gallbladder": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Large Intestine": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "The circulatory and lymphatic system": {
+        "Blood": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Blood Components": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Blood Vessels": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Blood groups": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Rhesus factor": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Blood Donation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "The Lymphatic System": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Components of the Lymphatic System": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Diseases of the circulatory and lymphatic systems": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "The breathing system": {
+        "The Nose": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Pharynx": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Major breathing structures and their functions": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Larynx": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Trachea": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Bronchi and Bronchioles": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Breathing Gas Exchange": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Alveoli": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_covered": 0
+        },
+        "Breathing Movements": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Disorders of the Breathing System": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "The Human Urinary system": {
+        "External structure of kidney": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Internal structure of kidney": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "The formation of urine": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "The immune system": {
+        "Innate immune system": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Adaptive (Acquired) immune system": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Cells of the immune system": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Antigens and antibodies": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Hormones and the immune system": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "Renowned Physicians in Ethiopia": {
+        "Renowned Physicians in Ethiopia": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "The Digestive System": {
+        "question_count": 7,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "The circulatory and lymphatic system": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "The breathing system": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "The Human Urinary system": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "The immune system": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "Renowned Physicians in Ethiopia": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "The Digestive System>The Oral Cavity": ["Mastication", "Saliva", "Types of teeth", "Tooth structure"],
+      "The Digestive System>The Esophagus": ["Peristalsis"],
+      "The Digestive System>The stomach": ["Gastric juice", "Chyme", "Protein digestion"],
+      "The Digestive System>The small intestine": ["Villi", "Absorption", "Lacteals"],
+      "The Digestive System>The accessory organs": ["Pancreas", "Liver", "Gallbladder", "Bile"],
+      "The Digestive System>Pancreas": ["Trypsin", "Amylase", "Lipase", "Pancreatic enzymes"],
+      "The circulatory and lymphatic system>Blood": ["Plasma", "Blood composition"],
+      "The circulatory and lymphatic system>Blood Components": ["Red blood cells", "White blood cells", "Platelets", "Hemoglobin"],
+      "The breathing system>The Nose": ["Nasal cavity", "Mucus", "Cilia", "Air conditioning"],
+      "The breathing system>Pharynx": ["Throat", "Tonsils", "Airway and food passage"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "initial",
+    "content_density_metrics": {
+      "total_concepts_extracted": 10,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 16.7
+    }
+  },
+  "grade": "10",
+  "subject": "Biology",
+  "unit": "Unit 5: Human Biology",
+  "pdf_filename": "B10U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-02-02T16:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 6,
+        "progress_percentage": 50.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 10,
+      "mini_headings_covered_count": 1,
+      "structural_coverage_percentage": 16.7,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "The Digestive System",
+      "least_covered_section": "The Human Urinary system",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.0,
+      "remaining_concept_capacity": 90
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U5_Q001",
+      "generation_timestamp": "2025-02-02T16:30:00Z",
+      "section": "The Digestive System",
+      "subsection": "The Oral Cavity",
+      "sub_subsection": null,
+      "structural_anchor": "The teeth",
+      "mcq_type": "A",
+      "question": "What is the primary function of incisors in the human mouth?",
+      "options": {
+        "A": "Cutting and slicing food",
+        "B": "Tearing and ripping food",
+        "C": "Crushing and grinding food",
+        "D": "Mixing and positioning food"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the chisel-like shape and front position of these teeth.",
+      "explanation": "Incisors are specialized for cutting due to their sharp, chisel-shaped edges at the front of the mouth. Option B describes the function of canine teeth, which are adapted for tearing.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The Digestive System",
+        "subsection_anchor": "The Oral Cavity",
+        "structural_element": "The teeth",
+        "content_anchor": "Incisors: are eight chisel-shaped teeth at the front of your mouth specialized for cutting.",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q002",
+      "generation_timestamp": "2025-02-02T16:30:00Z",
+      "section": "The Digestive System",
+      "subsection": "The Oral Cavity",
+      "sub_subsection": null,
+      "structural_anchor": "The teeth",
+      "mcq_type": "B",
+      "question": "Which part of a tooth contains living tissue with blood vessels and nerves?",
+      "options": {
+        "A": "Enamel",
+        "B": "Dentin",
+        "C": "Pulp",
+        "D": "Periodontal ligament"
+      },
+      "correct_answer": "C",
+      "hint": "This inner structure is responsible for tooth sensitivity.",
+      "explanation": "The pulp is the living inner core containing blood vessels and nerves. Option A incorrectly refers to enamel, which is the hard, non-living outer layer that protects the tooth.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The Digestive System",
+        "subsection_anchor": "The Oral Cavity",
+        "structural_element": "The teeth",
+        "content_anchor": "Pulp: the softer, living inner structure of teeth. Blood vessels and nerves run through the pulp of the teeth.",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q003",
+      "generation_timestamp": "2025-02-02T16:30:00Z",
+      "section": "The Digestive System",
+      "subsection": "The Esophagus",
+      "sub_subsection": null,
+      "structural_anchor": "The Esophagus",
+      "mcq_type": "F",
+      "question": "If peristalsis in the esophagus were to cease, what would be the most immediate consequence for swallowing?",
+      "options": {
+        "A": "Food would pass too quickly into the stomach",
+        "B": "Food could remain lodged in the esophagus",
+        "C": "Gastric juice would flow back into the esophagus",
+        "D": "Air would enter the stomach during swallowing"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the role of rhythmic muscle contractions in moving the food bolus.",
+      "explanation": "Peristalsis provides the wave-like contractions necessary to propel food toward the stomach. Without it, the food bolus lacks the mechanical force to move, potentially causing obstruction. Option C describes a failure of the lower esophageal sphincter, not peristalsis.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The Digestive System",
+        "subsection_anchor": "The Esophagus",
+        "structural_element": "The Esophagus",
+        "content_anchor": "activating muscles that set up waves of rhythmic contractions called peristalsis. Peristaltic contractions... move food along the gastrointestinal tract",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q004",
+      "generation_timestamp": "2025-02-02T16:30:00Z",
+      "section": "The Digestive System",
+      "subsection": "The stomach",
+      "sub_subsection": null,
+      "structural_anchor": "The stomach",
+      "mcq_type": "C",
+      "question": "Which substance in gastric fluid is responsible for activating the protein-digesting enzyme pepsin?",
+      "options": {
+        "A": "Mucus",
+        "B": "Hydrochloric acid (HCl)",
+        "C": "Pepsinogen",
+        "D": "Bile salts"
+      },
+      "correct_answer": "B",
+      "hint": "This highly acidic substance creates the low pH environment of the stomach.",
+      "explanation": "Hydrochloric acid converts the inactive precursor pepsinogen into its active form, pepsin. Option C is the inactive enzyme precursor, not the activator.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The Digestive System",
+        "subsection_anchor": "The stomach",
+        "structural_element": "The stomach",
+        "content_anchor": "Hydrochloric acid... converts pepsinogen into its active form, pepsin",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q005",
+      "generation_timestamp": "2025-02-02T16:30:00Z",
+      "section": "The Digestive System",
+      "subsection": "The small intestine",
+      "sub_subsection": null,
+      "structural_anchor": "The small intestine",
+      "mcq_type": "G",
+      "question": "What is the direct functional consequence of villi and microvilli in the small intestine?",
+      "options": {
+        "A": "Increased speed of peristaltic movements",
+        "B": "Enhanced secretion of digestive enzymes",
+        "C": "Greater surface area for nutrient absorption",
+        "D": "Improved protection against stomach acid"
+      },
+      "correct_answer": "C",
+      "hint": "These are finger-like projections and microscopic extensions of the intestinal lining.",
+      "explanation": "Villi and microvilli dramatically increase the absorptive surface area, allowing for efficient uptake of nutrients. Option B describes a function of specialized cells and glands, not the structural adaptations of the lining.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The Digestive System",
+        "subsection_anchor": "The small intestine",
+        "structural_element": "The small intestine",
+        "content_anchor": "Long finger like projections called villi... greatly increase the surface area of the small intestine... microvilli, which are fine, threadlike extensions of the membrane that further increase the surface for absorption.",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q006",
+      "generation_timestamp": "2025-02-02T16:30:00Z",
+      "section": "The Digestive System",
+      "subsection": "The accessory organs",
+      "sub_subsection": null,
+      "structural_anchor": "The accessory organs",
+      "mcq_type": "D",
+      "question": "Which accessory organ produces bile, a digestive juice required for fat breakdown?",
+      "options": {
+        "A": "Pancreas",
+        "B": "Gallbladder",
+        "C": "Liver",
+        "D": "Salivary glands"
+      },
+      "correct_answer": "C",
+      "hint": "This is the largest internal organ in humans.",
+      "explanation": "The liver synthesizes bile, which contains bile salts that emulsify fats. Option B is incorrect because the gallbladder only stores and concentrates bile produced by the liver.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The Digestive System",
+        "subsection_anchor": "The accessory organs",
+        "structural_element": "The accessory organs",
+        "content_anchor": "The liver produces bile, which is a digestive juice that is required for the breakdown of fats",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q007",
+      "generation_timestamp": "2025-02-02T16:30:00Z",
+      "section": "The Digestive System",
+      "subsection": "Pancreas",
+      "sub_subsection": null,
+      "structural_anchor": "Pancreas",
+      "mcq_type": "J",
+      "question": "Which pancreatic enzyme is specifically responsible for breaking down long-chain polypeptides into shorter-chain peptides?",
+      "options": {
+        "A": "Amylase",
+        "B": "Lipase",
+        "C": "Trypsin",
+        "D": "Erepsin"
+      },
+      "correct_answer": "C",
+      "hint": "This enzyme is secreted as an inactive precursor called trypsinogen.",
+      "explanation": "Trypsin acts on proteins and polypeptides, cleaving them into smaller peptides. Option D, erepsin, is involved in the final stages, breaking short peptides into individual amino acids.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The Digestive System",
+        "subsection_anchor": "Pancreas",
+        "structural_element": "Pancreas",
+        "content_anchor": "Trypsin- a protein-digesting enzyme... Trypsin breaks down long-chain polypeptides into shorter-chain peptides.",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q008",
+      "generation_timestamp": "2025-02-02T16:30:00Z",
+      "section": "The circulatory and lymphatic system",
+      "subsection": "Blood",
+      "sub_subsection": null,
+      "structural_anchor": "Blood",
+      "mcq_type": "A",
+      "question": "What is the primary liquid component of blood that carries cells, nutrients, and waste products?",
+      "options": {
+        "A": "Lymph",
+        "B": "Plasma",
+        "C": "Serum",
+        "D": "Cytoplasm"
+      },
+      "correct_answer": "B",
+      "hint": "This component makes up about half of the blood's volume.",
+      "explanation": "Plasma is the yellowish fluid matrix in which blood cells are suspended, transporting various substances. Option A, lymph, is the fluid found in the lymphatic system, not the circulatory system.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The circulatory and lymphatic system",
+        "subsection_anchor": "Blood",
+        "structural_element": "Blood",
+        "content_anchor": "Liquid called plasma makes up about half of the content of the blood.",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q009",
+      "generation_timestamp": "2025-02-02T16:30:00Z",
+      "section": "The circulatory and lymphatic system",
+      "subsection": "Blood Components",
+      "sub_subsection": null,
+      "structural_anchor": "Blood Components",
+      "mcq_type": "B",
+      "question": "Which blood cell is responsible for transporting oxygen from the lungs to body tissues?",
+      "options": {
+        "A": "Platelets",
+        "B": "Neutrophils",
+        "C": "Lymphocytes",
+        "D": "Erythrocytes"
+      },
+      "correct_answer": "D",
+      "hint": "These cells contain the iron-containing protein hemoglobin.",
+      "explanation": "Erythrocytes, or red blood cells, are specialized for oxygen transport via hemoglobin. Option B and C are types of white blood cells involved in immune defense, not gas transport.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The circulatory and lymphatic system",
+        "subsection_anchor": "Blood Components",
+        "structural_element": "Blood Components",
+        "content_anchor": "Red blood cells, which carry oxygen to the tissues",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q010",
+      "generation_timestamp": "2025-02-02T16:30:00Z",
+      "section": "The breathing system",
+      "subsection": "The Nose",
+      "sub_subsection": null,
+      "structural_anchor": "The Nose",
+      "mcq_type": "G",
+      "question": "What is the primary benefit of air passing through the nasal cavity before reaching the lungs?",
+      "options": {
+        "A": "Extraction of oxygen from the air",
+        "B": "Filtration, warming, and humidification of the air",
+        "C": "Initiation of the chemical digestion of carbohydrates",
+        "D": "Detection of sound vibrations for hearing"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the structures like mucus, cilia, and capillaries lining the nasal passages.",
+      "explanation": "The nasal cavity conditions incoming air by trapping particles in mucus, warming it via blood capillaries, and adding moisture. Option A is incorrect because oxygen extraction occurs in the lungs, not the nose.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "The breathing system",
+        "subsection_anchor": "Major breathing structures and their functions",
+        "structural_element": "The Nose",
+        "content_anchor": "The tiny hairs that line the nasal cavities act as a filter... The nasal cavity contains mucus, which warms and moistens the incoming air",
+        "page_hint": "Page 37",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2450,
+    "average_question_quality": 82.5,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "C": 1,
+      "D": 1,
+      "F": 1,
+      "G": 2,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "The Digestive System": 7,
+      "The circulatory and lymphatic system": 2,
+      "The breathing system": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

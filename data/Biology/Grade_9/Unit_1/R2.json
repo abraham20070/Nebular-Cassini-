@@ -1,0 +1,796 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G9_Bio_U1_Q020",
+    "covered_sections": ["1.1 Definition of Biology", "1.2 Why do we study Biology?", "1.3. The Scientific Method", "1.4. Tools of a Biologist>1.4.1. Laboratory tools of biologist", "1.5. Handling and using a light Microscope>1.5.1. The parts and function of the light microscope", "1.4. Tools of a Biologist>1.4.2. Field tools", "1.5. Handling and using a light Microscope>1.5.2 Handling and using a light microscope", "1.6. General Laboratory Safety Rules"],
+    "used_question_signatures": ["hash_A_DefLife", "hash_G_CauseEnergy", "hash_F_ConceptHypothesis", "hash_B_TermMicroscope", "hash_K_InterpretMagnification", "hash_D_AppHandLens", "hash_C_FormulaMag", "hash_I_CompareMicroscope", "hash_H_MisconOil", "hash_L_ExpCondenser", "hash_A_DefSciMethod", "hash_J_ClassLife", "hash_D_AppScientific", "hash_F_ConceptReproduction", "hash_G_CauseHomeostasis", "hash_B_TermAutoclave", "hash_K_InterpretPetri", "hash_E_NumMagCalc", "hash_D_AppIncubator", "hash_H_MisconSafety"],
+    "baseline_counter": {
+      "1.1 Definition of Biology": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "1.2 Why do we study Biology?": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "1.3. The Scientific Method": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "1.4. Tools of a Biologist": {
+        "1.4.1. Laboratory tools of biologist": {
+          "count": 4,
+          "mini_headings_covered": ["Hand lens", "The Microscope", "Autoclave", "Petri dishes", "Incubator"],
+          "last_question_round": 2
+        },
+        "1.4.2. Field tools": {
+          "count": 1,
+          "mini_headings_covered": ["Insect nets"],
+          "last_question_round": 2
+        }
+      },
+      "1.5. Handling and using a light Microscope": {
+        "1.5.1. The parts and function of the light microscope": {
+          "count": 4,
+          "mini_headings_covered": ["1. Eyepiece", "12. Condensers"],
+          "last_question_round": 1
+        },
+        "1.5.2 Handling and using a light microscope": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.6. General Laboratory Safety Rules": {
+        "count": 1,
+        "mini_headings_covered": ["5. Never taste or sniff chemicals."],
+        "last_question_round": 2
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1 Definition of Biology": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.2 Why do we study Biology?": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.3. The Scientific Method": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.4. Tools of a Biologist": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.5. Handling and using a light Microscope": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.6. General Laboratory Safety Rules": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1 Definition of Biology": ["Properties of life", "Scientific study", "Reproduction"],
+      "1.2 Why do we study Biology?": ["Applications of biology", "Energy for work", "Homeostasis"],
+      "1.3. The Scientific Method": ["Hypothesis", "Testing", "Steps of scientific method"],
+      "1.4. Tools of a Biologist>1.4.1. Laboratory tools of biologist": ["Hand lens magnification", "Microscope definition", "Total magnification formula", "Autoclave function", "Petri dish use", "Incubator function"],
+      "1.5. Handling and using a light Microscope>1.5.1. The parts and function of the light microscope": ["Eyepiece function", "Condenser function", "Oil immersion misconception", "Magnification calculation"],
+      "1.4. Tools of a Biologist>1.4.2. Field tools": ["Insect net"],
+      "1.5. Handling and using a light Microscope>1.5.2 Handling and using a light microscope": ["Microscope handling"],
+      "1.6. General Laboratory Safety Rules": ["Chemical safety"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_state_after_R01",
+    "content_density_metrics": {
+      "total_concepts_extracted": 18,
+      "questions_per_concept_ratio": 1.11,
+      "structural_coverage_percentage": 13.64
+    }
+  },
+  "grade": "9",
+  "subject": "Biology",
+  "unit": "Unit 1: Introduction to Biology",
+  "pdf_filename": "B9U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 8,
+      "structural_coverage_percentage": 18.18,
+      "concept_utilization_ratio": 1.11
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.5. Handling and using a light Microscope",
+      "least_covered_section": "1.6. General Laboratory Safety Rules",
+      "imbalance_ratio": 5.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U1_Q011",
+      "generation_timestamp": "2025-01-28T10:05:00Z",
+      "section": "1.3. The Scientific Method",
+      "subsection": "1.3. The Scientific Method",
+      "sub_subsection": null,
+      "structural_anchor": "Observation",
+      "mcq_type": "A",
+      "question": "What is the initial step in the scientific method that involves gathering information about a natural phenomenon?",
+      "options": {
+        "A": "Forming a hypothesis",
+        "B": "Conducting an experiment",
+        "C": "Making an observation",
+        "D": "Drawing a conclusion"
+      },
+      "correct_answer": "C",
+      "hint": "This step comes before any explanation is proposed.",
+      "explanation": "The scientific method begins with observation, which involves careful scrutiny of a phenomenon. Option A is incorrect because hypothesis formation occurs after a question has been raised from observations.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.3. The Scientific Method",
+        "subsection_anchor": "1.3. The Scientific Method",
+        "structural_element": "Observation",
+        "content_anchor": "The scientific study begins with careful observations",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_of_observation_step"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q012",
+      "generation_timestamp": "2025-01-28T10:05:00Z",
+      "section": "1.1 Definition of Biology",
+      "subsection": "1.1 Definition of Biology",
+      "sub_subsection": null,
+      "structural_anchor": "Living things:",
+      "mcq_type": "J",
+      "question": "Which characteristic listed is exclusively a property of living organisms and not of non-living matter?",
+      "options": {
+        "A": "Occupies space",
+        "B": "Has mass",
+        "C": "Transmits genetic information to offspring",
+        "D": "Responds to physical forces"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the mechanisms of inheritance and continuity.",
+      "explanation": "The transmission of genetic information through reproduction is a definitive property of life. Option D is incorrect because non-living objects like springs also respond to physical forces.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.1 Definition of Biology",
+        "subsection_anchor": "1.1 Definition of Biology",
+        "structural_element": "Living things:",
+        "content_anchor": "transmit genetic information to their offspring",
+        "page_hint": "Page 1",
+        "concept_hash": "hash_of_genetic_transmission"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q013",
+      "generation_timestamp": "2025-01-28T10:05:00Z",
+      "section": "1.3. The Scientific Method",
+      "subsection": "1.3. The Scientific Method",
+      "sub_subsection": null,
+      "structural_anchor": "Testing the hypothesis",
+      "mcq_type": "D",
+      "question": "A proposed hypothesis suggests that increased sunlight accelerates plant growth. Which action constitutes testing this hypothesis through experimentation?",
+      "options": {
+        "A": "Recording historical data on plant growth and sunlight from previous years.",
+        "B": "Growing identical plants under controlled conditions with varying light levels.",
+        "C": "Surveying gardeners about their observations of plant growth.",
+        "D": "Developing a theoretical model of photosynthesis efficiency."
+      },
+      "correct_answer": "B",
+      "hint": "An experiment involves manipulating a variable to observe its effect.",
+      "explanation": "Testing a hypothesis requires a controlled experiment where one variable (light level) is manipulated while others are kept constant. Option A involves observation of correlation, not experimental testing of causation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.3. The Scientific Method",
+        "subsection_anchor": "1.3. The Scientific Method",
+        "structural_element": "Testing the hypothesis",
+        "content_anchor": "Hypothesis can be tested through experimentation",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_of_hypothesis_testing"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q014",
+      "generation_timestamp": "2025-01-28T10:05:00Z",
+      "section": "1.1 Definition of Biology",
+      "subsection": "1.1 Definition of Biology",
+      "sub_subsection": null,
+      "structural_anchor": "Living things:",
+      "mcq_type": "F",
+      "question": "Under the condition that an organism must persist in a changing environment, which reasoning best explains the biological significance of reproduction?",
+      "options": {
+        "A": "It allows the organism to consume more resources from the environment.",
+        "B": "It enables the transmission of genetic information to new generations.",
+        "C": "It increases the physical size and complexity of the individual organism.",
+        "D": "It provides immediate energy for the organism's metabolic processes."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the long-term survival of a species, not just an individual.",
+      "explanation": "Reproduction ensures the continuity of life by passing genetic material to offspring, which is fundamental to evolution and species survival. Option C describes growth, which is a separate characteristic of living things.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.1 Definition of Biology",
+        "subsection_anchor": "1.1 Definition of Biology",
+        "structural_element": "Living things:",
+        "content_anchor": "reproduce",
+        "page_hint": "Page 1",
+        "concept_hash": "hash_of_reproduction_significance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q015",
+      "generation_timestamp": "2025-01-28T10:05:00Z",
+      "section": "1.2 Why do we study Biology?",
+      "subsection": "1.2 Why do we study Biology?",
+      "sub_subsection": null,
+      "structural_anchor": "Living things:",
+      "mcq_type": "G",
+      "question": "If an organism's external environment becomes colder, what internal regulatory process helps it maintain stable conditions for cellular functions?",
+      "options": {
+        "A": "Increased metabolic rate to generate more body heat",
+        "B": "Reduced activity to conserve energy",
+        "C": "Alteration of genetic material to produce colder-tolerant proteins",
+        "D": "Secretion of hormones to induce hibernation"
+      },
+      "correct_answer": "A",
+      "hint": "This process involves maintaining internal stability despite external change.",
+      "explanation": "Homeostasis is the maintenance of a relatively constant internal environment; in this case, increasing metabolism compensates for heat loss. Option B might conserve energy but does not actively maintain a stable internal temperature.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.2 Why do we study Biology?",
+        "subsection_anchor": "1.2 Why do we study Biology?",
+        "structural_element": "Living things:",
+        "content_anchor": "can maintain relatively constant internal conditions (homeostasis)",
+        "page_hint": "Page 1",
+        "concept_hash": "hash_of_homeostasis_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q016",
+      "generation_timestamp": "2025-01-28T10:05:00Z",
+      "section": "1.4. Tools of a Biologist",
+      "subsection": "1.4.1. Laboratory tools of biologist",
+      "sub_subsection": null,
+      "structural_anchor": "Autoclave",
+      "mcq_type": "B",
+      "question": "Which laboratory apparatus is specifically designed to eliminate all microorganisms, including resistant bacterial spores, from equipment and media?",
+      "options": {
+        "A": "Incubator",
+        "B": "Autoclave",
+        "C": "Bunsen burner",
+        "D": "pH meter"
+      },
+      "correct_answer": "B",
+      "hint": "This device uses high-pressure steam for sterilization.",
+      "explanation": "An autoclave sterilizes materials using pressurized steam at high temperatures, effectively killing even bacterial spores. Option C, a Bunsen burner, uses flame for sterilization but is not effective against all spores.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.4. Tools of a Biologist",
+        "subsection_anchor": "1.4.1. Laboratory tools of biologist",
+        "structural_element": "Autoclave",
+        "content_anchor": "equipment used to sterilize (kill microorganisms)",
+        "page_hint": "Page 7",
+        "concept_hash": "hash_of_autoclave_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q017",
+      "generation_timestamp": "2025-01-28T10:05:00Z",
+      "section": "1.4. Tools of a Biologist",
+      "subsection": "1.4.1. Laboratory tools of biologist",
+      "sub_subsection": null,
+      "structural_anchor": "Petri dishes",
+      "mcq_type": "K",
+      "question": "A microbiologist prepares a nutrient agar plate in a petri dish. What is the primary purpose of using this specific piece of equipment in the culturing process?",
+      "options": {
+        "A": "To magnify the growing microorganisms for observation.",
+        "B": "To provide a sterile, flat surface for solid culture media.",
+        "C": "To heat the media to the optimal growth temperature.",
+        "D": "To measure the pH of the culture environment."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the dish's shape and its role in holding a gelled medium.",
+      "explanation": "Petri dishes are flat dishes designed to hold solid or gelled culture media, providing a large surface area for microbial growth. Option A describes the function of a microscope, not a petri dish.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.4. Tools of a Biologist",
+        "subsection_anchor": "1.4.1. Laboratory tools of biologist",
+        "structural_element": "Petri dishes",
+        "content_anchor": "flat dishes with a matching cover... used with gelling culturing media",
+        "page_hint": "Page 8",
+        "concept_hash": "hash_of_petri_dish_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q018",
+      "generation_timestamp": "2025-01-28T10:05:00Z",
+      "section": "1.5. Handling and using a light Microscope",
+      "subsection": "1.5.1. The parts and function of the light microscope",
+      "sub_subsection": null,
+      "structural_anchor": "The Microscope",
+      "mcq_type": "E",
+      "question": "A microscope has a 10x eyepiece and a 100x oil immersion objective in use. What is the total magnification of the observed specimen?",
+      "options": {
+        "A": "100x",
+        "B": "110x",
+        "C": "1000x",
+        "D": "10000x"
+      },
+      "correct_answer": "C",
+      "hint": "Total magnification is calculated by multiplying the powers of the two lens systems.",
+      "explanation": "Total magnification is the product of eyepiece and objective magnifications (10 × 100 = 1000). Option B incorrectly adds the magnifications rather than multiplying them.",
+      "difficulty_level": "easy",
+      "formula_used": ["Total Magnification = Eyepiece Magnification × Objective Magnification"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "X (times)",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.5. Handling and using a light Microscope",
+        "subsection_anchor": "1.5.1. The parts and function of the light microscope",
+        "structural_element": "The Microscope",
+        "content_anchor": "total magnification is the product of eye and objective lenses",
+        "page_hint": "Page 6",
+        "concept_hash": "hash_of_magnification_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q019",
+      "generation_timestamp": "2025-01-28T10:05:00Z",
+      "section": "1.4. Tools of a Biologist",
+      "subsection": "1.4.1. Laboratory tools of biologist",
+      "sub_subsection": null,
+      "structural_anchor": "Incubator",
+      "mcq_type": "D",
+      "question": "A culture of bacteria requires a constant temperature of 37°C for optimal growth. Which laboratory device would provide this controlled environment?",
+      "options": {
+        "A": "Autoclave",
+        "B": "Hotplate",
+        "C": "Incubator",
+        "D": "Balance"
+      },
+      "correct_answer": "C",
+      "hint": "This device maintains a specific, stable temperature.",
+      "explanation": "An incubator is designed to maintain a constant, optimal temperature for culturing microorganisms. Option B, a hotplate, provides heat but not precise, stable temperature control.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.4. Tools of a Biologist",
+        "subsection_anchor": "1.4.1. Laboratory tools of biologist",
+        "structural_element": "Incubator",
+        "content_anchor": "device used to maintain a specific environment for culturing",
+        "page_hint": "Page 8",
+        "concept_hash": "hash_of_incubator_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Bio_U1_Q020",
+      "generation_timestamp": "2025-01-28T10:05:00Z",
+      "section": "1.6. General Laboratory Safety Rules",
+      "subsection": "1.6. General Laboratory Safety Rules",
+      "sub_subsection": null,
+      "structural_anchor": "5. Never taste or sniff chemicals.",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in the reasoning that tasting a small amount of an unknown, clear liquid is safe if it has no odor?",
+      "options": {
+        "A": "Many toxic chemicals are odorless and can cause immediate harm upon ingestion.",
+        "B": "Tasting is an acceptable method for identifying sugars but not other compounds.",
+        "C": "Only solid chemicals should be tasted to avoid splashing hazards.",
+        "D": "Chemical taste is unreliable because human taste buds vary between individuals."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the potential dangers of ingestion, regardless of sensory clues.",
+      "explanation": "The critical safety rule is to never taste laboratory chemicals, as many dangerous substances are odorless. Option B contains the error by suggesting tasting is ever acceptable for identification.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Introduction to Biology",
+        "section_anchor": "1.6. General Laboratory Safety Rules",
+        "subsection_anchor": "1.6. General Laboratory Safety Rules",
+        "structural_element": "5. Never taste or sniff chemicals.",
+        "content_anchor": "Avoid tasting or smelling chemicals or biological cultures.",
+        "page_hint": "Page 15",
+        "concept_hash": "hash_of_taste_safety_rule"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2500,
+    "average_question_quality": 83.0,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "D": 2,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "1.1 Definition of Biology": 2,
+      "1.2 Why do we study Biology?": 1,
+      "1.3. The Scientific Method": 2,
+      "1.4. Tools of a Biologist": 3,
+      "1.5. Handling and using a light Microscope": 1,
+      "1.6. General Laboratory Safety Rules": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

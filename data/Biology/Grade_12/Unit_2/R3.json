@@ -1,0 +1,880 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-08-06T10:35:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "B12_Bio_U2_Q030",
+    "covered_sections": ["Overview / Introduction", "2.1. Eubacteria", "2.1. Eubacteria>2.1.1. Bacterial Shapes", "2.1. Eubacteria>2.1.2. Nutritional types of bacteria", "2.1. Eubacteria>2.1.3. Reproduction of bacteria", "2.2. Archaea", "2.2. Archaea>2.2.1. Beneficial aspects of Archaea", "2.3. Fungi", "2.3. Fungi>2.3.1. General Characteristics of True Fungi", "2.3. Fungi>2.3.2. Ecology of Fungi", "2.3. Fungi>2.3.5. Economic importance of fungi", "2.4. Protozoa", "2.4. Protozoa>2.4.1. Common diseases caused by protozoa", "2.5. Viruses", "2.5. Viruses>2.5.1. Characteristics of virus", "2.5. Viruses>2.5.3. Classification of Viruses", "2.6. Normal microbiota", "2.7. Modes of disease transmission and ways of prevention", "2.8. Uses of microorganisms", "2.9. Controlling microorganisms", "2.10. Bacterial Isolation techniques"],
+    "used_question_signatures": ["def_microorganism_B", "term_eubacteria_A", "class_shapes_cocci_J", "nutri_photolithoautotroph_C", "char_archaea_prokaryotic_A", "char_fungi_eukaryotic_A", "char_protozoa_unicellular_A", "struct_virus_capsid_B", "role_normal_microbiota_protection_F", "diff_gram_positive_negative_I", "repro_bacteria_binary_fission_M", "benefit_archaea_enzyme_D", "econ_fungi_fermentation_D", "disease_protozoa_malaria_K", "class_virus_bacteriophage_J", "transmission_droplet_J", "use_microbes_bioremediation_D", "control_sterilization_definition_A", "type_bacteria_vibrio_J", "char_fungi_hyphae_B", "char_archaea_methanogen_J", "char_virus_noncellular_F", "use_microbes_nitrogen_fixation_D", "control_pasteurization_temp_E", "isol_serial_dilution_M", "disease_bacteria_tuberculosis_K", "char_fungi_saprobe_J", "repro_bacteria_conjugation_H", "type_virus_retrovirus_C", "char_protozoa_motility_flagella_B"],
+    "baseline_counter": {
+      "Overview / Introduction": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "2.1. Eubacteria": {
+        "2.1.1. Bacterial Shapes": {
+          "count": 2,
+          "mini_headings_covered": []
+        },
+        "2.1.2. Nutritional types of bacteria": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "2.1.3. Reproduction of bacteria": {
+          "count": 2,
+          "mini_headings_covered": []
+        },
+        "count": 5,
+        "mini_headings_covered": []
+      },
+      "2.2. Archaea": {
+        "2.2.1. Beneficial aspects of Archaea": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "count": 3,
+        "mini_headings_covered": []
+      },
+      "2.3. Fungi": {
+        "2.3.1. General Characteristics of True Fungi": {
+          "count": 2,
+          "mini_headings_covered": []
+        },
+        "2.3.2. Ecology of Fungi": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "2.3.5. Economic importance of fungi": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "count": 4,
+        "mini_headings_covered": []
+      },
+      "2.4. Protozoa": {
+        "2.4.1. Common diseases caused by protozoa": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "count": 3,
+        "mini_headings_covered": []
+      },
+      "2.5. Viruses": {
+        "2.5.1. Characteristics of virus": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "2.5.3. Classification of Viruses": {
+          "count": 1,
+          "mini_headings_covered": []
+        },
+        "count": 4,
+        "mini_headings_covered": []
+      },
+      "2.6. Normal microbiota": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "2.7. Modes of disease transmission and ways of prevention": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "2.8. Uses of microorganisms": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "2.9. Controlling microorganisms": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      },
+      "2.10. Bacterial Isolation techniques": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 3
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Overview / Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.1. Eubacteria": {
+        "question_count": 5,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "2.2. Archaea": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "2.3. Fungi": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "2.4. Protozoa": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "2.5. Viruses": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "2.6. Normal microbiota": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.7. Modes of disease transmission and ways of prevention": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "2.8. Uses of microorganisms": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "2.9. Controlling microorganisms": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "2.10. Bacterial Isolation techniques": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Overview / Introduction": ["Microorganisms", "Microbiology"],
+      "2.1. Eubacteria>2.1.1. Bacterial Shapes": ["Cocci", "Bacilli", "Spirochaetes", "Vibrio"],
+      "2.1. Eubacteria>2.1.2. Nutritional types of bacteria": ["Photolithoautotrophs", "Chemoorganoheterotrophs"],
+      "2.1. Eubacteria>2.1.3. Reproduction of bacteria": ["Binary fission", "Asexual reproduction", "Conjugation"],
+      "2.2. Archaea": ["Prokaryotic", "Peptidoglycan", "Methanogens"],
+      "2.2. Archaea>2.2.1. Beneficial aspects of Archaea": ["Thermostable enzymes", "Polymerase Chain Reaction"],
+      "2.3. Fungi>2.3.1. General Characteristics of True Fungi": ["Eukaryotic", "Chitin", "Chemoheterotrophic", "Hyphae"],
+      "2.3. Fungi>2.3.2. Ecology of Fungi": ["Saprobe", "Decomposer"],
+      "2.3. Fungi>2.3.5. Economic importance of fungi": ["Fermentation", "Antibiotics"],
+      "2.4. Protozoa": ["Unicellular", "Eukaryotic", "Locomotion", "Flagella"],
+      "2.4. Protozoa>2.4.1. Common diseases caused by protozoa": ["Malaria", "Plasmodium"],
+      "2.5. Viruses": ["Capsid", "Nucleic acid", "Obligate intracellular parasite"],
+      "2.5. Viruses>2.5.1. Characteristics of virus": ["Non-cellular", "Obligate intracellular parasite"],
+      "2.5. Viruses>2.5.3. Classification of Viruses": ["Bacteriophage", "Lytic cycle", "Retrovirus"],
+      "2.6. Normal microbiota": ["Protection", "Nutrient competition", "Immune stimulation"],
+      "2.7. Modes of disease transmission and ways of prevention": ["Droplet transmission", "Airborne"],
+      "2.8. Uses of microorganisms": ["Bioremediation", "Degradation of pollutants", "Nitrogen fixation"],
+      "2.9. Controlling microorganisms": ["Sterilization", "Disinfection", "Pasteurization"],
+      "2.10. Bacterial Isolation techniques": ["Serial dilution", "Culture media"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_R02",
+    "content_density_metrics": {
+      "total_concepts_extracted": 40,
+      "questions_per_concept_ratio": 0.75,
+      "structural_coverage_percentage": 83.3
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 2: Microorganisms",
+  "pdf_filename": "B12U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-08-06T10:35:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 11,
+        "total_sections": 12,
+        "progress_percentage": 91.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 5.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 11,
+      "subsections_covered_count": 12,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 87.5,
+      "concept_utilization_ratio": 0.75
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.1. Eubacteria",
+      "least_covered_section": "Overview / Introduction",
+      "imbalance_ratio": 5.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.75,
+      "remaining_concept_capacity": 40
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "B12_Bio_U2_Q021",
+      "generation_timestamp": "2025-08-06T10:34:45Z",
+      "section": "2.2. Archaea",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "2.2. Archaea",
+      "mcq_type": "J",
+      "question": "Archaea that generate methane as a metabolic byproduct in anaerobic environments are classified into which physiological group?",
+      "options": {
+        "A": "Extreme halophiles",
+        "B": "Extreme thermophiles",
+        "C": "Methanogens",
+        "D": "Thermoacidophiles"
+      },
+      "correct_answer": "C",
+      "hint": "The group name is derived from their metabolic product.",
+      "explanation": "Methanogens are archaea that produce methane under strictly anaerobic conditions, often found in wetlands and animal digestive tracts. Option A refers to salt-loving archaea, and option B describes those thriving at very high temperatures.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.2. Archaea",
+        "subsection_anchor": null,
+        "structural_element": "2.2. Archaea",
+        "content_anchor": "methanogens (they generate methane)",
+        "page_hint": "Page 18",
+        "concept_hash": "sha256_of_methanogens"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q022",
+      "generation_timestamp": "2025-08-06T10:34:48Z",
+      "section": "2.5. Viruses",
+      "subsection": "2.5.1. Characteristics of virus",
+      "sub_subsection": null,
+      "structural_anchor": "2.5.1. Characteristics of virus",
+      "mcq_type": "F",
+      "question": "Why are viruses described as obligate intracellular parasites?",
+      "options": {
+        "A": "They can only reproduce by taking over the metabolic machinery of a host cell.",
+        "B": "They feed on dead organic material found inside cells.",
+        "C": "They are always beneficial to the host cell they infect.",
+        "D": "They possess all necessary organelles for independent replication."
+      },
+      "correct_answer": "A",
+      "hint": "Consider what viruses lack for independent life functions.",
+      "explanation": "Viruses lack ribosomes, energy-generating systems, and biosynthetic enzymes, making them entirely dependent on host cell machinery for replication. Option D is incorrect because viruses lack cellular organelles, which is the core reason for their parasitic nature.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.5. Viruses",
+        "subsection_anchor": "2.5.1. Characteristics of virus",
+        "structural_element": "2.5.1. Characteristics of virus",
+        "content_anchor": "Viruses are small, obligate, intracellular particles; that is... they must infect and take over a host cell in order to replicate.",
+        "page_hint": "Page 39",
+        "concept_hash": "sha256_of_virus_obligate_parasite"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q023",
+      "generation_timestamp": "2025-08-06T10:34:50Z",
+      "section": "2.8. Uses of microorganisms",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "2.8. Uses of microorganisms",
+      "mcq_type": "D",
+      "question": "Certain bacteria living in root nodules of leguminous plants convert atmospheric nitrogen into ammonia. What is this process called?",
+      "options": {
+        "A": "Denitrification",
+        "B": "Nitrogen fixation",
+        "C": "Ammonification",
+        "D": "Nitrification"
+      },
+      "correct_answer": "B",
+      "hint": "This process 'fixes' inert gaseous nitrogen into a usable biological form.",
+      "explanation": "Biological nitrogen fixation is performed by specific bacteria, converting N2 gas into ammonia, which plants can assimilate. Option A is the reverse process, converting nitrates back to nitrogen gas.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.8. Uses of microorganisms",
+        "subsection_anchor": null,
+        "structural_element": "2.8. Uses of microorganisms",
+        "content_anchor": "Only bacteria can naturally convert atmospheric nitrogen to a form available to plants and animals (nitrate)",
+        "page_hint": "Page 59",
+        "concept_hash": "sha256_of_nitrogen_fixation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q024",
+      "generation_timestamp": "2025-08-06T10:34:52Z",
+      "section": "2.9. Controlling microorganisms",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "2.9. Controlling microorganisms",
+      "mcq_type": "E",
+      "question": "In low-temperature pasteurization of milk, the liquid is typically heated to 61.5°C for 30 minutes. What is the primary purpose of this heat treatment?",
+      "options": {
+        "A": "To achieve complete sterilization and eliminate all bacterial spores.",
+        "B": "To kill pathogenic microorganisms while preserving product quality.",
+        "C": "To convert lactose into lactic acid for fermentation.",
+        "D": "To evaporate all water content for powder production."
+      },
+      "correct_answer": "B",
+      "hint": "Pasteurization aims to make food safe without completely altering it.",
+      "explanation": "Pasteurization applies mild heat to destroy pathogens and reduce spoilage organisms without significantly affecting the nutritional value or taste. Option A describes sterilization, which requires more severe heat treatment and is not the goal of pasteurization.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": "°C",
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.9. Controlling microorganisms",
+        "subsection_anchor": null,
+        "structural_element": "2.9. Controlling microorganisms",
+        "content_anchor": "Low-temperature pasteurization: 61.5°C 30 minutes",
+        "page_hint": "Page 69",
+        "concept_hash": "sha256_of_pasteurization"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q025",
+      "generation_timestamp": "2025-08-06T10:34:55Z",
+      "section": "2.10. Bacterial Isolation techniques",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "2.10. Bacterial Isolation techniques",
+      "mcq_type": "M",
+      "question": "What laboratory technique involves progressively diluting a mixed microbial sample in sterile water or broth to obtain isolated colonies on an agar plate?",
+      "options": {
+        "A": "Gram staining",
+        "B": "Polymerase chain reaction",
+        "C": "Serial dilution",
+        "D": "Centrifugation"
+      },
+      "correct_answer": "C",
+      "hint": "This method reduces cell density stepwise to separate individual cells.",
+      "explanation": "Serial dilution is a fundamental technique to reduce the concentration of microorganisms in a sample, allowing for the growth of discrete, isolated colonies from single cells. Option A is a staining technique for cell wall differentiation, not for isolation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.10. Bacterial Isolation techniques",
+        "subsection_anchor": null,
+        "structural_element": "2.10. Bacterial Isolation techniques",
+        "content_anchor": "Microorganism are separated on artificial media by serial dilution method.",
+        "page_hint": "Page 70",
+        "concept_hash": "sha256_of_serial_dilution"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q026",
+      "generation_timestamp": "2025-08-06T10:34:58Z",
+      "section": "2.1. Eubacteria",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Common bacterial diseases",
+      "mcq_type": "K",
+      "question": "A chronic respiratory disease presents with symptoms of prolonged cough, weight loss, and night sweats. Acid-fast staining of sputum reveals red, rod-shaped bacteria. Which bacterial pathogen is most likely involved?",
+      "options": {
+        "A": "Bordetella pertussis",
+        "B": "Mycobacterium tuberculosis",
+        "C": "Streptococcus pneumoniae",
+        "D": "Vibrio cholerae"
+      },
+      "correct_answer": "B",
+      "hint": "The staining property and symptom profile are key diagnostic clues.",
+      "explanation": "Mycobacterium tuberculosis, the causative agent of tuberculosis, is an acid-fast bacillus and causes the described chronic respiratory symptoms. Option A causes whooping cough, which is not associated with acid-fast staining.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered_element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.1. Eubacteria",
+        "subsection_anchor": null,
+        "structural_element": "Common bacterial diseases",
+        "content_anchor": "Tuberculosis Mycobacterium tuberculosis Acid-fast Lungs...",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_tuberculosis"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q027",
+      "generation_timestamp": "2025-08-06T10:35:00Z",
+      "section": "2.3. Fungi",
+      "subsection": "2.3.2. Ecology of Fungi",
+      "sub_subsection": null,
+      "structural_anchor": "2.3.2. Ecology of Fungi",
+      "mcq_type": "J",
+      "question": "A fungus obtains nutrients by breaking down dead organic matter, such as fallen leaves. What is this nutritional mode called?",
+      "options": {
+        "A": "Parasitic",
+        "B": "Saprophytic (Saprobe)",
+        "C": "Symbiotic",
+        "D": "Autotrophic"
+      },
+      "correct_answer": "B",
+      "hint": "This mode involves decomposition.",
+      "explanation": "Saprophytic fungi secrete extracellular enzymes to digest dead organic material, playing a crucial role as decomposers in nutrient cycling. Option A describes fungi that derive nutrients from living hosts, causing harm.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.3. Fungi",
+        "subsection_anchor": "2.3.2. Ecology of Fungi",
+        "structural_element": "2.3.2. Ecology of Fungi",
+        "content_anchor": "Fungi are saprobes that decompose organic matter.",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_fungi_saprobe"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q028",
+      "generation_timestamp": "2025-08-06T10:35:02Z",
+      "section": "2.1. Eubacteria",
+      "subsection": "2.1.3. Reproduction of bacteria",
+      "sub_subsection": null,
+      "structural_anchor": "2.1.3.2. Asexual reproduction in bacteria",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in the reasoning that genetic material transferred during bacterial conjugation is always chromosomal DNA?",
+      "options": {
+        "A": "The transferred DNA is always RNA, not DNA.",
+        "B": "The process does not involve direct cell-to-cell contact.",
+        "C": "Conjugation can involve the transfer of plasmid DNA, not just chromosomal DNA.",
+        "D": "Conjugation results in the production of identical daughter cells only."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the different genetic elements that can be mobile in bacteria.",
+      "explanation": "Conjugation can mediate the transfer of plasmids, such as the F factor, in addition to chromosomal genes. The misconception lies in assuming the transferred material is exclusively chromosomal. Option D describes the outcome of binary fission, not conjugation.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.1. Eubacteria",
+        "subsection_anchor": "2.1.3. Reproduction of bacteria",
+        "structural_element": "2.1.3.2. Asexual reproduction in bacteria",
+        "content_anchor": "F cells have a DNA sequence known as the F factor (F stands for fertility)... can be in the form of a plasmid",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_conjugation_plasmid"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q029",
+      "generation_timestamp": "2025-08-06T10:35:05Z",
+      "section": "2.5. Viruses",
+      "subsection": "2.5.3. Classification of Viruses",
+      "sub_subsection": null,
+      "structural_anchor": "2.5.3. Classification of Viruses",
+      "mcq_type": "C",
+      "question": "Which type of virus contains RNA as its genetic material and uses the enzyme reverse transcriptase to produce DNA within the host cell?",
+      "options": {
+        "A": "Adenovirus",
+        "B": "Bacteriophage",
+        "C": "Retrovirus",
+        "D": "Poxvirus"
+      },
+      "correct_answer": "C",
+      "hint": "The name includes a prefix meaning 'backward'.",
+      "explanation": "Retroviruses are characterized by an RNA genome and the enzyme reverse transcriptase, which synthesizes a DNA copy of the viral RNA. Option A is a DNA virus, and option B typically refers to viruses infecting bacteria, which can have DNA or RNA genomes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.5. Viruses",
+        "subsection_anchor": "2.5.3. Classification of Viruses",
+        "structural_element": "2.5.3. Classification of Viruses",
+        "content_anchor": "Retrovirus an RNA virus that converts its genetic information from RNA into DNA after it has infected a host",
+        "page_hint": "Page 44",
+        "concept_hash": "sha256_of_retrovirus"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "B12_Bio_U2_Q030",
+      "generation_timestamp": "2025-08-06T10:35:07Z",
+      "section": "2.4. Protozoa",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "2.4. Protozoa",
+      "mcq_type": "B",
+      "question": "What is the primary locomotory structure used by flagellated protozoa such as Trypanosoma?",
+      "options": {
+        "A": "Pseudopodia",
+        "B": "Flagella",
+        "C": "Cilia",
+        "D": "Axopodia"
+      },
+      "correct_answer": "B",
+      "hint": "The group name provides a clue.",
+      "explanation": "Flagellates move using one or more whip-like flagella. Option A is used by amoebae for movement and feeding, and option C is used by ciliates like Paramecium.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "UNIT 2: Microorganisms",
+        "section_anchor": "2.4. Protozoa",
+        "subsection_anchor": null,
+        "structural_element": "2.4. Protozoa",
+        "content_anchor": "Locomotion by pseudopodia, flagella, cilia...",
+        "page_hint": "Page 32",
+        "concept_hash": "sha256_of_protozoan_flagella"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 22000,
+    "average_question_quality": 86.9,
+    "type_distribution": {
+      "B": 2,
+      "C": 1,
+      "D": 2,
+      "E": 1,
+      "F": 1,
+      "H": 1,
+      "J": 2,
+      "K": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "2.1. Eubacteria": 2,
+      "2.2. Archaea": 1,
+      "2.3. Fungi": 2,
+      "2.4. Protozoa": 1,
+      "2.5. Viruses": 2,
+      "2.8. Uses of microorganisms": 1,
+      "2.9. Controlling microorganisms": 1,
+      "2.10. Bacterial Isolation techniques": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

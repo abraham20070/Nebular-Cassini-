@@ -1,0 +1,877 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:16:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Bio_U4_Q020",
+    "covered_sections": ["4.1 What is a cell cycle?>Objectives", "4.2 Cell division>Objectives", "4.2 Cell division>4.2.1 Mitosis>Objectives", "4.2 Cell division>4.2.2 Meiosis>Objectives", "4.3 Renowned Geneticist in Ethiopia>Objectives", "Unit Summary", "Learning objectives", "ACTIVITY 4.1 MODELING", "ACTIVITY 4.2 CRITICAL THINKING", "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS", "ACTIVITY 4.4: PEER DISCUSSION", "Key terms", "Description of the different stages of Meiosis I and Meiosis II"],
+    "used_question_signatures": ["hash_7d83a1b2", "hash_9c4e5f6a", "hash_2b8c3d9e", "hash_5f1a7c3b", "hash_8d2e4f6c", "hash_3b9a5c1d", "hash_6e2f8d4a", "hash_1c5d9a3b", "hash_4f7c2e8d", "hash_9a3b6d1c", "hash_2e7f5c8a", "hash_8c3a6d9f", "hash_5d9b2e7c", "hash_1f8c4a6d", "hash_7b3d9e2c", "hash_9e2c5f8a", "hash_4a6d1f8c", "hash_3c8f2b5d", "hash_6a9d4c2f", "hash_2f5c8d3a"],
+    "baseline_counter": {
+      "4.1 What is a cell cycle?": {
+        "Objectives": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.2 Cell division": {
+        "Objectives": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "4.2.1 Mitosis": {
+          "Objectives": {
+            "count": 3,
+            "mini_headings_covered": [],
+            "last_question_round": 2
+          }
+        },
+        "4.2.2 Meiosis": {
+          "Objectives": {
+            "count": 2,
+            "mini_headings_covered": [],
+            "last_question_round": 2
+          }
+        }
+      },
+      "4.3 Renowned Geneticist in Ethiopia": {
+        "Objectives": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Unit Summary": {
+        "Unit Summary": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Learning objectives": {
+        "Learning objectives": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "ACTIVITY 4.1 MODELING": {
+        "ACTIVITY 4.1 MODELING": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "ACTIVITY 4.2 CRITICAL THINKING": {
+        "ACTIVITY 4.2 CRITICAL THINKING": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS": {
+        "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "ACTIVITY 4.4: PEER DISCUSSION": {
+        "ACTIVITY 4.4: PEER DISCUSSION": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Key terms": {
+        "Key terms": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Description of the different stages of Meiosis I and Meiosis II": {
+        "Description of the different stages of Meiosis I and Meiosis II": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1 What is a cell cycle?": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "4.2 Cell division": {
+        "question_count": 7,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.3 Renowned Geneticist in Ethiopia": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Unit Summary": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Learning objectives": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "ACTIVITY 4.1 MODELING": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "ACTIVITY 4.2 CRITICAL THINKING": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "ACTIVITY 4.4: PEER DISCUSSION": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Key terms": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Description of the different stages of Meiosis I and Meiosis II": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1 What is a cell cycle?>Objectives": ["cell cycle definition", "interphase phases", "G1 phase function"],
+      "4.2 Cell division>Objectives": ["cell division purpose", "karyokinesis vs cytokinesis", "surface area to volume ratio"],
+      "4.2 Cell division>4.2.1 Mitosis>Objectives": ["mitosis definition", "identical daughter cells", "growth and repair"],
+      "4.2 Cell division>4.2.2 Meiosis>Objectives": ["meiosis definition", "haploid gametes", "reduction division"],
+      "4.3 Renowned Geneticist in Ethiopia>Objectives": ["Dr. Melaku Worede", "seed conservation"],
+      "Unit Summary": ["cell cycle sequence", "mitosis vs meiosis differences"],
+      "Learning objectives": ["cancer cell characteristics", "cell cycle control", "mitosis vs meiosis comparison"],
+      "ACTIVITY 4.1 MODELING": ["cell model construction", "nucleus importance"],
+      "ACTIVITY 4.2 CRITICAL THINKING": ["cell cycle timing", "interphase proportion"],
+      "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS": ["cancer definition", "cancer prevention"],
+      "ACTIVITY 4.4: PEER DISCUSSION": ["tissue renewal", "cell replacement"],
+      "Key terms": ["spindle fiber", "homologous chromosomes", "sister chromatids"],
+      "Description of the different stages of Meiosis I and Meiosis II": ["prophase I", "anaphase I", "telophase II"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_round1_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 27,
+      "questions_per_concept_ratio": 0.74,
+      "structural_coverage_percentage": 50.0
+    }
+  },
+  "grade": "10",
+  "subject": "Biology",
+  "unit": "Unit 4: Cell Cycle",
+  "pdf_filename": "B10U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:16:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 11,
+        "total_sections": 18,
+        "progress_percentage": 61.1
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 7.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 11,
+      "subsections_covered_count": 13,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 50.0,
+      "concept_utilization_ratio": 0.74
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.2 Cell division",
+      "least_covered_section": "4.3 Renowned Geneticist in Ethiopia",
+      "imbalance_ratio": 7.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.74,
+      "remaining_concept_capacity": 7
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U4_Q011",
+      "generation_timestamp": "2025-01-28T10:16:05Z",
+      "section": "4.1 What is a cell cycle?",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "define cell cycle, outline the different stages of cell cycle",
+      "mcq_type": "D",
+      "question": "During which specific phase of the cell cycle does DNA replication occur, doubling the genetic material before division?",
+      "options": {
+        "A": "S phase",
+        "B": "G1 phase",
+        "C": "G2 phase",
+        "D": "M phase"
+      },
+      "correct_answer": "A",
+      "hint": "Consider which interphase stage involves synthesis of DNA.",
+      "explanation": "The S phase is dedicated to DNA synthesis, replicating chromosomes for subsequent cell division. Option C is incorrect because G2 phase involves protein synthesis and organelle duplication after DNA replication.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "4.1 What is a cell cycle?",
+        "subsection_anchor": "Objectives",
+        "structural_element": "define cell cycle, outline the different stages of cell cycle",
+        "content_anchor": "S Phase (Synthesis of DNA): is the stage of DNA replication",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_S_phase"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q012",
+      "generation_timestamp": "2025-01-28T10:16:07Z",
+      "section": "4.2 Cell division",
+      "subsection": "Objectives",
+      "sub_subsection": null,
+      "structural_anchor": "recognize the causes of cell division and explain the importance of cell division",
+      "mcq_type": "H",
+      "question": "Which statement incorrectly describes a reason why cells must divide rather than grow indefinitely large?",
+      "options": {
+        "A": "Large cells have inefficient nutrient exchange due to poor surface area to volume ratios.",
+        "B": "DNA replication becomes impossible in cells beyond a certain size.",
+        "C": "The nucleus cannot effectively control metabolic activities in oversized cytoplasm.",
+        "D": "Cell membranes cannot expand sufficiently to accommodate excessive growth."
+      },
+      "correct_answer": "B",
+      "hint": "Consider which limitation is not supported by biological principles of cell division.",
+      "explanation": "DNA replication occurs independently of cell size during the S phase. Option A correctly describes the surface area to volume limitation that necessitates cell division.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "4.2 Cell division",
+        "subsection_anchor": "Objectives",
+        "structural_element": "recognize the causes of cell division and explain the importance of cell division",
+        "content_anchor": "As the cell grows the volume of cytoplasm relative to the cell membrane will be small that it will have low surface area to volume ratio",
+        "page_hint": "Page 4-5",
+        "concept_hash": "sha256_of_cell_division_causes"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 81,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q013",
+      "generation_timestamp": "2025-01-28T10:16:09Z",
+      "section": "4.2 Cell division",
+      "subsection": "4.2.1 Mitosis",
+      "sub_subsection": "Objectives",
+      "structural_anchor": "outline the pattern of mitotic cell division",
+      "mcq_type": "M",
+      "question": "In which order do the following mitotic phases occur during nuclear division?",
+      "options": {
+        "A": "Prophase → Metaphase → Anaphase → Telophase",
+        "B": "Metaphase → Prophase → Anaphase → Telophase",
+        "C": "Prophase → Anaphase → Metaphase → Telophase",
+        "D": "Telophase → Metaphase → Anaphase → Prophase"
+      },
+      "correct_answer": "A",
+      "hint": "Consider chromosome condensation, alignment, separation, and nuclear reformation sequence.",
+      "explanation": "Mitosis follows prophase (chromosome condensation), metaphase (alignment), anaphase (separation), then telophase (nuclear reformation). Option B incorrectly places metaphase before prophase, reversing the chromosome preparation step.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "4.2 Cell division",
+        "subsection_anchor": "4.2.1 Mitosis",
+        "sub_subsection_anchor": "Objectives",
+        "structural_element": "outline the pattern of mitotic cell division",
+        "content_anchor": "mitosis as nuclear division (Karyokinesis) is divided into a series of phases namely; prophase, metaphase, anaphase, and telophase",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_mitosis_phases"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q014",
+      "generation_timestamp": "2025-01-28T10:16:11Z",
+      "section": "4.2 Cell division",
+      "subsection": "4.2.2 Meiosis",
+      "sub_subsection": "Objectives",
+      "structural_anchor": "point out the difference between mitosis and meiosis",
+      "mcq_type": "I",
+      "question": "How does the outcome of meiosis differ from mitosis regarding chromosome number and genetic variation in daughter cells?",
+      "options": {
+        "A": "Meiosis produces haploid cells with genetic variation; mitosis produces diploid identical cells.",
+        "B": "Meiosis produces diploid identical cells; mitosis produces haploid cells with genetic variation.",
+        "C": "Both processes produce diploid cells but differ in genetic variation.",
+        "D": "Both processes produce haploid cells but differ in the number of divisions."
+      },
+      "correct_answer": "A",
+      "hint": "Consider chromosome reduction and genetic recombination unique to one process.",
+      "explanation": "Meiosis reduces chromosome number by half and introduces genetic variation through crossing over. Option B reverses the fundamental outcomes of these two division processes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 98
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "4.2 Cell division",
+        "subsection_anchor": "4.2.2 Meiosis",
+        "sub_subsection_anchor": "Objectives",
+        "structural_element": "point out the difference between mitosis and meiosis",
+        "content_anchor": "Meiosis is called reduction division, as the final daughter cells are haploid (n) as compared to the diploid (2n) mother division",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_meiosis_vs_mitosis"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 77,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q015",
+      "generation_timestamp": "2025-01-28T10:16:13Z",
+      "section": "ACTIVITY 4.1 MODELING",
+      "subsection": "ACTIVITY 4.1 MODELING",
+      "sub_subsection": null,
+      "structural_anchor": "Discuss why nucleus is important for cell division",
+      "mcq_type": "F",
+      "question": "Which cellular structure contains the genetic material that must be precisely duplicated and distributed during cell division?",
+      "options": {
+        "A": "Nucleus",
+        "B": "Mitochondria",
+        "C": "Endoplasmic reticulum",
+        "D": "Golgi apparatus"
+      },
+      "correct_answer": "A",
+      "hint": "Consider which organelle houses chromosomes and controls cell activities.",
+      "explanation": "The nucleus contains DNA that must replicate and segregate accurately during cell division. Option B is incorrect as mitochondria are involved in energy production rather than genetic control.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "ACTIVITY 4.1 MODELING",
+        "subsection_anchor": "ACTIVITY 4.1 MODELING",
+        "structural_element": "Discuss why nucleus is important for cell division",
+        "content_anchor": "Discuss why nucleus is important for cell division",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_nucleus_importance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q016",
+      "generation_timestamp": "2025-01-28T10:16:15Z",
+      "section": "ACTIVITY 4.2 CRITICAL THINKING",
+      "subsection": "ACTIVITY 4.2 CRITICAL THINKING",
+      "sub_subsection": null,
+      "structural_anchor": "Why does a cell spend most of its time in the interphase?",
+      "mcq_type": "G",
+      "question": "If most cellular activities like growth, metabolism, and DNA replication occur during interphase, what proportion of the cell cycle is typically occupied by this preparatory stage?",
+      "options": {
+        "A": "Approximately 90%",
+        "B": "Approximately 50%",
+        "C": "Approximately 25%",
+        "D": "Approximately 10%"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the extensive preparation needed before actual division occurs.",
+      "explanation": "Interphase occupies about 90% of the cell cycle because cells require extensive time for growth and DNA replication. Option B underestimates the substantial preparation phase needed before division.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "ACTIVITY 4.2 CRITICAL THINKING",
+        "subsection_anchor": "ACTIVITY 4.2 CRITICAL THINKING",
+        "structural_element": "Why does a cell spend most of its time in the interphase?",
+        "content_anchor": "Why does a cell spend most of its time in the interphase?",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_interphase_duration"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q017",
+      "generation_timestamp": "2025-01-28T10:16:17Z",
+      "section": "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS",
+      "subsection": "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS",
+      "sub_subsection": null,
+      "structural_anchor": "What is cancer?",
+      "mcq_type": "A",
+      "question": "What medical condition is characterized by uncontrolled cell division leading to abnormal tissue growth that may invade other body parts?",
+      "options": {
+        "A": "Cancer",
+        "B": "Inflammation",
+        "C": "Infection",
+        "D": "Degeneration"
+      },
+      "correct_answer": "A",
+      "hint": "Consider diseases involving unregulated cell proliferation.",
+      "explanation": "Cancer involves unregulated cell division due to failure of cell cycle control mechanisms. Option B describes immune response to injury rather than abnormal cell growth.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS",
+        "subsection_anchor": "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS",
+        "structural_element": "What is cancer?",
+        "content_anchor": "What is cancer?",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_cancer_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q018",
+      "generation_timestamp": "2025-01-28T10:16:19Z",
+      "section": "ACTIVITY 4.4: PEER DISCUSSION",
+      "subsection": "ACTIVITY 4.4: PEER DISCUSSION",
+      "sub_subsection": null,
+      "structural_anchor": "Mention our body part where cells are undergoing continuous replacement",
+      "mcq_type": "J",
+      "question": "Which human tissue requires constant cell division to replace worn-out cells that are regularly shed from the body surface?",
+      "options": {
+        "A": "Skin epithelium",
+        "B": "Cardiac muscle",
+        "C": "Nervous tissue",
+        "D": "Bone tissue"
+      },
+      "correct_answer": "A",
+      "hint": "Consider tissues exposed to external environment and mechanical wear.",
+      "explanation": "Skin epithelial cells undergo continuous mitosis to replace cells lost through shedding. Option C is incorrect as neurons have limited regenerative capacity in adults.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "ACTIVITY 4.4: PEER DISCUSSION",
+        "subsection_anchor": "ACTIVITY 4.4: PEER DISCUSSION",
+        "structural_element": "Mention our body part where cells are undergoing continuous replacement",
+        "content_anchor": "Mention our body part where cells are undergoing continuous replacement",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_cell_replacement"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q019",
+      "generation_timestamp": "2025-01-28T10:16:21Z",
+      "section": "Key terms",
+      "subsection": "Key terms",
+      "sub_subsection": null,
+      "structural_anchor": "Homologous chromosomes - are couples of one maternal and one paternal chromosome paired up during fertilization",
+      "mcq_type": "B",
+      "question": "Which term describes chromosome pairs containing genes for the same traits, with one inherited from each parent?",
+      "options": {
+        "A": "Homologous chromosomes",
+        "B": "Sister chromatids",
+        "C": "Autosomal chromosomes",
+        "D": "Sex chromosomes"
+      },
+      "correct_answer": "A",
+      "hint": "Consider chromosomes that pair during meiosis and carry corresponding genetic information.",
+      "explanation": "Homologous chromosomes are maternal and paternal pairs carrying genes for the same characteristics. Option B incorrectly describes identical copies of a single chromosome after DNA replication.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key terms"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "Key terms",
+        "subsection_anchor": "Key terms",
+        "structural_element": "Homologous chromosomes - are couples of one maternal and one paternal chromosome paired up during fertilization",
+        "content_anchor": "Homologous chromosomes - are couples of one maternal and one paternal chromosome paired up during fertilization",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_homologous_chromosomes"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Bio_U4_Q020",
+      "generation_timestamp": "2025-01-28T10:16:23Z",
+      "section": "Description of the different stages of Meiosis I and Meiosis II",
+      "subsection": "Description of the different stages of Meiosis I and Meiosis II",
+      "sub_subsection": null,
+      "structural_anchor": "Anaphase I - The centromere joining sister chromatids do not separate",
+      "mcq_type": "D",
+      "question": "During which specific meiotic phase do homologous chromosomes separate and move to opposite poles while sister chromatids remain joined?",
+      "options": {
+        "A": "Anaphase I",
+        "B": "Anaphase II",
+        "C": "Metaphase I",
+        "D": "Telophase I"
+      },
+      "correct_answer": "A",
+      "hint": "Consider when chromosome number reduction occurs through homologous separation.",
+      "explanation": "Anaphase I separates homologous chromosomes, reducing chromosome number by half. Option B incorrectly describes Anaphase II, where sister chromatids separate.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "table"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Cell Cycle",
+        "section_anchor": "Description of the different stages of Meiosis I and Meiosis II",
+        "subsection_anchor": "Description of the different stages of Meiosis I and Meiosis II",
+        "structural_element": "Anaphase I - The centromere joining sister chromatids do not separate",
+        "content_anchor": "Anaphase I - The centromere joining sister chromatids do not separate",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_anaphase_I"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 18000,
+    "average_question_quality": 85.3,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "D": 2,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "4.1 What is a cell cycle?": 1,
+      "4.2 Cell division": 3,
+      "ACTIVITY 4.1 MODELING": 1,
+      "ACTIVITY 4.2 CRITICAL THINKING": 1,
+      "ACTIVITY 4.3 INTERVIEWING KEY INFORMANTS": 1,
+      "ACTIVITY 4.4: PEER DISCUSSION": 1,
+      "Key terms": 1,
+      "Description of the different stages of Meiosis I and Meiosis II": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

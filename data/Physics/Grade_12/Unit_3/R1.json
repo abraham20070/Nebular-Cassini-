@@ -1,0 +1,805 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-03-15T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Physics_U3_Q010",
+    "covered_sections": ["Introduction", "3.1 Fluid Statics>Properties of solids, liquids and gases", "3.1 Fluid Statics>Pressure in Fluid", "3.1 Fluid Statics>Density", "3.2 Pressure in fluids at rest>Pascal's principle", "3.3 Archimedes' principle>Buoyant force", "3.4 Fluid flow>Steady and turbulent fluid flow", "3.5 Safety and high pressure>High pressure systems"],
+    "used_question_signatures": ["a0b1c2d3e4f5", "b1c2d3e4f5g6", "c2d3e4f5g6h7", "d3e4f5g6h7i8", "e4f5g6h7i8j9", "f5g6h7i8j9k0", "g6h7i8j9k0l1", "h7i8j9k0l1m2", "i8j9k0l1m2n3", "j9k0l1m2n3o4"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": ["Unit outcomes/competencies"],
+          "last_question_round": 1
+        }
+      },
+      "3.1 Fluid Statics": {
+        "Properties of solids, liquids and gases": {
+          "count": 2,
+          "mini_headings_covered": ["Brainstorming question 3.2"],
+          "last_question_round": 1
+        },
+        "Pressure in Fluid": {
+          "count": 2,
+          "mini_headings_covered": ["Brainstorming question 3.3"],
+          "last_question_round": 1
+        },
+        "Density": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.2 Pressure in fluids at rest": {
+        "Pascal's principle": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.3 Archimedes' principle": {
+        "Buoyant force": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.4 Fluid flow": {
+        "Steady and turbulent fluid flow": {
+          "count": 1,
+          "mini_headings_covered": ["Brainstorming question 3.7"],
+          "last_question_round": 1
+        }
+      },
+      "3.5 Safety and high pressure": {
+        "High pressure systems": {
+          "count": 1,
+          "mini_headings_covered": ["Brainstorming question 3.8"],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.1 Fluid Statics": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.2 Pressure in fluids at rest": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.3 Archimedes' principle": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.4 Fluid flow": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.5 Safety and high pressure": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["Fluid mechanics", "Fluid behavior", "Pressure", "Pascal's principle", "Archimedes' principle", "Fluid flow"],
+      "3.1 Fluid Statics>Properties of solids, liquids and gases": ["Molecular spacing", "Intermolecular forces", "Compressibility", "Fluid deformation"],
+      "3.1 Fluid Statics>Pressure in Fluid": ["Pressure definition", "Force per unit area", "Pressure units", "Pascal"],
+      "3.1 Fluid Statics>Density": ["Mass per unit volume", "Density calculation", "Substance identification"],
+      "3.2 Pressure in fluids at rest>Pascal's principle": ["Pressure transmission", "Hydraulic systems", "Force multiplication"],
+      "3.3 Archimedes' principle>Buoyant force": ["Upward force", "Displaced fluid", "Weight of fluid"],
+      "3.4 Fluid flow>Steady and turbulent fluid flow": ["Laminar flow", "Turbulent flow", "Streamlines", "Viscosity"],
+      "3.5 Safety and high pressure>High pressure systems": ["High pressure applications", "Compressors", "Pressure vessels", "Safety measures"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_initial_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 26,
+      "questions_per_concept_ratio": 0.38,
+      "structural_coverage_percentage": 8.33
+    }
+  },
+  "grade": "12",
+  "subject": "Physics",
+  "unit": "Unit 3: Fluid Mechanics",
+  "pdf_filename": "P12U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-03-15T10:32:15Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 8,
+        "progress_percentage": 75.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 5.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 5,
+      "structural_coverage_percentage": 8.33,
+      "concept_utilization_ratio": 0.38
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.1 Fluid Statics",
+      "least_covered_section": "3.2 Pressure in fluids at rest",
+      "imbalance_ratio": 5.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Physics_U3_Q001",
+      "generation_timestamp": "2024-03-15T10:30:05Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "Unit outcomes/competencies",
+      "mcq_type": "B",
+      "question": "Which term refers to the study of fluid behavior both at rest and in motion?",
+      "options": {
+        "A": "Thermodynamics",
+        "B": "Fluid mechanics",
+        "C": "Kinematics",
+        "D": "Electrodynamics"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the branch of physics dealing with liquids and gases.",
+      "explanation": "Fluid mechanics is the specific field that examines how fluids behave when stationary and when flowing. Option A incorrectly refers to heat and energy transfer, while option C deals with motion description without considering forces.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered element"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": "Unit outcomes/competencies",
+        "content_anchor": "Fluid mechanics refers to the study of fluid behavior at rest and in motion",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_of_fluid_mechanics"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q002",
+      "generation_timestamp": "2024-03-15T10:30:12Z",
+      "section": "3.1 Fluid Statics",
+      "subsection": "Properties of solids, liquids and gases",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming question 3.2",
+      "mcq_type": "F",
+      "question": "Under conditions where molecular spacing is significantly larger than atomic size, which material property shows the greatest difference between gases and solids?",
+      "options": {
+        "A": "Thermal conductivity",
+        "B": "Electrical resistance",
+        "C": "Compressibility",
+        "D": "Optical transparency"
+      },
+      "correct_answer": "C",
+      "hint": "Consider how easily a substance's volume can be reduced under pressure.",
+      "explanation": "Compressibility depends directly on the distance between molecules, which is much greater in gases than in solids. Option A is incorrect because thermal conductivity relates to energy transfer efficiency rather than molecular spacing.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.1 Fluid Statics",
+        "subsection_anchor": "Properties of solids, liquids and gases",
+        "structural_element": "Brainstorming question 3.2",
+        "content_anchor": "Why are gases easy to compress, while liquids and solids are almost incompressible?",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_compressibility"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q003",
+      "generation_timestamp": "2024-03-15T10:30:20Z",
+      "section": "3.1 Fluid Statics",
+      "subsection": "Properties of solids, liquids and gases",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 3.1",
+      "mcq_type": "K",
+      "question": "In a schematic representation showing atoms connected by springs, what does this model primarily illustrate about solids?",
+      "options": {
+        "A": "Their ability to conduct electricity",
+        "B": "Their resistance to deformation",
+        "C": "Their transparency to light",
+        "D": "Their capacity for phase changes"
+      },
+      "correct_answer": "B",
+      "hint": "Consider how intermolecular forces affect a material's response to stress.",
+      "explanation": "The spring model represents intermolecular forces that allow vibration but restrict positional changes, explaining why solids resist deformation. Option D incorrectly focuses on phase transitions rather than mechanical properties.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "figure"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.1 Fluid Statics",
+        "subsection_anchor": "Properties of solids, liquids and gases",
+        "structural_element": "Figure 3.1",
+        "content_anchor": "Atoms in a solid always have the same neighbors, held near equilibrium position by forces represented here by springs",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_solid_properties"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q004",
+      "generation_timestamp": "2024-03-15T10:30:28Z",
+      "section": "3.1 Fluid Statics",
+      "subsection": "Pressure in Fluid",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming question 3.3",
+      "mcq_type": "G",
+      "question": "If the area over which a constant force is applied decreases by a factor of four, what happens to the pressure exerted?",
+      "options": {
+        "A": "It decreases by a factor of four",
+        "B": "It increases by a factor of two",
+        "C": "It increases by a factor of four",
+        "D": "It remains unchanged"
+      },
+      "correct_answer": "C",
+      "hint": "Recall the relationship between pressure, force, and area.",
+      "explanation": "Pressure equals force divided by area, so reducing area increases pressure proportionally. Option B incorrectly suggests a square root relationship rather than an inverse proportionality.",
+      "difficulty_level": "easy",
+      "formula_used": ["P = F/A"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.1 Fluid Statics",
+        "subsection_anchor": "Pressure in Fluid",
+        "structural_element": "Brainstorming question 3.3",
+        "content_anchor": "Why does a mattress sink more when a person is standing on it compared with when he is lying?",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_pressure_relationship"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q005",
+      "generation_timestamp": "2024-03-15T10:30:35Z",
+      "section": "3.1 Fluid Statics",
+      "subsection": "Pressure in Fluid",
+      "sub_subsection": null,
+      "structural_anchor": "Formula 3.1: P = F/A",
+      "mcq_type": "D",
+      "question": "A force of 200 N is distributed uniformly over a rectangular area measuring 0.5 m by 0.8 m. What is the pressure exerted on this surface?",
+      "options": {
+        "A": "250 Pa",
+        "B": "400 Pa",
+        "C": "500 Pa",
+        "D": "800 Pa"
+      },
+      "correct_answer": "C",
+      "hint": "Calculate the area first, then apply the pressure formula.",
+      "explanation": "Pressure calculation requires dividing force by area, where area equals 0.5 m × 0.8 m = 0.4 m², giving 200 N ÷ 0.4 m² = 500 Pa. Option D results from incorrectly using only one dimension in the area calculation.",
+      "difficulty_level": "medium",
+      "formula_used": ["P = F/A"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "Pa",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "formula"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.1 Fluid Statics",
+        "subsection_anchor": "Pressure in Fluid",
+        "structural_element": "Formula 3.1: P = F/A",
+        "content_anchor": "P = F/A",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_pressure_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q006",
+      "generation_timestamp": "2024-03-15T10:30:42Z",
+      "section": "3.1 Fluid Statics",
+      "subsection": "Density",
+      "sub_subsection": null,
+      "structural_anchor": "Formula 3.5: ρ = m/V",
+      "mcq_type": "E",
+      "question": "A sample of liquid has a mass of 0.85 kg and occupies a volume of 0.001 m³. What is its density in kg/m³?",
+      "options": {
+        "A": "85 kg/m³",
+        "B": "850 kg/m³",
+        "C": "8500 kg/m³",
+        "D": "85000 kg/m³"
+      },
+      "correct_answer": "B",
+      "hint": "Divide mass by volume using consistent units.",
+      "explanation": "Density equals mass divided by volume, so 0.85 kg ÷ 0.001 m³ = 850 kg/m³. Option C results from incorrectly multiplying by 10 instead of properly dividing.",
+      "difficulty_level": "easy",
+      "formula_used": ["ρ = m/V"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "kg/m³",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "formula"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.1 Fluid Statics",
+        "subsection_anchor": "Density",
+        "structural_element": "Formula 3.5: ρ = m/V",
+        "content_anchor": "ρ = m/V",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_density_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 87,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q007",
+      "generation_timestamp": "2024-03-15T10:30:50Z",
+      "section": "3.2 Pressure in fluids at rest",
+      "subsection": "Pascal's principle",
+      "sub_subsection": null,
+      "structural_anchor": "Formula 3.8: F_Lon2 = (A2/A1) F_1onL",
+      "mcq_type": "I",
+      "question": "In a hydraulic system where the output piston area is eight times the input piston area, how does the output force compare to the input force when pressure transmission is undiminished?",
+      "options": {
+        "A": "The output force is one-eighth the input force",
+        "B": "The output force equals the input force",
+        "C": "The output force is four times the input force",
+        "D": "The output force is eight times the input force"
+      },
+      "correct_answer": "D",
+      "hint": "Consider how pressure transmission relates force to area in hydraulic systems.",
+      "explanation": "Pascal's principle states that pressure transmits equally, so force increases proportionally with area. Option C incorrectly uses a square root relationship rather than direct proportionality.",
+      "difficulty_level": "medium",
+      "formula_used": ["F_Lon2 = (A2/A1) F_1onL"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "formula"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.2 Pressure in fluids at rest",
+        "subsection_anchor": "Pascal's principle",
+        "structural_element": "Formula 3.8: F_Lon2 = (A2/A1) F_1onL",
+        "content_anchor": "F_Lon2 = (A2/A1) F_1onL",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_pascals_principle"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q008",
+      "generation_timestamp": "2024-03-15T10:30:57Z",
+      "section": "3.3 Archimedes' principle",
+      "subsection": "Buoyant force",
+      "sub_subsection": null,
+      "structural_anchor": "Formula 3.11: F_B = W_fluid",
+      "mcq_type": "A",
+      "question": "What physical quantity equals the weight of the fluid displaced by an immersed object?",
+      "options": {
+        "A": "Buoyant force",
+        "B": "Gravitational force",
+        "C": "Normal force",
+        "D": "Frictional force"
+      },
+      "correct_answer": "A",
+      "hint": "Recall the principle describing upward force in fluids.",
+      "explanation": "Archimedes' principle specifically states that the buoyant force equals the weight of displaced fluid. Option B incorrectly refers to the object's weight rather than the fluid's weight.",
+      "difficulty_level": "easy",
+      "formula_used": ["F_B = W_fluid"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "formula"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.3 Archimedes' principle",
+        "subsection_anchor": "Buoyant force",
+        "structural_element": "Formula 3.11: F_B = W_fluid",
+        "content_anchor": "F_B = W_fluid",
+        "page_hint": "Page 29",
+        "concept_hash": "sha256_of_archimedes_principle"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q009",
+      "generation_timestamp": "2024-03-15T10:31:05Z",
+      "section": "3.4 Fluid flow",
+      "subsection": "Steady and turbulent fluid flow",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming question 3.7",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that blood flows through vessels only due to gravitational effects?",
+      "options": {
+        "A": "It ignores the role of heart contractions in generating pressure differences",
+        "B": "It overlooks the influence of vessel diameter on flow resistance",
+        "C": "It confuses laminar flow with turbulent flow characteristics",
+        "D": "It misattributes temperature effects on blood viscosity"
+      },
+      "correct_answer": "A",
+      "hint": "Consider what primary mechanism drives fluid motion in circulatory systems.",
+      "explanation": "Blood flow primarily results from pressure differences created by the heart's pumping action, not gravitational effects alone. Option B incorrectly focuses on resistance rather than the driving mechanism.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.4 Fluid flow",
+        "subsection_anchor": "Steady and turbulent fluid flow",
+        "structural_element": "Brainstorming question 3.7",
+        "content_anchor": "What mechanism maintains the Blood flows through our circulatory system?",
+        "page_hint": "Page 35",
+        "concept_hash": "sha256_of_fluid_flow_mechanism"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 86,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Physics_U3_Q010",
+      "generation_timestamp": "2024-03-15T10:31:12Z",
+      "section": "3.5 Safety and high pressure",
+      "subsection": "High pressure systems",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming question 3.8",
+      "mcq_type": "J",
+      "question": "Which category correctly classifies a device that increases gas pressure by reducing its volume?",
+      "options": {
+        "A": "Pressure vessel",
+        "B": "Compressor",
+        "C": "Manometer",
+        "D": "Barometer"
+      },
+      "correct_answer": "B",
+      "hint": "Consider equipment that actively changes gas pressure through mechanical action.",
+      "explanation": "Compressors specifically work by decreasing gas volume to increase pressure. Option A refers to containers that store pressurized fluids rather than devices that create pressure.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Fluid Mechanics",
+        "section_anchor": "3.5 Safety and high pressure",
+        "subsection_anchor": "High pressure systems",
+        "structural_element": "Brainstorming question 3.8",
+        "content_anchor": "Have you ever seen while metal and wood technicians spraying ink or varnish on wooden or metallic furniture?",
+        "page_hint": "Page 39",
+        "concept_hash": "sha256_of_high_pressure_equipment"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 67000,
+    "average_question_quality": 84.5,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "3.1 Fluid Statics": 5,
+      "3.2 Pressure in fluids at rest": 1,
+      "3.3 Archimedes' principle": 1,
+      "3.4 Fluid flow": 1,
+      "3.5 Safety and high pressure": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

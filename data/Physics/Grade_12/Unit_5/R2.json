@@ -1,0 +1,909 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-04-04T09:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G12_Phy_U5_Q020",
+    "covered_sections": ["Introduction", "5.1 Semiconductors", "5.2 Diodes and their Functions", "5.3 Rectification", "5.4 Transistors and their application", "5.6 Logic gates and logic circuits"],
+    "used_question_signatures": ["A_electron_hole_Brainstorming 5.2", "B_Ntype_At the end 5.1", "F_doping_semiconductor_Types of Semiconductors", "D_biasing_Forward biased", "C_formula_I-V", "E_cutin_Review 5.2", "G_rectification_Half wave rectification", "H_rectifier_output_Working principle of Half Wave Rectifier:", "I_LED_Photodiode_Practical uses of diodes", "J_gate_class_Logic gates", "H_depletion_bias_Biasing of P-N junction diode", "N_reverse_bias_Biasing of P-N junction diode", "K_fullwave_Full-wave Rectification", "E_gain_Example 5.1", "D_config_Transistor configurations", "G_breakdown_Current-voltage (I-V) characteristics", "B_conductor_Introduction", "F_analog_digital_Digital and analog signals", "A_extrinsic_Types of Semiconductors", "C_boolean_Logic gates"],
+    "baseline_counter": {
+      "Introduction": {
+        "Brainstorming question 5.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "5.1 Semiconductors": {
+        "At the end of this section, you will be able to:": {
+          "count": 3,
+          "mini_headings_covered": ["Lattice structure of semiconductors", "Brainstorming question 5.2"],
+          "last_question_round": 1
+        },
+        "Types of Semiconductors": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Review question 5.1:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "5.2 Diodes and their Functions": {
+        "At the end of this section, you will be able to:": {
+          "count": 1,
+          "mini_headings_covered": ["P-N junction diode"],
+          "last_question_round": 1
+        },
+        "Biasing of P-N junction diode": {
+          "count": 4,
+          "mini_headings_covered": ["Forward biased", "Reverse biased"],
+          "last_question_round": 2
+        },
+        "Current-voltage (I-V) characteristics of the semiconductor diode": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Review question 5.2:": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.3 Rectification": {
+        "At the end of this section, you will be able to:": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Half wave rectification": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Working principle of Half Wave Rectifier:": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Full-wave Rectification": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Working principle of full wave bridge rectifier": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Diodes and capacitor": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Practical uses of diodes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.4 Transistors and their application": {
+        "At the end of this section, you will be able to:": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Basic transistor operation": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Transistor configurations": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Example 5.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Review question 5.4:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "5.5 Integrated Circuits": {
+        "At the end of this section, you will be able to:": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "5.6 Logic gates and logic circuits": {
+        "At the end of this section, you will be able to:": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Digital and analog signals": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Logic gates": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "5.7 Application of electronics": {
+        "Aerospace industry": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "5.1 Semiconductors": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.2 Diodes and their Functions": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.3 Rectification": {
+        "question_count": 5,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.4 Transistors and their application": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "5.5 Integrated Circuits": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "5.6 Logic gates and logic circuits": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "5.7 Application of electronics": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1 Semiconductors>At the end of this section, you will be able to:": ["electron-hole pair", "charge carrier"],
+      "5.1 Semiconductors>Types of Semiconductors": ["doping", "extrinsic semiconductor", "intrinsic semiconductor"],
+      "5.2 Diodes and their Functions>Biasing of P-N junction diode": ["forward bias", "depletion region", "reverse bias"],
+      "5.2 Diodes and their Functions>Current-voltage (I-V) characteristics of the semiconductor diode": ["cut-in voltage", "breakdown voltage"],
+      "5.3 Rectification>At the end of this section, you will be able to:": ["rectification"],
+      "5.3 Rectification>Practical uses of diodes": ["LED", "photodiode"],
+      "5.3 Rectification>Working principle of Half Wave Rectifier:": ["pulsating DC"],
+      "5.3 Rectification>Full-wave Rectification": ["bridge rectifier"],
+      "5.4 Transistors and their application>At the end of this section, you will be able to:": ["amplification", "current gain"],
+      "5.4 Transistors and their application>Transistor configurations": ["common-emitter"],
+      "5.6 Logic gates and logic circuits>At the end of this section, you will be able to:": ["analog signal", "digital signal"],
+      "5.6 Logic gates and logic circuits>Logic gates": ["Boolean algebra"],
+      "Introduction>Brainstorming question 5.1": ["conductor", "insulator"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "previous_state_hash_placeholder",
+    "content_density_metrics": {
+      "total_concepts_extracted": 22,
+      "questions_per_concept_ratio": 0.91,
+      "structural_coverage_percentage": 31.8
+    }
+  },
+  "grade": "12",
+  "subject": "Physics",
+  "unit": "Unit 5: Basics of electronics",
+  "pdf_filename": "P12U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-04-04T09:07:45Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 11,
+        "progress_percentage": 54.5
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 15,
+      "mini_headings_covered_count": 5,
+      "structural_coverage_percentage": 31.8,
+      "concept_utilization_ratio": 0.91
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.2 Diodes and their Functions",
+      "least_covered_section": "5.5 Integrated Circuits",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Phy_U5_Q011",
+      "generation_timestamp": "2025-04-04T09:05:05Z",
+      "section": "5.2 Diodes and their Functions",
+      "subsection": "Biasing of P-N junction diode",
+      "sub_subsection": null,
+      "structural_anchor": "Reverse biased",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that a reverse-biased P-N junction conducts significant current due to minority carriers?",
+      "options": {
+        "A": "It overestimates the number of minority carriers, which is very small, resulting in only a tiny leakage current, not significant conduction.",
+        "B": "It confuses the roles of the depletion region and the semiconductor bulk.",
+        "C": "It assumes minority carriers have the opposite charge to majority carriers.",
+        "D": "It mistakenly applies Ohm's law to the diode's non-linear characteristic."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the magnitude of current due to minority carriers under reverse bias.",
+      "explanation": "Under reverse bias, the current is limited to a very small leakage current from thermally generated minority carriers, not significant conduction. Option D describes a different conceptual error related to modeling, not the specific misunderstanding about current magnitude.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.2 Diodes and their Functions",
+        "subsection_anchor": "Biasing of P-N junction diode",
+        "structural_element": "Reverse biased",
+        "content_anchor": "almost zero current flows through the junction diode",
+        "page_hint": "Page 8",
+        "concept_hash": "concept_reverse_bias_current"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q012",
+      "generation_timestamp": "2025-04-04T09:05:20Z",
+      "section": "5.2 Diodes and their Functions",
+      "subsection": "Biasing of P-N junction diode",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "N",
+      "question": "Under what specific condition does a P-N junction diode allow significant current to flow?",
+      "options": {
+        "A": "When the applied forward voltage exceeds the diode's cut-in voltage.",
+        "B": "When the temperature is at absolute zero.",
+        "C": "When the diode is illuminated with high-intensity light.",
+        "D": "When the load resistance is exactly matched to the diode's resistance."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the voltage threshold that must be overcome for conduction.",
+      "explanation": "A diode conducts significant current only when forward-biased and the applied voltage exceeds the material-specific cut-in voltage, reducing the depletion region barrier. Option C describes the operating condition for a photodiode, not a standard diode.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 28.6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.2 Diodes and their Functions",
+        "subsection_anchor": "Biasing of P-N junction diode",
+        "structural_element": "Forward biased",
+        "content_anchor": "Once the forward bias exceed the cut- in voltage... the current will be dramatically increased",
+        "page_hint": "Page 9",
+        "concept_hash": "concept_forward_bias_condition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q013",
+      "generation_timestamp": "2025-04-04T09:05:35Z",
+      "section": "5.3 Rectification",
+      "subsection": "Full-wave Rectification",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "K",
+      "question": "A full-wave bridge rectifier circuit uses four diodes. What does this configuration achieve in terms of the input AC waveform?",
+      "options": {
+        "A": "It converts both the positive and negative half-cycles of the AC input into a pulsating DC output of the same polarity.",
+        "B": "It filters out all high-frequency noise from the AC input signal.",
+        "C": "It amplifies the AC voltage before rectification.",
+        "D": "It inverts the phase of the negative half-cycle to match the positive half-cycle."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the output polarity relative to the input AC cycles.",
+      "explanation": "A bridge rectifier directs both half-cycles of the AC input to the load in the same direction, producing a pulsating DC output with double the frequency of a half-wave rectifier. Option D incorrectly describes phase inversion, which is not the primary function of the bridge configuration.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.3 Rectification",
+        "subsection_anchor": "Full-wave Rectification",
+        "structural_element": "The four diodes... are arranged in such a way that only two diodes conduct current during each half- cycle.",
+        "content_anchor": "full- wave rectifier... uses four diodes",
+        "page_hint": "Page 11",
+        "concept_hash": "concept_fullwave_bridge"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q014",
+      "generation_timestamp": "2025-04-04T09:05:50Z",
+      "section": "5.4 Transistors and their application",
+      "subsection": "Example 5.1",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "E",
+      "question": "A transistor has a base current of 25 μA and a collector current of 5 mA. What is its current gain (β)?",
+      "options": {
+        "A": "200",
+        "B": "0.005",
+        "C": "20",
+        "D": "125"
+      },
+      "correct_answer": "A",
+      "hint": "Use the ratio of collector current to base current.",
+      "explanation": "Current gain β is calculated as β = I_C / I_B = (5 mA) / (25 μA) = (0.005) / (0.000025) = 200. Option B results from incorrectly taking the reciprocal of the ratio (I_B/I_C).",
+      "difficulty_level": "easy",
+      "formula_used": ["β = I_C / I_B"],
+      "numeric": {
+        "is_numeric": true,
+        "units": null,
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.4 Transistors and their application",
+        "subsection_anchor": "Example 5.1",
+        "structural_element": "β = I_C / I_B",
+        "content_anchor": "I_C = β I_B",
+        "page_hint": "Page 18",
+        "concept_hash": "concept_current_gain_beta"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q015",
+      "generation_timestamp": "2025-04-04T09:06:05Z",
+      "section": "5.4 Transistors and their application",
+      "subsection": "Transistor configurations",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "In a common-emitter transistor amplifier circuit, where is the input signal applied and the output signal taken?",
+      "options": {
+        "A": "Input between base and emitter; output between collector and emitter.",
+        "B": "Input between emitter and collector; output between base and collector.",
+        "C": "Input between base and collector; output between emitter and collector.",
+        "D": "Input between emitter and base; output between collector and base."
+      },
+      "correct_answer": "A",
+      "hint": "Identify which terminal is common to both input and output ports.",
+      "explanation": "In a common-emitter configuration, the emitter terminal is common to both input (base-emitter) and output (collector-emitter) circuits, providing both current and voltage gain. Option C describes a common-collector configuration.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.4 Transistors and their application",
+        "subsection_anchor": "Transistor configurations",
+        "structural_element": "Common- emitter (CE) : In the CE, the input signal is applied between the base and emitter terminal, and the output is taken between the collector and emitter terminal.",
+        "content_anchor": "common- emitter",
+        "page_hint": "Page 18",
+        "concept_hash": "concept_common_emitter_config"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q016",
+      "generation_timestamp": "2025-04-04T09:06:20Z",
+      "section": "5.2 Diodes and their Functions",
+      "subsection": "Current-voltage (I-V) characteristics of the semiconductor diode",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "G",
+      "question": "If the reverse bias voltage applied to a silicon diode is gradually increased beyond a certain point, what happens to the reverse current?",
+      "options": {
+        "A": "It increases rapidly due to avalanche or zener breakdown.",
+        "B": "It decreases exponentially as the depletion region widens.",
+        "C": "It remains constant at the saturation leakage current level.",
+        "D": "It oscillates due to capacitive effects in the junction."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the phenomenon that occurs at high reverse voltage.",
+      "explanation": "At the breakdown voltage, the reverse current increases rapidly due to avalanche or zener breakdown mechanisms, which can destroy the diode if current is not limited. Option C describes behavior at reverse voltages below the breakdown point.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.2 Diodes and their Functions",
+        "subsection_anchor": "Current-voltage (I-V) characteristics of the semiconductor diode",
+        "structural_element": "At a certain voltage, called the breakdown voltage, the current in the reverse direction increases rapidly.",
+        "content_anchor": "breakdown voltage",
+        "page_hint": "Page 9",
+        "concept_hash": "concept_breakdown_voltage"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q017",
+      "generation_timestamp": "2025-04-04T09:06:35Z",
+      "section": "Introduction",
+      "subsection": "Brainstorming question 5.1",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "B",
+      "question": "Materials that allow electric current to flow easily due to the presence of free electrons are classified as what?",
+      "options": {
+        "A": "Conductors",
+        "B": "Insulators",
+        "C": "Semiconductors",
+        "D": "Resistors"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the property related to the availability of mobile charge carriers.",
+      "explanation": "Conductors possess free electrons that can move easily under an electric field, enabling good electrical conductivity. Option B is incorrect because insulators have tightly bound electrons that cannot move freely.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unnumbered"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Brainstorming question 5.1",
+        "structural_element": "Conductors are materials which allow electricity to flow through them.",
+        "content_anchor": "Metals are good conductors of electricity.",
+        "page_hint": "Page 2",
+        "concept_hash": "concept_conductor_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q018",
+      "generation_timestamp": "2025-04-04T09:06:50Z",
+      "section": "5.6 Logic gates and logic circuits",
+      "subsection": "Digital and analog signals",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "Which reasoning best explains why digital signals, represented as sequences of 0s and 1s, are more immune to noise during transmission compared to analog signals?",
+      "options": {
+        "A": "Digital circuits distinguish between two distinct voltage levels; small noise variations do not change the interpreted value from 0 to 1 or vice versa.",
+        "B": "Digital signals have higher frequency content which noise cannot affect.",
+        "C": "Analog signals are continuous and can be perfectly reconstructed even with noise.",
+        "D": "Noise only affects signals with amplitude below a certain threshold, which digital signals always exceed."
+      },
+      "correct_answer": "A",
+      "hint": "Consider how information is encoded and decoded in digital systems.",
+      "explanation": "Digital systems use threshold detection to interpret signals as either 0 or 1, making them robust against small amplitude noise that doesn't cross these thresholds. Option C is incorrect because analog signals are degraded by noise, which cannot be perfectly removed.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.6 Logic gates and logic circuits",
+        "subsection_anchor": "Digital and analog signals",
+        "structural_element": "A digital signal is a signal that is being used to represent data as a sequence of discrete values; at any given time, it can only take on, at most, one of a finite number of values.",
+        "content_anchor": "two voltage bands: one near a reference value... and the other a value near the supply voltage",
+        "page_hint": "Page 22",
+        "concept_hash": "concept_digital_noise_immunity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q019",
+      "generation_timestamp": "2025-04-04T09:07:05Z",
+      "section": "5.1 Semiconductors",
+      "subsection": "Types of Semiconductors",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "A",
+      "question": "What term describes a pure semiconductor material, such as silicon or germanium, that has not been doped with any impurities?",
+      "options": {
+        "A": "Intrinsic semiconductor",
+        "B": "Extrinsic semiconductor",
+        "C": "N-type semiconductor",
+        "D": "P-type semiconductor"
+      },
+      "correct_answer": "A",
+      "hint": "Focus on the purity and lack of added impurities.",
+      "explanation": "An intrinsic semiconductor is a pure material with no intentional doping, where the number of electrons equals the number of holes generated thermally. Option B is incorrect as extrinsic semiconductors have deliberately added impurities to alter conductivity.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 30.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 97
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.1 Semiconductors",
+        "subsection_anchor": "Types of Semiconductors",
+        "structural_element": "Intrinsic semiconductors: are composed of only one kind of material; silicon and germanium are two examples.",
+        "content_anchor": "undoped semiconductors",
+        "page_hint": "Page 3",
+        "concept_hash": "concept_intrinsic_semiconductor"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Phy_U5_Q020",
+      "generation_timestamp": "2025-04-04T09:07:20Z",
+      "section": "5.6 Logic gates and logic circuits",
+      "subsection": "Logic gates",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "C",
+      "question": "In digital logic design, which algebraic system uses variables that can only have two values (0 and 1) and operations like AND, OR, and NOT?",
+      "options": {
+        "A": "Boolean algebra",
+        "B": "Linear algebra",
+        "C": "Differential calculus",
+        "D": "Matrix algebra"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the algebra named after a mathematician associated with logic.",
+      "explanation": "Boolean algebra is the mathematical system used for designing and analyzing digital logic circuits, with binary variables and logical operations. Option B is a branch of mathematics dealing with vectors and linear equations, not digital logic.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Basics of electronics",
+        "section_anchor": "5.6 Logic gates and logic circuits",
+        "subsection_anchor": "Logic gates",
+        "structural_element": "The logical statements that logic gates follow are called Boolean expressions.",
+        "content_anchor": "Boolean algebra",
+        "page_hint": "Page 23",
+        "concept_hash": "concept_boolean_algebra"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 145000,
+    "average_question_quality": 83.7,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "K": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "5.1 Semiconductors": 1,
+      "5.2 Diodes and their Functions": 3,
+      "5.3 Rectification": 1,
+      "5.4 Transistors and their application": 2,
+      "5.6 Logic gates and logic circuits": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

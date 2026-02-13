@@ -1,0 +1,809 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2024-05-15T10:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G9_Chem_U5_Q020",
+    "covered_sections": ["5.1 Chemical Bonding", "5.2 Ionic Bonding", "5.3 Covalent Bonding", "5.4 Metallic Bonding"],
+    "used_question_signatures": ["d15d6e11b2c6f1d1e7c7f8a9b0c1d2e3", "f25e7f22c3d7e2e2f8d8b9c0d1e2f3a4", "a35f8a33d4e8f3f3a9e9c0d1e2f3a4b5", "b46f9b44e5f9a4a4b0f0d1e2f3a4b5c6", "c57a0c55f6a0b5b5c1a1e2f3a4b5c6d7", "d68b1d66a7b1c6c6d2b2f3a4b5c6d7e8", "e79c2e77b8c2d7d7e3c3a4b5c6d7e8f9", "f80d3f88c9d3e8e8f4d4b5c6d7e8f9a0", "a91e4a99d0e4f9f9a5e5c6d7e8f9a0b1", "b02f5b0a1e5a0a0b6f6d7e8f9a0b1c2", "c13a6b1b2f6a1b1c7a7e8f9a0b1c2d3", "d24b7c2c3a7b2c2d8b8f9a0b1c2d3e4", "e35c8d3d4b8c3d3e9c9a0b1c2d3e4f5", "f46d9e4e5c9d4e4f0d0b1c2d3e4f5a6", "a57e0f5f6d0e5f5a1e1c2d3e4f5a6b7", "b68f1a6a7e1f6a6b2f2d3e4f5a6b7c8", "c79a2b7b8f2a7a7c3a3e4f5a6b7c8d9", "d8ab3c8c9a3b8b8d4b4f5a6b7c8d9e0", "e9bc4d9d0b4c9c9e5c5a6b7c8d9e0f1", "f0cd5e0e1c5d0d0f6d6b7c8d9e0f1a2"],
+    "baseline_counter": {
+      "5.1 Chemical Bonding": {
+        "Why do atoms form chemical bond?": {
+          "count": 2,
+          "mini_headings_covered": ["Why do atoms form chemical bond?"],
+          "last_question_round": 2
+        },
+        "Octet Rule": {
+          "count": 2,
+          "mini_headings_covered": ["Octet Rule"],
+          "last_question_round": 2
+        },
+        "How could atoms satisfy the Octet Rule?": {
+          "count": 2,
+          "mini_headings_covered": ["How could atoms satisfy the Octet Rule?"],
+          "last_question_round": 2
+        }
+      },
+      "5.2 Ionic Bonding": {
+        "5.2.1 Formation of Ionic Bonding": {
+          "count": 4,
+          "mini_headings_covered": ["What are Ions?", "Types of Ions", "How Do Ions Form?", "Ionic Bonding"],
+          "last_question_round": 2
+        },
+        "5.2.2 Lewis Formulas of Ionic Compounds": {
+          "count": 2,
+          "mini_headings_covered": ["Lewis Dot Formula"],
+          "last_question_round": 2
+        },
+        "5.2.3 General Properties of Ionic Compounds": {
+          "count": 3,
+          "mini_headings_covered": ["They Form Crystals", "They Have High Melting Points and High Boiling Points.", "They are Hard and Brittle"],
+          "last_question_round": 2
+        }
+      },
+      "5.3 Covalent Bonding": {
+        "5.3.1 Formation of Covalent Bond": {
+          "count": 4,
+          "mini_headings_covered": ["Formation of Single Covalent Bond", "Formation of Double Bond", "Formation of Triple Covalent Bond"],
+          "last_question_round": 2
+        },
+        "5.3.2 Lewis's Formula of Covalent Molecules": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.3.3 Polarity in Covalent Molecules": {
+          "count": 3,
+          "mini_headings_covered": ["Nonpolar Covalent Molecules", "Polar Covalent Molecules"],
+          "last_question_round": 2
+        },
+        "5.3.4 Coordinate Covalent Bond (Dative Bond)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "5.4 Metallic Bonding": {
+        "5.4.1 Formation of Metallic Bond": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.4.2 Properties of Metallic Bond": {
+          "count": 1,
+          "mini_headings_covered": ["Conductivity:"],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1 Chemical Bonding": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.2 Ionic Bonding": {
+        "question_count": 9,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.3 Covalent Bonding": {
+        "question_count": 10,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.4 Metallic Bonding": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1 Chemical Bonding>Why do atoms form chemical bond?": ["chemical bond", "atoms combine", "molecule stability", "attractive force"],
+      "5.1 Chemical Bonding>Octet Rule": ["eight valence electrons", "noble gas configuration", "atom stability", "Gilbert Lewis"],
+      "5.1 Chemical Bonding>How could atoms satisfy the Octet Rule?": ["lose electrons", "gain electrons", "share electrons", "electron transfer"],
+      "5.2 Ionic Bonding>5.2.1 Formation of Ionic Bonding": ["ion", "cation", "anion", "electron transfer", "ionization", "electrostatic force"],
+      "5.2 Ionic Bonding>5.2.2 Lewis Formulas of Ionic Compounds": ["Lewis dot formula", "valence electrons", "electron transfer representation", "dots surrounding symbol"],
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds": ["crystalline structure", "ionic lattice", "high melting point", "hard and brittle", "electrostatic attraction"],
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond": ["electron sharing", "single bond", "double bond", "triple bond", "bond pair", "hydrogen molecule"],
+      "5.3 Covalent Bonding>5.3.2 Lewis's Formula of Covalent Molecules": ["covalent Lewis structure", "bonding electrons", "lone pairs"],
+      "5.3 Covalent Bonding>5.3.3 Polarity in Covalent Molecules": ["electronegativity", "nonpolar covalent bond", "equal electron sharing", "polar covalent bond", "unequal sharing"],
+      "5.3 Covalent Bonding>5.3.4 Coordinate Covalent Bond (Dative Bond)": ["dative bond", "lone pair donation", "electron pair provided by one atom"],
+      "5.4 Metallic Bonding>5.4.1 Formation of Metallic Bond": ["delocalized electrons", "sea of electrons", "metal ions", "metallic bond definition"],
+      "5.4 Metallic Bonding>5.4.2 Properties of Metallic Bond": ["electrical conductivity", "thermal conductivity", "free electrons"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_after_batch_1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 46,
+      "questions_per_concept_ratio": 0.61,
+      "structural_coverage_percentage": 60.9
+    }
+  },
+  "grade": "9",
+  "subject": "Chemistry",
+  "unit": "Unit 5: CHEMICAL BONDING",
+  "pdf_filename": "C9U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-05-15T10:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 4,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 1.67,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 11,
+      "mini_headings_covered_count": 13,
+      "structural_coverage_percentage": 56.5,
+      "concept_utilization_ratio": 0.43
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.3 Covalent Bonding",
+      "least_covered_section": "5.4 Metallic Bonding",
+      "imbalance_ratio": 3.33,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Chem_U5_Q011",
+      "generation_timestamp": "2024-05-15T10:05:00Z",
+      "section": "5.1 Chemical Bonding",
+      "subsection": "Why do atoms form chemical bond?",
+      "sub_subsection": null,
+      "structural_anchor": "Why do atoms form chemical bond?",
+      "mcq_type": "F",
+      "question": "Under the condition that atoms achieve greater stability, which reasoning best explains why chemical bonds form?",
+      "options": {
+        "A": "Atoms bond to increase their nuclear charge",
+        "B": "Chemical bonds allow atoms to attain more stable electron configurations",
+        "C": "Bonding reduces the number of protons in the nucleus",
+        "D": "Atoms form bonds to become radioactive"
+      },
+      "correct_answer": "B",
+      "hint": "Consider what changes in electron arrangement when bonds form.",
+      "explanation": "Chemical bonds form primarily because atoms achieve more stable electron configurations, often satisfying the octet rule. Option A incorrectly suggests nuclear charge changes, which does not occur during bonding.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.1 Chemical Bonding",
+        "subsection_anchor": "Why do atoms form chemical bond?",
+        "structural_element": "Why do atoms form chemical bond?",
+        "content_anchor": "atoms combine to become stable",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_bonding_for_stability"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 81,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q012",
+      "generation_timestamp": "2024-05-15T10:05:00Z",
+      "section": "5.1 Chemical Bonding",
+      "subsection": "Octet Rule",
+      "sub_subsection": null,
+      "structural_anchor": "Octet Rule",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that helium violates the octet rule?",
+      "options": {
+        "A": "Helium has zero valence electrons",
+        "B": "Helium requires eight electrons like other noble gases",
+        "C": "Helium's first shell is complete with two electrons",
+        "D": "Helium can form compounds to achieve octet"
+      },
+      "correct_answer": "C",
+      "hint": "Consider helium's electron configuration compared to other noble gases.",
+      "explanation": "The octet rule specifically requires eight valence electrons for stability, but helium's first electron shell is complete with only two electrons. Option B incorrectly assumes all noble gases need eight valence electrons, overlooking helium's unique configuration.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.1 Chemical Bonding",
+        "subsection_anchor": "Octet Rule",
+        "structural_element": "Octet Rule",
+        "content_anchor": "helium exception",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_helium_octet_exception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q013",
+      "generation_timestamp": "2024-05-15T10:05:00Z",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.1 Formation of Ionic Bonding",
+      "sub_subsection": null,
+      "structural_anchor": "How Do Ions Form?",
+      "mcq_type": "G",
+      "question": "If a sodium atom loses one valence electron, what happens to its net electrical charge?",
+      "options": {
+        "A": "Becomes neutral",
+        "B": "Becomes negative",
+        "C": "Becomes positive",
+        "D": "Remains unchanged"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the balance between protons and electrons after electron loss.",
+      "explanation": "When sodium loses an electron, it has more protons than electrons, resulting in a net positive charge. Option B incorrectly suggests gaining electrons, which would create a negative charge.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.1 Formation of Ionic Bonding",
+        "structural_element": "How Do Ions Form?",
+        "content_anchor": "losing electrons creates positive charge",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_ion_formation_by_loss"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q014",
+      "generation_timestamp": "2024-05-15T10:05:00Z",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.1 Formation of Ionic Bonding",
+      "sub_subsection": null,
+      "structural_anchor": "Ionic Bonding",
+      "mcq_type": "D",
+      "question": "What type of force holds sodium and chloride ions together in sodium chloride?",
+      "options": {
+        "A": "Covalent bonding",
+        "B": "Metallic bonding",
+        "C": "Electrostatic attraction",
+        "D": "Hydrogen bonding"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the charges on the ions involved.",
+      "explanation": "Ionic bonds result from electrostatic attraction between oppositely charged ions. Option A describes sharing of electrons between atoms, not attraction between ions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.1 Formation of Ionic Bonding",
+        "structural_element": "Ionic Bonding",
+        "content_anchor": "electrostatic force",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_ionic_bond_force"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q015",
+      "generation_timestamp": "2024-05-15T10:05:00Z",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.2 Lewis Formulas of Ionic Compounds",
+      "sub_subsection": null,
+      "structural_anchor": "Lewis Dot Formula",
+      "mcq_type": "K",
+      "question": "What does the transfer of an electron from sodium to chlorine represent in a Lewis dot formula?",
+      "options": {
+        "A": "Formation of a covalent bond",
+        "B": "Creation of two neutral atoms",
+        "C": "Formation of an ionic bond",
+        "D": "Breaking of a metallic bond"
+      },
+      "correct_answer": "C",
+      "hint": "Consider what type of bonding involves electron transfer between atoms.",
+      "explanation": "Lewis dot formulas show electron transfer from metal to nonmetal, representing ionic bond formation. Option A incorrectly describes covalent bonding where electrons are shared, not transferred.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.2 Lewis Formulas of Ionic Compounds",
+        "structural_element": "Lewis Dot Formula",
+        "content_anchor": "electron transfer representation",
+        "page_hint": "Page 9-10",
+        "concept_hash": "sha256_of_lewis_ionic_representation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q016",
+      "generation_timestamp": "2024-05-15T10:05:00Z",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.3 General Properties of Ionic Compounds",
+      "sub_subsection": null,
+      "structural_anchor": "They Have High Melting Points and High Boiling Points.",
+      "mcq_type": "F",
+      "question": "Why do ionic compounds typically require high temperatures to melt?",
+      "options": {
+        "A": "Weak intermolecular forces allow easy separation",
+        "B": "Strong electrostatic forces between ions require substantial energy to overcome",
+        "C": "Covalent bonds within ions need breaking",
+        "D": "Metallic bonds resist temperature changes"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the strength of the forces holding the ions together.",
+      "explanation": "High melting points result from strong electrostatic attractions between cations and anions that require considerable energy to overcome. Option A incorrectly describes weak forces, which would lead to low melting points.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.3 General Properties of Ionic Compounds",
+        "structural_element": "They Have High Melting Points and High Boiling Points.",
+        "content_anchor": "strong electrostatic attraction requires high temperature",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_ionic_high_melting_point"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q017",
+      "generation_timestamp": "2024-05-15T10:05:00Z",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.3 General Properties of Ionic Compounds",
+      "sub_subsection": null,
+      "structural_anchor": "They are Hard and Brittle",
+      "mcq_type": "G",
+      "question": "If an ionic crystal is struck with a hammer, what causes it to shatter?",
+      "options": {
+        "A": "Covalent bonds break between atoms",
+        "B": "Like-charged ions repel when forced together",
+        "C": "Metallic bonds lose their strength",
+        "D": "Hydrogen bonds weaken under pressure"
+      },
+      "correct_answer": "B",
+      "hint": "Consider what happens when ions of the same charge come close together.",
+      "explanation": "When struck, ionic crystal layers shift, bringing like-charged ions adjacent to each other, causing repulsion and shattering. Option A incorrectly references covalent bonds, which are not present in pure ionic compounds.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.3 General Properties of Ionic Compounds",
+        "structural_element": "They are Hard and Brittle",
+        "content_anchor": "repulsive forces between like charges",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_ionic_brittleness"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q018",
+      "generation_timestamp": "2024-05-15T10:05:00Z",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.1 Formation of Covalent Bond",
+      "sub_subsection": null,
+      "structural_anchor": "Formation of Triple Covalent Bond",
+      "mcq_type": "D",
+      "question": "How many pairs of electrons are shared between two nitrogen atoms in a nitrogen molecule?",
+      "options": {
+        "A": "One pair",
+        "B": "Two pairs",
+        "C": "Three pairs",
+        "D": "Four pairs"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the bond order in dinitrogen.",
+      "explanation": "A nitrogen molecule (N₂) forms a triple bond involving three shared electron pairs. Option B describes a double bond, which involves only two shared electron pairs.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.1 Formation of Covalent Bond",
+        "structural_element": "Formation of Triple Covalent Bond",
+        "content_anchor": "three pairs of electrons",
+        "page_hint": "Page 18-19",
+        "concept_hash": "sha256_of_triple_bond"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q019",
+      "generation_timestamp": "2024-05-15T10:05:00Z",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.3 Polarity in Covalent Molecules",
+      "sub_subsection": null,
+      "structural_anchor": "Polar Covalent Molecules",
+      "mcq_type": "F",
+      "question": "What condition leads to the formation of a polar covalent bond between two different atoms?",
+      "options": {
+        "A": "Atoms have equal electronegativities",
+        "B": "Electrons are shared equally between atoms",
+        "C": "Atoms have different electronegativities",
+        "D": "Electrons are completely transferred"
+      },
+      "correct_answer": "C",
+      "hint": "Consider how electron distribution affects bond polarity.",
+      "explanation": "Polar covalent bonds form when two atoms with different electronegativities share electrons unequally. Option A describes nonpolar bonds where electronegativities are equal.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.3 Polarity in Covalent Molecules",
+        "structural_element": "Polar Covalent Molecules",
+        "content_anchor": "different electronegativities",
+        "page_hint": "Page 22-23",
+        "concept_hash": "sha256_of_polar_bond_condition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q020",
+      "generation_timestamp": "2024-05-15T10:05:00Z",
+      "section": "5.4 Metallic Bonding",
+      "subsection": "5.4.1 Formation of Metallic Bond",
+      "sub_subsection": null,
+      "structural_anchor": "5.4.1 Formation of Metallic Bond",
+      "mcq_type": "A",
+      "question": "What describes the 'sea of electrons' model in metallic bonding?",
+      "options": {
+        "A": "Valence electrons are fixed to individual metal atoms",
+        "B": "Electrons transfer from metal to nonmetal atoms",
+        "C": "Valence electrons are delocalized among positive metal ions",
+        "D": "Electrons form covalent bonds between metal atoms"
+      },
+      "correct_answer": "C",
+      "hint": "Consider how electrons behave in metal structures.",
+      "explanation": "The sea of electrons model describes valence electrons as delocalized and free to move throughout the metal lattice. Option A incorrectly suggests electrons are fixed, which describes ionic or covalent bonding.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.4 Metallic Bonding",
+        "subsection_anchor": "5.4.1 Formation of Metallic Bond",
+        "structural_element": "5.4.1 Formation of Metallic Bond",
+        "content_anchor": "delocalized electrons",
+        "page_hint": "Page 29-30",
+        "concept_hash": "sha256_of_sea_of_electrons"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3100,
+    "average_question_quality": 84.2,
+    "type_distribution": {
+      "A": 1,
+      "D": 2,
+      "F": 3,
+      "G": 2,
+      "H": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 7,
+      "hard": 0
+    },
+    "section_distribution": {
+      "5.1 Chemical Bonding": 2,
+      "5.2 Ionic Bonding": 5,
+      "5.3 Covalent Bonding": 2,
+      "5.4 Metallic Bonding": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

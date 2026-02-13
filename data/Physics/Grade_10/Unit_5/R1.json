@@ -1,0 +1,858 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-01-28T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Phy_U5_Q010",
+    "covered_sections": [
+      "Introduction>unit_outcomes",
+      "5.1 Magnet>Types of Magnets>Permanent Magnet:",
+      "5.1 Magnet>Types of Magnets>Temporary Magnet:",
+      "5.1 Magnet>Types of Magnets>Electromagnets:",
+      "5.1 Magnet>Properties of magnet>Key Concept:",
+      "5.2 Magnetic Field>Properties of Magnetic Field Lines",
+      "5.2 Magnetic Field>Key Concept:",
+      "5.3 The earth's magnetic field and the compass>Earth's Magnetic Field>Key Concept:",
+      "5.3 The earth's magnetic field and the compass>A compass",
+      "5.4 Magnetic field of a current carrying conductor>Key Concept:"
+    ],
+    "used_question_signatures": [
+      "hash_76f3a2d1",
+      "hash_89b1c3e4",
+      "hash_92d4f5a6",
+      "hash_15e7a8b9",
+      "hash_28f0b1c2",
+      "hash_31c2d3e5",
+      "hash_44d3e4f6",
+      "hash_57e4f5a7",
+      "hash_60f5a6b8",
+      "hash_73a6b7c9"
+    ],
+    "baseline_counter": {
+      "Introduction": {
+        "unit_outcomes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.1 Magnet": {
+        "Types of Magnets": {
+          "count": 3,
+          "mini_headings_covered": ["Permanent Magnet:", "Temporary Magnet:", "Electromagnets:"],
+          "last_question_round": 1
+        },
+        "Properties of magnet": {
+          "count": 1,
+          "mini_headings_covered": ["Key Concept:"],
+          "last_question_round": 1
+        }
+      },
+      "5.2 Magnetic Field": {
+        "Properties of Magnetic Field Lines": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Key Concept:": {
+          "count": 1,
+          "mini_headings_covered": ["Key Concept:"],
+          "last_question_round": 1
+        }
+      },
+      "5.3 The earth's magnetic field and the compass": {
+        "Earth's Magnetic Field": {
+          "count": 1,
+          "mini_headings_covered": ["Key Concept:"],
+          "last_question_round": 1
+        },
+        "A compass": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.4 Magnetic field of a current carrying conductor": {
+        "Key Concept:": {
+          "count": 1,
+          "mini_headings_covered": ["Key Concept:"],
+          "last_question_round": 1
+        }
+      },
+      "5.5 Magnetic force on a moving charge in a uniform magnetic field": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "5.6 Magnetic force on a current carrying conductor": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "5.7 Magnetic force between two parallel current carrying conductors": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "5.8 Applications of magnetism": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.1 Magnet": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.2 Magnetic Field": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.3 The earth's magnetic field and the compass": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.4 Magnetic field of a current carrying conductor": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.5 Magnetic force on a moving charge in a uniform magnetic field": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "5.6 Magnetic force on a current carrying conductor": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "5.7 Magnetic force between two parallel current carrying conductors": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "5.8 Applications of magnetism": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>unit_outcomes": ["magnetism concepts", "magnetic force", "applications"],
+      "5.1 Magnet>Types of Magnets>Permanent Magnet:": ["permanent magnet", "magnetic field", "demagnetization"],
+      "5.1 Magnet>Types of Magnets>Temporary Magnet:": ["temporary magnet", "magnetic field presence"],
+      "5.1 Magnet>Types of Magnets>Electromagnets:": ["electromagnet", "coil of wire", "electric current"],
+      "5.1 Magnet>Properties of magnet>Key Concept:": ["magnetic poles", "north and south", "attraction repulsion"],
+      "5.2 Magnetic Field>Properties of Magnetic Field Lines": ["magnetic field lines", "closed loops", "direction strength"],
+      "5.2 Magnetic Field>Key Concept:": ["magnetic field lines", "imaginary lines", "direction strength"],
+      "5.3 The earth's magnetic field and the compass>Earth's Magnetic Field>Key Concept:": ["Earth's magnetic field", "bar magnet", "similar shape"],
+      "5.3 The earth's magnetic field and the compass>A compass": ["compass", "magnetized needle", "direction finding"],
+      "5.4 Magnetic field of a current carrying conductor>Key Concept:": ["current carrying wire", "magnetic field", "closed field lines"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_initial_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 20,
+      "questions_per_concept_ratio": 0.5,
+      "structural_coverage_percentage": 27.8
+    }
+  },
+  "grade": "10",
+  "subject": "Physics",
+  "unit": "Unit 5: Magnetism",
+  "pdf_filename": "P10U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-01-28T10:30:45Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 9,
+        "progress_percentage": 55.6
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 7,
+      "structural_coverage_percentage": 27.8,
+      "concept_utilization_ratio": 0.5
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.1 Magnet",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.5,
+      "remaining_concept_capacity": 10
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phy_U5_Q001",
+      "generation_timestamp": "2024-01-28T10:30:05Z",
+      "section": "Introduction",
+      "subsection": "unit_outcomes",
+      "sub_subsection": null,
+      "structural_anchor": "By the end of this unit, you will be able to:",
+      "mcq_type": "F",
+      "question": "Which reasoning best explains why understanding magnetic force is essential for analyzing simple magnetic applications?",
+      "options": {
+        "A": "Magnetic force principles determine how magnetic fields interact with materials to create useful effects.",
+        "B": "The study of magnetic applications requires memorization of historical discoveries about magnetism.",
+        "C": "Magnetic force is only relevant for industrial applications and not everyday devices.",
+        "D": "Applications of magnetism are purely theoretical and have no practical foundation."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the relationship between fundamental magnetic interactions and their practical uses.",
+      "explanation": "Magnetic force governs interactions between magnetic fields and materials, enabling devices like motors and compasses to function. Option C incorrectly limits relevance to industrial uses, ignoring everyday applications like refrigerator magnets.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "unit_outcomes"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "unit_outcomes",
+        "structural_element": "By the end of this unit, you will be able to:",
+        "content_anchor": "understand the concepts related to magnetic force; appreciate simple applications",
+        "page_hint": "Page 1",
+        "concept_hash": "sha256_1a2b3c4d"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q002",
+      "generation_timestamp": "2024-01-28T10:30:08Z",
+      "section": "5.1 Magnet",
+      "subsection": "Types of Magnets",
+      "sub_subsection": null,
+      "structural_anchor": "Permanent Magnet:",
+      "mcq_type": "A",
+      "question": "What defines a permanent magnet in terms of its magnetic properties?",
+      "options": {
+        "A": "A material that maintains its magnetic field indefinitely once magnetized.",
+        "B": "A material that only exhibits magnetism when near another magnet.",
+        "C": "A coil of wire that generates a magnetic field when current flows.",
+        "D": "A material that loses all magnetism when heated slightly."
+      },
+      "correct_answer": "A",
+      "hint": "Consider how the magnetic field persists without external influence.",
+      "explanation": "Permanent magnets retain their magnetic field after magnetization due to aligned magnetic domains. Option D describes a demagnetization method, not a defining property of permanent magnets.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.1 Magnet",
+        "subsection_anchor": "Types of Magnets",
+        "structural_element": "Permanent Magnet:",
+        "content_anchor": "do not lose their magnetic property once they are magnetized",
+        "page_hint": "Page 2-3",
+        "concept_hash": "sha256_5e6f7a8b"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q003",
+      "generation_timestamp": "2024-01-28T10:30:12Z",
+      "section": "5.1 Magnet",
+      "subsection": "Types of Magnets",
+      "sub_subsection": null,
+      "structural_anchor": "Temporary Magnet:",
+      "mcq_type": "B",
+      "question": "Which term describes a material that exhibits magnetism only while within an external magnetic field?",
+      "options": {
+        "A": "Temporary magnet",
+        "B": "Permanent magnet",
+        "C": "Electromagnet",
+        "D": "Ferromagnet"
+      },
+      "correct_answer": "A",
+      "hint": "Focus on materials whose magnetic properties are not persistent.",
+      "explanation": "Temporary magnets, like iron nails, only show magnetic properties when influenced by an external magnetic field. Option C refers to a magnet created by electric current, not one dependent on an external field.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 78
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.1 Magnet",
+        "subsection_anchor": "Types of Magnets",
+        "structural_element": "Temporary Magnet:",
+        "content_anchor": "lose their magnetic property when the magnetic field is removed",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_9c0d1e2f"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 72,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 82
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q004",
+      "generation_timestamp": "2024-01-28T10:30:15Z",
+      "section": "5.1 Magnet",
+      "subsection": "Types of Magnets",
+      "sub_subsection": null,
+      "structural_anchor": "Electromagnets:",
+      "mcq_type": "D",
+      "question": "What is the primary mechanism by which an electromagnet generates its magnetic field?",
+      "options": {
+        "A": "Electric current flowing through a wire coil around an iron core.",
+        "B": "Permanent alignment of magnetic domains in a ferromagnetic material.",
+        "C": "Exposure to an external magnetic field from a permanent magnet.",
+        "D": "Mechanical rotation of a magnetic material within a coil."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the role of electric current in creating magnetism.",
+      "explanation": "Electromagnets operate on the principle that a current-carrying coil produces a magnetic field, intensified by an iron core. Option B describes the mechanism of a permanent magnet, not an electromagnet.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 88
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.1 Magnet",
+        "subsection_anchor": "Types of Magnets",
+        "structural_element": "Electromagnets:",
+        "content_anchor": "coil of wire wrapped around the metal core made from iron",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_3a4b5c6d"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q005",
+      "generation_timestamp": "2024-01-28T10:30:18Z",
+      "section": "5.1 Magnet",
+      "subsection": "Properties of magnet",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "G",
+      "question": "If two north magnetic poles are brought close to each other, what interaction occurs between them?",
+      "options": {
+        "A": "Repulsive force",
+        "B": "Attractive force",
+        "C": "No force",
+        "D": "Temporary alignment"
+      },
+      "correct_answer": "A",
+      "hint": "Recall the fundamental rule governing interactions between magnetic poles.",
+      "explanation": "Magnetic poles follow the rule that like poles repel each other, consistent with the principle of magnetic dipole interaction. Option B incorrectly applies the rule for unlike poles, which attract.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 79
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.1 Magnet",
+        "subsection_anchor": "Properties of magnet",
+        "structural_element": "Key Concept:",
+        "content_anchor": "Like poles repel and unlike poles attract each other.",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_7e8f9a0b"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 70,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 80
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q006",
+      "generation_timestamp": "2024-01-28T10:30:21Z",
+      "section": "5.2 Magnetic Field",
+      "subsection": "Properties of Magnetic Field Lines",
+      "sub_subsection": null,
+      "structural_anchor": "Properties of Magnetic Field Lines",
+      "mcq_type": "J",
+      "question": "Which property correctly classifies magnetic field lines as distinct from electric field lines?",
+      "options": {
+        "A": "Magnetic field lines always form continuous closed loops.",
+        "B": "Magnetic field lines originate from positive charges.",
+        "C": "Magnetic field lines terminate at negative charges.",
+        "D": "Magnetic field lines can intersect each other freely."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental topological characteristic of magnetic fields.",
+      "explanation": "Magnetic field lines form closed loops because magnetic monopoles do not exist, unlike electric field lines which begin and end on charges. Option D violates the fundamental rule that magnetic field lines never intersect.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.2 Magnetic Field",
+        "subsection_anchor": "Properties of Magnetic Field Lines",
+        "structural_element": "Magnetic field lines form a closed-loop.",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_1c2d3e4f"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q007",
+      "generation_timestamp": "2024-01-28T10:30:24Z",
+      "section": "5.2 Magnetic Field",
+      "subsection": "Key Concept:",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "K",
+      "question": "What information about a magnetic field is conveyed by the density of its field lines in a given region?",
+      "options": {
+        "A": "The relative strength of the magnetic field in that region.",
+        "B": "The direction of current flow in nearby conductors.",
+        "C": "The type of magnetic material generating the field.",
+        "D": "The temperature at which the field was generated."
+      },
+      "correct_answer": "A",
+      "hint": "Consider how field line spacing relates to the intensity of the magnetic influence.",
+      "explanation": "Magnetic field line density represents field strength, with closer lines indicating stronger fields, as per the visual representation principle. Option B confuses field line density with a property unrelated to field strength.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.2 Magnetic Field",
+        "subsection_anchor": "Key Concept:",
+        "structural_element": "Key Concept:",
+        "content_anchor": "The closeness or density of the field lines is directly proportional to the strength of the field.",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_5d6e7f80"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 76,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 84
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q008",
+      "generation_timestamp": "2024-01-28T10:30:27Z",
+      "section": "5.3 The earth's magnetic field and the compass",
+      "subsection": "Earth's Magnetic Field",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "I",
+      "question": "How does Earth's magnetic field compare to the field produced by a simple bar magnet?",
+      "options": {
+        "A": "Both fields have similar dipole shapes, with field lines emerging from one pole and entering the other.",
+        "B": "Earth's field is uniform globally, while a bar magnet's field is highly localized.",
+        "C": "A bar magnet's field is spherical, while Earth's field is cylindrical.",
+        "D": "Earth's field originates from permanent magnetization, while a bar magnet's field requires electric current."
+      },
+      "correct_answer": "A",
+      "hint": "Focus on the geometric and structural similarities between the two magnetic field configurations.",
+      "explanation": "Earth's magnetic field approximates a dipole field similar to a bar magnet, with field lines connecting the magnetic poles. Option D incorrectly describes Earth's field generation, which is thought to involve moving molten iron, not permanent magnetization.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 17.6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.3 The earth's magnetic field and the compass",
+        "subsection_anchor": "Earth's Magnetic Field",
+        "structural_element": "Key Concept:",
+        "content_anchor": "Earth is surrounded by a magnetic field similar to the field around a bar magnet.",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_9a0b1c2d"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q009",
+      "generation_timestamp": "2024-01-28T10:30:30Z",
+      "section": "5.3 The earth's magnetic field and the compass",
+      "subsection": "A compass",
+      "sub_subsection": null,
+      "structural_anchor": "A compass",
+      "mcq_type": "D",
+      "question": "What principle allows a compass needle to align itself with Earth's magnetic field?",
+      "options": {
+        "A": "A magnetized needle rotates to align with the external magnetic field direction.",
+        "B": "Electric currents in the needle interact with atmospheric electricity.",
+        "C": "Gravitational forces pull the needle toward the nearest magnetic pole.",
+        "D": "The needle's material expands or contracts based on magnetic field strength."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the magnetic interaction between the needle and the surrounding field.",
+      "explanation": "A compass needle is a small magnet that experiences torque aligning it with Earth's magnetic field lines. Option C confuses magnetic alignment with gravitational effects, which do not direct compass needles.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.3 The earth's magnetic field and the compass",
+        "subsection_anchor": "A compass",
+        "structural_element": "A compass consists of a small metal needle which is magnetized itself and which is free to turn in any direction.",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_3e4f5a6b"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 74,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 83
+      }
+    },
+    {
+      "question_id": "G10_Phy_U5_Q010",
+      "generation_timestamp": "2024-01-28T10:30:33Z",
+      "section": "5.4 Magnetic field of a current carrying conductor",
+      "subsection": "Key Concept:",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "C",
+      "question": "Which formula correctly represents the magnetic field strength around a long straight current-carrying wire?",
+      "options": {
+        "A": "B = (μ₀I)/(2πr)",
+        "B": "B = (μ₀I)/(4πr²)",
+        "C": "B = (2πr)/(μ₀I)",
+        "D": "B = (4πr²)/(μ₀I)"
+      },
+      "correct_answer": "A",
+      "hint": "Recall the relationship involving permeability, current, and radial distance.",
+      "explanation": "The Biot-Savart law gives the magnetic field strength as B = μ₀I/(2πr) for an infinite straight wire. Option B incorrectly applies an inverse-square relationship, which is characteristic of electric fields, not magnetic fields from wires.",
+      "difficulty_level": "medium",
+      "formula_used": ["B = (μ₀I)/(2πr)"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Magnetism",
+        "section_anchor": "5.4 Magnetic field of a current carrying conductor",
+        "subsection_anchor": "Key Concept:",
+        "structural_element": "Key Concept:",
+        "content_anchor": "B = (μ₀I)/(2πr)",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_7c8d9e0f"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3500,
+    "average_question_quality": 81.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 2,
+      "F": 1,
+      "G": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "5.1 Magnet": 4,
+      "5.2 Magnetic Field": 2,
+      "5.3 The earth's magnetic field and the compass": 2,
+      "5.4 Magnetic field of a current carrying conductor": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

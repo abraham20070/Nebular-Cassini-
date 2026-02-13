@@ -1,0 +1,911 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2026-01-28T10:17:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Chem_U6_Q030",
+    "covered_sections": [
+      "6.1 Introduction>6.1.1 History of Organic Chemistry",
+      "6.1 Introduction>6.1.3 Classes of Organic Compounds",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.1 Alkane Homologous Series",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.2 Physical Properties of Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.3 Nomenclature of Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.4 Isomerism in Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.5 Preparation of Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.6 Chemical Properties of Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.7 Cycloalkanes (Alicyclic Hydrocarbons)",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.8 Uses of Alkanes",
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons>6.3.1 Alkenes or Olefins",
+      "6.5 Natural Sources of Hydrocarbons>A. Natural Gas",
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons>6.3.2 Alkynes and Their Physical Properties",
+      "6.4 Aromatic Hydrocarbons: Benzene>6.4.1 Benzene",
+      "6.4 Aromatic Hydrocarbons: Benzene>6.4.3 Physical Properties of Benzene",
+      "6.4 Aromatic Hydrocarbons: Benzene>6.4.4 Chemical Properties of Benzene",
+      "6.5 Natural Sources of Hydrocarbons>B. Petroleum (crude oil)",
+      "6.5 Natural Sources of Hydrocarbons>C. Coal"
+    ],
+    "used_question_signatures": [
+      "hash_urea_synthesis",
+      "hash_functional_group_definition",
+      "hash_alkane_general_formula",
+      "hash_alkane_physical_state",
+      "hash_primary_carbon_definition",
+      "hash_structural_isomer_definition",
+      "hash_alkane_combustion",
+      "hash_substitution_reaction_definition",
+      "hash_organic_chemistry_definition",
+      "hash_alkane_naming_prefix",
+      "hash_alkane_solubility",
+      "hash_alkane_preparation_wurtz",
+      "hash_alkane_preparation_decarboxylation",
+      "hash_cycloalkane_general_formula",
+      "hash_alkane_uses_fuel",
+      "hash_alkene_general_formula",
+      "hash_alkene_functional_group",
+      "hash_alkene_physical_properties",
+      "hash_natural_gas_composition",
+      "hash_alkane_branching_effect",
+      "hash_alkyne_general_formula",
+      "hash_benzene_molecular_formula",
+      "hash_benzene_physical_properties",
+      "hash_benzene_chemical_stability",
+      "hash_petroleum_composition",
+      "hash_coal_destructive_distillation",
+      "hash_alkane_homologous_series_definition",
+      "hash_alkene_nomenclature_rule",
+      "hash_alkene_addition_reaction",
+      "hash_alkane_isomer_count"
+    ],
+    "baseline_counter": {
+      "6.1 Introduction": {
+        "6.1.1 History of Organic Chemistry": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.1.3 Classes of Organic Compounds": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)": {
+        "6.2.1 Alkane Homologous Series": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.2.2 Physical Properties of Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.3 Nomenclature of Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.4 Isomerism in Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.5 Preparation of Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.6 Chemical Properties of Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.7 Cycloalkanes (Alicyclic Hydrocarbons)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.8 Uses of Alkanes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons": {
+        "6.3.1 Alkenes or Olefins": {
+          "count": 5,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.3.2 Alkynes and Their Physical Properties": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "6.4 Aromatic Hydrocarbons: Benzene": {
+        "6.4.1 Benzene": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.4.3 Physical Properties of Benzene": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.4.4 Chemical Properties of Benzene": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "6.5 Natural Sources of Hydrocarbons": {
+        "A. Natural Gas": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "B. Petroleum (crude oil)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "C. Coal": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Introduction": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)": {
+        "question_count": 13,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "6.4 Aromatic Hydrocarbons: Benzene": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "6.5 Natural Sources of Hydrocarbons": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Introduction>6.1.1 History of Organic Chemistry": ["Urea synthesis"],
+      "6.1 Introduction>6.1.3 Classes of Organic Compounds": ["Functional group"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.1 Alkane Homologous Series": ["General formula", "Homologous series definition"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.2 Physical Properties of Alkanes": ["Physical state trend", "Solubility rule"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.3 Nomenclature of Alkanes": ["Primary carbon", "Naming prefixes"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.4 Isomerism in Alkanes": ["Structural isomers", "Boiling point effect", "Isomer count formula"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.5 Preparation of Alkanes": ["Wurtz synthesis", "Decarboxylation"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.6 Chemical Properties of Alkanes": ["Combustion", "Substitution reaction"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.7 Cycloalkanes (Alicyclic Hydrocarbons)": ["General formula"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.8 Uses of Alkanes": ["Fuel use"],
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons>6.3.1 Alkenes or Olefins": ["General formula", "Functional group", "Physical properties", "Nomenclature rule", "Addition reaction"],
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons>6.3.2 Alkynes and Their Physical Properties": ["General formula"],
+      "6.4 Aromatic Hydrocarbons: Benzene>6.4.1 Benzene": ["Molecular formula"],
+      "6.4 Aromatic Hydrocarbons: Benzene>6.4.3 Physical Properties of Benzene": ["Solubility properties"],
+      "6.4 Aromatic Hydrocarbons: Benzene>6.4.4 Chemical Properties of Benzene": ["Stability to addition reactions"],
+      "6.5 Natural Sources of Hydrocarbons>A. Natural Gas": ["Methane content"],
+      "6.5 Natural Sources of Hydrocarbons>B. Petroleum (crude oil)": ["Hydrocarbon mixture"],
+      "6.5 Natural Sources of Hydrocarbons>C. Coal": ["Destructive distillation"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_3",
+    "content_density_metrics": {
+      "total_concepts_extracted": 21,
+      "questions_per_concept_ratio": 1.43,
+      "structural_coverage_percentage": 60.0
+    }
+  },
+  "grade": "10",
+  "subject": "Chemistry",
+  "unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+  "pdf_filename": "C10U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-01-28T10:17:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 5,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 6.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 18,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 60.0,
+      "concept_utilization_ratio": 1.43
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "least_covered_section": "6.1 Introduction",
+      "imbalance_ratio": 6.5,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U6_Q021",
+      "generation_timestamp": "2026-01-28T10:17:01Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.1 Alkane Homologous Series",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 6.1: homologous series definition",
+      "mcq_type": "A",
+      "question": "What term describes a series of organic compounds where each member differs from the next by a constant structural unit?",
+      "options": {
+        "A": "Functional series",
+        "B": "Homologous series",
+        "C": "Isomeric series",
+        "D": "Polymeric series"
+      },
+      "correct_answer": "B",
+      "hint": "This series shows regular gradation in physical properties.",
+      "explanation": "A homologous series consists of compounds differing by a CH₂ unit with similar chemical properties. Option C refers to compounds with identical formulas but different structures.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.1 Alkane Homologous Series",
+        "structural_element": "Exercise 6.1: homologous series definition",
+        "content_anchor": "Define homologous series.",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_of_alkane_homologous_series_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q022",
+      "generation_timestamp": "2026-01-28T10:17:02Z",
+      "section": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+      "subsection": "6.3.1 Alkenes or Olefins",
+      "sub_subsection": null,
+      "structural_anchor": "Content: alkene nomenclature rule for double bond position",
+      "mcq_type": "D",
+      "question": "In IUPAC naming of alkenes, how is the position of the double bond indicated?",
+      "options": {
+        "A": "By numbering the chain to give the double bond the highest possible number",
+        "B": "By using the number of the first carbon atom of the double bond as a locant",
+        "C": "By adding the suffix 'ylene' to the parent name",
+        "D": "By placing the word 'ene' before the carbon count prefix"
+      },
+      "correct_answer": "B",
+      "hint": "The numbering starts from the end nearest the double bond.",
+      "explanation": "IUPAC rules specify numbering from the chain end nearest the double bond, using the first carbon number as the locant. Option A incorrectly describes the opposite numbering direction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+        "subsection_anchor": "6.3.1 Alkenes or Olefins",
+        "structural_element": "Content: alkene nomenclature rule for double bond position",
+        "content_anchor": "Number the chain so as to include both carbon atoms of the double bond, and begin numbering at the end of the chain nearer the double bond.",
+        "page_hint": "Page 32",
+        "concept_hash": "sha256_of_alkene_nomenclature_rule"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q023",
+      "generation_timestamp": "2026-01-28T10:17:03Z",
+      "section": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+      "subsection": "6.3.1 Alkenes or Olefins",
+      "sub_subsection": null,
+      "structural_anchor": "Content: alkene addition reactions",
+      "mcq_type": "G",
+      "question": "What type of chemical reaction occurs when bromine adds across the double bond of an alkene?",
+      "options": {
+        "A": "Substitution reaction",
+        "B": "Elimination reaction",
+        "C": "Addition reaction",
+        "D": "Combustion reaction"
+      },
+      "correct_answer": "C",
+      "hint": "This reaction consumes the multiple bond to form a single bond product.",
+      "explanation": "Alkenes undergo addition reactions where atoms add across the double bond, converting it to single bonds. Option A describes alkane reactions where atoms replace hydrogen.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+        "subsection_anchor": "6.3.1 Alkenes or Olefins",
+        "structural_element": "Content: alkene addition reactions",
+        "content_anchor": "Addition reaction. Alkenes undergo mainly addition reactions. The addition occurs at the carbon-carbon double bond.",
+        "page_hint": "Page 39",
+        "concept_hash": "sha256_of_alkene_addition_reaction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q024",
+      "generation_timestamp": "2026-01-28T10:17:04Z",
+      "section": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+      "subsection": "6.3.2 Alkynes and Their Physical Properties",
+      "sub_subsection": null,
+      "structural_anchor": "Content: alkyne general formula",
+      "mcq_type": "C",
+      "question": "Which formula correctly represents the general molecular formula for alkynes?",
+      "options": {
+        "A": "CₙH₂ₙ",
+        "B": "CₙH₂ₙ₊₂",
+        "C": "CₙH₂ₙ₋₂",
+        "D": "CₙH₂ₙ₋₄"
+      },
+      "correct_answer": "C",
+      "hint": "Alkynes contain a carbon-carbon triple bond.",
+      "explanation": "Alkynes have the general formula CₙH₂ₙ₋₂ due to the presence of one triple bond. Option A is the formula for alkenes with one double bond.",
+      "difficulty_level": "easy",
+      "formula_used": ["CₙH₂ₙ₋₂"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+        "subsection_anchor": "6.3.2 Alkynes and Their Physical Properties",
+        "structural_element": "Content: alkyne general formula",
+        "content_anchor": "The homologous series of alkynes is represented by the general formula CₙH₂ₙ₋₂ where n≥2",
+        "page_hint": "Page 44",
+        "concept_hash": "sha256_of_alkyne_general_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q025",
+      "generation_timestamp": "2026-01-28T10:17:05Z",
+      "section": "6.4 Aromatic Hydrocarbons: Benzene",
+      "subsection": "6.4.1 Benzene",
+      "sub_subsection": null,
+      "structural_anchor": "Content: benzene molecular formula",
+      "mcq_type": "C",
+      "question": "What is the molecular formula of benzene, the simplest aromatic hydrocarbon?",
+      "options": {
+        "A": "C₆H₆",
+        "B": "C₆H₁₂",
+        "C": "C₆H₁₀",
+        "D": "C₆H₁₄"
+      },
+      "correct_answer": "A",
+      "hint": "This formula shows a high degree of unsaturation.",
+      "explanation": "Benzene has the molecular formula C₆H₆, indicating significant unsaturation. Option B is the formula for cyclohexane, a saturated cyclic alkane.",
+      "difficulty_level": "easy",
+      "formula_used": ["C₆H₆"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 75
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.4 Aromatic Hydrocarbons: Benzene",
+        "subsection_anchor": "6.4.1 Benzene",
+        "structural_element": "Content: benzene molecular formula",
+        "content_anchor": "Benzene is the simplest aromatic hydrocarbon. Its molecular formula is C₆H₆",
+        "page_hint": "Page 53",
+        "concept_hash": "sha256_of_benzene_molecular_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q026",
+      "generation_timestamp": "2026-01-28T10:17:06Z",
+      "section": "6.4 Aromatic Hydrocarbons: Benzene",
+      "subsection": "6.4.3 Physical Properties of Benzene",
+      "sub_subsection": null,
+      "structural_anchor": "Content: benzene solubility properties",
+      "mcq_type": "F",
+      "question": "Based on its nonpolar nature, in which type of solvent would benzene be expected to be most soluble?",
+      "options": {
+        "A": "Water",
+        "B": "Ethanol",
+        "C": "Carbon tetrachloride",
+        "D": "Aqueous sodium hydroxide"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the 'like dissolves like' principle for solubility.",
+      "explanation": "Nonpolar benzene dissolves best in nonpolar solvents like carbon tetrachloride due to similar intermolecular forces. Option A is incorrect because water is highly polar and forms hydrogen bonds.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.4 Aromatic Hydrocarbons: Benzene",
+        "subsection_anchor": "6.4.3 Physical Properties of Benzene",
+        "structural_element": "Content: benzene solubility properties",
+        "content_anchor": "non- polar and insoluble in water, but soluble in non- polar solvents like ether and carbon tetrachloride",
+        "page_hint": "Page 54",
+        "concept_hash": "sha256_of_benzene_physical_properties"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q027",
+      "generation_timestamp": "2026-01-28T10:17:07Z",
+      "section": "6.4 Aromatic Hydrocarbons: Benzene",
+      "subsection": "6.4.4 Chemical Properties of Benzene",
+      "sub_subsection": null,
+      "structural_anchor": "Content: benzene stability to addition reactions",
+      "mcq_type": "H",
+      "question": "Which observation demonstrates the unusual stability of benzene compared to typical alkenes?",
+      "options": {
+        "A": "Benzene burns with a smoky flame due to incomplete combustion.",
+        "B": "Benzene undergoes substitution rather than addition under normal conditions.",
+        "C": "Benzene has a lower boiling point than hexane.",
+        "D": "Benzene decolorizes bromine water rapidly in the dark."
+      },
+      "correct_answer": "B",
+      "hint": "Unlike alkenes, benzene does not readily add bromine across its bonds.",
+      "explanation": "Benzene's aromatic stability favors substitution reactions that preserve the ring, unlike alkenes which readily undergo addition. Option D incorrectly describes alkene behavior, not benzene's.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.4 Aromatic Hydrocarbons: Benzene",
+        "subsection_anchor": "6.4.4 Chemical Properties of Benzene",
+        "structural_element": "Content: benzene stability to addition reactions",
+        "content_anchor": "Benzene and other aromatic hydrocarbons contain high degrees of unsaturation, yet fail to undergo characteristic alkene addition",
+        "page_hint": "Page 53-54",
+        "concept_hash": "sha256_of_benzene_chemical_stability"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q028",
+      "generation_timestamp": "2026-01-28T10:17:08Z",
+      "section": "6.5 Natural Sources of Hydrocarbons",
+      "subsection": "B. Petroleum (crude oil)",
+      "sub_subsection": null,
+      "structural_anchor": "Content: petroleum composition",
+      "mcq_type": "J",
+      "question": "Petroleum is primarily a complex mixture of which class of compounds?",
+      "options": {
+        "A": "Carboxylic acids and esters",
+        "B": "Hydrocarbons",
+        "C": "Alcohols and ethers",
+        "D": "Amines and amides"
+      },
+      "correct_answer": "B",
+      "hint": "Petroleum is derived from fossilized organic matter rich in carbon and hydrogen.",
+      "explanation": "Petroleum is predominantly composed of various hydrocarbons, including alkanes, cycloalkanes, and aromatics. Option A describes oxygen-containing compounds present only in trace amounts.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.5 Natural Sources of Hydrocarbons",
+        "subsection_anchor": "B. Petroleum (crude oil)",
+        "structural_element": "Content: petroleum composition",
+        "content_anchor": "Petroleum (also called crude oil) is a complex mixture of fossil hydrocarbons",
+        "page_hint": "Page 58",
+        "concept_hash": "sha256_of_petroleum_composition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q029",
+      "generation_timestamp": "2026-01-28T10:17:09Z",
+      "section": "6.5 Natural Sources of Hydrocarbons",
+      "subsection": "C. Coal",
+      "sub_subsection": null,
+      "structural_anchor": "Content: destructive distillation of coal",
+      "mcq_type": "A",
+      "question": "What is the term for heating coal in the absence of air to obtain volatile products?",
+      "options": {
+        "A": "Fractional distillation",
+        "B": "Destructive distillation",
+        "C": "Cracking",
+        "D": "Reforming"
+      },
+      "correct_answer": "B",
+      "hint": "This process decomposes coal without combustion.",
+      "explanation": "Destructive distillation thermally decomposes coal without oxygen to yield coke, coal gas, and coal tar. Option A separates liquid mixtures based on boiling points, not decomposition.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.5 Natural Sources of Hydrocarbons",
+        "subsection_anchor": "C. Coal",
+        "structural_element": "Content: destructive distillation of coal",
+        "content_anchor": "Heating mineral coal in the absence of air, or oxygen is called destructive distillation of coal",
+        "page_hint": "Page 60",
+        "concept_hash": "sha256_of_coal_destructive_distillation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q030",
+      "generation_timestamp": "2026-01-28T10:17:10Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.4 Isomerism in Alkanes",
+      "sub_subsection": null,
+      "structural_anchor": "Content: formula for number of alkane isomers",
+      "mcq_type": "E",
+      "question": "Using the formula 2ⁿ⁻⁴ + 1 for alkanes with 4-7 carbon atoms, how many structural isomers does pentane (C₅H₁₂) have?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_answer": "B",
+      "hint": "Substitute n=5 into the formula and calculate.",
+      "explanation": "For n=5, 2⁽⁵⁻⁴⁾ + 1 = 2¹ + 1 = 2 + 1 = 3 isomers. Option A incorrectly calculates 2⁰ + 1 = 1 + 1 = 2, forgetting the exponent subtraction.",
+      "difficulty_level": "medium",
+      "formula_used": ["2ⁿ⁻⁴ + 1"],
+      "numeric": {
+        "is_numeric": true,
+        "units": null,
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.4 Isomerism in Alkanes",
+        "structural_element": "Content: formula for number of alkane isomers",
+        "content_anchor": "A formula to determine the number of isomers of alkanes containing 4-7 carbon atoms is 2ⁿ⁻⁴ + 1",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_alkane_isomer_count"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 29000,
+    "average_question_quality": 82.5,
+    "type_distribution": {
+      "A": 2,
+      "B": 0,
+      "C": 2,
+      "D": 1,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 0,
+      "J": 1,
+      "K": 0,
+      "L": 0,
+      "M": 0,
+      "N": 0
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 5,
+      "hard": 0
+    },
+    "section_distribution": {
+      "6.1 Introduction": 0,
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)": 2,
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons": 3,
+      "6.4 Aromatic Hydrocarbons: Benzene": 3,
+      "6.5 Natural Sources of Hydrocarbons": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

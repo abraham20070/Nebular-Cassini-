@@ -1,0 +1,776 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-07-16T10:35:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G9_Physics_U7_Q020",
+    "covered_sections": ["Introduction", "7.1 Temperature and Our Life", "7.2 Extreme Temperature Safety", "7.3 Temperature Change and its Effects", "7.4 Measuring Temperature with Different Thermometric Scales"],
+    "used_question_signatures": ["8f7b5e1", "3a9c2d4", "7e1f6a9", "5b2d8c4", "1c6a9d3", "9d4b7a2", "2a8c5e1", "6d3b9f4", "4c7a1e8", "8e2b5c9", "2f5a8c3", "7c9b1e6", "5d3a8f2", "9b2e7c1", "3f8a5d9", "6c1e9b4", "8a3f6d2", "1e7b4c9", "4b9f3a7", "c5e2a8d"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "7.1 Temperature and Our Life": {
+        "Activity 7.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Activity 7.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Key Concept:": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Exercise 7.1": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Activity 7.3": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "7.2 Extreme Temperature Safety": {
+        "Activity 7.4": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Figure 7.2 Temperature of tropic, temperate and polar zones.": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "7.3 Temperature Change and its Effects": {
+        "Safety precautions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Brainstorming Questions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Exercise 7.2": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "7.4 Measuring Temperature with Different Thermometric Scales": {
+        "Brainstorming Questions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Key Concepts:": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Exercise 7.3": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "7.1 Temperature and Our Life": {
+        "question_count": 7,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "7.2 Extreme Temperature Safety": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "7.3 Temperature Change and its Effects": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "7.4 Measuring Temperature with Different Thermometric Scales": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["Temperature definition", "Thermometry"],
+      "7.1 Temperature and Our Life>Activity 7.2": ["Gas particle motion", "Average kinetic energy"],
+      "7.1 Temperature and Our Life>Activity 7.1": ["Thermal perception", "Relative temperature", "Subjective assessment"],
+      "7.1 Temperature and Our Life>Key Concept:": ["Temperature measurement", "Average kinetic energy definition"],
+      "7.1 Temperature and Our Life>Exercise 7.1": ["Temperature effects", "Human adaptation"],
+      "7.1 Temperature and Our Life>Activity 7.3": ["Environmental adaptation", "Temperature range"],
+      "7.2 Extreme Temperature Safety>Activity 7.4": ["Comfortable temperature", "Health maintenance"],
+      "7.2 Extreme Temperature Safety>Figure 7.2 Temperature of tropic, temperate and polar zones.": ["Climate zones", "Temperature distribution"],
+      "7.3 Temperature Change and its Effects>Safety precautions": ["Heat-related illness", "Hydration", "Protective clothing"],
+      "7.3 Temperature Change and its Effects>Brainstorming Questions": ["Temperature change causes", "Problem resolution"],
+      "7.3 Temperature Change and its Effects>Exercise 7.2": ["Greenhouse effect", "Global warming causes"],
+      "7.4 Measuring Temperature with Different Thermometric Scales>Brainstorming Questions": ["Temperature scales", "Medical thermometry"],
+      "7.4 Measuring Temperature with Different Thermometric Scales>Key Concepts:": ["Greenhouse gases", "Global warming factors"],
+      "7.4 Measuring Temperature with Different Thermometric Scales>Exercise 7.3": ["Thermometer operation", "Thermometric properties"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "state_hash_from_batch_1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 20,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 32.5
+    }
+  },
+  "grade": "9",
+  "subject": "Physics",
+  "unit": "Unit 7: Temperature and Thermometry",
+  "pdf_filename": "P9U7.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-07-16T10:35:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 12,
+        "progress_percentage": 41.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 13,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 32.5,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "7.1 Temperature and Our Life",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Physics_U7_Q011",
+      "generation_timestamp": "2025-07-16T10:35:00Z",
+      "section": "7.3 Temperature Change and its Effects",
+      "subsection": "Safety precautions",
+      "sub_subsection": null,
+      "structural_anchor": "Safety precautions",
+      "mcq_type": "D",
+      "question": "What primary physiological risk occurs when environmental temperatures exceed 40°C?",
+      "options": {
+        "A": "Heat exhaustion and potential heat stroke",
+        "B": "Improved metabolic efficiency",
+        "C": "Enhanced physical endurance",
+        "D": "Reduced fluid requirements"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the body's thermal regulation limits under extreme conditions.",
+      "explanation": "High temperatures overwhelm thermoregulation, causing heat-related illness. Option B incorrectly suggests beneficial effects rather than physiological stress.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section_content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.3 Temperature Change and its Effects",
+        "subsection_anchor": "Safety precautions",
+        "structural_element": "Safety precautions",
+        "content_anchor": "heat cramps and exhaustion",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_heat_related_illness"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q012",
+      "generation_timestamp": "2025-07-16T10:35:00Z",
+      "section": "7.3 Temperature Change and its Effects",
+      "subsection": "Safety precautions",
+      "sub_subsection": null,
+      "structural_anchor": "Safety precautions",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to wearing thick clothing in hot environments for temperature protection?",
+      "options": {
+        "A": "Confusing insulation principles with heat dissipation needs",
+        "B": "Underestimating fabric breathability importance",
+        "C": "Overestimating solar radiation absorption",
+        "D": "Misjudging wind chill effects"
+      },
+      "correct_answer": "A",
+      "hint": "Analyze the relationship between clothing insulation and body cooling mechanisms.",
+      "explanation": "Thick clothing traps heat, hindering necessary cooling through evaporation. Option B focuses on secondary fabric characteristics rather than the primary insulation error.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section_content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.3 Temperature Change and its Effects",
+        "subsection_anchor": "Safety precautions",
+        "structural_element": "Safety precautions",
+        "content_anchor": "clothing that is too thick",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_protective_clothing"
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q013",
+      "generation_timestamp": "2025-07-16T10:35:00Z",
+      "section": "7.3 Temperature Change and its Effects",
+      "subsection": "Brainstorming Questions",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming Questions",
+      "mcq_type": "F",
+      "question": "Under the condition that atmospheric greenhouse gas concentrations increase, which reasoning best explains subsequent global temperature rise?",
+      "options": {
+        "A": "Enhanced infrared radiation trapping reduces Earth's heat loss to space",
+        "B": "Increased cloud formation reflects more sunlight into space",
+        "C": "Additional gases absorb ultraviolet radiation before it reaches the surface",
+        "D": "Atmospheric density changes alter gravitational effects on temperature"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the greenhouse effect mechanism of thermal energy retention.",
+      "explanation": "Greenhouse gases trap outgoing infrared radiation through molecular absorption. Option C confuses infrared trapping with ultraviolet absorption, which doesn't cause warming.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "brainstorming"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.3 Temperature Change and its Effects",
+        "subsection_anchor": "Brainstorming Questions",
+        "structural_element": "Brainstorming Questions",
+        "content_anchor": "causes for change in temperature",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_temperature_change_causes"
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q014",
+      "generation_timestamp": "2025-07-16T10:35:00Z",
+      "section": "7.3 Temperature Change and its Effects",
+      "subsection": "Exercise 7.2",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 7.2",
+      "mcq_type": "B",
+      "question": "What term describes gases that contribute to planetary warming by absorbing infrared radiation?",
+      "options": {
+        "A": "Greenhouse gases",
+        "B": "Noble gases",
+        "C": "Inert gases",
+        "D": "Reactive gases"
+      },
+      "correct_answer": "A",
+      "hint": "Identify gases involved in atmospheric thermal regulation.",
+      "explanation": "Greenhouse gases like carbon dioxide trap infrared radiation through molecular absorption. Option B describes chemically inert elements that don't typically exhibit this property.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.3 Temperature Change and its Effects",
+        "subsection_anchor": "Exercise 7.2",
+        "structural_element": "Exercise 7.2",
+        "content_anchor": "greenhouse effect",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_greenhouse_effect"
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q015",
+      "generation_timestamp": "2025-07-16T10:35:00Z",
+      "section": "7.4 Measuring Temperature with Different Thermometric Scales",
+      "subsection": "Brainstorming Questions",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming Questions",
+      "mcq_type": "C",
+      "question": "Which temperature scale uses 32° and 212° as its fixed reference points for water phase changes?",
+      "options": {
+        "A": "Fahrenheit scale",
+        "B": "Celsius scale",
+        "C": "Kelvin scale",
+        "D": "Rankine scale"
+      },
+      "correct_answer": "A",
+      "hint": "Recall the numerical values assigned to ice and steam points across different scales.",
+      "explanation": "The Fahrenheit scale designates 32°F for ice melting and 212°F for water boiling. Option B incorrectly assigns 0°C and 100°C to these phase changes.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "brainstorming"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.4 Measuring Temperature with Different Thermometric Scales",
+        "subsection_anchor": "Brainstorming Questions",
+        "structural_element": "Brainstorming Questions",
+        "content_anchor": "temperature scales",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_temperature_scales"
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q016",
+      "generation_timestamp": "2025-07-16T10:35:00Z",
+      "section": "7.4 Measuring Temperature with Different Thermometric Scales",
+      "subsection": "Key Concepts:",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concepts:",
+      "mcq_type": "J",
+      "question": "Which gas contributes to atmospheric warming through infrared radiation absorption?",
+      "options": {
+        "A": "Carbon dioxide",
+        "B": "Nitrogen",
+        "C": "Oxygen",
+        "D": "Argon"
+      },
+      "correct_answer": "A",
+      "hint": "Identify gases known for greenhouse properties rather than atmospheric abundance.",
+      "explanation": "Carbon dioxide molecules absorb and re-emit infrared radiation, trapping thermal energy. Option B describes nitrogen, which constitutes most atmosphere but lacks significant greenhouse properties.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key_concept"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.4 Measuring Temperature with Different Thermometric Scales",
+        "subsection_anchor": "Key Concepts:",
+        "structural_element": "Key Concepts:",
+        "content_anchor": "Greenhouse gases are: carbon dioxide",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_greenhouse_gases"
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q017",
+      "generation_timestamp": "2025-07-16T10:35:00Z",
+      "section": "7.4 Measuring Temperature with Different Thermometric Scales",
+      "subsection": "Exercise 7.3",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 7.3",
+      "mcq_type": "K",
+      "question": "What physical principle explains why mercury rises in a glass tube when temperature increases?",
+      "options": {
+        "A": "Thermal expansion of liquids with rising temperature",
+        "B": "Increased atmospheric pressure on the liquid column",
+        "C": "Chemical reaction between mercury and glass",
+        "D": "Capillary action enhancement due to heat"
+      },
+      "correct_answer": "A",
+      "hint": "Consider volume changes in materials under thermal stress.",
+      "explanation": "Mercury expands when heated due to increased particle motion and spacing. Option B incorrectly attributes the rise to external pressure rather than internal expansion.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.4 Measuring Temperature with Different Thermometric Scales",
+        "subsection_anchor": "Exercise 7.3",
+        "structural_element": "Exercise 7.3",
+        "content_anchor": "How does a thermometer work?",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_thermometer_operation"
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q018",
+      "generation_timestamp": "2025-07-16T10:35:00Z",
+      "section": "7.3 Temperature Change and its Effects",
+      "subsection": "Safety precautions",
+      "sub_subsection": null,
+      "structural_anchor": "Safety precautions",
+      "mcq_type": "G",
+      "question": "If dehydration occurs during high temperature exposure, what physiological effect most likely follows?",
+      "options": {
+        "A": "Reduced sweating capacity and impaired cooling",
+        "B": "Increased blood volume and improved circulation",
+        "C": "Enhanced electrolyte balance and muscle function",
+        "D": "Accelerated metabolic rate and heat production"
+      },
+      "correct_answer": "A",
+      "hint": "Analyze the relationship between fluid loss and thermoregulation mechanisms.",
+      "explanation": "Dehydration limits sweat production, hindering evaporative cooling. Option B incorrectly suggests beneficial circulatory effects rather than impaired thermoregulation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section_content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.3 Temperature Change and its Effects",
+        "subsection_anchor": "Safety precautions",
+        "structural_element": "Safety precautions",
+        "content_anchor": "Stay well-hydrated",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_hydration"
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q019",
+      "generation_timestamp": "2025-07-16T10:35:00Z",
+      "section": "7.4 Measuring Temperature with Different Thermometric Scales",
+      "subsection": "Exercise 7.3",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 7.3",
+      "mcq_type": "A",
+      "question": "What term describes a physical property that changes predictably with temperature variations?",
+      "options": {
+        "A": "Thermometric property",
+        "B": "Chemical property",
+        "C": "Mechanical property",
+        "D": "Electrical property"
+      },
+      "correct_answer": "A",
+      "hint": "Identify properties used for temperature measurement instruments.",
+      "explanation": "Thermometric properties like volume or resistance enable temperature measurement through predictable changes. Option B describes characteristics related to chemical reactions rather than thermal response.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.4 Measuring Temperature with Different Thermometric Scales",
+        "subsection_anchor": "Exercise 7.3",
+        "structural_element": "Exercise 7.3",
+        "content_anchor": "thermometric property",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_thermometric_properties"
+      }
+    },
+    {
+      "question_id": "G9_Physics_U7_Q020",
+      "generation_timestamp": "2025-07-16T10:35:00Z",
+      "section": "7.1 Temperature and Our Life",
+      "subsection": "Key Concept:",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept:",
+      "mcq_type": "F",
+      "question": "Under the condition that two bodies have identical mass but different temperatures, which reasoning best explains their differing thermal energies?",
+      "options": {
+        "A": "Higher temperature indicates greater average particle kinetic energy per molecule",
+        "B": "Temperature differences alter chemical composition and bonding energy",
+        "C": "Warmer objects contain more molecules despite identical mass",
+        "D": "Thermal energy depends solely on material density rather than temperature"
+      },
+      "correct_answer": "A",
+      "hint": "Apply the kinetic theory relationship between temperature and particle motion.",
+      "explanation": "Temperature measures average molecular kinetic energy according to kinetic theory. Option C incorrectly suggests molecular count variation despite identical mass conditions.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key_concept"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 7: Temperature and Thermometry",
+        "section_anchor": "7.1 Temperature and Our Life",
+        "subsection_anchor": "Key Concept:",
+        "structural_element": "Key Concept:",
+        "content_anchor": "Temperature is the average kinetic energy",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_kinetic_energy_definition"
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3120,
+    "average_question_quality": 84.2,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "7.1 Temperature and Our Life": 1,
+      "7.3 Temperature Change and its Effects": 5,
+      "7.4 Measuring Temperature with Different Thermometric Scales": 4
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

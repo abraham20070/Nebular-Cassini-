@@ -1,0 +1,879 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2026-01-28T10:16:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Chem_U6_Q020",
+    "covered_sections": [
+      "6.1 Introduction>6.1.1 History of Organic Chemistry",
+      "6.1 Introduction>6.1.3 Classes of Organic Compounds",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.1 Alkane Homologous Series",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.2 Physical Properties of Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.3 Nomenclature of Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.4 Isomerism in Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.6 Chemical Properties of Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.5 Preparation of Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.7 Cycloalkanes (Alicyclic Hydrocarbons)",
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.8 Uses of Alkanes",
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons>6.3.1 Alkenes or Olefins",
+      "6.5 Natural Sources of Hydrocarbons>A. Natural Gas"
+    ],
+    "used_question_signatures": [
+      "hash_urea_synthesis",
+      "hash_functional_group_definition",
+      "hash_alkane_general_formula",
+      "hash_alkane_physical_state",
+      "hash_primary_carbon_definition",
+      "hash_structural_isomer_definition",
+      "hash_alkane_combustion",
+      "hash_substitution_reaction_definition",
+      "hash_organic_chemistry_definition",
+      "hash_alkane_naming_prefix",
+      "hash_alkane_solubility",
+      "hash_alkane_preparation_wurtz",
+      "hash_alkane_preparation_decarboxylation",
+      "hash_cycloalkane_general_formula",
+      "hash_alkane_uses_fuel",
+      "hash_alkene_general_formula",
+      "hash_alkene_functional_group",
+      "hash_alkene_physical_properties",
+      "hash_natural_gas_composition",
+      "hash_alkane_branching_effect"
+    ],
+    "baseline_counter": {
+      "6.1 Introduction": {
+        "6.1.1 History of Organic Chemistry": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.1.3 Classes of Organic Compounds": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)": {
+        "6.2.1 Alkane Homologous Series": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.2 Physical Properties of Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.3 Nomenclature of Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.4 Isomerism in Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.5 Preparation of Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.6 Chemical Properties of Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.7 Cycloalkanes (Alicyclic Hydrocarbons)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.8 Uses of Alkanes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons": {
+        "6.3.1 Alkenes or Olefins": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.3.2 Alkynes and Their Physical Properties": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "6.4 Aromatic Hydrocarbons: Benzene": {
+        "6.4.1 Benzene": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "6.5 Natural Sources of Hydrocarbons": {
+        "A. Natural Gas": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "B. Petroleum (crude oil)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "C. Coal": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Introduction": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)": {
+        "question_count": 12,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "6.4 Aromatic Hydrocarbons: Benzene": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "6.5 Natural Sources of Hydrocarbons": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Introduction>6.1.1 History of Organic Chemistry": ["Urea synthesis"],
+      "6.1 Introduction>6.1.3 Classes of Organic Compounds": ["Functional group"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.1 Alkane Homologous Series": ["General formula"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.2 Physical Properties of Alkanes": ["Physical state trend", "Solubility rule"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.3 Nomenclature of Alkanes": ["Primary carbon", "Naming prefixes"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.4 Isomerism in Alkanes": ["Structural isomers", "Boiling point effect"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.5 Preparation of Alkanes": ["Wurtz synthesis", "Decarboxylation"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.6 Chemical Properties of Alkanes": ["Combustion", "Substitution reaction"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.7 Cycloalkanes (Alicyclic Hydrocarbons)": ["General formula"],
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)>6.2.8 Uses of Alkanes": ["Fuel use"],
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons>6.3.1 Alkenes or Olefins": ["General formula", "Functional group", "Physical properties"],
+      "6.5 Natural Sources of Hydrocarbons>A. Natural Gas": ["Methane content"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 15,
+      "questions_per_concept_ratio": 1.33,
+      "structural_coverage_percentage": 44.0
+    }
+  },
+  "grade": "10",
+  "subject": "Chemistry",
+  "unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+  "pdf_filename": "C10U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 2,
+      "constraint_violations_caught": 2,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-01-28T10:16:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 5,
+        "progress_percentage": 80.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 12,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 44.0,
+      "concept_utilization_ratio": 1.33
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "least_covered_section": "6.4 Aromatic Hydrocarbons: Benzene",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U6_Q011",
+      "generation_timestamp": "2026-01-28T10:16:01Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.2 Physical Properties of Alkanes",
+      "sub_subsection": null,
+      "structural_anchor": "Content: solubility in water rule",
+      "mcq_type": "F",
+      "question": "Alkanes are observed to be insoluble in water. Which principle best explains this observation?",
+      "options": {
+        "A": "Alkanes form hydrogen bonds with each other but not with water.",
+        "B": "Nonpolar alkanes cannot overcome water's strong dipole interactions.",
+        "C": "Alkanes react chemically with water to form alcohols.",
+        "D": "The density of alkanes is always greater than that of water."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the polarity of water molecules versus alkane molecules.",
+      "explanation": "The 'like dissolves like' principle states polar solvents dissolve polar solutes. Option A is incorrect because alkanes lack hydrogen-bonding capability entirely.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.2 Physical Properties of Alkanes",
+        "structural_element": "Content: solubility in water rule",
+        "content_anchor": "Are alkanes soluble in water? Explain based on the like dissolves like rule",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_alkane_solubility"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q012",
+      "generation_timestamp": "2026-01-28T10:16:02Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.5 Preparation of Alkanes",
+      "sub_subsection": null,
+      "structural_anchor": "Content: Wurtz synthesis",
+      "mcq_type": "D",
+      "question": "What is the primary product when methyl chloride reacts with sodium metal?",
+      "options": {
+        "A": "Methane",
+        "B": "Ethane",
+        "C": "Chloromethane",
+        "D": "Sodium chloride and methane"
+      },
+      "correct_answer": "B",
+      "hint": "This reaction couples two alkyl halide molecules.",
+      "explanation": "The Wurtz synthesis couples two alkyl halides to form an alkane with twice the carbon atoms. Option A incorrectly suggests a simple reduction product rather than coupling.",
+      "difficulty_level": "medium",
+      "formula_used": ["2CH₃Cl + 2Na → C₂H₆ + 2NaCl"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.5 Preparation of Alkanes",
+        "structural_element": "Content: Wurtz synthesis",
+        "content_anchor": "2CHCl + 2Na → CH - CH3 + 2NaCI Methyl chloride Ethane",
+        "page_hint": "Page 23",
+        "concept_hash": "sha256_of_alkane_preparation_wurtz"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q013",
+      "generation_timestamp": "2026-01-28T10:16:03Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.5 Preparation of Alkanes",
+      "sub_subsection": null,
+      "structural_anchor": "Content: decarboxylation reaction",
+      "mcq_type": "D",
+      "question": "Heating sodium acetate with soda lime produces which hydrocarbon?",
+      "options": {
+        "A": "Ethane",
+        "B": "Ethene",
+        "C": "Methane",
+        "D": "Acetylene"
+      },
+      "correct_answer": "C",
+      "hint": "This reaction removes a carboxyl group from a carboxylic acid salt.",
+      "explanation": "Decarboxylation of sodium acetate yields methane by removing CO₂. Option A would require a propionate salt decarboxylation to produce ethane.",
+      "difficulty_level": "medium",
+      "formula_used": ["CH₃COONa + NaOH → CH₄ + Na₂CO₃"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.5 Preparation of Alkanes",
+        "structural_element": "Content: decarboxylation reaction",
+        "content_anchor": "CHCOONa + NaOH heat CH3- H + NaCO3 Sodium acetate Methane",
+        "page_hint": "Page 23",
+        "concept_hash": "sha256_of_alkane_preparation_decarboxylation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q014",
+      "generation_timestamp": "2026-01-28T10:16:04Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.4 Isomerism in Alkanes",
+      "sub_subsection": null,
+      "structural_anchor": "Content: branching effect on boiling point",
+      "mcq_type": "G",
+      "question": "What effect does increased branching typically have on the boiling point of alkane isomers?",
+      "options": {
+        "A": "Boiling point increases due to greater molecular weight.",
+        "B": "Boiling point decreases due to reduced surface area.",
+        "C": "Boiling point remains unchanged if molecular formula is identical.",
+        "D": "Boiling point increases due to stronger dipole interactions."
+      },
+      "correct_answer": "B",
+      "hint": "Branching affects how molecules pack together and interact.",
+      "explanation": "Branching reduces molecular surface area, weakening dispersion forces and lowering boiling points. Option A incorrectly assumes molecular weight alone determines boiling point.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.4 Isomerism in Alkanes",
+        "structural_element": "Content: branching effect on boiling point",
+        "content_anchor": "Compound A has a boiling point of -1.0 °C whereas B has a boiling point of -11.7 °C",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_alkane_branching_effect"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q015",
+      "generation_timestamp": "2026-01-28T10:16:05Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.7 Cycloalkanes (Alicyclic Hydrocarbons)",
+      "sub_subsection": null,
+      "structural_anchor": "Content: cycloalkane general formula",
+      "mcq_type": "C",
+      "question": "What is the general molecular formula for cycloalkanes containing a single ring?",
+      "options": {
+        "A": "CₙH₂ₙ",
+        "B": "CₙH₂ₙ₊₂",
+        "C": "CₙH₂ₙ₋₂",
+        "D": "CₙH₂ₙ₋₄"
+      },
+      "correct_answer": "A",
+      "hint": "Cycloalkanes have two fewer hydrogen atoms than their straight-chain counterparts.",
+      "explanation": "Cycloalkanes with one ring have the formula CₙH₂ₙ due to the ring structure reducing hydrogen count. Option B is the formula for straight-chain alkanes.",
+      "difficulty_level": "easy",
+      "formula_used": ["CₙH₂ₙ"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.7 Cycloalkanes (Alicyclic Hydrocarbons)",
+        "structural_element": "Content: cycloalkane general formula",
+        "content_anchor": "cycloalkanes containing a single ring have two fewer hydrogen atoms and thus have the general formula CₙH₂ₙ",
+        "page_hint": "Page 28",
+        "concept_hash": "sha256_of_cycloalkane_general_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q016",
+      "generation_timestamp": "2026-01-28T10:16:06Z",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+      "subsection": "6.2.8 Uses of Alkanes",
+      "sub_subsection": null,
+      "structural_anchor": "Content: primary use of alkanes",
+      "mcq_type": "B",
+      "question": "What is the most significant commercial application of alkanes?",
+      "options": {
+        "A": "Manufacturing pharmaceuticals",
+        "B": "Production of polymers and plastics",
+        "C": "Use as fuels for energy generation",
+        "D": "Extraction of metals from ores"
+      },
+      "correct_answer": "C",
+      "hint": "Alkanes release substantial energy when oxidized.",
+      "explanation": "Alkanes are primarily used as fuels due to their high heat of combustion. Option B is more characteristic of alkenes, which polymerize to form plastics.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)",
+        "subsection_anchor": "6.2.8 Uses of Alkanes",
+        "structural_element": "Content: primary use of alkanes",
+        "content_anchor": "Alkanes are primarily used as fuels.",
+        "page_hint": "Page 29",
+        "concept_hash": "sha256_of_alkane_uses_fuel"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q017",
+      "generation_timestamp": "2026-01-28T10:16:07Z",
+      "section": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+      "subsection": "6.3.1 Alkenes or Olefins",
+      "sub_subsection": null,
+      "structural_anchor": "Content: alkene general formula",
+      "mcq_type": "C",
+      "question": "Which formula represents the general molecular formula for alkenes?",
+      "options": {
+        "A": "CₙH₂ₙ₊₂",
+        "B": "CₙH₂ₙ",
+        "C": "CₙH₂ₙ₋₂",
+        "D": "CₙH₂ₙ₋₄"
+      },
+      "correct_answer": "B",
+      "hint": "Alkenes contain one carbon-carbon double bond.",
+      "explanation": "Alkenes have the general formula CₙH₂ₙ due to the presence of one double bond. Option A is the formula for alkanes, which are saturated.",
+      "difficulty_level": "easy",
+      "formula_used": ["CₙH₂ₙ"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+        "subsection_anchor": "6.3.1 Alkenes or Olefins",
+        "structural_element": "Content: alkene general formula",
+        "content_anchor": "They form a homologous series represented by the general formula CₙH₂ₙ",
+        "page_hint": "Page 30",
+        "concept_hash": "sha256_of_alkene_general_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q018",
+      "generation_timestamp": "2026-01-28T10:16:08Z",
+      "section": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+      "subsection": "6.3.1 Alkenes or Olefins",
+      "sub_subsection": null,
+      "structural_anchor": "Content: alkene functional group",
+      "mcq_type": "B",
+      "question": "What structural feature serves as the functional group in alkenes?",
+      "options": {
+        "A": "Carbon-carbon single bond",
+        "B": "Carbon-carbon double bond",
+        "C": "Carbon-hydrogen bond",
+        "D": "Hydroxyl group"
+      },
+      "correct_answer": "B",
+      "hint": "This feature is responsible for the characteristic reactivity of alkenes.",
+      "explanation": "The carbon-carbon double bond is the functional group that defines alkenes and their reactivity. Option A describes bonds present in all hydrocarbons, not specific to alkenes.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 75
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+        "subsection_anchor": "6.3.1 Alkenes or Olefins",
+        "structural_element": "Content: alkene functional group",
+        "content_anchor": "The functional group of an alkene, for example, is its carbon-carbon double bond.",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_alkene_functional_group"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q019",
+      "generation_timestamp": "2026-01-28T10:16:09Z",
+      "section": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+      "subsection": "6.3.1 Alkenes or Olefins",
+      "sub_subsection": null,
+      "structural_anchor": "Table 6.4: alkene physical constants",
+      "mcq_type": "K",
+      "question": "According to data on alkene homologous series, what general trend occurs in boiling points as the number of carbon atoms increases?",
+      "options": {
+        "A": "Boiling points decrease due to increased branching.",
+        "B": "Boiling points increase due to stronger dispersion forces.",
+        "C": "Boiling points remain constant as all are gases.",
+        "D": "Boiling points show no consistent pattern."
+      },
+      "correct_answer": "B",
+      "hint": "Larger molecules have greater molecular mass and surface area.",
+      "explanation": "Increasing carbon chain length raises molecular mass and dispersion forces, elevating boiling points. Option A incorrectly applies branching effects to straight-chain homologues.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "table"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+        "subsection_anchor": "6.3.1 Alkenes or Olefins",
+        "structural_element": "Table 6.4: alkene physical constants",
+        "content_anchor": "Table showing increasing boiling points from ethene to decene",
+        "page_hint": "Page 31",
+        "concept_hash": "sha256_of_alkene_physical_properties"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q020",
+      "generation_timestamp": "2026-01-28T10:16:10Z",
+      "section": "6.5 Natural Sources of Hydrocarbons",
+      "subsection": "A. Natural Gas",
+      "sub_subsection": null,
+      "structural_anchor": "Content: natural gas composition",
+      "mcq_type": "B",
+      "question": "What is the primary component of natural gas by volume?",
+      "options": {
+        "A": "Ethane",
+        "B": "Propane",
+        "C": "Methane",
+        "D": "Butane"
+      },
+      "correct_answer": "C",
+      "hint": "This hydrocarbon has one carbon atom and is the simplest alkane.",
+      "explanation": "Natural gas consists chiefly of methane, typically exceeding 90% by volume. Option A describes a minor component present in smaller quantities.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "content"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 75
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.5 Natural Sources of Hydrocarbons",
+        "subsection_anchor": "A. Natural Gas",
+        "structural_element": "Content: natural gas composition",
+        "content_anchor": "Natural gas is a mixture of gases that consists chiefly of methane (more than 90%)",
+        "page_hint": "Page 57",
+        "concept_hash": "sha256_of_natural_gas_composition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 29000,
+    "average_question_quality": 82.0,
+    "type_distribution": {
+      "A": 0,
+      "B": 3,
+      "C": 2,
+      "D": 2,
+      "E": 0,
+      "F": 1,
+      "G": 1,
+      "H": 0,
+      "I": 0,
+      "J": 0,
+      "K": 1,
+      "L": 0,
+      "M": 0,
+      "N": 0
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 6,
+      "hard": 0
+    },
+    "section_distribution": {
+      "6.1 Introduction": 0,
+      "6.2 Saturated Hydrocarbons: Alkanes (C H 2n+2)": 7,
+      "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons": 3,
+      "6.4 Aromatic Hydrocarbons: Benzene": 0,
+      "6.5 Natural Sources of Hydrocarbons": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

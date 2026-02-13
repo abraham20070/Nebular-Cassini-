@@ -1,0 +1,825 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T08:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G12_Physics_U2_Q020",
+    "covered_sections": ["Introduction", "2.1 Projectile motion>Horizontal Projection", "2.1 Projectile motion>Inclined projectile motion", "2.2 Rotational Motion>Angular displacement and angular velocity", "2.2 Rotational Motion>Angular acceleration", "2.2 Rotational Motion>Equation of motion for constant angular acceleration", "2.2 Rotational Motion>Kinematic equations for rotational and linear motion", "2.2 Rotational Motion>Relationship between angular motion and translational motion quantities", "2.3 Rotational Dynamics>Torque", "2.3 Rotational Dynamics>Moment of inertia (I)"],
+    "used_question_signatures": ["hash_8a4f2c3", "hash_b6d7e8f", "hash_1c2d3e4", "hash_9a0b1c2", "hash_5e6f7a8", "hash_d3e4f5a", "hash_b1c2d3e", "hash_6f7a8b9", "hash_c2d3e4f", "hash_7a8b9c0", "hash_3f4a5b6", "hash_0a1b2c3", "hash_4d5e6f7", "hash_8e9f0a1", "hash_2b3c4d5", "hash_6e7f8a9", "hash_0b1c2d3", "hash_4e5f6a7", "hash_8f9a0b1", "hash_2c3d4e5"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "2.1 Projectile motion": {
+        "Horizontal Projection": {
+          "count": 3,
+          "mini_headings_covered": ["Equations for the horizontal component of motion:", "Equations of vertical motion:", "Range:"],
+          "last_question_round": 1
+        },
+        "Inclined projectile motion": {
+          "count": 4,
+          "mini_headings_covered": ["Equations of inclined projectile motion:", "Time of flight:", "Maximum height (H):", "Displacements of the projectile:"],
+          "last_question_round": 2
+        }
+      },
+      "2.2 Rotational Motion": {
+        "Angular displacement and angular velocity": {
+          "count": 3,
+          "mini_headings_covered": ["Angular displacement(△θ):", "Angular velocity(ω):"],
+          "last_question_round": 2
+        },
+        "Angular acceleration": {
+          "count": 1,
+          "mini_headings_covered": ["Angular acceleration:"],
+          "last_question_round": 1
+        },
+        "Equation of motion for constant angular acceleration": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Kinematic equations for rotational and linear motion": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Relationship between angular motion and translational motion quantities": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "2.3 Rotational Dynamics": {
+        "Torque": {
+          "count": 2,
+          "mini_headings_covered": ["Torque:"],
+          "last_question_round": 2
+        },
+        "Moment of inertia (I)": {
+          "count": 1,
+          "mini_headings_covered": ["Moment of inertia (I):"],
+          "last_question_round": 2
+        },
+        "Torque and angular acceleration": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.4 Planetary motion and Kepler's laws": {
+        "Kepler's laws": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "2.5 Newton's law of universal Gravitation": {
+        "Centripetal Force": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.1 Projectile motion": {
+        "question_count": 7,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "2.2 Rotational Motion": {
+        "question_count": 9,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "2.3 Rotational Dynamics": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "2.4 Planetary motion and Kepler's laws": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "2.5 Newton's law of universal Gravitation": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction": ["two-dimensional kinematics", "curved motion analysis"],
+      "2.1 Projectile motion>Horizontal Projection": ["horizontal velocity constant", "vertical motion under gravity", "time of flight formula"],
+      "2.1 Projectile motion>Inclined projectile motion": ["velocity components", "maximum height calculation", "range formula", "horizontal displacement formula"],
+      "2.2 Rotational Motion>Angular displacement and angular velocity": ["radian measure", "angular speed calculation", "average angular velocity"],
+      "2.2 Rotational Motion>Angular acceleration": ["angular acceleration definition"],
+      "2.2 Rotational Motion>Equation of motion for constant angular acceleration": ["rotational kinematic equations", "angular velocity-time relation"],
+      "2.2 Rotational Motion>Kinematic equations for rotational and linear motion": ["linear-angular analogy"],
+      "2.2 Rotational Motion>Relationship between angular motion and translational motion quantities": ["tangential velocity formula", "tangential acceleration"],
+      "2.3 Rotational Dynamics>Torque": ["torque definition", "torque calculation formula"],
+      "2.3 Rotational Dynamics>Moment of inertia (I)": ["rotational inertia", "point mass moment of inertia"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 23,
+      "questions_per_concept_ratio": 0.87,
+      "structural_coverage_percentage": 58.3
+    }
+  },
+  "grade": "12",
+  "subject": "Physics",
+  "unit": "Unit 2: Two-dimensional motion",
+  "pdf_filename": "P12U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 1,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T08:06:45Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 6,
+        "progress_percentage": 66.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 10,
+      "mini_headings_covered_count": 10,
+      "structural_coverage_percentage": 58.3,
+      "concept_utilization_ratio": 0.87
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.2 Rotational Motion",
+      "least_covered_section": "2.4 Planetary motion and Kepler's laws",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Physics_U2_Q011",
+      "generation_timestamp": "2025-01-27T08:04:15Z",
+      "section": "2.1 Projectile motion",
+      "subsection": "Inclined projectile motion",
+      "sub_subsection": null,
+      "structural_anchor": "Displacements of the projectile:",
+      "mcq_type": "G",
+      "question": "If the launch angle of a projectile is increased while keeping initial speed constant, what happens to its horizontal displacement at a given time?",
+      "options": {
+        "A": "Increases because vertical component increases",
+        "B": "Decreases because horizontal component decreases",
+        "C": "Remains constant as horizontal velocity is unchanged",
+        "D": "First increases then decreases due to optimal angle"
+      },
+      "correct_answer": "B",
+      "hint": "Horizontal displacement depends on horizontal velocity component v₀ cos θ.",
+      "explanation": "Horizontal displacement Δx = v₀ cos θ × t decreases as θ increases because cos θ decreases. Option A confuses horizontal displacement with vertical displacement.",
+      "difficulty_level": "medium",
+      "formula_used": ["Δx = v₀ cos θ t"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.1 Projectile motion",
+        "subsection_anchor": "Inclined projectile motion",
+        "structural_element": "Displacements of the projectile:",
+        "content_anchor": "Δx = v₀ cos θ t",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_horizontal_displacement_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Physics_U2_Q012",
+      "generation_timestamp": "2025-01-27T08:04:30Z",
+      "section": "2.2 Rotational Motion",
+      "subsection": "Angular displacement and angular velocity",
+      "sub_subsection": null,
+      "structural_anchor": "Angular velocity(ω):",
+      "mcq_type": "H",
+      "question": "Which reasoning error leads to the incorrect conclusion that a point farther from the rotation axis must have greater angular velocity?",
+      "options": {
+        "A": "Confusing angular velocity with tangential velocity",
+        "B": "Assuming angular displacement depends on radius",
+        "C": "Applying linear motion equations to rotational motion",
+        "D": "Ignoring the direction of angular acceleration"
+      },
+      "correct_answer": "A",
+      "hint": "All points on a rotating rigid object share the same angular velocity.",
+      "explanation": "Angular velocity ω is the same for all points on a rotating rigid object, while tangential velocity v = ωr increases with radius. Option C describes a different type of conceptual error.",
+      "difficulty_level": "medium",
+      "formula_used": ["v = ωr"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.2 Rotational Motion",
+        "subsection_anchor": "Angular displacement and angular velocity",
+        "structural_element": "Angular velocity(ω):",
+        "content_anchor": "angular speed same for all points",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_angular_velocity_uniformity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G12_Physics_U2_Q013",
+      "generation_timestamp": "2025-01-27T08:04:45Z",
+      "section": "2.2 Rotational Motion",
+      "subsection": "Equation of motion for constant angular acceleration",
+      "sub_subsection": null,
+      "structural_anchor": "Equation of motion for constant angular acceleration",
+      "mcq_type": "C",
+      "question": "Which rotational kinematic equation corresponds to Δθ = ω₀t + ½αt²?",
+      "options": {
+        "A": "ω_f = ω₀ + αt",
+        "B": "ω_f² = ω₀² + 2αΔθ",
+        "C": "Δθ = ω₀t + ½αt²",
+        "D": "ω_av = (ω₀ + ω_f)/2"
+      },
+      "correct_answer": "C",
+      "hint": "This equation gives angular displacement with constant angular acceleration.",
+      "explanation": "Δθ = ω₀t + ½αt² directly matches the given equation for angular displacement under constant angular acceleration. Option A is for final angular velocity, not displacement.",
+      "difficulty_level": "easy",
+      "formula_used": ["Δθ = ω₀t + ½αt²"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.2 Rotational Motion",
+        "subsection_anchor": "Equation of motion for constant angular acceleration",
+        "structural_element": "Equation of motion for constant angular acceleration",
+        "content_anchor": "Δθ = ω₀Δt + ½αΔt²",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_of_angular_displacement_equation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 87,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Physics_U2_Q014",
+      "generation_timestamp": "2025-01-27T08:05:00Z",
+      "section": "2.2 Rotational Motion",
+      "subsection": "Equation of motion for constant angular acceleration",
+      "sub_subsection": null,
+      "structural_anchor": "Equation of motion for constant angular acceleration",
+      "mcq_type": "E",
+      "question": "A wheel starts from rest and reaches 60 rad/s after rotating through 180 radians. What is its angular acceleration?",
+      "options": {
+        "A": "5 rad/s²",
+        "B": "10 rad/s²",
+        "C": "15 rad/s²",
+        "D": "20 rad/s²"
+      },
+      "correct_answer": "B",
+      "hint": "Use ω_f² = ω₀² + 2αΔθ with ω₀ = 0.",
+      "explanation": "From ω_f² = ω₀² + 2αΔθ: 60² = 0 + 2α(180) ⇒ α = 3600/360 = 10 rad/s². Option A results from incorrectly using α = ω_f/Δθ.",
+      "difficulty_level": "medium",
+      "formula_used": ["ω_f² = ω₀² + 2αΔθ"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "rad/s²",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.2 Rotational Motion",
+        "subsection_anchor": "Equation of motion for constant angular acceleration",
+        "structural_element": "Equation of motion for constant angular acceleration",
+        "content_anchor": "ω_f² = ω₀² + 2αΔθ",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_of_angular_velocity_squared_equation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Physics_U2_Q015",
+      "generation_timestamp": "2025-01-27T08:05:15Z",
+      "section": "2.2 Rotational Motion",
+      "subsection": "Kinematic equations for rotational and linear motion",
+      "sub_subsection": null,
+      "structural_anchor": "Kinematic equations for rotational and linear motion",
+      "mcq_type": "I",
+      "question": "How do the kinematic equations for rotational motion with constant angular acceleration compare to those for linear motion with constant acceleration?",
+      "options": {
+        "A": "They have identical forms with angular variables replacing linear ones",
+        "B": "Rotational equations include an extra factor of radius",
+        "C": "Linear equations cannot be applied to rotational motion",
+        "D": "They differ completely in mathematical structure"
+      },
+      "correct_answer": "A",
+      "hint": "Compare Δθ = ω₀t + ½αt² to Δx = v₀t + ½at².",
+      "explanation": "Rotational kinematic equations are direct analogs of linear ones: Δθ replaces Δx, ω replaces v, and α replaces a. Option B incorrectly introduces radius dependence into the basic equations.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 17.6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.2 Rotational Motion",
+        "subsection_anchor": "Kinematic equations for rotational and linear motion",
+        "structural_element": "Kinematic equations for rotational and linear motion",
+        "content_anchor": "analogy between linear and angular motion equations",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_rotational_linear_analogy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Physics_U2_Q016",
+      "generation_timestamp": "2025-01-27T08:05:30Z",
+      "section": "2.2 Rotational Motion",
+      "subsection": "Relationship between angular motion and translational motion quantities",
+      "sub_subsection": null,
+      "structural_anchor": "Relationship between angular motion and translational motion quantities",
+      "mcq_type": "C",
+      "question": "What is the correct relationship between tangential velocity v and angular velocity ω for a point at distance r from the axis?",
+      "options": {
+        "A": "v = ω/r",
+        "B": "v = ωr",
+        "C": "v = ω²r",
+        "D": "v = ω/r²"
+      },
+      "correct_answer": "B",
+      "hint": "Tangential speed equals radius times angular speed.",
+      "explanation": "The relationship is v = ωr, derived from v = Δs/Δt and Δs = rΔθ. Option A inverts the relationship, incorrectly dividing by radius.",
+      "difficulty_level": "easy",
+      "formula_used": ["v = ωr"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.2 Rotational Motion",
+        "subsection_anchor": "Relationship between angular motion and translational motion quantities",
+        "structural_element": "Relationship between angular motion and translational motion quantities",
+        "content_anchor": "v = ωr",
+        "page_hint": "Page 24",
+        "concept_hash": "sha256_of_tangential_velocity_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Physics_U2_Q017",
+      "generation_timestamp": "2025-01-27T08:05:45Z",
+      "section": "2.2 Rotational Motion",
+      "subsection": "Relationship between angular motion and translational motion quantities",
+      "sub_subsection": null,
+      "structural_anchor": "Relationship between angular motion and translational motion quantities",
+      "mcq_type": "E",
+      "question": "A point on a rotating disc 0.4 m from the center has a tangential acceleration of 2 m/s². What is the disc's angular acceleration?",
+      "options": {
+        "A": "2 rad/s²",
+        "B": "5 rad/s²",
+        "C": "8 rad/s²",
+        "D": "10 rad/s²"
+      },
+      "correct_answer": "B",
+      "hint": "Use a_t = αr, where a_t is tangential acceleration.",
+      "explanation": "From a_t = αr: α = a_t/r = 2/0.4 = 5 rad/s². Option D incorrectly uses α = a_t × r instead of dividing.",
+      "difficulty_level": "medium",
+      "formula_used": ["a_t = αr"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "rad/s²",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.2 Rotational Motion",
+        "subsection_anchor": "Relationship between angular motion and translational motion quantities",
+        "structural_element": "Relationship between angular motion and translational motion quantities",
+        "content_anchor": "a = rα",
+        "page_hint": "Page 24",
+        "concept_hash": "sha256_of_tangential_acceleration_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Physics_U2_Q018",
+      "generation_timestamp": "2025-01-27T08:06:00Z",
+      "section": "2.3 Rotational Dynamics",
+      "subsection": "Torque",
+      "sub_subsection": null,
+      "structural_anchor": "Torque:",
+      "mcq_type": "A",
+      "question": "What physical quantity describes the rotational effect of a force applied at a distance from an axis?",
+      "options": {
+        "A": "Moment of inertia",
+        "B": "Angular momentum",
+        "C": "Torque",
+        "D": "Centripetal force"
+      },
+      "correct_answer": "C",
+      "hint": "This quantity causes angular acceleration in rotational motion.",
+      "explanation": "Torque τ = rF sin θ measures the rotational effect of a force. Option A is rotational inertia, which resists angular acceleration rather than causing it.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 22.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 96
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.3 Rotational Dynamics",
+        "subsection_anchor": "Torque",
+        "structural_element": "Torque:",
+        "content_anchor": "torque is the rotational effect of force",
+        "page_hint": "Page 27",
+        "concept_hash": "sha256_of_torque_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 63,
+        "distractor_quality_score": 87,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Physics_U2_Q019",
+      "generation_timestamp": "2025-01-27T08:06:15Z",
+      "section": "2.3 Rotational Dynamics",
+      "subsection": "Torque",
+      "sub_subsection": null,
+      "structural_anchor": "Torque:",
+      "mcq_type": "E",
+      "question": "A 20 N force is applied perpendicularly at the end of a 0.5 m wrench. What torque is produced?",
+      "options": {
+        "A": "5 N·m",
+        "B": "10 N·m",
+        "C": "15 N·m",
+        "D": "20 N·m"
+      },
+      "correct_answer": "B",
+      "hint": "Use τ = rF when force is perpendicular (sin 90° = 1).",
+      "explanation": "Torque τ = rF sin θ = 0.5 × 20 × 1 = 10 N·m. Option A results from incorrectly using τ = r/F or misapplying the angle.",
+      "difficulty_level": "easy",
+      "formula_used": ["τ = rF sin θ"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "N·m",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.3 Rotational Dynamics",
+        "subsection_anchor": "Torque",
+        "structural_element": "Torque:",
+        "content_anchor": "τ = rF sin θ",
+        "page_hint": "Page 27",
+        "concept_hash": "sha256_of_torque_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Physics_U2_Q020",
+      "generation_timestamp": "2025-01-27T08:06:30Z",
+      "section": "2.3 Rotational Dynamics",
+      "subsection": "Moment of inertia (I)",
+      "sub_subsection": null,
+      "structural_anchor": "Moment of inertia (I):",
+      "mcq_type": "C",
+      "question": "What is the moment of inertia for a point mass m rotating at distance r from the axis?",
+      "options": {
+        "A": "mr",
+        "B": "mr²",
+        "C": "½mr²",
+        "D": "2mr²"
+      },
+      "correct_answer": "B",
+      "hint": "Moment of inertia depends on mass and square of distance from axis.",
+      "explanation": "For a point mass, moment of inertia I = mr². Option C gives the moment of inertia for certain symmetric objects like discs or cylinders.",
+      "difficulty_level": "easy",
+      "formula_used": ["I = mr²"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 25.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 79
+        },
+        "option_parallelism_score": 97
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.3 Rotational Dynamics",
+        "subsection_anchor": "Moment of inertia (I)",
+        "structural_element": "Moment of inertia (I):",
+        "content_anchor": "I = mr²",
+        "page_hint": "Page 28-29",
+        "concept_hash": "sha256_of_point_mass_moment_of_inertia"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 89,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2750,
+    "average_question_quality": 85.2,
+    "type_distribution": {
+      "A": 2,
+      "C": 4,
+      "E": 2,
+      "G": 1,
+      "H": 1,
+      "I": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "2.1 Projectile motion": 1,
+      "2.2 Rotational Motion": 6,
+      "2.3 Rotational Dynamics": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

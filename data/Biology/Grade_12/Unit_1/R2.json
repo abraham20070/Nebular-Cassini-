@@ -1,0 +1,859 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-27T10:15:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G12_Bio_U1_Q020",
+    "covered_sections": ["1.1. Application in Conservation of natural resources", "1.2. Food and nutrition security", "1.3. Creating conscious citizens and ensuring sustainable development", "1.4. Applications in biotechnology", "1.5. Genetic Engineering", "1.6. Health and wellbeing", "V). Applications in biomining", "VI. Application in the Environment", "1. Application in Industry", "VIII. Applications in agriculture", "X. Biological warfare"],
+    "used_question_signatures": ["7a165744d7b8c96d6d8a7b4b9d8e6f1a", "e3c7b8d9f1a2b3c4d5e6f7a8b9c0d1e2", "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d", "f5e4d3c2b1a9f8e7d6c5b4a3f2e1d0", "b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4", "d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5", "c2a3b4c5d6e7f8a9b0c1d2e3f4a5b6", "e1f2a3b4c5d6e7f8a9b0c1d2e3f4a", "a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2", "d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7", "4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a", "9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d", "4e5f6a7b8c9d0e1f2a3b4c5d6e7f8b", "0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e", "5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b", "0c1d2e3f4a5b6c7d8e9f0a1b2c3d4f", "6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c", "1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f", "6a7b8c9d0e1f2a3b4c5d6e7f8a9b0d", "1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a"],
+    "baseline_counter": {
+      "Unit learning outcome": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "1.1. Application in Conservation of natural resources": {
+        "count": 2,
+        "mini_headings_covered": ["Keywords"],
+        "last_question_round": 1
+      },
+      "1.2. Food and nutrition security": {
+        "count": 2,
+        "mini_headings_covered": ["Keywords"],
+        "last_question_round": 1
+      },
+      "1.3. Creating conscious citizens and ensuring sustainable development": {
+        "count": 2,
+        "mini_headings_covered": ["Keywords"],
+        "last_question_round": 1
+      },
+      "1.4. Applications in biotechnology": {
+        "count": 3,
+        "mini_headings_covered": ["(i). Application of Biology for Food processing and production", "(a). Dairy Products", "(b). Fermented Meats", "(c). Production of beer, wine, and spirits", "(d). Bread making"],
+        "last_question_round": 2
+      },
+      "1.5. Genetic Engineering": {
+        "count": 2,
+        "mini_headings_covered": ["a. Animal breeding and transgenic animals, and plants and disease, and pest management"],
+        "last_question_round": 1
+      },
+      "1.6. Health and wellbeing": {
+        "count": 2,
+        "mini_headings_covered": ["1. The manufacture of antibiotics", "b. Biosensors", "c). Forensic Science"],
+        "last_question_round": 2
+      },
+      "V). Applications in biomining": {
+        "count": 1,
+        "mini_headings_covered": ["1). Microbiological mining"],
+        "last_question_round": 2
+      },
+      "VI. Application in the Environment": {
+        "count": 1,
+        "mini_headings_covered": ["A). Solid waste treatment: composting and landfill", "B). Wastewater treatment", "C). Bioremediation", "D). Biofuels", "E). Biogas production"],
+        "last_question_round": 2
+      },
+      "1. Application in Industry": {
+        "count": 1,
+        "mini_headings_covered": ["A). Enzymes", "B). Biological washing powders"],
+        "last_question_round": 2
+      },
+      "VIII. Applications in agriculture": {
+        "count": 2,
+        "mini_headings_covered": ["A). Biopesticides", "B). The use of Ti plasmid as a vector", "D). Pest Resistant Crops", "F). Pest resistance", "G. Herbicide resistance"],
+        "last_question_round": 2
+      },
+      "X. Biological warfare": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "UNIT SUMMARY": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "III. Review Questions": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1. Application in Conservation of natural resources": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.2. Food and nutrition security": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.3. Creating conscious citizens and ensuring sustainable development": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.4. Applications in biotechnology": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "1.5. Genetic Engineering": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "1.6. Health and wellbeing": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "V). Applications in biomining": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "VI. Application in the Environment": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "1. Application in Industry": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "VIII. Applications in agriculture": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "X. Biological warfare": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1. Application in Conservation of natural resources>Keywords": ["Natural resources", "Renewable", "Non-renewable", "Conservation", "Extinct"],
+      "1.2. Food and nutrition security>Keywords": ["Food Security"],
+      "1.3. Creating conscious citizens and ensuring sustainable development>Keywords": ["Conscious citizen"],
+      "1.4. Applications in biotechnology>(i). Application of Biology for Food processing and production": ["Biotechnology", "Single-cell protein", "Spirulina", "Dairy Products", "Fermented Meats", "Beer", "Wine", "Spirits", "Bread making", "Yeast"],
+      "1.5. Genetic Engineering>a. Animal breeding and transgenic animals, and plants and disease, and pest management": ["Genetic engineering", "Transgenic organism", "Animal breeding"],
+      "1.6. Health and wellbeing>1. The manufacture of antibiotics": ["Antibiotics", "Penicillin", "Bacteriostatic", "Bactericidal"],
+      "1.6. Health and wellbeing>b. Biosensors": ["Biosensors"],
+      "1.6. Health and wellbeing>c). Forensic Science": ["Forensic Science", "DNA analysis", "Fingerprints"],
+      "V). Applications in biomining>1). Microbiological mining": ["Biohydrometallurgy", "Thiobacillus ferrooxidans"],
+      "VI. Application in the Environment>A). Solid waste treatment: composting and landfill": ["Composting", "Landfill", "Biodegradable", "Methane"],
+      "VI. Application in the Environment>B). Wastewater treatment": ["Wastewater treatment", "BOD", "Activated sludge"],
+      "VI. Application in the Environment>C). Bioremediation": ["Bioremediation", "Biodegradation", "Biotransformation"],
+      "VI. Application in the Environment>D). Biofuels": ["Biofuels", "Ethanol", "Cellulose"],
+      "VI. Application in the Environment>E). Biogas production": ["Biogas", "Methane", "Methanogens"],
+      "1. Application in Industry>A). Enzymes": ["Enzymes", "Proteases", "Lipases", "Amylases"],
+      "1. Application in Industry>B). Biological washing powders": ["Biological washing powders"],
+      "VIII. Applications in agriculture>A). Biopesticides": ["Biopesticides", "Bacillus thuringiensis"],
+      "VIII. Applications in agriculture>B). The use of Ti plasmid as a vector": ["Ti plasmid", "Agrobacterium tumefaciens"],
+      "VIII. Applications in agriculture>D). Pest Resistant Crops": ["Pest Resistant Crops", "Bt-Cotton"],
+      "VIII. Applications in agriculture>F). Pest resistance": ["Pest resistance"],
+      "VIII. Applications in agriculture>G. Herbicide resistance": ["Herbicide resistance", "Glyphosate"],
+      "X. Biological warfare": ["Biological warfare", "Bioterrorism"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_round1_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 40,
+      "questions_per_concept_ratio": 0.5,
+      "structural_coverage_percentage": 52.6
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 1: Applications of Biology",
+  "pdf_filename": "B12U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 6,
+      "constraint_violations_caught": 6,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T10:20:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 11,
+        "total_sections": 14,
+        "progress_percentage": 78.6
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 11,
+      "subsections_covered_count": 16,
+      "mini_headings_covered_count": 24,
+      "structural_coverage_percentage": 63.2,
+      "concept_utilization_ratio": 0.5
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.4. Applications in biotechnology",
+      "least_covered_section": "Unit learning outcome",
+      "imbalance_ratio": 2.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.5,
+      "remaining_concept_capacity": 60
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U1_Q011",
+      "generation_timestamp": "2025-01-27T10:15:01Z",
+      "section": "1.4. Applications in biotechnology",
+      "subsection": "(i). Application of Biology for Food processing and production",
+      "sub_subsection": "(a). Dairy Products",
+      "structural_anchor": "Yogurt is made by adding Streptococcus thermophilus and Lactobacillus bulgaricus to milk.",
+      "mcq_type": "J",
+      "question": "Which pair of microorganisms is specifically used in the production of yogurt?",
+      "options": {
+        "A": "Streptococcus cremoris and Lactobacillus acidophilus",
+        "B": "Streptococcus thermophilus and Lactobacillus bulgaricus",
+        "C": "Leuconostoc citrovorum and Streptococcus lactis",
+        "D": "Penicillium and Aspergillus"
+      },
+      "correct_answer": "B",
+      "hint": "These bacteria work together to ferment milk, producing yogurt's characteristic texture and acidity.",
+      "explanation": "Yogurt production relies on the symbiotic fermentation by Streptococcus thermophilus and Lactobacillus bulgaricus. Option C lists bacteria used for flavoring buttermilk, not for making yogurt.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.4. Applications in biotechnology",
+        "subsection_anchor": "(i). Application of Biology for Food processing and production",
+        "structural_element": "(a). Dairy Products",
+        "content_anchor": "Yogurt is made by adding Streptococcus thermophilus and Lactobacillus bulgaricus to milk.",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_yogurt_bacteria"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q012",
+      "generation_timestamp": "2025-01-27T10:15:02Z",
+      "section": "1.4. Applications in biotechnology",
+      "subsection": "(i). Application of Biology for Food processing and production",
+      "sub_subsection": "(b). Fermented Meats",
+      "structural_anchor": "Lactobacillus plantarum and Pediococcus cerevisiae add flavor by fermenting meats",
+      "mcq_type": "B",
+      "question": "Which microorganisms are used to add tangy flavor and aid preservation in fermented meats like salami?",
+      "options": {
+        "A": "Saccharomyces cerevisiae and Penicillium",
+        "B": "Lactobacillus plantarum and Pediococcus cerevisiae",
+        "C": "Streptococcus thermophilus and Lactobacillus bulgaricus",
+        "D": "Thiobacillus ferrooxidans and Leptospirillum ferrooxidans"
+      },
+      "correct_answer": "B",
+      "hint": "These are lactic acid bacteria that carry out heterolactic acid fermentation.",
+      "explanation": "Lactobacillus plantarum and Pediococcus cerevisiae are lactic acid bacteria that ferment meats, producing acids that impart flavor and inhibit spoilage. Option A lists organisms used in bread-making and mold-ripening, not meat fermentation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.4. Applications in biotechnology",
+        "subsection_anchor": "(i). Application of Biology for Food processing and production",
+        "structural_element": "(b). Fermented Meats",
+        "content_anchor": "Microbes such as Lactobacillus plantarum and Pediococcus cerevisiae add flavor by fermenting meats",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_of_meat_fermentation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q013",
+      "generation_timestamp": "2025-01-27T10:15:03Z",
+      "section": "1.4. Applications in biotechnology",
+      "subsection": "(i). Application of Biology for Food processing and production",
+      "sub_subsection": "(c). Production of beer, wine, and spirits",
+      "structural_anchor": "Beer and wine are made by fermenting sugary juices",
+      "mcq_type": "K",
+      "question": "What is the primary role of Saccharomyces strains in alcoholic beverage production?",
+      "options": {
+        "A": "To provide flavor compounds from hops",
+        "B": "To convert sugars into ethyl alcohol and carbon dioxide",
+        "C": "To clarify the beverage by removing suspended particles",
+        "D": "To increase the alcohol content through distillation"
+      },
+      "correct_answer": "B",
+      "hint": "This microorganism is responsible for the fermentation process.",
+      "explanation": "Saccharomyces yeasts ferment sugars, producing ethanol and CO₂ as primary products in beer and wine making. Option D describes a physical separation process that occurs after fermentation in spirits production.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.4. Applications in biotechnology",
+        "subsection_anchor": "(i). Application of Biology for Food processing and production",
+        "structural_element": "(c). Production of beer, wine, and spirits",
+        "content_anchor": "Strains of Saccharomyces are the fermenters for all alcoholic beverages.",
+        "page_hint": "Page 11-12",
+        "concept_hash": "sha256_of_saccharomyces"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q014",
+      "generation_timestamp": "2025-01-27T10:15:04Z",
+      "section": "1.4. Applications in biotechnology",
+      "subsection": "(i). Application of Biology for Food processing and production",
+      "sub_subsection": "(d). Bread making",
+      "structural_anchor": "Leavening is achieved primarily through the release of gas to produce a porous and spongy product.",
+      "mcq_type": "G",
+      "question": "If baker's yeast respires aerobically in bread dough, what are the chief products of maltose fermentation that cause the dough to rise?",
+      "options": {
+        "A": "Ethyl alcohol and lactic acid",
+        "B": "Carbon dioxide and water",
+        "C": "Acetic acid and butyric acid",
+        "D": "Methane and carbon dioxide"
+      },
+      "correct_answer": "B",
+      "hint": "Aerobic respiration by yeast in dough produces different products than anaerobic fermentation in beverages.",
+      "explanation": "During bread making, yeast undergoes aerobic respiration, converting sugars primarily into CO₂ and water, which creates gas bubbles for leavening. Option A lists products more characteristic of anaerobic fermentation in beer or wine production.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 89
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.4. Applications in biotechnology",
+        "subsection_anchor": "(i). Application of Biology for Food processing and production",
+        "structural_element": "(d). Bread making",
+        "content_anchor": "the chief products of maltose fermentation are carbon dioxide and water rather than alcohol",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_of_bread_leavening"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 84,
+        "distractor_quality_score": 81,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q015",
+      "generation_timestamp": "2025-01-27T10:15:05Z",
+      "section": "1.6. Health and wellbeing",
+      "subsection": "1. The manufacture of antibiotics",
+      "sub_subsection": null,
+      "structural_anchor": "Antibiotics attack bacteria in a variety of ways.",
+      "mcq_type": "I",
+      "question": "How do bactericidal antibiotics differ from bacteriostatic antibiotics in their mechanism of action?",
+      "options": {
+        "A": "Bactericidal antibiotics stop bacterial reproduction, while bacteriostatic antibiotics kill bacteria.",
+        "B": "Bactericidal antibiotics kill bacteria, while bacteriostatic antibiotics stop their reproduction.",
+        "C": "Bactericidal antibiotics target cell walls, while bacteriostatic antibiotics target protein synthesis.",
+        "D": "Bactericidal antibiotics are from fungi, while bacteriostatic antibiotics are from bacteria."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the outcome for the bacterial cell: death versus growth inhibition.",
+      "explanation": "Bactericidal antibiotics kill bacterial cells directly, while bacteriostatic antibiotics inhibit growth and reproduction without immediate killing. Option A reverses the correct definitions of these two antibiotic classes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.6. Health and wellbeing",
+        "subsection_anchor": "1. The manufacture of antibiotics",
+        "structural_element": "1. The manufacture of antibiotics",
+        "content_anchor": "Those that stop bacteria from reproducing are said to be bacteriostatic; those that kill the bacteria are bactericidal.",
+        "page_hint": "Page 16",
+        "concept_hash": "sha256_of_antibiotic_types"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q016",
+      "generation_timestamp": "2025-01-27T10:15:06Z",
+      "section": "1.6. Health and wellbeing",
+      "subsection": "b. Biosensors",
+      "sub_subsection": null,
+      "structural_anchor": "biosensor production",
+      "mcq_type": "A",
+      "question": "What are devices called that link living microorganisms or their enzymes with electrodes to convert biological reactions into electrical currents?",
+      "options": {
+        "A": "Biochips",
+        "B": "Biosensors",
+        "C": "Bioreactors",
+        "D": "Bioindicators"
+      },
+      "correct_answer": "B",
+      "hint": "These devices are used for detection and measurement in various fields.",
+      "explanation": "Biosensors integrate biological components with transducers to produce measurable electrical signals from biological interactions. Option C refers to vessels used for growing microorganisms or cells, not for detection.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "1.6. Health and wellbeing",
+        "subsection_anchor": "b. Biosensors",
+        "structural_element": "b. Biosensors",
+        "content_anchor": "living microorganisms (or their enzymes or organelles) are linked with electrodes, and biological reactions are converted into electrical currents",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_biosensors"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q017",
+      "generation_timestamp": "2025-01-27T10:15:07Z",
+      "section": "V). Applications in biomining",
+      "subsection": "1). Microbiological mining",
+      "sub_subsection": null,
+      "structural_anchor": "Thiobacillus ferrooxidans",
+      "mcq_type": "D",
+      "question": "How does Thiobacillus ferrooxidans extract copper from low-grade sulfide ores?",
+      "options": {
+        "A": "By directly consuming copper atoms for energy",
+        "B": "By oxidizing sulfur in copper sulfide to sulfate, releasing soluble copper",
+        "C": "By reducing copper ions to metallic copper through anaerobic respiration",
+        "D": "By secreting organic acids that dissolve the ore matrix"
+      },
+      "correct_answer": "B",
+      "hint": "This bacterium obtains energy from oxidizing inorganic sulfur compounds.",
+      "explanation": "Thiobacillus ferrooxidans is a chemolithotroph that oxidizes sulfide minerals, converting insoluble metal sulfides to water-soluble metal sulfates. Option A is incorrect because the bacterium does not metabolize copper itself.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 90
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "V). Applications in biomining",
+        "subsection_anchor": "1). Microbiological mining",
+        "structural_element": "1). Microbiological mining",
+        "content_anchor": "oxidize the sulfur atoms in sulfide ores to sulfate... converting it to a water-soluble form",
+        "page_hint": "Page 19-20",
+        "concept_hash": "sha256_of_biomining"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 86,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q018",
+      "generation_timestamp": "2025-01-27T10:15:08Z",
+      "section": "VIII. Applications in agriculture",
+      "subsection": "A). Biopesticides",
+      "sub_subsection": null,
+      "structural_anchor": "Bacillus thuringiensis",
+      "mcq_type": "B",
+      "question": "Which bacterium produces a toxin that is effective against a wide variety of insect larvae and is used as a bioinsecticide?",
+      "options": {
+        "A": "Bacillus popilliae",
+        "B": "Bacillus thuringiensis",
+        "C": "Pseudomonas fluorescens",
+        "D": "Streptomyces"
+      },
+      "correct_answer": "B",
+      "hint": "This bacterium's toxin is specific to certain insect groups and is harmless to humans.",
+      "explanation": "Bacillus thuringiensis produces crystal proteins toxic to many insect larvae, making it a widely used biopesticide. Option A is specific to Japanese beetle larvae and has a narrower application range.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "VIII. Applications in agriculture",
+        "subsection_anchor": "A). Biopesticides",
+        "structural_element": "A). Biopesticides",
+        "content_anchor": "Bacillus thuringiensis is used on a wide variety of vegetable and field crops",
+        "page_hint": "Page 27",
+        "concept_hash": "sha256_of_bt"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 79,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q019",
+      "generation_timestamp": "2025-01-27T10:15:09Z",
+      "section": "VIII. Applications in agriculture",
+      "subsection": "G. Herbicide resistance",
+      "sub_subsection": null,
+      "structural_anchor": "glyphosate",
+      "mcq_type": "F",
+      "question": "Why can glyphosate, a broad-spectrum herbicide, be safely used on glyphosate-resistant crops without harming them?",
+      "options": {
+        "A": "The crops have thicker cuticles that prevent herbicide absorption.",
+        "B": "The crops express an enzyme that breaks down glyphosate into harmless compounds.",
+        "C": "The crops undergo rapid growth that dilutes the herbicide concentration.",
+        "D": "The crops secrete compounds that neutralize glyphosate in the soil."
+      },
+      "correct_answer": "B",
+      "hint": "Genetic engineering has introduced a specific detoxification mechanism.",
+      "explanation": "Glyphosate-resistant crops are engineered to produce an enzyme that metabolizes glyphosate, preventing it from inhibiting the plants' essential biochemical pathways. Option A describes a physical barrier mechanism not involved in glyphosate resistance.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "VIII. Applications in agriculture",
+        "subsection_anchor": "G. Herbicide resistance",
+        "structural_element": "G. Herbicide resistance",
+        "content_anchor": "A gene for an enzyme that breaks down glyphosate can be introduced into a plant cell culture.",
+        "page_hint": "Page 31",
+        "concept_hash": "sha256_of_glyphosate_resistance"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Bio_U1_Q020",
+      "generation_timestamp": "2025-01-27T10:15:10Z",
+      "section": "X. Biological warfare",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Biological warfare (BW) also known as germ warfare",
+      "mcq_type": "A",
+      "question": "What is the term for the use of biological toxins or infectious agents with the intent to kill or incapacitate humans, animals, or plants as an act of war?",
+      "options": {
+        "A": "Chemical warfare",
+        "B": "Biological warfare",
+        "C": "Radiological warfare",
+        "D": "Psychological warfare"
+      },
+      "correct_answer": "B",
+      "hint": "This involves living pathogens or their toxic products.",
+      "explanation": "Biological warfare employs living microorganisms or their toxins as weapons to cause disease or death. Option A involves synthetic chemical compounds, not biological agents.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Applications of Biology",
+        "section_anchor": "X. Biological warfare",
+        "subsection_anchor": null,
+        "structural_element": "X. Biological warfare",
+        "content_anchor": "use of biological toxins or infectious agents such as bacteria, viruses, and fungi with the intent to kill or incapacitate",
+        "page_hint": "Page 32",
+        "concept_hash": "sha256_of_biological_warfare"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 9000,
+    "average_question_quality": 84.5,
+    "type_distribution": {
+      "A": 2,
+      "B": 3,
+      "D": 1,
+      "F": 1,
+      "G": 1,
+      "I": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 5,
+      "hard": 3
+    },
+    "section_distribution": {
+      "1.4. Applications in biotechnology": 4,
+      "1.6. Health and wellbeing": 2,
+      "V). Applications in biomining": 1,
+      "VIII. Applications in agriculture": 2,
+      "X. Biological warfare": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

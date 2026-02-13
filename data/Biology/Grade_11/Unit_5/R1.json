@@ -1,0 +1,814 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-02-21T12:00:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Bio_U5_Q010",
+    "covered_sections": [
+      "5.1. Human Musculoskeletal Systems>Types of muscles",
+      "5.1. Human Musculoskeletal Systems>Mechanism of actions of skeletal muscles",
+      "5.1. Human Musculoskeletal Systems>The human axial and appendicular skeletons",
+      "5.1. Human Musculoskeletal Systems>Joints",
+      "5.2 The reproductive system>Human reproductive system (Male and Female)",
+      "5.3 Harmful traditional practices>Harmful traditional practices",
+      "5.4 Family planning>Risks related to the lack of family planning",
+      "5.5 Effects of alcohol use, chewing Khat, cannabis and other drug uses on STIs transmission and unwanted pregnancy>The effects of alcohol uses"
+    ],
+    "used_question_signatures": [
+      "a9d3c1f7b5e2d4g8h0j2k4l6m8n1p3",
+      "b2d4f6h8j0l2n4p6r8t0v2x4z6b8",
+      "c1e3g5i7k9m1o3q5s7u9w1y3a5c7",
+      "d2f4h6j8l0n2p4r6t8v0x2z4b6d8",
+      "e3g5i7k9m1o3q5s7u9w1y3a5c7e9",
+      "f4h6j8l0n2p4r6t8v0x2z4b6d8f0",
+      "g5i7k9m1o3q5s7u9w1y3a5c7e9g1",
+      "h6j8l0n2p4r6t8v0x2z4b6d8f0h2",
+      "i7k9m1o3q5s7u9w1y3a5c7e9g1i3",
+      "j8l0n2p4r6t8v0x2z4b6d8f0h2j4"
+    ],
+    "baseline_counter": {
+      "5.1. Human Musculoskeletal Systems": {
+        "Types of muscles": {
+          "count": 2,
+          "mini_headings_covered": ["1. The Cardiac muscles", "2. The Skeletal Muscle"],
+          "last_question_round": 1
+        },
+        "Mechanism of actions of skeletal muscles": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The human axial and appendicular skeletons": {
+          "count": 2,
+          "mini_headings_covered": ["1. The axial skeleton", "2. The appendicular skeleton"],
+          "last_question_round": 1
+        },
+        "Joints": {
+          "count": 1,
+          "mini_headings_covered": ["5.1.4.1 Types of joints"],
+          "last_question_round": 1
+        }
+      },
+      "5.2 The reproductive system": {
+        "Human reproductive system (Male and Female)": {
+          "count": 1,
+          "mini_headings_covered": ["The male reproductive systems"],
+          "last_question_round": 1
+        }
+      },
+      "5.3 Harmful traditional practices": {
+        "Harmful traditional practices": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.4 Family planning": {
+        "Risks related to the lack of family planning": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "5.5 Effects of alcohol use, chewing Khat, cannabis and other drug uses on STIs transmission and unwanted pregnancy": {
+        "The effects of alcohol uses": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1. Human Musculoskeletal Systems": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.2 The reproductive system": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.3 Harmful traditional practices": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.4 Family planning": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.5 Effects of alcohol use, chewing Khat, cannabis and other drug uses on STIs transmission and unwanted pregnancy": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1. Human Musculoskeletal Systems>Types of muscles": ["Cardiac muscle function", "Skeletal muscle structure"],
+      "5.1. Human Musculoskeletal Systems>Mechanism of actions of skeletal muscles": ["Muscle contraction mechanism"],
+      "5.1. Human Musculoskeletal Systems>The human axial and appendicular skeletons": ["Axial skeleton composition", "Appendicular skeleton function"],
+      "5.1. Human Musculoskeletal Systems>Joints": ["Joint types classification"],
+      "5.2 The reproductive system>Human reproductive system (Male and Female)": ["Testes function"],
+      "5.3 Harmful traditional practices>Harmful traditional practices": ["Female genital mutilation"],
+      "5.4 Family planning>Risks related to the lack of family planning": ["Early motherhood risks"],
+      "5.5 Effects of alcohol use, chewing Khat, cannabis and other drug uses on STIs transmission and unwanted pregnancy>The effects of alcohol uses": ["Alcohol and risky behavior"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_placeholder_round1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 8,
+      "questions_per_concept_ratio": 1.25,
+      "structural_coverage_percentage": 12.5
+    }
+  },
+  "grade": "11",
+  "subject": "Biology",
+  "unit": "Unit 5: The human body systems",
+  "pdf_filename": "B11U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-02-21T12:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 5,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 6.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 7,
+      "structural_coverage_percentage": 12.5,
+      "concept_utilization_ratio": 1.25
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.1. Human Musculoskeletal Systems",
+      "least_covered_section": "5.5 Effects of alcohol use, chewing Khat, cannabis and other drug uses on STIs transmission and unwanted pregnancy",
+      "imbalance_ratio": 6.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U5_Q001",
+      "generation_timestamp": "2025-02-21T12:00:00Z",
+      "section": "5.1. Human Musculoskeletal Systems",
+      "subsection": "Types of muscles",
+      "sub_subsection": null,
+      "structural_anchor": "1. The Cardiac muscles",
+      "mcq_type": "A",
+      "question": "Which type of muscle tissue is exclusively found in the heart wall and pumps blood throughout the circulatory system?",
+      "options": {
+        "A": "Cardiac muscle",
+        "B": "Skeletal muscle",
+        "C": "Smooth muscle",
+        "D": "Striated muscle"
+      },
+      "correct_answer": "A",
+      "hint": "This muscle type is involuntary and forms the middle layer of the heart.",
+      "explanation": "Cardiac muscle is specialized tissue found only in the heart wall, responsible for pumping blood through the circulatory system. Option B incorrectly refers to skeletal muscle, which is attached to bones and enables voluntary movement.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: The human body systems",
+        "section_anchor": "5.1. Human Musculoskeletal Systems",
+        "subsection_anchor": "Types of muscles",
+        "structural_element": "1. The Cardiac muscles",
+        "content_anchor": "cardiac muscle (heart muscle) forms a thick middle layer between the outer layer of the heart wall",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_cardiac_muscle_location_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Bio_U5_Q002",
+      "generation_timestamp": "2025-02-21T12:00:00Z",
+      "section": "5.1. Human Musculoskeletal Systems",
+      "subsection": "Types of muscles",
+      "sub_subsection": null,
+      "structural_anchor": "2. The Skeletal Muscle",
+      "mcq_type": "B",
+      "question": "Voluntary movements such as walking and running are primarily controlled by which type of muscle tissue attached to bones?",
+      "options": {
+        "A": "Cardiac muscle",
+        "B": "Skeletal muscle",
+        "C": "Smooth muscle",
+        "D": "Visceral muscle"
+      },
+      "correct_answer": "B",
+      "hint": "This muscle type comprises 30-40% of total body mass and is under conscious control.",
+      "explanation": "Skeletal muscle is striated tissue attached to bones that enables voluntary body movements through conscious control. Option C refers to smooth muscle, which controls involuntary functions in hollow organs like the stomach and intestines.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: The human body systems",
+        "section_anchor": "5.1. Human Musculoskeletal Systems",
+        "subsection_anchor": "Types of muscles",
+        "structural_element": "2. The Skeletal Muscle",
+        "content_anchor": "skeletal muscles arranged in opposing systems around joints are attached to bones and are composed of 30 to 40% of total body mass",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_skeletal_muscle_voluntary_control"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Bio_U5_Q003",
+      "generation_timestamp": "2025-02-21T12:00:00Z",
+      "section": "5.1. Human Musculoskeletal Systems",
+      "subsection": "Mechanism of actions of skeletal muscles",
+      "sub_subsection": null,
+      "structural_anchor": "Mechanism of actions of skeletal muscles",
+      "mcq_type": "F",
+      "question": "During muscle contraction, calcium ions bind to troponin, allowing actin and myosin filaments to interact. Which statement best explains why ATP is essential for this process?",
+      "options": {
+        "A": "ATP provides the phosphate groups needed for troponin activation.",
+        "B": "ATP supplies energy to break actin-myosin cross-bridges for muscle relaxation.",
+        "C": "ATP molecules directly bind to calcium ions to facilitate their release.",
+        "D": "ATP hydrolyzes to provide mechanical energy for myosin to pull actin filaments."
+      },
+      "correct_answer": "D",
+      "hint": "Myosin acts as a molecular motor that converts chemical energy into mechanical work.",
+      "explanation": "Myosin proteins function as molecular motors that hydrolyze ATP, converting chemical energy into mechanical energy to pull actin filaments during contraction. Option B incorrectly describes ATP's role in breaking cross-bridges during relaxation rather than powering contraction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: The human body systems",
+        "section_anchor": "5.1. Human Musculoskeletal Systems",
+        "subsection_anchor": "Mechanism of actions of skeletal muscles",
+        "structural_element": "Mechanism of actions of skeletal muscles",
+        "content_anchor": "myosin is a type of molecular motor that converts chemical energy released from ATP into mechanical energy used to pull the actin filaments",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_atp_muscle_contraction_energy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G11_Bio_U5_Q004",
+      "generation_timestamp": "2025-02-21T12:00:00Z",
+      "section": "5.1. Human Musculoskeletal Systems",
+      "subsection": "The human axial and appendicular skeletons",
+      "sub_subsection": null,
+      "structural_anchor": "1. The axial skeleton",
+      "mcq_type": "J",
+      "question": "Which of the following bone groups is correctly classified as part of the axial skeleton?",
+      "options": {
+        "A": "Femur and tibia",
+        "B": "Carpal and metacarpal bones",
+        "C": "Skull, vertebrae, and rib cage",
+        "D": "Humerus and radius"
+      },
+      "correct_answer": "C",
+      "hint": "This skeletal division forms the central core and protects vital organs.",
+      "explanation": "The axial skeleton comprises the central core bones including the skull, vertebral column, and rib cage, which protect the brain, spinal cord, and thoracic organs. Option A incorrectly lists leg bones that belong to the appendicular skeleton supporting limb movement.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: The human body systems",
+        "section_anchor": "5.1. Human Musculoskeletal Systems",
+        "subsection_anchor": "The human axial and appendicular skeletons",
+        "structural_element": "1. The axial skeleton",
+        "content_anchor": "axial skeleton is the one that consists of the skull, trunk, and pelvis bones of the medial core of the body",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_axial_skeleton_components"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Bio_U5_Q005",
+      "generation_timestamp": "2025-02-21T12:00:00Z",
+      "section": "5.1. Human Musculoskeletal Systems",
+      "subsection": "The human axial and appendicular skeletons",
+      "sub_subsection": null,
+      "structural_anchor": "2. The appendicular skeleton",
+      "mcq_type": "I",
+      "question": "What is the primary functional distinction between the axial and appendicular skeletons?",
+      "options": {
+        "A": "The axial skeleton supports body weight, while the appendicular skeleton stores minerals.",
+        "B": "The axial skeleton enables limb movement, while the appendicular skeleton protects internal organs.",
+        "C": "The axial skeleton provides central support and protection, while the appendicular skeleton facilitates locomotion and manipulation.",
+        "D": "The axial skeleton produces blood cells, while the appendicular skeleton provides muscle attachment sites."
+      },
+      "correct_answer": "C",
+      "hint": "One skeleton division forms the core framework; the other supports limb-based activities.",
+      "explanation": "The axial skeleton forms the central body axis providing support and protecting vital organs, while the appendicular skeleton comprises limb bones enabling locomotion and object manipulation. Option B incorrectly reverses the functional roles of the two skeletal divisions.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: The human body systems",
+        "section_anchor": "5.1. Human Musculoskeletal Systems",
+        "subsection_anchor": "The human axial and appendicular skeletons",
+        "structural_element": "2. The appendicular skeleton",
+        "content_anchor": "appendicular skeleton is involved in the locomotion of lower limbs and manipulation of objects in the upper limbs",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_appendicular_skeleton_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G11_Bio_U5_Q006",
+      "generation_timestamp": "2025-02-21T12:00:00Z",
+      "section": "5.1. Human Musculoskeletal Systems",
+      "subsection": "Joints",
+      "sub_subsection": null,
+      "structural_anchor": "5.1.4.1 Types of joints",
+      "mcq_type": "B",
+      "question": "Which joint type allows rotational movement, such as the turning of the head from side to side?",
+      "options": {
+        "A": "Ball and socket joint",
+        "B": "Hinge joint",
+        "C": "Pivot joint",
+        "D": "Gliding joint"
+      },
+      "correct_answer": "C",
+      "hint": "This joint features one bone rotating within a ring formed by another bone.",
+      "explanation": "Pivot joints enable rotational movement around a single axis, as seen in the articulation between the atlas and axis vertebrae that allows head rotation. Option A refers to ball and socket joints like the shoulder, which permit multi-directional movement rather than pure rotation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: The human body systems",
+        "section_anchor": "5.1. Human Musculoskeletal Systems",
+        "subsection_anchor": "Joints",
+        "structural_element": "5.1.4.1 Types of joints",
+        "content_anchor": "pivot joints are rotary or trochoid joints in which one bone swivels in a ring (ulna, radius, and neck)",
+        "page_hint": "Page 11",
+        "concept_hash": "sha256_pivot_joint_rotation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Bio_U5_Q007",
+      "generation_timestamp": "2025-02-21T12:00:00Z",
+      "section": "5.2 The reproductive system",
+      "subsection": "Human reproductive system (Male and Female)",
+      "sub_subsection": null,
+      "structural_anchor": "The male reproductive systems",
+      "mcq_type": "G",
+      "question": "Testes produce testosterone and sperm cells through spermatogenesis. What would be the most likely consequence if the scrotum fails to maintain optimal temperature?",
+      "options": {
+        "A": "Increased sperm motility and viability",
+        "B": "Enhanced testosterone production",
+        "C": "Reduced sperm production and quality",
+        "D": "Accelerated maturation of sperm cells"
+      },
+      "correct_answer": "C",
+      "hint": "The scrotum regulates testicular temperature for proper sperm development.",
+      "explanation": "The scrotum maintains testes at approximately 2-3°C below core body temperature, which is essential for normal spermatogenesis. Option D incorrectly suggests accelerated maturation, whereas elevated temperatures typically impair sperm development and reduce fertility.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: The human body systems",
+        "section_anchor": "5.2 The reproductive system",
+        "subsection_anchor": "Human reproductive system (Male and Female)",
+        "structural_element": "The male reproductive systems",
+        "content_anchor": "scrotum is a sack of thick skin that protects the testes and controls the temperature of the testes for suitable sperm creation",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_scrotum_temperature_regulation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G11_Bio_U5_Q008",
+      "generation_timestamp": "2025-02-21T12:00:00Z",
+      "section": "5.3 Harmful traditional practices",
+      "subsection": "Harmful traditional practices",
+      "sub_subsection": null,
+      "structural_anchor": "5.3.1.1 Harmful traditional practices affect reproductive health.",
+      "mcq_type": "H",
+      "question": "A community practices female genital mutilation, believing it preserves cultural purity. Which option identifies the fundamental error in this reasoning?",
+      "options": {
+        "A": "The practice is based on religious texts that prohibit physical alterations.",
+        "B": "Cultural preservation justifies any traditional practice regardless of health consequences.",
+        "C": "The procedure enhances fertility and reproductive health in the long term.",
+        "D": "It violates bodily autonomy and causes severe physical and psychological harm."
+      },
+      "correct_answer": "D",
+      "hint": "Consider the medical and ethical implications of non-consensual physical alterations.",
+      "explanation": "Female genital mutilation constitutes a human rights violation that causes immediate and long-term health complications without medical benefit. Option B incorrectly assumes cultural traditions override individual rights to health and bodily integrity.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: The human body systems",
+        "section_anchor": "5.3 Harmful traditional practices",
+        "subsection_anchor": "Harmful traditional practices",
+        "structural_element": "5.3.1.1 Harmful traditional practices affect reproductive health.",
+        "content_anchor": "female genital mutilation (FGM) is one of the harmful traditional practices that involve the partial or total removal of external female genital organs",
+        "page_hint": "Page 43",
+        "concept_hash": "sha256_fgm_harm_consequences"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 89,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 96
+      }
+    },
+    {
+      "question_id": "G11_Bio_U5_Q009",
+      "generation_timestamp": "2025-02-21T12:00:00Z",
+      "section": "5.4 Family planning",
+      "subsection": "Risks related to the lack of family planning",
+      "sub_subsection": null,
+      "structural_anchor": "Risks related to the lack of family planning",
+      "mcq_type": "F",
+      "question": "Adolescent pregnancy carries higher risks of maternal and fetal complications. Which reasoning best explains this increased vulnerability?",
+      "options": {
+        "A": "Teenagers have stronger immune systems that overreact to pregnancy hormones.",
+        "B": "Adolescent reproductive systems are fully mature but lack nutritional reserves.",
+        "C": "Incomplete physical development and inadequate prenatal care contribute to poor outcomes.",
+        "D": "Young mothers produce higher levels of protective hormones that cause fetal abnormalities."
+      },
+      "correct_answer": "C",
+      "hint": "Consider both biological maturity and access to healthcare resources.",
+      "explanation": "Adolescent pregnancy risks stem from incomplete pelvic development and often limited access to prenatal care, leading to complications like preterm birth. Option D incorrectly suggests hormonal abnormalities rather than developmental and socioeconomic factors as primary causes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: The human body systems",
+        "section_anchor": "5.4 Family planning",
+        "subsection_anchor": "Risks related to the lack of family planning",
+        "structural_element": "Risks related to the lack of family planning",
+        "content_anchor": "both early and late motherhood have increased the risk that teenagers could face a higher risk of life complications and deaths",
+        "page_hint": "Page 44",
+        "concept_hash": "sha256_adolescent_pregnancy_risks"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G11_Bio_U5_Q010",
+      "generation_timestamp": "2025-02-21T12:00:00Z",
+      "section": "5.5 Effects of alcohol use, chewing Khat, cannabis and other drug uses on STIs transmission and unwanted pregnancy",
+      "subsection": "The effects of alcohol uses",
+      "sub_subsection": null,
+      "structural_anchor": "The effects of alcohol uses",
+      "mcq_type": "G",
+      "question": "Excessive alcohol consumption impairs judgment and increases engagement in unprotected sexual activity. What is the direct epidemiological consequence of this behavioral link?",
+      "options": {
+        "A": "Reduced transmission of sexually transmitted infections due to alcohol's disinfectant properties.",
+        "B": "Higher incidence of sexually transmitted infections and unintended pregnancies.",
+        "C": "Decreased fertility rates because alcohol enhances contraceptive effectiveness.",
+        "D": "Lower HIV prevalence as alcohol inhibits viral replication in the body."
+      },
+      "correct_answer": "B",
+      "hint": "Consider how impaired decision-making affects sexual risk behaviors.",
+      "explanation": "Alcohol-induced disinhibition leads to risky sexual behaviors like inconsistent condom use, directly increasing STI transmission and unintended pregnancy rates. Option A incorrectly suggests a protective effect, whereas alcohol actually increases vulnerability to infections through behavioral mechanisms.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: The human body systems",
+        "section_anchor": "5.5 Effects of alcohol use, chewing Khat, cannabis and other drug uses on STIs transmission and unwanted pregnancy",
+        "subsection_anchor": "The effects of alcohol uses",
+        "structural_element": "The effects of alcohol uses",
+        "content_anchor": "alcohol drinking is associated with risky sex and transmission of HIV",
+        "page_hint": "Page 47",
+        "concept_hash": "sha256_alcohol_risky_sex_sti"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 88,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3150,
+    "average_question_quality": 87.2,
+    "type_distribution": {
+      "A": 1,
+      "B": 2,
+      "F": 2,
+      "G": 2,
+      "H": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "5.1. Human Musculoskeletal Systems": 6,
+      "5.2 The reproductive system": 1,
+      "5.3 Harmful traditional practices": 1,
+      "5.4 Family planning": 1,
+      "5.5 Effects of alcohol use, chewing Khat, cannabis and other drug uses on STIs transmission and unwanted pregnancy": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

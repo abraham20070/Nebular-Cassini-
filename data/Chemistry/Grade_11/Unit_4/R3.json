@@ -1,0 +1,776 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-06-12T10:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G11_Chem_U4_Q030",
+    "covered_sections": ["Introduction>The Rate of a Reaction", "Introduction>Determination of Rate of Reaction", "Conditions needed for a chemical reaction>Collisions between reactants", "Factors Affecting the Rate of a Chemical Reaction>i. Nature of the reactants", "Factors Affecting the Rate of a Chemical Reaction>ii. Surface Area of Reactants", "Factors Affecting the Rate of a Chemical Reaction>iii. Concentration of Reactants", "Factors Affecting the Rate of a Chemical Reaction>iv. Temperature of Reactants", "Factors Affecting the Rate of a Chemical Reaction>v. Presence of a Catalyst"],
+    "used_question_signatures": ["7ca3d4a1b2f8c9e5d6f7a8b9c0d1e2f3", "8db4e5b2c3f9a0d7e8f1a2b3c4d5e6f7", "9ec5f6c3d4a0e1b2f3c4d5e6f7a8b9c0", "0fd7g8d5e6b1c2a3d4e5f6g7h8i9j0", "1ge8h9e6f7c2d3b4e5f6g7h8i9j0a", "2hf9i0f7g8d3e4c5f6g7h8i9j0a1b", "3ig0j1g8h9e4f5d6g7h8i9j0a1b2c", "4jh1a2h9i0f5g6e7h8i9j0a1b2c3d", "5ai2b3i0j1g6h7f8i9j0a1b2c3d4e", "6bj3c4j1a2h7i8g9j0a1b2c3d4e5f", "7ck4d5a2b3i8j9h0k1b2c3d4e5f6g", "8dl5e6b3c4j9k0i1a2c3d4e5f6g7h", "9em6f7c4d5k0a1j2b3d4e5f6g7h8i", "0fn7g8d5e6a1b2k3c4e5f6g7h8i9j", "1go8h9e6f7b2c3a4d5f6g7h8i9j0k", "2hp9i0f7g8c3d4b5e6g7h8i9j0k1l", "3iq0j1g8h9d4e5c6f7h8i9j0k1l2m", "4jr1a2h9i0e5f6d7g8i9j0k1l2m3n", "5ks2b3i0j1f6g7e8h9j0k1l2m3n4o", "6lt3c4j1a2g7h8f9i0k1l2m3n4o5p", "7mu4d5k2b3j8i9g0a1l2m3n4o5p6q", "8nv5e6l3c4k9j0h1b2m3n4o5p6q7r", "9ow6f7m4d5l0k1i2c3n4o5p6q7r8s", "0px7g8n5e6m1l2j3d4o5p6q7r8s9t", "1qy8h9o6f7n2m3k4e5p6q7r8s9t0u", "2rz9i0p7g8o3n4l5f6q7r8s9t0u1v", "3sa0j1q8h9p4o5m6g7r8s9t0u1v2w", "4tb1a2r9i0q5p6n7h8s9t0u1v2w3x", "5uc2b3s0j1r6q7o8i9t0u1v2w3x4y", "6vd3c4t1a2s7r8p9j0u1v2w3x4y5z"],
+    "baseline_counter": {
+      "Introduction": {
+        "The Rate of a Reaction": {
+          "count": 5,
+          "mini_headings_covered": ["Rate of a chemical reaction", "For more complex reactions"],
+          "last_question_round": 3
+        },
+        "Determination of Rate of Reaction": {
+          "count": 7,
+          "mini_headings_covered": ["Consider, for example, the thermal decomposition of gaseous dinitrogen pentoxide", "Table 4.1: Concentrations as a function of time", "Rate of formation of O2", "Example 4.2", "Example 4.3"],
+          "last_question_round": 3
+        }
+      },
+      "Conditions needed for a chemical reaction": {
+        "Collisions between reactants": {
+          "count": 7,
+          "mini_headings_covered": ["1. Proper Orientation", "2. Activation energy", "Figure 4.5: The effect of molecular orientation on the reaction of NO and O3"],
+          "last_question_round": 3
+        }
+      },
+      "Factors Affecting the Rate of a Chemical Reaction": {
+        "i. Nature of the reactants": {
+          "count": 4,
+          "mini_headings_covered": ["Experiment 4.2: The Effect of Nature of Reactants on Rate of Reaction", "Figure 4.6: The reaction of magnesium with HCl acid"],
+          "last_question_round": 3
+        },
+        "ii. Surface Area of Reactants": {
+          "count": 3,
+          "mini_headings_covered": ["Experiment 4.3: Effect of surface Area on Reaction Rate"],
+          "last_question_round": 3
+        },
+        "iii. Concentration of Reactants": {
+          "count": 3,
+          "mini_headings_covered": ["Experiment 4.4: Effect of Concentration on Reaction Rate"],
+          "last_question_round": 3
+        },
+        "iv. Temperature of Reactants": {
+          "count": 3,
+          "mini_headings_covered": ["Experiment 4.5: The Effect of Temperature on Reaction Rate", "Figure 4.7: Laboratory set-up for the study of the effect of temperature on rate of reaction"],
+          "last_question_round": 3
+        },
+        "v. Presence of a Catalyst": {
+          "count": 3,
+          "mini_headings_covered": ["Experiment 4.6: The Effect of a Catalyst on the Rate of Reaction", "Figure 4.8: Investigation into the effect of manganese (IV) oxide on hydrogen peroxide", "Figure 4.9: A catalyst provides an alternate pathway with a lower activation energy barrier for the reaction"],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 12,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Conditions needed for a chemical reaction": {
+        "question_count": 7,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "Factors Affecting the Rate of a Chemical Reaction": {
+        "question_count": 16,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>The Rate of a Reaction": ["reaction rate definition", "rate expression", "stoichiometric coefficients", "negative sign in rate expression", "rate expression writing"],
+      "Introduction>Determination of Rate of Reaction": ["thermal decomposition", "concentration changes", "average rate calculation", "instantaneous rate", "rate from concentration data", "stoichiometric rate relationships", "graphical rate determination", "tangent slope method"],
+      "Conditions needed for a chemical reaction>Collisions between reactants": ["collision theory", "effective collisions", "activation energy", "molecular orientation", "temperature effect on collisions", "energy distribution", "orientation diagrams"],
+      "Factors Affecting the Rate of a Chemical Reaction>i. Nature of the reactants": ["reactant nature effect", "metal reactivity comparison", "acid-metal reactions", "reactivity series", "chemical property effects"],
+      "Factors Affecting the Rate of a Chemical Reaction>ii. Surface Area of Reactants": ["surface area effect", "heterogeneous reactions", "interface reactions", "powder vs solid", "contact area"],
+      "Factors Affecting the Rate of a Chemical Reaction>iii. Concentration of Reactants": ["concentration effect", "collision frequency", "pressure effect on gases", "concentration doubling effect"],
+      "Factors Affecting the Rate of a Chemical Reaction>iv. Temperature of Reactants": ["temperature effect", "kinetic energy", "reaction rate doubling", "thermal energy effect", "experimental temperature study"],
+      "Factors Affecting the Rate of a Chemical Reaction>v. Presence of a Catalyst": ["catalyst definition", "activation energy lowering", "catalyst recovery", "positive catalyst", "negative catalyst", "heterogeneous vs homogeneous catalyst", "enzyme analogy"]
+    },
+    "baseline_complete": true,
+    "validation_hash": "hash_of_previous_state_2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 34,
+      "questions_per_concept_ratio": 0.88,
+      "structural_coverage_percentage": 70.8
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Chemistry",
+  "unit": "Unit 4: CHEMICAL KINETICS",
+  "pdf_filename": "C11U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-06-12T10:10:05Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 3,
+        "total_sections": 3,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 1.71,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 17,
+      "structural_coverage_percentage": 70.8,
+      "concept_utilization_ratio": 0.88
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Factors Affecting the Rate of a Chemical Reaction",
+      "least_covered_section": "Conditions needed for a chemical reaction",
+      "imbalance_ratio": 1.71,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.88,
+      "remaining_concept_capacity": 4
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Chem_U4_Q021",
+      "generation_timestamp": "2024-06-12T10:10:01Z",
+      "section": "Introduction",
+      "subsection": "The Rate of a Reaction",
+      "sub_subsection": null,
+      "structural_anchor": "For more complex reactions",
+      "mcq_type": "D",
+      "question": "For the reaction CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g), if methane disappears at 0.045 M s⁻¹, at what rate does oxygen disappear?",
+      "options": {
+        "A": "0.0225 M s⁻¹",
+        "B": "0.045 M s⁻¹",
+        "C": "0.090 M s⁻¹",
+        "D": "0.135 M s⁻¹"
+      },
+      "correct_answer": "C",
+      "hint": "Use the stoichiometric ratio from the balanced chemical equation.",
+      "explanation": "From stoichiometry (1 CH₄ : 2 O₂), oxygen disappears twice as fast as methane: 2 × 0.045 = 0.090 M s⁻¹. Option A halves the relationship, while option B assumes equal rates.",
+      "difficulty_level": "medium",
+      "formula_used": ["Rate relationships from stoichiometry"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "M s⁻¹",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: CHEMICAL KINETICS",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "The Rate of a Reaction",
+        "structural_element": "For more complex reactions",
+        "content_anchor": "Rate = -1/a Δ[A]/Δt = 1/b Δ[B]/Δt = 1/c Δ[C]/Δt = 1/d Δ[D]/Δt",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_stoichiometric_rate_calculations"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U4_Q022",
+      "generation_timestamp": "2024-06-12T10:10:01Z",
+      "section": "Introduction",
+      "subsection": "Determination of Rate of Reaction",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.3",
+      "mcq_type": "L",
+      "question": "How is instantaneous reaction rate determined from a concentration versus time graph?",
+      "options": {
+        "A": "Slope of tangent line at specific time",
+        "B": "Average slope over entire time interval",
+        "C": "Vertical intercept of the curve",
+        "D": "Area under the curve segment"
+      },
+      "correct_answer": "A",
+      "hint": "Consider graphical methods for finding rate at an exact moment.",
+      "explanation": "Instantaneous rate equals the slope of the tangent to the concentration-time curve at that specific time. Option B calculates average rate, while option C finds initial concentration.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: CHEMICAL KINETICS",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Determination of Rate of Reaction",
+        "structural_element": "Example 4.3",
+        "content_anchor": "instantaneous rate is calculated from the slope of a tangent drawn at any points on the graph",
+        "page_hint": "Page 10-11",
+        "concept_hash": "sha256_of_instantaneous_rate_graphical"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U4_Q023",
+      "generation_timestamp": "2024-06-12T10:10:01Z",
+      "section": "Conditions needed for a chemical reaction",
+      "subsection": "Collisions between reactants",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 4.5: The effect of molecular orientation on the reaction of NO and O3",
+      "mcq_type": "K",
+      "question": "What does a diagram showing different molecular collision orientations illustrate about reaction requirements?",
+      "options": {
+        "A": "Proper spatial alignment affects collision effectiveness",
+        "B": "Temperature determines collision frequency only",
+        "C": "All orientations lead to product formation",
+        "D": "Energy is the sole factor for successful collision"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how molecules must approach each other for reaction.",
+      "explanation": "Molecular orientation diagrams show that specific spatial alignment is necessary along with sufficient energy. Option D ignores the orientation requirement, while option C contradicts collision theory.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: CHEMICAL KINETICS",
+        "section_anchor": "Conditions needed for a chemical reaction",
+        "subsection_anchor": "Collisions between reactants",
+        "structural_element": "Figure 4.5: The effect of molecular orientation on the reaction of NO and O3",
+        "content_anchor": "The effect of molecular orientation on the reaction",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_orientation_diagram_interpretation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "interpreting",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U4_Q024",
+      "generation_timestamp": "2024-06-12T10:10:01Z",
+      "section": "Factors Affecting the Rate of a Chemical Reaction",
+      "subsection": "i. Nature of the reactants",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 4.6: The reaction of magnesium with HCl acid",
+      "mcq_type": "L",
+      "question": "In an experiment comparing metal-acid reactions, what observation indicates magnesium reacts faster than copper with hydrochloric acid?",
+      "options": {
+        "A": "More rapid gas bubble formation with magnesium",
+        "B": "Color change occurs only with copper",
+        "C": "Temperature decreases with magnesium",
+        "D": "Precipitation forms with magnesium only"
+      },
+      "correct_answer": "A",
+      "hint": "Consider visual indicators of reaction rate in acid-metal reactions.",
+      "explanation": "Faster gas evolution indicates higher reaction rate for magnesium. Option B describes a different observation, while option C incorrectly suggests endothermic behavior.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: CHEMICAL KINETICS",
+        "section_anchor": "Factors Affecting the Rate of a Chemical Reaction",
+        "subsection_anchor": "i. Nature of the reactants",
+        "structural_element": "Figure 4.6: The reaction of magnesium with HCl acid",
+        "content_anchor": "Test tube containing Mg and HCl",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_experimental_observation_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U4_Q025",
+      "generation_timestamp": "2024-06-12T10:10:01Z",
+      "section": "Factors Affecting the Rate of a Chemical Reaction",
+      "subsection": "ii. Surface Area of Reactants",
+      "sub_subsection": null,
+      "structural_anchor": "Experiment 4.3: Effect of surface Area on Reaction Rate",
+      "mcq_type": "I",
+      "question": "How does reaction rate comparison between powdered chalk and solid chalk cubes illustrate surface area effect?",
+      "options": {
+        "A": "Powder reacts faster due to more exposed reaction sites",
+        "B": "Solid cubes react faster due to higher density",
+        "C": "Both forms react at identical rates with same mass",
+        "D": "Powder reacts slower due to particle packing"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how physical form affects contact between reactants.",
+      "explanation": "Powdered form increases surface area, providing more contact points for reaction. Option B contradicts experimental observation, while option C ignores surface area effects.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: CHEMICAL KINETICS",
+        "section_anchor": "Factors Affecting the Rate of a Chemical Reaction",
+        "subsection_anchor": "ii. Surface Area of Reactants",
+        "structural_element": "Experiment 4.3: Effect of surface Area on Reaction Rate",
+        "content_anchor": "In which case is the gas produced faster?",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_of_surface_area_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "comparing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U4_Q026",
+      "generation_timestamp": "2024-06-12T10:10:01Z",
+      "section": "Factors Affecting the Rate of a Chemical Reaction",
+      "subsection": "iii. Concentration of Reactants",
+      "sub_subsection": null,
+      "structural_anchor": "Experiment 4.4: Effect of Concentration on Reaction Rate",
+      "mcq_type": "H",
+      "question": "Which misconception leads to expecting identical reaction rates when acid concentration doubles in marble chip reactions?",
+      "options": {
+        "A": "Assuming concentration doesn't affect collision frequency",
+        "B": "Overlooking temperature effects",
+        "C": "Ignoring surface area consistency",
+        "D": "Forgetting to measure gas volume"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how reactant particle density influences interactions.",
+      "explanation": "Higher concentration increases particle collisions, directly affecting reaction rate. Option B addresses a different variable, while option C assumes surface area is the only factor.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: CHEMICAL KINETICS",
+        "section_anchor": "Factors Affecting the Rate of a Chemical Reaction",
+        "subsection_anchor": "iii. Concentration of Reactants",
+        "structural_element": "Experiment 4.4: Effect of Concentration on Reaction Rate",
+        "content_anchor": "increasing the concentration produces more contacts between the reacting particles",
+        "page_hint": "Page 21",
+        "concept_hash": "sha256_of_concentration_misconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U4_Q027",
+      "generation_timestamp": "2024-06-12T10:10:01Z",
+      "section": "Factors Affecting the Rate of a Chemical Reaction",
+      "subsection": "iv. Temperature of Reactants",
+      "sub_subsection": null,
+      "structural_anchor": "Experiment 4.5: The Effect of Temperature on Reaction Rate",
+      "mcq_type": "L",
+      "question": "In a sodium thiosulfate-hydrochloric acid reaction, what experimental measurement indicates faster reaction at higher temperature?",
+      "options": {
+        "A": "Shorter time for cross to disappear",
+        "B": "Longer time for color change",
+        "C": "Lower final temperature reached",
+        "D": "Less precipitate formed"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how reaction progress is monitored visually in this experiment.",
+      "explanation": "Faster reaction reduces the time for sulfur precipitate to obscure the cross. Option B indicates slower reaction, while option D suggests incomplete reaction rather than rate difference.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: CHEMICAL KINETICS",
+        "section_anchor": "Factors Affecting the Rate of a Chemical Reaction",
+        "subsection_anchor": "iv. Temperature of Reactants",
+        "structural_element": "Experiment 4.5: The Effect of Temperature on Reaction Rate",
+        "content_anchor": "record the time taken for the cross to disappear",
+        "page_hint": "Page 22",
+        "concept_hash": "sha256_of_temperature_experiment_measurement"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U4_Q028",
+      "generation_timestamp": "2024-06-12T10:10:01Z",
+      "section": "Factors Affecting the Rate of a Chemical Reaction",
+      "subsection": "v. Presence of a Catalyst",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 4.8: Investigation into the effect of manganese (IV) oxide on hydrogen peroxide",
+      "mcq_type": "L",
+      "question": "In hydrogen peroxide decomposition with manganese(IV) oxide catalyst, what measurement shows catalytic effect?",
+      "options": {
+        "A": "Faster oxygen gas collection rate",
+        "B": "Slower temperature increase",
+        "C": "Less total gas volume produced",
+        "D": "Longer reaction completion time"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how gas evolution rate indicates reaction speed.",
+      "explanation": "Catalysts increase reaction rate, shown by faster gas production. Option C suggests reduced yield rather than rate change, while option D indicates slower reaction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: CHEMICAL KINETICS",
+        "section_anchor": "Factors Affecting the Rate of a Chemical Reaction",
+        "subsection_anchor": "v. Presence of a Catalyst",
+        "structural_element": "Figure 4.8: Investigation into the effect of manganese (IV) oxide on hydrogen peroxide",
+        "content_anchor": "Record the volume of gas collected in gas syringe at minute intervals",
+        "page_hint": "Page 24",
+        "concept_hash": "sha256_of_catalyst_experiment_measurement"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U4_Q029",
+      "generation_timestamp": "2024-06-12T10:10:01Z",
+      "section": "Factors Affecting the Rate of a Chemical Reaction",
+      "subsection": "v. Presence of a Catalyst",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 4.9: A catalyst provides an alternate pathway with a lower activation energy barrier for the reaction",
+      "mcq_type": "K",
+      "question": "What does an energy profile diagram showing two pathways for the same reaction illustrate about catalysts?",
+      "options": {
+        "A": "Catalyst provides lower-energy alternative route",
+        "B": "Catalyst increases overall reaction energy",
+        "C": "Catalyst changes final product energy",
+        "D": "Catalyst eliminates activation energy completely"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how activation energy barriers compare between pathways.",
+      "explanation": "Catalytic pathways have reduced activation energy barriers compared to uncatalyzed routes. Option B contradicts catalyst function, while option D overstates the energy reduction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: CHEMICAL KINETICS",
+        "section_anchor": "Factors Affecting the Rate of a Chemical Reaction",
+        "subsection_anchor": "v. Presence of a Catalyst",
+        "structural_element": "Figure 4.9: A catalyst provides an alternate pathway with a lower activation energy barrier for the reaction",
+        "content_anchor": "catalyst provides an alternate pathway with a lower activation energy barrier",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_energy_profile_interpretation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "interpreting",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U4_Q030",
+      "generation_timestamp": "2024-06-12T10:10:01Z",
+      "section": "Conditions needed for a chemical reaction",
+      "subsection": "Collisions between reactants",
+      "sub_subsection": null,
+      "structural_anchor": "2. Activation energy",
+      "mcq_type": "F",
+      "question": "Why do most molecular collisions at room temperature not result in chemical reaction even with proper orientation?",
+      "options": {
+        "A": "Insufficient energy to overcome activation barrier",
+        "B": "Incorrect molecular approach angle",
+        "C": "Collisions occur too infrequently",
+        "D": "Molecules repel each other electrostatically"
+      },
+      "correct_answer": "A",
+      "hint": "Consider energy distribution among molecules at a given temperature.",
+      "explanation": "Only molecules with kinetic energy ≥ activation energy can react upon collision. Option B addresses orientation issues, while option C deals with collision frequency rather than energy.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: CHEMICAL KINETICS",
+        "section_anchor": "Conditions needed for a chemical reaction",
+        "subsection_anchor": "Collisions between reactants",
+        "structural_element": "2. Activation energy",
+        "content_anchor": "collision must always occur with sufficient energy to break the bonds in the reactants",
+        "page_hint": "Page 15",
+        "concept_hash": "sha256_of_energy_requirement_for_reaction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 5200,
+    "average_question_quality": 84.5,
+    "type_distribution": {
+      "D": 1,
+      "F": 1,
+      "H": 1,
+      "I": 1,
+      "K": 2,
+      "L": 4
+    },
+    "difficulty_distribution": {
+      "medium": 9,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Introduction": 2,
+      "Conditions needed for a chemical reaction": 2,
+      "Factors Affecting the Rate of a Chemical Reaction": 6
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,885 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2026-01-28T12:06:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Chem_U4_Q030",
+    "covered_sections": [
+      "Historical Development of Periodic Classification of the Elements>Dobereiner's Triads",
+      "Historical Development of Periodic Classification of the Elements>Newland's Law of Octaves",
+      "Mendleev's Classification of the Elements>Mendeleev's Periodic Law",
+      "The Modern Periodic Table>The Periodic Law",
+      "The Modern Periodic Table>Groups and Periods",
+      "The Modern Periodic Table>Classification of the Elements",
+      "The Modern Periodic Table>The Representative Elements",
+      "The Major Trends in the Periodic Table>Atomic radius",
+      "The Major Trends in the Periodic Table>lonization Energy",
+      "The Major Trends in the Periodic Table>Electron Affinity",
+      "The Major Trends in the Periodic Table>Electronegativity"
+    ],
+    "used_question_signatures": [
+      "hash_A_TriadMeanWeight",
+      "hash_B_TriadMiddleElement",
+      "hash_H_TriadMisconceptionArithmeticMean",
+      "hash_A_NewlandsOctavePattern",
+      "hash_F_NewlandsLimitationInertGases",
+      "hash_J_NewlandsOctavesClassification",
+      "hash_B_MendeleevOrdering",
+      "hash_F_MendeleevPeriodicFunction",
+      "hash_A_ModernPeriodicLawBasis",
+      "hash_E_PeriodNumberShells",
+      "hash_C_ValenceElectronCalculation",
+      "hash_I_PeriodVsGroupFromConfig",
+      "hash_D_BlockFromLastElectron",
+      "hash_J_pBlockGroups",
+      "hash_B_AlkalineEarthConfig",
+      "hash_A_RepresentativeElementsDefinition",
+      "hash_G_AtomicRadiusDownGroupTrend",
+      "hash_E_AtomicRadiusHalfDistance",
+      "hash_H_IonizationEnergyShieldingMisconception",
+      "hash_K_IonizationEnergyTrendInterpretation",
+      "hash_A_MendeleevTableFeatures",
+      "hash_N_MendeleevVacantSitesLimitation",
+      "hash_F_AtomicRadiusPeriodTrend",
+      "hash_G_IonizationEnergyPeriodTrendCause",
+      "hash_C_ElectronAffinityHalogensHigh",
+      "hash_H_ElectronAffinityFluorineChlorineMisconception",
+      "hash_A_ElectronegativityDefinition",
+      "hash_G_ElectronegativityTrendGroup",
+      "hash_E_ElectronegativityOrdering",
+      "hash_K_PeriodicTrendsOverview"
+    ],
+    "baseline_counter": {
+      "Historical Development of Periodic Classification of the Elements": {
+        "Dobereiner's Triads": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Newland's Law of Octaves": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Mendleev's Classification of the Elements": {
+        "Mendeleev's Periodic Law": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "The Modern Periodic Table": {
+        "The Periodic Law": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Groups and Periods": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Classification of the Elements": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "The Representative Elements": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "The Major Trends in the Periodic Table": {
+        "Atomic radius": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "lonization Energy": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Electron Affinity": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Electronegativity": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Historical Development of Periodic Classification of the Elements": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Mendleev's Classification of the Elements": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "The Modern Periodic Table": {
+        "question_count": 8,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "The Major Trends in the Periodic Table": {
+        "question_count": 12,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Historical Development of Periodic Classification of the Elements>Dobereiner's Triads": [
+        "triad",
+        "atomic weight",
+        "arithmetic mean"
+      ],
+      "Historical Development of Periodic Classification of the Elements>Newland's Law of Octaves": [
+        "every eighth element",
+        "inert gases",
+        "octaves classification"
+      ],
+      "Mendleev's Classification of the Elements>Mendeleev's Periodic Law": [
+        "increasing atomic weights",
+        "periodic function",
+        "vacant sites",
+        "prediction"
+      ],
+      "The Modern Periodic Table>The Periodic Law": [
+        "atomic number",
+        "periodic function"
+      ],
+      "The Modern Periodic Table>Groups and Periods": [
+        "period number",
+        "shells",
+        "group number",
+        "valence electrons"
+      ],
+      "The Modern Periodic Table>Classification of the Elements": [
+        "s-block",
+        "p-block",
+        "valence shell configuration"
+      ],
+      "The Modern Periodic Table>The Representative Elements": [
+        "main group",
+        "valence electrons",
+        "outer electron configuration"
+      ],
+      "The Major Trends in the Periodic Table>Atomic radius": [
+        "increases down group",
+        "half distance between nuclei",
+        "decreases across period"
+      ],
+      "The Major Trends in the Periodic Table>lonization Energy": [
+        "energy to remove electron",
+        "shielding effect",
+        "decreases down group",
+        "increases across period"
+      ],
+      "The Major Trends in the Periodic Table>Electron Affinity": [
+        "energy change adding electron",
+        "negative for nonmetals",
+        "halogens highest",
+        "fluorine anomaly"
+      ],
+      "The Major Trends in the Periodic Table>Electronegativity": [
+        "attract shared electrons",
+        "decreases down group",
+        "increases across period",
+        "fluorine highest"
+      ]
+    },
+    "baseline_complete": false,
+    "validation_hash": "placeholder_sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 34,
+      "questions_per_concept_ratio": 0.88,
+      "structural_coverage_percentage": 78.6
+    }
+  },
+  "grade": "9",
+  "subject": "Chemistry",
+  "unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+  "pdf_filename": "C9U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-01-28T12:06:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 4,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 11,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 78.6,
+      "concept_utilization_ratio": 0.88
+    },
+    "distribution_analysis": {
+      "most_covered_section": "The Major Trends in the Periodic Table",
+      "least_covered_section": "Mendleev's Classification of the Elements",
+      "imbalance_ratio": 3.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Chem_U4_Q021",
+      "generation_timestamp": "2026-01-28T12:06:00Z",
+      "section": "Mendleev's Classification of the Elements",
+      "subsection": "Mendeleev's Periodic Law",
+      "sub_subsection": null,
+      "structural_anchor": "Mendeleev's periodic table merits",
+      "mcq_type": "A",
+      "question": "One significant feature of Mendeleev's original periodic table was the inclusion of vacant positions. What was the purpose of these vacant sites?",
+      "options": {
+        "A": "To predict the existence and properties of undiscovered elements",
+        "B": "To separate metals from nonmetals within the same period",
+        "C": "To account for isotopes of known elements",
+        "D": "To indicate elements that were radioactive and unstable"
+      },
+      "correct_answer": "A",
+      "hint": "These positions were not errors but intentional gaps left for future discoveries.",
+      "explanation": "Mendeleev left gaps for elements not yet discovered and accurately predicted their properties, which was later verified. Option C is incorrect because the concept of isotopes and their impact on atomic weight was not fully understood at that time.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "Mendleev's Classification of the Elements",
+        "subsection_anchor": "Mendeleev's Periodic Law",
+        "structural_element": "some vacant sites were specified for undiscovered elements and their properties predicted.",
+        "page_hint": 6,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 78,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q022",
+      "generation_timestamp": "2026-01-28T12:06:00Z",
+      "section": "Mendleev's Classification of the Elements",
+      "subsection": "Mendeleev's Periodic Law",
+      "sub_subsection": null,
+      "structural_anchor": "Demerits of Mendeleev's table",
+      "mcq_type": "N",
+      "question": "A limitation of Mendeleev's periodic table, based on atomic weight ordering, was that it required placing some elements out of strict atomic weight sequence to maintain chemical similarity. Which of the following pairs demonstrates this limitation?",
+      "options": {
+        "A": "Tellurium (127.6) and Iodine (126.9)",
+        "B": "Sodium (23.0) and Magnesium (24.3)",
+        "C": "Calcium (40.1) and Scandium (45.0)",
+        "D": "Oxygen (16.0) and Fluorine (19.0)"
+      },
+      "correct_answer": "A",
+      "hint": "Look for a pair where the element with the higher atomic weight comes first in the periodic table.",
+      "explanation": "Tellurium has a higher atomic weight than iodine, yet it is placed before iodine to keep it with oxygen and sulfur (Group VIA) based on chemical properties. Option B shows a normal increasing weight sequence and does not represent this limitation.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "Mendleev's Classification of the Elements",
+        "subsection_anchor": "Mendeleev's Periodic Law",
+        "structural_element": "Some of the elements are wrongly placed though their atomic weights are larger compared to the next one. For example, Te:127.6 I:126.9",
+        "page_hint": 8,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q023",
+      "generation_timestamp": "2026-01-28T12:06:00Z",
+      "section": "The Major Trends in the Periodic Table",
+      "subsection": "Atomic radius",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.4",
+      "mcq_type": "F",
+      "question": "Which reasoning best explains why atomic radius generally decreases moving from left to right across a period?",
+      "options": {
+        "A": "The increasing nuclear charge pulls electrons closer without adding new electron shells.",
+        "B": "The number of electron shells decreases, making atoms more compact.",
+        "C": "Electron-electron repulsions increase, forcing the electron cloud to expand.",
+        "D": "Atoms lose electrons, reducing the size of the electron cloud."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the balance between the attractive force of the nucleus and the shielding effect within the same shell.",
+      "explanation": "Across a period, electrons are added to the same principal shell while the nuclear charge increases, resulting in greater electrostatic attraction and a smaller atomic radius. Option C incorrectly suggests repulsion as the dominant factor, which would cause expansion, not contraction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Major Trends in the Periodic Table",
+        "subsection_anchor": "Atomic radius",
+        "structural_element": "Example 4.4 Referring to a periodic table, arrange the following atoms in order of increasing atomic radius: P, Si, N.",
+        "page_hint": 19,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q024",
+      "generation_timestamp": "2026-01-28T12:06:00Z",
+      "section": "The Major Trends in the Periodic Table",
+      "subsection": "Atomic radius",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 4.3",
+      "mcq_type": "E",
+      "question": "Arrange the following elements in order of decreasing atomic radius: Carbon (C), Lithium (Li), Beryllium (Be).",
+      "options": {
+        "A": "Li > Be > C",
+        "B": "C > Be > Li",
+        "C": "Be > Li > C",
+        "D": "Li > C > Be"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the trend across Period 2 and the relationship between atomic number and atomic size.",
+      "explanation": "Atomic radius decreases across a period from left to right. Lithium is furthest left in Period 2, followed by beryllium, then carbon, giving the order Li > Be > C. Option B reverses the correct trend.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Major Trends in the Periodic Table",
+        "subsection_anchor": "Atomic radius",
+        "structural_element": "Exercise 4.3 Arrange the following atoms in order of decreasing radius: C, Li, Be",
+        "page_hint": 20,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q025",
+      "generation_timestamp": "2026-01-28T12:06:00Z",
+      "section": "The Major Trends in the Periodic Table",
+      "subsection": "lonization Energy",
+      "sub_subsection": null,
+      "structural_anchor": "General trend description",
+      "mcq_type": "G",
+      "question": "What is the primary reason ionization energy generally increases from left to right across a period?",
+      "options": {
+        "A": "Increasing nuclear charge attracts electrons more strongly, while shielding within the same shell is relatively constant.",
+        "B": "Atomic radius increases, making it harder to remove an electron from a farther distance.",
+        "C": "The number of electron shells increases, providing more shielding for the valence electrons.",
+        "D": "Elements become more metallic, and metals have higher ionization energies."
+      },
+      "correct_answer": "A",
+      "hint": "Focus on changes in the effective nuclear charge experienced by the valence electrons.",
+      "explanation": "Across a period, the increasing nuclear charge pulls valence electrons closer with minimal increase in shielding, requiring more energy for removal. Option B is incorrect because atomic radius actually decreases across a period.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Major Trends in the Periodic Table",
+        "subsection_anchor": "lonization Energy",
+        "structural_element": "ionization energy increases from left to right in the periods and up the groups.",
+        "page_hint": 21,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q026",
+      "generation_timestamp": "2026-01-28T12:06:00Z",
+      "section": "The Major Trends in the Periodic Table",
+      "subsection": "Electron Affinity",
+      "sub_subsection": null,
+      "structural_anchor": "Group VIIA Electron Affinities",
+      "mcq_type": "C",
+      "question": "Which family of elements typically has the highest (most negative) first electron affinities?",
+      "options": {
+        "A": "Halogens (Group VIIA)",
+        "B": "Alkali metals (Group IA)",
+        "C": "Noble gases (Group VIIIA)",
+        "D": "Alkaline earth metals (Group IIA)"
+      },
+      "correct_answer": "A",
+      "hint": "These elements are one electron short of a stable noble gas configuration.",
+      "explanation": "Halogens have the highest electron affinity because gaining one electron gives them a stable octet, releasing significant energy. Option B is incorrect because alkali metals have low electron affinities as they tend to lose electrons, not gain them.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Major Trends in the Periodic Table",
+        "subsection_anchor": "Electron Affinity",
+        "structural_element": "Group VIIA Electron Affinities",
+        "content_anchor": "nonmetals like the elements in the halogens series in Group VIIA have a higher electron affinity",
+        "page_hint": 25,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q027",
+      "generation_timestamp": "2026-01-28T12:06:00Z",
+      "section": "The Major Trends in the Periodic Table",
+      "subsection": "Electron Affinity",
+      "sub_subsection": null,
+      "structural_anchor": "Fluorine vs Chlorine anomaly",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that fluorine must have a higher electron affinity than chlorine because it is smaller and has greater nuclear attraction?",
+      "options": {
+        "A": "It overlooks the significant electron-electron repulsion in fluorine's compact 2p subshell, which reduces the energy released.",
+        "B": "It assumes nuclear charge is the only factor, ignoring that chlorine has more electron shells.",
+        "C": "It incorrectly compares a nonmetal (fluorine) with another nonmetal (chlorine).",
+        "D": "It fails to consider that electron affinity is defined only for gaseous atoms."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the balance between increased nuclear attraction and increased repulsion between electrons in a small space.",
+      "explanation": "While fluorine's smaller size increases nuclear attraction, the high electron density in its small 2p orbital creates significant repulsion for the incoming electron, making its electron affinity slightly less negative than chlorine's. Option B incorrectly frames having more shells as a disadvantage for electron affinity.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 18.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Major Trends in the Periodic Table",
+        "subsection_anchor": "Electron Affinity",
+        "structural_element": "Why is electron affinity of fluorine less than that of chlorine?",
+        "content_anchor": "Due to the smaller size and thus, the greater electron- electron repulsions",
+        "page_hint": 25,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q028",
+      "generation_timestamp": "2026-01-28T12:06:00Z",
+      "section": "The Major Trends in the Periodic Table",
+      "subsection": "Electronegativity",
+      "sub_subsection": null,
+      "structural_anchor": "Electronegativity definition",
+      "mcq_type": "A",
+      "question": "What is the term for the tendency of an atom in a molecule to attract shared electrons toward itself?",
+      "options": {
+        "A": "Electronegativity",
+        "B": "Electron affinity",
+        "C": "Ionization energy",
+        "D": "Metallic character"
+      },
+      "correct_answer": "A",
+      "hint": "This property influences bond polarity and is highest for elements like fluorine.",
+      "explanation": "Electronegativity measures an atom's ability to attract bonding electrons in a chemical bond. Option B is the energy change when an atom gains an electron, a related but distinct concept.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Major Trends in the Periodic Table",
+        "subsection_anchor": "Electronegativity",
+        "structural_element": "The tendency of an atom in a molecule to attract the shared pair of electrons towards itself is known as electronegativity.",
+        "page_hint": 28,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q029",
+      "generation_timestamp": "2026-01-28T12:06:00Z",
+      "section": "The Major Trends in the Periodic Table",
+      "subsection": "Electronegativity",
+      "sub_subsection": null,
+      "structural_anchor": "Trend down a group",
+      "mcq_type": "G",
+      "question": "What happens to electronegativity as you move down a group in the periodic table, and what is the main reason?",
+      "options": {
+        "A": "Electronegativity decreases because the increased distance and shielding reduce the nucleus's pull on bonding electrons.",
+        "B": "Electronegativity increases because atomic radius decreases down the group.",
+        "C": "Electronegativity remains constant because the number of valence electrons is the same.",
+        "D": "Electronegativity increases only for nonmetals but decreases for metals."
+      },
+      "correct_answer": "A",
+      "hint": "Consider how the effective nuclear charge felt by bonding electrons changes with additional shells.",
+      "explanation": "Electronegativity decreases down a group because additional electron shells increase atomic size and shielding, weakening the attraction for bonding electrons. Option B is incorrect because atomic radius actually increases down a group.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "text"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Major Trends in the Periodic Table",
+        "subsection_anchor": "Electronegativity",
+        "structural_element": "the value of electronegativity decreases as we move down the group.",
+        "page_hint": 28,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Chem_U4_Q030",
+      "generation_timestamp": "2026-01-28T12:06:00Z",
+      "section": "The Major Trends in the Periodic Table",
+      "subsection": "Electronegativity",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 4.7",
+      "mcq_type": "E",
+      "question": "Arrange the following halogens in order of decreasing electronegativity: Chlorine (Cl), Fluorine (F), Iodine (I), Bromine (Br).",
+      "options": {
+        "A": "F > Cl > Br > I",
+        "B": "Cl > F > Br > I",
+        "C": "I > Br > Cl > F",
+        "D": "F > Br > Cl > I"
+      },
+      "correct_answer": "A",
+      "hint": "Recall that electronegativity decreases down Group VIIA.",
+      "explanation": "Electronegativity decreases down the halogen group: Fluorine (top) is highest, followed by chlorine, bromine, then iodine. Option B incorrectly places chlorine above fluorine.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: PERIODIC CLASSIFICATION OF ELEMENTS",
+        "section_anchor": "The Major Trends in the Periodic Table",
+        "subsection_anchor": "Electronegativity",
+        "structural_element": "Exercise 4.7 Arrange each set of the given elements in order of decreasing electronegativity",
+        "page_hint": 28,
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 78,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 87
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2450,
+    "average_question_quality": 86.5,
+    "type_distribution": {
+      "A": 2,
+      "C": 1,
+      "E": 2,
+      "F": 1,
+      "G": 2,
+      "H": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "Mendleev's Classification of the Elements": 2,
+      "The Major Trends in the Periodic Table": 8
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

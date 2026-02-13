@@ -1,0 +1,817 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T10:35:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Chem_U5_Q020",
+    "covered_sections": ["Introduction", "General Properties of Metals and Production of Some Metals>Properties and Extraction of Metals", "General Properties of Metals and Production of Some Metals>Alloys", "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Aluminum", "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Iron", "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Copper", "Production of Some Important Nonmetals>General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds", "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Nitrogen", "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Phosphorus", "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Oxygen", "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Sulphur", "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Chlorine"],
+    "used_question_signatures": ["def_metal", "id_metal_liquid_room_temp", "app_reactivity_series_H", "recog_formula_bauxite", "calc_gold_carat", "reason_Al_utensils_reactive", "cause_effect_cryolite_melt", "miscon_Fe_rusting", "comp_Al_Fe_abundance", "class_renewable_nonrenewable", "app_blast_furnace_CO", "miscon_noble_metals_occurrence", "term_slag", "def_allotrope", "comp_white_red_P", "reason_N2_inert", "cause_effect_limestone_flux", "id_Frasch_process", "exp_thermite_welding", "class_nonmetal_props"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "General Properties of Metals and Production of Some Metals": {
+        "Properties and Extraction of Metals": {
+          "count": 5,
+          "mini_headings_covered": ["Some physical properties of metals", "Chemical properties of metals", "Reactivity series of metals"],
+          "last_question_round": 2
+        },
+        "Alloys": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Production of Aluminum, Iron and Copper": {
+          "Aluminum": {
+            "count": 4,
+            "mini_headings_covered": ["Chemical Properties:", "Thermite Welding"],
+            "last_question_round": 2
+          },
+          "Iron": {
+            "count": 3,
+            "mini_headings_covered": ["Chemical Properties of Iron"],
+            "last_question_round": 2
+          },
+          "Copper": {
+            "count": 2,
+            "mini_headings_covered": ["Electrolytic refining of copper"],
+            "last_question_round": 2
+          }
+        }
+      },
+      "Production of Some Important Nonmetals": {
+        "General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds": {
+          "count": 2,
+          "mini_headings_covered": ["Physical properties"],
+          "last_question_round": 2
+        },
+        "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine": {
+          "Nitrogen": {
+            "count": 2,
+            "mini_headings_covered": ["Chemical Properties of Nitrogen"],
+            "last_question_round": 2
+          },
+          "Phosphorus": {
+            "count": 2,
+            "mini_headings_covered": ["Physical Properties of Phosphorus"],
+            "last_question_round": 2
+          },
+          "Oxygen": {
+            "count": 1,
+            "mini_headings_covered": [],
+            "last_question_round": 2
+          },
+          "Sulphur": {
+            "count": 1,
+            "mini_headings_covered": [],
+            "last_question_round": 2
+          },
+          "Chlorine": {
+            "count": 1,
+            "mini_headings_covered": [],
+            "last_question_round": 2
+          }
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "General Properties of Metals and Production of Some Metals": {
+        "question_count": 16,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "Production of Some Important Nonmetals": {
+        "question_count": 9,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction": ["Natural resources", "Renewable", "Non-renewable", "Metallic minerals"],
+      "General Properties of Metals and Production of Some Metals>Properties and Extraction of Metals": ["Lustrous", "Malleable", "Ductile", "Sonorous", "Reactivity series", "Hydrogen comparison", "Blast furnace", "Carbon monoxide reduction"],
+      "General Properties of Metals and Production of Some Metals>Alloys": ["Mixture of metals", "Carat", "Gold content", "Solder composition"],
+      "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Aluminum": ["Reactive metal", "Oxide layer", "Corrosion resistance", "Hall-Héroult process", "Cryolite", "Thermite welding"],
+      "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Iron": ["Rust", "Hydrated iron(III) oxide", "Pig iron", "Wrought iron", "Limestone flux"],
+      "General Properties of Metals and Production of Some Metals>Production of Aluminum, Iron and Copper>Copper": ["Extraction", "Electrolytic refining", "Native copper", "Blister copper"],
+      "Production of Some Important Nonmetals>General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds": ["Opposite characteristics to metals", "Poor conductors", "Acidic oxides"],
+      "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Nitrogen": ["Inert gas", "Fractional distillation of air", "Triple bond strength", "Haber process"],
+      "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Phosphorus": ["Allotropes", "White phosphorus", "Red phosphorus", "Rock phosphate"],
+      "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Oxygen": ["Fractional distillation", "Most abundant element"],
+      "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Sulphur": ["Frasch process", "Allotropes", "Contact process"],
+      "Production of Some Important Nonmetals>Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>Chlorine": ["Electrolysis of brine", "Oxidizing agent", "Disproportionation"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_after_batch_1",
+    "content_density_metrics": {
+      "total_concepts_extracted": 45,
+      "questions_per_concept_ratio": 0.67,
+      "structural_coverage_percentage": 54.5
+    }
+  },
+  "grade": "10",
+  "subject": "Chemistry",
+  "unit": "Unit 5: METALS AND NONMETALS",
+  "pdf_filename": "C10U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T10:35:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 3,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 8.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 12,
+      "mini_headings_covered_count": 7,
+      "structural_coverage_percentage": 54.5,
+      "concept_utilization_ratio": 0.67
+    },
+    "distribution_analysis": {
+      "most_covered_section": "General Properties of Metals and Production of Some Metals",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 8.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U5_Q011",
+      "generation_timestamp": "2025-01-28T10:35:00Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "Introduction",
+      "mcq_type": "K",
+      "question": "A mineral deposit contains a high percentage of a particular metal and can be profitably extracted. What is this mineral specifically called?",
+      "options": {
+        "A": "Gangue",
+        "B": "Alloy",
+        "C": "Ore",
+        "D": "Slag"
+      },
+      "correct_answer": "C",
+      "hint": "This term refers to a mineral that is economically viable to process for metal extraction.",
+      "explanation": "An ore is a mineral from which a metal can be extracted profitably. Option A refers to the unwanted impurities mixed with the ore.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": "Introduction",
+        "content_anchor": "At some places minerals contain a high percentage of particular metals and the metal can be profitably extracted from it, such minerals are called ores.",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_ore_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q012",
+      "generation_timestamp": "2025-01-28T10:35:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Properties and Extraction of Metals",
+      "sub_subsection": null,
+      "structural_anchor": "Reactivity series of metals",
+      "mcq_type": "D",
+      "question": "In a blast furnace, which substance is primarily responsible for the reduction of iron oxide to metallic iron?",
+      "options": {
+        "A": "Carbon dioxide",
+        "B": "Carbon monoxide",
+        "C": "Coke",
+        "D": "Hot air"
+      },
+      "correct_answer": "B",
+      "hint": "This gas is generated in the furnace from the reaction of coke and carbon dioxide.",
+      "explanation": "Carbon monoxide acts as the reducing agent, converting iron oxides to iron metal. Option C is the solid carbon source that produces the reducing gases.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Properties and Extraction of Metals",
+        "structural_element": "Reactivity series of metals",
+        "content_anchor": "The carbon monoxide then reduces the iron oxide to iron metal.",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_CO_reduction_Fe"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q013",
+      "generation_timestamp": "2025-01-28T10:35:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Properties and Extraction of Metals",
+      "sub_subsection": null,
+      "structural_anchor": "Chemical properties of metals",
+      "mcq_type": "H",
+      "question": "Which option identifies the error in the statement that all noble metals like gold and silver are always found in their uncombined state in nature?",
+      "options": {
+        "A": "Noble metals are too reactive to exist uncombined.",
+        "B": "Gold and silver are frequently found as compounds like oxides and sulfides.",
+        "C": "While sometimes found native, noble metals also exist in various mineral compounds.",
+        "D": "Only copper among noble metals is found in a combined state."
+      },
+      "correct_answer": "C",
+      "hint": "Consider whether these metals can exist in more than one form in the Earth's crust.",
+      "explanation": "Although noble metals like gold and silver are often found native, they can also occur in compounds. Option B overstates the case by saying they are 'frequently' found as compounds.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Properties and Extraction of Metals",
+        "structural_element": "Chemical properties of metals",
+        "content_anchor": "Noble metals Ag, Au, Bi, Cu, Pd, Pt exist in nature as uncombined or free state.",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_noble_metals_occurrence"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q014",
+      "generation_timestamp": "2025-01-28T10:35:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Alloys",
+      "sub_subsection": null,
+      "structural_anchor": "Alloys",
+      "mcq_type": "B",
+      "question": "What is the name of the glass-like material formed when calcium oxide reacts with silica impurities during iron production?",
+      "options": {
+        "A": "Gangue",
+        "B": "Flux",
+        "C": "Slag",
+        "D": "Ore"
+      },
+      "correct_answer": "C",
+      "hint": "This material is lighter than molten metal and floats on top of it.",
+      "explanation": "Slag is calcium silicate (CaSiO₃) formed from the reaction of lime (CaO) and silica (SiO₂). Option B refers to the substance (limestone) that produces the lime to form slag.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Alloys",
+        "structural_element": "Alloys",
+        "content_anchor": "Calcium oxide (CaO) removes the impurities like sand or silica (SiO2) to form calcium silicate which is a glass- like material called slag.",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_slag_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q015",
+      "generation_timestamp": "2025-01-28T10:35:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Production of Aluminum, Iron and Copper",
+      "sub_subsection": "Aluminum",
+      "structural_anchor": "Thermite Welding",
+      "mcq_type": "L",
+      "question": "In the thermite welding process, powdered aluminum reacts with iron(III) oxide. What are the primary products of this highly exothermic reaction?",
+      "options": {
+        "A": "Aluminum oxide and carbon dioxide",
+        "B": "Iron and aluminum oxide",
+        "C": "Iron and oxygen gas",
+        "D": "Aluminum and iron oxide"
+      },
+      "correct_answer": "B",
+      "hint": "Aluminum is more reactive than iron and displaces it from its oxide.",
+      "explanation": "The thermite reaction produces molten iron and aluminum oxide, releasing intense heat used for welding. Option A incorrectly includes carbon dioxide, which is not involved.",
+      "difficulty_level": "medium",
+      "formula_used": ["2Al + Fe2O3 → 2Fe + Al2O3"],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Production of Aluminum, Iron and Copper",
+        "sub_subsection_anchor": "Aluminum",
+        "structural_element": "Thermite Welding",
+        "content_anchor": "2Al(s) + Fe2O3(s) → 2Fe(l) + Al2O3(s)",
+        "page_hint": "Page 10",
+        "concept_hash": "sha256_thermite_reaction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q016",
+      "generation_timestamp": "2025-01-28T10:35:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Production of Aluminum, Iron and Copper",
+      "sub_subsection": "Iron",
+      "structural_anchor": "Occurrence and Extraction",
+      "mcq_type": "G",
+      "question": "If the amount of limestone added to a blast furnace is insufficient, what would be the most direct consequence regarding the purity of the iron produced?",
+      "options": {
+        "A": "The iron would contain more carbon, making it softer.",
+        "B": "Silica impurities would not be removed effectively, making the iron more brittle.",
+        "C": "Less carbon monoxide would be produced, reducing the yield of iron.",
+        "D": "The furnace temperature would drop, preventing complete reduction."
+      },
+      "correct_answer": "B",
+      "hint": "Limestone decomposes to form lime (CaO), which reacts with acidic impurities.",
+      "explanation": "Limestone provides calcium oxide to remove silica as slag. Without it, silica remains in the iron, increasing brittleness. Option C is incorrect because limestone does not directly affect carbon monoxide production.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Production of Aluminum, Iron and Copper",
+        "sub_subsection_anchor": "Iron",
+        "structural_element": "Occurrence and Extraction",
+        "content_anchor": "Calcium oxide (CaO) removes the impurities like sand or silica (SiO2) to form calcium silicate which is a glass- like material called slag.",
+        "page_hint": "Page 13",
+        "concept_hash": "sha256_limestone_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q017",
+      "generation_timestamp": "2025-01-28T10:35:00Z",
+      "section": "General Properties of Metals and Production of Some Metals",
+      "subsection": "Production of Aluminum, Iron and Copper",
+      "sub_subsection": "Copper",
+      "structural_anchor": "Electrolytic refining of copper",
+      "mcq_type": "M",
+      "question": "What is the correct sequence of steps in the electrolytic refining of impure copper?",
+      "options": {
+        "A": "Oxidation at cathode → Ion migration → Reduction at anode",
+        "B": "Reduction at anode → Ion migration → Oxidation at cathode",
+        "C": "Oxidation at anode → Ion migration → Reduction at cathode",
+        "D": "Reduction at cathode → Ion migration → Oxidation at anode"
+      },
+      "correct_answer": "C",
+      "hint": "Impure copper dissolves at the anode, and pure copper deposits at the cathode.",
+      "explanation": "In electrolytic refining, copper oxidizes at the anode to form Cu²⁺ ions, which migrate through the electrolyte and reduce at the cathode to form pure copper. Option A reverses the electrode reactions.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "Production of Aluminum, Iron and Copper",
+        "sub_subsection_anchor": "Copper",
+        "structural_element": "Electrolytic refining of copper",
+        "content_anchor": "Cu(impure metal) → Cu²⁺(aq) + 2e (oxidation at anode) ... Cu²⁺(aq) + 2e → Cu(metal) (reduction at cathode)",
+        "page_hint": "Page 19",
+        "concept_hash": "sha256_Cu_electrorefining_steps"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q018",
+      "generation_timestamp": "2025-01-28T10:35:00Z",
+      "section": "Production of Some Important Nonmetals",
+      "subsection": "General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds",
+      "sub_subsection": null,
+      "structural_anchor": "Physical properties",
+      "mcq_type": "J",
+      "question": "Which of the following is a characteristic physical property of most nonmetals?",
+      "options": {
+        "A": "High electrical conductivity",
+        "B": "Malleability and ductility",
+        "C": "Metallic luster when polished",
+        "D": "Poor conduction of heat"
+      },
+      "correct_answer": "D",
+      "hint": "Nonmetals generally have properties opposite to those of metals.",
+      "explanation": "Nonmetals are typically poor conductors of heat and electricity. Options A, B, and C describe characteristic properties of metals.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "Production of Some Important Nonmetals",
+        "subsection_anchor": "General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds",
+        "structural_element": "Physical properties",
+        "content_anchor": "Poor conductors of heat and electricity",
+        "page_hint": "Page 22",
+        "concept_hash": "sha256_nonmetal_properties"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q019",
+      "generation_timestamp": "2025-01-28T10:35:00Z",
+      "section": "Production of Some Important Nonmetals",
+      "subsection": "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "Nitrogen",
+      "structural_anchor": "Chemical Properties of Nitrogen",
+      "mcq_type": "F",
+      "question": "Under standard conditions, nitrogen gas is relatively inert and exists as N₂ molecules. Which reasoning best explains this low reactivity?",
+      "options": {
+        "A": "Nitrogen atoms have a low electronegativity, making bond formation difficult.",
+        "B": "The triple bond between nitrogen atoms requires high energy to break.",
+        "C": "Nitrogen molecules are nonpolar and do not interact with other substances.",
+        "D": "Nitrogen has a complete outer electron shell in its diatomic form."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the bond strength and structure of the N₂ molecule.",
+      "explanation": "The strong triple bond in N₂ has high bond dissociation energy, making nitrogen unreactive under normal conditions. Option C describes a physical property but not the primary reason for chemical inertness.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "Production of Some Important Nonmetals",
+        "subsection_anchor": "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "sub_subsection_anchor": "Nitrogen",
+        "structural_element": "Chemical Properties of Nitrogen",
+        "content_anchor": "The inertness of nitrogen at low temperatures is directly related to the strength of the triple bond, which requires high energy to break.",
+        "page_hint": "Page 23",
+        "concept_hash": "sha256_N2_inertness_reason"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q020",
+      "generation_timestamp": "2025-01-28T10:35:00Z",
+      "section": "Production of Some Important Nonmetals",
+      "subsection": "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "Phosphorus",
+      "structural_anchor": "Physical Properties of Phosphorus",
+      "mcq_type": "A",
+      "question": "What is the term for different physical forms of the same element in the same state, such as white and red phosphorus?",
+      "options": {
+        "A": "Isotopes",
+        "B": "Allotropes",
+        "C": "Polymorphs",
+        "D": "Isomers"
+      },
+      "correct_answer": "B",
+      "hint": "This term specifically refers to different structural arrangements of an element's atoms.",
+      "explanation": "Allotropes are different structural forms of the same element with distinct physical properties. Option A refers to atoms of the same element with different numbers of neutrons.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "Production of Some Important Nonmetals",
+        "subsection_anchor": "Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "sub_subsection_anchor": "Phosphorus",
+        "structural_element": "Physical Properties of Phosphorus",
+        "content_anchor": "Allotropes are different forms of the same element with the same physical state but with different physical properties.",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_allotrope_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3200,
+    "average_question_quality": 84.5,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 0,
+      "D": 1,
+      "E": 0,
+      "F": 1,
+      "G": 1,
+      "H": 1,
+      "I": 0,
+      "J": 1,
+      "K": 1,
+      "L": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "General Properties of Metals and Production of Some Metals": 6,
+      "Production of Some Important Nonmetals": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

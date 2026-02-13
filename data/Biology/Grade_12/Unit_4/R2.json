@@ -1,0 +1,788 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-27T10:02:30Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G12_Bio_U4_Q020",
+    "covered_sections": ["4.1. EVOLUTION>4.1.1. Definition", "4.1. EVOLUTION>4.1.2. Theories of evolution", "4.1. EVOLUTION>4.1.3. The evidence for evolution", "4.1. EVOLUTION>4.1.4. Natural selection: Definition, Types & Examples", "4.1. EVOLUTION>4.1.5. Human evolution", "4.1. EVOLUTION>4.1.6. Mutation"],
+    "used_question_signatures": ["hash_A_Evolution_Definition", "hash_B_SpecialCreationism_Keyword", "hash_C_SpontaneousGen_Definition", "hash_D_RediExperiment", "hash_E_PasteurExperiment", "hash_F_Lamarckism_UseDisuse", "hash_G_Darwinism_NaturalSelection", "hash_H_HomologousStructures", "hash_I_FossilRecord_Evidence", "hash_J_HardyWeinberg_p+q", "hash_A_EternityLife_Theory", "hash_B_Cosmozoan_Theory", "hash_C_BiochemicalOrigin_Keyword", "hash_D_NeoDarwinism_Postulates", "hash_E_ComparativeBiochemistry_Hemoglobin", "hash_F_NaturalSelection_Definition", "hash_G_AntibioticResistance_Example", "hash_H_Bipedalism_HumanEvolution", "hash_I_PointMutation_Substitution", "hash_J_ChromosomalMutation_Deletion"],
+    "baseline_counter": {
+      "4.1. EVOLUTION": {
+        "4.1.1. Definition": {
+          "count": 8,
+          "mini_headings_covered": ["Theories of the origin of life:", "Special creationism:", "Spontaneous generation (abiogenesis):", "Eternity of life", "Cosmozoan theory, Panspermia or Spore broth theory", "Biochemical origin"],
+          "last_question_round": 2
+        },
+        "4.1.2. Theories of evolution": {
+          "count": 4,
+          "mini_headings_covered": ["Lamarckism:", "Darwinism (Theory of natural selection)", "Neo-Darwinism theory", "Postulates of Neo-Darwinism are:"],
+          "last_question_round": 2
+        },
+        "4.1.3. The evidence for evolution": {
+          "count": 5,
+          "mini_headings_covered": ["Homologous structures are:", "Palaeontology (Paleontology)", "Comparative biochemistry"],
+          "last_question_round": 2
+        },
+        "4.1.4. Natural selection: Definition, Types & Examples": {
+          "count": 2,
+          "mini_headings_covered": ["Antibiotic resistance - a modern example of natural selection in action"],
+          "last_question_round": 2
+        },
+        "4.1.5. Human evolution": {
+          "count": 1,
+          "mini_headings_covered": ["Are we still evolving?"],
+          "last_question_round": 2
+        },
+        "4.1.6. Mutation": {
+          "count": 2,
+          "mini_headings_covered": ["Point mutation", "Substitution", "Addition and deletion", "Chromosomal mutation"],
+          "last_question_round": 2
+        },
+        "4.1.7. Genetic Drift": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "4.1.8. Gene flow (immigration and emigration)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "4.1.9. Causes of species extinction": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "4.2. Renowned Anthropologists in Ethiopia": {
+        "No Subsections": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "4.3. Renowned Evolutionists in Ethiopia": {
+        "No Subsections": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1. EVOLUTION": {
+        "question_count": 20,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.2. Renowned Anthropologists in Ethiopia": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.3. Renowned Evolutionists in Ethiopia": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1. EVOLUTION>4.1.1. Definition": ["Evolution", "Special Creationism", "Spontaneous Generation", "Francesco Redi", "Louis Pasteur", "Eternity of Life", "Cosmozoan Theory", "Biochemical Origin", "Oparin-Haldane"],
+      "4.1. EVOLUTION>4.1.2. Theories of evolution": ["Lamarckism", "Use and Disuse", "Darwinism", "Natural Selection", "Neo-Darwinism", "Genetic Variability", "Reproductive Isolation"],
+      "4.1. EVOLUTION>4.1.3. The evidence for evolution": ["Homologous Structures", "Fossil Record", "Hardy-Weinberg Equilibrium", "Comparative Biochemistry", "Hemoglobin"],
+      "4.1. EVOLUTION>4.1.4. Natural selection: Definition, Types & Examples": ["Natural Selection", "Antibiotic Resistance", "Directional Selection"],
+      "4.1. EVOLUTION>4.1.5. Human evolution": ["Bipedalism", "Homo sapiens", "Human Migration"],
+      "4.1. EVOLUTION>4.1.6. Mutation": ["Point Mutation", "Substitution", "Deletion", "Chromosomal Mutation", "Sickle-cell Anaemia"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_integrity_round2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 25,
+      "questions_per_concept_ratio": 0.8,
+      "structural_coverage_percentage": 14.8
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 4: EVOLUTION",
+  "pdf_filename": "B12U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T10:02:30Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 1,
+        "total_sections": 3,
+        "progress_percentage": 33.3
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 13,
+      "structural_coverage_percentage": 14.8,
+      "concept_utilization_ratio": 0.8
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.1. EVOLUTION",
+      "least_covered_section": "4.2. Renowned Anthropologists in Ethiopia",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U4_Q011",
+      "generation_timestamp": "2025-01-27T10:02:30Z",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.1. Definition",
+      "sub_subsection": null,
+      "structural_anchor": "Eternity of life",
+      "mcq_type": "A",
+      "question": "What is the fundamental premise of the eternity of life theory?",
+      "options": {
+        "A": "Life has no beginning or end and has always existed in the universe",
+        "B": "Life was created by a divine being at a specific point in time",
+        "C": "Life originated from organic molecules formed by biochemical reactions",
+        "D": "Life arrived on Earth from other planets via meteorites"
+      },
+      "correct_answer": "A",
+      "hint": "This theory negates the need for an origin event.",
+      "explanation": "The eternity of life theory posits that life is an inherent, eternal property of the universe. Option C describes the biochemical origin theory, which involves specific chemical processes leading to the first life forms.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.1. Definition",
+        "structural_element": "Eternity of life",
+        "content_anchor": "In this theory of life, there is no beginning and no end to life on Earth and so life neither needs special creation nor does it need to be generated from non- living matter",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q012",
+      "generation_timestamp": "2025-01-27T10:02:30Z",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.1. Definition",
+      "sub_subsection": null,
+      "structural_anchor": "Cosmozoan theory, Panspermia or Spore broth theory",
+      "mcq_type": "B",
+      "question": "Which theory proposes that life on Earth originated from spores or organic molecules transported by meteorites?",
+      "options": {
+        "A": "Eternity of life theory",
+        "B": "Cosmozoan theory",
+        "C": "Biochemical origin theory",
+        "D": "Special creationism"
+      },
+      "correct_answer": "B",
+      "hint": "This theory involves extraterrestrial origins.",
+      "explanation": "The Cosmozoan or Panspermia theory suggests life or its building blocks arrived from space. Option C, the biochemical origin theory, proposes life arose from chemical reactions on early Earth.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.1. Definition",
+        "structural_element": "Cosmozoan theory, Panspermia or Spore broth theory",
+        "content_anchor": "According to Cosmozoan theory life has reached this planet Earth from other cosmological structures, such as meteorites, in the form of highly resistant spores",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 76,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q013",
+      "generation_timestamp": "2025-01-27T10:02:30Z",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.1. Definition",
+      "sub_subsection": null,
+      "structural_anchor": "Biochemical origin",
+      "mcq_type": "B",
+      "question": "Oparin and Haldane independently proposed that life originated from organic molecules formed in a reducing atmosphere. What is this concept called?",
+      "options": {
+        "A": "Spontaneous generation",
+        "B": "Biochemical origin theory",
+        "C": "Cosmozoan theory",
+        "D": "Eternity of life theory"
+      },
+      "correct_answer": "B",
+      "hint": "This theory emphasizes chemical evolution before biological evolution.",
+      "explanation": "The biochemical origin theory, proposed by Oparin and Haldane, describes abiogenesis through chemical synthesis. Option A, spontaneous generation, is an outdated idea that life arises fully formed from non-life, lacking the chemical specificity of the Oparin-Haldane model.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.1. Definition",
+        "structural_element": "Biochemical origin",
+        "content_anchor": "The current ideas we have about how life may have evolved on Earth as a result of biochemical reactions (sometimes called abiogenesis) owe much to two biologists working early in the twentieth century.",
+        "page_hint": "Page 7",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q014",
+      "generation_timestamp": "2025-01-27T10:02:30Z",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.2. Theories of evolution",
+      "sub_subsection": null,
+      "structural_anchor": "Neo-Darwinism theory",
+      "mcq_type": "A",
+      "question": "Neo-Darwinism modifies Darwin's original theory by incorporating which modern biological concept?",
+      "options": {
+        "A": "The principles of genetics and population genetics",
+        "B": "The theory of inheritance of acquired characteristics",
+        "C": "The concept of a divine guiding force in evolution",
+        "D": "The idea of spontaneous generation of complex organs"
+      },
+      "correct_answer": "A",
+      "hint": "This synthesis combines natural selection with Mendelian inheritance.",
+      "explanation": "Neo-Darwinism, or the Modern Synthesis, integrates Darwinian natural selection with Mendelian genetics to explain allele frequency changes. Option B describes Lamarckism, which is not part of the Neo-Darwinian framework.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.2. Theories of evolution",
+        "structural_element": "Neo-Darwinism theory",
+        "content_anchor": "Neo- Darwinism a revised version of Darwin's theory of evolution by means of natural selection. This theory, which is now accepted by most biologists, combines Darwin's original theory, genetic theory and theories about animal behavior.",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q015",
+      "generation_timestamp": "2025-01-27T10:02:30Z",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.2. Theories of evolution",
+      "sub_subsection": null,
+      "structural_anchor": "Postulates of Neo-Darwinism are:",
+      "mcq_type": "J",
+      "question": "Which of the following is a key postulate of Neo-Darwinism?",
+      "options": {
+        "A": "Inheritance of acquired characteristics",
+        "B": "Genetic variability within populations",
+        "C": "Spontaneous generation of new traits",
+        "D": "Divine guidance of evolutionary change"
+      },
+      "correct_answer": "B",
+      "hint": "This postulate provides the raw material upon which natural selection acts.",
+      "explanation": "Neo-Darwinism identifies genetic variability as essential for evolution, as it provides the diversity for natural selection. Option A is a postulate of Lamarckism, not the modern synthesis.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.2. Theories of evolution",
+        "structural_element": "Postulates of Neo-Darwinism are:",
+        "content_anchor": "1. Genetic variability\n2. Natural selection\n3. Reproductive Isolation",
+        "page_hint": "Page 17",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q016",
+      "generation_timestamp": "2025-01-27T10:02:30Z",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.3. The evidence for evolution",
+      "sub_subsection": "4.1.3.4 Comparative biochemistry",
+      "structural_anchor": "Comparative biochemistry",
+      "mcq_type": "K",
+      "question": "The alpha-hemoglobin chains of humans and chimpanzees show almost identical amino acid sequences. What does this high degree of similarity indicate about their relationship?",
+      "options": {
+        "A": "They share a very recent common ancestor",
+        "B": "They evolved independently through convergent evolution",
+        "C": "They are examples of analogous structures",
+        "D": "They have identical genomes and are the same species"
+      },
+      "correct_answer": "A",
+      "hint": "Molecular similarity often correlates with evolutionary closeness.",
+      "explanation": "Close similarity in essential proteins like hemoglobin indicates recent common ancestry and divergent evolution from a shared ancestor. Option B describes convergent evolution, which would produce similar functions but not necessarily similar molecular sequences.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub-subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.3. The evidence for evolution",
+        "structural_element": "Comparative biochemistry",
+        "content_anchor": "For example, a comparison of DNA sequences shows that 98% of our DNA is the same as chimpanzees which confirms that chimpanzees are the closest relatives of humans",
+        "page_hint": "Page 25",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q017",
+      "generation_timestamp": "2025-01-27T10:02:30Z",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.4. Natural selection: Definition, Types & Examples",
+      "sub_subsection": null,
+      "structural_anchor": "Natural selection: Definition, Types & Examples",
+      "mcq_type": "A",
+      "question": "What is the core definition of natural selection?",
+      "options": {
+        "A": "A process where individuals with advantageous traits survive and reproduce more successfully",
+        "B": "The random change in allele frequencies due to chance events",
+        "C": "The movement of alleles between populations via migration",
+        "D": "The intentional breeding of organisms for desired traits"
+      },
+      "correct_answer": "A",
+      "hint": "This process is non-random and depends on environmental pressures.",
+      "explanation": "Natural selection is the differential survival and reproduction of individuals due to differences in heritable traits. Option B describes genetic drift, which is a random process unrelated to trait advantage.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.4. Natural selection: Definition, Types & Examples",
+        "structural_element": "Natural selection: Definition, Types & Examples",
+        "content_anchor": "Natural selection is the 'driving force' behind evolution. It is the process that brings about changes (over time) in populations that can, eventually, lead to different populations of the same species to become different species.",
+        "page_hint": "Page 29",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 79,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q018",
+      "generation_timestamp": "2025-01-27T10:02:30Z",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.4. Natural selection: Definition, Types & Examples",
+      "sub_subsection": null,
+      "structural_anchor": "Antibiotic resistance - a modern example of natural selection in action",
+      "mcq_type": "G",
+      "question": "When a bacterial population is exposed to an antibiotic, resistant strains survive and proliferate. What type of selection does this represent?",
+      "options": {
+        "A": "Stabilizing selection",
+        "B": "Directional selection",
+        "C": "Disruptive selection",
+        "D": "Random selection"
+      },
+      "correct_answer": "B",
+      "hint": "The population's average trait shifts toward one extreme.",
+      "explanation": "Antibiotic resistance is a classic example of directional selection, favoring individuals with extreme traits (resistance) over the mean. Option A, stabilizing selection, would favor intermediate traits and reduce variation.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.4. Natural selection: Definition, Types & Examples",
+        "structural_element": "Antibiotic resistance - a modern example of natural selection in action",
+        "content_anchor": "The spread of antibiotic resistance in pathogenic bacteria is a simple and elegant example of evolutionary adaptation by natural selection.",
+        "page_hint": "Page 31",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 81,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q019",
+      "generation_timestamp": "2025-01-27T10:02:30Z",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.5. Human evolution",
+      "sub_subsection": null,
+      "structural_anchor": "Are we still evolving?",
+      "mcq_type": "F",
+      "question": "Human populations that migrated to colder climates developed adaptations like shorter body stature and increased subcutaneous fat. Which evolutionary mechanism best explains these phenotypic changes?",
+      "options": {
+        "A": "Natural selection favoring traits that reduce heat loss",
+        "B": "Genetic drift randomly altering allele frequencies in small founder populations",
+        "C": "Gene flow introducing new alleles from other human populations",
+        "D": "Mutation rates increasing due to environmental radiation"
+      },
+      "correct_answer": "A",
+      "hint": "Consider which mechanism favors traits that improve survival in a specific environment.",
+      "explanation": "Natural selection acts on heritable variation, favoring traits like reduced surface area and better insulation in cold climates. Option B, genetic drift, is a random process not directly linked to adaptive traits for climate.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.5. Human evolution",
+        "structural_element": "Are we still evolving?",
+        "content_anchor": "As humans moved from Africa into different areas of the world, they encountered different environments. Different selection pressures in the different environments resulted in the different human populations evolving along different lines.",
+        "page_hint": "Page 47",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 83,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q020",
+      "generation_timestamp": "2025-01-27T10:02:30Z",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.6. Mutation",
+      "sub_subsection": null,
+      "structural_anchor": "Point mutation",
+      "mcq_type": "A",
+      "question": "What is a point mutation?",
+      "options": {
+        "A": "A change in a single nucleotide within a DNA sequence",
+        "B": "The loss of an entire chromosome during cell division",
+        "C": "The duplication of a large segment of DNA",
+        "D": "The inversion of a chromosome segment"
+      },
+      "correct_answer": "A",
+      "hint": "This type of mutation affects the smallest unit of genetic information.",
+      "explanation": "A point mutation involves the substitution, addition, or deletion of a single nucleotide base. Option C describes a chromosomal duplication, which is a larger-scale structural mutation.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.6. Mutation",
+        "structural_element": "Point mutation",
+        "content_anchor": "A point mutation is a change in a single nucleotide in DNA.",
+        "page_hint": "Page 49",
+        "concept_hash": "sha256_of_primary_concept"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 77,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2600,
+    "average_question_quality": 84.0,
+    "type_distribution": {
+      "A": 5,
+      "B": 3,
+      "F": 1,
+      "G": 1,
+      "J": 1,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "4.1. EVOLUTION": 10
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

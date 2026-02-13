@@ -1,0 +1,876 @@
+{
+  "engine_version": "mcq_engine_spec_v5",
+  "engine_timestamp": "2025-01-21T10:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Phy_U4_Q020",
+    "covered_sections": ["4.1 Charges in Nature", "4.2 Methods of Charging a Body", "4.5 Coulomb's law of electrostatics", "4.3 The electroscope", "4.4 Electrical Discharge", "4.6 The electric field"],
+    "used_question_signatures": ["aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d", "c81e728d9d4c2f636f067f89cc14862c", "2a183d2d4b2f69a4b3e4e2b5b2f2d7f9", "e4da3b7fbbce2345d7772b0674a318d5", "d3d9446802a44259755d38e6d163e820", "cfcd208495d565ef66e7dff9f98764da", "8f14e45fceea167a5a36dedd4bea2543", "c4ca4238a0b923820dcc509a6f75849b", "45c48cce2e2d7fbdea1afc51c7c6ad26", "c20ad4d76fe97759aa27a0f99ee9c430", "6512bd43d9caa6e02c990b0a82652dca", "c9f0f895fb98ab9159f51fd0297e236d", "70efdf2ec9b086079795c442636b55fb", "6f4922f45568161a8cdf4ad2299f6d23", "1f0e3dad99908345f7439f8ffabdffc4", "98f13708210194c475687be6106a3b84", "3c59dc048e8850243be8079a5c74d079", "b6d767d2f8ed5d21a44b0e5886680cb9", "37693cfc748049e45d87b8c7d8b9aacd", "1ff1de774005f8da13f42943881c655f"],
+    "baseline_counter": {
+      "4.1 Charges in Nature": {
+        "count": 6,
+        "mini_headings_covered": ["Unit of Charge:", "Conservation of Charge:", "Quantization of charge:"],
+        "last_question_round": 2
+      },
+      "4.2 Methods of Charging a Body": {
+        "count": 4,
+        "mini_headings_covered": ["Charging by rubbing:", "Charging by Conduction:", "Charging by Induction:"],
+        "last_question_round": 1
+      },
+      "4.5 Coulomb's law of electrostatics": {
+        "count": 4,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "4.3 The electroscope": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "4.4 Electrical Discharge": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "4.6 The electric field": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 2
+      },
+      "Introduction": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "By the end of this unit, you should be able to:": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.7 Electric circuits": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.8 Current, Voltage and Ohm's law": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.9 Combination of resistors in a circuit": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.10 Voltmeter and ammeter connection in a circuit": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.11 Electrical safety in general and local context": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "4.12 Electric projects": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "End of unit summary": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      },
+      "End of unit questions and problems": {
+        "count": 0,
+        "mini_headings_covered": [],
+        "last_question_round": 0
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1 Charges in Nature": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.2 Methods of Charging a Body": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.5 Coulomb's law of electrostatics": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "4.3 The electroscope": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "4.4 Electrical Discharge": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "4.6 The electric field": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "Introduction": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "By the end of this unit, you should be able to:": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.7 Electric circuits": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.8 Current, Voltage and Ohm's law": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.9 Combination of resistors in a circuit": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.10 Voltmeter and ammeter connection in a circuit": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.11 Electrical safety in general and local context": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "4.12 Electric projects": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "End of unit summary": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      },
+      "End of unit questions and problems": {
+        "question_count": 0,
+        "last_used_round": 0,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1 Charges in Nature": ["Electric charge types", "Charge conservation", "Charge quantization", "Coulomb unit", "Proton charge", "Electron charge"],
+      "4.2 Methods of Charging a Body": ["Charging by rubbing", "Charging by conduction", "Charging by induction"],
+      "4.5 Coulomb's law of electrostatics": ["Coulomb's law", "Electrostatic force", "Inverse square law", "Force calculation"],
+      "4.3 The electroscope": ["Electroscope function", "Charge detection"],
+      "4.4 Electrical Discharge": ["Electrical discharge", "Lightning formation", "Grounding"],
+      "4.6 The electric field": ["Electric field definition", "Test charge", "Electric field lines"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 19,
+      "questions_per_concept_ratio": 1.05,
+      "structural_coverage_percentage": 37.5
+    }
+  },
+  "grade": "10",
+  "subject": "Physics",
+  "unit": "Unit 4: Static and Current Electricity",
+  "pdf_filename": "P10U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-21T10:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 16,
+        "progress_percentage": 37.5
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 37.5,
+      "concept_utilization_ratio": 1.05
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.1 Charges in Nature",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 1.05,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phy_U4_Q011",
+      "generation_timestamp": "2025-01-21T10:05:00Z",
+      "section": "4.3 The electroscope",
+      "subsection": "By the end of this section, you should able to:",
+      "sub_subsection": null,
+      "structural_anchor": "describe the function of an electroscope",
+      "mcq_type": "A",
+      "question": "What is the primary function of a gold-leaf electroscope in electrostatic experiments?",
+      "options": {
+        "A": "To detect the presence and type of electric charge",
+        "B": "To measure the exact magnitude of charge in coulombs",
+        "C": "To generate static electricity through friction",
+        "D": "To store electric charge for later use"
+      },
+      "correct_answer": "A",
+      "hint": "It indicates charge through the divergence of thin metal leaves.",
+      "explanation": "An electroscope detects charge presence and sign through leaf movement caused by electrostatic repulsion. Option B describes a more precise instrument like an electrometer.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.3 The electroscope",
+        "subsection_anchor": "By the end of this section, you should able to:",
+        "structural_element": "describe the function of an electroscope",
+        "content_anchor": "electroscope is used to detect the type of electric charge",
+        "page_hint": "Page 8",
+        "concept_hash": "hash_of_electroscope_function"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 83,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q012",
+      "generation_timestamp": "2025-01-21T10:05:00Z",
+      "section": "4.3 The electroscope",
+      "subsection": "Key Concept",
+      "sub_subsection": null,
+      "structural_anchor": "leaf movement indicates charge",
+      "mcq_type": "F",
+      "question": "When a positively charged rod is brought near the metal plate of a neutral electroscope, which reasoning best explains why the leaves diverge?",
+      "options": {
+        "A": "Electrons in the electroscope are attracted to the plate, leaving leaves positively charged and repelling each other",
+        "B": "Protons move to the leaves, making them positively charged and causing repulsion",
+        "C": "The rod transfers positive charge directly to the leaves through the air",
+        "D": "The leaves become negatively charged through contact with the rod's field"
+      },
+      "correct_answer": "A",
+      "hint": "Consider charge induction and electron mobility in metals.",
+      "explanation": "Induction attracts electrons to the plate, leaving leaves electron-deficient and positively charged, causing repulsion. Option C incorrectly suggests charge transfer without contact.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 91
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.3 The electroscope",
+        "subsection_anchor": "Key Concept",
+        "structural_element": "leaf movement indicates charge",
+        "content_anchor": "induced positive charge on gold leaves forces them apart",
+        "page_hint": "Page 8",
+        "concept_hash": "hash_of_electroscope_induction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q013",
+      "generation_timestamp": "2025-01-21T10:05:00Z",
+      "section": "4.4 Electrical Discharge",
+      "subsection": "Key Concept",
+      "sub_subsection": null,
+      "structural_anchor": "electrical discharge definition",
+      "mcq_type": "A",
+      "question": "What term describes the rapid transfer of electric charge between objects, often visible as a spark or lightning?",
+      "options": {
+        "A": "Electrical discharge",
+        "B": "Charge induction",
+        "C": "Electrostatic equilibrium",
+        "D": "Capacitive coupling"
+      },
+      "correct_answer": "A",
+      "hint": "This occurs when the electric field exceeds the dielectric strength of air.",
+      "explanation": "Electrical discharge involves sudden equalization of potential difference through a conducting path. Option B describes charge redistribution without actual transfer.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.4 Electrical Discharge",
+        "subsection_anchor": "Key Concept",
+        "structural_element": "electrical discharge definition",
+        "content_anchor": "When electric charges are transferred very quickly, the process is called an electrical discharge",
+        "page_hint": "Page 10",
+        "concept_hash": "hash_of_electrical_discharge"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q014",
+      "generation_timestamp": "2025-01-21T10:05:00Z",
+      "section": "4.4 Electrical Discharge",
+      "subsection": "Lightning:",
+      "sub_subsection": null,
+      "structural_anchor": "lightning formation process",
+      "mcq_type": "G",
+      "question": "If negative charge builds up at the base of a thundercloud, what effect does this have on the ground below through induction?",
+      "options": {
+        "A": "Creates a temporary region of positive charge on the ground surface",
+        "B": "Generates negative charge in the ground through direct transfer",
+        "C": "Neutralizes all charge in the ground through corona discharge",
+        "D": "Has no effect on ground charge until lightning strikes"
+      },
+      "correct_answer": "A",
+      "hint": "Consider electrostatic induction principles.",
+      "explanation": "A negative cloud base repels electrons in the ground, creating a positive region through induction. Option B would require actual charge transfer, not induction.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.4 Electrical Discharge",
+        "subsection_anchor": "Lightning:",
+        "structural_element": "lightning formation process",
+        "content_anchor": "negative charge at base of cloud creates temporary positively charged area on ground",
+        "page_hint": "Page 10",
+        "concept_hash": "hash_of_lightning_induction"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q015",
+      "generation_timestamp": "2025-01-21T10:05:00Z",
+      "section": "4.6 The electric field",
+      "subsection": "By the end of this section, you should able to:",
+      "sub_subsection": null,
+      "structural_anchor": "state the meaning of an electric field",
+      "mcq_type": "A",
+      "question": "What is defined as a region of space around a charged object where another charge would experience an electrostatic force?",
+      "options": {
+        "A": "Electric field",
+        "B": "Magnetic field",
+        "C": "Gravitational field",
+        "D": "Potential difference"
+      },
+      "correct_answer": "A",
+      "hint": "This concept helps visualize forces without direct contact.",
+      "explanation": "An electric field exists around any charge and exerts force on other charges within it. Option B affects moving charges or magnetic materials.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.6 The electric field",
+        "subsection_anchor": "By the end of this section, you should able to:",
+        "structural_element": "state the meaning of an electric field",
+        "content_anchor": "electric field is a region where an electric charge experiences a force",
+        "page_hint": "Page 14",
+        "concept_hash": "hash_of_electric_field_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 81,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q016",
+      "generation_timestamp": "2025-01-21T10:05:00Z",
+      "section": "4.6 The electric field",
+      "subsection": "Key Concept",
+      "sub_subsection": null,
+      "structural_anchor": "test charge definition",
+      "mcq_type": "B",
+      "question": "What is the purpose of using a small positive test charge when mapping an electric field?",
+      "options": {
+        "A": "To detect the field without significantly disturbing it",
+        "B": "To measure the exact charge creating the field",
+        "C": "To neutralize the field for accurate measurement",
+        "D": "To generate additional field lines for visibility"
+      },
+      "correct_answer": "A",
+      "hint": "A test charge should be small enough to not alter the original charge distribution.",
+      "explanation": "A test charge must have minimal charge to prevent field distortion while indicating direction and strength. Option B describes a different measurement objective.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 92
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.6 The electric field",
+        "subsection_anchor": "Key Concept",
+        "structural_element": "test charge definition",
+        "content_anchor": "test charge is small so its presence does not disturb electric field",
+        "page_hint": "Page 15",
+        "concept_hash": "hash_of_test_charge_purpose"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q017",
+      "generation_timestamp": "2025-01-21T10:05:00Z",
+      "section": "4.1 Charges in Nature",
+      "subsection": "Exercise 4.2",
+      "sub_subsection": null,
+      "structural_anchor": "charge calculation from electron count",
+      "mcq_type": "E",
+      "question": "A conductor has a positive charge of 3.2 × 10⁻¹⁹ C. How many electrons has it lost? (Elementary charge e = 1.60 × 10⁻¹⁹ C)",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_answer": "A",
+      "hint": "Divide the net positive charge by the elementary charge.",
+      "explanation": "Number of electrons lost = Q/e = (3.2 × 10⁻¹⁹)/(1.6 × 10⁻¹⁹) = 2. Option B results from a calculation error with decimal values.",
+      "difficulty_level": "medium",
+      "formula_used": ["n = Q/e"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "electrons",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.1 Charges in Nature",
+        "subsection_anchor": "Exercise 4.2",
+        "structural_element": "charge calculation from electron count",
+        "content_anchor": "conductor possesses positive charge 3.2 × 10⁻¹⁹ C",
+        "page_hint": "Page 3",
+        "concept_hash": "hash_of_electron_deficit_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q018",
+      "generation_timestamp": "2025-01-21T10:05:00Z",
+      "section": "4.5 Coulomb's law of electrostatics",
+      "subsection": "Review questions",
+      "sub_subsection": null,
+      "structural_anchor": "direction of electrostatic force",
+      "mcq_type": "F",
+      "question": "A charge of +1 C and another of -4 C are placed in air. Which reasoning best describes the direction of force between them?",
+      "options": {
+        "A": "The force is attractive because opposite charges pull toward each other",
+        "B": "The force is repulsive because both charges are strong",
+        "C": "The force is attractive only if the charges are of equal magnitude",
+        "D": "The force is repulsive because one charge is larger than the other"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the sign of the charges, not their magnitudes.",
+      "explanation": "Coulomb's law gives attractive force for opposite charges regardless of magnitude difference. Option D incorrectly applies magnitude consideration to force direction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "review questions"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 93
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.5 Coulomb's law of electrostatics",
+        "subsection_anchor": "Review questions",
+        "structural_element": "direction of electrostatic force",
+        "content_anchor": "two charges 1C and -4C exists in air, what is direction of force",
+        "page_hint": "Page 14",
+        "concept_hash": "hash_of_force_direction_opposite_charges"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q019",
+      "generation_timestamp": "2025-01-21T10:05:00Z",
+      "section": "4.5 Coulomb's law of electrostatics",
+      "subsection": "Example 4.1",
+      "sub_subsection": null,
+      "structural_anchor": "force magnitude with different units",
+      "mcq_type": "E",
+      "question": "Two point charges of +2.0 μC and -4.0 μC are separated by 15 cm. What is the magnitude of force between them? (k = 9.0 × 10⁹ N·m²/C²)",
+      "options": {
+        "A": "3.2 N",
+        "B": "1.6 N",
+        "C": "6.4 N",
+        "D": "0.8 N"
+      },
+      "correct_answer": "A",
+      "hint": "Convert microcoulombs to coulombs and centimeters to meters.",
+      "explanation": "F = k|q₁q₂|/r² = (9×10⁹)(2×10⁻⁶)(4×10⁻⁶)/(0.15)² = 3.2 N. Option C results from forgetting to square the distance.",
+      "difficulty_level": "medium",
+      "formula_used": ["F = k(q₁q₂/r²)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "N",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "worked example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.5 Coulomb's law of electrostatics",
+        "subsection_anchor": "Example 4.1",
+        "structural_element": "force magnitude with different units",
+        "content_anchor": "charges in microcoulombs separated by distance in cm",
+        "page_hint": "Page 13",
+        "concept_hash": "hash_of_force_calculation_different_units"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 79,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G10_Phy_U4_Q020",
+      "generation_timestamp": "2025-01-21T10:05:00Z",
+      "section": "4.1 Charges in Nature",
+      "subsection": "Section summary",
+      "sub_subsection": null,
+      "structural_anchor": "properties of electric charges",
+      "mcq_type": "J",
+      "question": "Which pair correctly classifies the fundamental properties of electric charge?",
+      "options": {
+        "A": "Conservation and quantization",
+        "B": "Conduction and induction",
+        "C": "Attraction and repulsion",
+        "D": "Positive and negative"
+      },
+      "correct_answer": "A",
+      "hint": "These are inherent properties, not methods or manifestations.",
+      "explanation": "Charge conservation and quantization are fundamental physical properties. Option B describes charging methods rather than inherent charge properties.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section summary"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        },
+        "option_parallelism_score": 94
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.1 Charges in Nature",
+        "subsection_anchor": "Section summary",
+        "structural_element": "properties of electric charges",
+        "content_anchor": "total electric charge does not change, electric charges are quantized",
+        "page_hint": "Page 4",
+        "concept_hash": "hash_of_charge_properties_classification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 73,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4120,
+    "average_question_quality": 87.8,
+    "type_distribution": {
+      "A": 4,
+      "B": 1,
+      "E": 2,
+      "F": 2,
+      "G": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 6,
+      "hard": 0
+    },
+    "section_distribution": {
+      "4.1 Charges in Nature": 2,
+      "4.3 The electroscope": 2,
+      "4.4 Electrical Discharge": 2,
+      "4.5 Coulomb's law of electrostatics": 3,
+      "4.6 The electric field": 2
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

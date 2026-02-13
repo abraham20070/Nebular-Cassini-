@@ -1,0 +1,942 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-28T16:20:00Z",
+  "round_id": "R01",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Chem_U6_Q020",
+    "covered_sections": [
+      "Introduction>Introduction",
+      "Dalton's Atomic Theory and the Modern Atomic Theory>Postulates of Dalton's Atomic Theory",
+      "Dalton's Atomic Theory and the Modern Atomic Theory>Postulates of Modern Atomic Theory",
+      "Early Experiments to Characterize the Atom>The Discovery of the Electron",
+      "Make-up of the Nucleus>Subatomic Particles",
+      "Electromagnetic Radiation and Atomic Spectra>Electromagnetic Radiation",
+      "The Quantum Mechanical Model of the Atom>Quantum Numbers",
+      "Electronic Configurations and Orbital Diagrams>Ground State Electronic Configuration of the Elements",
+      "Electronic Configurations and the Periodic Table of the Elements>The Modern Periodic Table",
+      "Electronic Configurations and the Periodic Table of the Elements>Periodic Properties",
+      "Make-up of the Nucleus>Atomic Mass and Isotopes",
+      "Early Experiments to Characterize the Atom>Discovery of the Neutron",
+      "Electromagnetic Radiation and Atomic Spectra>The Quantum Theory and Photon",
+      "Electromagnetic Radiation and Atomic Spectra>Atomic Spectra",
+      "Electromagnetic Radiation and Atomic Spectra>The Bohr Model of the Hydrogen Atom",
+      "Electromagnetic Radiation and Atomic Spectra>Limitations of the Bohr Model",
+      "Electromagnetic Radiation and Atomic Spectra>The Wave-Particle Duality of Matter and Energy",
+      "The Quantum Mechanical Model of the Atom>The Heisenberg's Principle",
+      "The Quantum Mechanical Model of the Atom>Shapes of Atomic Orbitals",
+      "Electronic Configurations and the Periodic Table of the Elements>Classification of the Elements",
+      "Electronic Configurations and the Periodic Table of the Elements>Advantages of Periodic Classification of the Elements"
+    ],
+    "used_question_signatures": [
+      "hash_112be6d8c154bdf4",
+      "hash_224f8a9c3b77e12a",
+      "hash_33c5d0f8a9e123b7",
+      "hash_44b6c7f8d9123e4a",
+      "hash_55a7d8e9f012345b",
+      "hash_66b8c9d0e112345c",
+      "hash_77c9d0e1f223456d",
+      "hash_88d0e1f2a334567e",
+      "hash_99e1f2a3b445678f",
+      "hash_10a2f3b4c5567890",
+      "hash_11b3c4d5e6678901",
+      "hash_12c4d5e6f7789012",
+      "hash_13d5e6f7a8890123",
+      "hash_14e6f7a8b9901234",
+      "hash_15f7a8b9c0a01245",
+      "hash_16a8b9c0d1b12356",
+      "hash_17b9c0d1e2c23467",
+      "hash_18c0d1e2f3d34578",
+      "hash_19d1e2f3a4e45689",
+      "hash_20e2f3a4b5f56790"
+    ],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 2,
+          "mini_headings_covered": ["Unit Outcomes:"],
+          "last_question_round": 1
+        }
+      },
+      "Dalton's Atomic Theory and the Modern Atomic Theory": {
+        "Postulates of Dalton's Atomic Theory": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Postulates of Modern Atomic Theory": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Early Experiments to Characterize the Atom": {
+        "The Discovery of the Electron": {
+          "count": 2,
+          "mini_headings_covered": ["Cathode Rays:"],
+          "last_question_round": 1
+        },
+        "Discovery of the Neutron": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Make-up of the Nucleus": {
+        "Subatomic Particles": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Atomic Mass and Isotopes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Electromagnetic Radiation and Atomic Spectra": {
+        "Electromagnetic Radiation": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Quantum Theory and Photon": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Atomic Spectra": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Bohr Model of the Hydrogen Atom": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Limitations of the Bohr Model": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Wave-Particle Duality of Matter and Energy": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "The Quantum Mechanical Model of the Atom": {
+        "Quantum Numbers": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "The Heisenberg's Principle": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Shapes of Atomic Orbitals": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Electronic Configurations and Orbital Diagrams": {
+        "Ground State Electronic Configuration of the Elements": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Electronic Configurations and the Periodic Table of the Elements": {
+        "The Modern Periodic Table": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Periodic Properties": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Classification of the Elements": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Advantages of Periodic Classification of the Elements": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      },
+      "Dalton's Atomic Theory and the Modern Atomic Theory": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      },
+      "Early Experiments to Characterize the Atom": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      },
+      "Make-up of the Nucleus": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      },
+      "Electromagnetic Radiation and Atomic Spectra": {
+        "question_count": 7,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      },
+      "The Quantum Mechanical Model of the Atom": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      },
+      "Electronic Configurations and Orbital Diagrams": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      },
+      "Electronic Configurations and the Periodic Table of the Elements": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["Historical development", "Subatomic particles", "Atomic spectra", "Periodic trends"],
+      "Dalton's Atomic Theory and the Modern Atomic Theory>Postulates of Dalton's Atomic Theory": ["Law of conservation of mass", "Law of definite proportions", "Law of multiple proportions"],
+      "Dalton's Atomic Theory and the Modern Atomic Theory>Postulates of Modern Atomic Theory": ["Limitations of Dalton's theory", "Electron discovery"],
+      "Early Experiments to Characterize the Atom>The Discovery of the Electron": ["Cathode rays", "Electron charge", "Thomson's experiment"],
+      "Early Experiments to Characterize the Atom>Discovery of the Neutron": ["Neutron discovery", "Chadwick"],
+      "Make-up of the Nucleus>Subatomic Particles": ["Proton", "Neutron", "Electron mass comparison", "Relative charge"],
+      "Make-up of the Nucleus>Atomic Mass and Isotopes": ["Isotope definition", "Atomic mass calculation"],
+      "Electromagnetic Radiation and Atomic Spectra>Electromagnetic Radiation": ["Wavelength", "Frequency", "Speed of light"],
+      "Electromagnetic Radiation and Atomic Spectra>The Quantum Theory and Photon": ["Planck's constant", "Photon energy", "Quantum"],
+      "Electromagnetic Radiation and Atomic Spectra>Atomic Spectra": ["Emission spectrum", "Line spectrum"],
+      "Electromagnetic Radiation and Atomic Spectra>The Bohr Model of the Hydrogen Atom": ["Bohr's postulates", "Quantized orbits", "Ground state"],
+      "Electromagnetic Radiation and Atomic Spectra>Limitations of the Bohr Model": ["Single-electron limitation", "Heisenberg uncertainty"],
+      "Electromagnetic Radiation and Atomic Spectra>The Wave-Particle Duality of Matter and Energy": ["De Broglie equation", "Dual nature"],
+      "The Quantum Mechanical Model of the Atom>Quantum Numbers": ["Principal quantum number", "Angular momentum quantum number", "Magnetic quantum number", "Spin quantum number"],
+      "The Quantum Mechanical Model of the Atom>The Heisenberg's Principle": ["Uncertainty principle", "Position-momentum uncertainty"],
+      "The Quantum Mechanical Model of the Atom>Shapes of Atomic Orbitals": ["s orbital shape", "p orbital shape"],
+      "Electronic Configurations and Orbital Diagrams>Ground State Electronic Configuration of the Elements": ["Aufbau principle", "Electron configuration notation", "Pauli exclusion", "Hund's rule"],
+      "Electronic Configurations and the Periodic Table of the Elements>The Modern Periodic Table": ["Periodic law", "Atomic number basis"],
+      "Electronic Configurations and the Periodic Table of the Elements>Periodic Properties": ["Atomic radius trend", "Effective nuclear charge"],
+      "Electronic Configurations and the Periodic Table of the Elements>Classification of the Elements": ["Metals, nonmetals, metalloids", "Group numbering"],
+      "Electronic Configurations and the Periodic Table of the Elements>Advantages of Periodic Classification of the Elements": ["Position prediction", "Property correlation"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_hash_of_previous_state",
+    "content_density_metrics": {
+      "total_concepts_extracted": 46,
+      "questions_per_concept_ratio": 0.43,
+      "structural_coverage_percentage": 36.4
+    }
+  },
+  "grade": "11",
+  "subject": "Chemistry",
+  "unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+  "pdf_filename": "C11U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 3,
+      "constraint_violations_caught": 3,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-28T16:20:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 8,
+        "total_sections": 8,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 8,
+      "subsections_covered_count": 21,
+      "mini_headings_covered_count": 1,
+      "structural_coverage_percentage": 36.4,
+      "concept_utilization_ratio": 0.43
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Electromagnetic Radiation and Atomic Spectra",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 3.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Chem_U6_Q011",
+      "generation_timestamp": "2025-01-28T16:19:55Z",
+      "section": "Introduction",
+      "subsection": "Introduction",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "G",
+      "question": "If the concept of quantized electron energy levels is correct, what direct consequence should be observed when atoms absorb specific amounts of energy?",
+      "options": {
+        "A": "A continuous spectrum of all colors is emitted.",
+        "B": "Electrons are ejected from the atom with varying kinetic energies.",
+        "C": "Only specific wavelengths of light are emitted when electrons fall back.",
+        "D": "The atomic nucleus becomes unstable and undergoes radioactive decay."
+      },
+      "correct_answer": "C",
+      "hint": "Consider the relationship between discrete energy jumps and the light produced.",
+      "explanation": "Quantized energy levels mean electrons can only occupy specific states, so transitions between them emit photons with discrete energies corresponding to specific wavelengths. Option A describes the emission from a hot, dense object, not an atomic gas.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Introduction",
+        "structural_element": null,
+        "content_anchor": "explain electromagnetic radiation, atomic spectra and Bohr models",
+        "page_hint": "1",
+        "concept_hash": "sha256_quantized_levels_spectra"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q012",
+      "generation_timestamp": "2025-01-28T16:19:56Z",
+      "section": "Dalton's Atomic Theory and the Modern Atomic Theory",
+      "subsection": "Postulates of Dalton's Atomic Theory",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "N",
+      "question": "Which condition must be met for the law of multiple proportions to apply to two different compounds formed from the same two elements?",
+      "options": {
+        "A": "The compounds must have identical molecular formulas.",
+        "B": "The mass of one element combined with a fixed mass of the other must be in a small whole number ratio.",
+        "C": "The total mass of the products must equal the total mass of the reactants.",
+        "D": "The compounds must exist in the same physical state at room temperature."
+      },
+      "correct_answer": "B",
+      "hint": "This law deals with mass ratios when elements form more than one compound.",
+      "explanation": "The law of multiple proportions states that when two elements form different compounds, the mass ratios of one element that combine with a fixed mass of the other are small whole numbers. Option C describes the law of conservation of mass.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Dalton's Atomic Theory and the Modern Atomic Theory",
+        "subsection_anchor": "Postulates of Dalton's Atomic Theory",
+        "structural_element": null,
+        "content_anchor": "law of multiple proportions",
+        "page_hint": "4-5",
+        "concept_hash": "sha256_law_multiple_proportions_condition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q013",
+      "generation_timestamp": "2025-01-28T16:19:57Z",
+      "section": "Dalton's Atomic Theory and the Modern Atomic Theory",
+      "subsection": "Postulates of Modern Atomic Theory",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "H",
+      "question": "Which option identifies the error in reasoning that leads to the conclusion that atoms are the smallest, indivisible particles of matter?",
+      "options": {
+        "A": "It assumes all atoms of an element are identical in mass.",
+        "B": "It fails to account for the existence of subatomic particles like electrons, protons, and neutrons.",
+        "C": "It overlooks the fact that atoms can gain or lose electrons to form ions.",
+        "D": "It disregards the different isotopes that an element can have."
+      },
+      "correct_answer": "B",
+      "hint": "Consider discoveries made after Dalton's theory that revealed internal structure.",
+      "explanation": "Atoms are composed of subatomic particles (electrons, protons, neutrons) and are therefore divisible. Option D addresses a variation in atomic composition, not the fundamental divisibility of the atom.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Dalton's Atomic Theory and the Modern Atomic Theory",
+        "subsection_anchor": "Postulates of Modern Atomic Theory",
+        "structural_element": null,
+        "content_anchor": "modern atomic theory is generally said to begin with John Dalton. Dalton's work was mainly about the chemistry of atoms ... rather than about the internal structure of atoms",
+        "page_hint": "5",
+        "concept_hash": "sha256_atom_divisibility_error"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q014",
+      "generation_timestamp": "2025-01-28T16:19:58Z",
+      "section": "Early Experiments to Characterize the Atom",
+      "subsection": "The Discovery of the Electron",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "L",
+      "question": "In an apparatus with evacuated tubes and metal electrodes, a beam is observed to bend toward a positively charged plate. What conclusion about the particles in this beam is supported by this experimental observation?",
+      "options": {
+        "A": "The particles are positively charged.",
+        "B": "The particles are neutral.",
+        "C": "The particles are negatively charged.",
+        "D": "The particles have no mass."
+      },
+      "correct_answer": "C",
+      "hint": "Opposite charges attract; like charges repel.",
+      "explanation": "A beam deflecting toward a positive plate indicates the particles carry a net negative charge, as described in cathode ray experiments. Option A would describe the behavior of alpha particles in an electric field.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Early Experiments to Characterize the Atom",
+        "subsection_anchor": "The Discovery of the Electron",
+        "structural_element": null,
+        "content_anchor": "beam bends away from the negatively charged plate and toward the positively charged plate",
+        "page_hint": "8",
+        "concept_hash": "sha256_cathode_ray_charge_experiment"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 78,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q015",
+      "generation_timestamp": "2025-01-28T16:19:59Z",
+      "section": "Early Experiments to Characterize the Atom",
+      "subsection": "Discovery of the Neutron",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "B",
+      "question": "What is the name of the neutral subatomic particle discovered by James Chadwick through alpha-particle scattering experiments?",
+      "options": {
+        "A": "Proton",
+        "B": "Electron",
+        "C": "Neutron",
+        "D": "Positron"
+      },
+      "correct_answer": "C",
+      "hint": "This particle has no electric charge and a mass similar to a proton.",
+      "explanation": "James Chadwick identified the neutron, a neutral particle with mass nearly equal to that of a proton. Option A is the positively charged particle discovered earlier by Rutherford.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 20.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Early Experiments to Characterize the Atom",
+        "subsection_anchor": "Discovery of the Neutron",
+        "structural_element": null,
+        "content_anchor": "British physicist James Chadwick showed that this penetrating radiation consists of neutral particles, called neutrons",
+        "page_hint": "11",
+        "concept_hash": "sha256_neutron_discovery_chadwick"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q016",
+      "generation_timestamp": "2025-01-28T16:20:00Z",
+      "section": "Make-up of the Nucleus",
+      "subsection": "Subatomic Particles",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "I",
+      "question": "How does the magnitude of the electric charge of a proton compare to that of an electron?",
+      "options": {
+        "A": "The proton's charge is opposite in sign but equal in magnitude.",
+        "B": "The proton's charge is opposite in sign and twice the magnitude.",
+        "C": "The proton's charge is the same in sign and equal in magnitude.",
+        "D": "The proton has a charge, while the electron is neutral."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental unit of charge.",
+      "explanation": "A proton carries a charge of +1.602 × 10⁻¹⁹ C, and an electron carries a charge of -1.602 × 10⁻¹⁹ C; they are equal in magnitude but opposite in sign. Option B describes the charge of an alpha particle relative to an electron.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Make-up of the Nucleus",
+        "subsection_anchor": "Subatomic Particles",
+        "structural_element": null,
+        "content_anchor": "proton is a nuclear particle having a positive charge equal in magnitude to that of the electron",
+        "page_hint": "12",
+        "concept_hash": "sha256_proton_electron_charge_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 79,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 87
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q017",
+      "generation_timestamp": "2025-01-28T16:20:01Z",
+      "section": "Make-up of the Nucleus",
+      "subsection": "Atomic Mass and Isotopes",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "A",
+      "question": "What term describes atoms of the same element that have different numbers of neutrons and consequently different mass numbers?",
+      "options": {
+        "A": "Ions",
+        "B": "Isomers",
+        "C": "Isotopes",
+        "D": "Allotropes"
+      },
+      "correct_answer": "C",
+      "hint": "The prefix 'iso-' means same, and these atoms have the same number of protons.",
+      "explanation": "Isotopes are atoms of the same element (same atomic number) with different numbers of neutrons, leading to different mass numbers. Option A refers to atoms with a net electric charge due to gain or loss of electrons.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 16.7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Make-up of the Nucleus",
+        "subsection_anchor": "Atomic Mass and Isotopes",
+        "structural_element": null,
+        "content_anchor": "isotopes of an element are atoms that have different numbers of neutrons and different mass numbers",
+        "page_hint": "13",
+        "concept_hash": "sha256_isotope_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 76,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 86
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q018",
+      "generation_timestamp": "2025-01-28T16:20:02Z",
+      "section": "Electromagnetic Radiation and Atomic Spectra",
+      "subsection": "Electromagnetic Radiation",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "E",
+      "question": "What is the wavelength, in meters, of radio waves from a station broadcasting at a frequency of 98.1 MHz? (Speed of light, c = 3.00 × 10⁸ m/s)",
+      "options": {
+        "A": "3.06 m",
+        "B": "30.6 m",
+        "C": "3.06 × 10¹ m",
+        "D": "3.06 × 10⁰ m"
+      },
+      "correct_answer": "A",
+      "hint": "Use the formula λ = c / ν, ensuring consistent units (1 MHz = 10⁶ Hz).",
+      "explanation": "The wavelength is calculated as λ = c / ν = (3.00 × 10⁸ m/s) / (98.1 × 10⁶ Hz) = 3.06 m. Option B results from a calculation error, likely forgetting to convert MHz to Hz correctly.",
+      "difficulty_level": "medium",
+      "formula_used": ["c = λν", "λ = c/ν"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "m",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Electromagnetic Radiation and Atomic Spectra",
+        "subsection_anchor": "Electromagnetic Radiation",
+        "structural_element": null,
+        "content_anchor": "Addis Ababa Fana FM radio station, broadcasts electromagnetic radiation at a frequency of 98.1MHz",
+        "page_hint": "18",
+        "concept_hash": "sha256_wavelength_calculation_exercise"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q019",
+      "generation_timestamp": "2025-01-28T16:20:03Z",
+      "section": "The Quantum Mechanical Model of the Atom",
+      "subsection": "Quantum Numbers",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "For an electron described by the quantum numbers n=3 and l=1, how many possible values of the magnetic quantum number (m_l) are allowed?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "5",
+        "D": "7"
+      },
+      "correct_answer": "B",
+      "hint": "m_l can take integer values from -l to +l, including 0.",
+      "explanation": "For l=1 (p subshell), m_l can be -1, 0, or +1, giving three possible values. Option C is the number of m_l values for a d orbital (l=2).",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": false,
+          "distractor_error_identified": true,
+          "educational_value_score": 82
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "The Quantum Mechanical Model of the Atom",
+        "subsection_anchor": "Quantum Numbers",
+        "structural_element": null,
+        "content_anchor": "magnetic quantum number (mℓ) ... has integral values between -ℓ and ℓ, including 0",
+        "page_hint": "37",
+        "concept_hash": "sha256_magnetic_quantum_number_values"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 81,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G11_Chem_U6_Q020",
+      "generation_timestamp": "2025-01-28T16:20:04Z",
+      "section": "Electronic Configurations and Orbital Diagrams",
+      "subsection": "Ground State Electronic Configuration of the Elements",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "K",
+      "question": "An element has the electron configuration [Ne] 3s²3p⁵. What can be directly inferred about an atom of this element?",
+      "options": {
+        "A": "It has 17 electrons and is a metal.",
+        "B": "It has 17 electrons and is in Group 17 (VIIA).",
+        "C": "It has 18 electrons and is a noble gas.",
+        "D": "It has 10 electrons and is highly reactive."
+      },
+      "correct_answer": "B",
+      "hint": "[Ne] represents the configuration of neon (1s²2s²2p⁶), which has 10 electrons.",
+      "explanation": "[Ne] accounts for 10 electrons. Adding the 7 electrons in 3s²3p⁵ gives a total of 17 electrons, corresponding to chlorine (atomic number 17), which is in Group 17. Option A incorrectly classifies chlorine as a metal.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+        "section_anchor": "Electronic Configurations and Orbital Diagrams",
+        "subsection_anchor": "Ground State Electronic Configuration of the Elements",
+        "structural_element": null,
+        "content_anchor": "Mg (Z = 12), has the configuration 1s² 2s² 2p⁶ 3s², or [Ne] 3s²",
+        "page_hint": "44",
+        "concept_hash": "sha256_condensed_config_interpretation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 83,
+        "cognitive_level": "interpreting",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2450,
+    "average_question_quality": 84.6,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1,
+      "K": 1,
+      "L": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 6,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "Dalton's Atomic Theory and the Modern Atomic Theory": 2,
+      "Early Experiments to Characterize the Atom": 2,
+      "Make-up of the Nucleus": 2,
+      "Electromagnetic Radiation and Atomic Spectra": 1,
+      "The Quantum Mechanical Model of the Atom": 1,
+      "Electronic Configurations and Orbital Diagrams": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

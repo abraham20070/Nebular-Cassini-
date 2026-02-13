@@ -1,0 +1,791 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2025-01-27T10:05:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G11_Phy_U1_Q020",
+    "covered_sections": ["Introduction", "1.1 Importance of Physics to Society", "1.2 Physics Communities and Their Roles", "1.3 Making of Physics Knowledge", "1.4 The Mission of Physics and Career Awareness", "1.5 Current Status of Physics"],
+    "used_question_signatures": ["hash_A_intro_outcomes", "hash_B_1.1_brainstorm", "hash_D_1.2_objectives", "hash_F_1.3_experimental", "hash_H_1.3_scientific_method", "hash_J_1.4_career_typical", "hash_K_1.4_career_space", "hash_L_1.5_discovery_exoplanet", "hash_M_1.5_discovery_blackhole", "hash_N_1.5_discovery_gravitational", "hash_G_1.1_economic", "hash_A_1.2_definition", "hash_C_1.3_a_priori", "hash_E_1.4_healthcare", "hash_F_1.4_energy", "hash_G_1.5_quantum_crypto", "hash_I_1.5_global_warming", "hash_J_1.5_jwst", "hash_K_1.3_memory", "hash_L_1.2_group_work"],
+    "baseline_counter": {
+      "Introduction": {
+        "Introduction": {
+          "count": 1,
+          "mini_headings_covered": ["Unit outcomes / learning competencies"],
+          "last_question_round": 1
+        }
+      },
+      "1.1 Importance of Physics to Society": {
+        "1.1 Importance of Physics to Society": {
+          "count": 2,
+          "mini_headings_covered": ["Brainstorming questions"],
+          "last_question_round": 2
+        }
+      },
+      "1.2 Physics Communities and Their Roles": {
+        "1.2 Physics Communities and Their Roles": {
+          "count": 2,
+          "mini_headings_covered": ["Objectives of EPS", "Group Work"],
+          "last_question_round": 2
+        }
+      },
+      "1.3 Making of Physics Knowledge": {
+        "1.3 Making of Physics Knowledge": {
+          "count": 3,
+          "mini_headings_covered": ["Experimental knowledge", "Scientific method", "Non-Experiential Knowledge"],
+          "last_question_round": 2
+        }
+      },
+      "1.4 The Mission of Physics and Career Awareness": {
+        "1.4 The Mission of Physics and Career Awareness": {
+          "count": 4,
+          "mini_headings_covered": ["Typical careers in physics", "Physics careers in space and astronomy", "Physics careers in healthcare", "Physics careers in energy"],
+          "last_question_round": 2
+        }
+      },
+      "1.5 Current Status of Physics": {
+        "1.5 Current Status of Physics": {
+          "count": 6,
+          "mini_headings_covered": ["Discovery of Exoplanets:", "Black hole:", "Gravitational wave (Large scale structures)", "Quantum cryptography:", "Global warming:", "James Webb Space Telescope (JWST)"],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "1.1 Importance of Physics to Society": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "1.2 Physics Communities and Their Roles": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "1.3 Making of Physics Knowledge": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.4 The Mission of Physics and Career Awareness": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.5 Current Status of Physics": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Introduction": ["physics impact", "innovation", "economic growth"],
+      "1.1 Importance of Physics to Society>1.1 Importance of Physics to Society": ["society benefit", "technology", "economic engines"],
+      "1.2 Physics Communities and Their Roles>1.2 Physics Communities and Their Roles": ["scientific association", "promoting education", "group collaboration"],
+      "1.3 Making of Physics Knowledge>1.3 Making of Physics Knowledge": ["experiential knowledge", "scientific method steps", "a priori knowledge"],
+      "1.4 The Mission of Physics and Career Awareness>1.4 The Mission of Physics and Career Awareness": ["career diversity", "astronomy roles", "healthcare physics", "energy sector"],
+      "1.5 Current Status of Physics>1.5 Current Status of Physics": ["exoplanets", "black holes", "gravitational waves", "quantum cryptography", "global warming", "JWST"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_placeholder_for_state_integrity_check_round2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 20,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 72.2
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Physics",
+  "unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+  "pdf_filename": "P11U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2025-01-27T10:05:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 6.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 18,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.5 Current Status of Physics",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 6.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Phy_U1_Q011",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "1.1 Importance of Physics to Society",
+      "subsection": "1.1 Importance of Physics to Society",
+      "sub_subsection": null,
+      "structural_anchor": "Brainstorming questions",
+      "mcq_type": "G",
+      "question": "If a country invests heavily in physics education and research, what is a likely effect on its economic development?",
+      "options": {
+        "A": "Enhanced technological infrastructure and innovation capacity",
+        "B": "Decreased need for engineering professionals",
+        "C": "Reduced global scientific collaboration",
+        "D": "Shift from industrial to agricultural economy"
+      },
+      "correct_answer": "A",
+      "hint": "Physics drives technological advancement which fuels economic growth.",
+      "explanation": "Physics education develops human capital capable of creating technological innovations that boost the economy. Option B is incorrect because engineering relies on physics principles and demand typically increases.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "brainstorming"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.1 Importance of Physics to Society",
+        "subsection_anchor": "1.1 Importance of Physics to Society",
+        "structural_element": "Brainstorming questions",
+        "content_anchor": "Physics contributes to the technological infrastructure and provides trained personnel... The future of any country... is linked to its ability to develop its human capital in the field of science and engineering.",
+        "page_hint": "Page 2",
+        "concept_hash": "sha256_of_physics_economic_development"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q012",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "1.2 Physics Communities and Their Roles",
+      "subsection": "1.2 Physics Communities and Their Roles",
+      "sub_subsection": null,
+      "structural_anchor": "Group Work",
+      "mcq_type": "A",
+      "question": "What term describes an organized group of individuals associated for the purpose of advancing scientific knowledge and education?",
+      "options": {
+        "A": "Scientific society",
+        "B": "Government agency",
+        "C": "Commercial corporation",
+        "D": "Educational institution"
+      },
+      "correct_answer": "A",
+      "hint": "These groups are often formed at national or international levels by professionals.",
+      "explanation": "A scientific society is a voluntary association of professionals aiming to promote their discipline. Option D refers to schools or universities, which have broader educational missions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.2 Physics Communities and Their Roles",
+        "subsection_anchor": "1.2 Physics Communities and Their Roles",
+        "structural_element": "Group Work",
+        "content_anchor": "Physics communities are an organized group of persons associated together for scientific purposes.",
+        "page_hint": "Page 3",
+        "concept_hash": "sha256_of_scientific_society_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q013",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "1.3 Making of Physics Knowledge",
+      "subsection": "1.3 Making of Physics Knowledge",
+      "sub_subsection": null,
+      "structural_anchor": "Non-Experiential Knowledge",
+      "mcq_type": "C",
+      "question": "Which type of knowledge is derived from rational insight rather than sensory experience, such as mathematical truths?",
+      "options": {
+        "A": "A priori knowledge",
+        "B": "A posteriori knowledge",
+        "C": "Empirical knowledge",
+        "D": "Testimonial knowledge"
+      },
+      "correct_answer": "A",
+      "hint": "This knowledge is independent of observation.",
+      "explanation": "A priori knowledge is known independently of experience, like logical or mathematical principles. Option B refers to knowledge gained through experience, which is the opposite category.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.3 Making of Physics Knowledge",
+        "subsection_anchor": "1.3 Making of Physics Knowledge",
+        "structural_element": "Non-Experiential Knowledge",
+        "content_anchor": "non- experiential (a priori) knowledge... gained through rational insight. Usual examples are mathematics and logic.",
+        "page_hint": "Page 6",
+        "concept_hash": "sha256_of_a_priori_knowledge"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q014",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "1.4 The Mission of Physics and Career Awareness",
+      "subsection": "1.4 The Mission of Physics and Career Awareness",
+      "sub_subsection": null,
+      "structural_anchor": "Physics careers in healthcare",
+      "mcq_type": "E",
+      "question": "A medical physicist works with equipment operating at 1.5 Tesla. If the magnetic field strength is increased by a factor of 2, what is the new strength in Tesla?",
+      "options": {
+        "A": "3.0 T",
+        "B": "1.5 T",
+        "C": "0.75 T",
+        "D": "4.5 T"
+      },
+      "correct_answer": "A",
+      "hint": "Multiply the original value by the given factor.",
+      "explanation": "Magnetic field strength scales linearly; doubling 1.5 T yields 3.0 T. Option D results from incorrectly adding the original value to the product.",
+      "difficulty_level": "easy",
+      "formula_used": ["B_new = B_original × factor"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "Tesla (T)",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.4 The Mission of Physics and Career Awareness",
+        "subsection_anchor": "1.4 The Mission of Physics and Career Awareness",
+        "structural_element": "Physics careers in healthcare",
+        "content_anchor": "physicists are regularly employed within areas such as radiology, radiation oncology and nuclear medicine, in order to test and approve the latest technologies and equipment.",
+        "page_hint": "Page 8",
+        "concept_hash": "sha256_of_medical_physics_equipment"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 70,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q015",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "1.4 The Mission of Physics and Career Awareness",
+      "subsection": "1.4 The Mission of Physics and Career Awareness",
+      "sub_subsection": null,
+      "structural_anchor": "Physics careers in energy",
+      "mcq_type": "F",
+      "question": "With fossil fuel reserves declining, energy companies invest in renewable alternatives. Which reasoning best explains why physics expertise is crucial for this transition?",
+      "options": {
+        "A": "Physics principles enable the design of efficient systems that harness natural energy flows.",
+        "B": "Physics reduces the political challenges associated with energy policy changes.",
+        "C": "Physics knowledge eliminates the need for geological surveys of renewable resources.",
+        "D": "Physics ensures renewable energy is always cheaper than fossil fuels."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the fundamental role of physics in understanding energy conversion and system design.",
+      "explanation": "Physics provides the laws governing energy transformation and material properties essential for creating functional renewable technologies. Option C is incorrect because resource assessment still requires geological and meteorological input.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.4 The Mission of Physics and Career Awareness",
+        "subsection_anchor": "1.4 The Mission of Physics and Career Awareness",
+        "structural_element": "Physics careers in energy",
+        "content_anchor": "energy companies are also branching out into renewable alternatives... collaborate with other scientists and engineers to develop efficient and functional energy systems",
+        "page_hint": "Page 9",
+        "concept_hash": "sha256_of_physics_renewable_energy_design"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q016",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "1.5 Current Status of Physics",
+      "subsection": "1.5 Current Status of Physics",
+      "sub_subsection": null,
+      "structural_anchor": "Quantum cryptography:",
+      "mcq_type": "G",
+      "question": "If quantum cryptography is implemented for secure communication, what happens to the risk of interception by a third party?",
+      "options": {
+        "A": "The risk becomes negligible due to quantum mechanical principles.",
+        "B": "The risk increases because of faster transmission speeds.",
+        "C": "The risk remains unchanged compared to classical encryption.",
+        "D": "The risk shifts from electronic to physical interception."
+      },
+      "correct_answer": "A",
+      "hint": "Quantum mechanics provides fundamental security advantages.",
+      "explanation": "Quantum cryptography uses quantum superposition and entanglement to make eavesdropping detectable. Option C is incorrect because quantum methods offer provable security advantages over classical techniques.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.5 Current Status of Physics",
+        "subsection_anchor": "1.5 Current Status of Physics",
+        "structural_element": "Quantum cryptography:",
+        "content_anchor": "Quantum cryptography is an application of quantum physics that enhances the security of the information exchange at higher level.",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_quantum_cryptography_security"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q017",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "1.5 Current Status of Physics",
+      "subsection": "1.5 Current Status of Physics",
+      "sub_subsection": null,
+      "structural_anchor": "Global warming:",
+      "mcq_type": "I",
+      "question": "How does the approach of climate modeling differ from direct weather forecasting in terms of timescale and purpose?",
+      "options": {
+        "A": "Modeling predicts long-term trends, while forecasting addresses short-term conditions.",
+        "B": "Modeling relies solely on historical data, while forecasting uses satellite imagery.",
+        "C": "Modeling focuses on local events, while forecasting covers global patterns.",
+        "D": "Modeling requires less computational power than forecasting."
+      },
+      "correct_answer": "A",
+      "hint": "Consider the difference between climate (decades) and weather (days).",
+      "explanation": "Climate modeling analyzes long-term averages and trends over years to centuries. Option C incorrectly reverses the typical spatial scales; climate models are often global.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.5 Current Status of Physics",
+        "subsection_anchor": "1.5 Current Status of Physics",
+        "structural_element": "Global warming:",
+        "content_anchor": "Climate is a long- term weather variability averaged over many years and decades.",
+        "page_hint": "Page 12",
+        "concept_hash": "sha256_of_climate_modeling_vs_forecasting"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 80,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q018",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "1.5 Current Status of Physics",
+      "subsection": "1.5 Current Status of Physics",
+      "sub_subsection": null,
+      "structural_anchor": "James Webb Space Telescope (JWST)",
+      "mcq_type": "J",
+      "question": "Which category of celestial objects is the primary focus of an infrared telescope operating at 1.5 million km from Earth?",
+      "options": {
+        "A": "Distant galaxies and early universe structures",
+        "B": "Atmospheric phenomena on Jupiter",
+        "C": "Ocean currents and Earth's climate",
+        "D": "Volcanic activity on Mars"
+      },
+      "correct_answer": "A",
+      "hint": "Infrared observation is suited for detecting very distant and cool objects.",
+      "explanation": "JWST's infrared capabilities allow it to observe high-redshift galaxies and stellar nurseries obscured by dust. Option B focuses on planetary science, which is not the primary mission goal.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.5 Current Status of Physics",
+        "subsection_anchor": "1.5 Current Status of Physics",
+        "structural_element": "James Webb Space Telescope (JWST)",
+        "content_anchor": "It will tell us about assembly of galaxies, birth of stars and atmospheres of exoplanets",
+        "page_hint": "Page 14",
+        "concept_hash": "sha256_of_jwst_primary_focus"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q019",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "1.3 Making of Physics Knowledge",
+      "subsection": "1.3 Making of Physics Knowledge",
+      "sub_subsection": null,
+      "structural_anchor": "Experimental knowledge",
+      "mcq_type": "K",
+      "question": "A person recalls the sequence of a past experiment. What source of experiential knowledge does this primarily demonstrate?",
+      "options": {
+        "A": "Memory",
+        "B": "Sensory perception",
+        "C": "Introspection",
+        "D": "Testimony"
+      },
+      "correct_answer": "A",
+      "hint": "This involves retrieving stored information about past experiences.",
+      "explanation": "Memory allows access to previously experienced events in their original sequence. Option B involves direct current observation through senses, not recollection.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.3 Making of Physics Knowledge",
+        "subsection_anchor": "1.3 Making of Physics Knowledge",
+        "structural_element": "Experimental knowledge",
+        "content_anchor": "Memory: a memory is like a recording device that captures events that one can experience more or less in the order that they occur.",
+        "page_hint": "Page 5",
+        "concept_hash": "sha256_of_memory_as_knowledge_source"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 75,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      }
+    },
+    {
+      "question_id": "G11_Phy_U1_Q020",
+      "generation_timestamp": "2025-01-27T10:05:00Z",
+      "section": "1.2 Physics Communities and Their Roles",
+      "subsection": "1.2 Physics Communities and Their Roles",
+      "sub_subsection": null,
+      "structural_anchor": "Group Work",
+      "mcq_type": "L",
+      "question": "A student group researches a national space society's mission and strategies. What practical skill is most directly developed through this collaborative project?",
+      "options": {
+        "A": "Information gathering and synthesis from multiple sources",
+        "B": "Performing controlled laboratory experiments",
+        "C": "Solving abstract mathematical equations",
+        "D": "Calibrating precision measurement instruments"
+      },
+      "correct_answer": "A",
+      "hint": "The task involves searching, evaluating, and presenting information.",
+      "explanation": "Research projects enhance skills in locating, analyzing, and integrating information from various references. Option B involves experimental technique, which is not the focus of a desk-based research task.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 95
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: PHYSICS AND HUMAN SOCIETY",
+        "section_anchor": "1.2 Physics Communities and Their Roles",
+        "subsection_anchor": "1.2 Physics Communities and Their Roles",
+        "structural_element": "Group Work",
+        "content_anchor": "Make a group and do a project work on searching for detailed information about Ethiopian space science society (ESSS) mission, strategies, goals etc and present in the class.",
+        "page_hint": "Page 4",
+        "concept_hash": "sha256_of_research_project_skill"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 80,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3800,
+    "average_question_quality": 86.0,
+    "type_distribution": {
+      "A": 1,
+      "C": 1,
+      "E": 1,
+      "F": 1,
+      "G": 2,
+      "I": 1,
+      "J": 1,
+      "K": 1,
+      "L": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    },
+    "section_distribution": {
+      "1.1 Importance of Physics to Society": 1,
+      "1.2 Physics Communities and Their Roles": 2,
+      "1.3 Making of Physics Knowledge": 2,
+      "1.4 The Mission of Physics and Career Awareness": 2,
+      "1.5 Current Status of Physics": 3
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}

@@ -1,0 +1,1138 @@
+{
+    "project": "Nebular Cassini V1.0",
+    "status": "OPERATIONAL",
+    "last_updated": "2026-02-11T16:30:00Z",
+    "ui_standards": {
+        "architecture": "Single-Message Edit (In-place updates)",
+        "aesthetic": "Premium, Academic, Simple",
+        "layout_logic": "Grid-based (2-column preferred for speed)",
+        "navigation_logic": "ACTION|SCREEN|PARAM callback pattern"
+    },
+    "screens": {
+        "WELCOME": {
+            "screen_id": "SCR_WELCOME",
+            "header_id": "HDR_WELCOME",
+            "header_text": "🌌 *Nebular Cassini: Practice Hub*\n\nPractice unit-based MCQs for the Ethiopian G9-12 Science curriculum. 🇪🇹\n\n✨ *What you can do:* \n├ 🎯 *Unit Practice* — Over 1,000 MCQs\n├ ⏱️ *Timed Practice* — Build your exam speed\n├ 💬 *Practice with Friends* — Battle with classmates\n└ 📂 *Unit Study Guides* — Study offline anytime\n\n**Practice every day to get better results.** 🚀",
+            "layout": [
+                [
+                    "🚀 Start Practice"
+                ],
+                [
+                    "⚙️ Set Up Profile"
+                ]
+            ],
+            "actions": {
+                "🚀 Start Practice": "NAV|SCR_ONBOARDING_GRADE|ROOT",
+                "⚙️ Set Up Profile": "NAV|SCR_SETTINGS|ROOT"
+            }
+        },
+        "HUB": {
+            "screen_id": "SCR_HUB",
+            "header_text": "🌌 *NEBULAR CASSINI*\n{greeting} {user_name}!\n\n━━━━━━━━━━━━━━\n🏆 *Your Stats*\n🔰 Rank: {rank} (Level {level})\n🔥 Streak: {streak} Days\n🎓 Mastery: {mastery}%\n\n💡 *Tip:* {random_tip}\n━━━━━━━━━━━━━━\nSelect a practice mode:",
+            "layout": [
+                [
+                    "🚀 Start Practice"
+                ],
+                [
+                    "🔍 Advanced Practice",
+                    "📊 My Progress"
+                ],
+                [
+                    "🏆 Leaderboard",
+                    "⚡ Random MCQ Blitz"
+                ],
+                [
+                    "📔 MCQ Vault",
+                    "⚙️ Settings"
+                ],
+                [
+                    "🛠️ Admin Hub",
+                    "❓ help"
+                ],
+                [
+                    "📤 Share with Friends"
+                ]
+            ],
+            "actions": {
+                "🚀 Start Practice": "NAV|SCR_SUBJECTS|ROOT",
+                "🔍 Advanced Practice": "NAV|SCR_GAMEMODE|ROOT",
+                "📊 My Progress": "NAV|SCR_STATS|ROOT",
+                "🏆 Leaderboard": "NAV|SCR_RANKING|ROOT",
+                "⚡ Random MCQ Blitz": "NAV|SCR_RANDOM_SETUP|ROOT",
+                "📔 MCQ Vault": "NAV|SCR_RESOURCES_HUB|ROOT",
+                "⚙️ Settings": "NAV|SCR_SETTINGS|ROOT",
+                "❓ help": "NAV|SCR_HELP|ROOT",
+                "🛠️ Admin Hub": "NAV|SCR_ADMIN|ROOT",
+                "📤 Share with Friends": "ACT|SET|SHARE_BOT"
+            }
+        },
+        "RESOURCES_HUB": {
+            "screen_id": "SCR_RESOURCES_HUB",
+            "header_text": "📔 *MCQ Vault*\nDownload full practice volumes or specific unit tests in PDF format.",
+            "layout": [
+                [
+                    "🎓 G9",
+                    "🎓 G10",
+                    "🎓 G11",
+                    "🎓 G12"
+                ],
+                [
+                    "🧬 Biology",
+                    "🧪 Chemistry"
+                ],
+                [
+                    "⚛️ Physics",
+                    "📐 Mathematics"
+                ],
+                [
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "🎓 G9": "NAV|SCR_RESOURCES_HUB|9",
+                "🎓 G10": "NAV|SCR_RESOURCES_HUB|10",
+                "🎓 G11": "NAV|SCR_RESOURCES_HUB|11",
+                "🎓 G12": "NAV|SCR_RESOURCES_HUB|12",
+                "🧬 Biology": "NAV|SCR_RESOURCES_ACTIONS|BIO:{view_grade}",
+                "🧪 Chemistry": "NAV|SCR_RESOURCES_ACTIONS|CHEM:{view_grade}",
+                "⚛️ Physics": "NAV|SCR_RESOURCES_ACTIONS|PHYS:{view_grade}",
+                "📐 Mathematics": "NAV|SCR_RESOURCES_ACTIONS|MATH:{view_grade}",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "RESOURCES_ACTIONS": {
+            "screen_id": "SCR_RESOURCES_ACTIONS",
+            "header_text": "📚 *{subject_name} - Grade {view_grade}*\nWhat would you like to access?",
+            "layout": [
+                [
+                    "⚡ Review All Units"
+                ],
+                [
+                    "📂 Unit Study Guides"
+                ],
+                [
+                    "🔙 Back to Subjects",
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "⚡ Review All Units": "NAV|SCR_REVIEW_HUB|{subject}:{view_grade}",
+                "📂 Unit Study Guides": "NAV|SCR_PDF_VAULT|{subject}:{view_grade}",
+                "🔙 Back to Subjects": "NAV|SCR_RESOURCES_HUB|{view_grade}",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "RANDOM_SETUP": {
+            "screen_id": "SCR_RANDOM_SETUP",
+            "header_text": "⚡ *Random Quiz: Grade {view_grade}*\nSelect a grade level to challenge yourself!",
+            "layout": [
+                [
+                    "🎓 G9",
+                    "🎓 G10",
+                    "🎓 G11",
+                    "🎓 G12"
+                ],
+                [
+                    "⚡ Start Random Quiz"
+                ],
+                [
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "🎓 G9": "NAV|SCR_RANDOM_SETUP|9",
+                "🎓 G10": "NAV|SCR_RANDOM_SETUP|10",
+                "🎓 G11": "NAV|SCR_RANDOM_SETUP|11",
+                "🎓 G12": "NAV|SCR_RANDOM_SETUP|12",
+                "⚡ Start Random Quiz": "ACT|QUIZ|START_RANDOM_QUIZ|{view_grade}",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "SUBJECTS": {
+            "screen_id": "SCR_SUBJECTS",
+            "header_text": "📝 *Practice Hub: Grade {view_grade}*\nSelect a subject to begin practicing.",
+            "layout": [
+                [
+                    "🎓 G9",
+                    "🎓 G10",
+                    "🎓 G11",
+                    "🎓 G12"
+                ],
+                [
+                    "🧬 Biology",
+                    "🧪 Chemistry"
+                ],
+                [
+                    "⚛️ Physics",
+                    "📐 Mathematics"
+                ],
+                [
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "🎓 G9": "NAV|SCR_SUBJECTS|9",
+                "🎓 G10": "NAV|SCR_SUBJECTS|10",
+                "🎓 G11": "NAV|SCR_SUBJECTS|11",
+                "🎓 G12": "NAV|SCR_SUBJECTS|12",
+                "🧬 Biology": "NAV|SCR_UNITS|BIO:{view_grade}",
+                "🧪 Chemistry": "NAV|SCR_UNITS|CHEM:{view_grade}",
+                "⚛️ Physics": "NAV|SCR_UNITS|PHYS:{view_grade}",
+                "📐 Mathematics": "NAV|SCR_UNITS|MATH:{view_grade}",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "GRADES": {
+            "screen_id": "SCR_GRADES",
+            "header_text": "📅 *Select your Grade*\nWhich grade are you in?",
+            "layout": "DYNAMIC_SORTED_DESC",
+            "note": "Most recent grade (e.g. Grade 12) appears first.",
+            "buttons": [
+                [
+                    "Grade 12",
+                    "Grade 11"
+                ],
+                [
+                    "Grade 10",
+                    "Grade 9"
+                ],
+                [
+                    "🔙 Back to Subjects",
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "🔙 Back to Subjects": "NAV|SCR_SUBJECTS|BACK",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            },
+            "logic": "Checks /data folder for available grade JSONs before rendering."
+        },
+        "SETTINGS": {
+            "screen_id": "SCR_SETTINGS",
+            "header_text": "⚙️ *User Settings*\nConfigure your practice experience.",
+            "layout": [
+                [
+                    "🌐 Language: {current_lang}",
+                    "🔔 Notifications: {notif_status}"
+                ],
+                [
+                    "🧹 Reset Progress",
+                    "👤 Profile"
+                ],
+                [
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "🌐 Language: {current_lang}": "ACT|SET|TOGGLE_LANG",
+                "🔔 Notifications: {notif_status}": "ACT|SET|TOGGLE_NOTIF",
+                "🧹 Reset Progress": "NAV|SCR_RESET_CONFIRM|ROOT",
+                "👤 Profile": "NAV|SCR_PROFILE_SETTINGS|ROOT",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "LANGUAGE_SELECT": {
+            "screen_id": "SCR_LANG_SELECT",
+            "header_text": "🌐 *Select Language*\nChoose your preferred interface language.",
+            "layout": [
+                [
+                    "🇺🇸 English",
+                    "🇪🇹 Amharic"
+                ],
+                [
+                    "🔙 Back to Settings"
+                ]
+            ],
+            "actions": {
+                "🇺🇸 English": "ACT|SET|LANG|EN",
+                "🇪🇹 Amharic": "ACT|SET|LANG|AM",
+                "🔙 Back to Settings": "NAV|SCR_SETTINGS|BACK"
+            }
+        },
+        "PROFILE_SETTINGS": {
+            "screen_id": "SCR_PROFILE_SETTINGS",
+            "header_text": "👤 *Profile Settings*\nManage your student information.",
+            "layout": [
+                [
+                    "📅 Change Grade"
+                ],
+                [
+                    "🪪 View Student ID"
+                ],
+                [
+                    "🔙 Back to Settings"
+                ]
+            ],
+            "actions": {
+                "📅 Change Grade": "NAV|SCR_GRADE_SELECT|ROOT",
+                "🪪 View Student ID": "NAV|SCR_STUDENT_ID|ROOT",
+                "🔙 Back to Settings": "NAV|SCR_SETTINGS|BACK"
+            }
+        },
+        "GRADE_SELECT": {
+            "screen_id": "SCR_GRADE_SELECT",
+            "header_text": "📅 *Update your Grade*\nWhich grade are you currently in?",
+            "layout": [
+                [
+                    "Grade 9",
+                    "Grade 10"
+                ],
+                [
+                    "Grade 11",
+                    "Grade 12"
+                ],
+                [
+                    "🔙 Back"
+                ]
+            ],
+            "actions": {
+                "Grade 9": "ACT|SET|UPDATE_GRADE|9",
+                "Grade 10": "ACT|SET|UPDATE_GRADE|10",
+                "Grade 11": "ACT|SET|UPDATE_GRADE|11",
+                "Grade 12": "ACT|SET|UPDATE_GRADE|12",
+                "🔙 Back": "NAV|SCR_PROFILE_SETTINGS|BACK"
+            }
+        },
+        "RESET_CONFIRM": {
+            "screen_id": "SCR_RESET_CONFIRM",
+            "header_text": "⚠️ *Reset Progress?*\n\nAre you sure you want to reset ALL your progress? This cannot be undone.\n\nType 'CONFIRM' to proceed or go back.",
+            "layout": [
+                [
+                    "✅ Yes, Reset Everything"
+                ],
+                [
+                    "❌ No, Cancel"
+                ]
+            ],
+            "actions": {
+                "✅ Yes, Reset Everything": "ACT|SET|RESET_CONFIRM",
+                "❌ No, Cancel": "NAV|SCR_SETTINGS|BACK"
+            }
+        },
+        "STUDENT_ID_CARD": {
+            "screen_id": "SCR_STUDENT_ID",
+            "header_text": "🪪 *NEBULAR STUDENT IDENTIFICATION*\n━━━━━━━━━━━━━━\n👤 *NAME:* {user_name}\n🆔 *STUDENT ID:* {telegram_id}\n📅 *JOINED:* {join_date}\n━━━━━━━━━━━━━━\n🏆 *LEVEL:* {level_rank}\n🔥 *STREAK:* {streak_count} Days\n🧬 *TOP SUBJECT:* {best_subject}\n━━━━━━━━━━━━━━\n🎖️ *MEDALS EARNED:*\n{badge_list}",
+            "layout": [
+                [
+                    "🔙 Back",
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "🔙 Back": "NAV|SCR_PROFILE_SETTINGS|BACK",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "UNITS": {
+            "screen_id": "SCR_UNITS",
+            "header_text": "📖 *{subject_name} - Grade {grade}*\nSelect a unit to start your quiz.",
+            "layout": "GRID_2_COLUMN",
+            "top_row": [],
+            "bottom_rows": [
+                [
+                    "🔙 Back to Grades",
+                    "🏠 Home"
+                ]
+            ],
+            "logic": {
+                "rendering": "Normal list of units without locks. If completed, shows [✅].",
+                "alignment": "If odd number of units, the last unit button spans full width.",
+                "titles": "Unit titles ARE NOT in the button. Titles are displayed inside the Quiz Message (SCR_QUIZ)."
+            },
+            "actions": {
+                "🔙 Back to Grades": "NAV|SCR_GRADES|BACK",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "QUIZ_PRESENTATION": {
+            "screen_id": "SCR_QUIZ_PRES",
+            "header_text": "📖 {subject} - Grade {grade}              {curr_index}/{total_count}\n{unit_title}\n\n{dot_progress_bar}       {unit_progress}%\n━━━━━━━━━━━━━━\n\n❓ Question:\n\n{question_stem}",
+            "logic": {
+                "dot_progress_bar": "Sequence of 10 dots/squares representing batch progress.",
+                "skip_logic": "Clicking [⏩ Skip] increments index and loads next question without saving a result."
+            },
+            "layout": [
+                [
+                    "A",
+                    "B",
+                    "C",
+                    "D"
+                ],
+                [
+                    "📌 Pin",
+                    "🚪 Quit",
+                    "⏩ Skip"
+                ]
+            ],
+            "actions": {
+                "A": "ANS|MCQ|A",
+                "B": "ANS|MCQ|B",
+                "C": "ANS|MCQ|C",
+                "D": "ANS|MCQ|D",
+                "📌 Pin": "ACT|QUIZ|PIN",
+                "⏩ Skip": "ACT|QUIZ|SKIP",
+                "🚪 Quit": "NAV|SCR_HUB|ROOT",
+                "🧮 View Formula": "ACT|QUIZ|SHOW_FORMULA"
+            }
+        },
+        "GAME_PRESENTATION": {
+            "screen_id": "SCR_GAME_PRES",
+            "header_text": "{unit_title}\n\n{dot_progress_bar}\n━━━━━━━━━━━━━━\n\n❓ Question:\n\n{question_stem}",
+            "layout": [
+                [
+                    "A",
+                    "B",
+                    "C",
+                    "D"
+                ],
+                [
+                    "🚪 Exit"
+                ]
+            ],
+            "actions": {
+                "A": "ANS|MCQ|A",
+                "B": "ANS|MCQ|B",
+                "C": "ANS|MCQ|C",
+                "D": "ANS|MCQ|D",
+                "🚪 Exit": "NAV|SCR_GAMEMODE|ROOT"
+            }
+        },
+        "QUIZ_FEEDBACK": {
+            "screen_id": "SCR_QUIZ_FB",
+            "header_text": "❓ *Question:*\n\n{question_stem}\n\n━━━━━━━━━━━━━━\n{status_text}\nAnswer: {correct_option_letter}\n\nExplanation:\n\n{explanation_text}\n\n{ai_explanation}",
+            "logic": {
+                "ai_explanation": "The AI explanation is only fetched and displayed if [🤖 AI Solution] is clicked.",
+                "ai_auth_check": "Button [🤖 AI Solution] ONLY visible to Admin or users with 'AI_AUTHORIZED' permission set in Admin Panel.",
+                "flagging": "Users can flag questions for errors; saved to admin's 'Flagged Questions' bucket."
+            },
+            "layout": [
+                [
+                    "🚩 Flag",
+                    "🚪 Quit",
+                    "➡️ Next"
+                ]
+            ],
+            "actions": {
+                "➡️ Next": "ACT|QUIZ|LOAD_NEXT",
+                "🚩 Flag": "ACT|QUIZ|FLAG",
+                "🚪 Quit": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "REVIEW_HUB": {
+            "screen_id": "SCR_REVIEW_HUB",
+            "header_text": "⚡ *Review - {subject_name}*\nWhich part do you want to review?",
+            "layout": [
+                [
+                    "⚡ Part 1"
+                ],
+                [
+                    "⚡ Part 2"
+                ],
+                [
+                    "⚡ Part 3"
+                ],
+                [
+                    "🔙 Back to Units",
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "⚡ Part 1": "ACT|QUIZ|REVIEW_1",
+                "⚡ Part 2": "ACT|QUIZ|REVIEW_2",
+                "⚡ Part 3": "ACT|QUIZ|REVIEW_3",
+                "🔙 Back to Units": "NAV|SCR_UNITS|BACK",
+                "🏠 Home": "NAV|SCR_HUB|ROOT",
+                "❌ Retry Mistakes": "ACT|QUIZ|REVIEW_MISTAKES",
+                "⏩ Try Skipped": "ACT|QUIZ|REVIEW_SKIPPED"
+            },
+            "dynamic_features": "Buttons for [❌ Retry Mistakes] and [⏩ Try Skipped] are injected by screen_renderer if items exist."
+        },
+        "REVIEW_SUMMARY": {
+            "screen_id": "SCR_REVIEW_SUM",
+            "header_text": "✅ *Review Session Complete*\n\n📊 *Performance Summary*\n├ Correct: {correct_count}\n├ Incorrect: {incorrect_count}\n├ Skipped: {skipped_count}\n└ Accuracy: {accuracy_percentage}%\n\n\n🎯 Learning Streak: {streak} Days\n📊 Mastery Points: +{xp_reward}",
+            "layout": [
+                [
+                    "🔄 Restart Part"
+                ],
+                [
+                    "➡️ Next Part"
+                ],
+                [
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "🔄 Restart Part": "ACT|QUIZ|REPLAY",
+                "➡️ Next Part": "ACT|QUIZ|LOAD_NEXT_PART",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "QUIZ_SUMMARY": {
+            "screen_id": "SCR_QUIZ_SUM",
+            "header_text": "✅ *Practice Complete: {unit_title}*\n\n📊 *Performance Summary*\n├ Correct: {correct_count}\n├ Incorrect: {incorrect_count}\n├ Skipped: {skipped_count}\n└ Accuracy: {accuracy_percentage}%\n\n\n🎯 Learning Streak: {streak} Days\n📊 Mastery Points: +{xp_reward}",
+            "logic": {
+                "performance_metrics": "Full unit summary view."
+            },
+            "layout": [
+                [
+                    "🔄 Restart Unit"
+                ],
+                [
+                    "➡️ Next Unit"
+                ],
+                [
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "🔄 Restart Unit": "ACT|QUIZ|REPLAY",
+                "➡️ Next Unit": "ACT|QUIZ|LOAD_NEW_BATCH",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "RANDOM_SUMMARY": {
+            "screen_id": "SCR_RANDOM_SUM",
+            "header_text": "✅ *Random Practice Complete*\n\n📊 *Performance Summary*\n├ Correct: {correct_count}\n├ Incorrect: {incorrect_count}\n├ Skipped: {skipped_count}\n└ Accuracy: {accuracy_percentage}%\n\n\n🎯 Learning Streak: {streak} Days\n📊 Mastery Points: +{xp_reward}",
+            "layout": [
+                [
+                    "⚡ New Random Quiz"
+                ],
+                [
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "⚡ New Random Quiz": "ACT|QUIZ|START_RANDOM_QUIZ|{grade}",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "PROGRESS": {
+            "screen_id": "SCR_STATS",
+            "header_text": "📊 *Academic Dashboard: Grade {view_grade}*\n\n✨ *Level Progress*\n{level_progress}\n\n🧬 *Biology*\n{bio_dots} {bio_perc}% {bio_badges}\n\n🧪 *Chemistry*\n{chem_dots} {chem_perc}% {chem_badges}\n\n⚛️ *Physics*\n{phys_dots} {phys_perc}% {phys_badges}\n\n📐 *Mathematics*\n{math_dots} {math_perc}% {math_badges}",
+            "logic": {
+                "active_grade_toggle": "Buttons allow viewing progress for any grade without changing profile setting."
+            },
+            "layout": [
+                [
+                    "🎓 G9",
+                    "🎓 G10",
+                    "🎓 G11",
+                    "🎓 G12"
+                ],
+                [
+                    "🧬 Biology",
+                    "🧪 Chemistry"
+                ],
+                [
+                    "⚛️ Physics",
+                    "📐 Mathematics"
+                ],
+                [
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "🎓 G9": "NAV|SCR_STATS|9",
+                "🎓 G10": "NAV|SCR_STATS|10",
+                "🎓 G11": "NAV|SCR_STATS|11",
+                "🎓 G12": "NAV|SCR_STATS|12",
+                "🧬 Biology": "NAV|SCR_STATS_DETAIL|BIO:{view_grade}",
+                "🧪 Chemistry": "NAV|SCR_STATS_DETAIL|CHEM:{view_grade}",
+                "⚛️ Physics": "NAV|SCR_STATS_DETAIL|PHYS:{view_grade}",
+                "📐 Mathematics": "NAV|SCR_STATS_DETAIL|MATH:{view_grade}",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "LEADERBOARD": {
+            "screen_id": "SCR_RANKING",
+            "header_text": "🏆 *Leaderboard: {current_scope}*\n*Resetting in: {countdown}*\n\n{rank_list}\n━━━━━━━━━━━━━━\n🎖️ *Your Rank: #{user_rank}*\n{user_xp} XP ({needed_xp} to level up)",
+            "logic": {
+                "scopes": [
+                    "Global",
+                    "Weekly"
+                ],
+                "rank_list": "Displays Top 10 with 🥇, 🥈, 🥉 medals for the top 3."
+            },
+            "layout": [
+                [
+                    "🌍 Global",
+                    "📅 Weekly"
+                ],
+                [
+                    "🏠 Back Home"
+                ]
+            ],
+            "actions": {
+                "🌍 Global": "ACT|RANK|SWITCH_GLOBAL",
+                "📅 Weekly": "ACT|RANK|SWITCH_WEEKLY",
+                "🏠 Back Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "PROGRESS_DETAIL": {
+            "screen_id": "SCR_STATS_DETAIL",
+            "header_text": "📉 *Academic Audit: {subject}*\n━━━━━━━━━━━━━━\n🏆 Subject Rank: {subject_rank}\n📖 Coverage: {subject_coverage}\n━━━━━━━━━━━━━━\n\n{unit_breakdown_list}",
+            "logic": {
+                "unit_breakdown_list": "Vertical list showing: 'Unit {X}: {perc}% {dot_indicator}' for every unit in the subject."
+            },
+            "layout": [
+                [
+                    "🔙 Back to Dashboard"
+                ],
+                [
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "🔙 Back to Dashboard": "NAV|SCR_STATS|{view_grade}",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "GAMEMODE_HUB": {
+            "screen_id": "SCR_GAMEMODE",
+            "header_text": "🔍 *Advanced Practice: Grade {view_grade}*\nSelect a mode to test your speed and accuracy.",
+            "layout": [
+                [
+                    "🎓 G9",
+                    "🎓 G10",
+                    "🎓 G11",
+                    "🎓 G12"
+                ],
+                [
+                    "⏱️ Timed Practice"
+                ],
+                [
+                    "🎯 Precision Test"
+                ],
+                [
+                    "💬 Practice with Friends"
+                ],
+                [
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "🎓 G9": "NAV|SCR_GAMEMODE|9",
+                "🎓 G10": "NAV|SCR_GAMEMODE|10",
+                "🎓 G11": "NAV|SCR_GAMEMODE|11",
+                "🎓 G12": "NAV|SCR_GAMEMODE|12",
+                "⏱️ Timed Practice": "NAV|SCR_SPEEDRUN_HUB|{view_grade}",
+                "🎯 Precision Test": "NAV|SCR_SURVIVAL_SETUP|{view_grade}",
+                "💬 Practice with Friends": "NAV|SCR_MULTIPLAYER_HUB|ROOT",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "SPEEDRUN_HUB": {
+            "screen_id": "SCR_SPEEDRUN_HUB",
+            "header_text": "⏱️ *Timed Practice Setup*\nGrade {view_grade} | {dur} min | {cnt} Qs.\n\n_Tap a subject below to 🚀 START immediately!_",
+            "layout": [
+                [
+                    "🕒 30 min",
+                    "🕒 60 min",
+                    "🕒 120 min"
+                ],
+                [
+                    "🔢 30 Qs",
+                    "🔢 60 Qs",
+                    "🔢 100 Qs"
+                ],
+                [
+                    "🧬 Biology",
+                    "🧪 Chemistry"
+                ],
+                [
+                    "⚛️ Physics",
+                    "📐 Mathematics"
+                ],
+                [
+                    "🌟 Mixed Science"
+                ],
+                [
+                    "🔙 Back"
+                ]
+            ],
+            "actions": {
+                "🕒 30 min": "ACT|SPEEDRUN|DUR|30",
+                "🕒 60 min": "ACT|SPEEDRUN|DUR|60",
+                "🕒 120 min": "ACT|SPEEDRUN|DUR|120",
+                "🔢 30 Qs": "ACT|SPEEDRUN|CNT|30",
+                "🔢 60 Qs": "ACT|SPEEDRUN|CNT|60",
+                "🔢 100 Qs": "ACT|SPEEDRUN|CNT|100",
+                "🧬 Biology": "ACT|SPEEDRUN|SUBJ|BIO",
+                "🧪 Chemistry": "ACT|SPEEDRUN|SUBJ|CHEM",
+                "⚛️ Physics": "ACT|SPEEDRUN|SUBJ|PHYS",
+                "📐 Mathematics": "ACT|SPEEDRUN|SUBJ|MATH",
+                "🌟 Mixed Science": "ACT|SPEEDRUN|SUBJ|MIXED",
+                "🔙 Back": "NAV|SCR_GAMEMODE|ROOT"
+            }
+        },
+        "SURVIVAL_SETUP": {
+            "screen_id": "SCR_SURVIVAL_SETUP",
+            "header_text": "🎯 *Precision Test (Grade {view_grade})*\nSee how many questions you can answer without a single error.",
+            "layout": [
+                [
+                    "🧬 Biology",
+                    "🧪 Chemistry"
+                ],
+                [
+                    "⚛️ Physics",
+                    "📐 Mathematics"
+                ],
+                [
+                    "🔙 Back"
+                ]
+            ],
+            "actions": {
+                "🧬 Biology": "ACT|SURVIVAL|START_{param}:BIO",
+                "🧪 Chemistry": "ACT|SURVIVAL|START_{param}:CHEM",
+                "⚛️ Physics": "ACT|SURVIVAL|START_{param}:PHYS",
+                "📐 Mathematics": "ACT|SURVIVAL|START_{param}:MATH",
+                "🔙 Back": "NAV|SCR_GAMEMODE|ROOT"
+            }
+        },
+        "MULTIPLAYER_HUB": {
+            "screen_id": "SCR_MULTIPLAYER_HUB",
+            "header_text": "💬 *Practice with Friends*\nWork through the same questions with others in real-time.",
+            "layout": [
+                [
+                    "⚔️ Create New Challenge"
+                ],
+                [
+                    "📥 View Active Invites"
+                ],
+                [
+                    "🔙 Back to Advanced Practice"
+                ]
+            ],
+            "actions": {
+                "⚔️ Create New Challenge": "NAV|SCR_MP_SUBJ_SELECT|ROOT",
+                "📥 View Active Invites": "NAV|SCR_INVITES|ROOT",
+                "🔙 Back to Advanced Practice": "NAV|SCR_GAMEMODE|ROOT"
+            }
+        },
+        "MULTIPLAYER_SUBJECT_SELECT": {
+            "screen_id": "SCR_MP_SUBJ_SELECT",
+            "header_text": "💬 *Practice with Friends - Choose Subject*\nSelect a subject for your shared practice session.",
+            "layout": [
+                [
+                    "🧬 Biology",
+                    "🧪 Chemistry"
+                ],
+                [
+                    "⚛️ Physics",
+                    "📐 Mathematics"
+                ],
+                [
+                    "🎲 Mixed (All Subjects)"
+                ],
+                [
+                    "🔙 Back"
+                ]
+            ],
+            "logic": "Questions are pulled randomly from the student's current Grade.",
+            "actions": {
+                "🧬 Biology": "ACT|MP|GENERATE|BIO",
+                "🧪 Chemistry": "ACT|MP|GENERATE|CHEM",
+                "⚛️ Physics": "ACT|MP|GENERATE|PHYS",
+                "📐 Mathematics": "ACT|MP|GENERATE|MATH",
+                "🎲 Mixed (All Subjects)": "ACT|MP|GENERATE|MIXED",
+                "🔙 Back": "NAV|SCR_MULTIPLAYER_HUB|BACK"
+            }
+        },
+        "MULTIPLAYER_INVITE_SENT": {
+            "screen_id": "SCR_MP_LINK_READY",
+            "header_text": "🔗 *Challenge Ready!*\n\nI've prepared 10 questions for your battle.\n\n👇 *Share this link with your friend:*",
+            "layout": [
+                [
+                    "📤 Share Link"
+                ],
+                [
+                    "🏠 Return to Hub"
+                ]
+            ],
+            "logic": {
+                "share_action": "Provides a copyable deep-link or inline share button."
+            },
+            "actions": {
+                "📤 Share Link": "ACT|MP|SHARE_TRIGGER",
+                "🏠 Return to Hub": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "INVITES_LIST": {
+            "screen_id": "SCR_INVITES",
+            "header_text": "📥 *Your Active Challenges*\nWho's ready to battle today?",
+            "layout": "DYNAMIC_INVITE_BUTTONS",
+            "logic": {
+                "button_generation": "Lists active invites like: '⚔️ VS {OpponentName} ({Subject})'.",
+                "no_invites_text": "You have no active challenges. Go create one! 🚀"
+            },
+            "actions": {
+                "CHALLENGE_BTN_{ID}": "ACT|MP|START_BATTLE_{ID}",
+                "🔙 Back": "NAV|SCR_MULTIPLAYER_HUB|BACK"
+            }
+        },
+        "HELP_HUB": {
+            "screen_id": "SCR_HELP",
+            "header_text": "❓ *How can we help you?*\nSelect a topic below for detailed information about the practice engine.",
+            "layout": [
+                [
+                    "📖 Usage Guide"
+                ],
+                [
+                    "🛠️ Practice Features"
+                ],
+                [
+                    "📐 Curriculum Info"
+                ],
+                [
+                    "📞 Contact Support"
+                ],
+                [
+                    "🏠 Back Home"
+                ]
+            ],
+            "actions": {
+                "📖 Usage Guide": "ACT|HELP|HOW_TO_PLAY",
+                "🛠️ Practice Features": "ACT|HELP|FEATURES",
+                "📐 Curriculum Info": "ACT|HELP|CURRICULUM",
+                "📞 Contact Support": "ACT|HELP|SUPPORT",
+                "🏠 Back Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "HELP_TEXT_MANAGER": {
+            "logic": {
+                "presentation": "Option B - One long, well-formatted message with bullet points.",
+                "topics": {
+                    "HOW_TO_PLAY": "Explains XP, Streaks, Dot Progress, and Leveling up.",
+                    "FEATURES": "Explains Timed Exam, Peer Duel, and PDF Vault access.",
+                    "CURRICULUM": "Explains the automated extraction from Ethiopian G9-12 textbooks.",
+                    "SUPPORT": "Provides the official @TelegramUsername for the bot administrator."
+                }
+            }
+        },
+        "ADMIN_HUB": {
+            "screen_id": "SCR_ADMIN",
+            "header_text": "🛠️ *Admin Command Center*\nRestricted access only. Manage the educational engine.",
+            "layout": [
+                [
+                    "📂 Content Manager",
+                    "📈 System Stats"
+                ],
+                [
+                    "🚩 Flagged Questions",
+                    "📝 Lock Registry"
+                ],
+                [
+                    "🚨 Global Reset"
+                ],
+                [
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "📂 Content Manager": "NAV|SCR_ADMIN_CONTENT|ROOT",
+                "📈 System Stats": "NAV|SCR_ADMIN_STATS|ROOT",
+                "🚩 Flagged Questions": "NAV|SCR_ADMIN_FLAGS|ROOT",
+                "📝 Lock Registry": "NAV|SCR_ADMIN_LOCKS|ROOT",
+                "🚨 Global Reset": "NAV|SCR_ADMIN_RESET_CONFIRM|ROOT",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "ADMIN_RESET_CONFIRM": {
+            "screen_id": "SCR_ADMIN_RESET_CONFIRM",
+            "header_text": "🚨 *GLOBAL SYSTEM RESET?*\n\nThis will wipe ALL users, ALL progress, and ALL sessions. The bot will start from scratch.\n\n*ARE YOU ABSOLUTELY SURE?*",
+            "layout": [
+                [
+                    "🔥 WIPE EVERYTHING"
+                ],
+                [
+                    "🔙 Back to Admin"
+                ]
+            ],
+            "actions": {
+                "🔥 WIPE EVERYTHING": "ACT|ADMIN|GLOBAL_WIPE",
+                "🔙 Back to Admin": "NAV|SCR_ADMIN|ROOT"
+            }
+        },
+        "ADMIN_STATS": {
+            "screen_id": "SCR_ADMIN_STATS",
+            "header_text": "📈 *System Performance Stats*\n\n👥 Total Users: {total_users}\n⚡ Global XP: {total_xp_global}\n❓ Questions Answered: {total_attempts}\n❌ Total Mistakes: {total_mistakes}\n🚩 Flagged Content: {total_flagged}",
+            "layout": [
+                [
+                    "📊 View Active Users"
+                ],
+                [
+                    "🏥 System Health"
+                ],
+                [
+                    "📤 Export All Data"
+                ],
+                [
+                    "🔙 Back to Admin"
+                ]
+            ],
+            "actions": {
+                "📊 View Active Users": "ACT|ADMIN|VIEW_ACTIVE_USERS",
+                "🏥 System Health": "ACT|ADMIN|VIEW_SYSTEM_HEALTH",
+                "📤 Export All Data": "ACT|ADMIN|EXPORT_ALL_DATA",
+                "🔙 Back to Admin": "NAV|SCR_ADMIN|ROOT"
+            }
+        },
+        "ADMIN_FLAGS": {
+            "screen_id": "SCR_ADMIN_FLAGS",
+            "header_text": "🚩 *Flagged Content Queue*\nReview questions reported by students for errors.",
+            "layout": "DYNAMIC_FLAG_BUTTONS",
+            "actions": {
+                "FLAG_{ID}": "NAV|SCR_ADMIN_FLAG_REVIEW|{ID}",
+                "🔙 Back to Admin": "NAV|SCR_ADMIN|ROOT"
+            }
+        },
+        "ADMIN_FLAG_REVIEW": {
+            "screen_id": "SCR_ADMIN_FLAG_REVIEW",
+            "header_text": "🚩 *Flag Review*\nID: `{q_id}`\nReports: {flag_count}\n\n*Reasons:* \n{reasons}\n\n━━━━━━━━━━━━━━\n📝 *STEM:* {stem}\n✅ *CORRECT:* {correct}\n━━━━━━━━━━━━━━",
+            "layout": [
+                [
+                    "✅ Resolve (Clear Flags)"
+                ],
+                [
+                    "🔙 Back to List"
+                ]
+            ],
+            "actions": {
+                "✅ Resolve (Clear Flags)": "ACT|ADMIN|RESOLVE_FLAG|{param}",
+                "🔙 Back to List": "NAV|SCR_ADMIN_FLAGS|BACK"
+            }
+        },
+        "ADMIN_CONTENT_MANAGER": {
+            "screen_id": "SCR_ADMIN_CONTENT",
+            "header_text": "📂 *Content Manager*\nUpdate the question bank and curriculum data.",
+            "layout": [
+                [
+                    "➕ Add Single Question"
+                ],
+                [
+                    "📁 Upload JSON File"
+                ],
+                [
+                    "📄 Upload CSV File"
+                ],
+                [
+                    "🔙 Back to Admin"
+                ]
+            ],
+            "actions": {
+                "➕ Add Single Question": "ACT|ADMIN|START_ADD_FLOW",
+                "📁 Upload JSON File": "ACT|ADMIN|WAIT_JSON",
+                "📄 Upload CSV File": "ACT|ADMIN|WAIT_CSV",
+                "🔙 Back to Admin": "NAV|SCR_ADMIN|ROOT"
+            }
+        },
+        "ADMIN_ADD_SINGLE_FLOW": {
+            "screen_id": "SCR_ADMIN_ADD_SINGLE",
+            "logic": {
+                "presentation": "Option B - Interactive Step-by-Step Chat.",
+                "steps": [
+                    "Step 1: 'Please send the Question Stem (Text).'",
+                    "Step 2: 'Please send Option A.'",
+                    "Step 3: 'Please send Option B.'",
+                    "Step 4: 'Please send Option C.'",
+                    "Step 5: 'Please send Option D.'",
+                    "Step 6: 'Which is correct? (A, B, C, or D)'",
+                    "Step 7: 'Send the Explanation text.'",
+                    "Step 8: 'Confirm & Save?'"
+                ],
+                "error_handling": "User can click [❌ Cancel] at any step to abort the flow."
+            }
+        },
+        "ADMIN_LOCK_REGISTRY": {
+            "screen_id": "SCR_ADMIN_LOCKS",
+            "header_text": "🔐 *Lock Registry - Admin Controls*\n\nManually lock or unlock features, grades, subjects, and units.\n\n━━━━━━━━━━━━━━\n⚙️ *What You Can Lock*\n━━━━━━━━━━━━━━\n\n• **Features** - Advanced Practice, Random Quiz, etc.\n• **Grades** - Entire grade levels (9-12)\n• **Subjects** - Biology, Chemistry, Physics, Math\n• **Units** - Individual units within subjects\n\n━━━━━━━━━━━━━━\n🎯 *Lock Effects*\n━━━━━━━━━━━━━━\n\nLocked items will be:\n• Hidden from user menus\n• Inaccessible even with direct links\n• Shown as \"Under Maintenance\" or \"Locked\"\n• Automatically enforced system-wide",
+            "layout": [
+                [
+                    "⚡ Lock Advanced Features"
+                ],
+                [
+                    "🎓 Lock Grades",
+                    "📚 Lock Subjects"
+                ],
+                [
+                    "📖 Lock Units"
+                ],
+                [
+                    "📊 View All Locks"
+                ],
+                [
+                    "🔙 Back to Admin"
+                ]
+            ],
+            "actions": {
+                "⚡ Lock Advanced Features": "NAV|SCR_LOCK_FEATURES|ROOT",
+                "🎓 Lock Grades": "NAV|SCR_LOCK_GRADES|ROOT",
+                "📚 Lock Subjects": "NAV|SCR_LOCK_SUBJECTS|ROOT",
+                "📖 Lock Units": "NAV|SCR_LOCK_UNITS|ROOT",
+                "📊 View All Locks": "ACT|ADMIN|VIEW_ALL_LOCKS",
+                "🔙 Back to Admin": "NAV|SCR_ADMIN|ROOT"
+            }
+        },
+        "LOCK_FEATURES": {
+            "screen_id": "SCR_LOCK_FEATURES",
+            "header_text": "🎮 *Lock/Unlock Features*\n\nControl access to bot features.\n\n━━━━━━━━━━━━━━\n📋 *Available Features*\n━━━━━━━━━━━━━━",
+            "layout": "DYNAMIC_FEATURE_LOCKS",
+            "actions": {
+                "TOGGLE_FEATURE_{NAME}": "ACT|LOCK|TOGGLE_FEATURE|{NAME}",
+                "🔙 Back to Lock Registry": "NAV|SCR_ADMIN_LOCKS|BACK"
+            }
+        },
+        "LOCK_GRADES": {
+            "screen_id": "SCR_LOCK_GRADES",
+            "header_text": "🎓 *Lock/Unlock Grades*\n\nControl access to entire grade levels.\n\n━━━━━━━━━━━━━━\n📋 *Grade Levels*\n━━━━━━━━━━━━━━",
+            "layout": "DYNAMIC_GRADE_LOCKS",
+            "actions": {
+                "TOGGLE_GRADE_{NUM}": "ACT|LOCK|TOGGLE_GRADE|{NUM}",
+                "🔙 Back to Lock Registry": "NAV|SCR_ADMIN_LOCKS|BACK"
+            }
+        },
+        "LOCK_SUBJECTS": {
+            "screen_id": "SCR_LOCK_SUBJECTS",
+            "header_text": "📚 *Lock/Unlock Subjects*\n\nControl access to subjects across all grades.\n\n━━━━━━━━━━━━━━\n📋 *Subjects*\n━━━━━━━━━━━━━━",
+            "layout": "DYNAMIC_SUBJECT_LOCKS",
+            "actions": {
+                "TOGGLE_SUBJECT_{NAME}": "ACT|LOCK|TOGGLE_SUBJECT|{NAME}",
+                "🔙 Back to Lock Registry": "NAV|SCR_ADMIN_LOCKS|BACK"
+            }
+        },
+        "LOCK_UNITS": {
+            "screen_id": "SCR_LOCK_UNITS",
+            "header_text": "📖 *Lock/Unlock Units*\n\nSelect a subject and grade to manage unit locks.\n\n━━━━━━━━━━━━━━\n📋 *Choose Subject*\n━━━━━━━━━━━━━━",
+            "layout": [
+                [
+                    "🧬 Biology",
+                    "🧪 Chemistry"
+                ],
+                [
+                    "⚛️ Physics",
+                    "📐 Mathematics"
+                ],
+                [
+                    "🔙 Back to Lock Registry"
+                ]
+            ],
+            "actions": {
+                "🧬 Biology": "NAV|SCR_LOCK_UNIT_GRADE|BIO",
+                "🧪 Chemistry": "NAV|SCR_LOCK_UNIT_GRADE|CHEM",
+                "⚛️ Physics": "NAV|SCR_LOCK_UNIT_GRADE|PHYS",
+                "📐 Mathematics": "NAV|SCR_LOCK_UNIT_GRADE|MATH",
+                "🔙 Back to Lock Registry": "NAV|SCR_ADMIN_LOCKS|BACK"
+            }
+        },
+        "LOCK_UNIT_GRADE": {
+            "screen_id": "SCR_LOCK_UNIT_GRADE",
+            "header_text": "📖 *Lock Units - {subject_name}*\n\nSelect a grade to manage unit locks.\n\n━━━━━━━━━━━━━━\n📋 *Choose Grade*\n━━━━━━━━━━━━━━",
+            "layout": [
+                [
+                    "Grade 9",
+                    "Grade 10"
+                ],
+                [
+                    "Grade 11",
+                    "Grade 12"
+                ],
+                [
+                    "🔙 Back"
+                ]
+            ],
+            "actions": {
+                "Grade 9": "NAV|SCR_LOCK_UNIT_LIST|{param}:9",
+                "Grade 10": "NAV|SCR_LOCK_UNIT_LIST|{param}:10",
+                "Grade 11": "NAV|SCR_LOCK_UNIT_LIST|{param}:11",
+                "Grade 12": "NAV|SCR_LOCK_UNIT_LIST|{param}:12",
+                "🔙 Back": "NAV|SCR_LOCK_UNITS|BACK"
+            }
+        },
+        "LOCK_UNIT_LIST": {
+            "screen_id": "SCR_LOCK_UNIT_LIST",
+            "header_text": "📖 *Lock Units - {subject_name} Grade {grade}*\n\nToggle locks for individual units.\n\n━━━━━━━━━━━━━━\n📋 *Units*\n━━━━━━━━━━━━━━",
+            "layout": "DYNAMIC_UNIT_LOCKS",
+            "actions": {
+                "TOGGLE_UNIT_{ID}": "ACT|LOCK|TOGGLE_UNIT|{ID}",
+                "🔙 Back": "NAV|SCR_LOCK_UNIT_GRADE|BACK"
+            }
+        },
+        "PDF_VAULT": {
+            "screen_id": "SCR_PDF_VAULT",
+            "header_text": "📂 *MCQ Download Vault*\nDownload Unit MCQs with correct answers at the end.",
+            "layout": "GRID_2_COLUMN",
+            "top_row": [
+                "📚 DOWNLOAD ALL UNITS"
+            ],
+            "actions": {
+                "📚 DOWNLOAD ALL UNITS": "ACT|FILE|SEND_PDF_ALL",
+                "DOWNLOAD UNIT {X}": "ACT|FILE|SEND_PDF_{ID}",
+                "🔙 Back to Units": "NAV|SCR_UNITS|BACK"
+            }
+        },
+        "REPORT_OPTIONS": {
+            "screen_id": "SCR_REPORT_OPTIONS",
+            "header_text": "🚩 *Report an Issue*\nWhat is wrong with this question?",
+            "layout": [
+                [
+                    "Technical Error",
+                    "Incorrect Answer"
+                ],
+                [
+                    "Scientific Error",
+                    "Typo/Formatting"
+                ],
+                [
+                    "🔙 Back to Quiz"
+                ]
+            ],
+            "actions": {
+                "Technical Error": "ACT|REPORT_OPTIONS|TECH",
+                "Incorrect Answer": "ACT|REPORT_OPTIONS|ANS",
+                "Scientific Error": "ACT|REPORT_OPTIONS|SCI",
+                "Typo/Formatting": "ACT|REPORT_OPTIONS|TYPO",
+                "🔙 Back to Quiz": "ACT|QUIZ|LOAD_NEXT"
+            }
+        },
+        "GAME_SUMMARY": {
+            "screen_id": "SCR_GAME_SUM",
+            "header_text": "🏁 *Practice Session Complete*\n\nStatus: {reason}\n━━━━━━━━━━━━━━\n🏆 Performance Points: {score}\n📊 Mastery XP: +{xp_earned}\n━━━━━━━━━━━━━━\n{high_score_text}\n\nKeep practicing to master every subject!",
+            "layout": [
+                [
+                    "🔄 Try Again"
+                ],
+                [
+                    "🔙 Back to Advanced Practice"
+                ],
+                [
+                    "🏠 Home"
+                ]
+            ],
+            "actions": {
+                "🔄 Try Again": "ACT|GAME|REPLAY",
+                "🔙 Back to Advanced Practice": "NAV|SCR_GAMEMODE|ROOT",
+                "🏠 Home": "NAV|SCR_HUB|ROOT"
+            }
+        },
+        "ONBOARDING_GRADE": {
+            "screen_id": "SCR_ONBOARDING_GRADE",
+            "header_text": "🎓 *Set Your Grade*\n\nPlease select your current grade level to customize your experience.\n\n✨ *Don't worry, you can easily change this later in settings or use any grade level you want while practicing!*",
+            "layout": [
+                [
+                    "Grade 9",
+                    "Grade 10"
+                ],
+                [
+                    "Grade 11",
+                    "Grade 12"
+                ]
+            ],
+            "actions": {
+                "Grade 9": "ACT|SET|ONBOARD_GRADE|9",
+                "Grade 10": "ACT|SET|ONBOARD_GRADE|10",
+                "Grade 11": "ACT|SET|ONBOARD_GRADE|11",
+                "Grade 12": "ACT|SET|ONBOARD_GRADE|12"
+            }
+        }
+    }
+}

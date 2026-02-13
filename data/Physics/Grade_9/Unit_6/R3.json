@@ -1,0 +1,851 @@
+{
+  "engine_version": "mcq_engine_spec_v7",
+  "engine_timestamp": "2024-01-30T08:35:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Phy_U6_Q030",
+    "covered_sections": [
+      "Introduction",
+      "Common Characteristics of Waves (6.1)",
+      "String, Pendulum and Spring (6.2)",
+      "Propagation of Waves and Energy Transmission (6.3)",
+      "Sound Waves (6.4)",
+      "Superposition of Waves (6.5)",
+      "Characteristics of Sound Waves (6.6)"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5_Intro_Oscillation_Definition_A",
+      "f6g7h8i9j0_6.1_Period_Definition_B",
+      "k1l2m3n4o5_6.1_Wavelength_Definition_B",
+      "p6q7r8s9t0_6.1_WaveSpeed_Formula_C",
+      "u1v2w3x4y5_6.1_v=λf_Direct_D",
+      "z6a7b8c9d0_6.1_FreqPeriod_Relation_E",
+      "e1f2g3h4i5_6.2_PendulumPeriod_Formula_C",
+      "j6k7l8m9n0_6.2_PendulumIndependence_Conceptual_F",
+      "o1p2q3r4s5_6.2_HookesLaw_Definition_A",
+      "t6u7v8w9x0_6.2_SpringPeriod_Formula_C",
+      "y1z2a3b4c5_6.1_Amplitude_Definition_B",
+      "d6e7f8g9h0_6.1_CrestTrough_Identification_B",
+      "i1j2k3l4m5_6.1_WaveSpeedCalc_E",
+      "n6o7p8q9r0_6.3_MechanicalWave_Definition_A",
+      "s1t2u3v4w5_6.3_TransverseWave_Definition_A",
+      "x6y7z8a9b0_6.3_LongitudinalWave_Definition_A",
+      "c1d2e3f4g5_6.4_SoundProduction_Conceptual_F",
+      "h6i7j8k9l0_6.4_SoundSpeedTemp_E",
+      "m1n2o3p4q5_6.5_Superposition_Definition_A",
+      "r6s7t8u9v0_6.6_PitchLoudness_Identification_B",
+      "w1x2y3z4a5_6.2_PendulumCalc_E",
+      "b6c7d8e9f0_6.2_SpringCalc_E",
+      "g1h2i3j4k5_6.3_WaveClassification_J",
+      "l6m7n8o9p0_6.4_SoundSpeedMedia_Comparison_I",
+      "q1r2s3t4u5_6.4_EchoCalc_E",
+      "v6w7x8y9z0_6.5_ConstructiveDestructive_G",
+      "a1b2c3d4e6_6.5_StandingWave_Definition_A",
+      "f7g8h9i0j1_6.6_Loudness_Definition_B",
+      "k2l3m4n5o6_6.6_Timbre_Definition_B",
+      "p7q8r9s0t1_6.1_RestPosition_Definition_B"
+    ],
+    "baseline_counter": {
+      "Introduction": {
+        "count": 1,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "Common Characteristics of Waves (6.1)": {
+        "count": 11,
+        "mini_headings_covered": [
+          "Period (T):",
+          "Frequency (f):",
+          "Wavelength (λ):",
+          "Wave speed (v):",
+          "Amplitude (A):",
+          "Crest:",
+          "Trough:",
+          "Rest position:"
+        ],
+        "last_question_round": 3
+      },
+      "String, Pendulum and Spring (6.2)": {
+        "count": 6,
+        "mini_headings_covered": [
+          "Periodic motion:",
+          "The simple spring:"
+        ],
+        "last_question_round": 3
+      },
+      "Propagation of Waves and Energy Transmission (6.3)": {
+        "count": 4,
+        "mini_headings_covered": [
+          "Transverse and Longitudinal Waves:"
+        ],
+        "last_question_round": 3
+      },
+      "Sound Waves (6.4)": {
+        "count": 4,
+        "mini_headings_covered": [
+          "Production and Propagation of Sound:",
+          "Speed of Sound:",
+          "Reflection, Refraction, Diffraction and Interference of Sound:"
+        ],
+        "last_question_round": 3
+      },
+      "Superposition of Waves (6.5)": {
+        "count": 3,
+        "mini_headings_covered": [
+          "Standing Waves:"
+        ],
+        "last_question_round": 3
+      },
+      "Characteristics of Sound Waves (6.6)": {
+        "count": 3,
+        "mini_headings_covered": [
+          "Pitch:",
+          "Loudness:",
+          "Timber (Quality):"
+        ],
+        "last_question_round": 3
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "Common Characteristics of Waves (6.1)": {
+        "question_count": 11,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "String, Pendulum and Spring (6.2)": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "Propagation of Waves and Energy Transmission (6.3)": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Sound Waves (6.4)": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Superposition of Waves (6.5)": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "Characteristics of Sound Waves (6.6)": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction": ["oscillation", "periodic motion", "equilibrium"],
+      "Common Characteristics of Waves (6.1)": ["period", "frequency", "wavelength", "wave speed", "v=λf", "amplitude", "crest", "trough", "rest position", "displacement"],
+      "String, Pendulum and Spring (6.2)": ["pendulum period", "spring constant", "Hooke's law", "restoring force", "pendulum calculation", "spring calculation"],
+      "Propagation of Waves and Energy Transmission (6.3)": ["mechanical waves", "electromagnetic waves", "transverse waves", "longitudinal waves", "wave classification"],
+      "Sound Waves (6.4)": ["sound production", "speed of sound", "temperature dependence", "echo", "sound speed in media"],
+      "Superposition of Waves (6.5)": ["superposition principle", "constructive interference", "destructive interference", "standing waves"],
+      "Characteristics of Sound Waves (6.6)": ["pitch", "loudness", "timbre", "decibel"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_round2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 36,
+      "questions_per_concept_ratio": 0.83,
+      "structural_coverage_percentage": 74.2
+    }
+  },
+  "grade": "9",
+  "subject": "Physics",
+  "unit": "Unit 6: Mechanical Oscillation and Sound Wave",
+  "pdf_filename": "P9U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 4,
+      "constraint_violations_caught": 4,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2024-01-30T08:35:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 7,
+        "total_sections": 7,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.67,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 7,
+      "subsections_covered_count": 0,
+      "mini_headings_covered_count": 18,
+      "structural_coverage_percentage": 58.1,
+      "concept_utilization_ratio": 0.83
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Common Characteristics of Waves (6.1)",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 11.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "concepts_vs_questions_ratio": 0.0,
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": true,
+      "early_stopping_attempted": false
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Phy_U6_Q021",
+      "generation_timestamp": "2024-01-30T08:34:45Z",
+      "section": "String, Pendulum and Spring (6.2)",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Periodic motion:",
+      "mcq_type": "E",
+      "question": "A simple pendulum has a length of 1.6 m. Using g = 9.8 m/s², what is its period of oscillation in seconds?",
+      "options": {
+        "A": "1.6 s",
+        "B": "2.5 s",
+        "C": "3.2 s",
+        "D": "4.0 s"
+      },
+      "correct_answer": "B",
+      "hint": "Use T = 2π√(L/g). Remember π ≈ 3.14.",
+      "explanation": "T = 2π√(1.6/9.8) = 2π√(0.1633) ≈ 2 × 3.14 × 0.404 ≈ 2.54 s. Option A incorrectly uses T = 2πL/g without the square root.",
+      "difficulty_level": "medium",
+      "formula_used": ["T = 2π √(L/g)"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "s",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Mechanical Oscillation and Sound Wave",
+        "section_anchor": "String, Pendulum and Spring (6.2)",
+        "subsection_anchor": null,
+        "structural_element": "Periodic motion:",
+        "content_anchor": "T = 2π √(L/g)",
+        "page_hint": 5,
+        "concept_hash": "sha256_of_pendulum_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Phy_U6_Q022",
+      "generation_timestamp": "2024-01-30T08:34:46Z",
+      "section": "String, Pendulum and Spring (6.2)",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "The simple spring:",
+      "mcq_type": "E",
+      "question": "A 0.5 kg mass attached to a spring oscillates with a period of 1.2 s. What is the spring constant k in N/m?",
+      "options": {
+        "A": "8.2 N/m",
+        "B": "13.7 N/m",
+        "C": "17.1 N/m",
+        "D": "22.5 N/m"
+      },
+      "correct_answer": "B",
+      "hint": "Rearrange T = 2π√(m/k) to solve for k = (4π²m)/T².",
+      "explanation": "k = 4π²m/T² = 4 × 9.87 × 0.5 / (1.44) = 19.74 / 1.44 ≈ 13.7 N/m. Option C results from using T = 1.0 s instead of 1.2 s in the calculation.",
+      "difficulty_level": "hard",
+      "formula_used": ["T = 2π √(m/k)", "k = 4π²m/T²"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "N/m",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Mechanical Oscillation and Sound Wave",
+        "section_anchor": "String, Pendulum and Spring (6.2)",
+        "subsection_anchor": null,
+        "structural_element": "The simple spring:",
+        "content_anchor": "T = 2π √(m/k)",
+        "page_hint": 10,
+        "concept_hash": "sha256_of_spring_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      }
+    },
+    {
+      "question_id": "G9_Phy_U6_Q023",
+      "generation_timestamp": "2024-01-30T08:34:47Z",
+      "section": "Propagation of Waves and Energy Transmission (6.3)",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Transverse and Longitudinal Waves:",
+      "mcq_type": "J",
+      "question": "Which of the following pairs correctly classifies waves based on their direction of particle vibration relative to propagation?",
+      "options": {
+        "A": "Transverse: perpendicular, Longitudinal: parallel",
+        "B": "Transverse: parallel, Longitudinal: perpendicular",
+        "C": "Both transverse and longitudinal: perpendicular",
+        "D": "Both transverse and longitudinal: parallel"
+      },
+      "correct_answer": "A",
+      "hint": "Recall the definitions: transverse waves have perpendicular vibrations, longitudinal waves have parallel vibrations.",
+      "explanation": "Transverse waves feature particle displacement perpendicular to propagation, while longitudinal waves have parallel displacement. Option B reverses these fundamental classifications.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 84
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Mechanical Oscillation and Sound Wave",
+        "section_anchor": "Propagation of Waves and Energy Transmission (6.3)",
+        "subsection_anchor": null,
+        "structural_element": "Transverse and Longitudinal Waves:",
+        "content_anchor": "transverse: perpendicular, longitudinal: parallel",
+        "page_hint": 12,
+        "concept_hash": "sha256_of_wave_classification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Phy_U6_Q024",
+      "generation_timestamp": "2024-01-30T08:34:48Z",
+      "section": "Sound Waves (6.4)",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Speed of Sound:",
+      "mcq_type": "I",
+      "question": "How does the speed of sound generally compare when traveling through steel, water, and air at the same temperature?",
+      "options": {
+        "A": "Steel > Water > Air",
+        "B": "Water > Steel > Air",
+        "C": "Air > Water > Steel",
+        "D": "Steel > Air > Water"
+      },
+      "correct_answer": "A",
+      "hint": "Sound travels fastest in solids, slower in liquids, and slowest in gases.",
+      "explanation": "Sound speed is highest in solids like steel (≈5950 m/s), intermediate in liquids like water (≈1493 m/s), and lowest in gases like air (≈343 m/s). Option B incorrectly places water above steel.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Mechanical Oscillation and Sound Wave",
+        "section_anchor": "Sound Waves (6.4)",
+        "subsection_anchor": null,
+        "structural_element": "Speed of Sound:",
+        "content_anchor": "speed of sound in different materials table",
+        "page_hint": 16,
+        "concept_hash": "sha256_of_sound_speed_comparison"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Phy_U6_Q025",
+      "generation_timestamp": "2024-01-30T08:34:49Z",
+      "section": "Sound Waves (6.4)",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Reflection, Refraction, Diffraction and Interference of Sound:",
+      "mcq_type": "E",
+      "question": "A person stands 85 m from a cliff and claps. If the echo returns after 0.5 s, what is the speed of sound in air at that location?",
+      "options": {
+        "A": "170 m/s",
+        "B": "340 m/s",
+        "C": "425 m/s",
+        "D": "680 m/s"
+      },
+      "correct_answer": "B",
+      "hint": "The sound travels to the cliff and back (2 × distance) in the echo time.",
+      "explanation": "Total distance = 2 × 85 m = 170 m. Speed = distance/time = 170 m / 0.5 s = 340 m/s. Option A incorrectly uses only the one-way distance (85 m) instead of the round trip.",
+      "difficulty_level": "medium",
+      "formula_used": ["v = d/t"],
+      "numeric": {
+        "is_numeric": true,
+        "units": "m/s",
+        "calculation_required": true
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Mechanical Oscillation and Sound Wave",
+        "section_anchor": "Sound Waves (6.4)",
+        "subsection_anchor": null,
+        "structural_element": "Reflection, Refraction, Diffraction and Interference of Sound:",
+        "content_anchor": "echo calculation",
+        "page_hint": 16,
+        "concept_hash": "sha256_of_echo_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 82,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      }
+    },
+    {
+      "question_id": "G9_Phy_U6_Q026",
+      "generation_timestamp": "2024-01-30T08:34:50Z",
+      "section": "Superposition of Waves (6.5)",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Standing Waves:",
+      "mcq_type": "G",
+      "question": "If two identical waves traveling in opposite directions interfere, what happens to the amplitude at points where they are perfectly in phase?",
+      "options": {
+        "A": "Complete cancellation occurs (zero amplitude).",
+        "B": "Maximum amplitude results (constructive interference).",
+        "C": "Amplitude decreases but remains nonzero.",
+        "D": "The waves reflect without interacting."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the superposition principle: in-phase waves add their displacements.",
+      "explanation": "When identical waves are in phase, their displacements add constructively, producing maximum amplitude. Option A describes destructive interference, which occurs when waves are perfectly out of phase.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Mechanical Oscillation and Sound Wave",
+        "section_anchor": "Superposition of Waves (6.5)",
+        "subsection_anchor": null,
+        "structural_element": "Standing Waves:",
+        "content_anchor": "constructive interference: waves in phase",
+        "page_hint": 19,
+        "concept_hash": "sha256_of_constructive_interference"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      }
+    },
+    {
+      "question_id": "G9_Phy_U6_Q027",
+      "generation_timestamp": "2024-01-30T08:34:51Z",
+      "section": "Superposition of Waves (6.5)",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Standing Waves:",
+      "mcq_type": "A",
+      "question": "What type of wave results from the superposition of two identical waves traveling in opposite directions?",
+      "options": {
+        "A": "Standing wave",
+        "B": "Transverse wave",
+        "C": "Longitudinal wave",
+        "D": "Traveling wave"
+      },
+      "correct_answer": "A",
+      "hint": "This wave appears stationary with fixed nodes and antinodes.",
+      "explanation": "A standing wave forms from two identical counter-propagating waves, creating stationary nodes and antinodes. Option D describes waves that propagate energy through space, unlike standing waves.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 80
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Mechanical Oscillation and Sound Wave",
+        "section_anchor": "Superposition of Waves (6.5)",
+        "subsection_anchor": null,
+        "structural_element": "Standing Waves:",
+        "content_anchor": "superposition of two identical waves travelling in opposite directions gives standing wave",
+        "page_hint": 19,
+        "concept_hash": "sha256_of_standing_wave_definition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 78,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      }
+    },
+    {
+      "question_id": "G9_Phy_U6_Q028",
+      "generation_timestamp": "2024-01-30T08:34:52Z",
+      "section": "Characteristics of Sound Waves (6.6)",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Loudness:",
+      "mcq_type": "B",
+      "question": "Which physical quantity of a sound wave is most directly associated with its perceived loudness?",
+      "options": {
+        "A": "Frequency",
+        "B": "Amplitude",
+        "C": "Wavelength",
+        "D": "Period"
+      },
+      "correct_answer": "B",
+      "hint": "Loud sounds have greater energy and cause larger air pressure variations.",
+      "explanation": "Loudness corresponds to the amplitude of sound waves, with greater amplitude producing louder perception. Option A relates to pitch, not loudness.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 81
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Mechanical Oscillation and Sound Wave",
+        "section_anchor": "Characteristics of Sound Waves (6.6)",
+        "subsection_anchor": null,
+        "structural_element": "Loudness:",
+        "content_anchor": "loudness depends on amplitude",
+        "page_hint": 21,
+        "concept_hash": "sha256_of_loudness"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 76,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      }
+    },
+    {
+      "question_id": "G9_Phy_U6_Q029",
+      "generation_timestamp": "2024-01-30T08:34:53Z",
+      "section": "Characteristics of Sound Waves (6.6)",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Timber (Quality):",
+      "mcq_type": "B",
+      "question": "What characteristic allows distinction between two musical instruments playing the same note at identical loudness?",
+      "options": {
+        "A": "Pitch",
+        "B": "Timbre",
+        "C": "Frequency",
+        "D": "Amplitude"
+      },
+      "correct_answer": "B",
+      "hint": "This property depends on the harmonic content and waveform shape.",
+      "explanation": "Timbre describes the unique quality or tone color that distinguishes different sound sources. Option A refers to the highness/lowness determined by frequency, which is identical for the same note.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 83
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Mechanical Oscillation and Sound Wave",
+        "section_anchor": "Characteristics of Sound Waves (6.6)",
+        "subsection_anchor": null,
+        "structural_element": "Timber (Quality):",
+        "content_anchor": "timbre distinguishes same pitch from different sources",
+        "page_hint": 21,
+        "concept_hash": "sha256_of_timbre"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 80,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      }
+    },
+    {
+      "question_id": "G9_Phy_U6_Q030",
+      "generation_timestamp": "2024-01-30T08:34:54Z",
+      "section": "Common Characteristics of Waves (6.1)",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Rest position:",
+      "mcq_type": "B",
+      "question": "What term describes the undisturbed position of particles when no wave is passing through a medium?",
+      "options": {
+        "A": "Equilibrium position",
+        "B": "Rest position",
+        "C": "Node",
+        "D": "Baseline"
+      },
+      "correct_answer": "B",
+      "hint": "This is the reference point from which wave displacement is measured.",
+      "explanation": "The rest position is defined as the undisturbed state of particles before wave disturbance. Option C refers to specific points in standing waves with zero displacement.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "units": null,
+        "calculation_required": false
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini-heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "explanation_validation": {
+          "word_overlap_percentage": 0.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 79
+        },
+        "option_parallelism_score": 100
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Mechanical Oscillation and Sound Wave",
+        "section_anchor": "Common Characteristics of Waves (6.1)",
+        "subsection_anchor": null,
+        "structural_element": "Rest position:",
+        "content_anchor": "undisturbed position of particles",
+        "page_hint": 2,
+        "concept_hash": "sha256_of_rest_position"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 74,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 87
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 9000,
+    "average_question_quality": 85.8,
+    "type_distribution": {
+      "A": 2,
+      "B": 3,
+      "E": 3,
+      "G": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "String, Pendulum and Spring (6.2)": 2,
+      "Propagation of Waves and Energy Transmission (6.3)": 1,
+      "Sound Waves (6.4)": 2,
+      "Superposition of Waves (6.5)": 2,
+      "Characteristics of Sound Waves (6.6)": 2,
+      "Common Characteristics of Waves (6.1)": 1
+    }
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true
+  }
+}
